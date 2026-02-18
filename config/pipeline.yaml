@@ -1,0 +1,37 @@
+pipelines:
+  global_ai:
+    source:
+      type: apify_list
+      list_id: "${APIFY_GLOBAL_LIST_ID}"
+    processing:
+      embed_model: text-embedding-v4
+      cluster_threshold: 0.82
+      cluster_algorithm: hdbscan
+    generation:
+      prompt_file: prompts/report_global.txt
+    push:
+      webhook_env: DINGTALK_GLOBAL_WEBHOOK
+
+  china_ai:
+    source:
+      type: apify_list
+      list_id: "${APIFY_CHINA_LIST_ID}"
+    processing:
+      embed_model: text-embedding-v4
+      cluster_threshold: 0.82
+      cluster_algorithm: hdbscan
+    generation:
+      prompt_file: prompts/report_china.txt
+    push:
+      webhook_env: DINGTALK_CHINA_WEBHOOK
+
+  trending:
+    source:
+      type: newsnow_api
+      keywords: ["AI", "人工智能", "大模型", "芯片", "GPU", "算力", "机器人"]
+    processing:
+      embed_model: null
+    generation:
+      prompt_file: prompts/report_trending.txt
+    push:
+      webhook_env: DINGTALK_TRENDING_WEBHOOK

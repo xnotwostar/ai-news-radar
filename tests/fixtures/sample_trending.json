@@ -1,0 +1,37 @@
+[
+  {
+    "title": "#DeepSeek开源新模型",
+    "url": "https://weibo.com/hot/1",
+    "platform": "微博",
+    "rank": 3,
+    "hot_value": 9800000
+  },
+  {
+    "title": "#AI替代程序员",
+    "url": "https://douyin.com/hot/2",
+    "platform": "抖音",
+    "rank": 8,
+    "hot_value": 5600000
+  },
+  {
+    "title": "#华为昇腾新芯片发布",
+    "url": "https://baidu.com/hot/3",
+    "platform": "百度",
+    "rank": 10,
+    "hot_value": 4200000
+  },
+  {
+    "title": "#Kimi新功能上线长文档理解",
+    "url": "https://zhihu.com/hot/4",
+    "platform": "知乎",
+    "rank": 5,
+    "hot_value": 3100000
+  },
+  {
+    "title": "今日菜价上涨",
+    "url": "https://weibo.com/hot/99",
+    "platform": "微博",
+    "rank": 15,
+    "hot_value": 2000000
+  }
+]

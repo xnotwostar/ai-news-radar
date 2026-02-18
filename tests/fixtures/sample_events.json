@@ -1,0 +1,50 @@
+[
+  {
+    "event_id": "evt_20260218_001",
+    "title": "OpenAI 发布 GPT-5.2，主打 Agent 长任务稳定性",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {"author": "@sama", "text": "Excited to announce GPT-5.2...", "engagement": 19700},
+      {"author": "@karpathy", "text": "GPT-5.2 context persistence is genuinely impressive...", "engagement": 13750},
+      {"author": "@OpenAI", "text": "GPT-5.2 is now available...", "engagement": 26700}
+    ],
+    "key_facts": [
+      "30min+ coding session 完成率提升 35%",
+      "定价与 GPT-5 持平"
+    ],
+    "analyst_angle": "OpenAI 认为 Agent 可靠性是当前主战场",
+    "cluster_size": 3
+  },
+  {
+    "event_id": "evt_20260218_002",
+    "title": "Anthropic Cowork 引入 Knowledge Bases 持久化知识库",
+    "category": "product_launch",
+    "importance": 8.0,
+    "sources": [
+      {"author": "@AnthropicAI", "text": "Introducing Knowledge Bases for Claude...", "engagement": 9170}
+    ],
+    "key_facts": [
+      "支持持久化知识库创建和增量更新",
+      "Claude 可在任务中直接引用知识库"
+    ],
+    "analyst_angle": "Anthropic 从对话助手转向带记忆的工作流引擎",
+    "cluster_size": 1
+  },
+  {
+    "event_id": "evt_20260218_003",
+    "title": "FlashAttention 3.1 发布，A100 吞吐量提升 22%",
+    "category": "research",
+    "importance": 7.5,
+    "sources": [
+      {"author": "@tabordaslabs", "text": "FlashAttention 3.1 is out!...", "engagement": 7530}
+    ],
+    "key_facts": [
+      "A100 吞吐提升 22%",
+      "H100 吞吐提升 15%",
+      "API 完全兼容，无需代码修改"
+    ],
+    "analyst_angle": "底层优化降低所有模型推理成本，行业基础设施级别利好",
+    "cluster_size": 1
+  }
+]

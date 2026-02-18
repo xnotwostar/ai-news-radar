@@ -1,0 +1,24 @@
+report_generation:
+  - provider: anthropic
+    model: claude-sonnet-4-5-20250929
+    priority: 1
+    timeout: 60
+  - provider: dashscope
+    model: qwen-plus
+    priority: 2
+    timeout: 45
+  - provider: deepseek
+    model: deepseek-chat
+    priority: 3
+    timeout: 45
+
+data_processing:
+  - provider: dashscope
+    model: qwen-plus
+    priority: 1
+    timeout: 30
+
+embedding:
+  provider: dashscope
+  model: text-embedding-v4
+  dimensions: 1024
