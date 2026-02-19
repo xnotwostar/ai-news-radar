@@ -60,6 +60,7 @@ class TrendingItem(BaseModel):
     platform: str = ""
     rank: int = 0
     hot_value: Optional[float] = None
+    published_at: Optional[datetime] = None
 
 
 # ---------------------------------------------------------------------------

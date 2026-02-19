@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import logging
 import re
+from datetime import datetime, timedelta, timezone
 
 import httpx
 
@@ -51,8 +52,15 @@ class NewsnowCollector:
                 continue
 
         filtered = [item for item in all_items if self._matches(item.title)]
-        logger.info("Filtered %d AI-related items from %d total", len(filtered), len(all_items))
-        return filtered
+
+        # Filter to last 24 hours
+        cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
+        recent = [item for item in filtered if item.published_at is None or item.published_at >= cutoff]
+        logger.info(
+            "Filtered %d AI-related items from %d total (%d within 24h)",
+            len(filtered), len(all_items), len(recent),
+        )
+        return recent
 
     def _parse_response(self, data: dict | list, source_id: str) -> list[TrendingItem]:
         items: list[TrendingItem] = []
@@ -73,10 +81,23 @@ class NewsnowCollector:
             title = entry.get("title", "")
             if not title:
                 continue
+
+            # Parse timestamp from extra.date (milliseconds since epoch)
+            published_at = None
+            extra = entry.get("extra", {})
+            if isinstance(extra, dict) and extra.get("date"):
+                try:
+                    published_at = datetime.fromtimestamp(
+                        extra["date"] / 1000, tz=timezone.utc
+                    )
+                except (ValueError, TypeError, OSError):
+                    pass
+
             items.append(TrendingItem(
                 title=title,
                 url=entry.get("url", entry.get("mobileUrl", "")),
                 platform=source_id,
+                published_at=published_at,
             ))
 
         return items

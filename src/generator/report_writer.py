@@ -187,38 +187,6 @@ emoji规则：🔴仅限2-3个最重磅事件，其余用🚀产品/🔬研究/�
         )
         return unique
 
-    def generate_trending_report(
-        self,
-        items: list[TrendingItem],
-        prompt_file: str,
-        date_str: str,
-    ) -> str:
-        """Generate report from trending items (trending pipeline)."""
-        system_prompt, one_shot = self._load_prompt(prompt_file)
-
-        items_text = "\n".join(
-            f"- [{item.platform}] {item.title} (热度排名: {item.rank})"
-            for item in items
-        )
-
-        user_prompt = f"""以下是一份高质量热搜速递范例，请严格学习其风格和结构：
-
-{one_shot}
-
----
-
-现在，请基于以下今日热搜数据（{len(items)} 条），生成同样风格的热搜速递。
-日期：{date_str}
-
-{items_text}"""
-
-        return self.llm.generate(
-            system_prompt=system_prompt,
-            user_prompt=user_prompt,
-            temperature=0.5,
-            max_tokens=4096,
-        )
-
     @staticmethod
     def _load_prompt(prompt_file: str) -> tuple[str, str]:
         """Load prompt file, split into system prompt and one-shot example.

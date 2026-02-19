@@ -35,7 +35,7 @@ class ApifyCollector:
         run = self.client.actor(ACTOR_ID).call(run_input=run_input)
         dataset_items = self.client.dataset(run["defaultDatasetId"]).list_items().items
 
-        cutoff = datetime.now(timezone.utc) - timedelta(hours=36)
+        cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
         tweets: list[TweetRaw] = []
 
         for item in dataset_items:

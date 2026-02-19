@@ -139,6 +139,16 @@ def run_twitter_pipeline(
     else:
         report = writer.generate_twitter_report(events, config.generation.prompt_file, date_str)
 
+    # Force correct report title (LLM may not follow one-shot exactly)
+    title_line_map = {
+        "global_ai": f"# 🌍 全球AI洞察 | {date_str}",
+        "china_ai": f"# 🇨🇳 中文圈AI洞察 | {date_str}",
+    }
+    if name in title_line_map:
+        # Replace the first # heading line
+        lines = report.split("\n", 1)
+        report = title_line_map[name] + "\n" + (lines[1] if len(lines) > 1 else "")
+
     _save_report(report, f"{date_str}_{name}.md")
 
     # Step 7: Push
@@ -164,45 +174,6 @@ def _collect_trending(config: PipelineConfig, date_str: str) -> list[TrendingIte
     )
     logger.info("Collected %d trending items for merge", len(items))
     return items
-
-
-def run_trending_pipeline(
-    config: PipelineConfig,
-    report_chain: list[LLMModelEntry],
-    date_str: str,
-) -> str | None:
-    """Execute the trending (newsnow) pipeline."""
-    logger.info("=" * 60)
-    logger.info("PIPELINE: trending")
-    logger.info("=" * 60)
-
-    # Step 1: Collect
-    collector = NewsnowCollector(keywords=config.source.keywords)
-    items: list[TrendingItem] = collector.collect()
-    _save_raw(
-        [i.model_dump() for i in items],
-        f"{date_str}_trending.json",
-    )
-
-    if not items:
-        logger.warning("No trending items collected, skipping")
-        return None
-
-    # Step 2: Generate Report (no embedding/clustering for trending)
-    llm = LLMClient(chain=report_chain)
-    writer = ReportWriter(llm)
-    report = writer.generate_trending_report(items, config.generation.prompt_file, date_str)
-    _save_report(report, f"{date_str}_trending.md")
-
-    # Step 3: Push
-    try:
-        pusher = DingTalkPusher(webhook_env=config.push.webhook_env)
-        pusher.push("🔥 国内 AI 热搜速递", report)
-    except Exception as e:
-        logger.error("Push failed for trending: %s", e)
-
-    logger.info("Trending pipeline completed: %d items → report", len(items))
-    return report
 
 
 # ---------------------------------------------------------------------------
