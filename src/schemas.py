@@ -89,6 +89,8 @@ class EventCard(BaseModel):
     key_facts: list[str] = Field(default_factory=list)
     analyst_angle: str = ""
     cluster_size: int = 1
+    event_time: Optional[datetime] = None
+    event_type: str = "news"
 
 
 # ---------------------------------------------------------------------------

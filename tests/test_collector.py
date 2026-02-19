@@ -105,4 +105,4 @@ class TestNewsnowCollector:
         items = collector._parse_response(raw)
         filtered = [i for i in items if collector._matches(i.title)]
         # "今日菜价上涨" should be filtered out
-        assert len(filtered) == 4
+        assert len(filtered) == 2

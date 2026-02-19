@@ -11,8 +11,14 @@ from ..schemas import TrendingItem
 
 logger = logging.getLogger(__name__)
 
-NEWSNOW_API_URL = "https://newsnow.busiyi.world/api"
+NEWSNOW_API_URL = "https://newsnow.busiyi.world/api/s"
 REQUEST_TIMEOUT = 30
+SOURCES = ["weibo", "zhihu", "baidu", "douyin", "toutiao", "36kr", "ithome", "wallstreetcn"]
+REQUEST_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Referer": "https://newsnow.busiyi.world/",
+    "Accept": "application/json",
+}
 
 
 class NewsnowCollector:
@@ -23,64 +29,54 @@ class NewsnowCollector:
         self._pattern = re.compile("|".join(re.escape(k) for k in self.keywords), re.IGNORECASE)
 
     def collect(self) -> list[TrendingItem]:
-        """Fetch and filter trending items."""
-        logger.info("Fetching newsnow trending data...")
+        """Fetch and filter trending items from all sources."""
+        logger.info("Fetching newsnow trending data from %d sources...", len(SOURCES))
 
         all_items: list[TrendingItem] = []
-        try:
-            resp = httpx.get(NEWSNOW_API_URL, timeout=REQUEST_TIMEOUT)
-            resp.raise_for_status()
-            data = resp.json()
-            all_items = self._parse_response(data)
-        except Exception as e:
-            logger.error("Failed to fetch newsnow API: %s", e)
-            # Try fallback endpoint
+        for source_id in SOURCES:
             try:
-                resp = httpx.get(f"{NEWSNOW_API_URL}/hot", timeout=REQUEST_TIMEOUT)
+                resp = httpx.get(
+                    NEWSNOW_API_URL,
+                    params={"id": source_id},
+                    headers=REQUEST_HEADERS,
+                    timeout=REQUEST_TIMEOUT,
+                )
                 resp.raise_for_status()
                 data = resp.json()
-                all_items = self._parse_response(data)
-            except Exception as e2:
-                logger.error("Fallback also failed: %s", e2)
-                return []
+                items = self._parse_response(data, source_id)
+                all_items.extend(items)
+                logger.debug("Fetched %d items from %s", len(items), source_id)
+            except Exception as e:
+                logger.warning("Failed to fetch source %s: %s", source_id, e)
+                continue
 
         filtered = [item for item in all_items if self._matches(item.title)]
         logger.info("Filtered %d AI-related items from %d total", len(filtered), len(all_items))
         return filtered
 
-    def _parse_response(self, data: dict | list) -> list[TrendingItem]:
+    def _parse_response(self, data: dict | list, source_id: str) -> list[TrendingItem]:
         items: list[TrendingItem] = []
 
-        # newsnow returns different structures depending on endpoint
-        if isinstance(data, list):
+        if isinstance(data, dict):
+            entries = data.get("items", data.get("data", []))
+        elif isinstance(data, list):
             entries = data
-        elif isinstance(data, dict):
-            entries = data.get("data", data.get("items", []))
-            # Might be nested by platform
-            if isinstance(entries, dict):
-                flat: list = []
-                for platform, platform_items in entries.items():
-                    if isinstance(platform_items, list):
-                        for it in platform_items:
-                            if isinstance(it, dict):
-                                it.setdefault("platform", platform)
-                                flat.append(it)
-                entries = flat
         else:
+            return items
+
+        if not isinstance(entries, list):
             return items
 
         for entry in entries:
             if not isinstance(entry, dict):
                 continue
-            title = entry.get("title", entry.get("name", ""))
+            title = entry.get("title", "")
             if not title:
                 continue
             items.append(TrendingItem(
                 title=title,
-                url=entry.get("url", entry.get("link", "")),
-                platform=entry.get("platform", entry.get("source", "")),
-                rank=int(entry.get("rank", entry.get("index", 0))),
-                hot_value=entry.get("hotValue", entry.get("hot", None)),
+                url=entry.get("url", entry.get("mobileUrl", "")),
+                platform=source_id,
             ))
 
         return items

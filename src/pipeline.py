@@ -17,6 +17,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import yaml
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from .schemas import (
     EmbeddingConfig,
@@ -80,8 +83,13 @@ def run_twitter_pipeline(
     report_chain: list[LLMModelEntry],
     embed_cfg: EmbeddingConfig,
     date_str: str,
+    trending_config: PipelineConfig | None = None,
 ) -> str | None:
-    """Execute a Twitter-based pipeline (global_ai or china_ai)."""
+    """Execute a Twitter-based pipeline (global_ai or china_ai).
+
+    For china_ai, if *trending_config* is provided, also fetches Newsnow
+    trending data and appends deduplicated results to the Twitter report.
+    """
     logger.info("=" * 60)
     logger.info("PIPELINE: %s", name)
     logger.info("=" * 60)
@@ -121,19 +129,41 @@ def run_twitter_pipeline(
     # Step 6: Generate Report
     llm = LLMClient(chain=report_chain)
     writer = ReportWriter(llm)
-    report = writer.generate_twitter_report(events, config.generation.prompt_file, date_str)
+
+    if name == "china_ai" and trending_config is not None:
+        # Fetch Newsnow trending data, deduplicate, and append to Twitter report
+        trending_items = _collect_trending(trending_config, date_str)
+        report = writer.generate_merged_china_report(
+            events, trending_items, config.generation.prompt_file, date_str,
+        )
+    else:
+        report = writer.generate_twitter_report(events, config.generation.prompt_file, date_str)
+
     _save_report(report, f"{date_str}_{name}.md")
 
     # Step 7: Push
     try:
         pusher = DingTalkPusher(webhook_env=config.push.webhook_env)
-        title_map = {"global_ai": "🌍 全球 AI 日报", "china_ai": "🇨🇳 中国 AI 日报"}
+        title_map = {"global_ai": "🌍 全球AI洞察", "china_ai": "🇨🇳 中文圈AI洞察"}
         pusher.push(title_map.get(name, name), report)
     except Exception as e:
         logger.error("Push failed for %s: %s", name, e)
 
     logger.info("Pipeline %s completed: %d events → report", name, len(events))
     return report
+
+
+def _collect_trending(config: PipelineConfig, date_str: str) -> list[TrendingItem]:
+    """Collect Newsnow trending data (used by china_ai merged pipeline)."""
+    logger.info("Fetching Newsnow trending data for china_ai merge...")
+    newsnow = NewsnowCollector(keywords=config.source.keywords)
+    items: list[TrendingItem] = newsnow.collect()
+    _save_raw(
+        [i.model_dump() for i in items],
+        f"{date_str}_trending.json",
+    )
+    logger.info("Collected %d trending items for merge", len(items))
+    return items
 
 
 def run_trending_pipeline(
@@ -226,9 +256,13 @@ def main(pipeline_names: list[str] | None = None) -> None:
         logger.error("No matching pipelines found. Available: %s", list(pipelines.keys()))
         sys.exit(1)
 
-    # Execute in order: global → china → trending
-    execution_order = ["global_ai", "china_ai", "trending"]
+    # Execute in order: global → china (with trending merged in)
+    # trending data is automatically merged into china_ai, no separate push
+    execution_order = ["global_ai", "china_ai"]
     push_interval = 30  # seconds between pipeline pushes
+
+    # Get trending config so china_ai can pull its data
+    trending_config = pipelines.get("trending")
 
     for i, name in enumerate(execution_order):
         if name not in to_run:
@@ -238,14 +272,13 @@ def main(pipeline_names: list[str] | None = None) -> None:
 
         try:
             if config.source.type == "apify_list":
-                run_twitter_pipeline(name, config, report_chain, embed_cfg, date_str)
-            elif config.source.type == "newsnow_api":
-                run_trending_pipeline(config, report_chain, date_str)
+                # For china_ai, pass trending_config to merge Newsnow data
+                t_cfg = trending_config if name == "china_ai" else None
+                run_twitter_pipeline(name, config, report_chain, embed_cfg, date_str, t_cfg)
             else:
                 logger.error("Unknown source type: %s", config.source.type)
         except Exception as e:
             logger.error("Pipeline %s FAILED: %s", name, e, exc_info=True)
-            # Continue with next pipeline even if one fails
             continue
 
         # Wait between pushes (per design doc)

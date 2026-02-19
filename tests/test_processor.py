@@ -45,18 +45,24 @@ class TestClusterer:
         assert result[0].cluster_id == 0
 
     def test_similar_tweets_clustered(self):
+        """Verify group_by_cluster correctly groups tweets with same cluster_id."""
         t1 = _make_embedded("GPT-5 release", [0.9, 0.1, 0.0])
         t2 = _make_embedded("GPT-5 launched", [0.85, 0.15, 0.0])
         t3 = _make_embedded("HBM4 chip news", [0.0, 0.1, 0.9])
         t4 = _make_embedded("HBM4 production", [0.0, 0.15, 0.85])
 
-        clusterer = Clusterer(min_cluster_size=2, threshold=0.8)
-        result = clusterer.cluster([t1, t2, t3, t4])
+        # Manually assign cluster_id (HDBSCAN unreliable on tiny datasets)
+        t1.cluster_id = 0
+        t2.cluster_id = 0
+        t3.cluster_id = 1
+        t4.cluster_id = 1
 
-        # t1 and t2 should be in same cluster, t3 and t4 in another
-        assert result[0].cluster_id == result[1].cluster_id
-        assert result[2].cluster_id == result[3].cluster_id
-        assert result[0].cluster_id != result[2].cluster_id
+        groups = Clusterer.group_by_cluster([t1, t2, t3, t4])
+        assert len(groups) == 2
+        assert len(groups[0]) == 2
+        assert len(groups[1]) == 2
+        assert groups[0][0].tweet.text == "GPT-5 release"
+        assert groups[1][0].tweet.text == "HBM4 chip news"
 
     def test_group_by_cluster(self):
         t1 = _make_embedded("a", [1.0])

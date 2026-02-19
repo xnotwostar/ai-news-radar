@@ -11,6 +11,9 @@ from ..schemas import TweetEmbedded
 
 logger = logging.getLogger(__name__)
 
+NOISE_TOP_K = 15
+NOISE_BATCH_SIZE = 5
+
 
 class Clusterer:
     """Cluster embedded tweets using HDBSCAN on cosine distance."""
@@ -20,13 +23,13 @@ class Clusterer:
         self.threshold = threshold
 
     def cluster(self, tweets: list[TweetEmbedded]) -> list[TweetEmbedded]:
-        """Assign cluster_id to each tweet. -1 = noise (singleton event)."""
+        """Assign cluster_id to each tweet. -1 = noise."""
         if len(tweets) < 2:
             for i, t in enumerate(tweets):
                 t.cluster_id = i
             return tweets
 
-        embeddings = np.array([t.embedding for t in tweets], dtype=np.float32)
+        embeddings = np.array([t.embedding for t in tweets], dtype=np.float64)
 
         # Normalize for cosine distance
         norms = np.linalg.norm(embeddings, axis=1, keepdims=True)
@@ -52,21 +55,43 @@ class Clusterer:
             len(tweets), n_clusters, n_noise,
         )
 
-        # Assign labels; promote noise points to singleton clusters
-        next_cluster_id = max(labels) + 1 if len(labels) > 0 else 0
+        # Keep noise as -1, don't promote to singleton clusters
         for i, tweet in enumerate(tweets):
-            if labels[i] == -1:
-                tweet.cluster_id = next_cluster_id
-                next_cluster_id += 1
-            else:
-                tweet.cluster_id = int(labels[i])
+            tweet.cluster_id = int(labels[i])
 
         return tweets
 
     @staticmethod
     def group_by_cluster(tweets: list[TweetEmbedded]) -> dict[int, list[TweetEmbedded]]:
-        """Group tweets by cluster_id."""
+        """Group tweets by cluster_id with smart noise filtering.
+
+        Noise tweets (cluster_id == -1) are sorted by engagement; only the
+        top NOISE_TOP_K are kept and batched into pseudo-clusters of
+        NOISE_BATCH_SIZE. Low-value noise is discarded entirely.
+        """
         groups: dict[int, list[TweetEmbedded]] = {}
+        noise: list[TweetEmbedded] = []
+
         for t in tweets:
-            groups.setdefault(t.cluster_id, []).append(t)
+            if t.cluster_id == -1:
+                noise.append(t)
+            else:
+                groups.setdefault(t.cluster_id, []).append(t)
+
+        # Smart noise filtering: keep top-K by engagement
+        noise.sort(key=lambda t: t.tweet.engagement, reverse=True)
+        kept_noise = noise[:NOISE_TOP_K]
+        discarded = len(noise) - len(kept_noise)
+        if discarded > 0:
+            logger.info("Discarded %d low-value noise tweets, kept top %d", discarded, len(kept_noise))
+
+        # Pack kept noise into pseudo-clusters of NOISE_BATCH_SIZE
+        next_id = max(groups.keys(), default=-1) + 1
+        for i in range(0, len(kept_noise), NOISE_BATCH_SIZE):
+            batch = kept_noise[i : i + NOISE_BATCH_SIZE]
+            for t in batch:
+                t.cluster_id = next_id
+            groups[next_id] = batch
+            next_id += 1
+
         return groups

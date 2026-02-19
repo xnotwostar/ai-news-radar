@@ -14,7 +14,7 @@ from ..schemas import TweetEmbedded, TweetRaw
 logger = logging.getLogger(__name__)
 
 DASHSCOPE_EMBED_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings"
-BATCH_SIZE = 25  # DashScope batch limit
+BATCH_SIZE = 10  # DashScope batch limit
 DEFAULT_MODEL = "text-embedding-v4"
 DEFAULT_DIMENSIONS = 1024
 
@@ -66,7 +66,6 @@ class Embedder:
         payload = {
             "model": self.model,
             "input": texts,
-            "dimensions": self.dimensions,
             "encoding_format": "float",
         }
 
