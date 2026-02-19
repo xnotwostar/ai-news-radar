@@ -36,7 +36,6 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DINGTALK_GLOBAL_WEBHOOK: ${{ secrets.DINGTALK_GLOBAL_WEBHOOK }}
           DINGTALK_CHINA_WEBHOOK: ${{ secrets.DINGTALK_CHINA_WEBHOOK }}
-          DINGTALK_TRENDING_WEBHOOK: ${{ secrets.DINGTALK_TRENDING_WEBHOOK }}
         run: python -m src.pipeline
 
       - name: Persist data

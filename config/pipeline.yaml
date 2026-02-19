@@ -25,6 +25,7 @@ pipelines:
     push:
       webhook_env: DINGTALK_CHINA_WEBHOOK
 
+  # Trending data is auto-merged into china_ai pipeline (no standalone push)
   trending:
     source:
       type: newsnow_api
@@ -32,6 +33,6 @@ pipelines:
     processing:
       embed_model: null
     generation:
-      prompt_file: prompts/report_trending.txt
+      prompt_file: prompts/report_china.txt
     push:
-      webhook_env: DINGTALK_TRENDING_WEBHOOK
+      webhook_env: DINGTALK_CHINA_WEBHOOK
