@@ -187,7 +187,7 @@ def _save_raw(data, filename: str) -> None:
         if isinstance(data, list) and data and hasattr(data[0], "model_dump"):
             json.dump([d.model_dump(mode="json") for d in data], f, ensure_ascii=False, indent=2)
         else:
-            json.dump(data, f, ensure_ascii=False, indent=2)
+            json.dump(data, f, ensure_ascii=False, indent=2, default=str)
     logger.info("Saved raw data: %s", path)
 
 
