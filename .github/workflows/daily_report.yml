@@ -5,6 +5,9 @@ on:
     - cron: '30 10 * * *'   # UTC 10:30 = 北京时间 18:30
   workflow_dispatch:         # 手动触发（调试用）
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
