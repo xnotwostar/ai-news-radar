@@ -136,6 +136,12 @@ emoji规则：🔴仅限2-3个最重磅事件，其余用🚀产品/🔬研究/�
                 f"来源推文: {sources_str}"
             )
 
+        # Limit to top 25 events by importance to avoid prompt token overflow
+        MAX_EVENTS = 25
+        if len(events) > MAX_EVENTS:
+            logger.info("Trimming events from %d to %d (by importance)", len(events), MAX_EVENTS)
+            events = sorted(events, key=lambda e: e.importance, reverse=True)[:MAX_EVENTS]
+
         events_text = "\n\n".join(
             _format_event(e) for e in events
         )

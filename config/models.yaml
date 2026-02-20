@@ -2,15 +2,15 @@ report_generation:
   - provider: anthropic
     model: claude-sonnet-4-5-20250929
     priority: 1
-    timeout: 120
+    timeout: 600
   - provider: dashscope
     model: qwen-plus
     priority: 2
-    timeout: 120
+    timeout: 600
   - provider: deepseek
     model: deepseek-chat
     priority: 3
-    timeout: 120
+    timeout: 600
 
 data_processing:
   - provider: dashscope

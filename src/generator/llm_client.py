@@ -77,14 +77,16 @@ class LLMClient:
         temperature: float,
         max_tokens: int,
     ) -> str:
-        client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+        client = anthropic.Anthropic(
+            api_key=os.environ["ANTHROPIC_API_KEY"],
+            timeout=httpx.Timeout(entry.timeout, connect=30.0),
+        )
         message = client.messages.create(
             model=entry.model,
             max_tokens=max_tokens,
             system=system_prompt,
             messages=[{"role": "user", "content": user_prompt}],
             temperature=temperature,
-            timeout=entry.timeout,
         )
         return message.content[0].text
 
@@ -114,7 +116,7 @@ class LLMClient:
                 "temperature": temperature,
                 "max_tokens": max_tokens,
             },
-            timeout=entry.timeout,
+            timeout=httpx.Timeout(entry.timeout, connect=30.0),
         )
         resp.raise_for_status()
         return resp.json()["choices"][0]["message"]["content"]

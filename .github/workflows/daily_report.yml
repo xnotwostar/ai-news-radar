@@ -11,7 +11,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 45
 
     steps:
       - uses: actions/checkout@v4
@@ -30,6 +30,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run pipeline
+        timeout-minutes: 30
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           APIFY_GLOBAL_LIST_ID: ${{ secrets.APIFY_GLOBAL_LIST_ID }}
