@@ -39,12 +39,13 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DINGTALK_GLOBAL_WEBHOOK: ${{ secrets.DINGTALK_GLOBAL_WEBHOOK }}
           DINGTALK_CHINA_WEBHOOK: ${{ secrets.DINGTALK_CHINA_WEBHOOK }}
+          GITHUB_PAGES_URL: ${{ vars.GITHUB_PAGES_URL }}
         run: python -m src.pipeline
 
-      - name: Persist data
+      - name: Persist data and deploy reports
         run: |
           git config user.name "AI News Radar Bot"
           git config user.email "bot@ai-news-radar"
-          git add data/
+          git add data/ docs/
           git diff --cached --quiet || git commit -m "daily: $(date +%Y-%m-%d)"
           git push

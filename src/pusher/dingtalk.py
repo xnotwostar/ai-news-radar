@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import logging
 import os
+import re
 import time
 
 import httpx
@@ -27,8 +28,11 @@ class DingTalkPusher:
         else:
             raise ValueError("Must provide webhook_url or webhook_env")
 
-    def push(self, title: str, markdown_text: str) -> bool:
-        """Push markdown report. Auto-chunks if too long. Returns True on success."""
+    def push(self, title: str, markdown_text: str, report_url: str | None = None) -> bool:
+        """Push report. Uses actionCard with link if report_url provided, else markdown chunks."""
+        if report_url:
+            return self.push_action_card(title, markdown_text, report_url)
+
         chunks = self._split_chunks(markdown_text)
         logger.info("Pushing '%s' in %d chunk(s)", title, len(chunks))
 
@@ -44,6 +48,53 @@ class DingTalkPusher:
                 success = False
 
         return success
+
+    def push_action_card(self, title: str, markdown_text: str, report_url: str) -> bool:
+        """Push DingTalk actionCard with a button linking to the full HTML report."""
+        summary = self._extract_core_judgment(markdown_text)
+        # Count event lines (emoji-prefixed bold titles)
+        event_count = len(re.findall(r'^[🔴🚀🔬💰🔧🤝🌐📜📊📌💡]\s*\*\*', markdown_text, re.MULTILINE))
+
+        card_text = f"## {title}\n\n{summary}\n\n📊 共 {event_count} 条事件"
+        payload = {
+            "msgtype": "actionCard",
+            "actionCard": {
+                "title": title,
+                "text": card_text,
+                "btnOrientation": "0",
+                "singleTitle": "阅读完整报告 →",
+                "singleURL": report_url,
+            },
+        }
+        try:
+            resp = httpx.post(self.webhook_url, json=payload, timeout=10)
+            resp.raise_for_status()
+            result = resp.json()
+            if result.get("errcode", 0) != 0:
+                raise RuntimeError(f"DingTalk API error: {result}")
+            logger.info("Sent actionCard '%s' → %s", title, report_url)
+            return True
+        except Exception as e:
+            logger.error("Failed to push actionCard: %s", e)
+            return False
+
+    @staticmethod
+    def _extract_core_judgment(markdown_text: str) -> str:
+        """Extract the core judgment section (first ~200 chars after 核心判断)."""
+        lines = markdown_text.split("\n")
+        capture = False
+        parts: list[str] = []
+        for line in lines:
+            if "核心判断" in line:
+                capture = True
+                continue
+            if capture:
+                if line.strip().startswith("## ") or line.strip().startswith("# "):
+                    break
+                if line.strip():
+                    parts.append(line.strip())
+        text = " ".join(parts)
+        return text[:200] + "..." if len(text) > 200 else text
 
     @retry(stop=stop_after_attempt(RETRY_ATTEMPTS), wait=wait_fixed(RETRY_WAIT))
     def _send_single(self, title: str, text: str) -> None:

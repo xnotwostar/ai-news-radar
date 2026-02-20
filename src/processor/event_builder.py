@@ -160,6 +160,7 @@ class EventBuilder:
                 author=t.tweet.author_handle.lstrip("@"),
                 text=t.tweet.text[:200],
                 engagement=t.tweet.engagement,
+                url=t.tweet.url,
             )
             for t in sorted_tweets
         ]
@@ -200,6 +201,7 @@ class EventBuilder:
                     author=top.tweet.author_handle.lstrip("@"),
                     text=top.tweet.text[:200],
                     engagement=top.tweet.engagement,
+                    url=top.tweet.url,
                 )
             ],
             key_facts=[],

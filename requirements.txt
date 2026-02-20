@@ -26,3 +26,4 @@ openpyxl>=3.1.0
 tenacity>=8.2.0
 python-dotenv>=1.0.0
 jieba
+markdown>=3.5

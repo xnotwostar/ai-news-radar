@@ -52,6 +52,13 @@ class TweetRaw(BaseModel):
     def engagement(self) -> int:
         return self.retweet_count + self.like_count + self.reply_count + self.quote_count
 
+    @property
+    def url(self) -> str:
+        handle = self.author_handle.lstrip("@")
+        if self.tweet_id:
+            return f"https://x.com/{handle}/status/{self.tweet_id}"
+        return f"https://x.com/{handle}"
+
 
 class TrendingItem(BaseModel):
     """Single item from newsnow API."""
@@ -78,6 +85,7 @@ class EventSource(BaseModel):
     author: str
     text: str
     engagement: int = 0
+    url: str = ""
 
 
 class EventCard(BaseModel):

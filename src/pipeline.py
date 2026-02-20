@@ -32,6 +32,7 @@ from .schemas import (
 from .collector import ApifyCollector, NewsnowCollector
 from .processor import Clusterer, Embedder, EventBuilder, Ranker
 from .generator import LLMClient, ReportWriter
+from .publisher import HtmlPublisher
 from .pusher import DingTalkPusher
 
 logging.basicConfig(
@@ -151,11 +152,24 @@ def run_twitter_pipeline(
 
     _save_report(report, f"{date_str}_{name}.md")
 
-    # Step 7: Push
+    # Step 7: Publish HTML for GitHub Pages
+    report_url = None
+    pages_base = os.environ.get("GITHUB_PAGES_URL", "").rstrip("/")
+    try:
+        title_map = {"global_ai": "🌍 全球AI洞察", "china_ai": "🇨🇳 中文圈AI洞察"}
+        pub = HtmlPublisher()
+        pub.publish(report, title_map.get(name, name), date_str, name)
+        if pages_base:
+            report_url = f"{pages_base}/reports/{date_str}_{name}.html"
+            logger.info("Report URL: %s", report_url)
+    except Exception as e:
+        logger.error("HTML publish failed for %s: %s", name, e)
+
+    # Step 8: Push to DingTalk
     try:
         pusher = DingTalkPusher(webhook_env=config.push.webhook_env)
         title_map = {"global_ai": "🌍 全球AI洞察", "china_ai": "🇨🇳 中文圈AI洞察"}
-        pusher.push(title_map.get(name, name), report)
+        pusher.push(title_map.get(name, name), report, report_url=report_url)
     except Exception as e:
         logger.error("Push failed for %s: %s", name, e)
 
