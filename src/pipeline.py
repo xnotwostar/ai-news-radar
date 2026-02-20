@@ -154,7 +154,7 @@ def run_twitter_pipeline(
 
     # Step 7: Publish HTML for GitHub Pages
     report_url = None
-    pages_base = os.environ.get("GITHUB_PAGES_URL", "").rstrip("/")
+    pages_base = os.environ.get("PAGES_URL", "").rstrip("/")
     try:
         title_map = {"global_ai": "🌍 全球AI洞察", "china_ai": "🇨🇳 中文圈AI洞察"}
         pub = HtmlPublisher()
