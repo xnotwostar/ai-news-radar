@@ -207,13 +207,106 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   }}
   .topic-name {{ font-weight: 600; font-size: 14px; color: var(--text-primary); margin-bottom: 6px; }}
   .topic-detail {{ font-size: 13.5px; color: var(--text-secondary); line-height: 1.7; }}
-  .sentiment-bar {{
-    background: linear-gradient(135deg, rgba(63,185,80,0.1), rgba(210,153,34,0.1));
-    border: 1px solid rgba(63,185,80,0.2);
+  .expert-block {{
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin-bottom: 20px;
+  }}
+  .expert-block-title {{
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--accent-blue);
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+  }}
+  .debate-topic {{
+    background: var(--bg-card);
+    border: 1px solid var(--border);
     border-radius: 8px;
     padding: 14px 16px;
+    margin-bottom: 10px;
+  }}
+  .debate-topic-name {{
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+  }}
+  .debate-meta {{
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 6px;
+  }}
+  .debate-quote {{
+    font-size: 13px;
+    color: var(--text-muted);
+    padding-left: 12px;
+    border-left: 2px solid var(--accent-purple);
+    margin-top: 6px;
+    line-height: 1.6;
+  }}
+  .debate-quote a {{ color: var(--accent-purple); text-decoration: none; }}
+  .debate-quote a:hover {{ text-decoration: underline; }}
+  .insight-card {{
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent-purple);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+  }}
+  .insight-author {{
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent-purple);
+    margin-bottom: 4px;
+  }}
+  .insight-author a {{ color: var(--accent-purple); text-decoration: none; }}
+  .insight-author a:hover {{ text-decoration: underline; }}
+  .insight-text {{
     font-size: 14px;
     color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.7;
+  }}
+  .tech-feedback-card {{
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    transition: border-color 0.2s;
+  }}
+  .tech-feedback-card:hover {{
+    border-color: rgba(88,166,255,0.3);
+  }}
+  .tech-feedback-name {{
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed var(--border);
+  }}
+  .tech-feedback-item {{
+    font-size: 14px;
+    line-height: 1.7;
+    padding: 4px 0;
+  }}
+  .tech-feedback-item.positive {{ color: var(--accent-green); }}
+  .tech-feedback-item.negative {{ color: var(--accent-orange); }}
+  .sentiment-bar {{
+    background: linear-gradient(135deg, rgba(63,185,80,0.08), rgba(210,153,34,0.08));
+    border: 1px solid rgba(63,185,80,0.2);
+    border-radius: 10px;
+    padding: 16px 20px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.8;
   }}
   .trending-section {{
     margin-top: 40px;
@@ -372,6 +465,14 @@ class HtmlPublisher:
     # Markdown → styled HTML converter
     # ------------------------------------------------------------------
 
+    # Expert sub-block title keywords
+    _EXPERT_SUB_BLOCKS = {
+        "热议": "debate",
+        "洞察": "insight",
+        "反馈": "tech",
+        "情绪": "sentiment",
+    }
+
     def _markdown_to_html(self, md_text: str) -> str:
         """Parse markdown report line-by-line into styled HTML sections."""
         lines = md_text.split("\n")
@@ -384,7 +485,14 @@ class HtmlPublisher:
         in_expert_section = False
         in_trending = False
         in_core_judgment = False
-        after_quote = False  # next paragraph is event-analysis
+        after_quote = False
+
+        # Expert sub-state
+        expert_sub: str | None = None       # "debate" | "insight" | "tech" | "sentiment"
+        in_expert_block = False
+        in_debate_topic = False
+        in_tech_card = False
+        sentiment_parts: list[str] = []
 
         def _close_event_card():
             nonlocal in_event_card
@@ -404,6 +512,52 @@ class HtmlPublisher:
                 out.append("</div>")
                 in_core_judgment = False
 
+        def _close_debate_topic():
+            nonlocal in_debate_topic
+            if in_debate_topic:
+                out.append("</div>")  # close debate-topic
+                in_debate_topic = False
+
+        def _close_tech_card():
+            nonlocal in_tech_card
+            if in_tech_card:
+                out.append("</div>")  # close tech-feedback-card
+                in_tech_card = False
+
+        def _flush_sentiment():
+            nonlocal sentiment_parts
+            if sentiment_parts:
+                text = " ".join(sentiment_parts)
+                safe = _inline_markup(_html_escape(text))
+                out.append(f'<div class="sentiment-bar">{safe}</div>')
+                sentiment_parts = []
+
+        def _close_expert_block():
+            nonlocal in_expert_block, expert_sub
+            _close_debate_topic()
+            _close_tech_card()
+            _flush_sentiment()
+            if in_expert_block:
+                out.append("</div>")  # close expert-block
+                in_expert_block = False
+            expert_sub = None
+
+        def _detect_expert_sub_title(text: str) -> str | None:
+            """Check if a **bold** line is an expert sub-block title. Returns sub type or None."""
+            m = re.match(r'^\*\*(.+)\*\*$', text)
+            if not m:
+                return None
+            inner = m.group(1)
+            for keyword, sub_type in self._EXPERT_SUB_BLOCKS.items():
+                if keyword in inner:
+                    return sub_type
+            return None
+
+        def _strip_bold(text: str) -> str:
+            """Remove surrounding ** from a bold line."""
+            m = re.match(r'^\*\*(.+)\*\*$', text)
+            return m.group(1) if m else text
+
         i = 0
         while i < len(lines):
             line = lines[i]
@@ -415,12 +569,17 @@ class HtmlPublisher:
                 i += 1
                 continue
 
-            # --- horizontal rule → trending section ---
+            # --- horizontal rule ---
             if stripped == "---":
                 _close_event_card()
                 _close_quick_list()
                 _close_core_judgment()
-                if not in_trending:
+                if in_expert_section:
+                    # Sub-block separator within expert section
+                    _close_debate_topic()
+                    _close_tech_card()
+                    _flush_sentiment()
+                elif not in_trending:
                     in_trending = True
                     out.append('<div class="trending-section">')
                 i += 1
@@ -431,11 +590,12 @@ class HtmlPublisher:
                 _close_event_card()
                 _close_quick_list()
                 _close_core_judgment()
+                if in_expert_section:
+                    _close_expert_block()
                 heading_text = stripped[3:].strip()
                 anchor = f"section-{len(toc_items)}"
                 toc_items.append((anchor, heading_text))
 
-                # Detect section type
                 if "速览" in heading_text:
                     in_expert_section = False
                 elif "专家" in heading_text or "视角" in heading_text:
@@ -449,7 +609,7 @@ class HtmlPublisher:
                 i += 1
                 continue
 
-            # --- # heading (top-level, skip since header is in template) ---
+            # --- # heading (top-level, skip) ---
             if stripped.startswith("# ") and not stripped.startswith("## "):
                 _close_event_card()
                 _close_quick_list()
@@ -457,11 +617,10 @@ class HtmlPublisher:
                 i += 1
                 continue
 
-            # --- core judgment detection ---
+            # --- core judgment ---
             if "核心判断" in stripped and not in_core_judgment:
                 _close_event_card()
                 _close_quick_list()
-                # The heading itself may contain "核心判断"
                 if not stripped.startswith("#"):
                     safe = _inline_markup(_html_escape(stripped))
                     out.append(f'<div class="section-title">{safe}</div>')
@@ -470,16 +629,118 @@ class HtmlPublisher:
                 i += 1
                 continue
 
-            # --- inside core judgment: collect until next ## or event emoji ---
             if in_core_judgment:
                 first_char = stripped[0] if stripped else ""
                 if first_char == "#" or first_char in _EVENT_EMOJIS:
                     _close_core_judgment()
-                    continue  # re-process this line
+                    continue
                 safe = _inline_markup(_html_escape(stripped))
                 out.append(f"<p>{safe}</p>")
                 i += 1
                 continue
+
+            # =============================================================
+            # EXPERT SECTION parsing
+            # =============================================================
+            if in_expert_section:
+                # Check for expert sub-block title: **🔥 今日热议焦点** etc.
+                sub_type = _detect_expert_sub_title(stripped)
+                if sub_type is not None:
+                    _close_expert_block()
+                    expert_sub = sub_type
+                    in_expert_block = True
+                    title_text = _strip_bold(stripped)
+                    safe = _html_escape(title_text)
+                    out.append('<div class="expert-block">')
+                    out.append(f'<div class="expert-block-title">{safe}</div>')
+                    i += 1
+                    continue
+
+                # --- Inside debate sub-block ---
+                if expert_sub == "debate":
+                    # Bold line → new debate topic
+                    if re.match(r'^\*\*.+\*\*$', stripped):
+                        _close_debate_topic()
+                        name = _strip_bold(stripped)
+                        safe = _html_escape(name)
+                        in_debate_topic = True
+                        out.append('<div class="debate-topic">')
+                        out.append(f'<div class="debate-topic-name">{safe}</div>')
+                        i += 1
+                        continue
+                    # 共识/分歧 line
+                    if stripped.startswith("共识") or stripped.startswith("分歧"):
+                        safe = _inline_markup(_html_escape(stripped))
+                        out.append(f'<div class="debate-meta">{safe}</div>')
+                        i += 1
+                        continue
+                    # — quote line
+                    if stripped.startswith("\u2014") or stripped.startswith("—"):
+                        safe = _inline_markup(_html_escape(stripped))
+                        out.append(f'<div class="debate-quote">{safe}</div>')
+                        i += 1
+                        continue
+
+                # --- Inside insight sub-block ---
+                if expert_sub == "insight":
+                    if stripped.startswith("\u2014") or stripped.startswith("—"):
+                        # Parse: — [@author](url)："quote"
+                        content = stripped.lstrip("\u2014—").strip()
+                        safe = _inline_markup(_html_escape(content))
+                        # Try to split author and quote
+                        m = re.match(r'^(.*?)(：".*|：".*)', _html_escape(content))
+                        if m:
+                            author_raw = m.group(1)
+                            quote_raw = m.group(2).lstrip('\uFF1A:\u201C"').rstrip('\u201D"')
+                            author_html = _inline_markup(author_raw)
+                            quote_html = _inline_markup(quote_raw)
+                            out.append('<div class="insight-card">')
+                            out.append(f'<div class="insight-author">{author_html}</div>')
+                            out.append(f'<div class="insight-text">{quote_html}</div>')
+                            out.append('</div>')
+                        else:
+                            out.append(f'<div class="insight-card"><div class="insight-text">{safe}</div></div>')
+                        i += 1
+                        continue
+
+                # --- Inside tech sub-block ---
+                if expert_sub == "tech":
+                    # Bold line → new product card
+                    if re.match(r'^\*\*.+\*\*$', stripped):
+                        _close_tech_card()
+                        name = _strip_bold(stripped)
+                        safe = _html_escape(name)
+                        in_tech_card = True
+                        out.append('<div class="tech-feedback-card">')
+                        out.append(f'<div class="tech-feedback-name">{safe}</div>')
+                        i += 1
+                        continue
+                    if stripped.startswith("\u2705"):  # ✅
+                        safe = _inline_markup(_html_escape(stripped))
+                        out.append(f'<div class="tech-feedback-item positive">{safe}</div>')
+                        i += 1
+                        continue
+                    if stripped.startswith("\u26a0"):  # ⚠️
+                        safe = _inline_markup(_html_escape(stripped))
+                        out.append(f'<div class="tech-feedback-item negative">{safe}</div>')
+                        i += 1
+                        continue
+
+                # --- Inside sentiment sub-block ---
+                if expert_sub == "sentiment":
+                    sentiment_parts.append(stripped)
+                    i += 1
+                    continue
+
+                # Fallback for expert section: generic paragraph
+                safe = _inline_markup(_html_escape(stripped))
+                out.append(f"<p>{safe}</p>")
+                i += 1
+                continue
+
+            # =============================================================
+            # NON-EXPERT parsing (news cards, speed-read, trending, etc.)
+            # =============================================================
 
             # --- > quote → event-highlight ---
             if stripped.startswith("> "):
@@ -506,32 +767,7 @@ class HtmlPublisher:
                         out.append('<ul class="quick-list">')
                     out.append(f"<li>{safe}</li>")
                 else:
-                    # Generic list item inside event card or expert section
-                    if in_expert_section:
-                        out.append(f'<div class="expert-card"><div class="quote">{safe}</div></div>')
-                    else:
-                        out.append(f'<div class="event-analysis">{safe}</div>')
-                i += 1
-                continue
-
-            # --- 📊 社区情绪 ---
-            if stripped.startswith("\U0001f4ca") and "情绪" in stripped:
-                _close_event_card()
-                _close_quick_list()
-                content = stripped
-                safe = _inline_markup(_html_escape(content))
-                out.append(f'<div class="sentiment-bar">{safe}</div>')
-                i += 1
-                continue
-
-            # --- expert sub-headings (🔥今日热议, 💬独到洞察, 🛠技术反馈, etc.) ---
-            if in_expert_section and any(
-                stripped.startswith(e) for e in ("\U0001f525", "\U0001f4ac", "\U0001f6e0", "\U0001f4ca")
-            ):
-                _close_event_card()
-                _close_quick_list()
-                safe = _inline_markup(_html_escape(stripped))
-                out.append(f'<div class="expert-subtitle">{safe}</div>')
+                    out.append(f'<div class="event-analysis">{safe}</div>')
                 i += 1
                 continue
 
@@ -567,8 +803,6 @@ class HtmlPublisher:
             safe = _inline_markup(_html_escape(stripped))
             if in_event_card:
                 out.append(f'<div class="event-analysis">{safe}</div>')
-            elif in_expert_section:
-                out.append(f'<div class="expert-card"><div class="quote">{safe}</div></div>')
             else:
                 out.append(f"<p>{safe}</p>")
             i += 1
@@ -577,6 +811,8 @@ class HtmlPublisher:
         _close_event_card()
         _close_quick_list()
         _close_core_judgment()
+        if in_expert_section:
+            _close_expert_block()
         if in_trending:
             out.append("</div>")
 
