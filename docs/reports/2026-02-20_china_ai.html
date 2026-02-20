@@ -194,13 +194,106 @@
   }
   .topic-name { font-weight: 600; font-size: 14px; color: var(--text-primary); margin-bottom: 6px; }
   .topic-detail { font-size: 13.5px; color: var(--text-secondary); line-height: 1.7; }
-  .sentiment-bar {
-    background: linear-gradient(135deg, rgba(63,185,80,0.1), rgba(210,153,34,0.1));
-    border: 1px solid rgba(63,185,80,0.2);
+  .expert-block {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin-bottom: 20px;
+  }
+  .expert-block-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--accent-blue);
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  .debate-topic {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
     border-radius: 8px;
     padding: 14px 16px;
+    margin-bottom: 10px;
+  }
+  .debate-topic-name {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+  }
+  .debate-meta {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 6px;
+  }
+  .debate-quote {
+    font-size: 13px;
+    color: var(--text-muted);
+    padding-left: 12px;
+    border-left: 2px solid var(--accent-purple);
+    margin-top: 6px;
+    line-height: 1.6;
+  }
+  .debate-quote a { color: var(--accent-purple); text-decoration: none; }
+  .debate-quote a:hover { text-decoration: underline; }
+  .insight-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent-purple);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+  }
+  .insight-author {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent-purple);
+    margin-bottom: 4px;
+  }
+  .insight-author a { color: var(--accent-purple); text-decoration: none; }
+  .insight-author a:hover { text-decoration: underline; }
+  .insight-text {
     font-size: 14px;
     color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.7;
+  }
+  .tech-feedback-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    transition: border-color 0.2s;
+  }
+  .tech-feedback-card:hover {
+    border-color: rgba(88,166,255,0.3);
+  }
+  .tech-feedback-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed var(--border);
+  }
+  .tech-feedback-item {
+    font-size: 14px;
+    line-height: 1.7;
+    padding: 4px 0;
+  }
+  .tech-feedback-item.positive { color: var(--accent-green); }
+  .tech-feedback-item.negative { color: var(--accent-orange); }
+  .sentiment-bar {
+    background: linear-gradient(135deg, rgba(63,185,80,0.08), rgba(210,153,34,0.08));
+    border: 1px solid rgba(63,185,80,0.2);
+    border-radius: 10px;
+    padding: 16px 20px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.8;
   }
   .trending-section {
     margin-top: 40px;
@@ -264,149 +357,187 @@
   <div class="date">2026年2月20日 · 星期五</div>
 </div>
 <div class="container">
-  <nav class="toc"><a href="#section-0">今日核心判断</a><a href="#section-1">🔥 重大发布与产品</a><a href="#section-2">🔬 技术与研究</a><a href="#section-3">🔧 芯片与算力</a><a href="#section-4">🤝 合作与生态</a><a href="#section-5">⚡ 速览</a><a href="#section-6">💡 专家视角</a><a href="#section-7">🇨🇳 国内热搜速递</a></nav>
+  <nav class="toc"><a href="#section-0">今日核心判断</a><a href="#section-1">🔥 重大发布与产品</a><a href="#section-2">🔬 技术与研究</a><a href="#section-3">💰 融资与市场</a><a href="#section-4">🔧 芯片与算力</a><a href="#section-5">⚡ 速览</a><a href="#section-6">💡 专家视角</a><a href="#section-7">🇨🇳 国内热搜速递</a></nav>
 <div class="section" id="section-0">
 <div class="section-title">今日核心判断</div>
-<p>2026年2月20日标志着大模型竞争进入<strong>多维能力全面战</strong>阶段：OpenAI以GPT-4o的实时多模态+零门槛普及重新定义交互基础设施，Anthropic用Sonnet 4.6的代码化工具编排颠覆Agent架构范式，Google凭Gemini 3.1 Pro的推理能力翻倍夺回综合榜首，xAI则以四智能体协同开辟可解释AI新路径。这四场同日发布构成罕见的<strong>技术密集释放窗口</strong>，暗示头部厂商已从参数军备竞赛转向场景化能力分层——实时交互、自主编排、深度推理、协同决策成为新战场。中国玩家需警惕：当国际巨头完成从"模型能力"到"应用基础设施"的跃迁时，国产替代的窗口期正在以周为单位收窄。</p>
+<p>大模型竞争正式进入"推理能力+多智能体架构+工程就绪"的三维战场。OpenAI o1 系列用强化学习重新定义推理范式，Anthropic Claude Sonnet 4.6 以代码优先工具调用颠覆 Agent 效率，Google Gemini 3.1 Pro 在 ARC-AGI 推理基准上实现代际反超，xAI Grok 4.20 首创四智能体协同验证系统——这不是参数军备竞赛的延续，而是从"更大"转向"更优架构"的拐点。与此同时，国内玩家加速落地：阿里云 Qwen-3.5 Plus 以印尼本地化首发试探全球化路径，网易有道开源桌面 Agent「龙虾」补齐工程化短板，宇树机器人登上春晚暴露具身智能算力依赖进口的关键瓶颈。当 AI 能力红利窗口正快速关闭，谁率先完成"人机协同工作流重构"，谁就掌握下一阶段的生产力定价权。</p>
 <div class="trending-section">
 <div class="section" id="section-1">
 <div class="section-title">🔥 重大发布与产品</div>
 <div class="event-card critical">
 <span class="tag tag-critical">🔴 重磅</span>
-<div class="event-title">🔴 <a href="https://x.com/dotey/status/2023905572035158295"><strong>OpenAI发布GPT-4o：原生多模态、232ms语音延迟、全用户免费开放</strong></a></div>
-<div class="event-highlight">统一处理文本/语音/图像，响应接近人类对话节奏</div>
-<div class="event-analysis">GPT-4o是首个真正意义上的端到端多模态基础设施——232ms语音响应延迟+零门槛普及策略，将AI从"能力展示"推向"日常通讯基建"，直接威胁传统语音助手与实时翻译市场。免费策略倒逼竞对重构产品分层，Plus用户的差异化价值面临重新定义。</div>
+<div class="event-title">🔴 <a href="https://x.com/dotey/status/2023905572035158295"><strong>OpenAI 发布 o1 系列推理模型：强化学习+长思维链重新定义推理范式</strong></a></div>
+<div class="event-highlight">o1-preview 在数学、代码、科学推理基准上显著超越 GPT-4o，支持训练时"思考时间缩放"</div>
+<div class="event-analysis">o1 系列标志着大模型从"快速响应"向"可扩展推理"演进，为 AI 在科研、工程等高精度决策场景落地建立新基线，或将加速推理即服务（RaaS）基础设施发展。用户可控制推理预算权衡速度与准确性，这是首次将推理成本显性化为产品参数。</div>
 </div>
 <div class="event-card critical">
 <span class="tag tag-critical">🔴 重磅</span>
-<div class="event-title">🔴 <a href="https://x.com/dotey/status/2023979096590401986"><strong>Claude Sonnet 4.6正式发布：工具调用升级为代码化执行，100万token上下文</strong></a></div>
-<div class="event-highlight">从多轮LLM决策转向单次生成可执行代码，token成本↓32%</div>
-<div class="event-analysis">Sonnet 4.6标志着Agent范式从"LLM-as-orchestrator"迈向"LLM-as-code-generator"——通过代码化工具编排大幅降低延迟与成本，OSWorld计算机操作得分达72.5%（提升近5倍）。GA级智能体能力（网页搜索/代码执行/记忆管理）+接近Opus能力但保持Sonnet价格，或将重塑企业级AI应用成本结构。</div>
+<div class="event-title">🔴 <a href="https://x.com/dotey/status/2023979096590401986"><strong>Claude Sonnet 4.6 重构工具调用架构：代码优先替代多轮 LLM 决策，效率暴增 32%</strong></a></div>
+<div class="event-highlight">工具调用升级为预生成可执行代码，BrowseComp 准确率+13%，输入 token -32%</div>
+<div class="event-analysis">Anthropic 实现了从"对话式 AI"到"可编程智能体"的范式跃迁——用确定性代码替代非确定性 LLM 调度，大幅降低 Agent 延迟与成本。同步 GA 网页搜索/抓取、代码执行、记忆管理等 Agent 基建能力，并将上下文窗口扩展至 100 万 token，免费版同步升级至 Sonnet 4.6。</div>
 </div>
 <div class="event-card critical">
 <span class="tag tag-critical">🔴 重磅</span>
-<div class="event-title">🔴 <a href="https://x.com/dotey/status/2024611287091589499"><strong>Google发布Gemini 3.1 Pro：推理能力翻倍，ARC-AGI-2得分77.1%重回榜首</strong></a></div>
-<div class="event-highlight">距3.0 Pro仅三个月，推理基准从31.1%跃升至77.1%</div>
-<div class="event-analysis">Gemini 3.1 Pro以推理能力跃迁为支点重新定义"智能"工程化标准——超越Claude Opus 4.6（68.8%）和GPT-5.2（52.9%），在Humanity's Last Exam、GPQA Diamond等关键评测中全面领先。定价不变（$2/$12）但性能翻倍，标志着头部厂商竞争已从参数规模转向真实任务链路的端到端效能。</div>
+<div class="event-title">🔴 <a href="https://x.com/dotey/status/2024611287091589499"><strong>Google Gemini 3.1 Pro 推理能力翻倍：ARC-AGI-2 得分 77.1%，重回综合智能榜首</strong></a></div>
+<div class="event-highlight">推理基准超越 Claude Opus 4.6 和 GPT-5.2，API 定价维持不变（$2/$12）</div>
+<div class="event-analysis">Gemini 3.1 Pro 不仅在关键推理与 Agent 基准上实现代际反超，更以零涨价策略强化商业竞争力，标志着大模型竞争正式进入"高智能+高性价比+强工程就绪"的三重门槛时代。支持 100 万 token 输入上下文与 6.4 万 token 输出，原生多模态。</div>
 </div>
 <div class="event-card normal">
 <span class="tag tag-product">🚀 产品</span>
-<div class="event-title">🚀 <a href="https://x.com/FinanceYF5/status/2024103194146857262"><strong>xAI发布Grok 4.2：首个四智能体协同推理模型</strong></a></div>
-<div class="event-highlight">Grok/Harper/Benjamin/Lucas四角色并行思考+内部辩论</div>
-<div class="event-analysis">Grok 4.2开创性采用多智能体架构——Harper接入X平台每日6800万条推文实时验证事实，Benjamin专攻数学/代码推理，Lucas负责创意平衡。系统支持任务分解→多线程分析→交叉验证→冲突调解全流程，标志着大模型从单体黑箱迈向可解释、可协作的"AI团队范式"。</div>
+<div class="event-title">🚀 <a href="https://x.com/FinanceYF5/status/2024103194146857262"><strong>xAI 发布 Grok 4.20：首创四智能体协同推理系统（Grok/Harper/Benjamin/Lucas）</strong></a></div>
+<div class="event-highlight">四智能体并行工作、实时辩论、互审验证、达成共识后合成最终输出</div>
+<div class="event-analysis">这标志着大模型从单体黑箱推理迈向可解释、可验证、分工协作的"AI 专家团队"范式，或将推动行业从"更大参数"转向"更优架构"的竞争新阶段。Harper 基于 X 平台每日 6800 万条英文推文进行实时事实验证。</div>
 </div>
 <div class="event-card normal">
 <span class="tag tag-product">🚀 产品</span>
-<div class="event-title">🚀 <a href="https://x.com/alibaba_cloud/status/2024501083687493941"><strong>阿里云发布Qwen-3.5 Plus多模态大模型（印尼本地化首发）</strong></a></div>
-<div class="event-highlight">首个原生支持文本/图像/音频统一理解与生成的Qwen系列</div>
-<div class="event-analysis">Qwen-3.5 Plus标志着Qwen从纯语言模型向全栈多模态智能体的关键跃迁。印尼市场首发落地（结合Batik纹样等本土元素）+超低成本订阅计划（$5/月+1000万免费Token），凸显阿里云以"技术+文化适配"双轮驱动全球化AI基建的战略升级。</div>
+<div class="event-title">🚀 <a href="https://x.com/alibaba_cloud/status/2024501083687493941"><strong>阿里云发布 Qwen-3.5 Plus 多模态大模型，印尼本地化首发</strong></a></div>
+<div class="event-highlight">原生支持文本/图像/音频多模态，推出 5 美元/月编程订阅计划+1000 万免费 Token</div>
+<div class="event-analysis">Qwen-3.5 Plus 标志着通义千问从纯语言模型向统一多模态智能体的关键跃迁，叠加区域化落地策略，凸显阿里云以"技术+文化"双轮驱动全球化 AI 渗透的战略升级。结合巴迪克与寺庙等本土文化元素进行 AI 应用示范。</div>
 </div>
 <div class="event-card normal">
 <span class="tag tag-product">🚀 产品</span>
-<div class="event-title">🚀 <a href="https://x.com/dotey/status/2024179435302207642"><strong>Google Gemini上线Lyria 3音乐生成功能（Beta）</strong></a></div>
-<div class="event-highlight">支持文字/图片/视频输入，秒级生成30秒完整音轨</div>
-<div class="event-analysis">Lyria 3集成至Gemini App、YouTube Dream Track及Vertex AI API，支持全自动歌词生成、细粒度音乐控制与SynthID音频水印。凭借Gemini 7.5亿月活基数，Google将专业级AI音乐能力"平民化"嵌入主流生产力入口，完成"文本-图像-视频-音频"全模态创作闭环。</div>
+<div class="event-title">🚀 <a href="https://x.com/dotey/status/2024179435302207642"><strong>Google Gemini 上线 Lyria 3 音乐生成功能：30 秒完整音轨+自动歌词+AI 封面</strong></a></div>
+<div class="event-highlight">面向全球 18 岁以上用户 Beta 开放，集成 SynthID 音频水印与音频验证能力</div>
+<div class="event-analysis">这是首个由超十亿级消费级 AI 平台原生集成的通用音乐生成能力，标志着多模态大模型从"内容理解"正式迈入"全栈内容创作"阶段，或将加速 AI 音乐从专业小众走向大众化应用临界点。同步接入 YouTube Dream Track 全球扩展。</div>
 </div>
 <div class="event-card normal">
 <span class="tag tag-product">🚀 产品</span>
-<div class="event-title">🚀 <a href="https://x.com/dingyi/status/2024378428473168057"><strong>网易有道开源桌面级Agent「LobsterAI（有道龙虾）」</strong></a></div>
-<div class="event-highlight">本地优先、GUI交互、深度集成钉钉/飞书远程控制</div>
-<div class="event-analysis">LobsterAI是国内首个完整落地、工程成熟且真正面向普通用户的开源桌面Agent。基于Electron+React+TypeScript，支持本地进程+QEMU沙箱双执行模式，全本地化设计（SQLite存储、系统应用集成、多平台IM接入），标志着中国AI Agent从CLI实验品迈向GUI产品化阶段。</div>
+<div class="event-title">🚀 <a href="https://x.com/dingyi/status/2024378428473168057"><strong>网易有道开源桌面级 Agent「LobsterAI（有道龙虾）」：本地优先+系统级自动化</strong></a></div>
+<div class="event-highlight">Electron+React+TypeScript 构建，支持本地进程直连 &amp; QEMU+Alpine Linux 沙箱隔离</div>
+<div class="event-analysis">这是国内首个完整落地、工程完备且深度适配本土生态的开源桌面 Agent，标志着 AI Agent 从 CLI 实验阶段迈向 GUI+安全+场景闭环的规模化应用新起点。全本地数据存储（SQLite），内置钉钉/飞书/TG/Discord 等 IM 接口。</div>
 </div>
 <div class="section" id="section-2">
 <div class="section-title">🔬 技术与研究</div>
 <div class="event-card normal">
 <span class="tag tag-research">🔬 研究</span>
-<div class="event-title">🔬 <a href="https://x.com/yangyi/status/2023940800925868154"><strong>AI奇点演进三阶段论：LLM奇点已过，持续学习Agent与存算训一体架构将重塑就业</strong></a></div>
-<div class="event-highlight">第二奇点（持续学习Agent基础设施）临近，第三奇点指向替代Transformer新架构</div>
-<div class="event-analysis">作者系统勾勒AI技术演进对生产力范式、职业结构和经济权力分配的深层冲击路径——指出劳动力结构"三角金字塔坍缩"（基础工种率先被替代），人类时间价值与AI token价值已交汇并背离。强调当前处于关键"平权时刻"（SOTA模型试错成本约200美元/月），但未来可能飙升至2万美元/月，场景确定性成为AI使用权的核心门槛。</div>
+<div class="event-title">🔬 <a href="https://x.com/yangyi/status/2023940800925868154"><strong>AI 奇点三阶段论：LLM 已过第一奇点，持续学习 Agent 与存算训一体架构将重塑就业</strong></a></div>
+<div class="event-highlight">第二奇点（持续学习 Agent 基础设施普及）临近，第三奇点为替代 Transformer 的新型模型架构</div>
+<div class="event-analysis">这并非技术预测，而是对 AI 演进范式与经济权力再分配的结构性洞察：当 Agent 杠杆取代人力杠杆，行业竞争焦点将从"谁拥有模型"转向"谁定义并垄断高价值场景"，倒逼组织重构人才模型与 ROI 评估体系。指出人类时间价值与 AI token 价值已出现交汇点。</div>
 </div>
 <div class="event-card normal">
 <span class="tag tag-research">🔬 研究</span>
-<div class="event-title">🔬 <a href="https://x.com/dontbesilent/status/2024356340882420031"><strong>Agent交互式学习：用AI提问驱动的自适应知识获取范式</strong></a></div>
-<div class="event-highlight">以AI主动提问、人类响应反馈为核心，替代传统被动阅读</div>
-<div class="event-analysis">提出"Agent交互式学习"范式，引用Bloom教育研究（2σ效应）佐证其可使学习者达领域前2%水平。主张知识载体应转向"给AI读的书"（如结构化Markdown），标志着从"人适配内容"向"内容+AI适配人"的认知基础设施重构。</div>
+<div class="event-title">🔬 <a href="https://x.com/dontbesilent/status/2024356340882420031"><strong>Agent 交互式学习：用 AI 提问驱动的自适应知识获取范式</strong></a></div>
+<div class="event-highlight">以 AI 主动提问、人类响应反馈为核心，可助学习者达领域前 2%（μ+2σ）水平</div>
+<div class="event-analysis">这标志着从"人适配内容"到"内容（AI）适配人"的学习范式迁移，或将重构数字教育产品设计逻辑与知识出版形态。主张知识载体应转向"给 AI 读的书"（如结构化 Markdown），由 AI 动态生成适配个体认知节奏的交互路径。</div>
 </div>
 <div class="section" id="section-3">
+<div class="section-title">💰 融资与市场</div>
+<div class="event-card normal">
+<span class="tag tag-funding">💰 融资</span>
+<div class="event-title">💰 <a href="https://x.com/FinanceYF5/status/2024102263703351379"><strong>Jack Altman 加入 Benchmark，Sam Altman 公开力挺</strong></a></div>
+<div class="event-highlight">Sam Altman 称此举为"胜利宣言"，兄弟关系强化象征意义</div>
+<div class="event-analysis">顶级创业者与顶级风投的深度绑定，预示 AI 基础设施与开发者工具赛道将获 Benchmark 重点加注，可能加速早期硬核技术公司的孵化节奏。</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-funding">📊 市场</span>
+<div class="event-title">📊 <a href="https://x.com/dingyi/status/2023956034302435495"><strong>"奶昔机场"等翻墙服务商业规模曝光：头部服务商年营收数亿元</strong></a></div>
+<div class="event-highlight">企业级翻墙服务年付费达 5–10 万元/客户，因监管压力加速离岸化</div>
+<div class="event-analysis">这揭示了一个长期存在但高度敏感的灰色 B2B 数字基建市场——其规模可观、利润丰厚，但正加速离岸化与隐蔽化，反映出国内网络治理与跨境技术需求之间的结构性张力。</div>
+</div>
+<div class="section" id="section-4">
 <div class="section-title">🔧 芯片与算力</div>
 <div class="event-card normal">
 <span class="tag tag-chip">🔧 芯片</span>
-<div class="event-title">🔧 <a href="https://x.com/UnitreeRobotics/status/2024013134974034072"><strong>宇树科技"功夫机器人"亮相蛇年春晚，集群协同调度系统首次公开</strong></a></div>
-<div class="event-highlight">首次展示Cluster Cooperative Rapid Scheduling System</div>
-<div class="event-analysis">春晚十余台机器人表演《秧BOT》等高动态功夫动作，标志着中国具身智能从实验室走向大众舞台。但高端机型普遍依赖NVIDIA芯片（受美出口管制），底层算力依赖进口暴露供应链脆弱性。集群调度系统的落地是量产级具身AI的关键中间件突破。</div>
-</div>
-<div class="section" id="section-4">
-<div class="section-title">🤝 合作与生态</div>
-<div class="event-card normal">
-<span class="tag tag-product">🤝 合作</span>
-<div class="event-title">🤝 <a href="https://x.com/kevinxu/status/2024164274017653008"><strong>Claude Code推出Hook + Skill自动化扩展机制</strong></a></div>
-<div class="event-highlight">支持生命周期Hook与Skill模块，实现Git提交自动化</div>
-<div class="event-analysis">Claude Code从单次任务助手升级为可编程的本地AI工作流引擎，首次将LLM工具链深度嵌入开发者日常Git协作范式。Hook与Skill协同可实现Stop Hook拦截未提交变更+/commit Skill执行语义化分组提交，为AI-Native IDE奠定关键基础设施层。</div>
-</div>
-<div class="event-card normal">
-<span class="tag tag-product">🤝 合作</span>
-<div class="event-title">🤝 <a href="https://x.com/dingyi/status/2024096389538398342"><strong>Raycast高度复刻开源项目发布，支持语音输入与插件生态</strong></a></div>
-<div class="event-highlight">近乎100%复刻Raycast核心功能，完全兼容插件系统</div>
-<div class="event-analysis">标志着桌面智能代理（Desktop AI Agent）正从闭源商业产品加速走向可扩展、可定制的开源生态。原生支持语音输入（对标Wispr Flow/Speechify）+整合记忆与AI能力，可能倒逼Raycast等厂商加快开放战略或强化差异化壁垒。</div>
+<div class="event-title">🔧 <a href="https://x.com/UnitreeRobotics/status/2024013134974034072"><strong>宇树科技"功夫机器人"亮相春晚：集群协同调度系统首次公开展示</strong></a></div>
+<div class="event-highlight">十余台机器人表演《秧 BOT》，高端表演机器人普遍依赖 NVIDIA 芯片（受美出口管制）</div>
+<div class="event-analysis">春晚规模化机器人演出标志着中国具身智能从实验室走向大众舞台，但底层算力依赖进口暴露产业链关键瓶颈——硬件自主与实时协同软件栈的双重突破才是下一阶段竞争分水岭。</div>
 </div>
 <div class="section" id="section-5">
 <div class="section-title">⚡ 速览</div>
 <ul class="quick-list">
-<li>🚀 <a href="https://x.com/op7418/status/2023920926665138422">NotebookLM新增PPT编辑与PPTX导出功能</a></li>
-<li>🌐 <a href="https://x.com/yangyi/status/2024801269404389388">OpenCode：基于浏览器的新型AI原生开发环境（开源）</a></li>
-<li>🚀 <a href="https://x.com/dongxi_nlp/status/2023846225385320726">SkillNet：AI Agent可组合Skills框架发布</a></li>
-<li>🚀 <a href="https://x.com/BYDCompany/status/2023953140593184842">BYD SEAL全新iTAC智能扭矩分配技术发布</a></li>
-<li>🚀 <a href="https://x.com/DJIGlobal/status/2023865039858679977">DJI发布Osmo Action 6、Air3S等多款新品</a></li>
-<li>🌐 <a href="https://x.com/alibaba_cloud/status/2023954303741002163">Alibaba Cloud Launches Real-Time 360º Replay System for Milano Cortina 2026 Olympics</a></li>
-<li>🤝 <a href="https://x.com/FinanceYF5/status/2024102263703351379">Sam Altman公开力挺兄弟Jack Altman加入Benchmark</a></li>
+<li>🚀 <a href="https://x.com/dotey/status/2024036073265942784">Claude Code 推出可编程 Hook + Skill 自动化 Git 提交工作流</a></li>
+<li>🚀 <a href="https://x.com/kevinxu/status/2023969825589215494">牛马 AI 客户端发布 macOS/Windows 版，支持 Intel 芯片，内测 3 天迭代 10 版</a></li>
+<li>🚀 <a href="https://x.com/FinanceYF5/status/2024105006274920685">Seedance 2.0 抢先体验视频发布，用于生成蜘蛛侠等高表现力 AI 电影片段</a></li>
+<li>🌐 <a href="https://x.com/dingyi/status/2024096389538398342">Raycast 高度复刻开源项目发布，支持语音输入与插件生态</a></li>
+<li>🚀 <a href="https://x.com/dongxi_nlp/status/2023846225385320726">SkillNet：AI Agent 可组合 Skills 框架发布，支持技能复用与上下文感知执行</a></li>
+<li>🚀 <a href="https://x.com/op7418/status/2023920926665138422">NotebookLM 新增 PPT 编辑与 PPTX 导出功能</a></li>
+<li>🚀 <a href="https://x.com/kevinxu/status/2024232958450946428">Alpha AI 宣布即将发布，融资规模 $11M</a></li>
+<li>🚀 <a href="https://x.com/alibaba_cloud/status/2023954303741002163">阿里云发布米兰科尔蒂纳 2026 冬奥会实时 360º 回放系统</a></li>
+<li>🚀 <a href="https://x.com/DJIGlobal/status/2023865039858679977">DJI 多款新品影像设备集中亮相：Osmo Action 6、Air 3S、Mavic 3 Pro、Osmo Pocket 3</a></li>
+<li>🚀 <a href="https://x.com/BYDCompany/status/2023953140593184842">BYD SEAL/SHARK/U 系列搭载 iTAC 智能扭矩分配技术发布</a></li>
 </ul>
 <div class="section" id="section-6">
 <div class="section-title">💡 专家视角</div>
-<div class="expert-card"><div class="quote">### 🔥 今日热议</div></div>
-<div class="expert-card"><div class="quote"><strong>多模态大模型军备竞赛</strong></div></div>
-<div class="expert-card"><div class="quote">共识：头部厂商已从参数规模转向场景化能力分层（实时交互/自主编排/深度推理/协同决策）</div></div>
-<div class="expert-card"><div class="quote">分歧：OpenAI的免费策略是普惠还是倾销？Google的推理能力翻倍是否可持续？</div></div>
-<div class="expert-card"><div class="quote"><a href="https://x.com/dotey"><a href="https://x.com/dotey" class="author">@dotey</a></a>："GPT-4o标志着大模型从'能力展示'迈向'自然交互基础设施'的关键转折"</div></div>
-<div class="expert-card"><div class="quote"><a href="https://x.com/indigox"><a href="https://x.com/indigox" class="author">@indigox</a></a>："Gemini 3.1 Pro不是渐进式迭代，而是以推理能力跃迁为支点重新定义'智能'工程化标准"</div></div>
-<div class="expert-card"><div class="quote"><strong>Agent范式演进</strong></div></div>
-<div class="expert-card"><div class="quote">共识：从"LLM-as-orchestrator"向"LLM-as-code-generator"迁移</div></div>
-<div class="expert-card"><div class="quote">分歧：代码化工具编排是否会牺牲灵活性？多智能体协同是否过度工程化？</div></div>
-<div class="expert-card"><div class="quote"><a href="https://x.com/vista8"><a href="https://x.com/vista8" class="author">@vista8</a></a>："Sonnet 4.6的代码化工具编排大幅降低延迟与token成本，加速Agent工业化落地"</div></div>
-<div class="expert-card"><div class="quote"><a href="https://x.com/FinanceYF5"><a href="https://x.com/FinanceYF5" class="author">@FinanceYF5</a></a>："Grok 4.2的四智能体架构标志着大模型从单体黑箱迈向可解释、可协作的'AI团队范式'"</div></div>
-<div class="expert-card"><div class="quote">### 💬 独到洞察</div></div>
-<div class="expert-card"><div class="quote"><a href="https://x.com/yangyi"><a href="https://x.com/yangyi" class="author">@yangyi</a></a>："AI能力跃迁正引发劳动力结构'三角金字塔坍缩'——基础工种率先被替代，继而波及中级岗位；人类时间价值与AI token价值已交汇并开始背离"</div></div>
-<div class="expert-card"><div class="quote"><a href="https://x.com/dingyi"><a href="https://x.com/dingyi" class="author">@dingyi</a></a>："LobsterAI是国内首个完整落地、工程成熟且真正面向普通用户的开源桌面Agent，标志着中国AI Agent从CLI实验品迈向GUI产品化阶段"</div></div>
-<div class="expert-card"><div class="quote"><a href="https://x.com/kevinxu"><a href="https://x.com/kevinxu" class="author">@kevinxu</a></a>："Claude Code从单次任务助手升级为可编程的本地AI工作流引擎，首次将LLM工具链深度嵌入开发者日常Git协作范式"</div></div>
-<div class="expert-card"><div class="quote"><a href="https://x.com/dontbesilent"><a href="https://x.com/dontbesilent" class="author">@dontbesilent</a></a>："Agent交互式学习标志着从'人适配内容'向'内容+AI适配人'的认知基础设施重构，可能重塑在线教育、技术文档、专业出版等领域的价值链条"</div></div>
-<div class="expert-card"><div class="quote"><a href="https://x.com/op7418"><a href="https://x.com/op7418" class="author">@op7418</a></a>："Gemini 3.1 Pro以推理能力跃迁为支点，重新定义大模型'智能'的工程化标准——标志着头部厂商竞争已从参数规模转向真实任务链路的端到端效能"</div></div>
-<div class="expert-card"><div class="quote">### 🛠 技术反馈</div></div>
-<div class="expert-card"><div class="quote"><strong>GPT-4o</strong></div></div>
-<div class="expert-card"><div class="quote">正面：实时语音交互体验接近人类对话节奏，免费用户可无限制使用核心能力</div></div>
-<div class="expert-card"><div class="quote">吐槽：Plus用户的差异化价值不明确，速率提升是否值得付费存疑</div></div>
-<div class="expert-card"><div class="quote"><strong>Claude Sonnet 4.6</strong></div></div>
-<div class="expert-card"><div class="quote">正面：代码化工具编排显著降低延迟与token成本，OSWorld计算机操作得分提升近5倍</div></div>
-<div class="expert-card"><div class="quote">吐槽：工具调用稳定性仍需验证，部分场景下可能牺牲灵活性</div></div>
-<div class="expert-card"><div class="quote"><strong>Gemini 3.1 Pro</strong></div></div>
-<div class="expert-card"><div class="quote">正面：推理能力翻倍且定价不变，性价比显著优于竞品</div></div>
-<div class="expert-card"><div class="quote">吐槽：Preview形态稳定性待验证，API功能升级是否全面开放尚不明确</div></div>
-<div class="expert-card"><div class="quote"><strong>Grok 4.2</strong></div></div>
-<div class="expert-card"><div class="quote">正面：四智能体协同架构增强事实准确性与推理深度</div></div>
-<div class="expert-card"><div class="quote">吐槽：支付兼容性问题（拒收招商银行全币种VISA），部分用户反馈输出质量不稳定</div></div>
-<div class="expert-card"><div class="quote"><strong>LobsterAI</strong></div></div>
-<div class="expert-card"><div class="quote">正面：开箱即用、本地优先、深度集成钉钉/飞书，降低终端使用门槛</div></div>
-<div class="expert-card"><div class="quote">吐槽：技术栈基于Electron，性能与资源占用待优化</div></div>
-<div class="expert-card"><div class="quote">### 📊 社区情绪</div></div>
-<div class="expert-card"><div class="quote">技术密集释放窗口引发兴奋与焦虑并存——开发者对多模态能力跃迁表示振奋，但对国产替代窗口期收窄表示担忧；企业用户对Agent工业化落地持谨慎乐观态度，关注稳定性与成本结构。</div></div>
+<div class="expert-block">
+<div class="expert-block-title">🔥 今日热议焦点</div>
+<div class="debate-topic">
+<div class="debate-topic-name">大模型推理范式演进</div>
+<div class="debate-meta">共识：o1 系列、Gemini 3.1 Pro、Grok 4.20 标志着推理能力从"快速响应"向"可扩展推理"与"多智能体协同"演进 | 分歧：是否应该将推理成本显性化为产品参数，以及多智能体架构是否会成为主流</div>
+<div class="debate-quote">— <a href="https://x.com/dotey"><a href="https://x.com/dotey" class="author">@dotey</a></a>："o1 系列用强化学习重新定义推理范式，为 AI 在科研、工程等高精度决策场景落地建立新基线"</div>
+<div class="debate-quote">— <a href="https://x.com/FinanceYF5"><a href="https://x.com/FinanceYF5" class="author">@FinanceYF5</a></a>："Grok 4.20 的四智能体协同验证系统标志着大模型从单体黑箱推理迈向可解释、可验证、分工协作的'AI 专家团队'范式"</div>
+</div>
+<div class="debate-topic">
+<div class="debate-topic-name">AI Agent 工程化落地</div>
+<div class="debate-meta">共识：Claude Sonnet 4.6 的代码优先工具调用、网易有道龙虾的开源、SkillNet 框架标志着 Agent 从实验阶段迈向工程化落地</div>
+<div class="debate-quote">— <a href="https://x.com/dotey"><a href="https://x.com/dotey" class="author">@dotey</a></a>："Anthropic 实现了从'对话式 AI'到'可编程智能体'的范式跃迁——用确定性代码替代非确定性 LLM 调度"</div>
+<div class="debate-quote">— <a href="https://x.com/dingyi"><a href="https://x.com/dingyi" class="author">@dingyi</a></a>："网易有道龙虾是国内首个完整落地、工程完备且深度适配本土生态的开源桌面 Agent"</div>
+</div>
+</div>
+<div class="expert-block">
+<div class="expert-block-title">💬 独到洞察</div>
+<div class="insight-card">
+<div class="insight-author"><a href="https://x.com/yangyi"><a href="https://x.com/yangyi" class="author">@yangyi</a></a></div>
+<div class="insight-text">当前处于'平权时刻'——个人仅需约 200 美元/月即可调用 SOTA 模型试错，但该窗口正快速关闭，未来试错成本或升至 2 万美元/月</div>
+</div>
+<div class="insight-card">
+<div class="insight-author"><a href="https://x.com/indigox"><a href="https://x.com/indigox" class="author">@indigox</a></a></div>
+<div class="insight-text">智能时代生存指南：将 AI 从搜索引擎升级为'协作者+执行者'，要求用户交付完整任务（如合同审阅、财务建模）并持续压测其能力边界</div>
+</div>
+<div class="insight-card">
+<div class="insight-author"><a href="https://x.com/dontbesilent"><a href="https://x.com/dontbesilent" class="author">@dontbesilent</a></a></div>
+<div class="insight-text">Agent 交互式学习模型：以 AI 主动提问、人类响应反馈为核心，替代传统单向阅读，可助学习者达领域前 2%（μ+2σ）水平</div>
+</div>
+<div class="insight-card">
+<div class="insight-author"><a href="https://x.com/kevinxu"><a href="https://x.com/kevinxu" class="author">@kevinxu</a></a></div>
+<div class="insight-text">DeepSeek-V3 发布后市场反应强劲，但缺乏基本面细节，反映当前关注点集中在情绪与预期驱动而非技术实质</div>
+</div>
+<div class="insight-card">
+<div class="insight-author"><a href="https://x.com/dingyi"><a href="https://x.com/dingyi" class="author">@dingyi</a></a></div>
+<div class="insight-text">国产 AI 自动回复产品引发信任危机，暴露了当前 AI 社交工具在透明度、用户知情权与治理机制上的严重缺失</div>
+</div>
+</div>
+<div class="expert-block">
+<div class="expert-block-title">🛠 技术使用反馈</div>
+<div class="tech-feedback-card">
+<div class="tech-feedback-name">Claude Sonnet 4.6</div>
+<div class="tech-feedback-item positive">✅ 工具调用效率暴增 32%，BrowseComp 准确率+13%，免费版同步升级</div>
+<div class="tech-feedback-item negative">⚠️ 初期稳定性挑战暴露了工程落地与抽象设计之间的典型张力</div>
+</div>
+<div class="tech-feedback-card">
+<div class="tech-feedback-name">Gemini 3.1 Pro</div>
+<div class="tech-feedback-item positive">✅ ARC-AGI-2 推理基准得分 77.1%，超越 Claude Opus 4.6 和 GPT-5.2，API 定价维持不变</div>
+<div class="tech-feedback-item negative">⚠️ 暂无明显负面反馈</div>
+</div>
+<div class="tech-feedback-card">
+<div class="tech-feedback-name">OpenAI o1 系列</div>
+<div class="tech-feedback-item positive">✅ 在数学、代码、科学推理基准上显著超越 GPT-4o，支持训练时"思考时间缩放"</div>
+<div class="tech-feedback-item negative">⚠️ 推理成本显性化为产品参数，可能增加用户决策复杂度</div>
+</div>
+<div class="tech-feedback-card">
+<div class="tech-feedback-name">网易有道龙虾（LobsterAI）</div>
+<div class="tech-feedback-item positive">✅ 国内首个完整落地、工程完备且深度适配本土生态的开源桌面 Agent，全本地数据存储</div>
+<div class="tech-feedback-item negative">⚠️ 社区反馈体验扎实，但初期稳定性问题需持续迭代</div>
+</div>
+<div class="tech-feedback-card">
+<div class="tech-feedback-name">NotebookLM</div>
+<div class="tech-feedback-item positive">✅ 新增 PPT 编辑与 PPTX 导出功能，显著提升教育、咨询和企业知识协作场景实用性</div>
+<div class="tech-feedback-item negative">⚠️ 暂无明显负面反馈</div>
+</div>
+</div>
+<div class="expert-block">
+<div class="expert-block-title">📊 今日社区情绪</div>
+<div class="sentiment-bar">社区整体情绪高涨，聚焦于大模型推理能力的代际跃迁与 AI Agent 工程化落地。OpenAI o1 系列、Claude Sonnet 4.6、Gemini 3.1 Pro、Grok 4.20 的密集发布引发"推理范式演进"热议，开发者普遍认同行业正从"更大参数"转向"更优架构"的拐点。国内玩家加速落地（阿里云 Qwen-3.5 Plus、网易有道龙虾）获得正面反馈，但宇树机器人春晚演出暴露的算力依赖进口问题引发产业链焦虑。部分用户对 AI 自动回复产品的信任危机表示担忧，呼吁行业建立"AI 身份披露"与"人机交互伦理规范"。整体而言，社区对 AI 能力红利窗口正快速关闭形成共识，强调率先完成"人机协同工作流重构"的紧迫性。</div>
+</div>
 <div class="section" id="section-7">
 <div class="section-title">🇨🇳 国内热搜速递</div>
 <div class="event-highlight">以下为国内科技媒体及社交平台热议话题，与上方 Twitter 信源互补。</div>
 <ul class="quick-list">
 <li>🔥 <strong>男子用AI鉴定玉石8个月收入上百万</strong></li>
-<li>🔥 <strong>男子用AI鉴定玉石8个月收入上百万</strong></li>
+<li>🔥 <strong>如何看待微软预测 18 个月内白领将被 AI 取代？</strong></li>
+<li>🔥 <strong>机器人为什么一定是人形</strong></li>
 <li>🔥 <strong>男子用AI鉴定玉石8个月收入上百万</strong></li>
 <li>🔥 <strong>希腊启动“灯塔”项目推动人工智能发展</strong></li>
 <li>🔥 <strong>续航之王：英特尔公布联想小新 Pro 14 GT AI 元启版全网首测视频</strong></li>
-<li>🔥 <strong>消息称小米 17T 系列手机研发进度提速，搭载天玑 8500/9500 芯片</strong></li>
 <li>🔥 <strong>吉利星越 L 长风系列新车到店：双 14.6 英寸屏 +8155 芯片，预售价 13.97~14.77 万元</strong></li>
 <li>🔥 <strong>刷新深空探测极限：我国科学家用天文 AI 模型绘制“极致深空图”</strong></li>
 <li>🔥 <strong>印度发布关于印度与美国人工智能合作机遇的联合声明。</strong></li>
