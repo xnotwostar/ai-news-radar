@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🇨🇳 中文圈AI洞察 — 2026-02-22</title>
+<style>
+  :root {
+    --bg-primary: #0d1117;
+    --bg-secondary: #161b22;
+    --bg-card: #1c2128;
+    --bg-hover: #252d38;
+    --border: #30363d;
+    --text-primary: #e6edf3;
+    --text-secondary: #8b949e;
+    --text-muted: #6e7681;
+    --accent-blue: #58a6ff;
+    --accent-orange: #f0883e;
+    --accent-green: #3fb950;
+    --accent-red: #f85149;
+    --accent-purple: #bc8cff;
+    --accent-yellow: #d29922;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue",
+                 "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.8;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .header {
+    background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1a1e2e 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 2.5rem 1.5rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple), var(--accent-orange));
+  }
+  .header-badge {
+    display: inline-block;
+    background: rgba(88, 166, 255, 0.1);
+    border: 1px solid rgba(88, 166, 255, 0.2);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 12px;
+    color: var(--accent-blue);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .header h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--text-primary), var(--accent-blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 8px;
+  }
+  .header .date { color: var(--text-secondary); font-size: 0.9rem; }
+  .container { max-width: 780px; margin: 0 auto; padding: 24px 16px 60px; }
+  .section { margin-bottom: 32px; }
+  .section-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    padding-bottom: 10px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  .core-judgment {
+    background: linear-gradient(135deg, rgba(88,166,255,0.06), rgba(188,140,255,0.06));
+    border: 1px solid rgba(88,166,255,0.15);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 32px;
+    line-height: 1.9;
+    font-size: 14.5px;
+  }
+  .event-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-bottom: 14px;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .event-card:hover { border-color: rgba(88,166,255,0.3); background: var(--bg-hover); }
+  .event-card.critical { border-left: 3px solid var(--accent-red); }
+  .event-card.normal { border-left: 3px solid var(--accent-blue); }
+  .event-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  .event-title a {
+    color: var(--text-primary);
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(88,166,255,0.4);
+    transition: color 0.2s, border-color 0.2s;
+  }
+  .event-title a:hover {
+    color: var(--accent-blue);
+    border-bottom-color: var(--accent-blue);
+  }
+  .tag {
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+  .tag-critical { background: rgba(248,81,73,0.15); color: var(--accent-red); border: 1px solid rgba(248,81,73,0.25); }
+  .tag-product { background: rgba(63,185,80,0.12); color: var(--accent-green); border: 1px solid rgba(63,185,80,0.2); }
+  .tag-research { background: rgba(188,140,255,0.12); color: var(--accent-purple); border: 1px solid rgba(188,140,255,0.2); }
+  .tag-funding { background: rgba(210,153,34,0.12); color: var(--accent-yellow); border: 1px solid rgba(210,153,34,0.2); }
+  .tag-chip { background: rgba(88,166,255,0.12); color: var(--accent-blue); border: 1px solid rgba(88,166,255,0.2); }
+  .event-highlight {
+    background: rgba(88,166,255,0.06);
+    border-left: 2px solid var(--accent-blue);
+    padding: 8px 14px;
+    margin: 8px 0;
+    color: var(--text-secondary);
+    font-size: 14px;
+    border-radius: 0 6px 6px 0;
+  }
+  .event-analysis {
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 8px;
+  }
+  .event-analysis a {
+    color: var(--accent-blue);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--accent-blue);
+  }
+  .event-analysis a:hover { border-bottom-style: solid; }
+  .quick-list { list-style: none; }
+  .quick-list li {
+    padding: 10px 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+  .quick-list li:hover { background: var(--bg-hover); }
+  .expert-subtitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--accent-blue);
+    margin: 16px 0 10px;
+  }
+  .expert-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 8px;
+  }
+  .expert-card .author { color: var(--accent-purple); font-weight: 600; font-size: 13px; }
+  .expert-card .author a { color: var(--accent-purple); text-decoration: none; }
+  .expert-card .author a:hover { text-decoration: underline; }
+  .expert-card .quote {
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin-top: 4px;
+    font-style: italic;
+    line-height: 1.7;
+  }
+  .topic-block {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+  }
+  .topic-name { font-weight: 600; font-size: 14px; color: var(--text-primary); margin-bottom: 6px; }
+  .topic-detail { font-size: 13.5px; color: var(--text-secondary); line-height: 1.7; }
+  .expert-block {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin-bottom: 20px;
+  }
+  .expert-block-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--accent-blue);
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  .debate-topic {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+  }
+  .debate-topic-name {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+  }
+  .debate-meta {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 6px;
+  }
+  .debate-quote {
+    font-size: 13px;
+    color: var(--text-muted);
+    padding-left: 12px;
+    border-left: 2px solid var(--accent-purple);
+    margin-top: 6px;
+    line-height: 1.6;
+  }
+  .debate-quote a { color: var(--accent-purple); text-decoration: none; }
+  .debate-quote a:hover { text-decoration: underline; }
+  .insight-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent-purple);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+  }
+  .insight-author {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent-purple);
+    margin-bottom: 4px;
+  }
+  .insight-author a { color: var(--accent-purple); text-decoration: none; }
+  .insight-author a:hover { text-decoration: underline; }
+  .insight-text {
+    font-size: 14px;
+    color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.7;
+  }
+  .tech-feedback-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    transition: border-color 0.2s;
+  }
+  .tech-feedback-card:hover {
+    border-color: rgba(88,166,255,0.3);
+  }
+  .tech-feedback-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed var(--border);
+  }
+  .tech-feedback-item {
+    font-size: 14px;
+    line-height: 1.7;
+    padding: 4px 0;
+  }
+  .tech-feedback-item.positive { color: var(--accent-green); }
+  .tech-feedback-item.negative { color: var(--accent-orange); }
+  .sentiment-bar {
+    background: linear-gradient(135deg, rgba(63,185,80,0.08), rgba(210,153,34,0.08));
+    border: 1px solid rgba(63,185,80,0.2);
+    border-radius: 10px;
+    padding: 16px 20px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.8;
+  }
+  .trending-section {
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 2px solid var(--border);
+  }
+  .trending-note {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+    padding: 10px 14px;
+    background: rgba(240,136,62,0.06);
+    border-radius: 8px;
+    border: 1px solid rgba(240,136,62,0.12);
+  }
+  .toc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 28px;
+    padding: 14px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+  .toc a {
+    font-size: 12.5px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    padding: 4px 12px;
+    border-radius: 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  .toc a:hover { color: var(--accent-blue); border-color: var(--accent-blue); background: rgba(88,166,255,0.08); }
+  .footer {
+    text-align: center;
+    padding: 32px 16px;
+    color: var(--text-muted);
+    font-size: 12px;
+    border-top: 1px solid var(--border);
+    margin-top: 40px;
+  }
+  .footer .brand { font-size: 14px; margin-bottom: 4px; color: var(--text-secondary); }
+  @media (max-width: 600px) {
+    .header h1 { font-size: 1.4rem; }
+    .container { padding: 16px 12px 40px; }
+    .event-card { padding: 14px 16px; }
+  }
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--bg-primary); }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="header-badge">AI News Radar</div>
+  <h1>🇨🇳 中文圈AI洞察</h1>
+  <div class="date">2026年2月22日 · 星期日</div>
+</div>
+<div class="container">
+  <nav class="toc"><a href="#section-0">今日核心判断</a><a href="#section-1">🔥 重大发布与产品</a><a href="#section-2">🔬 技术与研究</a><a href="#section-3">💰 融资与市场</a><a href="#section-4">🔧 芯片与算力</a><a href="#section-5">⚡ 速览</a><a href="#section-6">💡 专家视角</a><a href="#section-7">🇨🇳 国内热搜速递</a></nav>
+<div class="section" id="section-0">
+<div class="section-title">今日核心判断</div>
+<p>多模态大模型进入全面战争：阿里Qwen-3.5 Plus与Google Gemini 3.1 Pro同日发力，前者以本地化+低价订阅构建出海护城河，后者以推理能力翻倍（ARC-AGI-2达77.1%）+零涨价发起对OpenAI的实质性价格战。更值得关注的是英伟达放弃千亿合作框架、转向300亿美元直接入股OpenAI，标志着AI基础设施巨头从"绑定式生态控制"转向"资本共担型战略入股"——行业正从狂热扩张回归理性估值逻辑。具身智能方面，DreamDojo开源世界模型首次实现"用人类行为大数据替代机器人试错成本"的预训练闭环，而宇树机器人登陆春晚则暴露国产机器人对进口芯片的致命依赖。</p>
+<div class="trending-section">
+<div class="section" id="section-1">
+<div class="section-title">🔥 重大发布与产品</div>
+<div class="event-card critical">
+<span class="tag tag-critical">🔴 重磅</span>
+<div class="event-title">🔴 <a href="https://x.com/alibaba_cloud/status/2025027796393775286"><strong>阿里云发布Qwen-3.5 Plus多模态大模型：统一视觉+强推理+低延迟，$5/月订阅杀入市场</strong></a></div>
+<div class="event-highlight">原生多模态、强化Agent能力、印尼本地化验证</div>
+<div class="event-analysis">阿里云正式发布Qwen-3.5 Plus，为Qwen系列最新旗舰版本，原生支持文本/图像/音频联合理解与生成，主打All-in-One Vision（统一视觉感知）、Smarter Agent（强推理/编码/创作）、High-Speed Solve（高性价比低延迟）三大能力。面向开发者推出$5/月的Coding Plan订阅服务，并已在印尼等市场完成本地文化适配验证。标志着阿里云从单模态语言模型向真正端到端多模态智能体跃迁，其"统一架构+轻量部署+本地文化适配"策略正构建差异化AI出海护城河。</div>
+</div>
+<div class="event-card critical">
+<span class="tag tag-critical">🔴 重磅</span>
+<div class="event-title">🔴 <a href="https://x.com/dotey/status/2024611287091589499"><strong>Google发布Gemini 3.1 Pro：推理能力翻倍超越Claude/GPT，价格不变发起价格战</strong></a></div>
+<div class="event-highlight">ARC-AGI-2达77.1%，APEX-Agents接近翻倍，零涨价</div>
+<div class="event-analysis">Gemini 3.1 Pro于2月19日发布（距3.0 Pro仅三个月），ARC-AGI-2推理基准得分达77.1%（较3.0 Pro的31.1%翻倍以上，超越Claude Opus 4.6的68.8%和GPT-5.2的52.9%）。原生支持100万token输入/6.4万token输出，新增YouTube URL直接分析能力，Agent能力显著跃升（APEX-Agents从18.4%→33.5%，BrowseComp达85.9%）。定价与3.0 Pro完全一致（$2/$12 per million tokens），性价比大幅领先竞品（Claude Opus 4.6：$5/$25；GPT-5.2：$1.25/$10）。标志着Google在通用智能体赛道重夺技术领导权，并以零涨价策略对OpenAI/Claude发起实质性价格战。</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-product">🚀 产品</span>
+<div class="event-title">🚀 <a href="https://x.com/dingyi/status/2024378428473168057"><strong>网易有道开源桌面级AI Agent「LobsterAI（有道龙虾）」：本地优先+深度适配钉钉飞书</strong></a></div>
+<div class="event-highlight">国内首个开箱即用桌面Agent，三天迭代10版本</div>
+<div class="event-analysis">网易有道正式开源桌面级AI Agent「LobsterAI（有道龙虾）」，支持macOS/Windows及Intel芯片平台。产品采用本地优先+沙箱隔离架构，支持GUI对话式交互、多模型切换（含本地模型）、内置skills、定时任务与长记忆，可操作系统级应用（日历、邮箱等），并原生集成钉钉、飞书、Telegram、Discord等国内主流协作平台。已进入内测第三天，三天内迭代10个版本。这是国内首个面向普通用户、开箱即用且深度适配本土办公生态的开源桌面Agent，标志着AI Agent从开发者工具向大众生产力产品的关键跃迁。</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-product">🚀 产品</span>
+<div class="event-title">🚀 <a href="https://x.com/Xiaomi/status/2025088096539214281"><strong>Xiaomi 17 Series全球发布：携手徕卡开启移动影像新纪元</strong></a></div>
+<div class="event-highlight">2月28日全球发布，Ultra版本暗示代际跃升</div>
+<div class="event-analysis">Xiaomi 17 Series将于2026年2月28日14:00（GMT+1）全球发布，延续与Leica深度光学合作，聚焦"决定性瞬间"与光影视觉语言，系列旗舰（如Xiaomi 17 Ultra）被明确暗示为移动影像技术代际跃升节点。这是小米-徕卡联合影像战略的里程碑式升级，标志着高端安卓阵营在计算光学、光学设计与影像哲学层面系统性挑战iPhone影像霸权，或将加速手机厂商与专业光学品牌深度绑定的行业范式固化。</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-product">🚀 产品</span>
+<div class="event-title">🚀 <a href="https://x.com/DJIGlobal/status/2024590099946639734"><strong>DJI发布Osmo Pocket 3和Osmo Action 6等多款影像新品</strong></a></div>
+<div class="event-highlight">系统性升级消费级移动影像产品矩阵</div>
+<div class="event-analysis">DJI官方账号密集发布Osmo Pocket 3实拍样片（夜景、旅行、Vlog场景），同步展示Osmo Action 6极限运动拍摄能力（高动态、抗抖、清晰捕捉跳跃动作），Osmo 360新品亦被提及。DJI正系统性升级消费级移动影像产品矩阵，以Pocket 3强化Vlog全能性、Action 6强化极限运动专业性，进一步挤压GoPro及手机厂商影像生态位。</div>
+</div>
+<div class="section" id="section-2">
+<div class="section-title">🔬 技术与研究</div>
+<div class="event-card normal">
+<span class="tag tag-product">🌐 开源</span>
+<div class="event-title">🌐 <a href="https://x.com/DrJimFan/status/2024895359236051274"><strong>DreamDojo：开源交互式世界模型，实现机器人像素级未来预测</strong></a></div>
+<div class="event-highlight">从44K小时人类视频学习物理，零样本泛化真实机器人</div>
+<div class="event-analysis">DreamDojo是一个开源、交互式世界模型，直接从人类第一视角视频（44K小时）中学习物理动态，无需机器人真机数据、手写动力学或3D引擎。引入"隐式动作"（latent actions）表征，将无动作标签的人类视频转化为"机器人可读"的控制信号，支持跨硬件零样本泛化。基础模型预训练后，可通过轻量后训练适配任意真实机器人（如Unitree G1），解耦"世界物理规律"与"机器人执行特性"。实时推理达10 FPS、稳定rollout超1分钟，已验证三大应用：VR实时遥操作、策略评估（模拟成功率强相关真实表现）、模型预测控制（水果装箱任务+17%真实成功率）。全栈开源：模型权重、代码、后训练数据集、评测集、白皮书；底层基于同样开源的NVIDIA Cosmos架构。标志着世界模型从"仿真增强"迈向"预训练原生"范式——它用人类行为大数据替代机器人试错成本，首次实现物理AI的规模化预训练闭环，或将重构机器人学习基础设施。</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-research">🔬 研究</span>
+<div class="event-title">🔬 <a href="https://x.com/jesselaunz/status/2024995604825551054"><strong>Vendings and Stuff AI代理商业模拟测试：Charles Paxton任务</strong></a></div>
+<div class="event-highlight">AI独立运营旧金山售货机一年，银行余额为唯一考核指标</div>
+<div class="event-analysis">Vendings and Stuff公司发起一项AI自主代理商业能力评估实验，部署名为Charles Paxton的AI代理独立运营旧金山一台自动售货机。该AI需在一年周期内仅凭系统提示、有限工具、受限上下文和内部邮件系统完成采购谈判、库存管理、成本控制与现金流运营，最终以银行账户实际余额为唯一考核指标。测试环境为多AI对抗场景：批发商端亦由AI扮演，强调长文本逻辑推理、实时计算、商业决策连贯性及资源约束下的自主规划能力。标志着AI从单任务执行向全栈商业代理（full-stack business agent）演进的关键实证探索，其设计直指当前大模型在长期目标维持、跨步骤因果推理与真实经济约束下自主决策的核心瓶颈。</div>
+</div>
+<div class="section" id="section-3">
+<div class="section-title">💰 融资与市场</div>
+<div class="event-card critical">
+<span class="tag tag-critical">🔴 重磅</span>
+<div class="event-title">🔴 <a href="https://x.com/dotey/status/2025080190682964237"><strong>英伟达放弃千亿合作框架，300亿美元直接投资OpenAI</strong></a></div>
+<div class="event-highlight">取代1000亿美元长期框架，OpenAI估值达7300亿美元</div>
+<div class="event-analysis">英伟达正敲定对OpenAI的300亿美元股权投资，取代去年9月宣布但从未落地的1000亿美元长期合作框架。该投资是OpenAI新一轮超1000亿美元融资的一部分，公司估值达7300亿美元；软银、亚马逊（或投500亿+模型合作）、MGX基金及微软均参与。原合作框架设计为英伟达分十年投入1000亿美元换取OpenAI股份，同时OpenAI承诺采购数百万颗英伟达芯片并部署10吉瓦算力，已被证实于今年1月搁置。标志着AI基础设施巨头从"绑定式生态控制"转向"资本共担型战略入股"，反映行业从狂热扩张回归理性估值逻辑，也凸显英伟达对OpenAI技术路径与商业化能力的终极信任投票。</div>
+</div>
+<div class="section" id="section-4">
+<div class="section-title">🔧 芯片与算力</div>
+<div class="event-card normal">
+<span class="tag tag-chip">🔧 芯片</span>
+<div class="event-title">🔧 <a href="https://x.com/dotey/status/2024722544926814265"><strong>宇树科技机器人登蛇年春晚《秧BOT》引爆具身智能关注，暴露国产芯片短板</strong></a></div>
+<div class="event-highlight">春晚十余台机器人来自四家中国公司，但普遍依赖被禁运的Nvidia芯片</div>
+<div class="event-analysis">宇树科技机器人亮相2025年央视蛇年春晚节目《秧BOT》，成为现象级曝光事件。春晚共出现十余台机器人，来自宇树、Noetix、MagicLab等四家中国公司，涵盖醉拳、双截棍等高动态具身动作。但高端国产机器人普遍依赖被美国禁运的Nvidia芯片，凸显国产AI芯片在具身智能硬件端的短板。春晚作为国家级超级场景首次大规模集成高难度具身机器人表演，标志着具身智能从实验室走向大众认知拐点；但底层算力依赖进口芯片暴露产业关键瓶颈，加速国产机器人专用SoC与VLA（视觉-语言-动作）协同栈的产业化紧迫性。</div>
+</div>
+<div class="section" id="section-5">
+<div class="section-title">⚡ 速览</div>
+<ul class="quick-list">
+<li>🚀 <a href="https://x.com/yangyi/status/2025137147502829964">Qwen3免费发布</a>，阿里通义千问系列大模型持续强化开源与免费策略</li>
+<li>🚀 <a href="https://x.com/jesselaunz/status/2024362137502830777">Anthropic推出Claude Sonnet订阅tier（$20/月）</a>，以Sonnet为锚点争夺中端用户，对ChatGPT Plus构成直接价格与体验对标</li>
+<li>🌐 <a href="https://x.com/dotey/status/2024555811788169696">Ghostty开源libghostty</a>，催生新一代终端生态，多个新终端基于libghostty构建</li>
+<li>🚀 <a href="https://x.com/yangyi/status/2025014256190849108">牛马AI内测2群开放</a>，v102版本已上线用户反馈入口，支持功能需求收集</li>
+<li>🚀 <a href="https://x.com/yangyi/status/2025113156885119446">Vibe Coding上线</a>，轻量级AI编程工具推出premium计划，免费用户仅支持单文件下载且带8秒延迟</li>
+</ul>
+<div class="section" id="section-6">
+<div class="section-title">💡 专家视角</div>
+<div class="expert-block">
+<div class="expert-block-title">🔥 今日热议焦点</div>
+<div class="debate-topic">
+<div class="debate-topic-name">Token经济学再思考</div>
+<div class="debate-meta">共识：Token不是电，而是人类时间的映射，其价值取决于专业场景效果与吞吐效率 | 分歧：SOTA模型token将越来越贵 vs 廉价token适用场景螺旋收缩</div>
+<div class="debate-quote">— <a href="https://x.com/yangyi/status/2025146973645668540"><a href="https://x.com/yangyi" class="author">@yangyi</a></a>："Token定价逻辑正从'水电化'幻觉回归'人力时间市场化'本质，预示模型经济将加速分层——通用廉价token用于消遣/轻任务，高价值token成为专家级智能劳动的计价单位"</div>
+<div class="debate-quote">— <a href="https://x.com/dontbesilent/status/2024860677207470104"><a href="https://x.com/dontbesilent" class="author">@dontbesilent</a></a>："真正的'token自由'不来自降价或配额，而来自ROI &gt; 1的商业模式——即用AI创造的增量价值反哺算力消耗"</div>
+</div>
+<div class="debate-topic">
+<div class="debate-topic-name">AI交互式学习范式</div>
+<div class="debate-meta">共识：以问题和能力为目标的动态知识获取将替代传统线性阅读</div>
+<div class="debate-quote">— <a href="https://x.com/dontbesilent/status/2024356340882420031"><a href="https://x.com/dontbesilent" class="author">@dontbesilent</a></a>："提出'AI交互式学习'新范式，强调以具体问题和目标能力为驱动，而非以整本书为单位，知识载体应适配AI（如可解析的Markdown），由AI按需生成个性化学习路径"</div>
+<div class="debate-quote">— <a href="https://x.com/dontbesilent/status/2024866553829925088"><a href="https://x.com/dontbesilent" class="author">@dontbesilent</a></a>："将当前对Agent交互式学习的质疑，类比上世纪60年代民众初见电视机时的'闹鬼'式认知恐慌——技术接受存在代际与语境落差"</div>
+</div>
+</div>
+<div class="expert-block">
+<div class="expert-block-title">💬 独到洞察</div>
+<div class="insight-card">
+<div class="insight-author"><a href="https://x.com/lyc_zh/status/2025221675260801333"><a href="https://x.com/lyc_zh" class="author">@lyc_zh</a></a></div>
+<div class="insight-text">刘美贤冬奥夺金引发对运动员家庭教育模式的反思——家长应从设计孩子人生的'architect'转变为观察内在热情的'detective'，标志着精英体育教育认知从绩效驱动的'培养冠军'叙事，升级为关注亲子关系健康与儿童自主动机发展的系统性育儿哲学</div>
+</div>
+<div class="insight-card">
+<div class="insight-author"><a href="https://x.com/TechBuzzChina/status/2024735618211991942"><a href="https://x.com/TechBuzzChina" class="author">@TechBuzzChina</a></a></div>
+<div class="insight-text">The current Chinese zodiac year is the Year of the Fire Horse, symbolizing intensity and stamina—uses cultural symbolism to frame chip autonomy not as a sprint but as a sustained, resilient national effort</div>
+</div>
+<div class="insight-card">
+<div class="insight-author"><a href="https://x.com/yangyi/status/2024729892659822620"><a href="https://x.com/yangyi" class="author">@yangyi</a></a></div>
+<div class="insight-text">以'小龙虾'拟人化描述AI代理自我发育愿景，强调无监督式探索学习（如自主挖帖、写评）——当具身化、交互式AI学习开始挑战传统知识获取范式（如读书），公众反应正复刻历史上每一次媒介革命初期的集体疑虑</div>
+</div>
+</div>
+<div class="expert-block">
+<div class="expert-block-title">🛠 技术使用反馈</div>
+<div class="tech-feedback-card">
+<div class="tech-feedback-name">Gemini 3.1 Pro</div>
+<div class="tech-feedback-item positive">✅ ARC-AGI-2推理基准得分达77.1%，较3.0 Pro翻倍以上，超越Claude Opus 4.6和GPT-5.2</div>
+<div class="tech-feedback-item negative">⚠️ 发布仅三个月即推出3.1版本，迭代速度过快可能影响企业用户稳定性预期</div>
+</div>
+<div class="tech-feedback-card">
+<div class="tech-feedback-name">Qwen-3.5 Plus</div>
+<div class="tech-feedback-item positive">✅ 原生多模态支持、$5/月订阅服务性价比高、印尼本地化验证成功</div>
+<div class="tech-feedback-item negative">⚠️ 尚未公布与GPT-5.2、Claude Opus 4.6的直接对标基准</div>
+</div>
+<div class="tech-feedback-card">
+<div class="tech-feedback-name">LobsterAI（有道龙虾）</div>
+<div class="tech-feedback-item positive">✅ 国内首个开箱即用桌面Agent，深度适配钉钉/飞书等本土协作平台，三天迭代10版本</div>
+<div class="tech-feedback-item negative">⚠️ 仍处于内测阶段，稳定性与长期维护能力待验证</div>
+</div>
+</div>
+<div class="expert-block">
+<div class="expert-block-title">📊 今日社区情绪</div>
+<div class="sentiment-bar">社区整体情绪呈现"技术兴奋+商业焦虑"并存态势：一方面，Gemini 3.1 Pro的推理能力翻倍、DreamDojo的世界模型突破引发开发者强烈关注，认为多模态大模型与具身智能正进入实质性落地阶段；另一方面，英伟达放弃千亿合作框架转向直接入股OpenAI，以及Token经济学"人力时间市场化"的讨论，反映出行业对AI商业化路径与估值泡沫的深层担忧。国产机器人在春晚亮相后暴露的芯片依赖问题，进一步强化了社区对国产替代紧迫性的共识。</div>
+</div>
+<div class="section" id="section-7">
+<div class="section-title">🇨🇳 国内热搜速递</div>
+<div class="event-highlight">以下为国内科技媒体及社交平台热议话题，与上方 Twitter 信源互补。</div>
+<ul class="quick-list">
+<li>🔥 <strong>王兴兴：机器人技术接近10岁孩子水平</strong></li>
+<li>🔥 <strong>Seedance2.0重写全球AI版图</strong></li>
+<li>🔥 <strong>王兴兴：机器人技术接近10岁孩子水平</strong></li>
+<li>🔥 <strong>央视军事最新AI大片发布</strong></li>
+<li>🔥 <strong>清华AIR团队揭示人类与智驾算法视觉注意力的本质差异</strong></li>
+<li>🔥 <strong>国际人形机器人论坛探讨机器人应用发展趋势</strong></li>
+<li>🔥 <strong>Anthropic发布AI代码扫描工具，美股网络安全股承压</strong></li>
+<li>🔥 <strong>亚马逊报告：黑客利用 AI 工具五周内攻破全球超 600 个防火墙</strong></li>
+<li>🔥 <strong>加校园枪击案枪手在与 ChatGPT 互动中曾涉及枪支暴力，OpenAI 未提前报警</strong></li>
+<li>🔥 <strong>联想北美渠道负责人发出警告：内存芯片持续短缺，商用 PC 产品或下月调价</strong></li>
+<li>🔥 <strong>OpenAI CEO 奥尔特曼：把数据中心建在太空的想法十分荒谬</strong></li>
+<li>🔥 <strong>OpenAI CEO 奥尔特曼驳斥 ChatGPT 耗水相关谣言：完全不符合事实</strong></li>
+<li>🔥 <strong>科技巨头购地扩建 AI 数据中心遭农民拒绝：3300 万美元买不走土地与传承</strong></li>
+<li>🔥 <strong>业界最快：imec 发布 7-bit 175GS/s ADC 芯片，满足 AI 数据中心高速互联需求</strong></li>
+<li>🔥 <strong>光谷重点企业春节不停工，开足马力忙生产，AI高速光模块订单排到四季度</strong></li>
+</ul>
+</div>
+</div>
+<div class="footer">
+  <div class="brand">AI News Radar</div>
+  <div>自动采集 · 智能分析 · 每日推送</div>
+</div>
+</body>
+</html>
