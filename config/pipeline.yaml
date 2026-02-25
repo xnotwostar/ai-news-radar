@@ -11,6 +11,7 @@ pipelines:
       prompt_file: prompts/report_global.txt
     push:
       webhook_env: DINGTALK_GLOBAL_WEBHOOK
+      serverchan_key_env: SERVERCHAN_GLOBAL_KEY
 
   china_ai:
     source:
@@ -24,6 +25,7 @@ pipelines:
       prompt_file: prompts/report_china.txt
     push:
       webhook_env: DINGTALK_CHINA_WEBHOOK
+      serverchan_key_env: SERVERCHAN_CHINA_KEY
 
   # Trending data is auto-merged into china_ai pipeline (no standalone push)
   trending:

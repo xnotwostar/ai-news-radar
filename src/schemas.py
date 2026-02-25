@@ -124,6 +124,7 @@ class GenerationConfig(BaseModel):
 
 class PushConfig(BaseModel):
     webhook_env: str
+    serverchan_key_env: Optional[str] = None
 
 
 class PipelineConfig(BaseModel):
