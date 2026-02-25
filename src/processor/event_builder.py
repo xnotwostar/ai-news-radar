@@ -126,14 +126,22 @@ class EventBuilder:
         """调用 LLM 生成单个事件卡片。"""
         sorted_tweets = sorted(tweets, key=lambda t: t.tweet.engagement, reverse=True)[:5]
 
-        tweets_text = "\n\n".join(
-            f"@{t.tweet.author_handle} ({t.tweet.created_at.strftime('%m-%d %H:%M UTC') if t.tweet.created_at else 'unknown'}): "
-            f"{t.tweet.text} "
-            f"[likes:{t.tweet.like_count} RT:{t.tweet.retweet_count}]"
-            for t in sorted_tweets
-        )
+        def _format_tweet(t: TweetEmbedded) -> str:
+            time_str = t.tweet.created_at.strftime('%m-%d %H:%M UTC') if t.tweet.created_at else 'unknown'
+            if t.tweet.is_rss:
+                return (
+                    f"[{t.tweet.author_name}] ({time_str}): "
+                    f"{t.tweet.text} [来源: {t.tweet.url}]"
+                )
+            return (
+                f"@{t.tweet.author_handle} ({time_str}): "
+                f"{t.tweet.text} "
+                f"[likes:{t.tweet.like_count} RT:{t.tweet.retweet_count}]"
+            )
 
-        user_prompt = f"以下推文讨论同一事件，请提取 Event Card：\n\n{tweets_text}"
+        tweets_text = "\n\n".join(_format_tweet(t) for t in sorted_tweets)
+
+        user_prompt = f"以下推文/文章讨论同一事件，请提取 Event Card：\n\n{tweets_text}"
 
         resp = await client.post(
             DASHSCOPE_CHAT_URL,
@@ -157,7 +165,7 @@ class EventBuilder:
 
         sources = [
             EventSource(
-                author=t.tweet.author_handle.lstrip("@"),
+                author=t.tweet.author_name if t.tweet.is_rss else t.tweet.author_handle.lstrip("@"),
                 text=t.tweet.text[:200],
                 engagement=t.tweet.engagement,
                 url=t.tweet.url,

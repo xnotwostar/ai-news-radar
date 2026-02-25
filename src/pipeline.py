@@ -29,7 +29,9 @@ from .schemas import (
     TrendingItem,
     TweetRaw,
 )
-from .collector import ApifyCollector, NewsnowCollector
+import hashlib
+
+from .collector import ApifyCollector, NewsnowCollector, RssCollector
 from .processor import Clusterer, Embedder, EventBuilder, Ranker
 from .generator import LLMClient, ReportWriter
 from .publisher import HtmlPublisher
@@ -103,6 +105,30 @@ def run_twitter_pipeline(
     if not tweets:
         logger.warning("No tweets collected for %s, skipping", name)
         return None
+
+    # Step 1.5: Merge RSS feeds (global_ai only)
+    if name == "global_ai":
+        try:
+            rss_collector = RssCollector(hours=24)
+            rss_items = rss_collector.collect()
+            _save_raw(
+                [{"title": r.title, "summary": r.summary, "url": r.url,
+                  "source": r.source, "published": str(r.published)} for r in rss_items],
+                f"{date_str}_{name}_rss.json",
+            )
+            for r in rss_items:
+                tweets.append(TweetRaw(
+                    tweet_id=hashlib.md5(r.url.encode()).hexdigest()[:16],
+                    author_handle=r.source.replace(" ", ""),
+                    author_name=r.source,
+                    text=f"{r.title}. {r.summary}" if r.summary else r.title,
+                    created_at=r.published,
+                    source_url=r.url,
+                    is_rss=True,
+                ))
+            logger.info("Merged %d RSS items into %d total items", len(rss_items), len(tweets))
+        except Exception as e:
+            logger.warning("RSS collection failed, continuing with Twitter only: %s", e)
 
     # Step 2: Embed
     embedder = Embedder(

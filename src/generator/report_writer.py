@@ -108,7 +108,10 @@ emoji规则：🔴仅限2-3个最重磅事件，其余用🚀产品/🔬研究/�
 - 如果来源有多个作者，标题链接使用engagement最高的那条URL
 - 专家视角中的@名也必须是超链接：[@专家名](https://x.com/专家名)："观点"
 - 速览中的每条也要带链接：• emoji [一句话摘要](URL)
-- 示例：🚀 [**OpenAI发布GPT-5**](https://x.com/OpenAI/status/123456)"""
+- 示例：🚀 [**OpenAI发布GPT-5**](https://x.com/OpenAI/status/123456)
+- 来源如果是科技媒体名称（TechCrunch、The Verge、VentureBeat 等），用 [媒体名](URL) 格式附原文链接，不用 @ 格式
+- Twitter 来源继续用 [@用户名](URL) 格式
+- 同一事件如果同时有 Twitter 和媒体来源，都列出来"""
 
     def generate_twitter_report(
         self,
@@ -121,10 +124,14 @@ emoji规则：🔴仅限2-3个最重磅事件，其余用🚀产品/🔬研究/�
         system_prompt = base_system + self.FORMAT_INSTRUCTIONS
 
         def _format_event(e: EventCard) -> str:
+            def _fmt_source(s):
+                # RSS sources: use media name; Twitter: use @handle
+                if s.url and not s.url.startswith("https://x.com/"):
+                    return f"{s.author} ({s.url})"
+                return f"@{s.author.lstrip('@')} ({s.url})" if s.url else f"@{s.author.lstrip('@')}"
+
             sources_str = ", ".join(
-                f"@{s.author.lstrip('@')} ({s.url})" if s.url
-                else f"@{s.author.lstrip('@')}"
-                for s in e.sources
+                _fmt_source(s) for s in e.sources
             ) if e.sources else "无"
             key_facts_str = "; ".join(e.key_facts) if e.key_facts else "无"
 

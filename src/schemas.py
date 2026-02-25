@@ -36,7 +36,7 @@ class EventCategory(str, Enum):
 # ---------------------------------------------------------------------------
 
 class TweetRaw(BaseModel):
-    """Single tweet from Apify scraper."""
+    """Single tweet from Apify scraper, or RSS article converted to tweet format."""
     tweet_id: str = ""
     author_handle: str
     author_name: str = ""
@@ -47,6 +47,8 @@ class TweetRaw(BaseModel):
     reply_count: int = 0
     quote_count: int = 0
     view_count: int = 0
+    is_rss: bool = False
+    source_url: str = ""
 
     @property
     def engagement(self) -> int:
@@ -54,6 +56,8 @@ class TweetRaw(BaseModel):
 
     @property
     def url(self) -> str:
+        if self.source_url:
+            return self.source_url
         handle = self.author_handle.lstrip("@")
         if self.tweet_id:
             return f"https://x.com/{handle}/status/{self.tweet_id}"
