@@ -244,7 +244,7 @@ def _save_events(events: list[EventCard], filename: str) -> None:
     path = DATA_DIR / "events" / filename
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
-        json.dump([e.model_dump() for e in events], f, ensure_ascii=False, indent=2)
+        json.dump([e.model_dump(mode="json") for e in events], f, ensure_ascii=False, indent=2)
     logger.info("Saved events: %s", path)
 
 
