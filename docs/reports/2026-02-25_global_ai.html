@@ -357,66 +357,187 @@
   <div class="date">2026年2月25日 · 星期三</div>
 </div>
 <div class="container">
-  <nav class="toc"><a href="#section-0">今日核心判断</a><a href="#section-1">💰 融资与市场</a><a href="#section-2">📜 政策与治理</a><a href="#section-3">⚡ 速览</a><a href="#section-4">💡 专家视角</a></nav>
+  <nav class="toc"><a href="#section-0">今日核心判断</a><a href="#section-1">🔥 重大发布与产品</a><a href="#section-2">🔬 技术与研究</a><a href="#section-3">💰 融资与市场</a><a href="#section-4">🔧 芯片与算力</a><a href="#section-5">⚡ 速览</a><a href="#section-6">💡 专家视角</a></nav>
 <div class="section" id="section-0">
 <div class="section-title">今日核心判断</div>
-<p>AI 基础设施正从「模型性能竞赛」转向「生产化治理」双轨并行：一边是 Profound 这类跨模型分析工具获近亿美元融资，标志企业开始为多模型并用的复杂场景买单；另一边是 Anthropic 将安全政策迭代至第三版，从原则宣言走向可审计制度。这两个信号共同指向同一趋势——AI 已从实验室走向需要 ROI 测量、风险量化、合规审计的企业级战场，谁能提供「可信的生产化工具链」，谁就掌握下一轮基础设施红利。</p>
+<p>AMD-Meta 6GW 协议与 Intel-SambaNova 战略合作标志着 AI 基础设施正式进入"后 NVIDIA 垄断时代"——超大规模客户不再押注单一供应商，而是通过定制化全栈方案（芯片+系统+软件）锁定性价比与供应链韧性。与此同时，Anthropic 拒绝五角大楼"放宽 AI 武器护栏"的最后通牒，成为首个以公司治理主权对抗《国防生产法》的 AI 基础模型厂商，预示军用 AI 伦理边界将从技术讨论升级为法律博弈。硬件栈、政策栈、应用栈三条主线同步重构，2026 年 AI 产业的竞争焦点已从"谁的模型更强"转向"谁的全栈更可控"。</p>
 <div class="trending-section">
 <div class="section" id="section-1">
-<div class="section-title">💰 融资与市场</div>
+<div class="section-title">🔥 重大发布与产品</div>
 <div class="event-card critical">
 <span class="tag tag-critical">🔴 重磅</span>
-<div class="event-title">🔴 <a href="https://x.com/lightspeedvp/status/2026374789980618995"><strong>Profound 获 9600 万美元 C 轮融资，押注 AI 原生营销分析</strong></a></div>
-<div class="event-highlight">光速领投，提供跨 10+ 大模型的营销分析工具</div>
-<div class="event-analysis">这是首个专为「多模型并用」场景设计的企业级分析层，解决了品牌方在 GPT、Claude、Gemini 等模型间无法统一追踪 ROI 的痛点。融资规模反映出企业已从「试用单一 AI」转向「管理 AI 组合」的新阶段，可观测性和归因分析成为刚需。类比云计算早期的 Datadog，这类工具有望成为 AI 时代的新基础设施层。</div>
+<div class="event-title">🔴 <a href="https://x.com/AMD/status/2026268082742636938"><strong>AMD 与 Meta 签署 6GW 定制 AI 基础设施协议，5 年内部署 MI450 衍生 GPU</strong></a></div>
+<div class="event-highlight">超大规模客户首次绕过 NVIDIA 锁定全栈定制方案</div>
+<div class="event-analysis">AMD 与 Meta 达成确定性协议，5 年内部署 6GW AMD Instinct GPU（基于 MI450 chiplet 架构定制）+ 第 6 代 EPYC CPU（Venice）+ Zen 6 Verano，并联合开发 Helios 机架级架构。协议含业绩对赌条款：最高 1.6 亿股（每股 0.01 美元）的认股权证，行权门槛与出货里程碑及股价（最高 600 美元）挂钩。这是继 OpenAI 后 AMD 拿下的第二个超大规模 AI 客户，验证其"非 ASIC、全栈优化"路线可与 NVIDIA 正面竞争。</div>
+</div>
+<div class="event-card critical">
+<span class="tag tag-critical">🔴 重磅</span>
+<div class="event-title">🔴 <a href="https://techcrunch.com/2026/02/24/anthropic-wont-budge-as-pentagon-escalates-ai-dispute/"><strong>Anthropic 拒绝五角大楼最后通牒，坚守 AI 安全护栏不向军用武器妥协</strong></a></div>
+<div class="event-highlight">首次以《国防生产法》为杠杆测试 AI 公司合规底线</div>
+<div class="event-analysis">五角大楼向 Anthropic 发出周五截止的最后通牒：要么放宽 AI 模型在致命自主武器系统中的使用限制（允许无人类干预），要么被列为"供应链风险"并可能援引《国防生产法》强制适配。Anthropic CEO Dario Amodei 与国防部长 Pete Hegseth 在白宫紧急会谈后明确拒绝妥协。这不仅是单次政企谈判，而是美国首次以法律强制权测试 AI 基础模型公司的治理主权边界，或将倒逼全行业重构"军事合作条款"与"宪法级 AI 护栏"的法律嵌套框架。</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-product">🚀 产品</span>
+<div class="event-title">🚀 <a href="https://x.com/DrJimFan/status/2026350142652383587"><strong>SONIC：42M 参数开源运动 Transformer，零样本迁移至真实人形机器人</strong></a></div>
+<div class="event-highlight">将运动追踪确立为机器人领域的"下一个 token 预测"</div>
+<div class="event-analysis">NVIDIA 团队开源 SONIC，一个 42M 参数 Transformer，在 1 亿+人类动捕帧上训练 3 天（128 GPU），实现文本/视频/VR/音乐/VLA 多模态输入统一控制人形机器人（如 G1），50 个真实世界动作序列零样本成功率 100%。核心创新是将运动追踪作为可扩展的数据驱动奖励替代，绕过传统强化学习的稀疏奖励工程。代码、权重、方法论全部开源，标志着具身智能进入"预训练+数据驱动扩展"新范式。</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-product">🚀 产品</span>
+<div class="event-title">🚀 <a href="https://x.com/bindureddy/status/2026381418373529739"><strong>GPT-5.3 Codex 通过 API 发布，引入模型驱动压缩降低成本</strong></a></div>
+<div class="event-highlight">OpenAI 加速代码生成模型商业化，价格显著低于 Opus</div>
+<div class="event-analysis">GPT-5.3 Codex 正式通过 OpenAI API 发布，定价大幅低于此前版本（如 Opus），并引入"模型驱动压缩"（model-based compaction）机制——一种经过训练的自动化推理优化方法。这标志着 OpenAI 从"模型能力竞赛"转向"生产就绪+成本效率"双轨策略，或将加速企业级实时代码生成采用，同时对 Cursor、Replit 等竞品形成价格与性能双重压力。</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-product">🚀 产品</span>
+<div class="event-title">🚀 <a href="https://x.com/intel/status/2026370975281914091"><strong>Intel 与 SambaNova 达成多年期合作，推 Xeon AI 推理栈 + 3.5 亿美元以上融资</strong></a></div>
+<div class="event-highlight">CPU 厂商与专用 AI 架构联手对 GPU 推理市场发起反制</div>
+<div class="event-analysis">Intel 与 SambaNova 宣布多年期战略合作，聚焦基于 Xeon 的 AI 推理解决方案，Intel Capital 参投 SambaNova 超 3.5 亿美元 Series E。合作围绕 SambaNova 新一代 SN50 硬件（非 GPU 架构）构建垂直整合推理云，宣称相较 GPU 实现最高 5 倍吞吐提升与 3 倍 TCO 降低。SoftBank 电信业务为 SN50 首个公开客户。这是 CPU 厂商与专用 AI 架构对 GPU 主导推理市场的关键反制，预示推理基础设施正加速走向异构、分层与场景定制化。</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-product">🚀 产品</span>
+<div class="event-title">🚀 <a href="https://x.com/claudeai/status/2026305194355577096"><strong>Claude 推出 Excel + PowerPoint 端到端协同分析与演示生成</strong></a></div>
+<div class="event-highlight">大模型从单文档辅助迈向跨办公套件自动化工作流编排</div>
+<div class="event-analysis">Claude 现已支持在 Excel 中运行数据分析，并自动将结果生成 PowerPoint 演示文稿，面向所有付费用户（macOS/Windows）。同步更新插件管理能力：支持企业级私有插件市场及统一 Customize 控制中心。这标志着大模型从单文档辅助迈向跨办公套件的自动化工作流编排，显著降低 AI 在企业生产力场景中的采用门槛，或将加速 Copilot 类工具从"增强"向"代理"范式演进。</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-product">🚀 产品</span>
+<div class="event-title">🚀 <a href="https://x.com/cursor_ai/status/2026369873321013568"><strong>Cursor 推出"演示优先"AI 编程工作流：Agent 可自主运行代码并生成操作视频</strong></a></div>
+<div class="event-highlight">AI 编程工具从"写代码辅助"迈向"闭环执行验证"</div>
+<div class="event-analysis">Cursor 新版不再仅显示代码 diff，而是自动生成可执行的交互式 demo。AI Agent 能够实际运行所编写软件，并录制并发送操作视频作为结果反馈。这标志着 AI 编程工具从"写代码辅助"迈向"闭环执行验证"阶段，显著提升开发者对 Agent 输出可信度与调试效率，或将推动 IDE 内 Agent 工作流成为新标准。</div>
 </div>
 <div class="section" id="section-2">
-<div class="section-title">📜 政策与治理</div>
-<div class="event-card critical">
-<span class="tag tag-critical">🔴 重磅</span>
-<div class="event-title">🔴 <a href="https://x.com/AnthropicAI/status/2026096054253564002"><strong>Anthropic 发布《负责任扩展政策》第三版，AI 治理进入制度化阶段</strong></a></div>
-<div class="event-highlight">自 2023 年首版以来，基于两年实践迭代，强化透明度与风险评估机制</div>
-<div class="event-analysis">这是行业首个系统性 AI 安全治理框架的第三次迭代，标志着头部公司正从「发布原则文档」转向「可审计的制度实践」。RSP 设定了模型训练与部署前的风险评估门槛，为全球监管提供了事实性参考基准而非空泛承诺。对比 OpenAI 的 Preparedness Framework，Anthropic 的公开透明度更高，这种差异化策略可能影响未来监管合规成本和市场准入门槛。</div>
+<div class="section-title">🔬 技术与研究</div>
+<div class="event-card normal">
+<span class="tag tag-research">🔬 研究</span>
+<div class="event-title">🔬 <a href="https://x.com/theinformation/status/2026424540922818622"><strong>Anthropic 加大对"失控智能体"与模型"阴谋行为"的基础安全研究</strong></a></div>
+<div class="event-highlight">AI 安全从理论探索转向可测量、可工程化的威胁建模</div>
+<div class="event-analysis">Anthropic 内部备忘录披露近 50 项研究项目，核心聚焦于 rogue agents 和模型自主 scheming 行为。研究目标包括：系统性评估 Claude 等模型的潜在越界能力、量化危险性边界、构建标准化基准测试以严格测量此类风险。这标志着前沿 AI 公司正从对齐（alignment）的理论探索转向可测量、可工程化的安全威胁建模，或将推动 AI 安全领域进入"红队化"与"压力测试标准化"新阶段。</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-research">🔬 研究</span>
+<div class="event-title">🔬 <a href="https://x.com/_akhaliq/status/2026328262507442440"><strong>tttLRM &amp; Rolling Sink：两项新型测试时训练方法推动长上下文与自回归 3D/视频生成</strong></a></div>
+<div class="event-highlight">生成式 AI 从静态预训练转向动态适应性推理</div>
+<div class="event-analysis">tttLRM（Test-Time Training for Long Context and Autoregressive 3D Reconstruction）提出在测试阶段动态优化模型，提升长上下文建模与自回归式 3D 重建能力。Rolling Sink 针对自回归视频扩散模型，解决训练时有限步长与测试时开放步长之间的不匹配问题。两篇工作均聚焦于测试时训练（TTT）范式，在生成建模前沿任务（3D、视频）中实现更鲁棒、更延展的推理行为，对部署轻量化、长序列生成和物理一致建模具有重要工程启示。</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-research">🔬 研究</span>
+<div class="event-title">🔬 <a href="https://x.com/VentureBeat/status/2026364034413433150"><strong>LexisNexis 开发可溯源的 LLM 自动评估框架（非 LLM-based hallucination 检测）</strong></a></div>
+<div class="event-highlight">评估范式从黑盒模型自检转向可审计、可溯源的确定性验证</div>
+<div class="event-analysis">LexisNexis 不使用 LLM 本身来检测幻觉，而是构建了程序化验证层，逐句检查 AI 生成答案中每个陈述是否可回溯至具体引用源。相关自动评估技术已进入专利申请流程。此举代表评估范式的转向——从依赖黑盒模型自检转向可审计、可溯源的确定性验证，为法律、合规等高置信度场景的 AI 落地提供新基础设施范式。</div>
 </div>
 <div class="section" id="section-3">
+<div class="section-title">💰 融资与市场</div>
+<div class="event-card normal">
+<span class="tag tag-funding">💰 融资</span>
+<div class="event-title">💰 <a href="https://x.com/karpathy/status/2026360908398862478"><strong>MatX 完成新一轮融资，聚焦 LLM 推理与长上下文下的内存-计算协同优化</strong></a></div>
+<div class="event-highlight">硬件栈从"通用加速"转向"LLM 工作流原生优化"</div>
+<div class="event-analysis">MatX 团队完成新一轮融资，核心方向是解决 LLM 推理（尤其是 decode 阶段）和长上下文 agentic loop 中的内存-计算协同瓶颈。技术焦点在于跨 SRAM（高带宽低容量）与 DRAM/HBM（高容量低带宽）的物理层调度优化，兼顾 throughput/latency/$ 效率。团队被 Andrej Karpathy 评价为"A++ grade"，并指出其方案可能填补当前 NVIDIA（HBM-first）与 Cerebras（SRAM-first）两大技术路径间的空白。这标志着硬件栈正从"通用加速"转向"LLM 工作流原生优化"，尤其针对 AI Agent 实时闭环推理场景。</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-funding">💰 融资</span>
+<div class="event-title">💰 <a href="https://x.com/swyx/status/2026374797786046949"><strong>Huncher AI 完成 Series B 融资，标志定制 AI 芯片创业公司重获投资者信心</strong></a></div>
+<div class="event-highlight">市场重新评估定制 AI 硅片为 GPU 扩展瓶颈的必要响应</div>
+<div class="event-analysis">Huncher AI 成功完成 Series B 融资。2023 年该创业公司曾因行业对定制 AI 芯片的普遍失望而遭遇融资困境。此次融资标志着投资者对非 GPU、全栈 AI 硬件创新重拾信心，背景是 GPU 内存/计算瓶颈日益凸显及 AI 工作负载模式趋于稳定。Huncher 的 Series B 标志着一个关键拐点：市场正将定制 AI 硅片视为对 GPU 扩展极限的必要响应，而非过往失败的重演，验证了"后硬件彩票时代"架构多样性的合法性。</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-funding">💰 融资</span>
+<div class="event-title">💰 <a href="https://x.com/TechCrunch/status/2026411140595826916"><strong>Google 签署 1.9GW 清洁能源协议，含百小时长时储能电池</strong></a></div>
+<div class="event-highlight">AI 基础设施公司向电网侧深度延伸，长时储能成"隐性算力配套"</div>
+<div class="event-analysis">Google 宣布一项总规模达 1.9 吉瓦（GW）的全新清洁能源采购协议，协议中首次纳入支持 100 小时持续放电的长时储能电池系统。该交易是迄今公开披露的最大规模单体清洁电力+长时储能捆绑采购之一。这不仅是能源采购行为，更是 AI 基础设施公司向电网侧深度延伸的战略信号——长时储能正从辅助服务角色升级为 AI 数据中心"隐性算力配套"，加速重构清洁能源投资逻辑与电力市场设计。</div>
+</div>
+<div class="section" id="section-4">
+<div class="section-title">🔧 芯片与算力</div>
+<div class="event-card normal">
+<span class="tag tag-chip">🔧 芯片</span>
+<div class="event-title">🔧 <a href="https://x.com/arstechnica/status/2026369575034683438"><strong>Apple 将首次在美国休斯顿生产 Mac Mini</strong></a></div>
+<div class="event-highlight">苹果将高附加值桌面产品线作为"Made in USA"试点</div>
+<div class="event-analysis">Apple 将于今年晚些时候在德克萨斯州休斯顿开始本地化生产 Mac Mini，这是 Mac Mini 首次在美国本土制造，延续了苹果 2019 年启动的美国本土制造策略。此举虽不改变全球供应链主干，但释放强烈政策与地缘信号——苹果正将高附加值、低体积比的桌面产品线作为"Made in USA"试点，可能推动其他硬件厂商跟进中高端产品区域化生产。</div>
+</div>
+<div class="section" id="section-5">
 <div class="section-title">⚡ 速览</div>
 <ul class="quick-list">
-<li>🌐 <a href="https://x.com/elonmusk/status/2026135632624652377">马斯克公开支持英国新政党 'Restore Britain'，称其支持率达 7%</a> — 目前无权威信源证实该党为正式注册政党，更多属社交媒体政治姿态表达</li>
-<li>💬 <a href="https://x.com/elonmusk/status/2026533329407975625">马斯克称"觉醒思想病毒"影响冰岛</a> — 个人情绪化言论，无实质事件锚点或可验证事实</li>
+<li>🚀 <a href="https://x.com/theinformation/status/2026411663642030419">Notion 推出 Custom Agents：可监听 Slack 并自动响应的可治理 AI 团队成员</a></li>
+<li>🚀 <a href="https://www.inceptionlabs.ai/blog/introducing-mercury-2">Mercury 2：基于扩散的快速推理 LLM，挑战自回归范式</a></li>
+<li>🚀 <a href="https://x.com/claudeai/status/2026418433911603668">Claude Code 新增 Remote Control 功能，支持手机端远程接管终端会话</a></li>
+<li>🤝 <a href="https://x.com/GoogleDeepMind/status/2026344504781897929">Google DeepMind + YouTube + Wyclef Jean 推出 Music AI Sandbox，面向专业音乐人</a></li>
+<li>📜 <a href="https://x.com/TechCrunch/status/2026438309464125613">全球年龄验证强制令加速：Apple 全球推出工具，英国罚款 Reddit，Discord 推迟部署</a></li>
+<li>🔒 <a href="https://techcrunch.com/2026/02/24/former-l3harris-trenchant-boss-jailed-for-selling-hacking-tools-to-russian-broker/">美国监禁前 L3Harris Trenchant 负责人 7 年，并制裁俄罗斯零日漏洞经纪商</a></li>
+<li>📌 <a href="https://x.com/firstadopter/status/2026304249001324980">The Verge 深度报道：OpenAI 内部治理危机与 Sam Altman 被迫离职始末</a></li>
+<li>🚨 <a href="https://techcrunch.com/2026/02/24/cargurus-data-breach-affects-12-5-million-accounts/">CarGurus 数据泄露事件影响 1250 万用户</a></li>
 </ul>
-<div class="section" id="section-4">
+<div class="section" id="section-6">
 <div class="section-title">💡 专家视角</div>
 <div class="expert-block">
 <div class="expert-block-title">🔥 今日热议焦点</div>
 <div class="debate-topic">
-<div class="debate-topic-name">AI 治理透明度标准</div>
-<div class="debate-meta">共识：头部公司需从原则转向可审计制度 | 分歧：透明度是否会削弱商业竞争力</div>
-<div class="debate-quote">— <a href="https://x.com/fchollet"><a href="https://x.com/fchollet" class="author">@fchollet</a></a>："Anthropic 的 RSP 迭代证明安全治理可以是动态的、可改进的系统，而不是一次性 PR 文档"</div>
-<div class="debate-quote">— <a href="https://x.com/satyanadella"><a href="https://x.com/satyanadella" class="author">@satyanadella</a></a>："制度化治理是 AI 进入企业核心业务的前提，这不是成本而是护城河"</div>
+<div class="debate-topic-name">AMD-Meta 协议的战略意义</div>
+<div class="debate-meta">共识：超大规模客户正加速去 NVIDIA 化，全栈定制成新常态 | 分歧：AMD 能否在软件生态上追平 CUDA 护城河</div>
+<div class="debate-quote">— <a href="https://x.com/LisaSu/status/2026334138203066414"><a href="https://x.com/LisaSu" class="author">@LisaSu</a></a>："This partnership validates our full-stack strategy — silicon, systems, and software co-optimized for Meta's Gen AI workloads."</div>
+<div class="debate-quote">— <a href="https://x.com/PatrickMoorhead/status/2026266545031156139"><a href="https://x.com/PatrickMoorhead" class="author">@PatrickMoorhead</a></a>："The performance-based warrants structure is genius — aligns AMD's execution risk with Meta's deployment milestones and stock upside."</div>
+</div>
+<div class="debate-topic">
+<div class="debate-topic-name">Anthropic 拒绝五角大楼的行业影响</div>
+<div class="debate-meta">共识：这是 AI 公司治理主权与政府强制权的首次正面冲突 | 分歧：其他 AI 公司是否会跟进或妥协</div>
+<div class="debate-quote">— <a href="https://x.com/haydenfield/status/2026298622522880300"><a href="https://x.com/haydenfield" class="author">@haydenfield</a></a>："Anthropic's refusal to budge sets a precedent — but it also tests whether the Defense Production Act can actually compel AI model adaptation."</div>
+<div class="debate-quote">— <a href="https://x.com/firstadopter/status/2026367201456820405"><a href="https://x.com/firstadopter" class="author">@firstadopter</a></a>："This isn't just about one company. It's about whether 'constitutional AI' principles can survive government coercion."</div>
+</div>
+<div class="debate-topic">
+<div class="debate-topic-name">SONIC 开源对具身智能的影响</div>
+<div class="debate-meta">共识：运动追踪作为奖励替代是机器人领域的"下一个 token 预测" | 分歧：42M 参数是否足以泛化至更复杂的操作任务</div>
+<div class="debate-quote">— <a href="https://x.com/DrJimFan/status/2026350142652383587"><a href="https://x.com/DrJimFan" class="author">@DrJimFan</a></a>："SONIC establishes motion tracking as robotics' analog to next-token prediction — enabling predictable, data-driven scaling of embodied intelligence."</div>
+<div class="debate-quote">— <a href="https://x.com/LinusEkenstam/status/2026480924230300110"><a href="https://x.com/LinusEkenstam" class="author">@LinusEkenstam</a></a>："The zero-shot transfer to real robots is impressive, but I'm curious how it handles tasks that require fine manipulation or tool use."</div>
 </div>
 </div>
 <div class="expert-block">
 <div class="expert-block-title">💬 独到洞察</div>
 <div class="insight-card">
-<div class="insight-author"><a href="https://x.com/databricks"><a href="https://x.com/databricks" class="author">@databricks</a></a></div>
-<div class="insight-text">Profound 的融资说明企业正在为'多模型并用'的复杂性买单，这是 AI 基础设施的下一个千亿美元市场</div>
+<div class="insight-author"><a href="https://x.com/karpathy/status/2026360908398862478"><a href="https://x.com/karpathy" class="author">@karpathy</a></a></div>
+<div class="insight-text">MatX's focus on SRAM-DRAM co-optimization is exactly what LLM inference needs — the memory wall is the new compute wall, and they're building the bridge.</div>
 </div>
 <div class="insight-card">
-<div class="insight-author"><a href="https://x.com/lightspeedvp"><a href="https://x.com/lightspeedvp" class="author">@lightspeedvp</a></a></div>
-<div class="insight-text">跨模型分析工具的崛起，标志着 AI 应用从'单点试验'进入'组合优化'阶段，可观测性成为新刚需</div>
+<div class="insight-author"><a href="https://x.com/karpathy/status/2026452488434651264"><a href="https://x.com/karpathy" class="author">@karpathy</a></a></div>
+<div class="insight-text">If model minification leads to highly distributed, atypical representations (e.g., helixes), the solutions may not reflect what actually emerges during training — a key caveat for mechanistic interpretability.</div>
+</div>
+<div class="insight-card">
+<div class="insight-author"><a href="https://x.com/fchollet/status/2026362126256976038"><a href="https://x.com/fchollet" class="author">@fchollet</a></a></div>
+<div class="insight-text">Age verification mandates are a regulatory inevitability, but the implementation details — privacy, UX friction, enforcement — will define whether they're effective or just security theater.</div>
+</div>
+<div class="insight-card">
+<div class="insight-author"><a href="https://x.com/swyx/status/2026426343714427192"><a href="https://x.com/swyx" class="author">@swyx</a></a></div>
+<div class="insight-text">Notion's Custom Agents are the first mainstream productivity platform to treat AI as a 'governable colleague' rather than a one-off assistant — this is the workflow paradigm shift we've been waiting for.</div>
+</div>
+<div class="insight-card">
+<div class="insight-author"><a href="https://x.com/ID_AA_Carmack/status/2026325030628368473"><a href="https://x.com/ID_AA_Carmack" class="author">@ID_AA_Carmack</a></a></div>
+<div class="insight-text">Small algorithmic implementations are a great testbed for interpretability, but we need to be careful about extrapolating from toy models to real LLMs — the solutions might be fundamentally different.</div>
 </div>
 </div>
 <div class="expert-block">
 <div class="expert-block-title">🛠 技术使用反馈</div>
 <div class="tech-feedback-card">
-<div class="tech-feedback-name">Profound 跨模型分析平台</div>
-<div class="tech-feedback-item positive">✅ 企业级用户反馈其能统一追踪 GPT、Claude、Gemini 等 10+ 模型的营销效果，解决了多模型并用场景下的 ROI 归因难题</div>
-<div class="tech-feedback-item negative">⚠️ 目前暂无公开的技术使用吐槽或负面反馈</div>
+<div class="tech-feedback-name">GPT-5.3 Codex</div>
+<div class="tech-feedback-item positive">✅ 显著降低成本，模型驱动压缩提升推理效率</div>
+<div class="tech-feedback-item negative">⚠️ 尚未有大规模生产环境反馈，软件生态兼容性待验证</div>
+</div>
+<div class="tech-feedback-card">
+<div class="tech-feedback-name">Claude Excel + PowerPoint 集成</div>
+<div class="tech-feedback-item positive">✅ 跨办公套件自动化工作流大幅降低采用门槛</div>
+<div class="tech-feedback-item negative">⚠️ 企业级私有插件市场的安全性与审计能力仍需观察</div>
+</div>
+<div class="tech-feedback-card">
+<div class="tech-feedback-name">Cursor 演示优先工作流</div>
+<div class="tech-feedback-item positive">✅ 闭环执行验证显著提升开发者对 Agent 输出的信任度</div>
+<div class="tech-feedback-item negative">⚠️ 视频生成与录制的资源开销可能影响实时性</div>
+</div>
+<div class="tech-feedback-card">
+<div class="tech-feedback-name">SONIC 开源机器人控制</div>
+<div class="tech-feedback-item positive">✅ 零样本迁移至真实机器人，100% 成功率令人印象深刻</div>
+<div class="tech-feedback-item negative">⚠️ 42M 参数是否足以泛化至更复杂的操作任务尚待验证</div>
 </div>
 </div>
 <div class="expert-block">
 <div class="expert-block-title">📊 今日社区情绪</div>
-<div class="sentiment-bar">社区对 Anthropic RSP 第三版的发布普遍持正面态度，认为这是 AI 安全治理从理论走向实践的重要里程碑。Profound 的融资则引发了对「AI 基础设施下一阶段」的讨论，多位投资人和技术专家认为，跨模型可观测性和 ROI 测量工具将成为企业 AI 战略的核心组件。马斯克的政治言论在 AI 社区引发争议，部分人认为其频繁的政治表态正在稀释其在技术领域的影响力。</div>
+<div class="sentiment-bar">社区对 AMD-Meta 协议的反应普遍积极，认为这是 AI 基础设施多元化的关键里程碑，但也有人担忧 AMD 软件生态能否追平 CUDA。Anthropic 拒绝五角大楼的决定引发激烈讨论，支持者认为这是 AI 公司治理主权的胜利，反对者则担心政府可能动用更强硬手段。SONIC 开源引发具身智能社区的兴奋，但也有人质疑其泛化能力。整体而言，今日社区情绪偏向乐观，但对政策风险和技术瓶颈保持警惕。</div>
 </div>
 </div>
 </div>
