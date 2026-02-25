@@ -33,7 +33,7 @@ from .collector import ApifyCollector, NewsnowCollector
 from .processor import Clusterer, Embedder, EventBuilder, Ranker
 from .generator import LLMClient, ReportWriter
 from .publisher import HtmlPublisher
-from .pusher import DingTalkPusher
+from .pusher import DingTalkPusher, ServerChanPusher
 
 logging.basicConfig(
     level=logging.INFO,
@@ -116,7 +116,7 @@ def run_twitter_pipeline(
         threshold=config.processing.cluster_threshold,
     )
     embedded = clusterer.cluster(embedded)
-    clusters = Clusterer.group_by_cluster(embedded)
+    clusters = clusterer.group_by_cluster(embedded)
 
     # Step 4: Build Event Cards
     builder = EventBuilder()
@@ -171,7 +171,16 @@ def run_twitter_pipeline(
         title_map = {"global_ai": "🌍 全球AI洞察", "china_ai": "🇨🇳 中文圈AI洞察"}
         pusher.push(title_map.get(name, name), report, report_url=report_url)
     except Exception as e:
-        logger.error("Push failed for %s: %s", name, e)
+        logger.error("DingTalk push failed for %s: %s", name, e)
+
+    # Step 9: Push to ServerChan (WeChat)
+    if config.push.serverchan_key_env and os.environ.get(config.push.serverchan_key_env):
+        try:
+            sc_pusher = ServerChanPusher(key_env=config.push.serverchan_key_env)
+            title_map = {"global_ai": "🌍 全球AI洞察", "china_ai": "🇨🇳 中文圈AI洞察"}
+            sc_pusher.push(title_map.get(name, name), report, report_url=report_url)
+        except Exception as e:
+            logger.error("ServerChan push failed for %s: %s", name, e)
 
     logger.info("Pipeline %s completed: %d events → report", name, len(events))
     return report
