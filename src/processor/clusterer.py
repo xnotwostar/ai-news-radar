@@ -62,12 +62,14 @@ class Clusterer:
         return tweets
 
     @staticmethod
-    def group_by_cluster(tweets: list[TweetEmbedded]) -> dict[int, list[TweetEmbedded]]:
+    def group_by_cluster(tweets: list[TweetEmbedded]) -> tuple[dict[int, list[TweetEmbedded]], dict]:
         """Group tweets by cluster_id with smart noise filtering.
 
         Noise tweets (cluster_id == -1) are sorted by engagement; only the
         top NOISE_TOP_K are kept and batched into pseudo-clusters of
         NOISE_BATCH_SIZE. Low-value noise is discarded entirely.
+
+        Returns (groups, stats) where stats contains clustering diagnostics.
         """
         groups: dict[int, list[TweetEmbedded]] = {}
         noise: list[TweetEmbedded] = []
@@ -78,6 +80,9 @@ class Clusterer:
             else:
                 groups.setdefault(t.cluster_id, []).append(t)
 
+        real_cluster_count = len(groups)
+        real_cluster_sizes = [len(v) for v in groups.values()]
+
         # Smart noise filtering: keep top-K by engagement
         noise.sort(key=lambda t: t.tweet.engagement, reverse=True)
         kept_noise = noise[:NOISE_TOP_K]
@@ -86,6 +91,7 @@ class Clusterer:
             logger.info("Discarded %d low-value noise tweets, kept top %d", discarded, len(kept_noise))
 
         # Pack kept noise into pseudo-clusters of NOISE_BATCH_SIZE
+        pseudo_cluster_count = 0
         next_id = max(groups.keys(), default=-1) + 1
         for i in range(0, len(kept_noise), NOISE_BATCH_SIZE):
             batch = kept_noise[i : i + NOISE_BATCH_SIZE]
@@ -93,5 +99,25 @@ class Clusterer:
                 t.cluster_id = next_id
             groups[next_id] = batch
             next_id += 1
+            pseudo_cluster_count += 1
 
-        return groups
+        stats = {
+            "total_tweets_input": len(tweets),
+            "real_clusters": real_cluster_count,
+            "real_cluster_sizes": real_cluster_sizes,
+            "noise_total": len(noise),
+            "noise_kept": len(kept_noise),
+            "noise_discarded": discarded,
+            "pseudo_clusters": pseudo_cluster_count,
+            "total_clusters": real_cluster_count + pseudo_cluster_count,
+        }
+
+        logger.info(
+            "Cluster stats: %d tweets → %d real clusters (sizes: %s) + "
+            "%d noise (%d kept → %d pseudo) = %d total clusters",
+            len(tweets), real_cluster_count, real_cluster_sizes,
+            len(noise), len(kept_noise), pseudo_cluster_count,
+            stats["total_clusters"],
+        )
+
+        return groups, stats

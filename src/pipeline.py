@@ -95,13 +95,18 @@ def run_twitter_pipeline(
     logger.info("PIPELINE: %s", name)
     logger.info("=" * 60)
 
+    pipeline_stats: dict = {"pipeline": name, "date": date_str}
+
     # Step 1: Collect
     collector = ApifyCollector()
-    tweets: list[TweetRaw] = collector.collect(config.source.list_id or "")
+    tweets, collect_stats = collector.collect(config.source.list_id or "")
+    pipeline_stats["collector"] = collect_stats
     _save_raw(tweets, f"{date_str}_{name}.json")
 
     if not tweets:
         logger.warning("No tweets collected for %s, skipping", name)
+        pipeline_stats["result"] = "no_tweets"
+        _save_stats(pipeline_stats, f"{date_str}_{name}_stats.json")
         return None
 
     # Step 2: Embed
@@ -110,22 +115,29 @@ def run_twitter_pipeline(
         dimensions=embed_cfg.dimensions,
     )
     embedded = embedder.embed_tweets(tweets)
+    pipeline_stats["embedded_count"] = len(embedded)
 
     # Step 3: Cluster
     clusterer = Clusterer(
         threshold=config.processing.cluster_threshold,
     )
     embedded = clusterer.cluster(embedded)
-    clusters = Clusterer.group_by_cluster(embedded)
+    clusters, cluster_stats = Clusterer.group_by_cluster(embedded)
+    pipeline_stats["cluster"] = cluster_stats
+    pipeline_stats["cluster_threshold"] = config.processing.cluster_threshold
 
     # Step 4: Build Event Cards
     builder = EventBuilder()
     events: list[EventCard] = builder.build_events(clusters, date_str.replace("-", ""))
+    pipeline_stats["events_built"] = len(events)
     _save_events(events, f"{date_str}_{name}_events.json")
 
     # Step 5: Rank
     ranker = Ranker()
+    events_before_rank = len(events)
     events = ranker.rank(events)
+    pipeline_stats["events_after_rank"] = len(events)
+    pipeline_stats["events_cut_by_rank"] = events_before_rank - len(events)
 
     # Step 6: Generate Report
     llm = LLMClient(chain=report_chain)
@@ -182,6 +194,10 @@ def run_twitter_pipeline(
         except Exception as e:
             logger.error("ServerChan push failed for %s: %s", name, e)
 
+    pipeline_stats["final_events"] = len(events)
+    pipeline_stats["result"] = "success"
+    _save_stats(pipeline_stats, f"{date_str}_{name}_stats.json")
+
     logger.info("Pipeline %s completed: %d events → report", name, len(events))
     return report
 
@@ -227,6 +243,15 @@ def _save_report(report: str, filename: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(report, encoding="utf-8")
     logger.info("Saved report: %s", path)
+
+
+def _save_stats(stats: dict, filename: str) -> None:
+    """Save pipeline stats to docs/reports/ (version-controlled)."""
+    path = PROJECT_ROOT / "docs" / "reports" / filename
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(stats, f, ensure_ascii=False, indent=2)
+    logger.info("Saved pipeline stats: %s", path)
 
 
 # ---------------------------------------------------------------------------

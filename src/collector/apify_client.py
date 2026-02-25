@@ -23,8 +23,8 @@ class ApifyCollector:
         self.token = token or os.environ["APIFY_TOKEN"]
         self.client = ApifyClient(self.token)
 
-    def collect(self, list_id: str, max_items: int = DEFAULT_MAX_ITEMS) -> list[TweetRaw]:
-        """Run Apify actor and return parsed, deduplicated tweets."""
+    def collect(self, list_id: str, max_items: int = DEFAULT_MAX_ITEMS) -> tuple[list[TweetRaw], dict]:
+        """Run Apify actor and return parsed, deduplicated tweets plus collection stats."""
         logger.info("Starting Apify collection for list %s (max %d)", list_id, max_items)
 
         run_input = {
@@ -37,28 +37,46 @@ class ApifyCollector:
 
         cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
         tweets: list[TweetRaw] = []
+        filtered_by_time = 0
+        filtered_by_length = 0
+        parse_errors = 0
 
         for item in dataset_items:
             try:
                 tweet = self._parse_item(item)
                 if tweet.created_at and tweet.created_at < cutoff:
+                    filtered_by_time += 1
                     continue
                 if len(tweet.text.strip()) < 20:
+                    filtered_by_length += 1
                     continue
                 tweets.append(tweet)
             except Exception as e:
+                parse_errors += 1
                 logger.warning("Failed to parse tweet item: %s", e)
                 continue
 
-        raw_count = len(tweets)
+        after_filter = len(tweets)
         tweets = self._dedup(tweets)
+
+        stats = {
+            "apify_max_items": max_items,
+            "apify_returned": len(dataset_items),
+            "filtered_by_24h": filtered_by_time,
+            "filtered_by_min_length": filtered_by_length,
+            "parse_errors": parse_errors,
+            "after_basic_filter": after_filter,
+            "dedup_removed": after_filter - len(tweets),
+            "after_dedup": len(tweets),
+        }
+
         logger.info(
-            "Collected %d tweets (from %d raw items, %d after dedup)",
-            len(tweets), len(dataset_items), len(tweets),
+            "Collector stats: apify_returned=%d → 24h=-%d, length=-%d, "
+            "dedup=-%d → final=%d",
+            stats["apify_returned"], filtered_by_time, filtered_by_length,
+            stats["dedup_removed"], len(tweets),
         )
-        if raw_count != len(tweets):
-            logger.info("Dedup removed %d duplicates", raw_count - len(tweets))
-        return tweets
+        return tweets, stats
 
     @staticmethod
     def _dedup(tweets: list[TweetRaw]) -> list[TweetRaw]:
