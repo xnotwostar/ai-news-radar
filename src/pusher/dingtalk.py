@@ -26,12 +26,15 @@ class DingTalkPusher:
 
     def __init__(self, webhook_url: str | None = None, webhook_env: str | None = None):
         if webhook_url:
-            self.webhook_urls = [u.strip() for u in webhook_url.split(",") if u.strip()]
+            raw = webhook_url
         elif webhook_env:
             raw = os.environ[webhook_env]
-            self.webhook_urls = [u.strip() for u in raw.split(",") if u.strip()]
         else:
             raise ValueError("Must provide webhook_url or webhook_env")
+        # Split on comma or newline, strip whitespace/newlines from each URL
+        self.webhook_urls = [
+            u.strip() for u in re.split(r'[,\n\r]+', raw) if u.strip()
+        ]
 
     def push(self, title: str, markdown_text: str, report_url: str | None = None) -> bool:
         """Push report to all configured webhooks."""

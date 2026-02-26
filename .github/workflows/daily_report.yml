@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pages: read
 
 jobs:
   generate:
@@ -29,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run pipeline
+      - name: Run pipeline (generate only, no push)
         timeout-minutes: 30
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
@@ -38,11 +39,9 @@ jobs:
           DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          DINGTALK_GLOBAL_WEBHOOK: ${{ secrets.DINGTALK_GLOBAL_WEBHOOK }}
-          DINGTALK_CHINA_WEBHOOK: ${{ secrets.DINGTALK_CHINA_WEBHOOK }}
-          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           PAGES_URL: ${{ vars.PAGES_URL }}
-        run: python -m src.pipeline
+        run: python -m src.pipeline --no-push
 
       - name: Persist data and deploy reports
         run: |
@@ -51,3 +50,26 @@ jobs:
           git add data/ docs/
           git diff --cached --quiet || git commit -m "daily: $(date +%Y-%m-%d)"
           git push
+
+      - name: Wait for GitHub Pages deployment
+        run: |
+          echo "Waiting for Pages deployment..."
+          for i in $(seq 1 30); do
+            sleep 10
+            STATUS=$(gh api repos/${{ github.repository }}/pages/builds/latest --jq '.status' 2>/dev/null || echo "unknown")
+            echo "  Attempt $i/30: status=$STATUS"
+            if [ "$STATUS" = "built" ]; then
+              echo "Pages deployed successfully!"
+              break
+            fi
+          done
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Push notifications (DingTalk + ServerChan)
+        env:
+          DINGTALK_GLOBAL_WEBHOOK: ${{ secrets.DINGTALK_GLOBAL_WEBHOOK }}
+          DINGTALK_CHINA_WEBHOOK: ${{ secrets.DINGTALK_CHINA_WEBHOOK }}
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+          PAGES_URL: ${{ vars.PAGES_URL }}
+        run: python -m src.pipeline --push-only

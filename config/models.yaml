@@ -1,6 +1,6 @@
 report_generation:
-  - provider: anthropic
-    model: claude-sonnet-4-5-20250929
+  - provider: google
+    model: gemini-2.5-pro
     priority: 1
     timeout: 600
   - provider: dashscope

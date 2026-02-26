@@ -13,6 +13,7 @@ from ..schemas import LLMModelEntry
 
 logger = logging.getLogger(__name__)
 
+GOOGLE_CHAT_URL = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
 DASHSCOPE_CHAT_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
 DEEPSEEK_CHAT_URL = "https://api.deepseek.com/v1/chat/completions"
 
@@ -56,6 +57,11 @@ class LLMClient:
     ) -> str:
         if entry.provider == "anthropic":
             return self._call_anthropic(entry, system_prompt, user_prompt, temperature, max_tokens)
+        elif entry.provider == "google":
+            return self._call_openai_compat(
+                entry, GOOGLE_CHAT_URL, "GOOGLE_API_KEY",
+                system_prompt, user_prompt, temperature, max_tokens,
+            )
         elif entry.provider == "dashscope":
             return self._call_openai_compat(
                 entry, DASHSCOPE_CHAT_URL, "DASHSCOPE_API_KEY",
