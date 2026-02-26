@@ -31,7 +31,14 @@ from .schemas import (
 )
 import hashlib
 
-from .collector import ApifyCollector, NewsnowCollector, RssCollector
+from .collector import (
+    ApifyCollector,
+    CN_AI_KEYWORDS,
+    CN_AI_SPECIFIC_SOURCES,
+    CN_RSS_FEEDS,
+    NewsnowCollector,
+    RssCollector,
+)
 from .processor import Clusterer, Embedder, EventBuilder, Ranker
 from .generator import LLMClient, ReportWriter
 from .publisher import HtmlPublisher, PosterGenerator
@@ -106,10 +113,18 @@ def run_twitter_pipeline(
         logger.warning("No tweets collected for %s, skipping", name)
         return None
 
-    # Step 1.5: Merge RSS feeds (global_ai only)
-    if name == "global_ai":
+    # Step 1.5: Merge RSS feeds (global_ai + china_ai)
+    rss_feeds_map: dict[str, dict] = {
+        "global_ai": {},  # default feeds/keywords/ai_specific_sources
+        "china_ai": {
+            "feeds": CN_RSS_FEEDS,
+            "keywords": CN_AI_KEYWORDS,
+            "ai_specific_sources": CN_AI_SPECIFIC_SOURCES,
+        },
+    }
+    if name in rss_feeds_map:
         try:
-            rss_collector = RssCollector(hours=24)
+            rss_collector = RssCollector(hours=24, **rss_feeds_map[name])
             rss_items = rss_collector.collect()
             _save_raw(
                 [{"title": r.title, "summary": r.summary, "url": r.url,

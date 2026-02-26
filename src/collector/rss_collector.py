@@ -1,4 +1,4 @@
-"""RSS feed collector for global AI news."""
+"""RSS feed collector for global & China AI news."""
 
 from __future__ import annotations
 
@@ -76,12 +76,51 @@ AI_SPECIFIC_SOURCES = {
     "Hugging Face", "NVIDIA Blog", "Lobsters AI", "Reddit ML",
 }
 
+# ---------------------------------------------------------------------------
+# China / Chinese-language AI feeds
+# ---------------------------------------------------------------------------
+CN_RSS_FEEDS = {
+    "量子位": "https://rsshub.app/qbitai",
+    "36氪AI": "https://rsshub.app/36kr/motif/452",
+    "IT之家": "https://rsshub.app/ithome/tag/AI",
+    "虎嗅": "https://rsshub.app/huxiu/tag/288",
+    "InfoQ中文": "https://rsshub.app/infoq/recommend",
+    "OSCHINA": "https://rsshub.app/oschina/news/industry/ai",
+    "少数派": "https://rsshub.app/sspai/tag/AI",
+    "TechNode": "https://technode.com/feed/",
+}
+
+CN_AI_KEYWORDS = [
+    "AI", "人工智能", "大模型", "LLM", "GPT", "机器学习", "深度学习",
+    "神经网络", "Transformer", "生成式", "智能体", "Agent",
+    "OpenAI", "Anthropic", "Claude", "Gemini", "DeepSeek", "通义", "文心",
+    "百度", "阿里云", "腾讯", "字节", "华为", "商汤", "科大讯飞",
+    "芯片", "算力", "GPU", "英伟达", "NVIDIA",
+    "自动驾驶", "机器人", "具身智能",
+    "扩散模型", "Diffusion", "Stable Diffusion", "Midjourney", "Sora",
+    "RAG", "向量", "微调", "推理", "训练",
+    "开源", "模型", "参数", "Token",
+    "监管", "安全", "对齐", "幻觉",
+]
+
+CN_AI_SPECIFIC_SOURCES = {
+    "量子位", "36氪AI", "OSCHINA",
+}
+
 
 class RssCollector:
     """Fetch and filter AI-related articles from RSS feeds."""
 
-    def __init__(self, feeds: dict[str, str] | None = None, hours: int = 24):
+    def __init__(
+        self,
+        feeds: dict[str, str] | None = None,
+        hours: int = 24,
+        keywords: list[str] | None = None,
+        ai_specific_sources: set[str] | None = None,
+    ):
         self.feeds = feeds or RSS_FEEDS
+        self.keywords = keywords or AI_KEYWORDS
+        self.ai_specific_sources = ai_specific_sources or AI_SPECIFIC_SOURCES
         self.hours = hours
         self.cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
 
@@ -139,7 +178,7 @@ class RssCollector:
         return items
 
     def _is_ai_related(self, item: RssItem) -> bool:
-        if item.source in AI_SPECIFIC_SOURCES:
+        if item.source in self.ai_specific_sources:
             return True
         text = f"{item.title} {item.summary}".lower()
-        return any(kw.lower() in text for kw in AI_KEYWORDS)
+        return any(kw.lower() in text for kw in self.keywords)
