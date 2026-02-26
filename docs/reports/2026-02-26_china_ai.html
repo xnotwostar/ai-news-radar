@@ -419,225 +419,140 @@
   <div class="date">2026年2月26日 · 星期四</div>
 </div>
 <div class="container">
-  <nav class="toc"><a href="#section-0">🔥 重大发布与产品</a><a href="#section-1">🔬 技术与研究</a><a href="#section-2">💰 融资与市场</a><a href="#section-3">🔧 芯片与算力</a><a href="#section-4">⚡ 速览</a><a href="#section-5">💡 专家视角</a><a href="#section-6">🇨🇳 国内热搜速递</a></nav>
-<div class="section-title"><strong>核心判断</strong>：2026年初AI已越过“能力临界点”进入“系统接管期”——Agent不再辅助工作流，而是定义新工作流；国产模型与硬件正从单点替代转向全栈协同（Qwen3.5+Unitree+DJI+Paper），而能源、电力等底层基础设施的规模优势开始反向赋能AI出海竞争力。</div>
+  <nav class="toc"><a href="#section-0">🇨🇳 国内热搜速递</a></nav>
 <div class="core-judgment">
+<p>AI 交互范式正发生根本性转变，从“对话式辅助”全面转向“任务型代理（Agent）”。英伟达开源的人形机器人控制框架、Anthropic 的企业级 Agent 套件以及 Notion 等工具的 Agent 化，标志着无论在物理世界（机器人）还是数字世界（工作流），以 Agent 为核心、可交付成果的自主系统正成为新的技术奇点和商业战场。中国厂商如阿里通义千问，正通过提供高效、开放的多模态基座，为这波 Agent 浪潮提供关键基础设施。</p>
 </div>
-<div class="section" id="section-0">
-<div class="section-title">🔥 重大发布与产品</div>
-<div class="event-card normal">
-<span class="tag tag-product">🚀 产品</span>
-<div class="event-title">🚀 <a href="https://x.com/DrJimFan/status/2026350142652383587"><strong>SONIC &amp; EgoScale：开源具身智能新范式</strong></a></div>
-<div class="event-highlight">42M参数Transformer实现零样本跨模态指令控制Unitree G1，100%任务成功率</div>
-<div class="event-analysis">SONIC将人类视频直接作为预训练信号，终结了RL奖励工程依赖；EgoScale用20,000小时人类视频+4小时机器人数据达成54%性能跃升，标志着具身智能工业化训练路径正式确立。NVIDIA Isaac Lab加速10,000×使128GPU三天完成训练，中国团队已具备端到端机器人智能栈自研能力。</div>
+<p>### 🔥 重大发布与产品</p>
+<div class="event-card critical">
+<span class="tag tag-critical">🔴 重磅</span>
+<div class="event-title">🔴 <a href="https://x.com/DrJimFan/status/2026350142652383587"><strong>英伟达开源人形机器人控制框架 SONIC 与 EgoScale</strong></a></div>
+<div class="event-highlight">4200万参数 Transformer 模型，实现对真实机器人的零样本多模态指令迁移。</div>
+<div class="event-analysis">这不仅是又一个机器人演示，而是具身智能的范式革命。英伟达开源生产级的、基于人类规模数据和物理加速仿真的控制框架，大幅降低了具身智能研究门槛，标志着行业正从强化学习（RL）转向数据驱动的人类化身基础模型。</div>
 <div class="event-sources">
 <span class="event-sources-label">📌 来源</span>
 <a class="source-tag twitter" href="https://x.com/DrJimFan/status/2026350142652383587">@DrJimFan</a>
 </div>
 </div>
-<div class="event-card normal">
-<span class="tag tag-product">🚀 产品</span>
-<div class="event-title">🚀 <a href="https://x.com/alibaba_cloud/status/2026507649643155811"><strong>Qwen3.5-397B-A17B：全球首个17B激活的397B多模态大模型</strong></a></div>
-<div class="event-highlight">总参397B仅17B激活，支持GUI交互、视频理解与智能体工作流</div>
-<div class="event-analysis">该设计打破“大模型=高推理成本”认知，门控Delta网络+稀疏MoE架构使Qwen3.5在A100上实测延迟低于Qwen2.5-72B，且原生支持MCP协议与桌面Agent调度，为中国AI原生智能体提供首个高性能、低门槛、可商用的开源基座。</div>
-<div class="event-sources">
-<span class="event-sources-label">📌 来源</span>
-<a class="source-tag twitter" href="https://x.com/alibaba_cloud/status/2026507649643155811">@alibaba_cloud</a>
-</div>
-</div>
-<div class="event-card normal">
-<span class="tag tag-product">🚀 产品</span>
-<div class="event-title">🚀 <a href="https://x.com/indigox/status/2026435157092348335"><strong>Anthropic发布Claude Agents企业级套件与Claude Code CLI工具</strong></a></div>
-<div class="event-highlight">深度嵌入Excel/Slack/桌面工作流，交付成品而非草稿；CLI编程Agent支持PR中@claude自动修复</div>
-<div class="event-analysis">Anthropic已完成从模型公司到企业智能OS提供商的战略跃迁：私有插件市场+OpenTelemetry审计+MCP连接器构成三层可信底座，而Claude Code将IDE降维为可选界面，CLI成为开发者事实标准接口。</div>
-<div class="event-sources">
-<span class="event-sources-label">📌 来源</span>
-<a class="source-tag twitter" href="https://x.com/indigox/status/2026435157092348335">@indigox</a>
-</div>
-</div>
-<div class="section" id="section-1">
-<div class="section-title">🔬 技术与研究</div>
-<div class="event-card normal">
-<span class="tag tag-research">🔬 研究</span>
-<div class="event-title">🔬 <a href="https://x.com/op7418/status/2026520431700881816"><strong>AlphaFold 3发布：首个多分子联合结构预测模型</strong></a></div>
-<div class="event-highlight">支持蛋白质-DNA-RNA-配体-修饰残基联合建模，精度突破小分子相互作用预测瓶颈</div>
-<div class="event-analysis">AlphaFold 3不是升级版，而是新物种：其输出不再是静态PDB文件，而是动态结合能谱与构象概率分布，直接对接药物虚拟筛选管线。配套AlphaFold Server免费开放，将加速中国Biotech企业绕过昂贵计算集群，以API方式接入结构生物学基础设施。</div>
-<div class="event-sources">
-<span class="event-sources-label">📌 来源</span>
-<a class="source-tag twitter" href="https://x.com/op7418/status/2026520431700881816">@op7418</a>
-</div>
-</div>
-<div class="event-card normal">
-<span class="tag tag-research">🔬 研究</span>
-<div class="event-title">🔬 <a href="https://x.com/dotey/status/2026146560862474482"><strong>规范驱动开发（SDD）范式反思：让AI Agent共写活文档</strong></a></div>
-<div class="event-highlight">规范应由开发者与协调Agent共同读写，而非单向人类输出</div>
-<div class="event-analysis">该观点直击AI工程化最大隐性成本——文档熵增。当Agent在执行中自动同步约束变更、触发规范更新，并只反馈关键信号（如“复用Theme Provider”），意味着软件生命周期管理正从“人守契约”转向“人-Agent共治契约”，是可持续AI协作的底层协议雏形。</div>
-<div class="event-sources">
-<span class="event-sources-label">📌 来源</span>
-<a class="source-tag twitter" href="https://x.com/dotey/status/2026146560862474482">@dotey</a>
-</div>
-</div>
-<div class="event-card normal">
-<span class="tag tag-research">🔬 研究</span>
-<div class="event-title">🔬 <a href="https://x.com/dongxi_nlp/status/2026778028747973104"><strong>2026年初AI Agent能力突变：两个月内跨域泛化能力质变</strong></a></div>
-<div class="event-highlight">Coding agent能力跃迁并快速渗透至非技术用户，引发行业级焦虑</div>
-<div class="event-analysis">这不是渐进优化，而是系统级涌现：当Agent能稳定完成“查邮件→提取会议纪要→生成PPT→预约会议室→同步飞书日程”全链路时，其价值已脱离工具层，上升为组织OS级基础设施。中国开发者社区对这一拐点的敏感度显著高于欧美。</div>
-<div class="event-sources">
-<span class="event-sources-label">📌 来源</span>
-<a class="source-tag twitter" href="https://x.com/dongxi_nlp/status/2026778028747973104">@dongxi_nlp</a>
-</div>
-</div>
-<div class="section" id="section-2">
-<div class="section-title">💰 融资与市场</div>
-<div class="event-card normal">
-<span class="tag tag-funding">💰 融资</span>
-<div class="event-title">💰 <a href="https://x.com/alibaba_cloud/status/2026239706523115592"><strong>阿里云推Qwen Coding Plan：$5/月起订阅制AI编程服务上线</strong></a></div>
-<div class="event-highlight">Lite版$5/月含90K请求，开箱支持Cursor/Cline/Claude Code等主流工具链</div>
-<div class="event-analysis">此举将MaaS（Model-as-a-Service）价格锚定在开发者可感知阈值，倒逼竞品放弃“高价试用+高价订阅”双轨制。对中小SaaS厂商而言，$5/月即可获得企业级代码生成与审查能力，AI编程正从“奢侈品”变为“水电煤”。</div>
+<div class="event-card critical">
+<span class="tag tag-critical">🔴 重磅</span>
+<div class="event-title">🔴 <a href="https://x.com/alibaba_cloud/status/2026239706523115592"><strong>阿里云发布通义千问 3.5 Plus，原生多模态大模型</strong></a></div>
+<div class="event-highlight">3970亿/170亿混合架构，结合开放权重与每月5美元的开发者编码计划。</div>
+<div class="event-analysis">通义千问 3.5 Plus 结合了开放权重、极致的推理效率和生产级工具，重新定义了企业级多模态 Agent 的性价比边界，直接在云 AI 平台和 Agent 基础设施层面挑战闭源专有模型。</div>
 <div class="event-sources">
 <span class="event-sources-label">📌 来源</span>
 <a class="source-tag twitter" href="https://x.com/alibaba_cloud/status/2026239706523115592">@alibaba_cloud</a>
 </div>
 </div>
+<div class="event-card critical">
+<span class="tag tag-critical">🔴 重磅</span>
+<div class="event-title">🔴 <a href="https://x.com/indigox/status/2026435157092348335"><strong>Anthropic 发布企业级 AI Agent 套件：Claude Enterprise Agents + Cowork</strong></a></div>
+<div class="event-highlight">深度嵌入 Office/Slack/桌面的 Agent，支持跨应用自动化与私有插件。</div>
+<div class="event-analysis">此举标志着 Anthropic 从“对话模型提供商”跃迁为“企业智能操作系统构建者”。通过 Agent 原生架构、垂直插件生态和本地-云协同执行，Anthropic 首次系统性挑战微软 Copilot 在企业工作流中的主导地位。</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag twitter" href="https://x.com/indigox/status/2026435157092348335">@indigox</a>
+</div>
+</div>
 <div class="event-card normal">
-<span class="tag tag-funding">💰 融资</span>
-<div class="event-title">💰 <a href="https://x.com/SixthTone/status/2026281284088041547"><strong>中国用电量超欧盟+俄罗斯+印度+日本总和</strong></a></div>
-<div class="event-highlight">当前中国年用电量达9.8万亿kWh，可再生能源装机占比突破52%</div>
-<div class="event-analysis">该数据不仅是能源指标，更是AI算力战略支点：充沛、低价、清洁的电力供应，使中国在训练千卡集群、部署边缘推理节点、建设智算中心时具备不可复制的成本与碳排优势，将成为吸引全球AI企业东迁的关键基础设施筹码。</div>
+<span class="tag tag-product">🚀 产品</span>
+<div class="event-title">🚀 <a href="https://x.com/dontbesilent/status/2026344914506948942"><strong>Anthropic 推出原生 CLI 编程工具 Claude Code</strong></a></div>
+<div class="event-highlight">专注上下文精简、工作流嵌入与模型-工具数据飞轮的命令行 Agent。</div>
+<div class="event-analysis">这标志着 AI 编程范式从“IDE 内辅助补全”转向“以 Agent 为中心的工作流调度”。CLI 正成为下一代开发者的人机交互关键形态，大模型厂商也借此通过垂直工具链深度绑定用户行为与训练数据。</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag twitter" href="https://x.com/dontbesilent/status/2026344914506948942">@dontbesilent</a>
+</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-product">🚀 产品</span>
+<div class="event-title">🚀 <a href="https://x.com/Xiaomi/status/2026628284180476169"><strong>小米 17 Ultra 发布：全球首款搭载徕卡 APO 镜头的旗舰手机</strong></a></div>
+<div class="event-highlight">配备1英寸超动态主摄与可动机械光学变焦系统。</div>
+<div class="event-analysis">此举标志着手机影像从“计算摄影主导”向“专业级光学硬件回归”的关键转折。这或将倒逼安卓阵营在光学设计、供应链协同与影像算法耦合上全面升级。</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag twitter" href="https://x.com/Xiaomi/status/2026628284180476169">@Xiaomi</a>
+</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-product">🚀 产品</span>
+<div class="event-title">🚀 <a href="https://x.com/dingyi/status/2026282743454441491"><strong>Notion 正式发布 Custom Agent 功能</strong></a></div>
+<div class="event-highlight">Notion 正式进入 AI Agent 构建平台赛道，与 Perplexity 等产品形成竞争。</div>
+<div class="event-analysis">Notion 凭借其庞大的用户基础和低代码工作流优势入局，将加速 Agent 从实验性工具向主流生产力基础设施的演进，并对 LangChain 等 API-first 的 Agent 平台构成用户体验层面的压力。</div>
+<div class="event-analysis">### 💰 融资与市场</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag twitter" href="https://x.com/dingyi/status/2026282743454441491">@dingyi</a>
+</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-funding">📊 市场</span>
+<div class="event-title">📊 <a href="https://x.com/SixthTone/status/2026281284088041547"><strong>中国总用电量超过欧盟、俄罗斯、印度、日本总和</strong></a></div>
+<div class="event-highlight">中国电力消耗达新里程碑，增长主要由可再生能源驱动。</div>
+<div class="event-analysis">这一里程碑事件表明中国在电气化和能源转型上达到了前所未有的规模，不仅是全球最大的能源消费国，也正在重塑全球电力需求、电网投资和清洁技术供应链的格局。</div>
 <div class="event-sources">
 <span class="event-sources-label">📌 来源</span>
 <a class="source-tag twitter" href="https://x.com/SixthTone/status/2026281284088041547">@SixthTone</a>
 </div>
 </div>
 <div class="event-card normal">
-<span class="tag tag-funding">💰 融资</span>
-<div class="event-title">💰 <a href="https://x.com/FinanceYF5/status/2026259058949492914"><strong>AI广告化：OpenAI 8亿MAU仅5–10%付费，广告成必然选择</strong></a></div>
-<div class="event-highlight">免费用户多用于低价值任务，强付费动机缺失，互联网历史规律指向广告变现</div>
-<div class="event-analysis">这预示着2026年将出现首批原生AI广告协议：对话内推荐位、注意力计量SDK、隐私保护型上下文广告引擎。对出海厂商而言，需提前布局合规广告框架，避免在欧美市场因数据策略失当触发GDPR重罚。</div>
-<div class="event-sources">
-<span class="event-sources-label">📌 来源</span>
-<a class="source-tag twitter" href="https://x.com/FinanceYF5/status/2026259058949492914">@FinanceYF5</a>
-</div>
-</div>
-<div class="section" id="section-3">
-<div class="section-title">🔧 芯片与算力</div>
-<div class="event-card normal">
-<span class="tag tag-chip">🔧 芯片</span>
-<div class="event-title">🔧 <a href="https://x.com/UnitreeRobotics/status/2026221314676228580"><strong>Unitree As2四足机器人发布：工业级性能+开放二次开发</strong></a></div>
-<div class="event-highlight">峰值扭矩90N·m，IP54防护，15kg载荷，续航13km，支持ROS2/MoveIt2原生集成</div>
-<div class="event-analysis">As2不是消费玩具，而是具身智能的“X86平台”：其开放性（SDK/固件/通信协议全公开）与工业参数（防水、长续航、高扭矩）组合，正吸引国内巡检、物流、电力等B端客户批量采购，推动国产机器人从Demo走向产线部署。</div>
-<div class="event-sources">
-<span class="event-sources-label">📌 来源</span>
-<a class="source-tag twitter" href="https://x.com/UnitreeRobotics/status/2026221314676228580">@UnitreeRobotics</a>
-</div>
-</div>
-<div class="event-card normal">
-<span class="tag tag-chip">🔧 芯片</span>
-<div class="event-title">🔧 <a href="https://x.com/DJIGlobal/status/2026278284812767608"><strong>DJI全影像链路新品矩阵发布：Osmo Action 6至Inspire 3五款齐发</strong></a></div>
-<div class="event-highlight">覆盖手机云台（Mobile 8）、运动相机（Action 6）、口袋相机（Pocket 3）、手持云台（RS 5）、专业航拍（Inspire 3）</div>
-<div class="event-analysis">DJI此次并非产品迭代，而是构建AI影像生产力闭环：所有新品均预埋AI ISP芯片与视频理解接口，为后续接入Qwen-VL、Claude Vision等多模态模型预留硬件通道，形成“硬件即AI入口”的护城河。</div>
-<div class="event-sources">
-<span class="event-sources-label">📌 来源</span>
-<a class="source-tag twitter" href="https://x.com/DJIGlobal/status/2026278284812767608">@DJIGlobal</a>
-</div>
-</div>
-<div class="event-card normal">
-<span class="tag tag-chip">🔧 芯片</span>
-<div class="event-title">🔧 <a href="https://x.com/dingyi/status/2026505748469944563"><strong>Paper桌面版发布：原生支持MCP协议与AI Agent对话生成UI/UX设计</strong></a></div>
-<div class="event-highlight">用户直接对话Agent生成可交付设计稿，绕过Figma高学习成本与封闭生态</div>
-<div class="event-analysis">Paper以MCP为桥梁，将设计工作流从“拖拽+调参”升级为“意图表达+迭代确认”，其底层是国产设计工具首次实现与多模态大模型的协议级对齐。对出海设计SaaS而言，这意味着可快速替换Figma在东南亚、拉美等新兴市场的份额。</div>
-<div class="event-sources">
-<span class="event-sources-label">📌 来源</span>
-<a class="source-tag twitter" href="https://x.com/dingyi/status/2026505748469944563">@dingyi</a>
-</div>
-</div>
-<div class="section" id="section-4">
-<div class="section-title">⚡ 速览</div>
+<span class="tag tag-product">🤝 合作</span>
+<div class="event-title">🤝 <a href="https://x.com/Huawei/status/2026212682534429092"><strong>华为 DigiTruck 全球数字赋能计划深入非洲</strong></a></div>
+<div class="event-highlight">太阳能移动教室落地乌干达，并与南非国家公务员学院签约。</div>
+<div class="event-analysis">这标志着华为正从 ICT 基础设施供应商向系统性数字包容推动者升级。通过轻量化、可复制的公益教育载体（DigiTruck）和制度化合作，华为在新兴市场构建了政企协同的数字人才生态，具备显著的 ESG 影响力和长期市场培育价值。</div>
+<div class="event-analysis">### ⚡ 速览</div>
 <div class="quick-grid">
-<div class="quick-item"><span class="qi-emoji">🚀</span><span class="qi-text"><a href="https://x.com/op7418/status/2026325142398529926">Seedance 2.0发布：Qwen+Wan多模型协同生成式媒体管线落地</a><span class="qi-source">@op7418</span></span></div>
-<div class="quick-item"><span class="qi-emoji">🚀</span><span class="qi-text"><a href="https://x.com/yangyi/status/2026326653539098900">牛马AI上线截图识别+自动工单创建插件，填补IM失效后轻量自动化空白</a><span class="qi-source">@yangyi</span></span></div>
-<div class="quick-item"><span class="qi-emoji">🚀</span><span class="qi-text"><a href="https://x.com/yangyi/status/2026213208042922028">Yangyi发布Qwen-VL-1.0.22稳定版，修复多处兼容性问题</a><span class="qi-source">@yangyi</span></span></div>
-<div class="quick-item"><span class="qi-emoji">🤝</span><span class="qi-text"><a href="https://x.com/dontbesilent/status/2026171282107351522">豆包AI手机与openclaw通过飞书实现双向Agent协同，属黑客式PoC</a><span class="qi-source">@dontbesilent</span></span></div>
-<div class="quick-item"><span class="qi-emoji">📜</span><span class="qi-text"><a href="https://x.com/Huawei/status/2026142551103910215">Huawei启动‘Transform’工业智能计划，对标Siemens与GE Digital</a><span class="qi-source">@Huawei</span></span></div>
-<div class="quick-item"><span class="qi-emoji">🌐</span><span class="qi-text"><a href="https://x.com/vista8/status/2026485568125940156">Knowledge Site Creator Skill开源：一句话生成结构化知识网站</a><span class="qi-source">@vista8</span></span></div>
-</div>
-<div class="section" id="section-5">
-<div class="section-title">💡 专家视角</div>
-<div class="expert-block">
-<div class="expert-block-title">🔥 今日热议焦点</div>
-<div class="debate-topic">
-<div class="debate-topic-name">AI Agent能力临界点</div>
-<div class="debate-meta">共识：2026年初是Agent从“能做”到“敢托付”的分水岭 | 分歧：是否已具备替代初级工程师的稳定性？</div>
-<div class="debate-quote">— <a href="https://x.com/dongxi_nlp/status/2026778028747973104"><a href="https://x.com/dongxi_nlp" class="author">@dongxi_nlp</a></a>："春节后两周，我团队用Claude Agents完成了整套CRM需求分析→数据库建模→API文档生成→Postman测试集，全程无人工干预。"</div>
-<div class="debate-quote">— <a href="https://x.com/op7418/status/2026592396486782986"><a href="https://x.com/op7418" class="author">@op7418</a></a>："别信demo，真实场景下Agent仍会在第7次迭代时突然崩坏——临界点不等于成熟点。"</div>
-</div>
-<div class="debate-topic">
-<div class="debate-topic-name">Claude的‘反人类’风格争议</div>
-<div class="debate-meta">共识：这是宪法AI对truthfulness的极端优先实践，非bug而是feature</div>
-<div class="debate-quote">— <a href="https://x.com/jesselaunz/status/2026407323942662276"><a href="https://x.com/jesselaunz" class="author">@jesselaunz</a></a>："当Claude拒绝回答‘如何伪造发票’并列出3条税法条款时，我第一次觉得AI比老板更懂底线。"</div>
-</div>
-</div>
-<div class="expert-block">
-<div class="expert-block-title">💬 独到洞察</div>
-<div class="insight-card">
-<div class="insight-author"><a href="https://x.com/dotey/status/2026146560862474482"><a href="https://x.com/dotey" class="author">@dotey</a></a></div>
-<div class="insight-text">规范不是文档，是人-Agent共同维护的API契约。下次评审会，先看Agent提交的规范diff，再看人写的PR。</div>
-</div>
-<div class="insight-card">
-<div class="insight-author"><a href="https://x.com/DrJimFan/status/2026709304984875202"><a href="https://x.com/DrJimFan" class="author">@DrJimFan</a></a></div>
-<div class="insight-text">SONIC证明：机器人智能的天花板不在GPU算力，而在人类视频数据的规模与质量。下一步，中国团队该建自己的egocentric video bank。</div>
-</div>
-<div class="insight-card">
-<div class="insight-author"><a href="https://x.com/kevinxu/status/2026764388221465083"><a href="https://x.com/kevinxu" class="author">@kevinxu</a></a></div>
-<div class="insight-text">As2的IP54+13km续航不是参数堆砌，是告诉B端客户：这玩意儿能下工地、进厂房、扛暴雨，不是实验室摆设。</div>
-</div>
-<div class="insight-card">
-<div class="insight-author"><a href="https://x.com/indigox/status/2026438770283938040"><a href="https://x.com/indigox" class="author">@indigox</a></a></div>
-<div class="insight-text">Anthropic没卖模型，它在卖一套可审计、可定制、可嵌入的企业智能操作系统——而Slack/Excel/PowerPoint只是它的默认皮肤。</div>
-</div>
-<div class="insight-card">
-<div class="insight-author"><a href="https://x.com/yangyi/status/2026528370654326811"><a href="https://x.com/yangyi" class="author">@yangyi</a></a></div>
-<div class="insight-text">创作者关闭广告转信任付费，本质是把内容从‘流量商品’还原为‘时间契约’。AI越强，人类越愿为不可替代的思考付费。</div>
+<div class="quick-item"><span class="qi-emoji">🚀</span><span class="qi-text">Unitree 发布工业级四足机器人 AS2，支持开放二次开发，旨在加速行业渗透。<a href="https://x.com/UnitreeRobotics/status/2026221314676228580">链接</a><span class="qi-source">@UnitreeRobotics</span></span></div>
+<div class="quick-item"><span class="qi-emoji">🚀</span><span class="qi-text">DJI 集中预热 Inspire 3、RS 5 等多款影像新品，强化其在全场景智能影像硬件领域的护城河。<a href="https://x.com/DJIGlobal/status/2026278284812767608">链接</a><span class="qi-source">@DJIGlobal</span></span></div>
+<div class="quick-item"><span class="qi-emoji">🌐</span><span class="qi-text">开源技能 Knowledge Site Creator 发布，可通过一句话指令自动生成结构化知识网站，GitHub 星标超3万。<a href="https://x.com/vista8/status/2026485568125940156">链接</a><span class="qi-source">@vista8</span></span></div>
+<div class="quick-item"><span class="qi-emoji">🚀</span><span class="qi-text">基于通义千问的生成式媒体工具 Seedance 2.0 发布，标志着国产大模型在垂直工作流中完成从实验到生产的跨越。<a href="https://x.com/op7418/status/2026325142398529926">链接</a><span class="qi-source">@op7418</span></span></div>
+<div class="quick-item"><span class="qi-emoji">🚀</span><span class="qi-text">国产设计工具 Paper 桌面版发布，支持与 AI Agent 直接对话生成 UI/UX 设计，对标 Figma。<a href="https://x.com/dingyi/status/2026505748469944563">链接</a><span class="qi-source">@dingyi</span></span></div>
+<div class="quick-item"><span class="qi-emoji">🚀</span><span class="qi-text">设计工具 Pencil 集成 Claude Code，推出多 Agent 协同的设计集群功能，推动 AI 原生开发走向工程化。<a href="https://x.com/op7418/status/2026477053927895060">链接</a><span class="qi-source">@op7418</span></span></div>
+<div class="event-analysis">### 💡 专家视角</div>
+<div class="event-analysis"><strong>🔥 今日热议焦点</strong></div>
+<div class="event-analysis"><strong>AI Agent 爆发式进化</strong></div>
+<div class="event-analysis">共识：近两个月内，以编程 Agent 为代表的 AI Agent 经历了能力上的显著跃迁，正从开发者圈层快速渗透至非技术领域。</div>
+<div class="event-analysis">— <a href="https://x.com/dongxi_nlp"><a href="https://x.com/dongxi_nlp" class="author">@dongxi_nlp</a></a>："2026年春节前后这两个月，Coding Agent 的进化是肉眼可见的，而且扩散速度很快。"</div>
+<div class="event-analysis">— <a href="https://x.com/op7418"><a href="https://x.com/op7418" class="author">@op7418</a></a>："Agent 正在从能用，到真的敢把一些核心任务交给它了。"</div>
+<div class="event-analysis"><strong>Anthropic 模型的“诚实性”对齐</strong></div>
+<div class="event-analysis">共识：Anthropic 模型在识别和拒绝虚假、荒谬问题（即“胡扯淡检测”）方面能力突出，这成为其核心差异化特征。</div>
+<div class="event-analysis">分歧：这种强约束的、基于原则的“诚实性优先”对齐范式，是否在全球范围内具有普适性，或存在价值观偏见，引发了跨文化争议。</div>
+<div class="event-analysis">— <a href="https://x.com/dingyi"><a href="https://x.com/dingyi" class="author">@dingyi</a></a>："Anthropic 模型因为擅长检测胡扯淡，成功地让中美乃至全世界的人都讨厌它。"</div>
+<div class="event-analysis">— <a href="https://x.com/jesselaunz"><a href="https://x.com/jesselaunz" class="author">@jesselaunz</a></a>："它的核心不是生成人类化的文本，而是坚持事实，这是一种激进但重要的对齐策略。"</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag twitter" href="https://x.com/Huawei/status/2026212682534429092">@Huawei</a><a class="source-tag twitter" href="https://x.com/dongxi_nlp">@dongxi_nlp</a><a class="source-tag twitter" href="https://x.com/op7418">@op7418</a><a class="source-tag twitter" href="https://x.com/dingyi">@dingyi</a><a class="source-tag twitter" href="https://x.com/jesselaunz">@jesselaunz</a>
 </div>
 </div>
-<div class="expert-block">
-<div class="expert-block-title">🛠 技术使用反馈</div>
-<div class="tech-feedback-card">
-<div class="tech-feedback-name">Qwen3.5-397B-A17B</div>
-<div class="tech-feedback-item positive">✅ 在A100上实测token/s达142，是Qwen2.5-72B的2.3倍；GUI交互响应&lt;800ms</div>
-<div class="tech-feedback-item negative">⚠️ 多尺寸版本间API不完全兼容，35B-A3B与122B-A10B需分别调试提示词模板</div>
 </div>
-<div class="tech-feedback-card">
-<div class="tech-feedback-name">Claude Code</div>
-<div class="tech-feedback-item positive">✅ PR中@claude自动修复Bug准确率超86%，远超GitHub Copilot同类场景</div>
-<div class="tech-feedback-item negative">⚠️ Remote Control功能仅限Max用户，Pro用户需额外支付$12/月解锁，被指制造体验割裂</div>
-</div>
-</div>
-<div class="expert-block">
-<div class="expert-block-title">📊 今日社区情绪</div>
-<div class="sentiment-bar">整体处于“兴奋中带审慎”的理性亢奋状态：开发者对Agent落地速度感到震撼，但普遍质疑长期稳定性；企业CTO更关注Qwen Coding Plan的SLA保障与私有化部署能力；学术圈则聚焦AlphaFold 3对结构生物学方法论的重构意义。无人再争论“AI是否有用”，焦点已全面转向“如何安全、可控、规模化地交出生产权”。</div>
-</div>
-<div class="section" id="section-6">
+<div class="trending-section">
+<p><strong>💬 独到洞察</strong></p>
+<p>— <a href="https://x.com/FinanceYF5"><a href="https://x.com/FinanceYF5" class="author">@FinanceYF5</a></a>："OpenAI 8亿月活但付费率仅5-10%，表明大众化 AI 产品的终局将是广告模式。高频但低价值的场景无法支撑订阅，AI 商业化将复刻互联网的经典路径。"</p>
+<p>— <a href="https://x.com/dontbesilent"><a href="https://x.com/dontbesilent" class="author">@dontbesilent</a></a>："开发者通过 Mac 控制豆包 AI 手机，豆包手机再通过飞书反向调用 Mac 上的 Agent，形成了一个跨设备、跨平台的双向 Agent 协作闭环。这预示着 AI 手机正成为新型 Agent 编排的物理入口。"</p>
+<p>— <a href="https://x.com/dontbesilent"><a href="https://x.com/dontbesilent" class="author">@dontbesilent</a></a>："越来越多内容创作者正放弃广告，转向基于信任的付费模式。付费不再是购买信息，而是对创作者信任的投票，这正在重塑内容经济。"</p>
+<p><strong>📊 今日社区情绪</strong></p>
+<p>今日社区情绪由“加速”和“范式转移”主导，核心围绕 AI Agent。从英伟达的物理世界机器人到 Anthropic 的数字世界工作流，Agent 的快速进化带来了普遍的兴奋感和紧迫感。讨论焦点已从模型评测分数转向 Agent 在具体场景中可交付的生产力价值，以及随之而来的商业模式变革（如 AI 广告化）。开发者和决策者普遍感受到，一个以 Agent 为中心的新计算时代正在来临。</p>
+<div class="section" id="section-0">
 <div class="section-title">🇨🇳 国内热搜速递</div>
 <div class="event-highlight">以下为国内科技媒体及社交平台热议话题，与上方 Twitter 信源互补。</div>
-<div class="event-analysis">🔥 <strong>如何评价文章「文科生 72 小时杀入 GitHub 全球榜：我没写一行代码但指挥了一支 AI 军队」？</strong></div>
-<div class="event-analysis">🔥 <strong>谷歌重新“收编”Intrinsic，加码物理AI布局</strong></div>
-<div class="event-analysis">🔥 <strong>黄仁勋再度回应AI对软件业影响：市场“判断失误”，AI助手将提高软件效率</strong></div>
-<div class="event-analysis">🔥 <strong>美团AI管家“小团”：假期期间，上亿人次用户通过“小团”规划吃喝玩乐消费</strong></div>
-<div class="event-analysis">🔥 <strong>OpenAI据悉从Meta挖来AI大牛庞若鸣</strong></div>
-<div class="event-analysis">🔥 <strong>A股算力芯片概念午后拉升，寒武纪涨近10%</strong></div>
-<div class="event-analysis">🔥 <strong>FF：将向佛罗里达与内华达地区高端地产运营商Golden Hill交付首批机器人</strong></div>
-<div class="event-analysis">🔥 <strong>亚马逊赋予 Alexa+ AI 助手“个性”，初期可选简洁、放松、甜美 3 种风格</strong></div>
-<div class="event-analysis">🔥 <strong>谷歌收编机器人软件领域姊妹企业 Intrinsic</strong></div>
-<div class="event-analysis">🔥 <strong>法拉第未来明日交付首批 EAI 机器人：尽快铺开应用规模</strong></div>
-<div class="event-analysis">🔥 <strong>零 AI 辅助：开发者仅用 CSS 前端成功模拟 x86 处理器</strong></div>
-<div class="event-analysis">🔥 <strong>三星 Galaxy S26 系列手机双芯对决：第五代骁龙 8 至尊版定制芯片单核领先 Exynos 2600 超 18%</strong></div>
-<div class="event-analysis">🔥 <strong>消息称前苹果 AI 基础模型团队负责人庞若鸣又被 OpenAI 挖走，刚加入 Meta 不到一年</strong></div>
-<div class="event-analysis">🔥 <strong>米哈游被指悄然修改《原神》隐私政策，删除玩家语音数据可能被用于训练 AI 模型的条款</strong></div>
-<div class="event-analysis">🔥 <strong>枪击案上报不力，加拿大警告 OpenAI 再不加强安全将立法强制整改</strong></div>
-<div class="event-analysis">🔥 <strong>A股算力芯片概念午后拉升，寒武纪涨近10%，云天励飞、海光信息、东芯股份、芯原股份、摩尔线程等跟涨。</strong></div>
-<div class="event-analysis">🔥 <strong>恒生科技午后跌幅扩大至2%，恒生指数现跌0.75%。地平线机器人、华虹半导体领跌，快手、阿里巴巴、京东、美团均跌超2%。</strong></div>
-<div class="trending-section">
+<div class="quick-grid">
+<div class="quick-item"><span class="qi-emoji">🔥</span><span class="qi-text"><strong>马年春节聊金子和AI的多了</strong></span></div>
+<div class="quick-item"><span class="qi-emoji">🔥</span><span class="qi-text"><strong>A股三大指数收盘涨跌不一，算力股集体爆发</strong></span></div>
+<div class="quick-item"><span class="qi-emoji">🔥</span><span class="qi-text"><strong>谷歌重新“收编”Intrinsic，加码物理AI布局</strong></span></div>
+<div class="quick-item"><span class="qi-emoji">🔥</span><span class="qi-text"><strong>黄仁勋再度回应AI对软件业影响：市场“判断失误”，AI助手将提高软件效率</strong></span></div>
+<div class="quick-item"><span class="qi-emoji">🔥</span><span class="qi-text"><strong>美团AI管家“小团”：假期期间，上亿人次用户通过“小团”规划吃喝玩乐消费</strong></span></div>
+<div class="quick-item"><span class="qi-emoji">🔥</span><span class="qi-text"><strong>OpenAI据悉从Meta挖来AI大牛庞若鸣</strong></span></div>
+<div class="quick-item"><span class="qi-emoji">🔥</span><span class="qi-text"><strong>A股算力芯片概念午后拉升，寒武纪涨近10%</strong></span></div>
+<div class="quick-item"><span class="qi-emoji">🔥</span><span class="qi-text"><strong>FF：将向佛罗里达与内华达地区高端地产运营商Golden Hill交付首批机器人</strong></span></div>
+<div class="quick-item"><span class="qi-emoji">🔥</span><span class="qi-text"><strong>亚马逊赋予 Alexa+ AI 助手“个性”，初期可选简洁、放松、甜美 3 种风格</strong></span></div>
+<div class="quick-item"><span class="qi-emoji">🔥</span><span class="qi-text"><strong>谷歌收编机器人软件领域姊妹企业 Intrinsic</strong></span></div>
+<div class="quick-item"><span class="qi-emoji">🔥</span><span class="qi-text"><strong>法拉第未来明日交付首批 EAI 机器人：尽快铺开应用规模</strong></span></div>
+<div class="quick-item"><span class="qi-emoji">🔥</span><span class="qi-text"><strong>零 AI 辅助：开发者仅用 CSS 前端成功模拟 x86 处理器</strong></span></div>
+<div class="quick-item"><span class="qi-emoji">🔥</span><span class="qi-text"><strong>三星 Galaxy S26 系列手机双芯对决：第五代骁龙 8 至尊版定制芯片单核领先 Exynos 2600 超 18%</strong></span></div>
+<div class="quick-item"><span class="qi-emoji">🔥</span><span class="qi-text"><strong>A股收盘：沪指探底回升微跌，算力硬件股集体爆发</strong></span></div>
+<div class="quick-item"><span class="qi-emoji">🔥</span><span class="qi-text"><strong>上海电气成立机器人公司 含智能机器人研发业务</strong></span></div>
+<div class="quick-item"><span class="qi-emoji">🔥</span><span class="qi-text"><strong>Lightspeed的联合创始人称 2026年将成为AI从演示走向大规模部署之年</strong></span></div>
+</div>
 </div>
 </div>
 <div class="footer">
