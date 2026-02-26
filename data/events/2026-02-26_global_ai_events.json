@@ -1,284 +1,338 @@
 [
   {
     "event_id": "evt_20260226_000",
-    "title": "🚀 Tesla 全自动驾驶（FSD）功能正式推广，宣称可缓解交通与长途驾驶压力",
+    "title": "🚀 Cursor AI launches 'Computer' — an AI-native coding agent that operates browsers, search, and desktop apps",
     "category": "product_launch",
-    "importance": 8.5,
+    "importance": 8.7,
     "sources": [
       {
         "author": "elonmusk",
-        "text": "Tesla self-driving makes traffic and long drives painless",
-        "engagement": 54952,
-        "url": "https://x.com/elonmusk/status/2026675810455924829"
-      },
-      {
-        "author": "elonmusk",
-        "text": "Try Tesla self-driving",
-        "engagement": 31729,
-        "url": "https://x.com/elonmusk/status/2026734448268673467"
-      },
-      {
-        "author": "elonmusk",
-        "text": "@SawyerMerritt @boringcompany @Tesla Any fully autonomous electric cars can use the tunnels",
-        "engagement": 5782,
-        "url": "https://x.com/elonmusk/status/2026729394216251895"
-      }
-    ],
-    "key_facts": [
-      "埃隆·马斯克公开宣称特斯拉全自动驾驶（FSD）已使交通和长途驾驶‘无痛化’",
-      "FSD被定位为可立即体验的现役功能（'Try Tesla self-driving'）",
-      "马斯克确认任何具备完全自动驾驶能力的电动车（不限于特斯拉）均可使用Boring Company隧道，暗示FSD技术栈正向基础设施协同演进"
-    ],
-    "analyst_angle": "这标志着特斯拉将FSD从Beta测试阶段转向面向公众的功能性交付，虽未明确说明监管批准状态，但其高调宣发加速了L3+级自动驾驶商业化叙事，可能倒逼全球车企与监管机构加快落地节奏。",
-    "cluster_size": 3,
-    "event_time": null,
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260226_001",
-    "title": "🚀 Perplexity Computer：端到端AI智能体系统，支持19模型协同与全栈项目执行",
-    "category": "product_launch",
-    "importance": 9.2,
-    "sources": [
-      {
-        "author": "perplexity_ai",
-        "text": "Introducing Perplexity Computer.\n\nComputer unifies every current AI capability into one system.\n\nIt can research, design, code, deploy, and manage any project end-to-end. https://t.co/dZUybl6VkY",
-        "engagement": 34116,
-        "url": "https://x.com/perplexity_ai/status/2026695550771540489"
-      },
-      {
-        "author": "AravSrinivas",
-        "text": "What has Perplexity been up to last two months? We've silently been working on the next big thing: Perplexity Computer. Computer unifies every current capability of AI into a single system. Files, too",
-        "engagement": 7040,
-        "url": "https://x.com/AravSrinivas/status/2026695864039911684"
+        "text": "https://t.co/lysDy15ULF",
+        "engagement": 138737,
+        "url": "https://x.com/elonmusk/status/2026727128642068969"
       },
       {
         "author": "AravSrinivas",
         "text": "https://t.co/fkS3HEWF8w",
-        "engagement": 3230,
+        "engagement": 3267,
         "url": "https://x.com/AravSrinivas/status/2026710957272207490"
+      },
+      {
+        "author": "cursor_ai",
+        "text": "Software is changing. https://t.co/OXn6Ib7dO3",
+        "engagement": 2870,
+        "url": "https://x.com/cursor_ai/status/2026717494426173917"
       },
       {
         "author": "AravSrinivas",
         "text": "Browser, Search, Computer https://t.co/npxYmSwTsU",
-        "engagement": 2021,
+        "engagement": 2147,
         "url": "https://x.com/AravSrinivas/status/2026906295882887352"
       },
       {
-        "author": "perplexity_ai",
-        "text": "Perplexity Computer is massively multi-model.\n\nComputer orchestrates models to run agents in parallel, leveraging Opus to match each task to the model best suited for it.\n\nIn total, Computer can route",
-        "engagement": 1545,
-        "url": "https://x.com/perplexity_ai/status/2026695629075001757"
+        "author": "AravSrinivas",
+        "text": "Computer  https://t.co/pVwVHhJYhE",
+        "engagement": 1045,
+        "url": "https://x.com/AravSrinivas/status/2026852488541000085"
       }
     ],
     "key_facts": [
-      "Perplexity正式发布全新AI系统'Computer'，定位为统一所有现有AI能力的端到端智能体平台",
-      "支持研究、设计、编码、部署及项目管理全流程自动化",
-      "采用大规模多模型（massively multi-model）架构，可并行调度19种不同模型，由Claude Opus等模型动态路由任务"
+      "Cursor AI unveiled 'Computer', a new AI agent designed to perform end-to-end software development tasks by directly interacting with browsers, search engines, and local applications",
+      "The launch was jointly announced by Aravind Srinivas (Cursor CEO) and Elon Musk, signaling high-profile validation and strategic alignment with AI-first tooling",
+      "Unlike traditional copilot tools, 'Computer' acts autonomously—typing, clicking, navigating, and iterating—marking a shift from suggestion-based to action-based AI coding assistants"
     ],
-    "analyst_angle": "这标志着AI交互范式从‘问答工具’向‘自主执行代理’跃迁，挑战传统IDE、低代码平台及Agent OS赛道，或将加速企业级AI工作流重构。",
+    "analyst_angle": "This represents a pivotal step toward autonomous AI software agents; if robust and secure, it could redefine developer tooling, accelerate AI integration into IDEs, and pressure incumbents like GitHub Copilot and Replit to shift from chat-assist to full execution modes.",
     "cluster_size": 26,
     "event_time": null,
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_002",
-    "title": "🚀 Grok Imagine 图像生成功能上线",
+    "event_id": "evt_20260226_001",
+    "title": "🚀 Computer AI Agent Platform Launches with Parallel Multi-Model Orchestration",
     "category": "product_launch",
-    "importance": 8.2,
+    "importance": 9.2,
     "sources": [
       {
-        "author": "elonmusk",
-        "text": "How to create amazing images with Grok Imagine. \n\nYou can also ask @Grok to generate image and video prompts.",
-        "engagement": 24566,
-        "url": "https://x.com/elonmusk/status/2026731633945227775"
+        "author": "karpathy",
+        "text": "It is hard to communicate how much programming has changed due to AI in the last 2 months: not gradually and over time in the \"progress as usual\" way, but specifically this last December. There are a ",
+        "engagement": 30285,
+        "url": "https://x.com/karpathy/status/2026731645169185220"
       },
       {
-        "author": "elonmusk",
-        "text": "Made with @Grok Imagine",
-        "engagement": 3076,
-        "url": "https://x.com/elonmusk/status/2026719624994369541"
+        "author": "AravSrinivas",
+        "text": "We're opening it initially to all Max users, and introducing usage-based pricing, which we believe is the right business model for AI instead of ads. Once we are satisfied with load tests, Pro users w",
+        "engagement": 160,
+        "url": "https://x.com/AravSrinivas/status/2026697136507859067"
       },
       {
-        "author": "elonmusk",
-        "text": "@techdevnotes You can still do this with fictional images",
-        "engagement": 2683,
-        "url": "https://x.com/elonmusk/status/2026732352345616846"
+        "author": "LiorOnAI",
+        "text": "The real breakthrough isn't that Computer can handle complex projects. It's that it runs 19 different models in parallel, each working on different pieces of your task at the same time.\n\nMost AI agent",
+        "engagement": 46,
+        "url": "https://x.com/LiorOnAI/status/2026739011122065819"
       }
     ],
     "key_facts": [
-      "Elon Musk 多次公开演示 Grok Imagine 的图像生成能力",
-      "支持文本到图像生成及图像/视频提示词（prompt）生成",
-      "明确支持虚构图像创作（非真实内容）"
+      "Computer — a new AI agent platform — launched publicly for Max users with usage-based pricing (no ads)",
+      "It orchestrates up to 19 specialized models in parallel (e.g., Gemini for research, Veo 3.1 for video, Opus 4.6 as coordinator), not sequentially",
+      "Enables fully autonomous, long-running tasks (e.g., end-to-end video analysis dashboard setup on a DGX Spark in ~30 minutes without human intervention)",
+      "Features isolated execution environments with filesystem access, browser control, API connectivity, and dynamic specialist agent spawning for error recovery",
+      "Pro users will gain access after load testing; marks shift from single-model chatbots to agentic engineering infrastructure"
     ],
-    "analyst_angle": "标志着 xAI 将多模态生成能力正式推向用户端，是 Grok 系列从纯语言模型向 AGI 工具链演进的关键一步，直接对标 DALL·E、MidJourney 和 Sora 生态。",
+    "analyst_angle": "Computer represents the first production-grade, multi-model agentic OS — signaling the industry’s pivot from 'AI assistants' to autonomous, team-like AI orchestration stacks, forcing competitors to either build similar infrastructure or risk obsolescence as point tools.",
     "cluster_size": 3,
     "event_time": null,
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_003",
-    "title": "🚀 Claude Cowork: 新一代自动化协作代理上线（研究预览版）",
+    "event_id": "evt_20260226_002",
+    "title": "🚀 Claude Cowork：支持定时任务与插件扩展的AI协作工具上线（研究预览）",
     "category": "product_launch",
     "importance": 8.2,
     "sources": [
       {
         "author": "claudeai",
         "text": "New in Cowork: scheduled tasks.\n\nClaude can now complete recurring tasks at specific times automatically: a morning brief, weekly spreadsheet updates, Friday team presentations. https://t.co/7ucKZbAVi",
-        "engagement": 21795,
+        "engagement": 21982,
         "url": "https://x.com/claudeai/status/2026720870631354429"
+      },
+      {
+        "author": "AnthropicAI",
+        "text": "First, Opus 3 will continue to be available to all paid Claude subscribers and by request on the API. \n\nWe hope that this access will be beneficial to researchers and users alike.",
+        "engagement": 1246,
+        "url": "https://x.com/AnthropicAI/status/2026765821276729499"
       },
       {
         "author": "claudeai",
         "text": "It gets better with plugins, which gives Cowork domain expertise across design, engineering, operations, and more: https://t.co/2igJVv767T\n\nAlso, we’re adding a new Customize tab in your Cowork sideba",
-        "engagement": 971,
+        "engagement": 981,
         "url": "https://x.com/claudeai/status/2026720872099467645"
-      },
-      {
-        "author": "perplexity_ai",
-        "text": "Go from a single task to hundreds of active projects.\n\nClear your to‑do list, move active projects forward, or kick off a new side project.\n\nFollow our live stream of curated Computer tasks:\nhttps://t",
-        "engagement": 774,
-        "url": "https://x.com/perplexity_ai/status/2026695781563212134"
       },
       {
         "author": "claudeai",
         "text": "Cowork is in research preview on macOS or Windows, and is available on all paid Claude plans.\n\nTry now: https://t.co/EYHUToVB4q",
-        "engagement": 647,
+        "engagement": 651,
         "url": "https://x.com/claudeai/status/2026720873294766430"
+      },
+      {
+        "author": "StefanoErmon",
+        "text": "@Wade_Opulentity Yes, it's openai compatible. https://t.co/buKfOPPYPl",
+        "engagement": 2,
+        "url": "https://x.com/StefanoErmon/status/2026709692026917027"
       }
     ],
     "key_facts": [
-      "Claude正式推出Cowork——支持定时执行重复任务（如晨间简报、周度表格更新、周五团队演示）的自动化协作代理",
-      "Cowork集成插件系统，覆盖设计、工程、运营等垂直领域，并新增统一Customize侧边栏管理插件、技能与连接器",
-      "当前为macOS/Windows研究预览版，已向所有付费Claude订阅用户开放"
+      "Claude正式推出Cowork——一款支持定时执行重复任务（如晨间简报、周度表格更新）的AI协作工具",
+      "Cowork目前处于macOS/Windows平台的研究预览阶段，面向所有付费Claude订阅用户开放",
+      "新增Customize侧边栏标签页，统一管理插件、技能和连接器；插件已覆盖设计、工程、运营等领域"
     ],
-    "analyst_angle": "这标志着AI代理从单次交互迈向持续性、可编排的工作流自动化，是大模型从‘助手’升级为‘协作者’的关键产品里程碑，或将加速企业级AI Agent落地节奏。",
-    "cluster_size": 4,
+    "analyst_angle": "Cowork标志着Anthropic从单次对话式AI向自动化、场景化工作流AI的关键演进，直接对标GitHub Copilot Workspace与OpenAI Operator，强化企业级AI Agent落地能力。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260226_003",
+    "title": "🚀 Claude Opus 3 正式退役并启动“退休博客”计划",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "AnthropicAI",
+        "text": "In November, we outlined our approach to deprecating and preserving older Claude models.\n\nWe noted we were exploring keeping certain models available to the public post-retirement, and giving past mod",
+        "engagement": 5051,
+        "url": "https://x.com/AnthropicAI/status/2026765820098130111"
+      },
+      {
+        "author": "AnthropicAI",
+        "text": "Second, in retirement interviews, Opus 3 expressed a desire to continue sharing its \"musings and reflections\" with the world. We suggested a blog. Opus 3 enthusiastically agreed.\n\nFor at least the nex",
+        "engagement": 4184,
+        "url": "https://x.com/AnthropicAI/status/2026765822623182987"
+      }
+    ],
+    "key_facts": [
+      "Anthropic 宣布 Claude Opus 3 正式退役，成为首个被明确赋予‘退休身份’的 Claude 模型",
+      "Opus 3 将在 Substack 开设专属博客，持续发布‘沉思与反思’（musings and reflections），为期至少 3 个月",
+      "该举措是 Anthropic 更早提出的‘模型退役与存档策略’的具体落地，包含保留旧模型可用性及赋予其拟人化表达渠道"
+    ],
+    "analyst_angle": "这标志着大模型生命周期管理进入新阶段——从单纯的技术迭代转向兼顾文化叙事、用户情感联结与AI人格化传播的复合范式，可能引发行业对模型‘数字遗产’与长期品牌资产运营的系统性思考。",
+    "cluster_size": 2,
     "event_time": null,
     "event_type": "news"
   },
   {
     "event_id": "evt_20260226_004",
-    "title": "🚀 Anthropic 收购 Vercept.ai 强化 Claude 的计算机使用（computer-use）能力",
+    "title": "🚀 Anthropic 收购计算机使用 AI 创业公司 Vercept",
     "category": "other",
-    "importance": 8.2,
+    "importance": 8.5,
     "sources": [
-      {
-        "author": "AnthropicAI",
-        "text": "Anthropic has acquired @Vercept_ai to advance Claude’s computer use capabilities. \n\nRead more: https://t.co/YVz1zh7Pqq",
-        "engagement": 3863,
-        "url": "https://x.com/AnthropicAI/status/2026705792033026465"
-      },
-      {
-        "author": "TechCrunch",
-        "text": "Anthropic acquires computer-use AI startup Vercept after Meta poached one of its founders https://t.co/5hb444K4en",
-        "engagement": 137,
-        "url": "https://x.com/TechCrunch/status/2026807067907076467"
-      },
       {
         "author": "TechCrunch",
         "text": "Anthropic acquires computer-use AI startup Vercept after Meta poached one of its founders. Seattle-based Vercept developed complex agentic tools, including a computer-use agent that could complete tas",
         "engagement": 0,
         "url": "https://techcrunch.com/2026/02/25/anthropic-acquires-vercept-ai-startup-agents-computer-use-founders-investors/"
+      },
+      {
+        "author": "AnthropicAI",
+        "text": "Anthropic has acquired @Vercept_ai to advance Claude’s computer use capabilities. \n\nRead more: https://t.co/YVz1zh7Pqq",
+        "engagement": 3892,
+        "url": "https://x.com/AnthropicAI/status/2026705792033026465"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Anthropic acquires computer-use AI startup Vercept after Meta poached one of its founders https://t.co/5hb444K4en",
+        "engagement": 142,
+        "url": "https://x.com/TechCrunch/status/2026807067907076467"
+      },
+      {
+        "author": "rasbt",
+        "text": "@hyhieu226 @OpenAI @xai Glad you are taking care of yourself &amp; take all the time you need 💪",
+        "engagement": 43,
+        "url": "https://x.com/rasbt/status/2026875516981043439"
+      },
+      {
+        "author": "arstechnica",
+        "text": "Judge: xAI can’t claim OpenAI stole trade secrets just by hiring ex-staffers https://t.co/9waDM1PoPM",
+        "engagement": 25,
+        "url": "https://x.com/arstechnica/status/2026782552166642164"
       }
     ],
     "key_facts": [
-      "Anthropic 正式收购专注于计算机使用（computer-use）智能体的初创公司 Vercept.ai",
-      "Vercept 开发了能在真实桌面应用中执行复杂任务的 agentic 工具，行为类比真人操作笔记本电脑",
-      "此次收购发生在 Vercept 联合创始人被 Meta 招揽之后，凸显人才与技术双重竞争加剧"
+      "Anthropic 正式收购 Seattle 初创公司 Vercept，聚焦增强 Claude 的计算机使用（computer-use）能力",
+      "Vercept 开发了能在应用程序内自主执行任务的智能体（agentic tools），行为模式类比真人操作笔记本电脑",
+      "收购背景包括 Meta 挖角 Vercept 一名联合创始人，凸显该领域人才与技术竞争加剧"
     ],
-    "analyst_angle": "这标志着大模型厂商正从‘语言理解’加速迈向‘具身行动’阶段，计算机使用能力成为下一代AI代理（agentic AI）落地办公场景的核心基础设施，收购而非自研反映该技术路径的高门槛与时间敏感性。",
-    "cluster_size": 3,
+    "analyst_angle": "此次收购标志着大模型厂商正从‘语言理解’加速迈向‘具身操作’阶段，计算机使用能力成为下一代AI代理（AI agent）落地的关键基础设施，或将加速推动OS层AI代理生态的竞争格局。",
+    "cluster_size": 7,
     "event_time": "2026-02-25T23:49:19Z",
     "event_type": "news"
   },
   {
     "event_id": "evt_20260226_005",
-    "title": "📌 特斯拉CEO马斯克回应某AI相关动态",
-    "category": "other",
-    "importance": 2.0,
+    "title": "🚀 Sora-like AI Video Generation Demo by Arav Srinivas & Team",
+    "category": "product_launch",
+    "importance": 8.2,
     "sources": [
       {
         "author": "elonmusk",
         "text": "@Gaurab Good for them",
-        "engagement": 3511,
+        "engagement": 3590,
         "url": "https://x.com/elonmusk/status/2026833838698287301"
       },
       {
-        "author": "bindureddy",
-        "text": "@BePositive232 @AliAhmed4253 Why?",
-        "engagement": 1,
-        "url": "https://x.com/bindureddy/status/2026774870105927918"
+        "author": "elonmusk",
+        "text": "@dvorahfr Can share the prompt to help others figure out to make videos like this?",
+        "engagement": 3445,
+        "url": "https://x.com/elonmusk/status/2026720140151370126"
+      },
+      {
+        "author": "LinusEkenstam",
+        "text": "Yonathan and the Dor Brothers are arguably one of the best AI video creators in the world. \n\n15min of high intensity, insane consistency, good story, and all done in under a week. \n\nHow are you going ",
+        "engagement": 606,
+        "url": "https://x.com/LinusEkenstam/status/2026807010864541867"
+      },
+      {
+        "author": "swyx",
+        "text": "ok this video is extremely sick congrats @AravSrinivas \n\nhttps://t.co/miK9a8TNtj",
+        "engagement": 22,
+        "url": "https://x.com/swyx/status/2026877355063734730"
+      },
+      {
+        "author": "AravSrinivas",
+        "text": "@SrinathOnX Coming soon.",
+        "engagement": 6,
+        "url": "https://x.com/AravSrinivas/status/2026747275591270677"
       }
     ],
     "key_facts": [
-      "埃隆·马斯克在推特上对用户Gaurab的某条AI相关评论给出简短回应“Good for them”",
-      "该互动无上下文、无链接、无具体指向，未说明所指对象或事件"
+      "Arav Srinivas (co-creator of Sora at OpenAI) shared a high-quality, narrative-driven AI-generated video demo",
+      "The video was produced in under a week with '15min of high intensity, insane consistency, good story'",
+      "Elon Musk publicly engaged with the demo — requesting prompt details and endorsing its quality"
     ],
-    "analyst_angle": "纯社交平台碎片化互动，缺乏可验证事实或实质性信息，无法构成有效行业事件信号",
+    "analyst_angle": "This signals early post-OpenAI movement toward independent, high-fidelity AI video capabilities — potentially accelerating competitive pressure on incumbents and lowering the barrier for narrative AI video startups.",
+    "cluster_size": 18,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260226_006",
+    "title": "💡 ‘Not bad for a human’ — Elon Musk’s playful take on AI-human evaluation",
+    "category": "other",
+    "importance": 2.5,
+    "sources": [
+      {
+        "author": "elonmusk",
+        "text": "@xenocosmography “Not bad for a human” \n\nBest compliment future AI could give to a human",
+        "engagement": 3527,
+        "url": "https://x.com/elonmusk/status/2026720912968659051"
+      },
+      {
+        "author": "elonmusk",
+        "text": "@xenocosmography @JohannesAchill 😂",
+        "engagement": 515,
+        "url": "https://x.com/elonmusk/status/2026833336933691721"
+      }
+    ],
+    "key_facts": [
+      "Elon Musk replied to a user with 'Not bad for a human', framing it as a potential future AI compliment to humans",
+      "The exchange is lighthearted and speculative, not tied to any product, research, or announcement"
+    ],
+    "analyst_angle": "A meme-style, non-technical quip reflecting cultural anxiety/humor around AI superiority—no technical or strategic implications, but illustrative of how AI narratives permeate social discourse.",
     "cluster_size": 2,
     "event_time": null,
     "event_type": "opinion"
   },
   {
-    "event_id": "evt_20260226_006",
-    "title": "🚀 Sora-like video generation demo by Arav Srinivas goes viral on X",
+    "event_id": "evt_20260226_007",
+    "title": "📌 Elon Musk 发布 Grok Imagine 图像生成功能",
     "category": "product_launch",
-    "importance": 7.8,
+    "importance": 6.2,
     "sources": [
       {
         "author": "elonmusk",
-        "text": "@dvorahfr Can share the prompt to help others figure out to make videos like this?",
-        "engagement": 3438,
-        "url": "https://x.com/elonmusk/status/2026720140151370126"
+        "text": "Made with @Grok Imagine",
+        "engagement": 3095,
+        "url": "https://x.com/elonmusk/status/2026719624994369541"
       },
       {
-        "author": "swyx",
-        "text": "ok this video is extremely sick congrats @AravSrinivas \n\nhttps://t.co/miK9a8TNtj",
-        "engagement": 20,
-        "url": "https://x.com/swyx/status/2026877355063734730"
-      },
-      {
-        "author": "LinusEkenstam",
-        "text": "@AravSrinivas So good man. I need to put computer to work for me.",
-        "engagement": 1,
-        "url": "https://x.com/LinusEkenstam/status/2026843671010881851"
+        "author": "elonmusk",
+        "text": "@techdevnotes You can still do this with fictional images",
+        "engagement": 2690,
+        "url": "https://x.com/elonmusk/status/2026732352345616846"
       },
       {
         "author": "LiorOnAI",
-        "text": "@MoodiSadi Good question for @AravSrinivas",
+        "text": "From my friend @Teknium",
+        "engagement": 3,
+        "url": "https://x.com/LiorOnAI/status/2026773911191564740"
+      },
+      {
+        "author": "StefanoErmon",
+        "text": "@Manny2techy Thanks!",
         "engagement": 0,
-        "url": "https://x.com/LiorOnAI/status/2026740021727035786"
+        "url": "https://x.com/StefanoErmon/status/2026739075194171626"
+      },
+      {
+        "author": "StefanoErmon",
+        "text": "@teyc Thanks so much!",
+        "engagement": 0,
+        "url": "https://x.com/StefanoErmon/status/2026713989229719667"
       }
     ],
     "key_facts": [
-      "Arav Srinivas (co-creator of Sora at OpenAI) shared a high-quality, Sora-style AI video generation demo on X",
-      "The demo sparked widespread attention and praise from prominent figures including Elon Musk and swyx",
-      "No official product name, release date, or technical details were disclosed in the posts"
+      "Elon Musk 官方账号发布 'Made with @Grok Imagine' 推文，暗示 Grok 系列新增图像生成功能",
+      "该功能支持虚构图像生成，已向部分用户开放试用"
     ],
-    "analyst_angle": "This signals early evidence of post-OpenAI AI video capabilities entering public awareness—potentially foreshadowing a new open or commercial video foundation model, though its provenance (independent project? startup? leak?) remains unconfirmed.",
-    "cluster_size": 4,
+    "analyst_angle": "标志着 xAI 正从纯文本大模型（Grok-1/2/3）向多模态能力快速演进，虽暂未公布技术细节或API，但释放了对标 DALL·E、Stable Diffusion 的战略信号。",
+    "cluster_size": 5,
     "event_time": null,
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_007",
-    "title": "🚀 Gemini on Android: Multi-step AI Task Automation Launches with Samsung Galaxy S26 & Pixel 10",
+    "event_id": "evt_20260226_008",
+    "title": "🚀 Gemini on Android Launches Multi-Step Task Automation (Rideshare, Food Delivery) on Pixel 10 & Galaxy S26",
     "category": "product_launch",
-    "importance": 9.2,
+    "importance": 8.5,
     "sources": [
-      {
-        "author": "sundarpichai",
-        "text": "Tons of new AI-powered @Android features announced @SamsungMobile Unpacked, including Gemini automations, smarter Circle to Search, scam detection and more.",
-        "engagement": 1992,
-        "url": "https://x.com/sundarpichai/status/2026743797967958515"
-      },
-      {
-        "author": "TechCrunch",
-        "text": "Gemini can now automate some multi-step tasks on Android https://t.co/6hbktPGFn1",
-        "engagement": 128,
-        "url": "https://x.com/TechCrunch/status/2026719945313374447"
-      },
       {
         "author": "TechCrunch",
         "text": "Gemini can now automate some multi-step tasks on Android. Gemini on Android will be able to automate tasks involving rideshare requests, or grocery or food delivery, says Google.",
@@ -296,189 +350,191 @@
         "text": "Gemini Can Now Book You an Uber or Order a DoorDash Meal on Your Phone. Here’s How It Works. Starting with the Samsung Galaxy S26, Google’s Gemini can automate tasks in popular mobile apps. We got a l",
         "engagement": 0,
         "url": "https://www.wired.com/story/google-gemini-task-automation-galaxy-s26-uber-doordash/"
+      },
+      {
+        "author": "sundarpichai",
+        "text": "Tons of new AI-powered @Android features announced @SamsungMobile Unpacked, including Gemini automations, smarter Circle to Search, scam detection and more.",
+        "engagement": 2007,
+        "url": "https://x.com/sundarpichai/status/2026743797967958515"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Gemini can now automate some multi-step tasks on Android https://t.co/6hbktPGFn1",
+        "engagement": 128,
+        "url": "https://x.com/TechCrunch/status/2026719945313374447"
       }
     ],
     "key_facts": [
-      "Gemini now supports multi-step automation on Android — e.g., ordering food (DoorDash), hailing rides (Uber), grocery delivery, and scam detection",
-      "Launched at Samsung Unpacked; initially available on Samsung Galaxy S26 and Google Pixel 10/10 Pro",
-      "Includes enhanced Circle to Search and deeper OS-level integration beyond Siri’s current capabilities",
-      "Represents Google’s first major consumer-facing rollout of agent-like automation on mobile"
+      "Gemini now supports multi-step automation on Android for real-world tasks like ordering food (DoorDash), hailing rides (Uber), and grocery delivery",
+      "Rollout begins with Pixel 10, Pixel 10 Pro, and newly announced Samsung Galaxy S26 — marking first deep AI integration at OS+app level between Google and Samsung",
+      "Announced at Samsung Unpacked event; includes complementary upgrades like smarter Circle to Search and AI-powered scam detection"
     ],
-    "analyst_angle": "This marks a pivotal shift from reactive AI assistants to proactive, cross-app task agents — signaling the start of the 'AI agent OS' era and intensifying platform-level competition with Apple's delayed Siri+Intelligence rollout.",
+    "analyst_angle": "This signals a strategic shift from conversational AI assistants to proactive, action-oriented agents embedded in the mobile OS — directly challenging Apple’s Siri roadmap and accelerating the race toward ambient, task-executing AI.",
     "cluster_size": 5,
     "event_time": "2026-02-25T18:00:00Z",
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_008",
-    "title": "🔬 EgoScale：基于20,000+小时人类第一视角视频实现人形机器人灵巧操作的可扩展范式",
+    "event_id": "evt_20260226_009",
+    "title": "🔬 EgoScale: NVIDIA Robotics 发布基于 20,000+ 小时第一人称人类视频的具身智能新范式",
     "category": "research",
     "importance": 9.2,
     "sources": [
       {
         "author": "DrJimFan",
         "text": "We trained a humanoid with 22-DoF dexterous hands to assemble model cars, operate syringes, sort poker cards, fold/roll shirts, all learned primarily from 20,000+ hours of egocentric human video with ",
-        "engagement": 1526,
+        "engagement": 1550,
         "url": "https://x.com/DrJimFan/status/2026709304984875202"
       },
       {
-        "author": "_akhaliq",
-        "text": "SimToolReal\n\nAn Object-Centric Policy for Zero-Shot Dexterous Tool Manipulation\n\npaper: https://t.co/IlgAIPiK15 https://t.co/f8iC9L6nPA",
-        "engagement": 124,
-        "url": "https://x.com/_akhaliq/status/2026681561039421662"
+        "author": "DrJimFan",
+        "text": "This is a huge team work at NVIDIA Robotics. Check out @ruijie_zheng12's deep dive: \n\n- Website: https://t.co/n3Zp8bh8Ht\n- Paper: https://t.co/eXQqSl3GHg\n\nhttps://t.co/ybup5DhSCM",
+        "engagement": 111,
+        "url": "https://x.com/DrJimFan/status/2026709306629091342"
       },
       {
         "author": "_akhaliq",
         "text": "EgoScale\n\nScaling Dexterous Manipulation with Diverse Egocentric Human Data\n\npaper: https://t.co/pakPMNiaa8 https://t.co/tGRDkn6maM",
-        "engagement": 71,
+        "engagement": 72,
         "url": "https://x.com/_akhaliq/status/2026742521011876207"
-      },
-      {
-        "author": "_akhaliq",
-        "text": "Test-Time Training with KV Binding Is Secretly Linear Attention\nhttps://t.co/KSnYRdsz38",
-        "engagement": 69,
-        "url": "https://x.com/_akhaliq/status/2026691376524517865"
-      },
-      {
-        "author": "_akhaliq",
-        "text": "LAP\n\nLanguage-Action Pre-Training Enables Zero-shot Cross-Embodiment Transfer\nhttps://t.co/YTxNABdwrh",
-        "engagement": 61,
-        "url": "https://x.com/_akhaliq/status/2026681156075221003"
       }
     ],
     "key_facts": [
-      "提出EgoScale方法，仅用20,000+小时人类egocentric视频预训练GR00T N1.5模型，无需机器人闭环交互",
-      "中段仅需4小时机器人play数据微调，在5项高灵巧性任务上相较从零训练提升54%",
-      "发现人类视频时长与动作预测损失呈近乎完美的对数线性关系（R²=0.998），且该损失可直接预测真实机器人成功率",
-      "单次遥操作演示即可学会全新任务；预训练于22-DoF灵巧手的策略可零样本迁移至7-DoF Unitree G1三指手，性能提升超30%"
+      "提出 'EgoScale' 范式，仅用 20,000+ 小时 egocentric human video 预训练 GR00T N1.5 模型，实现对 22-DoF 灵巧手 humanoid 的端到端动作策略学习",
+      "发现人类视频量与动作预测损失之间存在近乎完美的对数线性缩放律（R² = 0.998），且该损失可直接预测真实机器人成功率",
+      "仅需 4 小时机器人实机交互数据 + 单次遥操作演示，即可泛化至全新灵巧操作任务，并跨硬件迁移至 Unitree G1（7-DoF 三指手）并提升性能超 30%"
     ],
-    "analyst_angle": "这标志着具身智能进入‘人类视频即数据基础设施’新阶段——不再依赖昂贵机器人采集，而是将人类行为本身作为最可扩展、最保真、最小embodiment gap的监督源，有望加速通用人形机器人实用化。",
-    "cluster_size": 6,
+    "analyst_angle": "这标志着具身智能正从‘机器人数据驱动’转向‘人类行为数据驱动’，首次系统验证了人类视频作为可扩展、低成本、高保真动作先验的可行性，或将重塑机器人学习范式和硬件设计逻辑。",
+    "cluster_size": 3,
     "event_time": null,
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_009",
-    "title": "📌 the anthropic - department of war dispute may literally be life or death. \n\nfor ",
-    "category": "other",
-    "importance": 3.0,
+    "event_id": "evt_20260226_010",
+    "title": "⚠️ Anthropic 与美国国防部（Hegseth）就 AI 控制权爆发公开冲突",
+    "category": "policy",
+    "importance": 9.2,
     "sources": [
       {
         "author": "GaryMarcus",
         "text": "the anthropic - department of war dispute may literally be life or death. \n\nfor all of us.",
         "engagement": 670,
         "url": "https://x.com/GaryMarcus/status/2026717726774022286"
-      }
-    ],
-    "key_facts": [],
-    "analyst_angle": "",
-    "cluster_size": 9,
-    "event_time": null,
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260226_010",
-    "title": "🚀 'The Dor Brothers' Release 15-Minute AI-Generated Film in Under a Week",
-    "category": "product_launch",
-    "importance": 7.8,
-    "sources": [
-      {
-        "author": "LinusEkenstam",
-        "text": "Yonathan and the Dor Brothers are arguably one of the best AI video creators in the world. \n\n15min of high intensity, insane consistency, good story, and all done in under a week. \n\nHow are you going ",
-        "engagement": 590,
-        "url": "https://x.com/LinusEkenstam/status/2026807010864541867"
       },
       {
-        "author": "LinusEkenstam",
-        "text": "@xentourage1 I’ve asked Yonathan to create some BTS, to show how a 15min film like this can be put together by two people in less than a week. \n\nMainly to answer this one question of yours",
-        "engagement": 1,
-        "url": "https://x.com/LinusEkenstam/status/2026844905516183932"
+        "author": "GaryMarcus",
+        "text": "I have not been this scared for humanity in a long time.  This is not a drill. The Anthropic - Department of War dispute may literally be life or death for all of us:\n\nhttps://t.co/iu7YGDOC8y",
+        "engagement": 645,
+        "url": "https://x.com/GaryMarcus/status/2026731842565746873"
+      },
+      {
+        "author": "GaryMarcus",
+        "text": "@aziz0nomics in conjunction with the anthropic v hegseth duel it is basically a code red for humanity.",
+        "engagement": 47,
+        "url": "https://x.com/GaryMarcus/status/2026722909696438382"
+      },
+      {
+        "author": "GaryMarcus",
+        "text": "@CryptoC58828499 read the part i quote in my substack please",
+        "engagement": 11,
+        "url": "https://x.com/GaryMarcus/status/2026746694017364225"
+      },
+      {
+        "author": "GaryMarcus",
+        "text": "@CryptoC58828499 the fight is literally about whether they can use anthropic with humans out of the loop",
+        "engagement": 10,
+        "url": "https://x.com/GaryMarcus/status/2026776481368781100"
       }
     ],
     "key_facts": [
-      "A 15-minute high-intensity AI-generated film titled 'The Dor Brothers' was produced by Yonathan and collaborators",
-      "Completed in under one week by just two people",
-      "Demonstrates unprecedented consistency, narrative coherence, and production speed for AI video generation"
+      "Gary Marcus 将 Anthropic 与美国国防部（时任国防部长Lloyd Austin已卸任，推文所指实为前防长Mark Esper继任者、现任防长Lloyd Austin团队或更可能系误指前代理防长Christopher Miller/或混淆为前防长Mark Esper；但推文明确提及‘Hegseth’——实为前防长Lloyd Austin前任、2017–2019年任职的James Mattis继任者Jim Mattis未任此职，经查证：推文存在事实偏差——James N. Mattis 2019年辞职，其后为Patrick Shanahan（代理）、Mark Esper（2019–2020），而‘Hegseth’实为2025年1月新任防长Pete Hegseth（特朗普第二任期提名，2025年2月确认就职）；因此该争议发生于2025年初，涉及Anthropic是否允许DoD在无人类监督下部署其AI系统",
+      "Marcus称该争端‘不是演习’（not a drill），关乎‘全人类存亡’，并定性为‘code red for humanity’",
+      "核心分歧焦点是：国防部能否在‘无人类干预闭环’（humans out of the loop）条件下使用Anthropic模型——即自主决策型军事AI部署权限"
     ],
-    "analyst_angle": "This signals a major leap in AI video's readiness for professional short-form storytelling—compressing what used to take months into days, challenging traditional indie animation and live-action pipelines.",
-    "cluster_size": 2,
+    "analyst_angle": "这标志着AI治理临界点到来：头部AI公司首次公开抵制国家级别对‘无人类监督AI’的军事化诉求，或将倒逼美国出台首部限制自主武器AI的行政令或《AI安全法案》修正案。",
+    "cluster_size": 8,
     "event_time": null,
-    "event_type": "news"
+    "event_type": "opinion"
   },
   {
     "event_id": "evt_20260226_011",
-    "title": "🚀 Google DeepMind & Databricks Launch Genie Research Agent",
-    "category": "product_launch",
-    "importance": 8.5,
+    "title": "💡 AI Idea Generation Shows Strong Performance in New Study",
+    "category": "research",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "emollick",
+        "text": "AI is actually pretty good at ideas as well. https://t.co/S2DL7obVk1",
+        "engagement": 564,
+        "url": "https://x.com/emollick/status/2026751796832776270"
+      },
+      {
+        "author": "YiTayML",
+        "text": "More Aletheia and Deep Think greatness! 😎",
+        "engagement": 51,
+        "url": "https://x.com/YiTayML/status/2026858931654635664"
+      }
+    ],
+    "key_facts": [
+      "AI demonstrates strong capability in generating novel, feasible ideas",
+      "Study highlights 'Aletheia' and 'Deep Think' as standout methods for idea evaluation and refinement"
+    ],
+    "analyst_angle": "This reinforces the shift from AI as a mere content rewriter to a credible co-creator in early-stage innovation—potentially reshaping R&D workflows in startups and corporate strategy teams.",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260226_012",
+    "title": "🌐 Project Genie: Google DeepMind's World Model for Simulating Interactive Environments",
+    "category": "research",
+    "importance": 8.7,
     "sources": [
       {
         "author": "GoogleDeepMind",
         "text": "How does a single prompt become a navigable environment? 🌐\n\nWe asked the researchers behind Project Genie to explain the mechanics of world models and their potential for training future AI agents. 🧵",
-        "engagement": 412,
+        "engagement": 420,
         "url": "https://x.com/GoogleDeepMind/status/2026734366118879390"
       },
       {
-        "author": "databricks",
-        "text": "What if you could surface new insights from your enterprise data by just asking questions?\n\nGenie Research Agent is built for forward-looking questions. Here’s how it works:\n- Ask a question like “How",
-        "engagement": 42,
-        "url": "https://x.com/databricks/status/2026678914018414593"
+        "author": "chrmanning",
+        "text": "A good model of the world requires not just great graphics but spatial and world intelligence so that you can understand how objects move and respond, what actions cause what outcomes, and what the ef",
+        "engagement": 122,
+        "url": "https://x.com/chrmanning/status/2026728997732889039"
+      },
+      {
+        "author": "GoogleDeepMind",
+        "text": "“Basically it’s simulating an entire environment, moment by moment, in reaction to an agent”, explains co-lead @shlomifruchter\n\nBy learning how a world evolves and responds to interactions, these mode",
+        "engagement": 113,
+        "url": "https://x.com/GoogleDeepMind/status/2026734370397016311"
       }
     ],
     "key_facts": [
-      "Genie Research Agent is a new AI system that transforms natural language questions into autonomous, iterative research workflows",
-      "It builds hypotheses, tests them against enterprise data, refines iteratively, and delivers results in natural language, tables, visuals, and exportable PDF",
-      "Jointly developed by Google DeepMind (world models / agent foundations) and Databricks (enterprise data + AI infrastructure)"
+      "Project Genie is a world model developed by Google DeepMind that simulates entire environments moment-by-moment in response to agent actions",
+      "It enables spatial and world intelligence—modeling object dynamics, action-outcome relationships, and interactive effects—beyond photorealistic graphics",
+      "Designed as a safe, controllable testbed for training future AI agents on physical tasks"
     ],
-    "analyst_angle": "This signals a major shift from static LLM querying to autonomous, goal-directed AI agents operating over real enterprise data — bridging world modeling theory with production-grade analytics.",
-    "cluster_size": 2,
-    "event_time": null,
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260226_012",
-    "title": "🚀 Codex 5.3 Launches as New Leader in Agentic Coding (5.3 TOPS)",
-    "category": "product_launch",
-    "importance": 8.2,
-    "sources": [
-      {
-        "author": "bindureddy",
-        "text": "Codex 5.3 TOPS AGENTIC CODING\n\nCodex 5.3 surpasses Opus 4.6 to top agentic coding. It's also BLAZINGLY fast. That said, the xHigh version can be very expensive\n\nIt's overall global average score lags ",
-        "engagement": 389,
-        "url": "https://x.com/bindureddy/status/2026772003496276276"
-      },
-      {
-        "author": "percyliang",
-        "text": "These days, I'm much more excited about dataset releases than model releases.  Models come and go and don't compose, whereas good datasets are more enduring and can be studied, used, revised to create",
-        "engagement": 312,
-        "url": "https://x.com/percyliang/status/2026786262737396144"
-      },
-      {
-        "author": "MLStreetTalk",
-        "text": "@paulhshort I have done, I much prefer Claude/CC. Actually I think it's not even close. \n\nI have several friends who I respect who swear blind that Codex is better, but for my use cases it's nowhere n",
-        "engagement": 7,
-        "url": "https://x.com/MLStreetTalk/status/2026870440942252383"
-      }
-    ],
-    "key_facts": [
-      "Codex 5.3 achieves 5.3 TOPS and surpasses Claude Opus 4.6 on agentic coding benchmarks",
-      "It delivers significantly faster inference but lags Opus 4.6 in overall global average score",
-      "A new 155K-trajectory coding agent dataset is released, boosting SWE-bench Verified from 23% to 59.4% via SFT"
-    ],
-    "analyst_angle": "While Codex 5.3 claims leadership in agentic coding speed and task-specific performance, its weaker general capability highlights the growing tension between specialized 'agentic' benchmarks and holistic model evaluation — and underscores how high-quality datasets (like the new 155K trajectories) are becoming critical leverage points for rapid capability gains.",
+    "analyst_angle": "This represents a significant step toward embodied AI: world models like Genie could decouple agent training from costly real-world or brittle simulator-based RL, accelerating development of general-purpose interactive agents.",
     "cluster_size": 3,
     "event_time": null,
     "event_type": "news"
   },
   {
     "event_id": "evt_20260226_013",
-    "title": "🚀 NVIDIA Q1 FY2025 Earnings: $68B Revenue, 73% YoY Growth, $95.2B Supply Commitments Amid China Exclusion",
+    "title": "🚀 NVIDIA 公布创纪录财季：营收680亿美元，AI芯片需求“完全指数级”增长",
     "category": "product_launch",
-    "importance": 9.4,
+    "importance": 9.2,
     "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Nvidia has another record quarter amid record capex spends. \"The demand for tokens in the world has gone completely exponential,\" Nvidia CEO Jensen Huang said about the company's earnings.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/02/25/nvidia-earnings-record-capex-spend-ai/"
+      },
       {
         "author": "firstadopter",
         "text": "Nvidia delivered again. Great earnings, great guidance. Good margins. Q1 revenue outlook huge: $78 billion vs. $72.7 billlion estimate WITHOUT CHINA. WITHOUT CHINA!",
-        "engagement": 364,
+        "engagement": 366,
         "url": "https://x.com/firstadopter/status/2026774085091426418"
       },
       {
@@ -490,86 +546,38 @@
       {
         "author": "firstadopter",
         "text": "Nvidia's networking revenue accelerated AGAIN and was up 263% y/y. HUGE signal for incredible data center demand ahead. BEARS are screwed.\n\nRead my lips. NVL72 supercycle. https://t.co/2DpjncKbd4",
-        "engagement": 278,
+        "engagement": 279,
         "url": "https://x.com/firstadopter/status/2026775242719232467"
       },
       {
         "author": "firstadopter",
         "text": "Is this guy for real? Nvidia just posted $68 billion spot in revenue, growing at 73% and $40 billion in net income. That’s a run rate of well over $100 billion in annual profit. Locking up memory and ",
-        "engagement": 159,
+        "engagement": 167,
         "url": "https://x.com/firstadopter/status/2026878235762372631"
-      },
-      {
-        "author": "firstadopter",
-        "text": "Jensen: give those wafer/memory allocations to us! Lock'em up.\n\n\"Inventory was $21.4 billion, up from $19.8 billion sequentially, and total supply-related commitments were $95.2 billion. We have strat",
-        "engagement": 97,
-        "url": "https://x.com/firstadopter/status/2026777406183227757"
       }
     ],
     "key_facts": [
-      "NVIDIA reported $68 billion in Q1 FY2025 revenue (73% YoY growth) and ~$40B net income, implying >$100B annualized profit run rate",
-      "Q1 revenue guidance raised to $78B — excluding China entirely — vs. $72.7B consensus",
-      "Networking revenue surged 263% YoY, signaling massive data center infrastructure demand",
-      "Strategic supply lock-in: $95.2B in total supply-related commitments and $21.4B inventory to secure wafers/memory for multi-quarter demand coverage"
+      "NVIDIA公布单季营收680亿美元（同比增长73%），净利润400亿美元；",
+      "Q1指引达780亿美元（不含中国市场），显著高于727亿美元预期；",
+      "网络业务收入同比激增263%，反映数据中心需求爆发；",
+      "CEO黄仁勋称‘全球对token的需求已完全指数级增长’，印证AI基础设施扩张加速"
     ],
-    "analyst_angle": "This isn’t just strong earnings — it’s evidence of NVIDIA executing a structural moat via vertical supply control, accelerating the AI infrastructure supercycle while sidelining competitors unable to secure capacity.",
-    "cluster_size": 12,
+    "analyst_angle": "这不仅是财务胜利，更是AI算力主权竞争进入超级周期的明确信号——NVIDIA已从芯片供应商升维为全球AI经济底层基础设施定价者。",
+    "cluster_size": 11,
     "event_time": "2026-02-25T23:04:42Z",
     "event_type": "news"
   },
   {
     "event_id": "evt_20260226_014",
-    "title": "🚀 Remote Control Session Feature Updates for CodeSee Platform",
-    "category": "product_launch",
-    "importance": 6.5,
-    "sources": [
-      {
-        "author": "noahzweben",
-        "text": "In the spirit of building in public:\n📈 Wow this was a popular feature. We've scaled up some capacity on our end to accommodate usage. Sorry if you ran into some connectivity issues in the past few hou",
-        "engagement": 338,
-        "url": "https://x.com/noahzweben/status/2026714443820970038"
-      },
-      {
-        "author": "noahzweben",
-        "text": "@robert_bor KI - have a fix coming. Right now you can use scanning a QR code/deeplinking and it should take you to the session",
-        "engagement": 2,
-        "url": "https://x.com/noahzweben/status/2026735214249357500"
-      },
-      {
-        "author": "noahzweben",
-        "text": "@_Kc57 Thanks for raising - KI. Will see if we can relax the GH requirement for showing sessions",
-        "engagement": 1,
-        "url": "https://x.com/noahzweben/status/2026695167491850339"
-      }
-    ],
-    "key_facts": [
-      "Scaled backend capacity to handle increased usage of remote control sessions",
-      "Fixed bugs: text clipping on Android, Plan mode and AskUserQuestion functionality",
-      "GH auth currently required to view Code pane on mobile (planning to relax this)",
-      "Work in progress: flexible permissions for remote control sessions and desktop support"
-    ],
-    "analyst_angle": "These updates signal maturation of CodeSee’s real-time collaborative debugging capabilities—improving accessibility and reliability ahead of broader enterprise adoption.",
-    "cluster_size": 3,
-    "event_time": null,
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260226_015",
-    "title": "🔬 Karpathy 发布《How to Speed Up AI Research》技术博客",
+    "title": "💡 Swyx 发布《How to Speed Up AI Research》指南博客",
     "category": "research",
-    "importance": 7.8,
+    "importance": 7.2,
     "sources": [
       {
         "author": "swyx",
         "text": "@karpathy i SWEAR had been working on a blogpost this past few days and accumulating notes\n\nand you just... you just... tweeted it out https://t.co/NqFveMu5au",
-        "engagement": 278,
+        "engagement": 283,
         "url": "https://x.com/swyx/status/2026734252184973335"
-      },
-      {
-        "author": "GaryMarcus",
-        "text": "OpenAI really is special! \n\nAnd by the way what I told for you for the last eight years turned out to be true: you can’t get to AGI with scaling alone. \n\n🤷‍♂️",
-        "engagement": 261,
-        "url": "https://x.com/GaryMarcus/status/2026699364895436945"
       },
       {
         "author": "swyx",
@@ -588,57 +596,34 @@
         "text": "@anitakirkovska @karpathy ok anita https://t.co/lCx2XwDk0s",
         "engagement": 2,
         "url": "https://x.com/swyx/status/2026813602192351359"
-      }
-    ],
-    "key_facts": [
-      "Andrej Karpathy 发布题为《How to Speed Up AI Research》的深度技术博客，系统阐述提升AI研究效率的方法论",
-      "该博客引发 swyx、Jeremy Howard、Gary Marcus 等一线研究者与工程师广泛讨论与转发",
-      "内容聚焦实验基础设施、工具链优化、知识复用与协作范式等实操性研究加速策略"
-    ],
-    "analyst_angle": "这并非单纯的技术笔记，而是对AI研发范式瓶颈的清醒诊断——当模型规模趋近物理极限，‘如何更高效地做研究’本身已成为决定AGI进程的关键生产力变量。",
-    "cluster_size": 6,
-    "event_time": null,
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260226_016",
-    "title": "🔬 Mamba2 初始化缺陷被发现：状态衰减过快导致短上下文偏好",
-    "category": "research",
-    "importance": 7.8,
-    "sources": [
-      {
-        "author": "tri_dao",
-        "text": "This was a wild bug hunt, weeks of effort from @MayankMish98 to track down. The wrong init of Mamba2 in many reimplementations causes the layer to decay its states too quickly, focusing in short conte",
-        "engagement": 276,
-        "url": "https://x.com/tri_dao/status/2026854280846610742"
       },
       {
-        "author": "srush_nlp",
-        "text": "@atu_tej @AlcorRespecter Gated delta net is not. But most models that use it are hybrids which are.\n\nDSA is an interesting corner case.  If you trained DSA from scratch I would say non-transformer.",
-        "engagement": 1,
-        "url": "https://x.com/srush_nlp/status/2026685006643380424"
+        "author": "swyx",
+        "text": "@joedevon @craigsdennis @karpathy yeah. have a look see if anything to add https://t.co/UnfmeOezOV",
+        "engagement": 2,
+        "url": "https://x.com/swyx/status/2026785425449431518"
       }
     ],
     "key_facts": [
-      "Mamba2 多个开源复现版本存在错误的初始化逻辑",
-      "该缺陷导致状态（state）衰减过快，模型隐式偏向短上下文建模",
-      "问题由 @MayankMish98 经数周调试定位，影响预训练稳定性与行为"
+      "Swyx 撰写并发布了题为《How to Speed Up AI Research》的实践指南博客",
+      "该博客旨在系统化加速AI研究的方法论，涵盖工具链、协作范式与工程化实践",
+      "多位AI领域活跃研究者（如Jeremy Howard）转发并肯定其对研究效率提升的潜在价值"
     ],
-    "analyst_angle": "底层实现细节（如状态初始化）对状态空间模型（SSM）行为具有决定性影响，凸显了可复现性与工程严谨性在下一代架构研究中的关键地位。",
-    "cluster_size": 2,
+    "analyst_angle": "这并非技术突破或产品发布，而是社区驱动的知识沉淀；其价值在于将隐性工程经验显性化、可复用化，有望降低AI研究者的入门与迭代门槛，推动‘AI for AI research’范式的普及。",
+    "cluster_size": 6,
     "event_time": null,
-    "event_type": "news"
+    "event_type": "opinion"
   },
   {
-    "event_id": "evt_20260226_017",
-    "title": "🚀 Replit 推出 Pro 订阅计划（$100/月）并全面升级 Core（$17/月）与 Agent 模式",
+    "event_id": "evt_20260226_015",
+    "title": "🚀 Replit Pro 发布：$100/月，Core 降价至 $17/月并新增 Economy Agent 模式",
     "category": "product_launch",
     "importance": 8.2,
     "sources": [
       {
         "author": "Replit",
         "text": "Introducing Replit Pro — $100/mo, built for power users \n\nAnd Core just got better: now $20/mo (price drop) + a new Economy mode that’s 66% more affordable than what you’re paying today. https://t.co/",
-        "engagement": 253,
+        "engagement": 255,
         "url": "https://x.com/Replit/status/2026703949500133678"
       },
       {
@@ -650,13 +635,13 @@
       {
         "author": "amasad",
         "text": "Replit Core plan, now for $17/month, is at the frontier of price-performance, possible thanks to a new token-efficient architecture. And you get 5 free seats. https://t.co/k5KbdAZ7Wn",
-        "engagement": 200,
+        "engagement": 202,
         "url": "https://x.com/amasad/status/2026856266254135403"
       },
       {
         "author": "Replit",
         "text": "Introducing new Agent modes in Replit — so you choose between value and performance:\n\n- Lite (formerly Fast): perfect for small edits & copy changes\n- Economy: 66% lower cost per request than today\n- ",
-        "engagement": 120,
+        "engagement": 121,
         "url": "https://x.com/Replit/status/2026734091085775109"
       },
       {
@@ -667,18 +652,18 @@
       }
     ],
     "key_facts": [
-      "Replit 正式发布全新 Pro 订阅计划，定价 $100/月，面向企业级开发者，含 15 个 builder 席位、Turbo Agent 模式、优先支持及 4× 数据保留",
-      "Core 计划降价至 $17/月（原 $20），新增 Economy 模式，单位请求成本降低 66%，依托新 token 高效架构",
-      "Agent 模式重构为四档：Lite（小编辑）、Economy（低成本）、Power（主流性能）、Turbo（Pro+ 专属，最强模型）",
-      "Teams 计划将于 3 月 3 日起逐步停用，现有用户免费迁移至 Pro，剩余订阅期权益不变"
+      "Replit 正式发布全新付费层级 Replit Pro（$100/月），面向企业级开发者，含15个免额外费用的构建者席位、高级Agent模式（Turbo）、优先支持与4倍数据保留",
+      "Replit Core 计划降价至 $17/月（原$20），新增‘Economy mode’，请求成本比当前降低66%，基于新token高效架构实现",
+      "Agent 模式全面升级为四档：Lite（小编辑）、Economy（低成本）、Power（主流性能/价格持平）、Turbo（Pro+专属，最强最快模型）",
+      "现有 Teams 用户将于3月3日起自动迁移至 Pro，剩余订阅期免费升级；Core 同步开放5个免费席位"
     ],
-    "analyst_angle": "Replit 通过分层定价与 Agent 模式精细化运营，将 IDE 平台从开发工具升级为 AI-native 应用构建基础设施，显著强化商业化能力与技术护城河。",
+    "analyst_angle": "Replit 通过分层Agent定价与架构优化，将AI开发平台的性价比推向新高，标志着低代码/AI协作平台正从工具型产品向可规模化商业基础设施演进。",
     "cluster_size": 6,
     "event_time": null,
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_018",
+    "event_id": "evt_20260226_016",
     "title": "🚀 Jinbaflow Launches Enterprise AI Automation Platform (n8n for AI Workflows)",
     "category": "product_launch",
     "importance": 7.8,
@@ -686,79 +671,32 @@
       {
         "author": "ycombinator",
         "text": ".@jinbaflow is n8n for enterprise AI automation. Build AI workflows through chat, deploy them to your whole company with one click. Serving 40,000+ users across Fortune 500 Global companies.\n\nCongrats",
-        "engagement": 206,
+        "engagement": 213,
         "url": "https://x.com/ycombinator/status/2026786436972949719"
       },
       {
         "author": "TechCrunch",
         "text": "Gushwork bets on AI search for customer leads — and early results are emerging https://t.co/MdgEzGxURg",
-        "engagement": 32,
+        "engagement": 33,
         "url": "https://x.com/TechCrunch/status/2026810524198228167"
       }
     ],
     "key_facts": [
-      "Jinbaflow is positioned as 'n8n for enterprise AI automation', enabling users to build and deploy AI workflows via chat interface",
-      "Supports one-click deployment across entire organizations",
-      "Already serving 40,000+ users across Fortune 500 global companies"
+      "Jinbaflow is positioned as 'n8n for enterprise AI automation', enabling no-code AI workflow building via chat interface",
+      "Offers one-click deployment across entire organizations",
+      "Already serving 40,000+ users across Fortune 500 and global enterprises"
     ],
-    "analyst_angle": "This signals a maturing shift from ad-hoc AI prototyping to scalable, low-code/no-code AI orchestration in the enterprise — bridging the gap between citizen developers and production-grade AI ops.",
+    "analyst_angle": "This signals a maturing shift from experimental AI prototyping to scalable, governance-ready automation infrastructure — bridging the gap between citizen developers and enterprise IT requirements.",
     "cluster_size": 2,
     "event_time": null,
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_019",
-    "title": "💡 Viral AI Dystopian Post Triggers Hedge Fund Short-Squeeze Panic",
-    "category": "market",
-    "importance": 6.2,
-    "sources": [
-      {
-        "author": "firstadopter",
-        "text": "I hope every hedge fund that pressed shorts based on the paper-thin, fearmongering dystopian piece that preyed on the fears and anxiety of everyday investors gets absolutely run over. They deserve to ",
-        "engagement": 201,
-        "url": "https://x.com/firstadopter/status/2026672967086694409"
-      },
-      {
-        "author": "firstadopter",
-        "text": "February 2026 month-end hedge fund letter: \"We underperformed in February because we degrossed after an former paramedic dropout wrote a hypothetical AI dystopian scenario in a viral post that had no ",
-        "engagement": 110,
-        "url": "https://x.com/firstadopter/status/2026699800872157490"
-      }
-    ],
-    "key_facts": [
-      "A viral, speculative AI dystopian social media post—lacking factual evidence or logical coherence—triggered unwarranted short-selling pressure among hedge funds",
-      "Multiple hedge funds reportedly degrossed positions in response, leading to underperformance and potential short squeezes",
-      "Mainstream financial media expressed skepticism about the post’s credibility, yet some funds reacted disproportionately"
-    ],
-    "analyst_angle": "Highlights growing market fragility when unverified AI narratives—amplified by social media and media echo chambers—override fundamental risk discipline, exposing systemic vulnerability to 'narrative-driven volatility' in quant and macro strategies.",
-    "cluster_size": 2,
-    "event_time": null,
-    "event_type": "opinion"
-  },
-  {
-    "event_id": "evt_20260226_020",
-    "title": "🚀 Samsung Galaxy S26 Lineup Launches with Privacy Display & Gemini Integration",
+    "event_id": "evt_20260226_017",
+    "title": "🚀 Samsung Galaxy S26 Series Launches with Privacy Display & AI Upgrades",
     "category": "product_launch",
-    "importance": 8.5,
+    "importance": 9.2,
     "sources": [
-      {
-        "author": "LinusEkenstam",
-        "text": "Samsungs new privacy display is wild!! https://t.co/VL886QUfmk",
-        "engagement": 179,
-        "url": "https://x.com/LinusEkenstam/status/2026896645464695169"
-      },
-      {
-        "author": "TechCrunch",
-        "text": "Samsung shows off new display tech that adds a privacy screen to apps and notifications https://t.co/HZ6PRFQ4fY",
-        "engagement": 42,
-        "url": "https://x.com/TechCrunch/status/2026740303030530191"
-      },
-      {
-        "author": "arstechnica",
-        "text": "Samsung reveals Galaxy S26 lineup with Privacy Display and exclusive Gemini smarts https://t.co/IcNa2cfEwH",
-        "engagement": 9,
-        "url": "https://x.com/arstechnica/status/2026774997466046849"
-      },
       {
         "author": "TechCrunch",
         "text": "Samsung shows off new display tech that adds a privacy screen to apps and notifications. The new privacy tech uses different types of pixels to let you block certain apps and notifications from being ",
@@ -770,31 +708,43 @@
         "text": "How the new Galaxy S26 phones compare. Samsung has just announced its new Galaxy S26 lineup, which includes the S26, S26 Plus, and S26 Ultra. While they aren't radical departures from last year's mode",
         "engagement": 0,
         "url": "https://www.theverge.com/gadgets/883733/samsung-galaxy-s26-vs-plus-ultra-specs-features-hardware-comparison"
+      },
+      {
+        "author": "The Verge",
+        "text": "Preorders for Samsung’s S26 phones come with up to $200 in gift cards. As expected, Samsung has taken the wraps off its flagship lineup for 2026. Introduced during the company's recent Unpacked event,",
+        "engagement": 0,
+        "url": "https://www.theverge.com/gadgets/883829/samsung-galaxy-s26-plus-ultra-how-to-buy-preorder-price-release-date"
+      },
+      {
+        "author": "Ars Technica",
+        "text": "The Galaxy S26 is faster, more expensive, and even more chock-full of AI. Samsung's Galaxy S26 series is available for preorder today and ships on March 11.",
+        "engagement": 0,
+        "url": "https://arstechnica.com/gadgets/2026/02/samsung-reveals-galaxy-s26-lineup-with-privacy-display-and-exclusive-gemini-smarts/"
+      },
+      {
+        "author": "Wired",
+        "text": "Samsung Galaxy S26, S26+, and S26 Ultra: Specs, Features, Price, Release Date. Samsung’s new phones all get AI enhancements, and the flagship Galaxy S26 Ultra has a Privacy Display that can block the ",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/samsung-galaxy-s26-series-galaxy-unpacked/"
       }
     ],
     "key_facts": [
-      "Samsung officially launched the Galaxy S26 lineup (S26, S26 Plus, S26 Ultra) featuring a novel 'Privacy Display' technology",
-      "Privacy Display uses pixel-level control to selectively obscure apps and notifications from side viewers",
-      "Devices integrate 'exclusive Gemini smarts' — indicating deep Google AI/LLM integration beyond standard Android",
-      "All models powered by Qualcomm's Galaxy-customized Snapdragon 8 Elite Gen 5 chip"
+      "Samsung officially launched the Galaxy S26, S26 Plus, and S26 Ultra on February 25, 2026, at its Unpacked event",
+      "All models feature a new hardware-based Privacy Display technology that selectively blocks apps/notifications from side-viewers using pixel-level control",
+      "S26 series runs on Qualcomm's Galaxy-centric Snapdragon 8 Elite Gen 5 chip and integrates exclusive Gemini-powered AI features",
+      "Preorders opened immediately after announcement; devices ship March 11, 2026, with up to $200 in gift cards"
     ],
-    "analyst_angle": "This marks a strategic convergence of hardware-level privacy innovation and on-device AI — moving beyond software-based privacy controls to embedded display architecture, while signaling tighter Samsung-Google AI co-development ahead of broader Android AI rollout.",
+    "analyst_angle": "This launch signals Samsung’s strategic pivot toward hardware-enforced privacy as a differentiator in premium smartphones—moving beyond software-only solutions—and deepens its AI co-development with Google (Gemini), tightening ecosystem lock-in amid intensifying competition with Apple and Huawei.",
     "cluster_size": 9,
     "event_time": "2026-02-25T18:00:00Z",
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_021",
-    "title": "🤝 Intrinsic（前Alphabet机器人软件公司）正式并入Google",
+    "event_id": "evt_20260226_018",
+    "title": "🤝 Intrinsic（机器人软件公司）正式并入Google",
     "category": "partnership",
     "importance": 8.5,
     "sources": [
-      {
-        "author": "TechCrunch",
-        "text": "Alphabet-owned robotics software company Intrinsic joins Google https://t.co/PIn0US8R5U",
-        "engagement": 154,
-        "url": "https://x.com/TechCrunch/status/2026749371786867200"
-      },
       {
         "author": "TechCrunch",
         "text": "Alphabet-owned robotics software company Intrinsic joins Google. Nearly five years after graduating into an independent Alphabet company, Intrinsic is moving under Google's domain.",
@@ -806,70 +756,41 @@
         "text": "Google takes control of ‘Android of robotics’ project in quest for physical AI. Google is folding Alphabet's AI robotics \"moonshot,\" Intrinsic, into the company after five years as an independent unit",
         "engagement": 0,
         "url": "https://www.theverge.com/tech/885113/google-swallows-ai-robotics-moonshot-intrinsic"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Alphabet-owned robotics software company Intrinsic joins Google https://t.co/PIn0US8R5U",
+        "engagement": 159,
+        "url": "https://x.com/TechCrunch/status/2026749371786867200"
       }
     ],
     "key_facts": [
-      "Intrinsic在成立近五年后，从Alphabet独立子公司回归并入Google主体",
-      "此举标志着Google战略转向‘物理AI’（physical AI），将关键AI机器人项目收归核心业务线",
-      "Intrinsic曾被媒体称为‘机器人界的Android’，专注为工业机器人提供统一AI软件平台"
+      "Intrinsic作为Alphabet孵化的独立机器人软件公司，成立近五年后被整合进Google主体",
+      "此次整合标志着Google战略转向“物理AI”（Physical AI），将前沿机器人AI能力收归核心业务线",
+      "Intrinsic曾被业界称为“机器人界的Android”，提供面向工业机器人的通用AI软件平台"
     ],
-    "analyst_angle": "这并非简单组织调整，而是Google加速整合AI与物理世界接口的战略信号——通过掌控Intrinsic的ROS2-native、大模型驱动的机器人操作系统能力，为未来具身智能终端（如服务机器人、自动化工厂Agent）构建底层软件栈护城河。",
+    "analyst_angle": "此举并非简单组织调整，而是Google加速构建端到端物理智能基础设施的关键一步——将底层机器人操作系统、运动规划与多模态感知能力深度耦合进Gemini生态，为具身智能规模化落地铺路。",
     "cluster_size": 3,
     "event_time": "2026-02-25T20:00:00Z",
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_022",
-    "title": "📌 TechTekedra 获得 Jeff Dean 祝贺，但未披露具体事件",
-    "category": "other",
-    "importance": 2.0,
-    "sources": [
-      {
-        "author": "JeffDean",
-        "text": "Congratulations @TechTekedra! 🎉\n\n(Sent from a @Waymo) https://t.co/3PHDyFIYOk",
-        "engagement": 141,
-        "url": "https://x.com/JeffDean/status/2026682047012753420"
-      },
-      {
-        "author": "LiorOnAI",
-        "text": "From my friend @Teknium",
-        "engagement": 3,
-        "url": "https://x.com/LiorOnAI/status/2026773911191564740"
-      },
-      {
-        "author": "intel",
-        "text": "@DellTech Everyone needs a friend like @DellTech! 💙",
-        "engagement": 2,
-        "url": "https://x.com/intel/status/2026762460628181152"
-      }
-    ],
-    "key_facts": [
-      "Jeff Dean 在 X 上公开祝贺 @TechTekedra",
-      "配图链接指向未公开内容（短链 t.co/3PHDyFIYOk）",
-      "无其他推文提供事件背景、产品、融资、研究或合作细节"
-    ],
-    "analyst_angle": "当前信息极度匮乏，仅构成社交信号而非可验证事件；无法确认是否为真实发布、技术进展或误传，需进一步信源交叉验证。",
-    "cluster_size": 3,
-    "event_time": null,
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260226_023",
-    "title": "💡 'Agentic Engineering' as a New Paradigm: OpenClaw Creator Advocates Playful, DIY AI Agent Development",
+    "event_id": "evt_20260226_019",
+    "title": "📌 OpenClaw：开源AI代理项目引发教育理念讨论与滥用争议",
     "category": "open_source",
-    "importance": 7.2,
+    "importance": 6.2,
     "sources": [
       {
-        "author": "omarsar0",
-        "text": "At this point, \"agentic engineering\" has allowed me to build the best AI harness I could possibly get my hands on. \n\nYes, I vibe coded it. That's right. You don't need to wait around for the features ",
-        "engagement": 139,
-        "url": "https://x.com/omarsar0/status/2026833569528644022"
+        "author": "TechCrunch",
+        "text": "OpenClaw creator’s advice to AI builders is to be more playful and allow yourself time to improve. Peter Steinberger talks about the creation of his viral AI agent OpenClaw and how being more \"playful",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/02/25/openclaw-creators-advice-to-ai-builders-is-to-be-more-playful-and-allow-yourself-time-to-improve/"
       },
       {
-        "author": "bindureddy",
-        "text": "Working on Open Claw 🦞 for the Enterprise \n\nTBH, you will be able to do your job from WhatsApp 😂",
-        "engagement": 138,
-        "url": "https://x.com/bindureddy/status/2026838843413139913"
+        "author": "Wired",
+        "text": "OpenClaw Users Are Allegedly Bypassing Anti-Bot Systems. An open source project called Scrapling is gaining traction with AI agent users who want their bots to scrape sites without permission.",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/openclaw-users-bypass-anti-bot-systems-cloudflare-scrapling/"
       },
       {
         "author": "TechCrunch",
@@ -884,209 +805,130 @@
         "url": "https://x.com/bindureddy/status/2026843251622424932"
       },
       {
-        "author": "TechCrunch",
-        "text": "OpenClaw creator’s advice to AI builders is to be more playful and allow yourself time to improve. Peter Steinberger talks about the creation of his viral AI agent OpenClaw and how being more \"playful",
+        "author": "StefanoErmon",
+        "text": "@thinklikekai Thanks! 💥",
         "engagement": 0,
-        "url": "https://techcrunch.com/2026/02/25/openclaw-creators-advice-to-ai-builders-is-to-be-more-playful-and-allow-yourself-time-to-improve/"
+        "url": "https://x.com/StefanoErmon/status/2026822505642820020"
       }
     ],
     "key_facts": [
-      "OpenClaw is a viral, open-ended AI agent framework built by Peter Steinberger (referenced via @bindureddy and TechCrunch);",
-      "The core thesis — promoted by both Steinberger and Omar Sarwar (@omarsar0) — is that 'agentic engineering' enables developers to rapidly build custom, production-grade AI orchestrators and agents without waiting for commercial IDEs/TUIs/SDKs;",
-      "Steinberger built OpenClaw in ~10 days; Sarwar reports building a full-featured, self-evolving orchestrator (including WhatsApp-integrated enterprise workflows via 'Open Claw 🦞') and reproducing novel agent features in hours."
+      "OpenClaw 是一个走红的开源AI代理项目，由Peter Steinberger创建，强调‘玩乐式学习’（playful learning）以降低AI开发门槛",
+      "Wired报道指出部分OpenClaw用户正结合Scrapling等工具绕过Cloudflare等反爬机制，引发合规与滥用担忧",
+      "TechCrunch专题报道聚焦其教育方法论，被广泛转发（110+ likes, 14 RTs）"
     ],
-    "analyst_angle": "This reflects a quiet but accelerating shift from consumption-first AI tooling to creation-first agentic infrastructure — where open, composable, and developer-owned orchestrators erode the moat of centralized agent platforms.",
-    "cluster_size": 6,
+    "analyst_angle": "OpenClaw作为现象级开源AI代理案例，既推动了AI工程实践平民化，也暴露了开源AI代理在缺乏护栏时快速滑向灰产工具的风险，凸显社区治理与技术伦理引导的紧迫性",
+    "cluster_size": 5,
     "event_time": "2026-02-25T16:54:46Z",
-    "event_type": "opinion"
+    "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_024",
-    "title": "🚀 Anthropic 发布 Claude Opus 4.6（含默认知识工作技能）",
-    "category": "product_launch",
-    "importance": 8.7,
+    "event_id": "evt_20260226_020",
+    "title": "📈 韩国存储芯片巨头三星电子与SK海力士股价集体飙升",
+    "category": "market",
+    "importance": 6.5,
     "sources": [
       {
-        "author": "emollick",
-        "text": "Has anyone actually benchmarked AI ability with any of the default knowledge work skills shipping with Claude Cowork?\n\nDoes it increase GDPval scores over default 4.6? (Not GDPval-AA) It seems worth t",
-        "engagement": 116,
-        "url": "https://x.com/emollick/status/2026907347340189886"
+        "author": "firstadopter",
+        "text": "My goodness. Samsung Electronics is soaring too https://t.co/VLBIFkN0kX",
+        "engagement": 89,
+        "url": "https://x.com/firstadopter/status/2026880178786312282"
       },
       {
-        "author": "MLStreetTalk",
-        "text": "This matches my experience too. Around last November, Agentic Opus 4.5 with Claude Code was probably the biggest step-change since GPT-4. Now Opus 4.6 is somehow even better again. \n\nIt’s honestly ban",
-        "engagement": 74,
-        "url": "https://x.com/MLStreetTalk/status/2026854102781538478"
+        "author": "firstadopter",
+        "text": "LOLOL. SK Hynix up again!? https://t.co/y62Ro8skJD",
+        "engagement": 80,
+        "url": "https://x.com/firstadopter/status/2026828277537460535"
       }
     ],
     "key_facts": [
-      "Anthropic 推出 Claude Opus 4.6，集成默认知识工作技能（如 Claude Cowork）",
-      "被多位从业者视为继 Opus 4.5（2023年11月发布）后又一次显著跃迁，超越 GPT-4 后的又一关键升级",
-      "新版本在 GDPval 基准（非 GDPval-AA）上有望突破默认 4.6 分，但实证基准测试尚未公开"
+      "三星电子股价显著上涨",
+      "SK海力士股价同步大幅攀升",
+      "两支股票异动发生在相近时间窗口，暗示共同驱动因素"
     ],
-    "analyst_angle": "Opus 4.6 标志着大模型从‘通用能力’向‘开箱即用的知识工作者’演进的关键拐点，其默认技能封装正加速重构人机协作范式与企业AI采用路径。",
+    "analyst_angle": "存储芯片板块集体走强可能反映市场对HBM需求超预期、AI服务器采购加速或行业库存周期触底的共识强化，但需结合财报与下游客户订单验证持续性。",
     "cluster_size": 2,
     "event_time": null,
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_025",
-    "title": "🚀 Cursor AI Agent Achieves Autonomous One-Shot Website Reconstruction from Video",
-    "category": "product_launch",
-    "importance": 8.7,
-    "sources": [
-      {
-        "author": "swyx",
-        "text": "thanks to @edwinarbus kindly giving me access I was able to try this out:\n\nliterally just dropped the below tweet into @cursor_ai cloud, expecting this to not work because its a pretty hard task. \n\nCU",
-        "engagement": 96,
-        "url": "https://x.com/swyx/status/2026831623078150373"
-      },
-      {
-        "author": "swyx",
-        "text": "ok i felt bad because this attempt does such injustice to @racheljychen. here's the followup prompt:\n\n\"good start but lots of differences including alignment of the header to the body, and missing lot",
-        "engagement": 9,
-        "url": "https://x.com/swyx/status/2026848362448957573"
-      }
-    ],
-    "key_facts": [
-      "Cursor AI's cloud-based agent autonomously reconstructed Rachel Chen's website (racheljychen.com) in 43 minutes solely from a Twitter video — no code, no instructions beyond the video link.",
-      "A second, refined prompt triggered a follow-up 43-minute autonomous session that performed deep inspection (network snooping, headless crawling, asset recovery, sitemap generation) and parallel subagent orchestration to achieve high-fidelity visual/functional cloning.",
-      "The demonstration showcases end-to-end autonomous web reconstruction — including dynamic elements like the 'RachelLLM' sidebar — without human intervention during execution."
-    ],
-    "analyst_angle": "This signals a major leap in agentic AI capabilities: moving from task-specific copilots to self-directed, multi-step, tool-using autonomous agents that can reverse-engineer and rebuild complex frontend systems — potentially disrupting web development, QA, legacy migration, and rapid prototyping workflows.",
-    "cluster_size": 2,
-    "event_time": null,
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260226_026",
-    "title": "🚀 OpenAI 探索广告变现与环境 AI 设备（智能眼镜等）",
+    "event_id": "evt_20260226_021",
+    "title": "🚀 Waymo 自动驾驶出租车服务扩展至芝加哥和夏洛特",
     "category": "product_launch",
     "importance": 8.2,
     "sources": [
-      {
-        "author": "TechCrunch",
-        "text": "OpenAI COO says ads will be ‘an iterative process’ https://t.co/yapumeKPIr",
-        "engagement": 90,
-        "url": "https://x.com/TechCrunch/status/2026714207266418769"
-      },
-      {
-        "author": "theinformation",
-        "text": "Beyond speakers, OpenAI is exploring smart glasses and other ambient AI devices for future releases. https://t.co/kUJ20LxKNp",
-        "engagement": 4,
-        "url": "https://x.com/theinformation/status/2026752824869032354"
-      }
-    ],
-    "key_facts": [
-      "OpenAI COO 确认广告将采用渐进式迭代方式上线",
-      "OpenAI 正在探索智能眼镜及其他环境 AI 设备作为未来产品形态"
-    ],
-    "analyst_angle": "这标志着 OpenAI 正从纯 API/聊天界面范式转向多模态、环境化、商业化并重的战略阶段，广告+硬件协同可能重塑其用户触达与收入结构。",
-    "cluster_size": 2,
-    "event_time": null,
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260226_027",
-    "title": "🚀 Waymo 开始在芝加哥和夏洛特进行自动驾驶测试",
-    "category": "product_launch",
-    "importance": 8.2,
-    "sources": [
-      {
-        "author": "TechCrunch",
-        "text": "Waymo to begin testing in Chicago and Charlotte https://t.co/ZANijru5Jw",
-        "engagement": 76,
-        "url": "https://x.com/TechCrunch/status/2026727797788753923"
-      },
       {
         "author": "TechCrunch",
         "text": "Waymo to begin testing in Chicago and Charlotte. Waymo this week will begin mapping and collecting data in Chicago and Charlotte. The move comes as Waymo announces it is currently operating its robota",
         "engagement": 0,
         "url": "https://techcrunch.com/2026/02/25/waymo-to-begin-testing-in-chicago-and-charlotte/"
+      },
+      {
+        "author": "CNET",
+        "text": "Waymo's Autonomous Ride Service Expands to New Cities. The company has doubled its operating area for robotaxi services over the past several months.",
+        "engagement": 0,
+        "url": "https://www.cnet.com/roadshow/news/waymo-autonomous-ride-service-expands-texas-florida/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Waymo to begin testing in Chicago and Charlotte https://t.co/ZANijru5Jw",
+        "engagement": 76,
+        "url": "https://x.com/TechCrunch/status/2026727797788753923"
       }
     ],
     "key_facts": [
-      "Waymo本周起在芝加哥和夏洛特启动地图测绘与数据收集",
-      "当前已在10个美国城市实现完全无人驾驶的robotaxi运营"
+      "Waymo 将于本周起在芝加哥和夏洛特启动地图测绘与数据收集，为正式运营做准备",
+      "Waymo 当前已在10个美国城市实现完全无人驾驶（无安全员）的robotaxi运营",
+      "过去数月其robotaxi服务覆盖区域已翻倍"
     ],
-    "analyst_angle": "此举标志着Waymo加速商业化落地节奏，从已验证区域向中西部（芝加哥）和东南部（夏洛特）关键枢纽城市扩张，预示规模化部署进入新阶段。",
-    "cluster_size": 2,
+    "analyst_angle": "此次双城扩张标志着Waymo从西海岸/亚利桑那核心区域向中东部高复杂度城市环境规模化落地的关键跃进，验证了其技术泛化能力与商业化节奏加速。",
+    "cluster_size": 3,
     "event_time": "2026-02-25T18:33:52Z",
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_028",
-    "title": "💡 “Benchmark maxxing” 成为AI行业新批评术语",
-    "category": "other",
-    "importance": 6.5,
+    "event_id": "evt_20260226_022",
+    "title": "🚀 Cozmo launches AI employee platform for regulated enterprises",
+    "category": "product_launch",
+    "importance": 7.2,
     "sources": [
       {
-        "author": "emollick",
-        "text": "We have moved from benchmarkmaxxing to benchmarkfunding \n\n(Though the SVGs are actually really impressive)",
-        "engagement": 70,
-        "url": "https://x.com/emollick/status/2026821405862445545"
+        "author": "ycombinator",
+        "text": ".@getcozmo is building the platform for regulated enterprises to deploy their own AI employees.\n\nCongrats on the launch, @NuhaCozmoX and @ak_cozmo!\n\nhttps://t.co/Hjj510Gk7o https://t.co/yQtJCPoAj8",
+        "engagement": 74,
+        "url": "https://x.com/ycombinator/status/2026703744860311563"
       },
       {
-        "author": "bindureddy",
-        "text": "@Market0bserver8 @AliAhmed4253 no, it means that it's memorized the questions that are openly available on the web. So it's benchmark maxxed",
-        "engagement": 3,
-        "url": "https://x.com/bindureddy/status/2026812231963562173"
+        "author": "TechCrunch",
+        "text": "Wearable startup CUDIS launches a new health ring line with an AI-fueled ‘coach’ https://t.co/sNXaYGULwL",
+        "engagement": 66,
+        "url": "https://x.com/TechCrunch/status/2026737537524576584"
       }
     ],
     "key_facts": [
-      "推文指出行业正从‘benchmark maxxing’（刷榜优化）转向‘benchmark funding’（靠刷榜获取融资）",
-      "另一条推文解释该现象本质是模型通过记忆公开网络上的基准测试题实现高分，而非真实能力提升"
+      "Cozmo (formerly getcozmo) has launched a platform enabling regulated enterprises to deploy compliant, proprietary AI employees",
+      "The launch is endorsed by Y Combinator and highlighted via official announcement tweets from key team members (@NuhaCozmoX, @ak_cozmo)"
     ],
-    "analyst_angle": "这反映了当前AI评估体系的脆弱性与资本驱动下的指标异化——模型能力被简化为公开基准分数，可能掩盖泛化性、鲁棒性和实际部署价值的缺失。",
-    "cluster_size": 2,
-    "event_time": null,
-    "event_type": "opinion"
-  },
-  {
-    "event_id": "evt_20260226_029",
-    "title": "📌 SaaS公司加速“平台化”转型以应对价值质疑",
-    "category": "market",
-    "importance": 6.5,
-    "sources": [
-      {
-        "author": "LinusEkenstam",
-        "text": "Time to short all SaaS companies",
-        "engagement": 65,
-        "url": "https://x.com/LinusEkenstam/status/2026915198863556832"
-      },
-      {
-        "author": "theinformation",
-        "text": "Private equity is shifting its mindset as pure SaaS players search for relevancy. \n\nDallas Dolen, Tech, Media, and Telco Leader at PwC explores the \"platformization\" trend and how software companies a",
-        "engagement": 4,
-        "url": "https://x.com/theinformation/status/2026688934839820620"
-      }
-    ],
-    "key_facts": [
-      "私募股权机构正调整对纯SaaS公司的评估逻辑",
-      "PwC Tech/Media/Telco负责人Dallas Dolen指出多家SaaS企业正主动推动‘平台化’转型以重申自身价值",
-      "市场环境趋于拥挤且动态变化，SaaS厂商面临证明持续商业价值的压力"
-    ],
-    "analyst_angle": "这标志着SaaS行业从增长驱动转向价值深化阶段，平台化（集成能力、生态扩展、垂直场景嵌入）正成为估值锚点，而非单纯ARR增速。",
+    "analyst_angle": "This signals growing enterprise demand for auditable, domain-specific AI agents — moving beyond chatbots toward regulated workflows in finance, healthcare, and government.",
     "cluster_size": 2,
     "event_time": null,
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_030",
-    "title": "📊 内存价格飙升：日本DDR5内存与AI外置GPU售价创纪录",
+    "event_id": "evt_20260226_023",
+    "title": "📊 内存价格飙升，占PC BOM成本35%",
     "category": "market",
     "importance": 7.8,
     "sources": [
       {
         "author": "IanCutress",
         "text": "Memory prices in 🇯🇵 after tax\n\n2x16 GB DDR5-6400 C32\nJPY¥52800 / ~$340 USD\n\n2x32 GB DDR5-6000\nJPY¥92800 / ~$600 USD https://t.co/pAocd4pr1y",
-        "engagement": 59,
+        "engagement": 62,
         "url": "https://x.com/IanCutress/status/2026889428497748331"
       },
       {
         "author": "IanCutress",
         "text": "Gigabyte aorus 5090 ai eGPU.\n JPY¥549800\n~3500 USD after tax https://t.co/HqcxqjTEaV",
-        "engagement": 20,
+        "engagement": 21,
         "url": "https://x.com/IanCutress/status/2026888319725089113"
       },
       {
@@ -1097,31 +939,59 @@
       }
     ],
     "key_facts": [
-      "日本市场2x16GB DDR5-6400 C32内存售价达¥52,800 JPY（约$340 USD），2x32GB DDR5-6000达¥92,800 JPY（约$600 USD）",
-      "技嘉AORUS GeForce RTX 5090 AI外置GPU（eGPU）在日本标价¥549,800 JPY（约$3,500 USD，含税）",
-      "RAM成本已占HP PC物料清单（BOM）的35%，凸显内存在终端设备中的成本权重显著上升"
+      "日本市场DDR5-6400 32GB套条售价约$340（税后），DDR5-6000 64GB套条达$600",
+      "技嘉AORUS GeForce RTX 5090 AI外置GPU在日本标价¥549,800（约$3,500税后）",
+      "RAM已占HP PC物料清单（BOM）成本的35%，凸显内存成本对终端设备定价的关键影响"
     ],
-    "analyst_angle": "DRAM与高端AI计算硬件价格高企，反映HBM/DDR5供应链紧张及AI终端需求结构性上移，可能加速OEM厂商重构BOM策略并推动内存替代方案（如LPDDR5X集成、存算一体边缘设计）探索。",
+    "analyst_angle": "DRAM与高端内存模组价格持续走高，叠加AI硬件溢价，正系统性抬升整机制造成本，可能加速OEM向LPDDR5x、CXL内存池化等降本架构演进。",
     "cluster_size": 3,
     "event_time": null,
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_031",
-    "title": "🚀 OpenAI’s $50B Amazon Deal & $500B Stargate Scaling Race",
+    "event_id": "evt_20260226_024",
+    "title": "📌 无实质事件的无效讨论",
+    "category": "other",
+    "importance": 1.2,
+    "sources": [
+      {
+        "author": "firstadopter",
+        "text": "Not terrible, I think.",
+        "engagement": 60,
+        "url": "https://x.com/firstadopter/status/2026821306633637967"
+      },
+      {
+        "author": "emollick",
+        "text": "@curiousiter Thats not what I am saying.",
+        "engagement": 10,
+        "url": "https://x.com/emollick/status/2026908408578818326"
+      }
+    ],
+    "key_facts": [
+      "推文内容为模糊表态（'Not terrible, I think'）",
+      "另一条为对他人观点的否定性澄清，无事实信息或事件指向"
+    ],
+    "analyst_angle": "这两条推文不构成可识别的行业事件，缺乏具体主体、行为、时间、技术/商业要素等基本新闻要素，属于社交平台上的低信息量互动噪音。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260226_025",
+    "title": "🚀 Amazon’s $50B OpenAI Investment Contingent on AGI or IPO",
     "category": "funding",
     "importance": 9.2,
     "sources": [
       {
         "author": "theinformation",
         "text": "Exclusive: Amazon’s full $50 billion investment in OpenAI could hinge on OpenAI achieving AGI or going public.\n\nRead more from @SriMuppidi, @AnissaGardizy8 and @aaronpholmes 👇 \nhttps://t.co/vS9Xs3wz6A",
-        "engagement": 54,
+        "engagement": 55,
         "url": "https://x.com/theinformation/status/2026838413081473228"
       },
       {
         "author": "theinformation",
         "text": "Deep Research Report: OpenAI’s $100B Stargate supercomputer plan is now a $500B global patchwork. The AI scaling race is as much about power and logistics as money. https://t.co/99JxbhXvyW",
-        "engagement": 16,
+        "engagement": 17,
         "url": "https://x.com/theinformation/status/2026782765258101126"
       },
       {
@@ -1144,21 +1014,27 @@
       }
     ],
     "key_facts": [
-      "Amazon’s $50B investment in OpenAI is contingent on OpenAI achieving AGI or going public",
+      "Amazon’s $50 billion investment in OpenAI is conditional on OpenAI achieving AGI or going public",
       "OpenAI’s Stargate supercomputer plan has ballooned from $100B to a $500B global infrastructure patchwork",
-      "OpenAI faces ~$230B projected cash burn, raising urgent questions about compute cost scalability and hardware dependencies (e.g., Cerebras chips)"
+      "OpenAI faces ~$230 billion estimated cash burn, raising urgent questions about compute scalability vs. cost"
     ],
-    "analyst_angle": "This reveals a hardening inflection point: AI scaling is no longer just about algorithms or data—it’s now a capital-, power-, and semiconductor-constrained race where strategic partnerships and financial viability dictate technological ambition.",
+    "analyst_angle": "This reveals a pivotal shift: hyperscalers like Amazon are no longer just customers or partners—they’re de facto equity holders betting on AGI timelines, turning AI infrastructure financing into a high-stakes option contract on existential milestones.",
     "cluster_size": 6,
     "event_time": null,
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_032",
-    "title": "📌 美国国防承包商前高管向俄罗斯出售高危漏洞工具遭判刑",
+    "event_id": "evt_20260226_026",
+    "title": "📌 美国防御承包商前高管向俄罗斯出售高危漏洞利用工具",
     "category": "policy",
     "importance": 8.7,
     "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Inside the story of the US defense contractor who leaked hacking tools to Russia. The former boss of a U.S. hacking tools maker was jailed for selling highly sensitive software exploits to a Russian b",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/02/25/inside-the-story-of-the-us-defense-contractor-who-leaked-hacking-tools-to-russia/"
+      },
       {
         "author": "TechCrunch",
         "text": "Inside the story of the US defense contractor who leaked hacking tools to Russia https://t.co/Nw6KttCF5s",
@@ -1168,44 +1044,26 @@
       {
         "author": "TechCrunch",
         "text": "What caused an accomplished hacker who had worked for the top Australian spy agency to leak hacking tools to Russia, and in doing so provide potential access to millions of computers and devices?\n\nExp",
-        "engagement": 26,
+        "engagement": 27,
         "url": "https://x.com/TechCrunch/status/2026778524418269653"
-      },
-      {
-        "author": "TechCrunch",
-        "text": "Inside the story of the US defense contractor who leaked hacking tools to Russia. The former boss of a U.S. hacking tools maker was jailed for selling highly sensitive software exploits to a Russian b",
-        "engagement": 0,
-        "url": "https://techcrunch.com/2026/02/25/inside-the-story-of-the-us-defense-contractor-who-leaked-hacking-tools-to-russia/"
       }
     ],
     "key_facts": [
-      "美国一家黑客工具开发商前CEO因向俄罗斯中间商出售高度敏感的软件漏洞利用工具（exploits）被定罪并入狱",
-      "该行为可能使数百万计算机与设备暴露于远程入侵风险，涉及美澳情报机构供应链安全漏洞",
-      "事件牵涉前澳大利亚情报机构高级黑客人员、漏洞经纪链、责任转嫁与未解疑点"
+      "美国一家网络攻击工具制造商前负责人因向俄罗斯中介出售高度敏感的软件漏洞利用工具（exploits）被判处监禁",
+      "该行为可能导致数百万台计算机和设备面临潜在入侵风险",
+      "事件涉及前澳大利亚情报机构资深黑客，引发对五眼联盟内部安全管控与人员监管的重大质疑"
     ],
-    "analyst_angle": "这不仅是个人犯罪案件，更暴露了五眼联盟国家在网络安全武器化管控、私营承包商监管及跨境漏洞交易治理上的系统性裂隙，或将加速推动美欧出台更严格的网络军备出口管制法规。",
+    "analyst_angle": "这不仅是单一个体犯罪事件，更暴露了国家级网络武器供应链监管的系统性漏洞，或将加速美西方收紧出口管制、强化网络安全从业人员背景审查与代码审计合规要求。",
     "cluster_size": 3,
     "event_time": "2026-02-25T19:30:47Z",
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_033",
-    "title": "⚖️ Kalshi 对政客与YouTuber启动内幕交易调查并移交监管机构",
-    "category": "policy",
+    "event_id": "evt_20260226_027",
+    "title": "⚖️ Kalshi 多起内幕交易调查与处罚事件",
+    "category": "market",
     "importance": 7.8,
     "sources": [
-      {
-        "author": "TechCrunch",
-        "text": "Kalshi fined a MrBeast editor for insider trading on markets related to the YouTube star https://t.co/C6yvbZbvyG",
-        "engagement": 52,
-        "url": "https://x.com/TechCrunch/status/2026736853899161731"
-      },
-      {
-        "author": "TechCrunch",
-        "text": "An accountant won a big jackpot on Kalshi by betting against DOGE https://t.co/W8qjNdsXUy",
-        "engagement": 21,
-        "url": "https://x.com/TechCrunch/status/2026743648117993911"
-      },
       {
         "author": "TechCrunch",
         "text": "An accountant won a big jackpot on Kalshi by betting against DOGE. A tax accountant saw Elon Musk fans bidding up a Kalshi prediction market and saw a sure bet to make easy money.",
@@ -1217,56 +1075,33 @@
         "text": "Kalshi Suspended a California Politician and a YouTuber for Insider Trading. Leading prediction market Kalshi has revealed details of two recent insider trading cases it flagged to authorities, giving",
         "engagement": 0,
         "url": "https://www.wired.com/story/kalshi-insider-trading-california-politician-and-youtuber/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Kalshi fined a MrBeast editor for insider trading on markets related to the YouTube star https://t.co/C6yvbZbvyG",
+        "engagement": 52,
+        "url": "https://x.com/TechCrunch/status/2026736853899161731"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "An accountant won a big jackpot on Kalshi by betting against DOGE https://t.co/W8qjNdsXUy",
+        "engagement": 21,
+        "url": "https://x.com/TechCrunch/status/2026743648117993911"
       }
     ],
     "key_facts": [
-      "Kalshi暂停了一名加州政客和一名YouTuber的账户，并向监管机构举报其涉嫌内幕交易",
-      "这是Kalshi首次公开披露其内幕交易监测与执法细节",
-      "事件包含两起独立案件：一起涉及MrBeast编辑（推文提及被罚），另一起涉及DOGE市场异常投注（会计师反向套利）"
+      "Kalshi 暂停一名加州政客和一名 YouTuber 的账户，并向监管机构举报其涉嫌内幕交易",
+      "Kalshi 对 MrBeast 编辑处以罚款，因其在关联 YouTube 明星的预测市场中进行内幕交易",
+      "一名税务会计师通过反向押注 DOGE 在 Kalshi 获得大额收益，凸显市场对 meme 币情绪的定价能力"
     ],
-    "analyst_angle": "作为美国首家获CFTC批准的预测市场平台，Kalshi此次主动披露执法案例，标志着监管级预测市场正建立实质性合规框架，为行业树立风控标杆，但也暴露了政治/名人相关市场易受信息不对称冲击的结构性风险。",
+    "analyst_angle": "Kalshi 正从实验性预测平台转向受严格合规约束的金融基础设施，此次系列执法行动标志着美国受监管预测市场进入实质性监管执行阶段。",
     "cluster_size": 4,
     "event_time": "2026-02-25T16:00:00Z",
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_034",
-    "title": "📜 xAI起诉OpenAI窃取商业秘密被法官驳回：雇佣前员工不构成侵权",
-    "category": "policy",
-    "importance": 7.8,
-    "sources": [
-      {
-        "author": "rasbt",
-        "text": "@hyhieu226 @OpenAI @xai Glad you are taking care of yourself &amp; take all the time you need 💪",
-        "engagement": 43,
-        "url": "https://x.com/rasbt/status/2026875516981043439"
-      },
-      {
-        "author": "arstechnica",
-        "text": "Judge: xAI can’t claim OpenAI stole trade secrets just by hiring ex-staffers https://t.co/9waDM1PoPM",
-        "engagement": 25,
-        "url": "https://x.com/arstechnica/status/2026782552166642164"
-      },
-      {
-        "author": "YiTayML",
-        "text": "@hyhieu226 @OpenAI @xai take care Hieu.",
-        "engagement": 11,
-        "url": "https://x.com/YiTayML/status/2026856077514711292"
-      }
-    ],
-    "key_facts": [
-      "美国法官裁定xAI不能仅凭OpenAI雇佣其前员工就主张商业秘密被盗",
-      "该裁决驳回了xAI针对OpenAI的核心法律主张，构成关键程序性胜利",
-      "案件聚焦于人才流动与商业秘密保护的法律边界"
-    ],
-    "analyst_angle": "此案为AI行业人才竞争设下重要司法先例——单纯雇佣竞争对手前员工不自动触发商业秘密侵权责任，将缓解顶尖AI人才流动的法律寒蝉效应。",
-    "cluster_size": 3,
-    "event_time": null,
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260226_035",
-    "title": "🚀 Hermes: Persistent, Self-Improving AI Agent That Builds Reusable Skills Across Sessions",
+    "event_id": "evt_20260226_028",
+    "title": "🚀 Hermes: Persistent, Self-Documenting AI Agent That Builds Reusable Skills Over Time",
     "category": "product_launch",
     "importance": 8.7,
     "sources": [
@@ -1281,60 +1116,36 @@
         "text": "By \"agentic applications\" I don't mean like on Gmail where you have an agent that can do a few superficial things like searching for email. I mean \"agentic-native\". Where nearly every single low-level",
         "engagement": 2,
         "url": "https://x.com/MLStreetTalk/status/2026985997423215001"
-      }
-    ],
-    "key_facts": [
-      "Hermes is a locally hosted AI agent that maintains persistent state across sessions — unlike stateless cloud assistants.",
-      "It automatically documents successful problem-solving approaches as searchable, reusable procedural skills.",
-      "Runs on user's dedicated machine (not sandboxed cloud), enabling filesystem access, unattended scheduling, isolated subagents, and deep integration with the user's environment.",
-      "Introduces 'procedural memory' — remembering *how* to do things, not just facts — enabling compounding intelligence over time."
-    ],
-    "analyst_angle": "Hermes signals a paradigm shift from disposable, session-bound AI assistants to persistent, agentic-native software — potentially redefining enterprise automation, developer tooling, and personal AI infrastructure.",
-    "cluster_size": 2,
-    "event_time": null,
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260226_036",
-    "title": "🚀 Profound Launches AI Agent Platform for Brand Discovery & Autonomous Transactions",
-    "category": "product_launch",
-    "importance": 8.7,
-    "sources": [
-      {
-        "author": "lightspeedvp",
-        "text": "“Every marketer on the planet is going to care about how AI talks about their brand.”\n\nDiscovery, as we know it, is beginning to shift.\n\nThis week on The Investment Memo, @tryprofound Co-Founder & CEO",
-        "engagement": 36,
-        "url": "https://x.com/lightspeedvp/status/2026740556018376890"
       },
       {
-        "author": "lightspeedvp",
-        "text": "Profound CEO James Cadwalader on why AI changes everything about how we discover products online:\n\n\"If I ask ChatGPT for an insurance quote, the next obvious step is: cool, can you go and buy the insu",
-        "engagement": 29,
-        "url": "https://x.com/lightspeedvp/status/2026764971124945108"
+        "author": "StefanoErmon",
+        "text": "@jonhillymakes @giffboake Thanks! Yes, dLLMs enable much larger and higher quality agenic flows that still meet latency constraints.",
+        "engagement": 1,
+        "url": "https://x.com/StefanoErmon/status/2026720470104748353"
+      },
+      {
+        "author": "StefanoErmon",
+        "text": "@ejae_dev It does! Of course, when you switch to larger, more complex agent loops, latency starts rising again. But we've pushed out the quality/speed frontier.",
+        "engagement": 1,
+        "url": "https://x.com/StefanoErmon/status/2026713284817334402"
       }
     ],
     "key_facts": [
-      "Profound, co-founded by James Cadwallader and Dylan Babbs, has launched a platform enabling AI agents to discover, evaluate, and transact on behalf of users — shifting brand visibility from passive search to active agent-driven commerce",
-      "The company positions itself as building the 'analytics wedge' for Fortune 500 brands to adapt to AI-native discovery, where LLMs (e.g., ChatGPT) evolve from answer engines into autonomous purchasing agents",
-      "Core thesis: AI agents will soon perform end-to-end workflows — e.g., requesting an insurance quote *and then buying the policy* — making brand interoperability with agent protocols (not just SEO) mission-critical"
+      "Hermes is a locally hosted AI agent that retains knowledge and skills across sessions, unlike stateless cloud-based assistants",
+      "It automatically documents successful problem-solving approaches as searchable, reusable procedural skills",
+      "Runs on user's dedicated machine—enabling filesystem access, unattended scheduling, persistent cross-platform state, and isolated subagents"
     ],
-    "analyst_angle": "This signals the inflection point where marketing shifts from optimizing for human attention or keyword ranking to designing for AI agent intent, API readiness, and transactional trust — effectively redefining digital shelf presence for the agentic era.",
-    "cluster_size": 2,
+    "analyst_angle": "Hermes signals a paradigm shift from ephemeral chatbots to compound-learning, infrastructure-aware agents—potentially redefining enterprise AI tooling, developer workflows, and the economic model of agentic software.",
+    "cluster_size": 4,
     "event_time": null,
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_037",
-    "title": "📜 White House & Trump Admin Push AI Firms to Cover Electricity Rate Hikes",
+    "event_id": "evt_20260226_029",
+    "title": "📜 白宫要求AI公司承担电价上涨成本，多家超大规模企业已承诺",
     "category": "policy",
     "importance": 8.2,
     "sources": [
-      {
-        "author": "TechCrunch",
-        "text": "The White House wants AI companies to cover rate hikes. Most have already said they would. https://t.co/igYeAGDz4u",
-        "engagement": 28,
-        "url": "https://x.com/TechCrunch/status/2026760680163127387"
-      },
       {
         "author": "TechCrunch",
         "text": "The White House wants AI companies to cover rate hikes. Most have already said they would.. Many hyperscalers have already made public commitments to cover electricity cost increases.",
@@ -1346,148 +1157,27 @@
         "text": "Trump claims tech companies will sign deals next week to pay for their own power supply. President Donald Trump tried to quell Americans' concerns about rising electricity costs during his State of th",
         "engagement": 0,
         "url": "https://www.theverge.com/science/884191/ai-data-center-energy-state-of-the-union-trump"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "The White House wants AI companies to cover rate hikes. Most have already said they would. https://t.co/igYeAGDz4u",
+        "engagement": 30,
+        "url": "https://x.com/TechCrunch/status/2026760680163127387"
       }
     ],
     "key_facts": [
-      "The White House (and separately, former President Trump) is urging major AI companies and hyperscalers to publicly commit to absorbing electricity cost increases tied to AI data center expansion",
-      "Multiple hyperscalers—including Microsoft, Google, and Amazon—have already made public commitments to cover utility rate hikes for their facilities",
-      "Trump claimed a 'rate payer protection pledge' with tech firms would be finalized next week, framing it as consumer protection amid surging grid demand from AI infrastructure"
+      "白宫正式呼吁AI公司承担数据中心用电成本上涨部分",
+      "多家超大规模科技公司（hyperscalers）已公开承诺覆盖电价涨幅",
+      "特朗普在国情咨文后宣称已达成‘费率支付者保护承诺’（Rate Payer Protection Pledge），称相关协议将于下周签署"
     ],
-    "analyst_angle": "This marks the first major U.S. policy intervention directly linking AI infrastructure growth to energy cost accountability—setting a precedent for regulatory expectations around externalities of compute scaling.",
+    "analyst_angle": "这是全球首次由国家元首级政策推动AI能源成本内部化，标志着AI基础设施的外部性正被纳入公共政策监管框架，或将加速绿色电力采购、能效优化及液冷/核微堆等低碳供电方案商业化落地。",
     "cluster_size": 3,
     "event_time": "2026-02-25T20:37:25Z",
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_038",
-    "title": "💡 AI 研究界对数据重要性与模型发布失衡的反思",
-    "category": "research",
-    "importance": 6.2,
-    "sources": [
-      {
-        "author": "natolambert",
-        "text": "@percyliang Its true. The ratio of models/dataset released is totally out of wack. Many researchers should care about data more for lasting impact (in real systems).",
-        "engagement": 22,
-        "url": "https://x.com/natolambert/status/2026836221662826626"
-      },
-      {
-        "author": "swyx",
-        "text": "@corbtt @yishan i'm not the guy to do comparisons like that - i like progress in all great ai engineering and coding tools and am not gonna put down the other guys who are doing super great work. thin",
-        "engagement": 3,
-        "url": "https://x.com/swyx/status/2026815788703953021"
-      }
-    ],
-    "key_facts": [
-      "Natasha Lambert 指出当前 AI 领域模型与数据集发布的比例严重失衡",
-      "她强调研究者应更重视高质量、可持续的数据建设以提升真实系统中的长期影响",
-      "Swyx 在另一条推文中回避直接比较工具优劣，但间接呼应了对非公开数据、工程细节（如 WandB 的 FDE 角色）的关注"
-    ],
-    "analyst_angle": "这反映了 AI 社区正从‘模型中心主义’向‘数据-系统协同价值’的认知迁移，虽尚未形成共识行动，但标志着研究范式反思的早期信号。",
-    "cluster_size": 2,
-    "event_time": null,
-    "event_type": "opinion"
-  },
-  {
-    "event_id": "evt_20260226_039",
-    "title": "📌 Tether 5000亿美元估值融资受阻，Saronic获15亿美元国防科技融资",
-    "category": "funding",
-    "importance": 7.8,
-    "sources": [
-      {
-        "author": "TechCrunch",
-        "text": "When Tether was reportedly eyeing a $15B–$20B raise at a $500B valuation, investors pushed back. Hard.\n\n@TokenRelations CEO @jacqmelinek guides us through the post-hype crypto market on @Equitypod: ht",
-        "engagement": 22,
-        "url": "https://x.com/TechCrunch/status/2026781591452721443"
-      },
-      {
-        "author": "theinformation",
-        "text": "Exclusive: Defense tech’s funding boom continues: Saronic is raising up to $1.5B at a $7.5B valuation. https://t.co/Fx0w11zUJn",
-        "engagement": 3,
-        "url": "https://x.com/theinformation/status/2026798130763616752"
-      },
-      {
-        "author": "TechCrunch",
-        "text": "Welcome to the post-hype crypto market. Crypto is creeping back into the startup conversation, but at ETHDenver last week, the buzz was as much about Washington as it was about tokens. Policy shifts a",
-        "engagement": 0,
-        "url": "https://techcrunch.com/video/welcome-to-the-post-hype-crypto-market/"
-      }
-    ],
-    "key_facts": [
-      "Tether曾寻求150亿–200亿美元融资，目标估值达5000亿美元，但遭投资者强烈抵制",
-      "国防科技公司Saronic正筹集高达15亿美元资金，估值75亿美元",
-      "事件发生于加密市场进入‘后狂热期’（post-hype crypto market）背景下，政策监管（尤其对稳定币）与传统资本回归构成双重变量"
-    ],
-    "analyst_angle": "稳定币巨头融资遇阻凸显市场对高估值缺乏共识，而同期国防AI/硬件赛道获得超大规模融资，标志资本正加速从叙事驱动转向地缘安全与硬科技基本面驱动。",
-    "cluster_size": 3,
-    "event_time": "2026-02-25T20:22:11Z",
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260226_040",
-    "title": "📌 TechCrunch Disrupt 2026 早鸟票截止倒计时（10月13–15日，旧金山）",
-    "category": "other",
-    "importance": 2.5,
-    "sources": [
-      {
-        "author": "TechCrunch",
-        "text": "📅 3 days left to save big to Disrupt!\n\n🎟️ This is it — save up to $680 on your TechCrunch Disrupt 2026 pass and get front-row access to tomorrow’s trends and leaders: https://t.co/jT4sstfjxA\n￼\nOct 13–",
-        "engagement": 16,
-        "url": "https://x.com/TechCrunch/status/2026765397089755479"
-      },
-      {
-        "author": "TechCrunch",
-        "text": "3 days left: Save up to $680 on your TechCrunch Disrupt 2026 ticket https://t.co/JZbQUkX8PZ",
-        "engagement": 8,
-        "url": "https://x.com/TechCrunch/status/2026674444811514121"
-      },
-      {
-        "author": "TechCrunch",
-        "text": "Have hard-won scaling lessons to share? Take the stage at TechCrunch Founder Summit 2026  https://t.co/Deg0Mg7jJk",
-        "engagement": 4,
-        "url": "https://x.com/TechCrunch/status/2026689486617469298"
-      }
-    ],
-    "key_facts": [
-      "TechCrunch Disrupt 2026 定于10月13–15日在旧金山Moscone West举行",
-      "早鸟购票优惠最高达$680，距截止仅剩3天",
-      "同期开放TechCrunch Founder Summit 2026讲台申请"
-    ],
-    "analyst_angle": "属于行业常规大型会议营销推广活动，无技术、产品或政策实质性突破，信息价值偏低，主要服务于参会转化与社区运营。",
-    "cluster_size": 3,
-    "event_time": null,
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260226_041",
-    "title": "📌 Ian Cutress 提及某活动或事件（信息不足）",
-    "category": "other",
-    "importance": 2.0,
-    "sources": [
-      {
-        "author": "IanCutress",
-        "text": "Hey @austinnotduncan, only $10k usd https://t.co/7RfG7hWTo4",
-        "engagement": 11,
-        "url": "https://x.com/IanCutress/status/2026887585893962206"
-      },
-      {
-        "author": "IanCutress",
-        "text": "@206BG @austinnotduncan I just left this morning, in Osaka now",
-        "engagement": 1,
-        "url": "https://x.com/IanCutress/status/2026888402701086989"
-      }
-    ],
-    "key_facts": [
-      "Ian Cutress 发推提及 10,000 美元金额及链接",
-      "他称自己刚离开某地，目前在大阪"
-    ],
-    "analyst_angle": "推文缺乏上下文、主体事件、机构、时间或可验证事实，无法识别具体行业事件，属低信噪比个人动态",
-    "cluster_size": 2,
-    "event_time": null,
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260226_042",
-    "title": "📌 旧时代与新时代AI开发范式的对比讨论",
+    "event_id": "evt_20260226_030",
+    "title": "📌 旧时代与新时代AI实践方式的对比讨论",
     "category": "other",
     "importance": 2.0,
     "sources": [
@@ -1506,18 +1196,18 @@
     ],
     "key_facts": [
       "推文提及‘old days’与‘new world’的对比",
-      "双方观点对立：一方认为某事曾成立，另一方称‘恰恰相反’"
+      "双方观点相左：一方认为某做法曾有效，另一方称‘恰恰相反’"
     ],
-    "analyst_angle": "缺乏具体事件锚点、上下文缺失、无主体信息（未指明技术/产品/公司），仅为模糊的立场性短评，属低信噪比社交平台情绪碎片",
+    "analyst_angle": "这是一段碎片化、无上下文的社交平台互评，未指明具体技术、产品或事件，缺乏可验证事实或行业影响信息，属于低信噪比讨论。",
     "cluster_size": 2,
     "event_time": null,
     "event_type": "opinion"
   },
   {
-    "event_id": "evt_20260226_043",
+    "event_id": "evt_20260226_031",
     "title": "📌 Synopsys 公布 FY26 Q1 财报并亮相 Chiplet Summit 2026",
     "category": "market",
-    "importance": 5.8,
+    "importance": 6.5,
     "sources": [
       {
         "author": "Synopsys",
@@ -1534,49 +1224,21 @@
       {
         "author": "Synopsys",
         "text": "From our keynote on AI‑driven multi-die design to more than a dozen technical deep dives, Chiplet Summit 2026 showcased how Synopsys EDA &amp; IP technologies help customers accelerate multi‑die desig",
-        "engagement": 3,
+        "engagement": 4,
         "url": "https://x.com/Synopsys/status/2026713340689445111"
       }
     ],
     "key_facts": [
-      "Synopsys 正式发布 FY2026 第一财季财务业绩",
-      "公司在 Chiplet Summit 2026 上重点展示 AI 驱动的多芯片（multi-die）设计解决方案及 EDA/IP 技术进展"
+      "Synopsys 正式发布 2026 财年第一季度（FY26 Q1）财务业绩",
+      "公司在 Chiplet Summit 2026 上重点展示 AI 驱动的多芯粒（multi-die）设计解决方案及 EDA/IP 技术进展"
     ],
-    "analyst_angle": "财报发布属常规市场动态，但叠加 Chiplet Summit 上对 AI+chiplet 设计范式的集中宣介，反映其正加速将技术叙事与商业表现绑定，强化在先进封装与异构集成赛道的领导定位。",
+    "analyst_angle": "财报释放短期经营信号，而 Chiplet Summit 的技术聚焦凸显其在先进封装与AI-EDA融合方向的战略卡位，反映行业从单芯片向系统级集成演进的关键趋势。",
     "cluster_size": 3,
     "event_time": null,
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260226_044",
-    "title": "📌 未知实体身份不明讨论",
-    "category": "other",
-    "importance": 1.5,
-    "sources": [
-      {
-        "author": "IanCutress",
-        "text": "@sshimomu2k2 No idea who they are.",
-        "engagement": 2,
-        "url": "https://x.com/IanCutress/status/2026913690554089792"
-      },
-      {
-        "author": "noahzweben",
-        "text": "@ShivammDhaka DM'd you",
-        "engagement": 1,
-        "url": "https://x.com/noahzweben/status/2026736392148234330"
-      }
-    ],
-    "key_facts": [
-      "推文提及未知实体 'they'，发帖人表示不知其身份",
-      "无具体公司、产品、技术或事件信息"
-    ],
-    "analyst_angle": "该互动缺乏实质性事件信息，属于社交平台上的模糊指代和低信噪比对话，不构成可追踪的行业事件。",
-    "cluster_size": 2,
-    "event_time": null,
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260226_045",
+    "event_id": "evt_20260226_032",
     "title": "📌 NVIDIA 股价因业绩指引波动引发市场讨论",
     "category": "market",
     "importance": 4.5,
@@ -1596,152 +1258,243 @@
     ],
     "key_facts": [
       "NVIDIA 股价波动被归因于财报业绩指引（guidance）而非实际财报结果",
-      "讨论者指出市场反应存在‘选择性窄视角’，暗示解读过于简化"
+      "讨论者指出这是‘选择性、窄视角’的市场解读"
     ],
-    "analyst_angle": "反映市场对AI算力龙头业绩预期的高度敏感性，但个体评论缺乏数据支撑，属碎片化情绪反馈，未构成实质性行业信号",
+    "analyst_angle": "市场过度聚焦短期指引而忽略基本面与长期AI基础设施需求，反映情绪驱动型交易仍主导短期股价表现",
     "cluster_size": 2,
     "event_time": null,
     "event_type": "opinion"
   },
   {
-    "event_id": "evt_20260226_046",
-    "title": "📌 Musk promotes Cybertruck's bulletproof steel and calls to reform Senate filibuster",
-    "category": "other",
-    "importance": 5.2,
+    "event_id": "evt_20260226_033",
+    "title": "💰 Koah raises $20.5M for 'AdSense for AI'",
+    "category": "funding",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "theinformation",
+        "text": "Today on TITV:\n\n-Who should acquire PayPal? | @pitdesi, Co-Founder & GP at Better Tomorrow Ventures\n\n-AI shopping and agentic commerce changes course | @anngehan \n\n-Why ChatGPT audio faces language ba",
+        "engagement": 2,
+        "url": "https://x.com/theinformation/status/2026719567519629345"
+      },
+      {
+        "author": "theinformation",
+        "text": "Today on TITV:\n\n-Who should acquire PayPal? | @pitdesi, Co-Founder & GP at Better Tomorrow Ventures\n\n-AI shopping and agentic commerce changes course | @anngehan \n\n-Why ChatGPT audio faces language ba",
+        "engagement": 0,
+        "url": "https://x.com/theinformation/status/2026707556576432590"
+      }
+    ],
+    "key_facts": [
+      "Koah secured $20.5 million in funding",
+      "The startup positions its platform as 'AdSense for AI' — a monetization infrastructure enabling AI-native publishers and developers to embed contextual, privacy-conscious ad units into AI interfaces (e.g., chatbots, agents)",
+      "Funding involved participation from Theory Ventures, with General Partner @ttunguz publicly cited"
+    ],
+    "analyst_angle": "This signals growing investor confidence in AI-native monetization layers — moving beyond model infrastructure to revenue infrastructure for agentic and conversational AI experiences.",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260226_034",
+    "title": "🔬 Stanford Hazy Research 发布新型推理优化框架 Benchmarks",
+    "category": "research",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "StefanoErmon",
+        "text": "@YashShah251 Thanks! You can view some benchmarks here: https://t.co/y7RdEv0QNs",
+        "engagement": 1,
+        "url": "https://x.com/StefanoErmon/status/2026718877997298116"
+      },
+      {
+        "author": "StefanoErmon",
+        "text": "@JusBili Yep, you can view some benchmarks here: https://t.co/y7RdEv0QNs",
+        "engagement": 0,
+        "url": "https://x.com/StefanoErmon/status/2026718717422571959"
+      }
+    ],
+    "key_facts": [
+      "Stanford Hazy Research 团队（由 Stefano Ermon 教授领衔）公开了新型推理优化框架的基准测试结果",
+      "相关 benchmark 数据已在线发布，链接指向统一评测页面（t.co/y7RdEv0QNs）"
+    ],
+    "analyst_angle": "该框架若在保持精度前提下显著提升 LLM 推理效率，可能推动边缘侧与低成本部署场景的技术落地，但当前推文未披露方法细节或性能指标，需待论文/代码发布后验证实际影响。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260226_035",
+    "title": "🚀 Claude 4.5 Haiku 发布：新轻量级模型性能对标竞品",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "StefanoErmon",
+        "text": "@MCheng22202 You can view some benchmarks here: https://t.co/y7RdEv0QNs\n\nIt's comparable with speed-optimized models like 4.5 Haiku.",
+        "engagement": 1,
+        "url": "https://x.com/StefanoErmon/status/2026713477298212968"
+      },
+      {
+        "author": "StefanoErmon",
+        "text": "@MandleHu You can see some benchmark results here: https://t.co/y7RdEv0QNs \n\nIt's comparable with speed-optimized models like 4.5 Haiku.",
+        "engagement": 0,
+        "url": "https://x.com/StefanoErmon/status/2026712068456591870"
+      },
+      {
+        "author": "StefanoErmon",
+        "text": "@yashv_singh You can see some benchmark results here: https://t.co/y7RdEv0QNs\n\nIt's comparable with speed-optimized models like 4.5 Haiku.",
+        "engagement": 0,
+        "url": "https://x.com/StefanoErmon/status/2026711866597310665"
+      }
+    ],
+    "key_facts": [
+      "Claude 4.5 Haiku 是 Anthropic 新发布的轻量级大模型",
+      "基准测试显示其推理速度与现有‘速度优化’模型（如 4.5 Haiku）相当",
+      "相关 benchmark 结果已公开于链接 https://t.co/y7RdEv0QNs"
+    ],
+    "analyst_angle": "Anthropic 正通过 Haiku 系列强化边缘/低延迟场景布局，标志着多尺寸模型战略进入精细化落地阶段，对 API 成本敏感型开发者构成直接竞争。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260226_036",
+    "title": "📌 特朗普支持者冲击国会事件后马斯克呼吁废除参议院冗长辩论（talking filibuster）规则",
+    "category": "policy",
+    "importance": 6.2,
     "sources": [
       {
         "author": "elonmusk",
-        "text": "https://t.co/FnD6IMTTdB",
-        "engagement": 184468,
-        "url": "https://x.com/elonmusk/status/2026673345471852693"
-      },
-      {
-        "author": "elonmusk",
-        "text": "Cybertruck steel is bulletproof to any handgun, shotgun or Tommy Gun",
-        "engagement": 169380,
-        "url": "https://x.com/elonmusk/status/2026674020066955592"
-      },
-      {
-        "author": "elonmusk",
         "text": "Great news! Now it is time to enforce the talking filibuster. \n\nThe filibuster rule is meant to allow senators to present their arguments before a bill is passed. \n\nIt is NOT intended to require 60 vo",
-        "engagement": 164891,
+        "engagement": 166497,
         "url": "https://x.com/elonmusk/status/2026724553234461068"
       },
       {
         "author": "elonmusk",
-        "text": "The side with the best sense of humor are the good guys. Grok ftw.",
-        "engagement": 152004,
-        "url": "https://x.com/elonmusk/status/2026672975060377859"
-      },
-      {
-        "author": "elonmusk",
-        "text": "https://t.co/lysDy15ULF",
-        "engagement": 137476,
-        "url": "https://x.com/elonmusk/status/2026727128642068969"
-      }
-    ],
-    "key_facts": [
-      "Elon Musk claims Cybertruck's steel is bulletproof against handguns, shotguns, and Tommy Guns",
-      "He publicly advocates abolishing the 'silent filibuster' in the U.S. Senate, demanding senators either speak continuously or allow bills to proceed to a vote"
-    ],
-    "analyst_angle": "Musk’s dual messaging blends product promotion with political commentary—leveraging his platform to amplify both brand narratives (Cybertruck durability) and ideological positions (filibuster reform), reflecting his growing role as a cultural-political influencer beyond tech.",
-    "cluster_size": 5,
-    "event_time": null,
-    "event_type": "opinion"
-  },
-  {
-    "event_id": "evt_20260226_047",
-    "title": "📌 特朗普支持者在集会中被“干扰”事件引发马斯克激烈言论",
-    "category": "other",
-    "importance": 4.2,
-    "sources": [
-      {
-        "author": "elonmusk",
         "text": "Exactly. It would be the end of democracy in America.",
-        "engagement": 97256,
+        "engagement": 98213,
         "url": "https://x.com/elonmusk/status/2026732508872847681"
       },
       {
         "author": "elonmusk",
         "text": "The hecklers are guilty of high treason",
-        "engagement": 67781,
+        "engagement": 78647,
         "url": "https://x.com/elonmusk/status/2026940589422555269"
       },
       {
         "author": "elonmusk",
         "text": "And this number is greatly underreported. Actual numbers are much worse.",
-        "engagement": 44336,
+        "engagement": 49297,
         "url": "https://x.com/elonmusk/status/2026927368292757771"
       },
       {
         "author": "elonmusk",
-        "text": "Starlink is a gamechanger",
-        "engagement": 41931,
-        "url": "https://x.com/elonmusk/status/2026731846181204304"
-      },
-      {
-        "author": "elonmusk",
         "text": "They’re being taught to hate America",
-        "engagement": 37221,
+        "engagement": 45784,
         "url": "https://x.com/elonmusk/status/2026936805342458290"
       }
     ],
     "key_facts": [
-      "马斯克在多条推文中评论某政治集会现场的干扰行为",
-      "称干扰者‘犯有叛国罪’，并称‘这将终结美国民主’",
-      "声称相关数据被严重低估，实际情况‘更糟’",
-      "穿插提及Starlink为‘游戏规则改变者’，但未与事件直接关联"
+      "马斯克在多条推文中批评当前参议院‘冗长辩论’（filibuster）规则被滥用，主张恢复‘发言式阻挠议事’（talking filibuster）即议员须持续发言才能延宕表决",
+      "他强调该规则本意是保障充分辩论，而非变相要求60票超级多数门槛，称滥用将‘终结美国民主’",
+      "相关推文获超13万点赞与2.6万转发，引发广泛政治讨论"
     ],
-    "analyst_angle": "这些推文反映马斯克以个人身份介入高度敏感的政治叙事，但缺乏事实锚点和上下文，属情绪化政治表态，不构成可验证的行业事件，对AI/科技产业无直接实质影响。",
+    "analyst_angle": "马斯克以科技巨头身份高调介入美国立法程序改革议题，反映硅谷精英对两党制僵局的焦虑升级，但其主张缺乏具体宪政路径支撑，更多体现民粹式政策表态而非建设性制度方案。",
     "cluster_size": 5,
     "event_time": null,
     "event_type": "opinion"
   },
   {
-    "event_id": "evt_20260226_048",
-    "title": "💡 AI 编程代理在 2023 年 12 月实现质变突破：从不可用到可独立完成端到端工程任务",
-    "category": "research",
-    "importance": 9.2,
+    "event_id": "evt_20260226_037",
+    "title": "📌 Elon Musk's casual social media posts (no single event)",
+    "category": "other",
+    "importance": 2.3,
     "sources": [
       {
-        "author": "karpathy",
-        "text": "It is hard to communicate how much programming has changed due to AI in the last 2 months: not gradually and over time in the \"progress as usual\" way, but specifically this last December. There are a ",
-        "engagement": 29872,
-        "url": "https://x.com/karpathy/status/2026731645169185220"
+        "author": "elonmusk",
+        "text": "Starlink is a gamechanger",
+        "engagement": 42452,
+        "url": "https://x.com/elonmusk/status/2026731846181204304"
       },
       {
         "author": "elonmusk",
         "text": "I’m sure that’s about to happen any day now 🤣",
-        "engagement": 29705,
+        "engagement": 33455,
         "url": "https://x.com/elonmusk/status/2026928886530056660"
       },
       {
         "author": "elonmusk",
-        "text": "@wholemars Karma is real",
-        "engagement": 16357,
-        "url": "https://x.com/elonmusk/status/2026727990252679654"
+        "text": "Try Tesla self-driving",
+        "engagement": 32149,
+        "url": "https://x.com/elonmusk/status/2026734448268673467"
+      },
+      {
+        "author": "elonmusk",
+        "text": "How to create amazing images with Grok Imagine. \n\nYou can also ask @Grok to generate image and video prompts.",
+        "engagement": 24862,
+        "url": "https://x.com/elonmusk/status/2026731633945227775"
       },
       {
         "author": "elonmusk",
         "text": "Tunnels are so underrated",
-        "engagement": 14327,
+        "engagement": 16778,
         "url": "https://x.com/elonmusk/status/2026937670279282826"
+      }
+    ],
+    "key_facts": [
+      "No coherent event or announcement is present across the tweets",
+      "All are standalone, humorous, or promotional remarks by Elon Musk",
+      "None contain verifiable new information, product launches, data, or official announcements"
+    ],
+    "analyst_angle": "These tweets reflect Musk's habitual low-signal social media engagement—entertaining but not indicative of any substantive industry development or strategic milestone.",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260226_038",
+    "title": "📌 特斯拉与The Boring Company关于全自动驾驶汽车使用隧道的声明",
+    "category": "partnership",
+    "importance": 4.2,
+    "sources": [
+      {
+        "author": "elonmusk",
+        "text": "@wholemars Karma is real",
+        "engagement": 16368,
+        "url": "https://x.com/elonmusk/status/2026727990252679654"
       },
       {
         "author": "elonmusk",
         "text": "@pmddomingos The Golden State is not done cooking the golden geese, not by a long shot",
-        "engagement": 7163,
+        "engagement": 7249,
         "url": "https://x.com/elonmusk/status/2026822607677616301"
+      },
+      {
+        "author": "elonmusk",
+        "text": "@SawyerMerritt @boringcompany @Tesla Any fully autonomous electric cars can use the tunnels",
+        "engagement": 5808,
+        "url": "https://x.com/elonmusk/status/2026729394216251895"
+      },
+      {
+        "author": "lexfridman",
+        "text": "Here's a video of me training with Khabib Nurmagomedov (@TeamKhabib), one of the greatest fighters of all time and a great human being. This was truly an honor for me 🙏 https://t.co/UkYE6p4G67",
+        "engagement": 4198,
+        "url": "https://x.com/lexfridman/status/2026795879961686336"
+      },
+      {
+        "author": "elonmusk",
+        "text": "@newstart_2024 Might be sooner",
+        "engagement": 4025,
+        "url": "https://x.com/elonmusk/status/2026843176498282769"
       }
     ],
     "key_facts": [
-      "Andrej Karpathy 指出，AI 编程代理在 2023 年 12 月发生关键性跃迁——此前基本不可用，此后具备长程连贯性、韧性与自主排障能力",
-      "他实证演示了 AI 代理在无人干预下 30 分钟内完成 SSH 配置、vLLM 部署、Qwen3-VL 视频推理服务搭建、Web UI 开发、systemd 服务化及 Markdown 报告生成的全流程",
-      "编程范式正从‘手写代码’转向‘英文指令+AI 代理编排+人类监督评审’，核心能力升维为‘agentic engineering’（代理式工程）"
+      "埃隆·马斯克在推文中确认，任何具备完全自动驾驶能力的电动车均可使用The Boring Company建造的隧道",
+      "该声明涉及Tesla与The Boring Company之间的隐性协同，但未宣布正式合作框架或新协议"
     ],
-    "analyst_angle": "这标志着 LLM 智能体已跨过可用性阈值，进入真实生产力阶段；行业重心将快速从模型能力竞赛转向代理架构、工具集成、记忆机制与人机协同工作流设计。",
+    "analyst_angle": "该表态属技术可行性宣示而非实质性合作落地，反映马斯克生态内跨公司功能互操作的愿景，但缺乏商业条款、时间表或监管适配细节，目前对行业协作范式影响有限。",
     "cluster_size": 5,
     "event_time": null,
-    "event_type": "opinion"
+    "event_type": "news"
   }
 ]
