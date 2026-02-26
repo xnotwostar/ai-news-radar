@@ -9,8 +9,5 @@ dist/
 build/
 .pytest_cache/
 
-# Keep data directory structure but ignore generated data
-data/raw/*.json
-data/events/*.json
-data/reports/*.md
+# Keep data directory structure
 !data/**/.gitkeep
