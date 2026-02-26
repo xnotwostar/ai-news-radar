@@ -50,11 +50,13 @@ class DingTalkPusher:
     def _push_single_webhook(
         self, webhook_url: str, title: str, markdown_text: str, report_url: str | None,
     ) -> bool:
-        """Push report to a single webhook."""
+        """Push full markdown report to a single webhook, with optional report link at the end."""
+        # Append report link footer if available
+        text = markdown_text
         if report_url:
-            return self._push_action_card(webhook_url, title, markdown_text, report_url)
+            text += f"\n\n---\n\n> [📖 查看完整网页版报告]({report_url})"
 
-        chunks = self._split_chunks(markdown_text)
+        chunks = self._split_chunks(text)
         logger.info("Pushing '%s' in %d chunk(s) → %s...%s", title, len(chunks), webhook_url[:50], webhook_url[-8:])
 
         success = True
