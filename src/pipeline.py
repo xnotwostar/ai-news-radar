@@ -192,10 +192,10 @@ def run_twitter_pipeline(
     except Exception as e:
         logger.error("HTML publish failed for %s: %s", name, e)
 
-    # Step 7.5: Generate poster image
+    # Step 7.5: Screenshot HTML report as poster image
     try:
         poster_gen = PosterGenerator()
-        poster_gen.generate(report, title_map.get(name, name), date_str, name)
+        poster_gen.generate(date_str, name)
         if pages_base:
             poster_url = f"{pages_base}/posters/{date_str}_{name}_poster.png"
             logger.info("Poster URL: %s", poster_url)
