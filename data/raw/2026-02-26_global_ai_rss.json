@@ -98,18 +98,11 @@
     "published": "2026-02-25 18:00:00+00:00"
   },
   {
-    "title": "OpenAI COO says ads will be ‘an iterative process’",
-    "summary": "COO Brad Lightcap noted that ads can add to the product experience of users if they are done right. He urged to give OpenAI a few months to see how the company fares in rolling out the product.",
-    "url": "https://techcrunch.com/2026/02/25/openai-coo-says-ads-will-be-an-iterative-process/",
-    "source": "TechCrunch",
-    "published": "2026-02-25 17:37:37+00:00"
-  },
-  {
-    "title": "OpenClaw creator’s advice to AI builders is to be more playful and allow yourself time to improve",
-    "summary": "Peter Steinberger talks about the creation of his viral AI agent OpenClaw and how being more \"playful\" makes for a better way to learn AI coding.",
-    "url": "https://techcrunch.com/2026/02/25/openclaw-creators-advice-to-ai-builders-is-to-be-more-playful-and-allow-yourself-time-to-improve/",
-    "source": "TechCrunch",
-    "published": "2026-02-25 16:54:46+00:00"
+    "title": "Burger King will use AI to check if employees say ‘please’ and ‘thank you’",
+    "summary": "Burger King is launching an AI chatbot that will live in the headsets used by employees. The voice-enabled chatbot, called \"Patty,\" is part of an overarching BK Assistant platform that will not only assist employees with meal preparation but also evaluate their interactions with customers for \"frien",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/884911/burger-king-ai-assistant-patty",
+    "source": "The Verge",
+    "published": "2026-02-26 13:00:00+00:00"
   },
   {
     "title": "Instagram will alert parents if their kids &#8216;repeatedly&#8217; search for self-harm topics",
@@ -152,20 +145,6 @@
     "url": "https://www.theverge.com/science/884191/ai-data-center-energy-state-of-the-union-trump",
     "source": "The Verge",
     "published": "2026-02-25 20:37:25+00:00"
-  },
-  {
-    "title": "Google and Samsung just launched the AI features Apple couldn’t with Siri",
-    "summary": "Google just announced that Gemini will soon be able to take care of some multistep tasks on your phone, like ordering food or hailing a car, starting first with the Pixel 10, Pixel 10 Pro, and the just-announced Samsung Galaxy S26 phones. It all sounds a bit like features Apple announced for Siri wa",
-    "url": "https://www.theverge.com/tech/884703/google-samsung-galaxy-s26-gemini-apple-siri",
-    "source": "The Verge",
-    "published": "2026-02-25 19:56:55+00:00"
-  },
-  {
-    "title": "Preorders for Samsung’s S26 phones come with up to $200 in gift cards",
-    "summary": "As expected, Samsung has taken the wraps off its flagship lineup for 2026. Introduced during the company's recent Unpacked event, the new Galaxy devices - which include the standard S26, the larger S26 Plus, and the high-end S26 Ultra - will be available on March 11th. Preorders are now open ahead o",
-    "url": "https://www.theverge.com/gadgets/883829/samsung-galaxy-s26-plus-ultra-how-to-buy-preorder-price-release-date",
-    "source": "The Verge",
-    "published": "2026-02-25 19:09:29+00:00"
   },
   {
     "title": "Musk has no proof OpenAI stole xAI trade secrets, judge rules, tossing lawsuit",
@@ -266,6 +245,20 @@
     "published": "2026-02-25 16:00:00+00:00"
   },
   {
+    "title": "The Air Fryer Is a Once-in-a-Lifetime Kitchen Craze. Here's How Popular They've Become",
+    "summary": "Air fryers have taken over kitchens like few appliances in history. I took a deep dive into who's using these speedy countertop ovens, and the numbers are staggering.",
+    "url": "https://www.cnet.com/news/features/the-air-fryer-is-a-once-in-a-lifetime-kitchen-craze-heres-how-popular-theyve-become/",
+    "source": "CNET",
+    "published": "2026-02-26 12:01:11+00:00"
+  },
+  {
+    "title": "I Tested This Funky-Looking Dryer on My Hair and Winter Gear. It’s Snow Joke",
+    "summary": "The Hedgehog Go was designed to be the world’s first dual-purpose dryer for hair and winter gear. I tested it for several weeks.",
+    "url": "https://www.cnet.com/health/personal-care/hedgehog-go-dryer-review/",
+    "source": "CNET",
+    "published": "2026-02-26 11:44:00+00:00"
+  },
+  {
     "title": "Turns Out Perplexity Might Be the Sleeper Feature on Samsung's Galaxy S26",
     "summary": "Having Perplexity's AI and models on devices from the world's biggest phone-maker puts the company under a brighter light.",
     "url": "https://www.cnet.com/tech/mobile/turns-out-perplexity-might-be-the-sleeper-feature-on-samsungs-galaxy-s26/",
@@ -315,20 +308,6 @@
     "published": "2026-02-25 20:25:00+00:00"
   },
   {
-    "title": "Using AI as a Therapist? Why Professionals Say You Should Think Again",
-    "summary": "Chatbots can sound reassuring and comforting. They're designed to. But they aren't trained to be mental health providers.",
-    "url": "https://www.cnet.com/tech/services-and-software/using-ai-as-a-therapist-why-professionals-say-you-should-think-again/",
-    "source": "CNET",
-    "published": "2026-02-25 19:51:22+00:00"
-  },
-  {
-    "title": "Waymo's Autonomous Ride Service Expands to New Cities",
-    "summary": "The company has doubled its operating area for robotaxi services over the past several months.",
-    "url": "https://www.cnet.com/roadshow/news/waymo-autonomous-ride-service-expands-texas-florida/",
-    "source": "CNET",
-    "published": "2026-02-25 19:48:00+00:00"
-  },
-  {
     "title": "Mixture of Experts (MoEs) in Transformers",
     "summary": "",
     "url": "https://huggingface.co/blog/moe-transformers",
@@ -341,6 +320,13 @@
     "url": "https://developer.nvidia.com/blog/making-softmax-more-efficient-with-nvidia-blackwell-ultra/",
     "source": "NVIDIA Blog",
     "published": "2026-02-25 17:00:00+00:00"
+  },
+  {
+    "title": "Top 7 OpenClaw Tools & Integrations You Are Missing Out On",
+    "summary": "Most people are only using 10% of OpenClaw. These integrations unlock what it is truly capable of.",
+    "url": "https://www.kdnuggets.com/top-7-openclaw-tools-integrations-you-are-missing-out",
+    "source": "KDnuggets",
+    "published": "2026-02-26 13:00:21+00:00"
   },
   {
     "title": "Nous Research Releases ‘Hermes Agent’ to Fix AI Forgetfulness with Multi-Level Memory and Dedicated Remote Terminal Access Support",
@@ -399,18 +385,18 @@
     "published": "2026-02-26 04:00:33+00:00"
   },
   {
-    "title": "[D] How do y'all stay up to date with papers?",
-    "summary": "So, for the past year or so, I've been looking up papers, reading them, understanding them, and implementing them trying to reproduce the results. But one thing I found insane is I don't really have a way to stay up to date. I have to search through dozens of search results to find what I'm looking ",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1ren2m5/d_how_do_yall_stay_up_to_date_with_papers/",
-    "source": "Reddit ML",
-    "published": "2026-02-25 19:24:11+00:00"
-  },
-  {
     "title": "[P] MNIST from scratch in Metal (C++)",
     "summary": "I built a simple 2-layer MNIST MLP that trains + runs inference from scratch, only using Apple’s metal-cpp library. The goal was to learn GPU programming “for real” and see what actually moves the needle on Apple Silicon. Not just a highly optimized matmul kernel, but also understanding Metal's API ",
     "url": "https://www.reddit.com/r/MachineLearning/comments/1rf3qb7/p_mnist_from_scratch_in_metal_c/",
     "source": "Reddit ML",
     "published": "2026-02-26 07:23:36+00:00"
+  },
+  {
+    "title": "[D] How do y'all stay up to date with papers?",
+    "summary": "So, for the past year or so, I've been looking up papers, reading them, understanding them, and implementing them trying to reproduce the results. But one thing I found insane is I don't really have a way to stay up to date. I have to search through dozens of search results to find what I'm looking ",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ren2m5/d_how_do_yall_stay_up_to_date_with_papers/",
+    "source": "Reddit ML",
+    "published": "2026-02-25 19:24:11+00:00"
   },
   {
     "title": "[D] where can I find more information about NTK wrt Lazy and Rich learning?",
@@ -420,18 +406,18 @@
     "published": "2026-02-26 01:50:40+00:00"
   },
   {
-    "title": "[R] Large-Scale Online Deanonymization with LLMs",
-    "summary": "This paper shows that LLM agents can figure out who you are from your anonymous online posts. Across Hacker News, Reddit, LinkedIn, and anonymized interview transcripts, our method identifies users with high precision – and scales to tens of thousands of candidates. While it has been known that indi",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1reee40/r_largescale_online_deanonymization_with_llms/",
-    "source": "Reddit ML",
-    "published": "2026-02-25 14:16:51+00:00"
-  },
-  {
     "title": "[P] Reproducing Google’s Nested Learning / HOPE in PyTorch (mechanism-faithful implementation + reproducible tooling and library)",
     "summary": "A while back, Google released the Nested Learning / HOPE paper: https://arxiv.org/abs/2512.24695 I was very excited by this, because it looked like a real attempt at continual learning, not just a small transformer tweak. However, Google did not release code, and since lucidrains said he retired, I ",
     "url": "https://www.reddit.com/r/MachineLearning/comments/1res42m/p_reproducing_googles_nested_learning_hope_in/",
     "source": "Reddit ML",
     "published": "2026-02-25 22:29:11+00:00"
+  },
+  {
+    "title": "[R] Large-Scale Online Deanonymization with LLMs",
+    "summary": "This paper shows that LLM agents can figure out who you are from your anonymous online posts. Across Hacker News, Reddit, LinkedIn, and anonymized interview transcripts, our method identifies users with high precision – and scales to tens of thousands of candidates. While it has been known that indi",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1reee40/r_largescale_online_deanonymization_with_llms/",
+    "source": "Reddit ML",
+    "published": "2026-02-25 14:16:51+00:00"
   },
   {
     "title": "[D] Is ICLR not giving Spotlights this year?",
