@@ -706,13 +706,20 @@ class HtmlPublisher:
             expert_sub = None
 
         def _detect_expert_sub_title(text: str) -> str | None:
-            """Check if a **bold** line is an expert sub-block title. Returns sub type or None."""
+            """Check if a line is an expert sub-block title. Returns sub type or None."""
+            # **bold title** (primary format from LLM)
             m = re.match(r'^\*\*(.+)\*\*$', text)
-            if not m:
+            if m:
+                inner = m.group(1)
+                for keyword, sub_type in self._EXPERT_SUB_BLOCKS.items():
+                    if keyword in inner:
+                        return sub_type
                 return None
-            inner = m.group(1)
+            # Non-bold title (fallback): skip known content-line prefixes
+            if text.startswith(("—", "\u2014", "共识", "分歧", "✅", "⚠", "-", "•", ">")):
+                return None
             for keyword, sub_type in self._EXPERT_SUB_BLOCKS.items():
-                if keyword in inner:
+                if keyword in text:
                     return sub_type
             return None
 
@@ -748,14 +755,24 @@ class HtmlPublisher:
                 i += 1
                 continue
 
-            # --- ## heading ---
-            if stripped.startswith("## "):
+            # --- ## or ### heading ---
+            heading_m = re.match(r'^#{2,3}\s+(.+)', stripped)
+            if heading_m:
                 _close_event_card()
                 _close_quick_grid()
                 _close_core_judgment()
                 if in_expert_section:
                     _close_expert_block()
-                heading_text = stripped[3:].strip()
+                heading_text = heading_m.group(1).strip()
+
+                # Core judgment → special container (no section wrapper)
+                if "核心判断" in heading_text:
+                    in_expert_section = False
+                    in_core_judgment = True
+                    out.append('<div class="core-judgment">')
+                    i += 1
+                    continue
+
                 anchor = f"section-{len(toc_items)}"
                 toc_items.append((anchor, heading_text))
 
@@ -834,6 +851,7 @@ class HtmlPublisher:
                     # 共识/分歧 line
                     if stripped.startswith("共识") or stripped.startswith("分歧"):
                         safe = _inline_markup(_html_escape(stripped))
+                        safe = safe.replace(" | ", "<br>")
                         out.append(f'<div class="debate-meta">{safe}</div>')
                         i += 1
                         continue
