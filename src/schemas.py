@@ -143,7 +143,7 @@ class PipelineConfig(BaseModel):
 # ---------------------------------------------------------------------------
 
 class LLMModelEntry(BaseModel):
-    provider: str  # "anthropic" | "dashscope" | "deepseek"
+    provider: str  # "google" | "anthropic" | "dashscope" | "deepseek"
     model: str
     priority: int = 1
     timeout: int = 60
