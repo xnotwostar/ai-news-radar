@@ -80,13 +80,12 @@ AI_SPECIFIC_SOURCES = {
 # China / Chinese-language AI feeds
 # ---------------------------------------------------------------------------
 CN_RSS_FEEDS = {
-    "量子位": "https://rsshub.app/qbitai",
-    "36氪AI": "https://rsshub.app/36kr/motif/452",
-    "IT之家": "https://rsshub.app/ithome/tag/AI",
-    "虎嗅": "https://rsshub.app/huxiu/tag/288",
-    "InfoQ中文": "https://rsshub.app/infoq/recommend",
-    "OSCHINA": "https://rsshub.app/oschina/news/industry/ai",
-    "少数派": "https://rsshub.app/sspai/tag/AI",
+    # Direct RSS feeds (verified accessible, no RSSHub dependency)
+    "36氪": "https://36kr.com/feed",
+    "IT之家": "https://www.ithome.com/rss/",
+    "虎嗅": "https://www.huxiu.com/rss/0.xml",
+    "少数派": "https://sspai.com/feed",
+    "雷锋网": "https://www.leiphone.com/feed",
     "TechNode": "https://technode.com/feed/",
 }
 
@@ -104,7 +103,7 @@ CN_AI_KEYWORDS = [
 ]
 
 CN_AI_SPECIFIC_SOURCES = {
-    "量子位", "36氪AI", "OSCHINA",
+    "雷锋网",  # AI-focused, no keyword filter needed
 }
 
 
