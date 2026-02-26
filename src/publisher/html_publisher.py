@@ -934,9 +934,10 @@ class HtmlPublisher:
                 i += 1
                 continue
 
-            # --- list items (- or •) ---
-            if stripped.startswith("- ") or stripped.startswith("• "):
-                item_text = stripped[2:].strip()
+            # --- list items (- or • or *) ---
+            list_m = re.match(r'^[-•*]\s+(.+)', stripped)
+            if list_m:
+                item_text = list_m.group(1).strip()
                 is_quick_context = in_quick_grid or "速览" in "".join(out[-10:])
 
                 if is_quick_context or in_trending:

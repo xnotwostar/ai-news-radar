@@ -1,4 +1,4 @@
-"""DingTalk Webhook pusher — condensed news titles only."""
+"""DingTalk Webhook pusher — condensed news digest."""
 
 from __future__ import annotations
 
@@ -39,7 +39,7 @@ class DingTalkPusher:
         markdown_text: str,
         report_url: str | None = None,
     ) -> bool:
-        """Extract headlines from report and push condensed digest."""
+        """Extract key content from report and push condensed digest."""
         digest = self._build_digest(title, markdown_text, report_url)
         success = True
         for idx, url in enumerate(self.webhook_urls):
@@ -58,63 +58,100 @@ class DingTalkPusher:
         markdown_text: str,
         report_url: str | None,
     ) -> str:
-        """Build a condensed digest: title + headline list + report link."""
-        headlines = self._extract_headlines(markdown_text)
+        """Build digest: title + core judgment + top headlines + expert quote + link."""
         lines: list[str] = [f"## {title}", ""]
 
+        # Core judgment
+        judgment = self._extract_core_judgment(markdown_text)
+        if judgment:
+            lines.append(f"> {judgment}")
+            lines.append("")
+
+        # Top headlines (max 8)
+        headlines = self._extract_headlines(markdown_text)
         if headlines:
-            for hl in headlines:
+            for hl in headlines[:8]:
                 lines.append(hl)
             lines.append("")
-        else:
-            lines.append("暂无新闻条目")
+
+        # Expert insight (1-2 quotes)
+        insights = self._extract_insights(markdown_text)
+        if insights:
+            lines.append("**💬 专家说**")
+            lines.append("")
+            for ins in insights[:2]:
+                lines.append(ins)
             lines.append("")
 
         if report_url:
-            lines.append("")
             lines.append(f"📖 [查看完整报告]({report_url})")
 
         return "\n".join(lines)
 
     @staticmethod
-    def _extract_headlines(markdown_text: str) -> list[str]:
-        """Extract news headline lines from the report markdown.
+    def _extract_core_judgment(markdown_text: str) -> str:
+        """Extract core judgment paragraph, truncate to ~150 chars."""
+        lines = markdown_text.split("\n")
+        capture = False
+        parts: list[str] = []
+        for line in lines:
+            stripped = line.strip()
+            if "核心判断" in stripped:
+                # Handle inline format: **核心判断**：text on same line
+                m = re.search(r'核心判断\**[：:]\s*(.+)', stripped)
+                if m:
+                    parts.append(m.group(1))
+                    break
+                capture = True
+                continue
+            if capture:
+                if stripped.startswith("#") or (not stripped and parts):
+                    break
+                if stripped:
+                    parts.append(stripped)
+        text = " ".join(parts)
+        if len(text) > 150:
+            text = text[:147] + "..."
+        return text
 
-        Matches lines starting with emoji markers like:
-        🔴 **title** / 🚀 [**title**](url) / • 🔬 title
-        """
+    @staticmethod
+    def _extract_headlines(markdown_text: str) -> list[str]:
+        """Extract news headline lines (emoji-prefixed bold/link titles)."""
         headlines: list[str] = []
-        # Match main event lines: emoji (optionally after •) followed by bold or link
         event_pattern = re.compile(
-            r'^[•\s]*[🔴🚀🔬💰🔧🤝🌐📜📊📌💡🔥⚡]\s*'
+            r'^[•*\-\s]*[🔴🚀🔬💰🔧🤝🌐📜📊📌💡🔥⚡]\s*'
             r'(?:\[?\*\*.*?\*\*\]?)'
         )
-        # Match speed-read bullet lines: • emoji one-liner
-        speed_pattern = re.compile(
-            r'^[•]\s*[🔴🚀🔬💰🔧🤝🌐📜📊📌💡🔥⚡]\s*.+'
-        )
 
-        in_speed_section = False
         for line in markdown_text.split("\n"):
             stripped = line.strip()
-
-            # Detect speed-read section
-            if "速览" in stripped:
-                in_speed_section = True
-                continue
-            # Stop at next major section
-            if in_speed_section and stripped.startswith("## "):
-                in_speed_section = False
-
-            if in_speed_section and speed_pattern.match(stripped):
-                headlines.append(stripped)
-                continue
-
+            # Stop before expert section
+            if "专家" in stripped and ("视角" in stripped or "##" in stripped):
+                break
             if event_pattern.match(stripped):
-                # Keep only the first line (title), strip analysis
                 headlines.append(stripped)
 
         return headlines
+
+    @staticmethod
+    def _extract_insights(markdown_text: str) -> list[str]:
+        """Extract 1-2 expert quotes from insight or debate sections."""
+        insights: list[str] = []
+        in_expert = False
+        for line in markdown_text.split("\n"):
+            stripped = line.strip()
+            # Enter expert section
+            if "专家" in stripped and ("视角" in stripped or "##" in stripped):
+                in_expert = True
+                continue
+            if not in_expert:
+                continue
+            # Capture — quote lines (from any expert sub-section)
+            if stripped.startswith("—") or stripped.startswith("\u2014"):
+                insights.append(stripped)
+                if len(insights) >= 2:
+                    break
+        return insights
 
     @retry(stop=stop_after_attempt(RETRY_ATTEMPTS), wait=wait_fixed(RETRY_WAIT))
     def _send_markdown(self, webhook_url: str, title: str, text: str) -> None:
