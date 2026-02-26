@@ -18,31 +18,49 @@ RETRY_WAIT = 5  # seconds
 
 
 class DingTalkPusher:
-    """Push Markdown messages to DingTalk via Webhook, auto-chunking long messages."""
+    """Push Markdown messages to DingTalk via Webhook, auto-chunking long messages.
+
+    Supports multiple webhooks via comma-separated URLs in a single env var, e.g.:
+        DINGTALK_GLOBAL_WEBHOOK=https://...token1,https://...token2
+    """
 
     def __init__(self, webhook_url: str | None = None, webhook_env: str | None = None):
         if webhook_url:
-            self.webhook_url = webhook_url
+            self.webhook_urls = [u.strip() for u in webhook_url.split(",") if u.strip()]
         elif webhook_env:
-            self.webhook_url = os.environ[webhook_env]
+            raw = os.environ[webhook_env]
+            self.webhook_urls = [u.strip() for u in raw.split(",") if u.strip()]
         else:
             raise ValueError("Must provide webhook_url or webhook_env")
 
     def push(self, title: str, markdown_text: str, report_url: str | None = None) -> bool:
-        """Push report. Uses actionCard with link if report_url provided, else markdown chunks."""
+        """Push report to all configured webhooks."""
+        success = True
+        for idx, url in enumerate(self.webhook_urls):
+            if idx > 0:
+                time.sleep(2)  # Rate limit between groups
+            ok = self._push_single_webhook(url, title, markdown_text, report_url)
+            if not ok:
+                success = False
+        return success
+
+    def _push_single_webhook(
+        self, webhook_url: str, title: str, markdown_text: str, report_url: str | None,
+    ) -> bool:
+        """Push report to a single webhook."""
         if report_url:
-            return self.push_action_card(title, markdown_text, report_url)
+            return self._push_action_card(webhook_url, title, markdown_text, report_url)
 
         chunks = self._split_chunks(markdown_text)
-        logger.info("Pushing '%s' in %d chunk(s)", title, len(chunks))
+        logger.info("Pushing '%s' in %d chunk(s) → %s...%s", title, len(chunks), webhook_url[:50], webhook_url[-8:])
 
         success = True
         for i, chunk in enumerate(chunks):
             chunk_title = title if len(chunks) == 1 else f"{title} ({i+1}/{len(chunks)})"
             try:
-                self._send_single(chunk_title, chunk)
+                self._send_single(webhook_url, chunk_title, chunk)
                 if i < len(chunks) - 1:
-                    time.sleep(2)  # Rate limit between chunks
+                    time.sleep(2)
             except Exception as e:
                 logger.error("Failed to push chunk %d/%d: %s", i+1, len(chunks), e)
                 success = False
@@ -50,9 +68,19 @@ class DingTalkPusher:
         return success
 
     def push_action_card(self, title: str, markdown_text: str, report_url: str) -> bool:
+        """Push actionCard to all configured webhooks."""
+        success = True
+        for idx, url in enumerate(self.webhook_urls):
+            if idx > 0:
+                time.sleep(2)
+            ok = self._push_action_card(url, title, markdown_text, report_url)
+            if not ok:
+                success = False
+        return success
+
+    def _push_action_card(self, webhook_url: str, title: str, markdown_text: str, report_url: str) -> bool:
         """Push DingTalk actionCard with a button linking to the full HTML report."""
         summary = self._extract_core_judgment(markdown_text)
-        # Count event lines (emoji-prefixed bold titles)
         event_count = len(re.findall(r'^[🔴🚀🔬💰🔧🤝🌐📜📊📌💡]\s*\*\*', markdown_text, re.MULTILINE))
 
         card_text = f"## {title}\n\n{summary}\n\n📊 共 {event_count} 条事件"
@@ -67,7 +95,7 @@ class DingTalkPusher:
             },
         }
         try:
-            resp = httpx.post(self.webhook_url, json=payload, timeout=10)
+            resp = httpx.post(webhook_url, json=payload, timeout=10)
             resp.raise_for_status()
             result = resp.json()
             if result.get("errcode", 0) != 0:
@@ -97,7 +125,7 @@ class DingTalkPusher:
         return text[:200] + "..." if len(text) > 200 else text
 
     @retry(stop=stop_after_attempt(RETRY_ATTEMPTS), wait=wait_fixed(RETRY_WAIT))
-    def _send_single(self, title: str, text: str) -> None:
+    def _send_single(self, webhook_url: str, title: str, text: str) -> None:
         payload = {
             "msgtype": "markdown",
             "markdown": {
@@ -105,7 +133,7 @@ class DingTalkPusher:
                 "text": text,
             },
         }
-        resp = httpx.post(self.webhook_url, json=payload, timeout=10)
+        resp = httpx.post(webhook_url, json=payload, timeout=10)
         resp.raise_for_status()
         result = resp.json()
         if result.get("errcode", 0) != 0:
