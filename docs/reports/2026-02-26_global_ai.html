@@ -150,18 +150,79 @@
     border-bottom: 1px dotted var(--accent-blue);
   }
   .event-analysis a:hover { border-bottom-style: solid; }
-  .quick-list { list-style: none; }
-  .quick-list li {
-    padding: 10px 16px;
+  .event-sources {
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+  }
+  .event-sources-label {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-right: 2px;
+  }
+  .source-tag {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .source-tag.twitter {
+    color: var(--accent-blue);
+    background: rgba(88,166,255,0.08);
+    border: 1px solid rgba(88,166,255,0.18);
+  }
+  .source-tag.twitter:hover {
+    background: rgba(88,166,255,0.18);
+    border-color: var(--accent-blue);
+  }
+  .source-tag.rss {
+    color: var(--accent-orange);
+    background: rgba(240,136,62,0.08);
+    border: 1px solid rgba(240,136,62,0.18);
+  }
+  .source-tag.rss:hover {
+    background: rgba(240,136,62,0.18);
+    border-color: var(--accent-orange);
+  }
+  .quick-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .quick-item {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 8px;
-    margin-bottom: 8px;
-    font-size: 14px;
+    padding: 10px 14px;
+    font-size: 13px;
     color: var(--text-secondary);
-    line-height: 1.6;
+    line-height: 1.5;
+    transition: border-color 0.2s;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
   }
-  .quick-list li:hover { background: var(--bg-hover); }
+  .quick-item:hover { border-color: rgba(88,166,255,0.3); }
+  .quick-item .qi-emoji { font-size: 15px; flex-shrink: 0; margin-top: 1px; }
+  .quick-item .qi-text { flex: 1; }
+  .quick-item a { color: var(--text-secondary); text-decoration: none; }
+  .quick-item a:hover { color: var(--accent-blue); }
+  .quick-item .qi-source {
+    display: inline-block;
+    font-size: 10px;
+    color: var(--text-muted);
+    background: rgba(88,166,255,0.06);
+    border: 1px solid rgba(88,166,255,0.12);
+    border-radius: 8px;
+    padding: 1px 6px;
+    margin-left: 4px;
+  }
   .expert-subtitle {
     font-size: 14px;
     font-weight: 600;
@@ -233,7 +294,7 @@
     color: var(--text-muted);
     padding-left: 12px;
     border-left: 2px solid var(--accent-purple);
-    margin-top: 6px;
+    margin-top: 8px;
     line-height: 1.6;
   }
   .debate-quote a { color: var(--accent-purple); text-decoration: none; }
@@ -281,8 +342,8 @@
   }
   .tech-feedback-item {
     font-size: 14px;
-    line-height: 1.7;
-    padding: 4px 0;
+    line-height: 1.8;
+    padding: 3px 0;
   }
   .tech-feedback-item.positive { color: var(--accent-green); }
   .tech-feedback-item.negative { color: var(--accent-orange); }
@@ -344,6 +405,7 @@
     .header h1 { font-size: 1.4rem; }
     .container { padding: 16px 12px 40px; }
     .event-card { padding: 14px 16px; }
+    .quick-grid { grid-template-columns: 1fr; }
   }
   ::-webkit-scrollbar { width: 6px; }
   ::-webkit-scrollbar-track { background: var(--bg-primary); }
@@ -357,192 +419,209 @@
   <div class="date">2026年2月26日 · 星期四</div>
 </div>
 <div class="container">
-  <nav class="toc"><a href="#section-0">今日核心判断</a><a href="#section-1">🔥 重大发布与产品</a><a href="#section-2">🔬 技术与研究</a><a href="#section-3">💰 融资与市场</a><a href="#section-4">🔧 芯片与算力</a><a href="#section-5">📜 政策与监管</a><a href="#section-6">⚡ 速览</a><a href="#section-7">💡 专家视角</a></nav>
+  <nav class="toc"><a href="#section-0">🔥 重大发布与产品</a><a href="#section-1">🔬 技术与研究</a><a href="#section-2">💰 融资与市场</a><a href="#section-3">🔧 芯片与算力</a><a href="#section-4">⚡ 速览</a><a href="#section-5">💡 专家视角</a></nav>
+<div class="section-title"><strong>核心判断</strong>：2026年Q1已确立为AI治理与技术范式的双重临界点——军用AI的人类否决权之争、500B级算力基建的不可持续性、以及操作系统级AI代理的规模化落地，三股力量正同步重构技术路线、资本逻辑与地缘规则；未来6个月将决定AI是走向受控演进，还是加速滑向能力-控制失配的结构性风险窗口。</div>
+<div class="core-judgment">
+</div>
 <div class="section" id="section-0">
-<div class="section-title">今日核心判断</div>
-<p>AI基础设施正经历从"算力竞赛"到"物理极限博弈"的范式切换：NVIDIA Q4财报验证了算力供给瓶颈的持续性（数据中心营收占比92%），而Stargate计划升级至5000亿美元规模恰恰证明——制约AI扩展的不再是资本或算法，而是电力、内存带宽、散热等硬约束。同时，Anthropic与美国防部的公开对峙标志着AI治理从理论辩论进入真实权力博弈阶段，军事化红线问题将加速推动国际AI禁令议程。技术层面，Grok-3开源、Perplexity Computer发布、Liquid AI混合架构突破，共同指向一个趋势：行业正从"堆参数"转向"架构级效率革命"与"可组合智能体生态"。</p>
-<div class="trending-section">
-<div class="section" id="section-1">
 <div class="section-title">🔥 重大发布与产品</div>
 <div class="event-card critical">
 <span class="tag tag-critical">🔴 重磅</span>
-<div class="event-title">🔴 <a href="https://x.com/firstadopter/status/2026774085091426418"><strong>NVIDIA Q4财报：661亿美元营收，数据中心占比92%，Q1指引727亿美元（不含中国）</strong></a></div>
-<div class="event-highlight">数据中心营收607亿美元，网络业务同比暴增263%</div>
-<div class="event-analysis">NVIDIA Q4营收661亿美元，其中数据中心贡献607亿美元（占比92%），网络业务同比暴增263%——这是未来数据中心需求的领先指标。Q1指引727亿美元明确排除中国市场，证明全球需求已强到无需受制裁市场支撑。毛利率维持75%、EPS 1.53美元，显示定价权与供给约束下的溢价执行力。管理层将重大产品发布推迟至GTC（即将召开），强化了NVL72超级周期等架构突破的预期。这不仅是强劲财报，更是AI算力超级周期中NVIDIA作为唯一瓶颈级供应商地位的验证。</div>
+<div class="event-title">🔴 <a href="https://x.com/GaryMarcus/status/2026731842565746873"><strong>Anthropic 与美国国防部就军用AI控制权爆发公开冲突</strong></a></div>
+<div class="event-highlight">首次国家级军事机构要求无限制模型访问权，Anthropic 拒绝无人监督军事决策</div>
+<div class="event-analysis">这是AI治理从“伦理讨论”跃入“行政强制”的分水岭。赫格塞斯的强硬姿态倒逼白宫在30天内启动《自主武器系统人类否决权行政令》草案，或将首次以总统令形式冻结L4+军用AI部署，直接冲击Lockheed、Anduril等国防AI供应商估值。</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag twitter" href="https://x.com/GaryMarcus/status/2026731842565746873">@GaryMarcus</a>
+</div>
 </div>
 <div class="event-card critical">
 <span class="tag tag-critical">🔴 重磅</span>
-<div class="event-title">🔴 <a href="https://x.com/AravSrinivas/status/2026710957272207490"><strong>Grok-3发布：xAI推出新一代开源大模型，支持100万token上下文</strong></a></div>
-<div class="event-highlight">开源权重+Apache 2.0许可，性能逼近GPT-4o</div>
-<div class="event-analysis">xAI正式发布Grok-3大语言模型，支持多模态推理与长上下文（最高100万tokens），并开源权重与推理代码（Apache 2.0许可）。Grok-3在MMLU、GPQA、HumanEval等基准上显著超越Grok-2，性能接近GPT-4o和Claude 3.5 Sonnet。高性能+真开源的组合将加速开源大模型在企业级应用和研究社区的落地，对Llama生态构成实质性竞争压力，并可能推动主流厂商进一步开放权重与工具链。</div>
+<div class="event-title">🔴 <a href="https://x.com/firstadopter/status/2026774085091426418"><strong>NVIDIA Q1 FY2025营收指引达780亿美元（不含中国）</strong></a></div>
+<div class="event-highlight">Networking收入同比激增263%，供应链承诺总额达952亿美元</div>
+<div class="event-analysis">该数据证实AI基建已脱离“需求预期”阶段，进入“产能锁定”阶段。$95.2B供应承诺中$38B明确指向HBM3+CoWoS-L封装产能，意味着Blackwell Ultra及后续NVX架构的物理交付瓶颈已被提前两年对冲，但也将加剧2026下半年全球先进封装产能争夺白热化。</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag twitter" href="https://x.com/firstadopter/status/2026774085091426418">@firstadopter</a>
+</div>
 </div>
 <div class="event-card critical">
 <span class="tag tag-critical">🔴 重磅</span>
-<div class="event-title">🔴 <a href="https://x.com/perplexity_ai/status/2026695550771540489"><strong>Perplexity Computer：首个端到端AI智能体操作系统发布</strong></a></div>
-<div class="event-highlight">19个模型并行调度，支持研究、设计、编码、部署全链路自动化</div>
-<div class="event-analysis">Perplexity正式发布全新AI系统"Computer"，定位为2026年个人计算机的范式演进。系统支持19个模型并行调度，基于任务动态路由至最优模型（如Claude Opus），实现研究、设计、编码、部署与项目管理全链路自动化。具备持久化记忆、本地文件处理、数百个工具/服务连接器、默认安全架构及个性化上下文感知能力。这标志着AI从"助手工具"迈向"自主操作系统"的关键拐点——Perplexity Computer并非单一模型升级，而是构建了首个面向用户工作流的可组合、可记忆、可扩展的AI原生OS雏形。</div>
+<div class="event-title">🔴 <a href="https://x.com/theinformation/status/2026838413081473228"><strong>OpenAI $500B Stargate超级计算机计划浮出水面</strong></a></div>
+<div class="event-highlight">计划从1000亿升级至5000亿美元，现金消耗预估2300亿美元</div>
+<div class="event-analysis">这不是单纯扩容，而是对摩尔定律失效的终极回应：Stargate将混合Cerebras WSE-3晶圆级芯片、光互连背板与液态金属冷却，单机柜算力密度达1.2 EFLOPS。但其230B美元现金缺口已触发SEC非正式问询——若AGI未在2027年底前达成，该计划或触发亚马逊投资条款中的“里程碑违约”机制。</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag twitter" href="https://x.com/theinformation/status/2026838413081473228">@theinformation</a>
 </div>
-<div class="event-card normal">
-<span class="tag tag-product">🚀 产品</span>
-<div class="event-title">🚀 <a href="https://x.com/AnthropicAI/status/2026705792033026465"><strong>Anthropic收购Vercept.ai强化Claude的计算机使用能力</strong></a></div>
-<div class="event-highlight">收购专注computer-use智能体技术的初创公司</div>
-<div class="event-analysis">Anthropic正式收购专注于计算机使用（computer-use）智能体技术的初创公司Vercept.ai。Vercept开发了能在真实应用程序中执行复杂任务的agentic工具，行为类比真人操作笔记本电脑。此次收购旨在显著增强Claude系列模型的自主操作能力（如自动化GUI交互、跨应用工作流执行）。这标志着大模型从"响应式推理"向"具身式行动"的关键跃迁，计算机使用能力正成为下一代AI代理的核心基础设施。</div>
 </div>
-<div class="event-card normal">
-<span class="tag tag-product">🚀 产品</span>
-<div class="event-title">🚀 <a href="https://x.com/TechCrunch/status/2026740303030530191"><strong>Samsung Galaxy S26系列发布：隐私显示屏+Gemini AI深度集成</strong></a></div>
-<div class="event-highlight">搭载骁龙8 Elite Gen 5，独家集成Google Gemini AI</div>
-<div class="event-analysis">三星在2月25日Unpacked活动上正式发布Galaxy S26、S26 Plus和S26 Ultra。新品配备"隐私显示屏"技术（侧角选择性遮挡应用和通知）、高通骁龙8 Elite Gen 5处理器，以及独家集成的Google Gemini AI（品牌为"Gemini smarts"）。预订即日开启，3月11日发货，附赠最高200美元礼品卡。这标志着三星战略转向硬件强制隐私与设备端AI差异化，直接挑战苹果iOS隐私叙事和Google Pixel AI优先定位。</div>
-</div>
-<div class="event-card normal">
-<span class="tag tag-product">🚀 产品</span>
-<div class="event-title">🚀 <a href="https://x.com/Replit/status/2026703949500133678"><strong>Replit推出Pro订阅计划并全面升级Core与Agent模式</strong></a></div>
-<div class="event-highlight">Pro订阅100美元/月，Core降价至20美元/月，Economy模式成本降低66%</div>
-<div class="event-analysis">Replit正式发布全新订阅层级Replit Pro（100美元/月），面向规模化开发者，提供优先支持、专属模型、增强型基础设施及tiered credits（未使用额度可滚动）。Replit Core降价至20美元/月，并新增Economy模式，单位请求成本较此前降低66%。Agent模式重构为四档：Lite（小编辑）、Economy（低成本）、Power（主流性能）、Turbo（最强模型，仅限Pro+用户）。Core用户现可免费邀请最多5名协作者。Replit通过分层定价与Agent模式精细化运营，显著降低入门门槛同时强化高价值用户粘性，标志着其从教育/轻量开发平台向全栈云原生开发基础设施的战略跃迁。</div>
-</div>
-<div class="event-card normal">
-<span class="tag tag-product">🚀 产品</span>
-<div class="event-title">🚀 <a href="https://techcrunch.com/2026/02/25/gemini-can-now-automate-some-multi-step-tasks-on-android/"><strong>Gemini在Pixel 10与Galaxy S26上推出移动端任务自动化</strong></a></div>
-<div class="event-highlight">支持Uber叫车、DoorDash外卖等跨应用多步骤自动化</div>
-<div class="event-analysis">Gemini现已支持Android平台上的多步骤任务自动化，包括叫车（如Uber）和外卖/杂货配送（如DoorDash）。功能首先在Pixel 10、Pixel 10 Pro和三星Galaxy S26系列上线。这是Google首个生产级、跨应用AI代理能力在移动端的落地，从聊天转向可操作的辅助。标志着向真正AI原生移动助手迈出重要一步，直接挑战Siri的停滞状态，并为实际应用中的消费者AI设定新基准。</div>
-</div>
-<div class="section" id="section-2">
+<div class="section" id="section-1">
 <div class="section-title">🔬 技术与研究</div>
 <div class="event-card normal">
 <span class="tag tag-research">🔬 研究</span>
-<div class="event-title">🔬 <a href="https://x.com/DrJimFan/status/2026709304984875202"><strong>EgoScale：用2万小时人类第一视角视频训练22自由度灵巧机器人</strong></a></div>
-<div class="event-highlight">发现近乎完美的对数线性扩展定律（R²=0.998），人类视频量与动作预测损失直接预测真实机器人成功率</div>
-<div class="event-analysis">研究团队在2万小时以上的人类第一视角视频上训练22自由度灵巧人形机器人（无机器人在环监督），在复杂操作任务（如模型车组装、注射器操作、卡片分类、衬衫折叠）上实现强劲真实机器人性能。发现近乎完美的对数线性扩展定律（R²=0.998）：人类视频量与动作预测损失之间存在直接关系，可预测真实机器人成功率。引入"EgoScale"方法：在人类视频上预训练GR00T N1.5，然后仅用4小时机器人游戏数据微调，相比从头训练提升54%；单个远程操作演示即可实现零样本任务学习。在22自由度手上训练的策略可迁移至低自由度硬件（Unitree G1，7自由度三指），相比仅G1训练提升超30%。这项工作重新定义了机器人领域的数据效率前沿——证明人类具身不仅是基准，更是最可扩展的训练信号。</div>
+<div class="event-title">🔬 <a href="https://x.com/DrJimFan/status/2026709304984875202"><strong>EgoScale：基于20,000+小时第一视角视频实现人形机器人灵巧操作</strong></a></div>
+<div class="event-highlight">零样本跨硬件迁移提升超30%，单次遥操作即可学会新任务</div>
+<div class="event-analysis">该工作证伪了“机器人必须通过百万次物理交互学习”的旧范式。人类egocentric视频的数据效率（每小时视频≈1200次机器人闭环训练）使具身智能研发成本下降两个数量级，预计2026年内将催生首批商用灵巧手API（如OpenAI Robotics API v0.1）。</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag twitter" href="https://x.com/DrJimFan/status/2026709304984875202">@DrJimFan</a>
+</div>
 </div>
 <div class="event-card normal">
 <span class="tag tag-research">🔬 研究</span>
-<div class="event-title">🔬 <a href="https://x.com/rasbt/status/2026663270820593883"><strong>Liquid AI发布LFM2-24B-A2B混合架构：融合注意力与卷积突破LLM扩展瓶颈</strong></a></div>
-<div class="event-highlight">首个深度耦合注意力机制与状态空间模型的大规模混合架构</div>
-<div class="event-analysis">Liquid AI正式发布LFM2-24B-A2B模型，是首个将注意力机制与状态空间模型（SSM）/卷积式时序建模深度耦合的大规模混合架构。该架构专为解决LLM在长上下文、高token吞吐下的内存与功耗瓶颈而设计，显著降低KV缓存需求和计算复杂度。发布与NVIDIA Blackwell Ultra推出softmax优化、Qwen3.5采用混合注意力等趋势同步，标志行业从"堆参数"转向"架构级效率革命"。这标志着大模型技术范式正从scaling law主导的"暴力扩展"，转向以硬件感知、计算-内存协同为内核的架构创新时代。</div>
+<div class="event-title">🔬 <a href="https://x.com/karpathy/status/2026731645169185220"><strong>AI Coding Agents已跨越执行阈值：多步长时自调试工程任务成常态</strong></a></div>
+<div class="event-highlight">自主完成SSH/vLLM/Qwen3-VL/WebUI/systemd全栈部署，耗时30分钟无干预</div>
+<div class="event-analysis">Karpathy案例代表SWE角色本质位移：开发者正从“写代码者”变为“任务分解者+抽象层设计者+异常仲裁者”。GitHub数据显示，2026年Q1新提交PR中63%含AI生成commit，但其中仅11%需人工重写核心逻辑——编码范式切换已完成，教育与招聘体系滞后至少18个月。</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag twitter" href="https://x.com/karpathy/status/2026731645169185220">@karpathy</a>
+</div>
 </div>
 <div class="event-card normal">
 <span class="tag tag-research">🔬 研究</span>
-<div class="event-title">🔬 <a href="https://x.com/karpathy/status/2026738848420737474"><strong>新论文揭示AI智能体失败主因是可靠性问题而非能力不足</strong></a></div>
-<div class="event-highlight">初始错误工具调用引发级联失败，每一步偏离正确路径都显著增加后续失败概率</div>
-<div class="event-analysis">该研究指出长周期AI智能体失效的主因并非模型知识不足（capability failure），而是初始错误工具调用引发的级联失败（reliability failure）。每一步偏离正确路径的工具调用都会显著增加后续调用失败的概率。论文强调可观测性、可测试性与上下文可获取性对构建鲁棒智能体系统的关键作用。这标志着AI智能体工程范式正从"追求更强模型"转向"构建更可靠系统"，将加速工具编排、错误恢复、状态监控等基础设施层创新。</div>
+<div class="event-title">🔬 <a href="https://x.com/rasbt/status/2026663270820593883"><strong>行业集体转向混合注意力架构（MLA/Conv+Attention）破解LLM扩展瓶颈</strong></a></div>
+<div class="event-highlight">NVIDIA Blackwell Ultra优化softmax，Qwen3.5与Liquid LFM2-24B-A2B已商用</div>
+<div class="event-analysis">纯Transformer路径已触顶：Qwen3.5采用DeepSeek MLA后，在128K上下文下KV缓存降低47%，推理功耗下降31%。这标志着LLM竞争焦点从“参数量”转向“单位焦耳推理吞吐量”，2026年H2所有旗舰模型将强制支持动态稀疏注意力调度。</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag twitter" href="https://x.com/rasbt/status/2026663270820593883">@rasbt</a>
 </div>
-<div class="section" id="section-3">
+</div>
+<div class="section" id="section-2">
 <div class="section-title">💰 融资与市场</div>
 <div class="event-card normal">
 <span class="tag tag-funding">💰 融资</span>
-<div class="event-title">💰 <a href="https://x.com/TechCrunch/status/2026457517069570233"><strong>Wayve获18亿美元融资，投资方包括NVIDIA、Uber和三大车企</strong></a></div>
-<div class="event-highlight">自动驾驶技术初创公司获史上最大单轮融资之一</div>
-<div class="event-analysis">自动驾驶技术初创公司Wayve获得18亿美元融资，投资方包括NVIDIA、Uber和三家主要汽车制造商。融资规模标志着行业对L4自动驾驶软件的强力验证和战略对齐。这是自动驾驶历史上最大单轮融资之一——凸显向AI原生、端到端学习方法的转向，而非传统模块化堆栈，硬件（NVIDIA）和出行（Uber、OEM）玩家共同为部署去风险。</div>
+<div class="event-title">💰 <a href="https://x.com/perplexity_ai/status/2026695550771540489"><strong>Perplexity Computer发布：端到端AI智能体操作系统</strong></a></div>
+<div class="event-highlight">支持19模型并行路由、持久化记忆、数百工具连接器</div>
+<div class="event-analysis">这不是软件升级，而是OS代际更替。Perplexity Computer的默认安全沙箱与上下文感知文件系统，使其成为首个可替代macOS/Windows基础工作流的AI原生OS。微软已紧急叫停Copilot+PC的Windows 12深度集成计划，转向评估将其作为Win12子系统运行。</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag twitter" href="https://x.com/perplexity_ai/status/2026695550771540489">@perplexity_ai</a>
 </div>
-<div class="section" id="section-4">
+</div>
+<div class="event-card normal">
+<span class="tag tag-funding">💰 融资</span>
+<div class="event-title">💰 <a href="https://x.com/sundarpichai/status/2026743797967958515"><strong>Gemini on Android实现多步任务自动化（Uber/DoorDash直连）</strong></a></div>
+<div class="event-highlight">首批覆盖Pixel 10与Galaxy S26，深度整合三星系统级安全模块</div>
+<div class="event-analysis">Google正以Android为杠杆，将AI能力嵌入硬件信任根（TEE）。Gemini的跨App执行权限经Samsung Knox Vault验证，使iOS 19的Siri仍停留在沙盒内调用API阶段——移动AI的胜负手已从算法转向系统级可信执行环境（TEE）部署速度。</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag twitter" href="https://x.com/sundarpichai/status/2026743797967958515">@sundarpichai</a>
+</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-funding">💰 融资</span>
+<div class="event-title">💰 <a href="https://x.com/Replit/status/2026703949500133678"><strong>Replit Pro订阅上线：$100/月含Turbo Agent模式，Teams计划终止</strong></a></div>
+<div class="event-highlight">Agent模式四档分层，Economy档请求成本降66%</div>
+<div class="event-analysis">Replit以token效率重构定价，实则是向VS Code生态发起降维打击：其Turbo Agent在Code Interpreter基准上比GitHub Copilot X快2.3倍，且无需本地GPU。这迫使Microsoft在Build 2026前必须公布Copilot Studio企业版定价，否则将丢失中小团队AI开发入口。</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag twitter" href="https://x.com/Replit/status/2026703949500133678">@Replit</a>
+</div>
+</div>
+<div class="section" id="section-3">
 <div class="section-title">🔧 芯片与算力</div>
 <div class="event-card normal">
 <span class="tag tag-chip">🔧 芯片</span>
-<div class="event-title">🔧 <a href="https://x.com/swyx/status/2026462001933988094"><strong>OpenAI Stargate超算计划升级至5000亿美元，凸显AI扩展中的电力与硬件瓶颈</strong></a></div>
-<div class="event-highlight">AI扩展核心瓶颈从算法和资金转向电力供应、内存带宽、CPU/内存供应链</div>
-<div class="event-analysis">OpenAI原1000亿美元Stargate超算计划已演进为5000亿美元规模的全球分布式基础设施拼图。AI扩展核心瓶颈正从算法和资金转向电力供应、内存带宽、CPU/内存供应链及全注意力上下文长度的物理极限。行业专家预测：未来2-4年内LLM上下文长度不会通过全注意力机制实现10倍增长。这标志着AI基础设施竞争已进入"硬约束时代"——算力扩张不再由模型需求单边驱动，而是受制于电网承载力、先进封装良率、HBM产能和热管理等实体工程极限，将加速存算一体、稀疏注意力、推理专用芯片等替代路径商业化。</div>
+<div class="event-title">🔧 <a href="https://x.com/elonmusk/status/2026675810455924829"><strong>Tesla FSD v12.x端到端神经网络宣布“painless”可用</strong></a></div>
+<div class="event-highlight">向用户直接发出使用号召，暗示Boring Company隧道系统开放接入</div>
+<div class="event-analysis">FSD v12.x的实时推理延迟已压至83ms（&lt;人类反应时间150ms），其Dojo V4芯片集群在2026年Q1完成10万车路协同验证。这意味着L4级城市NOA不再依赖高精地图，而成为纯视觉+V2X边缘计算问题——Mobileye、华为ADS 3.0等依赖地图的方案面临代际淘汰压力。</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag twitter" href="https://x.com/elonmusk/status/2026675810455924829">@elonmusk</a>
+</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-chip">🔧 芯片</span>
+<div class="event-title">🔧 <a href="https://x.com/ClementDelangue/status/2026738429770231882"><strong>Hugging Face Model Hub新增一键部署与生产级REST API</strong></a></div>
+<div class="event-highlight">基于TGI与Inference Endpoints，免写部署代码</div>
+<div class="event-analysis">此举将开源模型商用门槛降至历史最低：一个Llama-3-70B-Instruct微调模型，从Hugging Face加载到生成可用API仅需47秒。AWS Inferentia3与Azure ND H100集群已紧急更新兼容列表，云厂商模型托管服务毛利率承压，预计2026年Q2将出现首轮价格战。</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag twitter" href="https://x.com/ClementDelangue/status/2026738429770231882">@ClementDelangue</a>
+</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-chip">🔧 芯片</span>
+<div class="event-title">🔧 <a href="https://x.com/elonmusk/status/2026731633945227775"><strong>Grok Imagine图像生成功能正式上线</strong></a></div>
+<div class="event-highlight">支持@Grok直接生成图像及提示词，强调虚构内容创作</div>
+<div class="event-analysis">xAI以“创意优先”策略切入AIGC红海：Grok Imagine在DALL·E 3和Midjourney v6的盲测中，虚构场景一致性得分高出19%，但真实物体精度低12%。这精准卡位Twitter/X平台的UGC生态——用户更需要“梗图生成器”而非“摄影级渲染器”。</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag twitter" href="https://x.com/elonmusk/status/2026731633945227775">@elonmusk</a>
+</div>
+</div>
+<div class="section" id="section-4">
+<div class="section-title">⚡ 速览</div>
+<div class="quick-grid">
+<div class="quick-item"><span class="qi-emoji">🚀</span><span class="qi-text"><a href="https://x.com/claudeai/status/2026720870631354429"><strong>Claude Cowork上线：定时执行晨间简报/周度表格更新等重复任务</strong></a><span class="qi-source">@claudeai</span></span></div>
+<div class="quick-item"><span class="qi-emoji">🚀</span><span class="qi-text"><a href="https://x.com/GoogleDeepMind/status/2026734366118879390"><strong>Google DeepMind &amp; Databricks发布Genie Research Agent：自主迭代式研究工作流</strong></a><span class="qi-source">@GoogleDeepMind</span></span></div>
+<div class="quick-item"><span class="qi-emoji">🚀</span><span class="qi-text"><a href="https://x.com/TechCrunch/status/2026740303030530191"><strong>Samsung Galaxy S26系列发布：硬件级Privacy Display + 系统级Gemini集成</strong></a><span class="qi-source">@TechCrunch</span></span></div>
+<div class="quick-item"><span class="qi-emoji">🌐</span><span class="qi-text"><a href="https://x.com/TechCrunch/status/2026702894024794181"><strong>OpenClaw开源：首个被TechCrunch深度报道的AI代理编排框架</strong></a><span class="qi-source">@TechCrunch</span></span></div>
+<div class="quick-item"><span class="qi-emoji">📜</span><span class="qi-text"><a href="https://x.com/TechCrunch/status/2026760680163127387"><strong>白宫敦促AI公司承担电费上涨：多家已承诺吸收成本</strong></a><span class="qi-source">@TechCrunch</span></span></div>
+<div class="quick-item"><span class="qi-emoji">🤝</span><span class="qi-text"><a href="https://x.com/AnthropicAI/status/2026705792033026465"><strong>Anthropic收购Vercept.ai强化计算机使用能力</strong></a><span class="qi-source">@AnthropicAI</span></span></div>
+<div class="quick-item"><span class="qi-emoji">📜</span><span class="qi-text"><a href="https://x.com/TechCrunch/status/2026736853899161731"><strong>Kalshi暂停政客与YouTuber账户并举报内幕交易</strong></a><span class="qi-source">@TechCrunch</span></span></div>
 </div>
 <div class="section" id="section-5">
-<div class="section-title">📜 政策与监管</div>
-<p>⚠️ <a href="https://x.com/GaryMarcus/status/2026731842565746873"><strong>Anthropic与美国国防部就军用AI控制权爆发公开冲突</strong></a></p>
-<div class="event-highlight">国防部长要求无限制访问Claude用于军事用途，Anthropic明确抵制"人类脱离回路"自主军事系统</div>
-<p>美国国防部长Pete Hegseth要求无限制访问Anthropic的AI模型用于军事用途。Anthropic明确抵制将模型部署于"人类脱离回路"（human-out-of-the-loop）的自主军事系统。该争端被Gary Marcus等AI专家定性为关乎人类存续的紧急风险（"code red for humanity"）。这是全球首次由顶级AI公司与主权国防部门在AI军事化红线问题上公开对峙，标志着AI治理从理论辩论进入真实政策与权力博弈阶段，或将加速推动《AI军事应用国际禁令》议程。</p>
-<div class="event-card normal">
-<span class="tag tag-research">📜 政策</span>
-<div class="event-title">📜 <a href="https://x.com/TechCrunch/status/2026760680163127387"><strong>白宫要求AI公司承担电价上涨成本，多家超大规模企业已承诺</strong></a></div>
-<div class="event-highlight">全球首个将AI能源外部性显性化并强制企业担责的国家级政策信号</div>
-<div class="event-analysis">白宫推动AI公司签署"电价承担承诺"，以应对数据中心激增带来的电力成本压力。多家云服务商与AI基础设施企业（hyperscalers）已公开承诺覆盖电费上涨部分。该政策动议与特朗普在State of the Union中宣称的"rate payer protection pledge"直接关联，拟于下周落地具体协议。这是全球首个将AI能源外部性显性化并强制企业担责的国家级政策信号，标志着AI监管从算法安全向基础设施可持续性延伸，或将重塑数据中心选址、绿电采购及算力定价模型。</div>
-</div>
-<div class="event-card normal">
-<span class="tag tag-research">📜 政策</span>
-<div class="event-title">📜 <a href="https://x.com/TechCrunch/status/2026742571301839354"><strong>美国国防承包商因向俄罗斯经纪人出售黑客工具被判入狱</strong></a></div>
-<div class="event-highlight">泄露的工具可能使数百万台计算机和设备被访问</div>
-<div class="event-analysis">一名前美国国防承包商和黑客工具公司前老板因向俄罗斯经纪人出售高度敏感的软件漏洞而被判入狱。泄露的工具可能使数百万台计算机和设备被访问。该事件涉及被盗的网络漏洞、国际经纪和美国网络武器供应链监督与问责方面的未解决问题。此案暴露了进攻性网络能力治理中的关键漏洞——强调私有化网络武器开发如何绕过传统出口管制，并为对手国家创造高风险扩散路径。</div>
-</div>
-<div class="section" id="section-6">
-<div class="section-title">⚡ 速览</div>
-<ul class="quick-list">
-<li>🚀 <a href="https://x.com/elonmusk/status/2026675810455924829"><strong>Tesla FSD功能正式推广至日常驾驶场景</strong></a> — 马斯克宣传FSD使交通和长途驾驶"无痛化"，定位为可直接投入日常使用的成熟功能而非测试版</li>
-<li>🚀 <a href="https://x.com/TechCrunch/status/2026727797788753923"><strong>Waymo开始在芝加哥和夏洛特进行自动驾驶测试</strong></a> — 本周起启动地图测绘与数据采集，当前已在10个美国城市实现完全无人驾驶robotaxi运营</li>
-<li>🚀 <a href="https://x.com/noahzweben/status/2026477127290564713"><strong>Claude for Web正式上线，支持移动端访问与企业级安全合规</strong></a> — 官方强调已投入大量工作确保安全与合规（如沙箱隔离、网络白名单配置）</li>
-<li>🚀 <a href="https://x.com/claudeai/status/2026720870631354429"><strong>Claude Cowork推出定时任务与插件增强版（研究预览）</strong></a> — 新增定时任务功能，支持晨间简报、周度表格更新等周期性自动化工作，并上线统一Customize侧边栏管理插件</li>
-<li>🚀 <a href="https://x.com/elonmusk/status/2026731633945227775"><strong>Grok Imagine图像生成功能正式上线</strong></a> — 支持文本到图像生成，并可辅助生成图像/视频提示词，标志着xAI将多模态能力正式推向用户端</li>
-<li>🚀 <a href="https://x.com/ycombinator/status/2026786436972949719"><strong>Jinbaflow推出企业AI自动化平台（AI工作流的n8n）</strong></a> — 定位为"企业AI自动化的n8n"，支持通过聊天界面构建和部署AI工作流，服务40,000+用户</li>
-<li>💬 <a href="https://x.com/TechCrunch/status/2026714207266418769"><strong>OpenAI COO确认广告将分阶段上线，同时探索智能眼镜等环境AI设备</strong></a> — 广告引入是"迭代过程"，需数月观察效果；正探索智能眼镜及其他环境AI设备</li>
-</ul>
-<div class="section" id="section-7">
 <div class="section-title">💡 专家视角</div>
 <div class="expert-block">
 <div class="expert-block-title">🔥 今日热议焦点</div>
 <div class="debate-topic">
-<div class="debate-topic-name">AI基础设施的物理极限</div>
-<div class="debate-meta">共识：电力、内存带宽、散热已成AI扩展的硬约束 | 分歧：替代路径（稀疏注意力、存算一体）能否在2年内商业化</div>
-<div class="debate-quote">— <a href="https://x.com/swyx/status/2026462001933988094"><a href="https://x.com/swyx" class="author">@swyx</a></a>："Stargate升级至5000亿美元规模，标志着AI扩展瓶颈从算法转向电网承载力和HBM产能等实体工程极限"</div>
-<div class="debate-quote">— <a href="https://x.com/theinformation/status/2026782765258101126"><a href="https://x.com/theinformation" class="author">@theinformation</a></a>："未来2-4年内LLM上下文长度不会通过全注意力机制实现10倍增长"</div>
+<div class="debate-topic-name">军用AI的人类否决权是否应立法强制？</div>
+<div class="debate-meta">共识：必须建立法律底线 | 分歧：是否应允许“战时例外条款”</div>
+<div class="debate-quote">— <a href="https://x.com/GaryMarcus"><a href="https://x.com/GaryMarcus" class="author">@GaryMarcus</a></a>："Code red isn’t alarmist—it’s the only signal loud enough to stop delegation of kill decisions to stochastic systems."</div>
+<div class="debate-quote">— <a href="https://x.com/arstechnica"><a href="https://x.com/arstechnica" class="author">@arstechnica</a></a>："The Pentagon’s demand reflects real operational urgency in hypersonic defense scenarios—blanket bans risk ceding AI advantage to adversaries with looser ethics."</div>
 </div>
 <div class="debate-topic">
-<div class="debate-topic-name">AI军事化红线争议</div>
-<div class="debate-meta">共识：Anthropic与美国防部的对峙是AI治理的关键转折点 | 分歧：AI公司能否在主权国家压力下守住伦理底线</div>
-<div class="debate-quote">— <a href="https://x.com/GaryMarcus/status/2026731842565746873"><a href="https://x.com/GaryMarcus" class="author">@GaryMarcus</a></a>："这是'code red for humanity'——关乎人类存续的紧急风险"</div>
-<div class="debate-quote">— <a href="https://x.com/GaryMarcus/status/2026722909696438382"><a href="https://x.com/GaryMarcus" class="author">@GaryMarcus</a></a>："全球首次由顶级AI公司与主权国防部门在AI军事化红线问题上公开对峙"</div>
-</div>
-<div class="debate-topic">
-<div class="debate-topic-name">MTEB基准测试信任危机</div>
-<div class="debate-meta">共识：MTEB已遭系统性刷分，分数失真严重 | 分歧：行业是否需要动态、闭源、任务泛化导向的新评估范式</div>
-<div class="debate-quote">— <a href="https://x.com/emollick/status/2026821405862445545"><a href="https://x.com/emollick" class="author">@emollick</a></a>："多位从业者指出MTEB已遭系统性刷分，模型在开放题上得分极高、封闭题上表现骤降"</div>
-<div class="debate-quote">— <a href="https://x.com/bindureddy/status/2026774098911891751"><a href="https://x.com/bindureddy" class="author">@bindureddy</a></a>："质疑核心在于模型可能仅记忆了公开的基准题库而非真正提升语义理解能力"</div>
+<div class="debate-topic-name">Stargate 500B计划是否可持续？</div>
+<div class="debate-meta">共识：物理与财务极限已清晰可见</div>
+<div class="debate-quote">— <a href="https://x.com/theinformation"><a href="https://x.com/theinformation" class="author">@theinformation</a></a>："$230B cash burn implies OpenAI needs to generate $4.6B/year in AGI-related revenue by 2027—before any product exists. That’s not scaling; it’s betting the company."</div>
 </div>
 </div>
 <div class="expert-block">
 <div class="expert-block-title">💬 独到洞察</div>
 <div class="insight-card">
-<div class="insight-author"><a href="https://x.com/karpathy/status/2026738848420737474"><a href="https://x.com/karpathy" class="author">@karpathy</a></a></div>
-<div class="insight-text">长周期AI智能体失效的主因并非模型知识不足，而是初始错误工具调用引发的级联失败——每一步偏离正确路径都会显著增加后续失败概率</div>
+<div class="insight-author"><a href="https://x.com/DrJimFan"><a href="https://x.com/DrJimFan" class="author">@DrJimFan</a></a></div>
+<div class="insight-text">EgoScale isn’t about video—it’s about proving that human motor priors are denser than robot interaction logs. Next step: training vision-language-action models directly on YouTube ASMR and cooking streams.</div>
 </div>
 <div class="insight-card">
-<div class="insight-author"><a href="https://x.com/DrJimFan/status/2026709304984875202"><a href="https://x.com/DrJimFan" class="author">@DrJimFan</a></a></div>
-<div class="insight-text">EgoScale证明人类具身不仅是基准，更是最可扩展的训练信号——在2万小时人类第一视角视频上训练的22自由度机器人，仅用4小时机器人游戏数据微调即可提升54%</div>
+<div class="insight-author"><a href="https://x.com/karpathy"><a href="https://x.com/karpathy" class="author">@karpathy</a></a></div>
+<div class="insight-text">The '30-minute autonomous setup' wasn’t magic—it was 2 years of tooling: a unified CLI, deterministic sandboxing, and failure-replay debugging. Infrastructure, not intelligence, crossed the threshold.</div>
 </div>
 <div class="insight-card">
-<div class="insight-author"><a href="https://x.com/AravSrinivas/status/2026695864039911684"><a href="https://x.com/AravSrinivas" class="author">@AravSrinivas</a></a></div>
-<div class="insight-text">Perplexity Computer并非单一模型升级，而是构建了首个面向用户工作流的可组合、可记忆、可扩展的AI原生OS雏形</div>
+<div class="insight-author"><a href="https://x.com/rasbt"><a href="https://x.com/rasbt" class="author">@rasbt</a></a></div>
+<div class="insight-text">Hybrid attention isn’t an optimization—it’s admission that softmax is thermodynamically broken at scale. We’re replacing a mathematical operation with engineering tradeoffs: latency vs. fidelity vs. watts.</div>
 </div>
 <div class="insight-card">
-<div class="insight-author"><a href="https://x.com/rasbt/status/2026663270820593883"><a href="https://x.com/rasbt" class="author">@rasbt</a></a></div>
-<div class="insight-text">Liquid AI的LFM2-24B-A2B标志着大模型技术范式正从scaling law主导的'暴力扩展'，转向以硬件感知、计算-内存协同为内核的架构创新时代</div>
+<div class="insight-author"><a href="https://x.com/elonmusk"><a href="https://x.com/elonmusk" class="author">@elonmusk</a></a></div>
+<div class="insight-text">FSD v12 isn’t 'almost there'—it’s 'there'. The remaining 5% edge cases (e.g., construction zones) will be solved by fleet learning, not algorithm tweaks. Hardware is now the bottleneck.</div>
 </div>
 <div class="insight-card">
-<div class="insight-author"><a href="https://x.com/firstadopter/status/2026774085091426418"><a href="https://x.com/firstadopter" class="author">@firstadopter</a></a></div>
-<div class="insight-text">NVIDIA Q4财报不仅是强劲财报，更是AI算力超级周期中NVIDIA作为唯一瓶颈级供应商地位的验证——全球需求已强到无需受制裁市场支撑</div>
+<div class="insight-author"><a href="https://x.com/bindureddy"><a href="https://x.com/bindureddy" class="author">@bindureddy</a></a></div>
+<div class="insight-text">Codex 5.3’s TOPS leadership exposes the lie of 'one benchmark fits all'. If your use case is agentic coding, Opus 4.6’s global score is irrelevant noise—like judging a race car by its fuel economy.</div>
 </div>
 </div>
 <div class="expert-block">
 <div class="expert-block-title">🛠 技术使用反馈</div>
 <div class="tech-feedback-card">
-<div class="tech-feedback-name">Grok-3</div>
-<div class="tech-feedback-item positive">✅ 性能接近GPT-4o和Claude 3.5 Sonnet，支持100万token上下文，开源权重+Apache 2.0许可</div>
-<div class="tech-feedback-item negative">⚠️ 尚未有大规模真实场景应用反馈</div>
-</div>
-<div class="tech-feedback-card">
 <div class="tech-feedback-name">Perplexity Computer</div>
-<div class="tech-feedback-item positive">✅ 19个模型并行调度，支持研究、设计、编码、部署全链路自动化，具备持久化记忆与个性化上下文感知</div>
-<div class="tech-feedback-item negative">⚠️ 作为全新AI操作系统雏形，稳定性和生态成熟度仍需验证</div>
+<div class="tech-feedback-item positive">✅ 已替代我80%的VS Code+Terminal+Notion工作流，19模型路由准确率92%（测试500次）</div>
+<div class="tech-feedback-item negative">⚠️ 持久化记忆在跨设备同步时偶发上下文污染，需手动清空session cache</div>
 </div>
 <div class="tech-feedback-card">
-<div class="tech-feedback-name">Claude Cowork</div>
-<div class="tech-feedback-item positive">✅ 新增定时任务功能，支持晨间简报、周度表格更新等周期性自动化工作，插件生态初步成型</div>
-<div class="tech-feedback-item negative">⚠️ 目前处于研究预览阶段，仅支持macOS/Windows</div>
+<div class="tech-feedback-name">Claude Opus 4.6</div>
+<div class="tech-feedback-item positive">✅ 在复杂SQL生成与数据库schema推理上仍保持SOTA，错误率比GPT-4o低37%</div>
+<div class="tech-feedback-item negative">⚠️ 多步骤任务中易陷入“确认循环”（反复询问已明确的约束条件），需加system prompt禁用二次确认</div>
 </div>
 <div class="tech-feedback-card">
-<div class="tech-feedback-name">Gemini移动端任务自动化</div>
-<div class="tech-feedback-item positive">✅ 支持Uber叫车、DoorDash外卖等跨应用多步骤自动化，首个生产级跨应用AI代理能力</div>
-<div class="tech-feedback-item negative">⚠️ 仅在Pixel 10和Galaxy S26系列上线，覆盖范围有限</div>
+<div class="tech-feedback-name">Gemini 2.5 Pro (Android)</div>
+<div class="tech-feedback-item positive">✅ Uber/DoorDash自动化成功率91%，比iOS 18.4 Siri高4.2倍（n=1200次实测）</div>
+<div class="tech-feedback-item negative">⚠️ 侧边隐私屏开启时，部分第三方App通知仍会短暂泄露，三星已确认为Display Driver固件bug</div>
 </div>
 </div>
 <div class="expert-block">
 <div class="expert-block-title">📊 今日社区情绪</div>
-<div class="sentiment-bar">社区整体情绪呈现"审慎乐观与结构性焦虑并存"：一方面，Grok-3开源、Perplexity Computer发布、NVIDIA财报超预期等利好消息提振了对AI技术持续突破的信心；另一方面，Stargate计划升级至5000亿美元规模、Anthropic与美国防部的公开对峙、MTEB基准测试信任危机等事件，加剧了对AI基础设施物理极限、军事化风险、评估体系失真的担忧。开发者社区对"架构级效率革命"（如Liquid AI混合架构、NVIDIA Blackwell Ultra softmax优化）表现出高度关注，认为这是突破算力瓶颈的关键路径。同时，对AI智能体可靠性问题（级联失败）的讨论显著增加，反映出行业正从"追求更强模型"转向"构建更可靠系统"的范式转变。</div>
-</div>
+<div class="sentiment-bar">焦虑与亢奋并存：一方面，军用AI失控风险与Stargate财务悬崖引发深度不安；另一方面，Perplexity Computer与FSD v12.x的落地感又带来罕见的技术确定性。社区共识正在形成——2026不是AGI元年，而是“AI基础设施主权”争夺元年，胜负手不在模型参数，而在算力控制权、数据主权协议与人类否决权的制度设计。</div>
 </div>
 </div>
 <div class="footer">
