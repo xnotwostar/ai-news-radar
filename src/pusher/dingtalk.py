@@ -71,9 +71,8 @@ class DingTalkPusher:
             lines.append("")
 
         if report_url:
-            lines.append("---")
             lines.append("")
-            lines.append(f"> [📖 查看完整报告]({report_url})")
+            lines.append(f"📖 [查看完整报告]({report_url})")
 
         return "\n".join(lines)
 
