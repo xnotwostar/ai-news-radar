@@ -39,7 +39,7 @@ from .collector import (
     NewsnowCollector,
     RssCollector,
 )
-from .processor import Clusterer, Embedder, EventBuilder, Ranker
+from .processor import Clusterer, Embedder, EventBuilder, HistoryDeduplicator, Ranker
 from .generator import LLMClient, ReportWriter
 from .publisher import HtmlPublisher
 from .pusher import DingTalkPusher, ServerChanPusher
@@ -163,6 +163,10 @@ def run_twitter_pipeline(
     builder = EventBuilder()
     events: list[EventCard] = builder.build_events(clusters, date_str.replace("-", ""))
     _save_events(events, f"{date_str}_{name}_events.json")
+
+    # Step 4.5: Deduplicate against recent history
+    deduplicator = HistoryDeduplicator(lookback_days=3, threshold=2)
+    events = deduplicator.deduplicate(events, name, date_str)
 
     # Step 5: Rank
     ranker = Ranker()
