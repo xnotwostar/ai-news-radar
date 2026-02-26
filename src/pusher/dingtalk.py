@@ -36,22 +36,47 @@ class DingTalkPusher:
             u.strip() for u in re.split(r'[,\n\r]+', raw) if u.strip()
         ]
 
-    def push(self, title: str, markdown_text: str, report_url: str | None = None) -> bool:
-        """Push report to all configured webhooks."""
+    def push(
+        self,
+        title: str,
+        markdown_text: str,
+        report_url: str | None = None,
+        poster_url: str | None = None,
+    ) -> bool:
+        """Push report to all configured webhooks.
+
+        If poster_url is provided, sends poster image first, then markdown content.
+        """
         success = True
         for idx, url in enumerate(self.webhook_urls):
             if idx > 0:
-                time.sleep(2)  # Rate limit between groups
-            ok = self._push_single_webhook(url, title, markdown_text, report_url)
+                time.sleep(2)
+            ok = self._push_single_webhook(url, title, markdown_text, report_url, poster_url)
             if not ok:
                 success = False
         return success
 
     def _push_single_webhook(
-        self, webhook_url: str, title: str, markdown_text: str, report_url: str | None,
+        self,
+        webhook_url: str,
+        title: str,
+        markdown_text: str,
+        report_url: str | None,
+        poster_url: str | None = None,
     ) -> bool:
-        """Push full markdown report to a single webhook, with optional report link at the end."""
-        # Append report link footer if available
+        """Push poster image (if available) then full markdown report."""
+        success = True
+
+        # Step 1: Send poster image
+        if poster_url:
+            try:
+                poster_md = f"![{title}]({poster_url})"
+                self._send_single(webhook_url, f"📰 {title}", poster_md)
+                time.sleep(2)
+            except Exception as e:
+                logger.error("Failed to push poster image: %s", e)
+
+        # Step 2: Send full markdown content
         text = markdown_text
         if report_url:
             text += f"\n\n---\n\n> [📖 查看完整网页版报告]({report_url})"
@@ -59,7 +84,6 @@ class DingTalkPusher:
         chunks = self._split_chunks(text)
         logger.info("Pushing '%s' in %d chunk(s) → %s...%s", title, len(chunks), webhook_url[:50], webhook_url[-8:])
 
-        success = True
         for i, chunk in enumerate(chunks):
             chunk_title = title if len(chunks) == 1 else f"{title} ({i+1}/{len(chunks)})"
             try:
