@@ -1,15 +1,7 @@
 [
   {
     "title": "日本把宇树机器人改成僧侣",
-    "url": "https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E6%8A%8A%E5%AE%87%E6%A0%91%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%94%B9%E6%88%90%E5%83%A7%E4%BE%A3%23&t=31&band_rank=16&Refer=top",
-    "platform": "weibo",
-    "rank": 0,
-    "hot_value": null,
-    "published_at": null
-  },
-  {
-    "title": "德国总理看机器人格斗满脸惊讶",
-    "url": "https://s.weibo.com/weibo?q=%23%E5%BE%B7%E5%9B%BD%E6%80%BB%E7%90%86%E7%9C%8B%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%A0%BC%E6%96%97%E6%BB%A1%E8%84%B8%E6%83%8A%E8%AE%B6%23&t=31&band_rank=19&Refer=top",
+    "url": "https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E6%8A%8A%E5%AE%87%E6%A0%91%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%94%B9%E6%88%90%E5%83%A7%E4%BE%A3%23&t=31&band_rank=30&Refer=top",
     "platform": "weibo",
     "rank": 0,
     "hot_value": null,
@@ -24,20 +16,84 @@
     "published_at": null
   },
   {
-    "title": "印度前首富瞄准人工智能硬件市场",
-    "url": "https://www.36kr.com/newsflashes/3699950068248195",
-    "platform": "36kr",
+    "title": "如何评价文章「文科生 72 小时杀入 GitHub 全球榜：我没写一行代码但指挥了一支 AI 军队」？",
+    "url": "https://www.zhihu.com/question/2009666916382421190",
+    "platform": "zhihu",
     "rank": 0,
     "hot_value": null,
-    "published_at": "2026-02-26 10:01:10.226000+00:00"
+    "published_at": null
   },
   {
-    "title": "新加坡的Grab公司押注人工智能与新服务，目标2028年利润增至三倍",
-    "url": "https://www.36kr.com/newsflashes/3699947268124546",
+    "title": "中国AI调用量首次超过美国",
+    "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BDAI%E8%B0%83%E7%94%A8%E9%87%8F%E9%A6%96%E6%AC%A1%E8%B6%85%E8%BF%87%E7%BE%8E%E5%9B%BD",
+    "platform": "baidu",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": null
+  },
+  {
+    "title": "日本一大学把宇树机器人改成僧侣",
+    "url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E4%B8%80%E5%A4%A7%E5%AD%A6%E6%8A%8A%E5%AE%87%E6%A0%91%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%94%B9%E6%88%90%E5%83%A7%E4%BE%A3",
+    "platform": "baidu",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": null
+  },
+  {
+    "title": "湖南：加快数字化升级改造，深入实施“人工智能+”“智赋万企”行动",
+    "url": "https://www.36kr.com/newsflashes/3700078473375616",
     "platform": "36kr",
     "rank": 0,
     "hot_value": null,
-    "published_at": "2026-02-26 09:56:10.226000+00:00"
+    "published_at": "2026-02-26 12:11:35.459000+00:00"
+  },
+  {
+    "title": "中国AI调用量首超美国，四款大模型霸榜全球前五",
+    "url": "https://www.36kr.com/newsflashes/3700080140889736",
+    "platform": "36kr",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": "2026-02-26 12:08:35.459000+00:00"
+  },
+  {
+    "title": "前魅族高管杨颜携AI宠物“Aimon”回归",
+    "url": "https://www.36kr.com/newsflashes/3700077587804033",
+    "platform": "36kr",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": "2026-02-26 11:53:35.459000+00:00"
+  },
+  {
+    "title": "利亚德：公司已与国内外诸多知名机器人厂家建立合作",
+    "url": "https://www.36kr.com/newsflashes/3700015182638721",
+    "platform": "36kr",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": "2026-02-26 11:15:35.459000+00:00"
+  },
+  {
+    "title": "存储成本飞升 + 云端 AI 算力提升等，荣耀林林称可能所有 3C 设备的形态和使用方式都要发生巨变",
+    "url": "https://www.ithome.com/0/923/991.htm",
+    "platform": "ithome",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": null
+  },
+  {
+    "title": "消息称因内存芯片价格持续暴涨，2026 年春节后手机平板等全行业将迎来涨价",
+    "url": "https://www.ithome.com/0/923/990.htm",
+    "platform": "ithome",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": null
+  },
+  {
+    "title": "德国总理默茨参访宇树科技观看春晚同款“武 BOT”，机器人现场大秀拳击、舞蹈",
+    "url": "https://www.ithome.com/0/923/988.htm",
+    "platform": "ithome",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": null
   },
   {
     "title": "荣耀 Magic V6 折叠屏新机拍摄样张公布，AiMAGE 影像加持",
@@ -64,6 +120,14 @@
     "published_at": null
   },
   {
+    "title": "百度 2025 财年总收入 1291 亿元同比减少 3%，AI 应用全年收入破百亿",
+    "url": "https://www.ithome.com/0/923/945.htm",
+    "platform": "ithome",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": null
+  },
+  {
     "title": "华为云 AI 编程工具开放免费体验，码道（CodeArts）代码智能体公测版发布",
     "url": "https://www.ithome.com/0/923/944.htm",
     "platform": "ithome",
@@ -72,35 +136,43 @@
     "published_at": null
   },
   {
-    "title": "蔚来芯片子公司“安徽神玑”被曝完成首轮融资，投后估值近百亿元",
-    "url": "https://www.ithome.com/0/923/940.htm",
-    "platform": "ithome",
-    "rank": 0,
-    "hot_value": null,
-    "published_at": null
-  },
-  {
-    "title": "努比亚倪飞：很高兴看到三星 S26 系列与 Gemini 带来手机自动驾驶相关能力，印证 AI 智能体是行业共同方向",
-    "url": "https://www.ithome.com/0/923/939.htm",
-    "platform": "ithome",
-    "rank": 0,
-    "hot_value": null,
-    "published_at": null
-  },
-  {
-    "title": "德国总理参观中国机器人企业",
-    "url": "https://wallstreetcn.com/livenews/3059482",
+    "title": "湖南：加快数字化升级改造 深入实施“人工智能+”“智赋万企”行动",
+    "url": "https://wallstreetcn.com/livenews/3059550",
     "platform": "wallstreetcn",
     "rank": 0,
     "hot_value": null,
-    "published_at": "2026-02-26 09:35:07+00:00"
+    "published_at": "2026-02-26 11:45:16+00:00"
   },
   {
-    "title": "蔚来芯片子公司获超22亿首轮融资，投后估值近百亿",
-    "url": "https://wallstreetcn.com/livenews/3059481",
+    "title": "中国AI调用量首超美国，四款大模型霸榜全球前五",
+    "url": "https://wallstreetcn.com/livenews/3059542",
     "platform": "wallstreetcn",
     "rank": 0,
     "hot_value": null,
-    "published_at": "2026-02-26 09:32:41+00:00"
+    "published_at": "2026-02-26 11:33:51+00:00"
+  },
+  {
+    "title": "浙江：建强中德合作平台 在汽车、机械制造、化工及人工智能、绿色低碳等领域加强双向投资",
+    "url": "https://wallstreetcn.com/livenews/3059541",
+    "platform": "wallstreetcn",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": "2026-02-26 11:32:10+00:00"
+  },
+  {
+    "title": "李彦宏：2025年是AI成为百度新核心的关键一年",
+    "url": "https://wallstreetcn.com/livenews/3059527",
+    "platform": "wallstreetcn",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": "2026-02-26 10:53:32+00:00"
+  },
+  {
+    "title": "拉加德称欧洲央行将“高度关注”AI对就业市场的影响",
+    "url": "https://wallstreetcn.com/livenews/3059521",
+    "platform": "wallstreetcn",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": "2026-02-26 10:38:57+00:00"
   }
 ]

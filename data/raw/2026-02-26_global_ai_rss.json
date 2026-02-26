@@ -112,6 +112,20 @@
     "published": "2026-02-25 16:54:46+00:00"
   },
   {
+    "title": "Instagram will alert parents if their kids &#8216;repeatedly&#8217; search for self-harm topics",
+    "summary": "Starting next week, Instagram will notify parents to check on their teen searching for terms related to self-harm or suicide. Meta says a similar alert system for its AI chatbots is coming later this year. The new Instagram feature sends parents an alert when their child \"repeatedly tries to search ",
+    "url": "https://www.theverge.com/tech/885110/meta-instagram-parent-alert-teen-self-harm-suicide",
+    "source": "The Verge",
+    "published": "2026-02-26 12:00:00+00:00"
+  },
+  {
+    "title": "Google takes control of ‘Android of robotics’ project in quest for physical AI",
+    "summary": "Google is folding Alphabet's AI robotics \"moonshot,\" Intrinsic, into the company after five years as an independent unit. The move marks a strategic shift as Google doubles down on physical AI and pulls experimental projects closer to its core business. Intrinsic \"graduated\" into an independent comp",
+    "url": "https://www.theverge.com/tech/885113/google-swallows-ai-robotics-moonshot-intrinsic",
+    "source": "The Verge",
+    "published": "2026-02-26 11:06:33+00:00"
+  },
+  {
     "title": "How the new Galaxy S26 phones compare",
     "summary": "Samsung has just announced its new Galaxy S26 lineup, which includes the S26, S26 Plus, and S26 Ultra. While they aren't radical departures from last year's models, they bring a handful of notable upgrades. All three run on Qualcomm's Galaxy-centric Snapdragon 8 Elite Gen 5, which delivers improved ",
     "url": "https://www.theverge.com/gadgets/883733/samsung-galaxy-s26-vs-plus-ultra-specs-features-hardware-comparison",
@@ -154,13 +168,6 @@
     "published": "2026-02-25 19:09:29+00:00"
   },
   {
-    "title": "Google Gemini can book an Uber or order food for you on Pixel 10 and Galaxy S26",
-    "summary": "Google's Gemini AI is getting one step closer to being more like an actual assistant. Starting with some Pixel 10 phones and the Samsung Galaxy S26 series, Gemini will be able to hail an Uber or put together a DoorDash order on its own. It's called task automation, and it starts with a prompt to [&#",
-    "url": "https://www.theverge.com/tech/884210/google-gemini-samsung-s26-pixel-10-uber",
-    "source": "The Verge",
-    "published": "2026-02-25 18:00:00+00:00"
-  },
-  {
     "title": "Musk has no proof OpenAI stole xAI trade secrets, judge rules, tossing lawsuit",
     "summary": "Even twisting an ex-employee's text to favor xAI's reading fails to sway judge.",
     "url": "https://arstechnica.com/tech-policy/2026/02/judge-xai-cant-claim-openai-stole-trade-secrets-just-by-hiring-ex-staffers/",
@@ -187,6 +194,20 @@
     "url": "https://arstechnica.com/ai/2026/02/pete-hegseth-wants-unfettered-access-to-anthropics-models-for-the-military/",
     "source": "Ars Technica",
     "published": "2026-02-25 14:29:23+00:00"
+  },
+  {
+    "title": "Who’s Your Daddy? A Chatbot",
+    "summary": "More people are turning to AI to explore their BDSM fantasies, but some in the community feel it’s a cop-out.",
+    "url": "https://www.wired.com/story/whos-your-daddy-a-chatbot/",
+    "source": "Wired",
+    "published": "2026-02-26 12:00:00+00:00"
+  },
+  {
+    "title": "Why Sierra the Supercomputer Had to Die",
+    "summary": "For seven years, she ran high-security nuclear simulations for the US government. Now, this famous supercomputer is being put to death.",
+    "url": "https://www.wired.com/story/why-sierra-the-supercomputer-had-to-die/",
+    "source": "Wired",
+    "published": "2026-02-26 11:00:00+00:00"
   },
   {
     "title": "Factor Offers High Protein Meal Delivery Options (2026)",
@@ -243,13 +264,6 @@
     "url": "https://www.wired.com/story/kalshi-insider-trading-california-politician-and-youtuber/",
     "source": "Wired",
     "published": "2026-02-25 16:00:00+00:00"
-  },
-  {
-    "title": "Talk to Your Own Personal Isaac Newton With Ailias’s Hologram Avatars",
-    "summary": "If you've ever wanted to bounce ideas off your favorite historical figure, Ailias gives you the chance.",
-    "url": "https://www.wired.com/story/ailias-hologram-avatars/",
-    "source": "Wired",
-    "published": "2026-02-25 12:00:00+00:00"
   },
   {
     "title": "Turns Out Perplexity Might Be the Sleeper Feature on Samsung's Galaxy S26",
@@ -313,13 +327,6 @@
     "url": "https://www.cnet.com/roadshow/news/waymo-autonomous-ride-service-expands-texas-florida/",
     "source": "CNET",
     "published": "2026-02-25 19:48:00+00:00"
-  },
-  {
-    "title": "Big Shock: Samsung's Galaxy S26 Ultra Camera Updates Have a Ton of AI",
-    "summary": "AI is leading the way in the S26 Ultra's cameras, though there are some upgrades for content creators.",
-    "url": "https://www.cnet.com/tech/mobile/samsung-galaxy-s26-ultra-camera-updates/",
-    "source": "CNET",
-    "published": "2026-02-25 19:24:00+00:00"
   },
   {
     "title": "Making Softmax More Efficient with NVIDIA Blackwell Ultra",
@@ -392,13 +399,6 @@
     "published": "2026-02-25 19:24:11+00:00"
   },
   {
-    "title": "[P] MNIST from scratch in Metal (C++)",
-    "summary": "I built a simple 2-layer MNIST MLP that trains + runs inference from scratch, only using Apple’s metal-cpp library. The goal was to learn GPU programming “for real” and see what actually moves the needle on Apple Silicon. Not just a highly optimized matmul kernel, but also understanding Metal's API ",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1rf3qb7/p_mnist_from_scratch_in_metal_c/",
-    "source": "Reddit ML",
-    "published": "2026-02-26 07:23:36+00:00"
-  },
-  {
     "title": "[D] where can I find more information about NTK wrt Lazy and Rich learning?",
     "summary": "Specifically, I'm curious about:  What are the practical heuristics (or methods) for determining which regime a model is operating in during training? How does the scale of initialization and the learning rate specifically bias a network toward feature learning over the kernel regime? Are there spec",
     "url": "https://www.reddit.com/r/MachineLearning/comments/1rex3ax/d_where_can_i_find_more_information_about_ntk_wrt/",
@@ -406,11 +406,11 @@
     "published": "2026-02-26 01:50:40+00:00"
   },
   {
-    "title": "[P] Reproducing Google’s Nested Learning / HOPE in PyTorch (mechanism-faithful implementation + reproducible tooling and library)",
-    "summary": "A while back, Google released the Nested Learning / HOPE paper: https://arxiv.org/abs/2512.24695 I was very excited by this, because it looked like a real attempt at continual learning, not just a small transformer tweak. However, Google did not release code, and since lucidrains said he retired, I ",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1res42m/p_reproducing_googles_nested_learning_hope_in/",
+    "title": "[P] MNIST from scratch in Metal (C++)",
+    "summary": "I built a simple 2-layer MNIST MLP that trains + runs inference from scratch, only using Apple’s metal-cpp library. The goal was to learn GPU programming “for real” and see what actually moves the needle on Apple Silicon. Not just a highly optimized matmul kernel, but also understanding Metal's API ",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1rf3qb7/p_mnist_from_scratch_in_metal_c/",
     "source": "Reddit ML",
-    "published": "2026-02-25 22:29:11+00:00"
+    "published": "2026-02-26 07:23:36+00:00"
   },
   {
     "title": "[R] Large-Scale Online Deanonymization with LLMs",
@@ -418,6 +418,13 @@
     "url": "https://www.reddit.com/r/MachineLearning/comments/1reee40/r_largescale_online_deanonymization_with_llms/",
     "source": "Reddit ML",
     "published": "2026-02-25 14:16:51+00:00"
+  },
+  {
+    "title": "[P] Reproducing Google’s Nested Learning / HOPE in PyTorch (mechanism-faithful implementation + reproducible tooling and library)",
+    "summary": "A while back, Google released the Nested Learning / HOPE paper: https://arxiv.org/abs/2512.24695 I was very excited by this, because it looked like a real attempt at continual learning, not just a small transformer tweak. However, Google did not release code, and since lucidrains said he retired, I ",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1res42m/p_reproducing_googles_nested_learning_hope_in/",
+    "source": "Reddit ML",
+    "published": "2026-02-25 22:29:11+00:00"
   },
   {
     "title": "[D] Is ICLR not giving Spotlights this year?",
@@ -432,13 +439,6 @@
     "url": "https://www.reddit.com/r/MachineLearning/comments/1reiy10/d_is_it_possible_to_create_a_benchmark_that_can/",
     "source": "Reddit ML",
     "published": "2026-02-25 17:03:15+00:00"
-  },
-  {
-    "title": "[R] Systematic Vulnerability in Open-Weight LLMs: Prefill Attacks Achieve Near-Perfect Success Rates Across 50 Models",
-    "summary": "We conducted the largest empirical study of prefill attacks to date, testing 50 state-of-the-art open-weight models against 23 distinct attack strategies. Results show universal vulnerability with attack success rates approaching 100%. What are prefill attacks? Since open-weight models run locally, ",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1reajw4/r_systematic_vulnerability_in_openweight_llms/",
-    "source": "Reddit ML",
-    "published": "2026-02-25 11:18:40+00:00"
   },
   {
     "title": "[D] Mobile-MCP: Letting LLMs autonomously discover Android app capabilities (no pre-coordination required)",
@@ -462,11 +462,11 @@
     "published": "2026-02-25 21:52:44+00:00"
   },
   {
-    "title": "[D] ACL ARR 2026 Jan. Reviewers have not acknowledged the rebuttal?",
-    "summary": "I got 4/3/2. The 3 and 2 reviews were mostly asking about why have not done some extra statistical tests. All reviews agreed that paper is novel and theory is good. We have given rebuttal reporting the statistical tests to prove why our results are reliable, but we have not got any acknowledgement f",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1reaubq/d_acl_arr_2026_jan_reviewers_have_not/",
+    "title": "PhD in particle theory transitioning to ML [R]",
+    "summary": "Hi everyone, I finished my PhD last year and I'm transitioning to industry and ML was the most interesting. I’m currently at a crossroads between two projects to build out my portfolio and would love some &quot;market&quot; perspective on which carries more weight for industry roles. Option 1: Mecha",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ret9y5/phd_in_particle_theory_transitioning_to_ml_r/",
     "source": "Reddit ML",
-    "published": "2026-02-25 11:35:04+00:00"
+    "published": "2026-02-25 23:13:05+00:00"
   },
   {
     "title": "[D] Is advantage learning dead or unexplored?",
@@ -474,13 +474,6 @@
     "url": "https://www.reddit.com/r/MachineLearning/comments/1renftg/d_is_advantage_learning_dead_or_unexplored/",
     "source": "Reddit ML",
     "published": "2026-02-25 19:37:16+00:00"
-  },
-  {
-    "title": "PhD in particle theory transitioning to ML [R]",
-    "summary": "Hi everyone, I finished my PhD last year and I'm transitioning to industry and ML was the most interesting. I’m currently at a crossroads between two projects to build out my portfolio and would love some &quot;market&quot; perspective on which carries more weight for industry roles. Option 1: Mecha",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1ret9y5/phd_in_particle_theory_transitioning_to_ml_r/",
-    "source": "Reddit ML",
-    "published": "2026-02-25 23:13:05+00:00"
   },
   {
     "title": "[Project] Sovereign Mohawk: Formally Verified Federated Learning at 10M-Node Scale (O(n log n) & Byzantine Tolerant)",
