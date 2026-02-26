@@ -103,15 +103,15 @@ emoji规则：🔴仅限2-3个最重磅事件，其余用🚀产品/🔬研究/�
 **格式限制**：钉钉Markdown，仅用#/**/>/-/[](url)，禁用表格/代码块/删除线/分割线
 
 **链接规则（必须严格遵守）**：
-- 每条新闻的标题本身就是超链接，格式：emoji [**标题**](来源推文URL)
-- 来源推文数据中每位作者都附带了完整URL（如 https://x.com/author/status/123456），直接使用
-- 如果来源有多个作者，标题链接使用engagement最高的那条URL
-- 专家视角中的@名也必须是超链接：[@专家名](https://x.com/专家名)："观点"
-- 速览中的每条也要带链接：• emoji [一句话摘要](URL)
-- 示例：🚀 [**OpenAI发布GPT-5**](https://x.com/OpenAI/status/123456)
-- 来源如果是科技媒体名称（TechCrunch、The Verge、VentureBeat 等），用 [媒体名](URL) 格式附原文链接，不用 @ 格式
-- Twitter 来源继续用 [@用户名](URL) 格式
-- 同一事件如果同时有 Twitter 和媒体来源，都列出来"""
+- 每条新闻的标题必须是超链接：emoji [**标题**](URL)
+- **优先使用媒体原文链接**：如果来源中有科技媒体（TechCrunch、The Verge、36氪、IT之家等非 x.com 的URL），标题链接必须优先使用该媒体原文URL
+- 仅当来源全部是 Twitter 时，才使用 x.com 链接
+- 每条新闻末尾标注所有来源，媒体用 [媒体名](URL)，Twitter 用 [@用户名](URL)
+- 示例（有媒体来源时）：🚀 [**OpenAI发布GPT-5**](https://techcrunch.com/2026/02/26/openai-gpt5)
+  来源：[TechCrunch](https://techcrunch.com/...) · [@OpenAI](https://x.com/OpenAI/status/123)
+- 示例（仅Twitter）：🚀 [**Karpathy谈编程奇点**](https://x.com/karpathy/status/456)
+- 速览中也优先媒体链接：• emoji [一句话摘要](媒体URL)
+- 专家视角中的@名必须带超链接：[@专家名](https://x.com/专家名)："观点\""""
 
     def generate_twitter_report(
         self,
