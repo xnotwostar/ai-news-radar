@@ -124,7 +124,14 @@ class EventBuilder:
         date_str: str,
     ) -> EventCard:
         """调用 LLM 生成单个事件卡片。"""
-        sorted_tweets = sorted(tweets, key=lambda t: t.tweet.engagement, reverse=True)[:5]
+        # Ensure RSS sources are always included (they have 0 engagement)
+        rss_tweets = [t for t in tweets if t.tweet.is_rss]
+        twitter_tweets = sorted(
+            [t for t in tweets if not t.tweet.is_rss],
+            key=lambda t: t.tweet.engagement, reverse=True,
+        )
+        # RSS first, then fill remaining slots with top Twitter by engagement
+        sorted_tweets = (rss_tweets + twitter_tweets)[:5]
 
         def _format_tweet(t: TweetEmbedded) -> str:
             time_str = t.tweet.created_at.strftime('%m-%d %H:%M UTC') if t.tweet.created_at else 'unknown'
@@ -163,6 +170,7 @@ class EventBuilder:
         content = resp.json()["choices"][0]["message"]["content"]
         parsed = json.loads(content)
 
+        # Put RSS sources first so report writer presents media URLs prominently
         sources = [
             EventSource(
                 author=t.tweet.author_name if t.tweet.is_rss else t.tweet.author_handle.lstrip("@"),
@@ -170,7 +178,7 @@ class EventBuilder:
                 engagement=t.tweet.engagement,
                 url=t.tweet.url,
             )
-            for t in sorted_tweets
+            for t in sorted(sorted_tweets, key=lambda t: (not t.tweet.is_rss, -t.tweet.engagement))
         ]
 
         category = EventCategory.OTHER

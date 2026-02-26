@@ -130,8 +130,13 @@ emoji规则：🔴仅限2-3个最重磅事件，其余用🚀产品/🔬研究/�
                     return f"{s.author} ({s.url})"
                 return f"@{s.author.lstrip('@')} ({s.url})" if s.url else f"@{s.author.lstrip('@')}"
 
+            # Sort RSS (non-x.com) sources first so LLM sees media URLs prominently
+            sorted_sources = sorted(
+                e.sources,
+                key=lambda s: (s.url.startswith("https://x.com/") if s.url else True),
+            )
             sources_str = ", ".join(
-                _fmt_source(s) for s in e.sources
+                _fmt_source(s) for s in sorted_sources
             ) if e.sources else "无"
             key_facts_str = "; ".join(e.key_facts) if e.key_facts else "无"
 
