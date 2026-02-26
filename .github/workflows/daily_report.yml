@@ -27,17 +27,8 @@ jobs:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
 
-      - name: Cache Playwright browsers
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright-${{ hashFiles('requirements.txt') }}
-
       - name: Install dependencies
         run: pip install -r requirements.txt
-
-      - name: Install Playwright browser
-        run: playwright install --with-deps chromium
 
       - name: Run pipeline (generate only, no push)
         timeout-minutes: 30

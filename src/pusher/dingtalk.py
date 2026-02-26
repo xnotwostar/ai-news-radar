@@ -1,4 +1,4 @@
-"""DingTalk Webhook pusher with message chunking."""
+"""DingTalk Webhook pusher — condensed news titles only."""
 
 from __future__ import annotations
 
@@ -12,16 +12,14 @@ from tenacity import retry, stop_after_attempt, wait_fixed
 
 logger = logging.getLogger(__name__)
 
-MAX_CHUNK_SIZE = 6000  # DingTalk markdown limit ~6000-8000 chars, use conservative
 RETRY_ATTEMPTS = 3
 RETRY_WAIT = 5  # seconds
 
 
 class DingTalkPusher:
-    """Push Markdown messages to DingTalk via Webhook, auto-chunking long messages.
+    """Push condensed news digest to DingTalk via Webhook.
 
-    Supports multiple webhooks via comma-separated URLs in a single env var, e.g.:
-        DINGTALK_GLOBAL_WEBHOOK=https://...token1,https://...token2
+    Supports multiple webhooks via comma-separated URLs in a single env var.
     """
 
     def __init__(self, webhook_url: str | None = None, webhook_env: str | None = None):
@@ -31,7 +29,6 @@ class DingTalkPusher:
             raw = os.environ[webhook_env]
         else:
             raise ValueError("Must provide webhook_url or webhook_env")
-        # Split on comma or newline, strip whitespace/newlines from each URL
         self.webhook_urls = [
             u.strip() for u in re.split(r'[,\n\r]+', raw) if u.strip()
         ]
@@ -41,120 +38,87 @@ class DingTalkPusher:
         title: str,
         markdown_text: str,
         report_url: str | None = None,
-        poster_url: str | None = None,
     ) -> bool:
-        """Push report to all configured webhooks.
-
-        If poster_url is provided, sends poster image first, then markdown content.
-        """
+        """Extract headlines from report and push condensed digest."""
+        digest = self._build_digest(title, markdown_text, report_url)
         success = True
         for idx, url in enumerate(self.webhook_urls):
             if idx > 0:
                 time.sleep(2)
-            ok = self._push_single_webhook(url, title, markdown_text, report_url, poster_url)
-            if not ok:
+            try:
+                self._send_markdown(url, title, digest)
+            except Exception as e:
+                logger.error("DingTalk push failed for webhook %d: %s", idx + 1, e)
                 success = False
         return success
 
-    def _push_single_webhook(
+    def _build_digest(
         self,
-        webhook_url: str,
         title: str,
         markdown_text: str,
         report_url: str | None,
-        poster_url: str | None = None,
-    ) -> bool:
-        """Push poster image (if available) then full markdown report."""
-        success = True
+    ) -> str:
+        """Build a condensed digest: title + headline list + report link."""
+        headlines = self._extract_headlines(markdown_text)
+        lines: list[str] = [f"## {title}", ""]
 
-        # Step 1: Send poster image
-        if poster_url:
-            try:
-                poster_md = f"![{title}]({poster_url})"
-                self._send_single(webhook_url, f"📰 {title}", poster_md)
-                time.sleep(2)
-            except Exception as e:
-                logger.error("Failed to push poster image: %s", e)
+        if headlines:
+            for hl in headlines:
+                lines.append(hl)
+            lines.append("")
+        else:
+            lines.append("暂无新闻条目")
+            lines.append("")
 
-        # Step 2: Send full markdown content
-        text = markdown_text
         if report_url:
-            text += f"\n\n---\n\n> [📖 查看完整网页版报告]({report_url})"
+            lines.append("---")
+            lines.append("")
+            lines.append(f"> [📖 查看完整报告]({report_url})")
 
-        chunks = self._split_chunks(text)
-        logger.info("Pushing '%s' in %d chunk(s) → %s...%s", title, len(chunks), webhook_url[:50], webhook_url[-8:])
-
-        for i, chunk in enumerate(chunks):
-            chunk_title = title if len(chunks) == 1 else f"{title} ({i+1}/{len(chunks)})"
-            try:
-                self._send_single(webhook_url, chunk_title, chunk)
-                if i < len(chunks) - 1:
-                    time.sleep(2)
-            except Exception as e:
-                logger.error("Failed to push chunk %d/%d: %s", i+1, len(chunks), e)
-                success = False
-
-        return success
-
-    def push_action_card(self, title: str, markdown_text: str, report_url: str) -> bool:
-        """Push actionCard to all configured webhooks."""
-        success = True
-        for idx, url in enumerate(self.webhook_urls):
-            if idx > 0:
-                time.sleep(2)
-            ok = self._push_action_card(url, title, markdown_text, report_url)
-            if not ok:
-                success = False
-        return success
-
-    def _push_action_card(self, webhook_url: str, title: str, markdown_text: str, report_url: str) -> bool:
-        """Push DingTalk actionCard with a button linking to the full HTML report."""
-        summary = self._extract_core_judgment(markdown_text)
-        event_count = len(re.findall(r'^[🔴🚀🔬💰🔧🤝🌐📜📊📌💡]\s*\*\*', markdown_text, re.MULTILINE))
-
-        card_text = f"## {title}\n\n{summary}\n\n📊 共 {event_count} 条事件"
-        payload = {
-            "msgtype": "actionCard",
-            "actionCard": {
-                "title": title,
-                "text": card_text,
-                "btnOrientation": "0",
-                "singleTitle": "阅读完整报告 →",
-                "singleURL": report_url,
-            },
-        }
-        try:
-            resp = httpx.post(webhook_url, json=payload, timeout=10)
-            resp.raise_for_status()
-            result = resp.json()
-            if result.get("errcode", 0) != 0:
-                raise RuntimeError(f"DingTalk API error: {result}")
-            logger.info("Sent actionCard '%s' → %s", title, report_url)
-            return True
-        except Exception as e:
-            logger.error("Failed to push actionCard: %s", e)
-            return False
+        return "\n".join(lines)
 
     @staticmethod
-    def _extract_core_judgment(markdown_text: str) -> str:
-        """Extract the core judgment section (first ~200 chars after 核心判断)."""
-        lines = markdown_text.split("\n")
-        capture = False
-        parts: list[str] = []
-        for line in lines:
-            if "核心判断" in line:
-                capture = True
+    def _extract_headlines(markdown_text: str) -> list[str]:
+        """Extract news headline lines from the report markdown.
+
+        Matches lines starting with emoji markers like:
+        🔴 **title** / 🚀 [**title**](url) / • 🔬 title
+        """
+        headlines: list[str] = []
+        # Match main event lines: emoji (optionally after •) followed by bold or link
+        event_pattern = re.compile(
+            r'^[•\s]*[🔴🚀🔬💰🔧🤝🌐📜📊📌💡🔥⚡]\s*'
+            r'(?:\[?\*\*.*?\*\*\]?)'
+        )
+        # Match speed-read bullet lines: • emoji one-liner
+        speed_pattern = re.compile(
+            r'^[•]\s*[🔴🚀🔬💰🔧🤝🌐📜📊📌💡🔥⚡]\s*.+'
+        )
+
+        in_speed_section = False
+        for line in markdown_text.split("\n"):
+            stripped = line.strip()
+
+            # Detect speed-read section
+            if "速览" in stripped:
+                in_speed_section = True
                 continue
-            if capture:
-                if line.strip().startswith("## ") or line.strip().startswith("# "):
-                    break
-                if line.strip():
-                    parts.append(line.strip())
-        text = " ".join(parts)
-        return text[:200] + "..." if len(text) > 200 else text
+            # Stop at next major section
+            if in_speed_section and stripped.startswith("## "):
+                in_speed_section = False
+
+            if in_speed_section and speed_pattern.match(stripped):
+                headlines.append(stripped)
+                continue
+
+            if event_pattern.match(stripped):
+                # Keep only the first line (title), strip analysis
+                headlines.append(stripped)
+
+        return headlines
 
     @retry(stop=stop_after_attempt(RETRY_ATTEMPTS), wait=wait_fixed(RETRY_WAIT))
-    def _send_single(self, webhook_url: str, title: str, text: str) -> None:
+    def _send_markdown(self, webhook_url: str, title: str, text: str) -> None:
         payload = {
             "msgtype": "markdown",
             "markdown": {
@@ -167,41 +131,4 @@ class DingTalkPusher:
         result = resp.json()
         if result.get("errcode", 0) != 0:
             raise RuntimeError(f"DingTalk API error: {result}")
-        logger.debug("Sent chunk '%s' successfully", title)
-
-    @staticmethod
-    def _split_chunks(text: str, max_size: int = MAX_CHUNK_SIZE) -> list[str]:
-        """Split markdown by sections (##) to stay under max_size."""
-        if len(text) <= max_size:
-            return [text]
-
-        sections = text.split("\n## ")
-        chunks: list[str] = []
-        current = ""
-
-        for i, section in enumerate(sections):
-            piece = section if i == 0 else f"## {section}"
-
-            if len(current) + len(piece) + 1 > max_size:
-                if current:
-                    chunks.append(current.strip())
-                current = piece
-            else:
-                current = f"{current}\n{piece}" if current else piece
-
-        if current.strip():
-            chunks.append(current.strip())
-
-        # Safety: if any chunk still too long, hard-split
-        final: list[str] = []
-        for chunk in chunks:
-            while len(chunk) > max_size:
-                split_at = chunk.rfind("\n", 0, max_size)
-                if split_at <= 0:
-                    split_at = max_size
-                final.append(chunk[:split_at])
-                chunk = chunk[split_at:].lstrip("\n")
-            if chunk:
-                final.append(chunk)
-
-        return final
+        logger.info("Sent digest '%s' → %s...%s", title, webhook_url[:50], webhook_url[-8:])

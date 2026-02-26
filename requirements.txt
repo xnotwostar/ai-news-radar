@@ -25,9 +25,6 @@ openpyxl>=3.1.0
 # RSS
 feedparser>=6.0
 
-# Poster generation
-playwright>=1.40.0
-
 # Utils
 tenacity>=8.2.0
 python-dotenv>=1.0.0

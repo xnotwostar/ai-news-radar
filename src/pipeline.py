@@ -41,7 +41,7 @@ from .collector import (
 )
 from .processor import Clusterer, Embedder, EventBuilder, Ranker
 from .generator import LLMClient, ReportWriter
-from .publisher import HtmlPublisher, PosterGenerator
+from .publisher import HtmlPublisher
 from .pusher import DingTalkPusher, ServerChanPusher
 
 logging.basicConfig(
@@ -195,7 +195,6 @@ def run_twitter_pipeline(
 
     # Step 7: Publish HTML for GitHub Pages
     report_url = None
-    poster_url = None
     pages_base = os.environ.get("PAGES_URL", "").rstrip("/")
     title_map = {"global_ai": "🌍 全球AI洞察", "china_ai": "🇨🇳 中文圈AI洞察"}
     try:
@@ -207,22 +206,11 @@ def run_twitter_pipeline(
     except Exception as e:
         logger.error("HTML publish failed for %s: %s", name, e)
 
-    # Step 7.5: Screenshot HTML report as poster image
-    try:
-        poster_gen = PosterGenerator()
-        poster_gen.generate(date_str, name)
-        if pages_base:
-            poster_url = f"{pages_base}/posters/{date_str}_{name}_poster.png"
-            logger.info("Poster URL: %s", poster_url)
-    except Exception as e:
-        logger.error("Poster generation failed for %s: %s", name, e)
-
     # Step 8: Push to DingTalk (skip if --no-push)
     if not os.environ.get("NO_PUSH"):
         try:
             pusher = DingTalkPusher(webhook_env=config.push.webhook_env)
-            pusher.push(title_map.get(name, name), report,
-                        report_url=report_url, poster_url=poster_url)
+            pusher.push(title_map.get(name, name), report, report_url=report_url)
         except Exception as e:
             logger.error("DingTalk push failed for %s: %s", name, e)
 
@@ -363,14 +351,13 @@ def push_only(date_str: str | None = None) -> None:
 
         report = report_path.read_text(encoding="utf-8")
         report_url = f"{pages_base}/reports/{date_str}_{name}.html" if pages_base else None
-        poster_url = f"{pages_base}/posters/{date_str}_{name}_poster.png" if pages_base else None
         title = title_map.get(name, name)
 
         logger.info("Pushing %s (%d chars), URL: %s", name, len(report), report_url)
 
         try:
             pusher = DingTalkPusher(webhook_env=config.push.webhook_env)
-            pusher.push(title, report, report_url=report_url, poster_url=poster_url)
+            pusher.push(title, report, report_url=report_url)
         except Exception as e:
             logger.error("DingTalk push failed for %s: %s", name, e)
 
