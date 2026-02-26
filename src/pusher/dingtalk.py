@@ -67,12 +67,12 @@ class DingTalkPusher:
             lines.append(f"> {judgment}")
             lines.append("")
 
-        # Top headlines (max 8)
+        # Top headlines (max 8), double newline between each for DingTalk rendering
         headlines = self._extract_headlines(markdown_text)
         if headlines:
             for hl in headlines[:8]:
                 lines.append(hl)
-            lines.append("")
+                lines.append("")
 
         # Expert insight (1-2 quotes)
         insights = self._extract_insights(markdown_text)
@@ -135,9 +135,20 @@ class DingTalkPusher:
 
     @staticmethod
     def _extract_insights(markdown_text: str) -> list[str]:
-        """Extract 1-2 expert quotes from insight or debate sections."""
+        """Extract 1-2 expert quotes from insight or debate sections.
+
+        Handles multiple LLM output formats:
+        - — [@expert](url)："quote"       (em-dash prefix)
+        - → @expert："quote"              (arrow prefix)
+        - @expert："quote"                (bare @mention)
+        - 代表观点：@expert："quote"       (inline label)
+        """
         insights: list[str] = []
         in_expert = False
+        # Pattern: line contains @someone followed by quoted text
+        quote_pattern = re.compile(
+            r'[@＠]\w+.*?[：:]["「"\'](.*?)["\」"\'」]'
+        )
         for line in markdown_text.split("\n"):
             stripped = line.strip()
             # Enter expert section
@@ -146,9 +157,24 @@ class DingTalkPusher:
                 continue
             if not in_expert:
                 continue
-            # Capture — quote lines (from any expert sub-section)
-            if stripped.startswith("—") or stripped.startswith("\u2014"):
-                insights.append(stripped)
+            # Stop if we hit a new top-level section (but not sub-sections)
+            if stripped.startswith("## ") and "专家" not in stripped:
+                break
+            # Capture quote lines in various formats
+            is_quote = (
+                stripped.startswith("—") or stripped.startswith("\u2014")  # em-dash
+                or stripped.startswith("–")  # en-dash
+                or stripped.startswith("→")  # arrow
+                or (stripped.startswith("@") or stripped.startswith("[@"))  # bare @mention
+            )
+            if is_quote and quote_pattern.search(stripped):
+                # Normalize to — prefix for consistent DingTalk display
+                normalized = stripped
+                if not (normalized.startswith("—") or normalized.startswith("\u2014")):
+                    # Strip leading markers (→, –, -, •, etc.)
+                    normalized = re.sub(r'^[→–\-•*\s]+', '', normalized).strip()
+                    normalized = f"— {normalized}"
+                insights.append(normalized)
                 if len(insights) >= 2:
                     break
         return insights
