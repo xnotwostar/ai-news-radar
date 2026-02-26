@@ -163,18 +163,79 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     border-bottom: 1px dotted var(--accent-blue);
   }}
   .event-analysis a:hover {{ border-bottom-style: solid; }}
-  .quick-list {{ list-style: none; }}
-  .quick-list li {{
-    padding: 10px 16px;
+  .event-sources {{
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+  }}
+  .event-sources-label {{
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-right: 2px;
+  }}
+  .source-tag {{
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }}
+  .source-tag.twitter {{
+    color: var(--accent-blue);
+    background: rgba(88,166,255,0.08);
+    border: 1px solid rgba(88,166,255,0.18);
+  }}
+  .source-tag.twitter:hover {{
+    background: rgba(88,166,255,0.18);
+    border-color: var(--accent-blue);
+  }}
+  .source-tag.rss {{
+    color: var(--accent-orange);
+    background: rgba(240,136,62,0.08);
+    border: 1px solid rgba(240,136,62,0.18);
+  }}
+  .source-tag.rss:hover {{
+    background: rgba(240,136,62,0.18);
+    border-color: var(--accent-orange);
+  }}
+  .quick-grid {{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }}
+  .quick-item {{
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 8px;
-    margin-bottom: 8px;
-    font-size: 14px;
+    padding: 10px 14px;
+    font-size: 13px;
     color: var(--text-secondary);
-    line-height: 1.6;
+    line-height: 1.5;
+    transition: border-color 0.2s;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
   }}
-  .quick-list li:hover {{ background: var(--bg-hover); }}
+  .quick-item:hover {{ border-color: rgba(88,166,255,0.3); }}
+  .quick-item .qi-emoji {{ font-size: 15px; flex-shrink: 0; margin-top: 1px; }}
+  .quick-item .qi-text {{ flex: 1; }}
+  .quick-item a {{ color: var(--text-secondary); text-decoration: none; }}
+  .quick-item a:hover {{ color: var(--accent-blue); }}
+  .quick-item .qi-source {{
+    display: inline-block;
+    font-size: 10px;
+    color: var(--text-muted);
+    background: rgba(88,166,255,0.06);
+    border: 1px solid rgba(88,166,255,0.12);
+    border-radius: 8px;
+    padding: 1px 6px;
+    margin-left: 4px;
+  }}
   .expert-subtitle {{
     font-size: 14px;
     font-weight: 600;
@@ -246,7 +307,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     color: var(--text-muted);
     padding-left: 12px;
     border-left: 2px solid var(--accent-purple);
-    margin-top: 6px;
+    margin-top: 8px;
     line-height: 1.6;
   }}
   .debate-quote a {{ color: var(--accent-purple); text-decoration: none; }}
@@ -294,8 +355,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   }}
   .tech-feedback-item {{
     font-size: 14px;
-    line-height: 1.7;
-    padding: 4px 0;
+    line-height: 1.8;
+    padding: 3px 0;
   }}
   .tech-feedback-item.positive {{ color: var(--accent-green); }}
   .tech-feedback-item.negative {{ color: var(--accent-orange); }}
@@ -357,6 +418,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     .header h1 {{ font-size: 1.4rem; }}
     .container {{ padding: 16px 12px 40px; }}
     .event-card {{ padding: 14px 16px; }}
+    .quick-grid {{ grid-template-columns: 1fr; }}
   }}
   ::-webkit-scrollbar {{ width: 6px; }}
   ::-webkit-scrollbar-track {{ background: var(--bg-primary); }}
@@ -394,6 +456,23 @@ _EMOJI_TAG_MAP = {
 
 # Section emojis that start event cards
 _EVENT_EMOJIS = set(_EMOJI_TAG_MAP.keys())
+
+# Domain → friendly media name mapping for source tags
+_DOMAIN_NAMES = {
+    "techcrunch.com": "TechCrunch",
+    "theverge.com": "The Verge",
+    "venturebeat.com": "VentureBeat",
+    "arstechnica.com": "Ars Technica",
+    "wired.com": "Wired",
+    "cnet.com": "CNET",
+    "inceptionlabs.ai": "Inception Labs",
+    "marktechpost.com": "MarkTechPost",
+    "kdnuggets.com": "KDnuggets",
+    "openai.com": "OpenAI Blog",
+    "deepmind.google": "Google DeepMind",
+    "huggingface.co": "Hugging Face",
+    "developer.nvidia.com": "NVIDIA Blog",
+}
 
 
 def _html_escape(text: str) -> str:
@@ -473,6 +552,69 @@ class HtmlPublisher:
         "情绪": "sentiment",
     }
 
+    @staticmethod
+    def _extract_link_sources(md_line: str) -> list[tuple[str, str, str]]:
+        """Extract (type, name, url) from markdown links in a line."""
+        sources = []
+        for m in re.finditer(r'\[([^\]]+)\]\(([^)]+)\)', md_line):
+            url = m.group(2)
+            if 'x.com/' in url:
+                user_m = re.match(r'https?://x\.com/(\w+)', url)
+                if user_m:
+                    sources.append(('twitter', f'@{user_m.group(1)}', url))
+            else:
+                domain_m = re.match(r'https?://(?:www\.)?([^/]+)', url)
+                if domain_m:
+                    domain = domain_m.group(1)
+                    name = _DOMAIN_NAMES.get(domain, domain)
+                    sources.append(('rss', name, url))
+        return sources
+
+    @staticmethod
+    def _format_quick_item(text: str) -> str:
+        """Format a quick section item as a grid item with emoji and source tag."""
+        emoji = ""
+        rest = text
+        # Extract leading emoji
+        emoji_m = re.match(
+            r'^([\U0001F300-\U0001FAFF\u2600-\u27BF\u2702-\u27B0\u231A-\u2B55]+)\s*',
+            rest,
+        )
+        if emoji_m:
+            emoji = emoji_m.group(1)
+            rest = rest[emoji_m.end():]
+
+        # Extract source from URL in [text](url) pattern
+        source_html = ""
+        link_m = re.search(r'\[([^\]]+)\]\(([^)]+)\)', rest)
+        if link_m:
+            url = link_m.group(2)
+            if 'x.com/' in url:
+                user_m = re.match(r'https?://x\.com/(\w+)', url)
+                if user_m:
+                    source_html = (
+                        f'<span class="qi-source">'
+                        f'@{_html_escape(user_m.group(1))}</span>'
+                    )
+            else:
+                domain_m = re.match(r'https?://(?:www\.)?([^/]+)', url)
+                if domain_m:
+                    domain = domain_m.group(1)
+                    name = _DOMAIN_NAMES.get(domain, domain)
+                    source_html = (
+                        f'<span class="qi-source">'
+                        f'{_html_escape(name)}</span>'
+                    )
+
+        safe = _inline_markup(_html_escape(rest))
+        emoji_html = f'<span class="qi-emoji">{emoji}</span>' if emoji else ''
+        return (
+            f'<div class="quick-item">'
+            f'{emoji_html}'
+            f'<span class="qi-text">{safe}{source_html}</span>'
+            f'</div>'
+        )
+
     def _markdown_to_html(self, md_text: str) -> str:
         """Parse markdown report line-by-line into styled HTML sections."""
         lines = md_text.split("\n")
@@ -481,11 +623,12 @@ class HtmlPublisher:
 
         # State tracking
         in_event_card = False
-        in_quick_list = False
+        in_quick_grid = False
         in_expert_section = False
         in_trending = False
         in_core_judgment = False
         after_quote = False
+        card_sources: list[tuple[str, str, str]] = []
 
         # Expert sub-state
         expert_sub: str | None = None       # "debate" | "insight" | "tech" | "sentiment"
@@ -497,14 +640,34 @@ class HtmlPublisher:
         def _close_event_card():
             nonlocal in_event_card
             if in_event_card:
+                # Emit source tags at card bottom
+                if card_sources:
+                    seen: set[str] = set()
+                    tags: list[str] = []
+                    for src_type, src_name, src_url in card_sources:
+                        key = src_name.lower()
+                        if key in seen:
+                            continue
+                        seen.add(key)
+                        tag_class = "twitter" if src_type == "twitter" else "rss"
+                        tags.append(
+                            f'<a class="source-tag {tag_class}" href="{src_url}">'
+                            f'{_html_escape(src_name)}</a>'
+                        )
+                    if tags:
+                        out.append('<div class="event-sources">')
+                        out.append('<span class="event-sources-label">\U0001f4cc 来源</span>')
+                        out.append("".join(tags))
+                        out.append("</div>")
                 out.append("</div>")
                 in_event_card = False
+                card_sources.clear()
 
-        def _close_quick_list():
-            nonlocal in_quick_list
-            if in_quick_list:
-                out.append("</ul>")
-                in_quick_list = False
+        def _close_quick_grid():
+            nonlocal in_quick_grid
+            if in_quick_grid:
+                out.append("</div>")
+                in_quick_grid = False
 
         def _close_core_judgment():
             nonlocal in_core_judgment
@@ -572,7 +735,7 @@ class HtmlPublisher:
             # --- horizontal rule ---
             if stripped == "---":
                 _close_event_card()
-                _close_quick_list()
+                _close_quick_grid()
                 _close_core_judgment()
                 if in_expert_section:
                     # Sub-block separator within expert section
@@ -588,7 +751,7 @@ class HtmlPublisher:
             # --- ## heading ---
             if stripped.startswith("## "):
                 _close_event_card()
-                _close_quick_list()
+                _close_quick_grid()
                 _close_core_judgment()
                 if in_expert_section:
                     _close_expert_block()
@@ -612,7 +775,7 @@ class HtmlPublisher:
             # --- # heading (top-level, skip) ---
             if stripped.startswith("# ") and not stripped.startswith("## "):
                 _close_event_card()
-                _close_quick_list()
+                _close_quick_grid()
                 _close_core_judgment()
                 i += 1
                 continue
@@ -620,7 +783,7 @@ class HtmlPublisher:
             # --- core judgment ---
             if "核心判断" in stripped and not in_core_judgment:
                 _close_event_card()
-                _close_quick_list()
+                _close_quick_grid()
                 if not stripped.startswith("#"):
                     safe = _inline_markup(_html_escape(stripped))
                     out.append(f'<div class="section-title">{safe}</div>')
@@ -747,6 +910,8 @@ class HtmlPublisher:
                 content = stripped[2:].strip()
                 safe = _inline_markup(_html_escape(content))
                 out.append(f'<div class="event-highlight">{safe}</div>')
+                if in_event_card:
+                    card_sources.extend(self._extract_link_sources(stripped))
                 after_quote = True
                 i += 1
                 continue
@@ -754,19 +919,15 @@ class HtmlPublisher:
             # --- list items (- or •) ---
             if stripped.startswith("- ") or stripped.startswith("• "):
                 item_text = stripped[2:].strip()
-                safe = _inline_markup(_html_escape(item_text))
+                is_quick_context = in_quick_grid or "速览" in "".join(out[-10:])
 
-                if in_quick_list or "速览" in "".join(out[-10:]):
-                    if not in_quick_list:
-                        in_quick_list = True
-                        out.append('<ul class="quick-list">')
-                    out.append(f"<li>{safe}</li>")
-                elif in_trending:
-                    if not in_quick_list:
-                        in_quick_list = True
-                        out.append('<ul class="quick-list">')
-                    out.append(f"<li>{safe}</li>")
+                if is_quick_context or in_trending:
+                    if not in_quick_grid:
+                        in_quick_grid = True
+                        out.append('<div class="quick-grid">')
+                    out.append(self._format_quick_item(item_text))
                 else:
+                    safe = _inline_markup(_html_escape(item_text))
                     out.append(f'<div class="event-analysis">{safe}</div>')
                 i += 1
                 continue
@@ -775,7 +936,7 @@ class HtmlPublisher:
             first_char = stripped[0] if stripped else ""
             if first_char in _EVENT_EMOJIS:
                 _close_event_card()
-                _close_quick_list()
+                _close_quick_grid()
 
                 is_critical = first_char == "\U0001f534"
                 card_class = "critical" if is_critical else "normal"
@@ -785,6 +946,7 @@ class HtmlPublisher:
 
                 safe_title = _inline_markup(_html_escape(stripped))
                 in_event_card = True
+                card_sources.extend(self._extract_link_sources(stripped))
                 out.append(f'<div class="event-card {card_class}">')
                 out.append(f'<span class="tag {tag_class}">{_html_escape(tag_label)}</span>')
                 out.append(f'<div class="event-title">{safe_title}</div>')
@@ -795,6 +957,7 @@ class HtmlPublisher:
             if after_quote and in_event_card:
                 safe = _inline_markup(_html_escape(stripped))
                 out.append(f'<div class="event-analysis">{safe}</div>')
+                card_sources.extend(self._extract_link_sources(stripped))
                 after_quote = False
                 i += 1
                 continue
@@ -803,13 +966,14 @@ class HtmlPublisher:
             safe = _inline_markup(_html_escape(stripped))
             if in_event_card:
                 out.append(f'<div class="event-analysis">{safe}</div>')
+                card_sources.extend(self._extract_link_sources(stripped))
             else:
                 out.append(f"<p>{safe}</p>")
             i += 1
 
         # Close any open containers
         _close_event_card()
-        _close_quick_list()
+        _close_quick_grid()
         _close_core_judgment()
         if in_expert_section:
             _close_expert_block()
