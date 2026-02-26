@@ -1,5 +1,26 @@
 [
   {
+    "title": "Jest, a marketplace for messaging games, is challenging the app store status quo",
+    "summary": "Jest, a marketplace for messaging games, emerged from stealth with $7 million in seed funding.",
+    "url": "https://techcrunch.com/2026/02/26/jest-a-marketplace-for-messaging-games-is-challenging-the-app-store-status-quo/",
+    "source": "TechCrunch",
+    "published": "2026-02-26 14:00:00+00:00"
+  },
+  {
+    "title": "Figma partners with OpenAI to bake in support for Codex",
+    "summary": "Figma is integrating OpenAI's coding assistant Codex a week after it announced a similar integration with Anthropic's Claude Code.",
+    "url": "https://techcrunch.com/2026/02/26/figma-partners-with-openai-to-bake-in-support-for-codex/",
+    "source": "TechCrunch",
+    "published": "2026-02-26 14:00:00+00:00"
+  },
+  {
+    "title": "Trace raises $3M to solve the AI agent adoption problem in enterprise",
+    "summary": "Trace is launching with $3 million in seed funding, including investment from Y Combinator, Zeno Ventures, Transpose Platform Management, Goodwater Capital, Formosa Capital, and WeFunder.",
+    "url": "https://techcrunch.com/2026/02/26/trace-raises-3-million-to-solve-the-agent-adoption-problem/",
+    "source": "TechCrunch",
+    "published": "2026-02-26 14:00:00+00:00"
+  },
+  {
     "title": "Salesforce CEO Marc Benioff: This isn’t our first SaaSpocalypse",
     "summary": "Salesforce reported a solid year-end earnings and then pulled out all the stops to ward off more talk of the death of its business to AI.",
     "url": "https://techcrunch.com/2026/02/25/salesforce-ceo-marc-benioff-this-isnt-our-first-saaspocalypse/",
@@ -75,27 +96,6 @@
     "url": "https://techcrunch.com/2026/02/25/wearable-startup-cudis-launches-a-new-health-ring-line-with-an-ai-fueled-coach/",
     "source": "TechCrunch",
     "published": "2026-02-25 19:10:04+00:00"
-  },
-  {
-    "title": "The public opposition to AI infrastructure is heating up",
-    "summary": "Public backlash over the data center boom is leading to a variety of draconian policies — including bans on new construction.",
-    "url": "https://techcrunch.com/2026/02/25/the-public-opposition-to-ai-infrastructure-is-heating-up/",
-    "source": "TechCrunch",
-    "published": "2026-02-25 19:03:34+00:00"
-  },
-  {
-    "title": "Waymo to begin testing in Chicago and Charlotte",
-    "summary": "Waymo this week will begin mapping and collecting data in Chicago and Charlotte. The move comes as Waymo announces it is currently operating its robotaxis fully autonomously in 10 US cities.",
-    "url": "https://techcrunch.com/2026/02/25/waymo-to-begin-testing-in-chicago-and-charlotte/",
-    "source": "TechCrunch",
-    "published": "2026-02-25 18:33:52+00:00"
-  },
-  {
-    "title": "Gemini can now automate some multi-step tasks on Android",
-    "summary": "Gemini on Android will be able to automate tasks involving rideshare requests, or grocery or food delivery, says Google.",
-    "url": "https://techcrunch.com/2026/02/25/gemini-can-now-automate-some-multi-step-tasks-on-android/",
-    "source": "TechCrunch",
-    "published": "2026-02-25 18:00:00+00:00"
   },
   {
     "title": "Burger King will use AI to check if employees say ‘please’ and ‘thank you’",
@@ -357,6 +357,13 @@
     "published": "2026-02-26 00:28:41+00:00"
   },
   {
+    "title": "Model Collapse Ends AI Hype",
+    "summary": "Comments",
+    "url": "https://youtu.be/ShusuVq32hc",
+    "source": "Lobsters AI",
+    "published": "2026-02-26 13:58:53+00:00"
+  },
+  {
     "title": "Small Models Can Introspect, Too",
     "summary": "Comments",
     "url": "https://vgel.me/posts/qwen-introspection/",
@@ -467,12 +474,5 @@
     "url": "https://www.reddit.com/r/MachineLearning/comments/1renftg/d_is_advantage_learning_dead_or_unexplored/",
     "source": "Reddit ML",
     "published": "2026-02-25 19:37:16+00:00"
-  },
-  {
-    "title": "[Project] Sovereign Mohawk: Formally Verified Federated Learning at 10M-Node Scale (O(n log n) & Byzantine Tolerant)",
-    "summary": "I wanted to share a project I’ve been building called Sovereign Mohawk. It’s a Go-based runtime (using Wasmtime) designed to solve the scaling and trust issues in edge-heavy federated learning. Most FL setups hit a wall at a few thousand nodes due to $O(dn)$ communication overhead and vulnerability ",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1redvts/project_sovereign_mohawk_formally_verified/",
-    "source": "Reddit ML",
-    "published": "2026-02-25 13:56:41+00:00"
   }
 ]

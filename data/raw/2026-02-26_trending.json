@@ -16,8 +16,8 @@
     "published_at": null
   },
   {
-    "title": "中国AI调用量首次超过美国",
-    "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BDAI%E8%B0%83%E7%94%A8%E9%87%8F%E9%A6%96%E6%AC%A1%E8%B6%85%E8%BF%87%E7%BE%8E%E5%9B%BD",
+    "title": "机器人加快走进百姓生活",
+    "url": "https://www.baidu.com/s?wd=%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8A%A0%E5%BF%AB%E8%B5%B0%E8%BF%9B%E7%99%BE%E5%A7%93%E7%94%9F%E6%B4%BB",
     "platform": "baidu",
     "rank": 0,
     "hot_value": null,
@@ -32,6 +32,14 @@
     "published_at": null
   },
   {
+    "title": "中国AI调用量首次超过美国",
+    "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BDAI%E8%B0%83%E7%94%A8%E9%87%8F%E9%A6%96%E6%AC%A1%E8%B6%85%E8%BF%87%E7%BE%8E%E5%9B%BD",
+    "platform": "baidu",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": null
+  },
+  {
     "title": "德总理看机器人拳击目不转睛连连点头",
     "url": "https://www.toutiao.com/trending/7610648386551382057/",
     "platform": "toutiao",
@@ -40,12 +48,20 @@
     "published_at": null
   },
   {
+    "title": "百度：AI云2025年营收300亿元",
+    "url": "https://www.36kr.com/newsflashes/3700162025893763",
+    "platform": "36kr",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": "2026-02-26 13:20:03.424000+00:00"
+  },
+  {
     "title": "迪拜航空航天将以70亿美元收购航空租赁公司Macquarie AirFinance",
     "url": "https://www.36kr.com/newsflashes/3700126437633920",
     "platform": "36kr",
     "rank": 0,
     "hot_value": null,
-    "published_at": "2026-02-26 12:52:57.954000+00:00"
+    "published_at": "2026-02-26 12:53:03.424000+00:00"
   },
   {
     "title": "湖南：加快数字化升级改造，深入实施“人工智能+”“智赋万企”行动",
@@ -53,7 +69,7 @@
     "platform": "36kr",
     "rank": 0,
     "hot_value": null,
-    "published_at": "2026-02-26 12:15:57.954000+00:00"
+    "published_at": "2026-02-26 12:46:03.424000+00:00"
   },
   {
     "title": "中国AI调用量首超美国，四款大模型霸榜全球前五",
@@ -61,15 +77,15 @@
     "platform": "36kr",
     "rank": 0,
     "hot_value": null,
-    "published_at": "2026-02-26 12:15:57.954000+00:00"
+    "published_at": "2026-02-26 12:46:03.424000+00:00"
   },
   {
-    "title": "前魅族高管杨颜携AI宠物“Aimon”回归",
-    "url": "https://www.36kr.com/newsflashes/3700077587804033",
-    "platform": "36kr",
+    "title": "汉堡王在员工耳机中部署 AI 系统，可检测员工是否说了“请”“谢谢”",
+    "url": "https://www.ithome.com/0/924/015.htm",
+    "platform": "ithome",
     "rank": 0,
     "hot_value": null,
-    "published_at": "2026-02-26 12:15:57.954000+00:00"
+    "published_at": null
   },
   {
     "title": "赛力斯康波：AITO 问界在阿联酋斩获 200 台首批订单，实现中东市场开门红",
@@ -112,35 +128,27 @@
     "published_at": null
   },
   {
-    "title": "策略师汤姆·李支持黄仁勋：AI惨案与加密货币抛售即将结束",
-    "url": "https://wallstreetcn.com/livenews/3059584",
+    "title": "博通向富士通交付新型AI芯片，计划扩大推广范围",
+    "url": "https://wallstreetcn.com/livenews/3059624",
     "platform": "wallstreetcn",
     "rank": 0,
     "hot_value": null,
-    "published_at": "2026-02-26 12:54:08+00:00"
+    "published_at": "2026-02-26 14:01:05+00:00"
   },
   {
-    "title": "立讯新一代人工智能终端项目在苏州开工",
-    "url": "https://wallstreetcn.com/livenews/3059582",
+    "title": "周鸿祎：分不清AI和人工内容，说明AGI已经在稳步实现",
+    "url": "https://wallstreetcn.com/livenews/3059621",
     "platform": "wallstreetcn",
     "rank": 0,
     "hot_value": null,
-    "published_at": "2026-02-26 12:52:06+00:00"
+    "published_at": "2026-02-26 13:59:08+00:00"
   },
   {
-    "title": "机器人租赁热度升温，日租价降至千元",
-    "url": "https://wallstreetcn.com/livenews/3059575",
+    "title": "百度AI云2025年营收300亿元",
+    "url": "https://wallstreetcn.com/livenews/3059595",
     "platform": "wallstreetcn",
     "rank": 0,
     "hot_value": null,
-    "published_at": "2026-02-26 12:37:13+00:00"
-  },
-  {
-    "title": "湖南：加快数字化升级改造 深入实施“人工智能+”“智赋万企”行动",
-    "url": "https://wallstreetcn.com/livenews/3059550",
-    "platform": "wallstreetcn",
-    "rank": 0,
-    "hot_value": null,
-    "published_at": "2026-02-26 11:45:16+00:00"
+    "published_at": "2026-02-26 13:10:34+00:00"
   }
 ]
