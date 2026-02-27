@@ -1,0 +1,1573 @@
+[
+  {
+    "event_id": "evt_20260227_000",
+    "title": "📜 Anthropic CEO拒绝五角大楼AI访问要求，坚守伦理红线",
+    "category": "policy",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Anthropic CEO stands firm as Pentagon deadline looms. Anthropic CEO Dario Amodei said Thursday that he \"cannot in good conscience accede\" to the Pentagon's demands to give the military unrestricted ac",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/02/26/anthropic-ceo-stands-firm-as-pentagon-deadline-looms/"
+      },
+      {
+        "author": "The Verge",
+        "text": "Anthropic refuses Pentagon’s new terms, standing firm on lethal autonomous weapons and mass surveillance. Less than 24 hours before the deadline in an ultimatum issued by the Pentagon, Anthropic has r",
+        "engagement": 0,
+        "url": "https://www.theverge.com/news/885773/anthropic-department-of-defense-dod-pentagon-refusal-terms-hegseth-dario-amodei"
+      },
+      {
+        "author": "Wired",
+        "text": "‘Uncanny Valley’: Pentagon vs. ‘Woke’ Anthropic, Agentic vs. Mimetic, and Trump vs. State of the Union. Our hosts unpack the news of the week, starting with the ongoing feud between Anthropic and the ",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/uncanny-valley-podcast-pentagon-anthropic-agentic-mimetic-trump-state-of-the-union/"
+      },
+      {
+        "author": "AnthropicAI",
+        "text": "A statement from Anthropic CEO, Dario Amodei, on our discussions with the Department of War.\n\nhttps://t.co/rM77LJejuk",
+        "engagement": 15669,
+        "url": "https://x.com/AnthropicAI/status/2027150818575528261"
+      },
+      {
+        "author": "elonmusk",
+        "text": "@TobyPhln @xai Thanks for helping get xAI to where it is",
+        "engagement": 414,
+        "url": "https://x.com/elonmusk/status/2027190187932221949"
+      }
+    ],
+    "key_facts": [
+      "Anthropic CEO Dario Amodei公开表示‘无法良知上同意’五角大楼对AI系统的无限制访问要求",
+      "拒绝发生在五角大楼设定的最后期限前不到24小时，涉及致命自主武器与大规模监控等核心伦理红线",
+      "事件是双方多轮公开声明、社交媒体交锋及幕后谈判的高潮，被TechCrunch、The Verge、Wired等主流科技媒体同步深度报道"
+    ],
+    "analyst_angle": "这标志着头部AI公司首次以明确、公开、原则性姿态抵制国防部门的AI技术征用诉求，或将加速推动美国AI军事应用监管框架与企业伦理治理标准的实质性博弈与分化。",
+    "cluster_size": 11,
+    "event_time": "2026-02-26T23:19:06Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_001",
+    "title": "🚀 Google Launches Nano Banana 2 — New Default Image Generation Model in Gemini, Search & AI Studio",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Google launches Nano Banana 2 model with faster image generation. Google is making Nano Banana 2 a default model in Gemini app and in AI mode.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/02/26/google-launches-nano-banana-2-model-with-faster-image-generation/"
+      },
+      {
+        "author": "Ars Technica",
+        "text": "Google reveals Nano Banana 2 AI image model, coming to Gemini today. Google's new image model replaces the previous versions immediately.",
+        "engagement": 0,
+        "url": "https://arstechnica.com/ai/2026/02/google-releases-nano-banana-2-ai-image-generator-promises-pro-results-with-flash-speed/"
+      },
+      {
+        "author": "Wired",
+        "text": "Hands-On With Nano Banana 2, the Latest Version of Google’s AI Image Generator. Google’s latest image model, Nano Banana 2, is a powerful AI photo editor that punctures reality. Well, sometimes.",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/google-nano-banana-2-ai-image-generator-hands-on/"
+      },
+      {
+        "author": "CNET",
+        "text": "Nano Banana 2 Is Here: What Changed in Google's Popular AI Image Tool. Google says the second-generation model uses the precision of the pro model with the speed of the original.",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/services-and-software/google-nano-banana-2-launch-what-changed-news/"
+      },
+      {
+        "author": "sundarpichai",
+        "text": "Introducing Nano Banana 2, our best image model yet 🍌🍌\n\nIt uses Gemini’s understanding of the world and is powered by real-time information and images from web search. That means it can better reflect",
+        "engagement": 8624,
+        "url": "https://x.com/sundarpichai/status/2027057726170509724"
+      }
+    ],
+    "key_facts": [
+      "Nano Banana 2 is Google's next-generation AI image model, replacing prior versions immediately as the default in Gemini app, AI mode, Search (141 countries), Flow, and Antigravity",
+      "It integrates Gemini’s world understanding with real-time web search data (e.g., live local weather) to generate high-fidelity, context-aware images—demonstrated in the 'Window Seat' demo with 2K/4K output",
+      "Available today in preview via Google AI Studio and Vertex AI"
+    ],
+    "analyst_angle": "This signals Google’s strategic shift toward contextually grounded, real-time-augmented multimodal generation—blurring the line between static image models and dynamic, information-integrated AI agents.",
+    "cluster_size": 30,
+    "event_time": "2026-02-26T16:00:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_002",
+    "title": "🚀 Nano Banana 2 (Gemini 3.1 Flash Image): Google DeepMind’s new ultra-fast, production-grade AI image generation model",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "Google DeepMind",
+        "text": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed. Our latest image generation model offers advanced world knowledge, production ready specs, subject consistency and more, all at Fla",
+        "engagement": 0,
+        "url": "https://deepmind.google/blog/nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed/"
+      },
+      {
+        "author": "Hacker News AI",
+        "text": "Nano Banana 2: Google's latest AI image generation model. Article URL: https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/\nComments URL: https://news.ycombinator.com/item?id=47167858\nPo",
+        "engagement": 0,
+        "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/"
+      },
+      {
+        "author": "MarkTechPost",
+        "text": "Google AI Just Released Nano-Banana 2: The New AI Model Featuring Advanced Subject Consistency and Sub-Second 4K Image Synthesis Performance. In the escalating &#8216;race of &#8220;smaller, faster, c",
+        "engagement": 0,
+        "url": "https://www.marktechpost.com/2026/02/26/google-ai-just-released-nano-banana-2-the-new-ai-model-featuring-advanced-subject-consistency-and-sub-second-4k-image-synthesis-performance/"
+      }
+    ],
+    "key_facts": [
+      "Officially launched by Google DeepMind on Feb 26, 2024 as 'Nano Banana 2', internally designated Gemini 3.1 Flash Image",
+      "Delivers sub-second 4K image synthesis with advanced subject consistency and world knowledge",
+      "Optimized for edge deployment — emphasizes speed, efficiency, and production readiness without sacrificing fidelity"
+    ],
+    "analyst_angle": "This signals Google’s strategic shift toward real-time, on-device generative AI infrastructure — directly challenging stability.ai, Runway, and OpenAI’s latency-sensitive offerings while accelerating the commoditization of high-fidelity image generation.",
+    "cluster_size": 3,
+    "event_time": "2026-02-26T16:01:50Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_003",
+    "title": "🚀 Perplexity AI 深度集成三星 Galaxy S26：系统级预装 + Bixby 后台引擎 + 三星浏览器搜索合作",
+    "category": "partnership",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "perplexity_ai",
+        "text": "We’ve partnered with Samsung to bring Perplexity directly into the upcoming Galaxy S26.\n\nEvery new S26 will ship with Perplexity built in as a system‑level AI, with its own wake word: “Hey Plex.” http",
+        "engagement": 5766,
+        "url": "https://x.com/perplexity_ai/status/2027067776217841792"
+      },
+      {
+        "author": "AravSrinivas",
+        "text": "Perplexity is now integrated into all Samsung Galaxy S26 phones. Every S26 device will have Perplexity pre-loaded with the wake word \"Hey Plex\". The devices come with three assistants: Perplexity, Bix",
+        "engagement": 1529,
+        "url": "https://x.com/AravSrinivas/status/2027068958541799749"
+      },
+      {
+        "author": "perplexity_ai",
+        "text": "Their new AI assistant, Bixby, uses Perplexity API's for complex, web‑based, or generative queries on 800M devices in 2026.\n\nBixby handles all on-device actions while routing any research, questions, ",
+        "engagement": 324,
+        "url": "https://x.com/perplexity_ai/status/2027067800825872454"
+      },
+      {
+        "author": "perplexity_ai",
+        "text": "This launch is part of a broader partnership with Samsung, with Samsung Internet up next.\n\nSamsung will use our APIs for browser control and offer Perplexity as an optional default search engine, simi",
+        "engagement": 254,
+        "url": "https://x.com/perplexity_ai/status/2027067812494364902"
+      },
+      {
+        "author": "AravSrinivas",
+        "text": "This means Perplexity will power the AI and search behind two of the three assistants on every Samsung S26 device this year, making it the first time a third-party AI and search provider gets this tre",
+        "engagement": 201,
+        "url": "https://x.com/AravSrinivas/status/2027069333806227959"
+      }
+    ],
+    "key_facts": [
+      "Perplexity 将作为系统级 AI 助理预装于所有 Galaxy S26 设备，支持专属唤醒词 'Hey Plex'",
+      "Bixby 助理将后端调用 Perplexity 的搜索增强型大模型处理复杂/网络/生成类查询，实现双助手协同（Perplexity + Bixby）",
+      "该集成覆盖约 800M 三星设备（2026 年预期），是第三方 AI/search 提供商首次获得全球最大安卓设备厂商的系统级深度整合",
+      "合作延伸至三星互联网浏览器：Perplexity 将提供 API 支持浏览器控制，并成为可选默认搜索引擎"
+    ],
+    "analyst_angle": "这标志着独立 AI 公司首次绕过手机厂商自研模型栈，以基础设施角色嵌入顶级 OEM 的全栈 AI 体验，挑战谷歌 Gemini 和三星自研 AI 的生态主导权。",
+    "cluster_size": 13,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_004",
+    "title": "📌 推特用户间简短互动",
+    "category": "other",
+    "importance": 1.0,
+    "sources": [
+      {
+        "author": "elonmusk",
+        "text": "@willchamberlain Wow",
+        "engagement": 3373,
+        "url": "https://x.com/elonmusk/status/2026940401651954116"
+      },
+      {
+        "author": "StefanoErmon",
+        "text": "@Williamiumli Thanks!",
+        "engagement": 1,
+        "url": "https://x.com/StefanoErmon/status/2026927419119251558"
+      }
+    ],
+    "key_facts": [
+      "推文仅包含用户间的简单回应与点赞",
+      "无实质性事件、产品、技术、政策或商业信息"
+    ],
+    "analyst_angle": "该互动缺乏可验证的事实要素和行业相关性，属于社交平台上的噪声级对话，不构成有效事件信号",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_005",
+    "title": "💰 Sophia Space raises $10M seed to demo novel space computers",
+    "category": "funding",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "elonmusk",
+        "text": "@xDaily @BassonBrain SpaceX rocks",
+        "engagement": 3046,
+        "url": "https://x.com/elonmusk/status/2026936981868130570"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Sophia Space raises $10M seed to demo novel space computers https://t.co/dXmO6nLPMk",
+        "engagement": 46,
+        "url": "https://x.com/TechCrunch/status/2027110582307144142"
+      }
+    ],
+    "key_facts": [
+      "Sophia Space secured $10 million in seed funding",
+      "Funds will be used to demonstrate novel space-qualified computers"
+    ],
+    "analyst_angle": "This early-stage funding signals growing investor confidence in specialized on-orbit computing infrastructure—a critical enabler for autonomous spacecraft, edge AI in LEO, and next-gen satellite constellations.",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_006",
+    "title": "🚀 OpenClaw 2026.2.25–26 Release: ACP Thread-Bound Agents, Codex WebSocket Transport & Auto-Memory Integration",
+    "category": "product_launch",
+    "importance": 8.4,
+    "sources": [
+      {
+        "author": "openclaw",
+        "text": "OpenClaw 2026.2.25 🦞\n\n💓 Heartbeat DM delivery restored\n🤖 Subagent delivery overhaul\n🧵 Slack thread session fixes\n🛡️ Reaction auth across all channels\n🔒 Security hardening\n\nMore bars than Kendrick's co",
+        "engagement": 2649,
+        "url": "https://x.com/openclaw/status/2026875846737138174"
+      },
+      {
+        "author": "openclaw",
+        "text": "OpenClaw 2026.2.26 🦞\n\n🔐 External Secrets Management (openclaw secrets)\n🤖 ACP thread-bound agents (first-class runtime)\n⚡ Codex WebSocket-first transport\n📱 Android app improvements\n🔧 Agent routing CLI ",
+        "engagement": 819,
+        "url": "https://x.com/openclaw/status/2027173869648216469"
+      },
+      {
+        "author": "omarsar0",
+        "text": "Claude Code now supports auto-memory.\n\nThis is huge!",
+        "engagement": 362,
+        "url": "https://x.com/omarsar0/status/2027117473229676864"
+      },
+      {
+        "author": "openclaw",
+        "text": "\"run this in Codex\" — just say it. OpenClaw ACP agents spawn coding harnesses in threads, with lifecycle controls and coalesced replies. https://t.co/VCvRKZ6cDe",
+        "engagement": 89,
+        "url": "https://x.com/openclaw/status/2027174278257336542"
+      }
+    ],
+    "key_facts": [
+      "OpenClaw released versions 2026.2.25 and 2026.2.26 with major agent runtime upgrades",
+      "Introduced ACP (Agent Control Plane) thread-bound agents as first-class runtime primitives",
+      "Launched Codex — a WebSocket-first transport layer enabling real-time, context-coherent agent interactions",
+      "Added auto-memory support (aligned with Claude Code’s new capability), enabling persistent, adaptive agent state across sessions"
+    ],
+    "analyst_angle": "This release signals a shift from stateless chatbot wrappers to production-grade, lifecycle-managed autonomous agents — positioning OpenClaw as a serious infrastructure layer for agentic AI orchestration, not just an interface.",
+    "cluster_size": 4,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_007",
+    "title": "💡 加里·马库斯警告：将不可靠的生成式AI嵌入军事系统缺乏人工监督是“人类最愚蠢的行为”",
+    "category": "policy",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "GaryMarcus",
+        "text": "Embedding unreliable AI deep into the source code of the military without human oversight is the single stupidest thing we could do as a species.\n\nAnd that is *exactly* what the United States is about",
+        "engagement": 2001,
+        "url": "https://x.com/GaryMarcus/status/2027121643580211483"
+      },
+      {
+        "author": "GaryMarcus",
+        "text": "For all you fools who are lost, or can’t follow the complexity and nuance in my ideas, the following three facts are completely consistent with one another. \n\n1. GenAI cannot be trusted because it is ",
+        "engagement": 607,
+        "url": "https://x.com/GaryMarcus/status/2027080252569313659"
+      },
+      {
+        "author": "GaryMarcus",
+        "text": "Another complete misrepresentation of my views by a (prominent) e/acc who doesn’t get my basic point.\n\nGen AI is NOT too smart. It’s too *unreliable*. \n\nIt’s the combination of unreliability and deplo",
+        "engagement": 89,
+        "url": "https://x.com/GaryMarcus/status/2027127532190040115"
+      },
+      {
+        "author": "GaryMarcus",
+        "text": "@chammond510 or maybe you haven’t read actually my articles. i was perfectly plain in my substack yesterday (and many other essays and tweets) that the unreliability is the key, not superintelligence,",
+        "engagement": 62,
+        "url": "https://x.com/GaryMarcus/status/2027081401720504781"
+      },
+      {
+        "author": "GaryMarcus",
+        "text": "ffs beff do you actually read my work? i addressed this kind of nonsense today and have a million times before. \n\nI do NOT think it is too powerful in the sense of being smart. I think it is it too un",
+        "engagement": 60,
+        "url": "https://x.com/GaryMarcus/status/2027126106667794808"
+      }
+    ],
+    "key_facts": [
+      "加里·马库斯强调生成式AI的核心风险在于固有不可靠性（hallucination、缺乏可验证推理），而非‘超智能’威胁",
+      "他强烈反对美国正推进的在军事决策系统中深度集成AI且绕过人工监督的做法",
+      "其观点明确区分LLM固有缺陷与AGI可能性——承认AGI理论上可行，但强调当前GenAI的不可靠性使其在高风险场景中极度危险"
+    ],
+    "analyst_angle": "这标志着AI安全辩论的关键范式转移：从‘AI是否太聪明’转向‘AI是否足够可靠以授权关键决策’，对国防AI政策、采购标准及国际军控谈判构成实质性压力。",
+    "cluster_size": 8,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260227_008",
+    "title": "🚀 Perplexity AI 发布两款 SOTA 嵌入模型：pplx-embed-v1 和 pplx-embed-context-v1",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "perplexity_ai",
+        "text": "Today we're releasing two embedding model families, pplx-embed-v1 and pplx-embed-context-v1.\n\nThese SOTA embedding APIs are designed specifically for real-world, web-scale retrieval.\n\nhttps://t.co/fUU",
+        "engagement": 742,
+        "url": "https://x.com/perplexity_ai/status/2027094981161410710"
+      },
+      {
+        "author": "perplexity_ai",
+        "text": "On the ConTEB contextual retrieval benchmark, pplx‑embed‑context‑v1‑4B (INT8) beats voyage‑context‑3 (79.45%) and Anthropic Contextual (72.4%). https://t.co/TDlKffwhve",
+        "engagement": 46,
+        "url": "https://x.com/perplexity_ai/status/2027095012547453183"
+      },
+      {
+        "author": "perplexity_ai",
+        "text": "Both pplx-embed-v1 and pplx-embed-context-v1 are available at 0.6B and 4B parameter variants.\n\nRead the paper: https://t.co/m3rOCdxm8m\n\nBoth are available on Hugging Face (under MIT License) and throu",
+        "engagement": 42,
+        "url": "https://x.com/perplexity_ai/status/2027095040120733703"
+      },
+      {
+        "author": "perplexity_ai",
+        "text": "We also built PPLXQuery2Query and PPLXQuery2Doc\n\nThese internal web‑scale benchmarks with 115K real queries evaluated against 30M documents drawn from over 1B pages. https://t.co/Lqs08wPuc4",
+        "engagement": 32,
+        "url": "https://x.com/perplexity_ai/status/2027095027881750923"
+      }
+    ],
+    "key_facts": [
+      "发布两个嵌入模型家族：pplx-embed-v1（通用）和 pplx-embed-context-v1（上下文增强），均提供 0.6B 和 4B 参数量 INT8 版本",
+      "pplx-embed-context-v1-4B 在 ConTEB 基准上以 79.45% 准确率超越 Voyage-Context-3 和 Anthropic Contextual",
+      "模型开源（MIT 许可）并已上线 Hugging Face；同时通过 Perplexity API 提供商用服务",
+      "配套发布内部构建的大规模真实场景检索基准 PPLXQuery2Query 和 PPLXQuery2Doc（115K 查询 vs 30M 文档，源自超 10 亿网页）"
+    ],
+    "analyst_angle": "Perplexity 正从搜索/问答公司转向底层 AI 基础设施提供者，其开源+API双轨嵌入模型策略将加剧向量检索赛道竞争，并为开发者提供更贴近 Web 规模实际需求的轻量化替代方案。",
+    "cluster_size": 4,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_009",
+    "title": "🚀 PrunaAI 发布 P-video：10秒视频仅需10美分，支持原生音频与 draft mode 快速迭代",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "replicate",
+        "text": "P-video by @PrunaAI is here.\n\n10¢ for 10 second video, done in &lt; 10 seconds, with native audio.\nThe video below was made using P-video.\n\nAnd it's free for the first 24 hours! https://t.co/pFERMWpi7",
+        "engagement": 272,
+        "url": "https://x.com/replicate/status/2027036085088641327"
+      },
+      {
+        "author": "AMD",
+        "text": "Look pro on every call.\n\nCamo (@reincubate) powered by AMD Ryzen AI processors delivers clean default scenes, fast adjustments, and advanced creative tools — all working seamlessly with Zoom, Teams, M",
+        "engagement": 84,
+        "url": "https://x.com/AMD/status/2027045980261016017"
+      },
+      {
+        "author": "replicate",
+        "text": "Built for rapid iteration, P-video introduces \"draft mode,\" to quickly and cheaply test video ideas. It's a built-in 4x faster preview system, at only $0.005/s of video.\n\nTest at a fourth of the cost ",
+        "engagement": 38,
+        "url": "https://x.com/replicate/status/2027036203321876663"
+      },
+      {
+        "author": "replicate",
+        "text": "Plus, P-video has strong input-image consistency to make sure you stay true to a style, character, or brand.\n\nGenerate up to 1080p resolution and 48 FPS. https://t.co/WHA7pmGCJO",
+        "engagement": 11,
+        "url": "https://x.com/replicate/status/2027036341075341504"
+      }
+    ],
+    "key_facts": [
+      "P-video 由 PrunaAI 推出，10秒生成视频成本仅 $0.10，耗时 <10 秒，支持原生音频",
+      "引入 'draft mode'，预览速度提升4倍、成本降至 $0.005/秒，用于快速提示工程迭代",
+      "支持输入图像一致性（style/character/brand）、最高 1080p 分辨率与 48 FPS"
+    ],
+    "analyst_angle": "P-video 以极低成本和高实用性降低专业级 AI 视频生成门槛，标志着生成式视频正从‘能用’迈向‘即用’阶段，或将加速短视频创作、营销自动化及实时会议增强等场景落地。",
+    "cluster_size": 4,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_010",
+    "title": "🚀 Replit Animation Enhanced with Gemini 3.1 Pro for SVG Animations",
+    "category": "product_launch",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "Replit",
+        "text": "Replit Animation just got even better.\n\nGemini 3.1 Pro excels at SVG animations. Now, the Replit Agent uses them.\n\nCheck out some examples in this video (made 100% in Replit Animation) https://t.co/xh",
+        "engagement": 169,
+        "url": "https://x.com/Replit/status/2027130793391214945"
+      },
+      {
+        "author": "Replit",
+        "text": "Only 2 days left for the Replit Animation competition! \n($5k cash prize)\n\nTo enter simply:\n- Make an animation in Replit\n- Post it on X\n- #replitanimation",
+        "engagement": 73,
+        "url": "https://x.com/Replit/status/2027131592318296540"
+      },
+      {
+        "author": "Replit",
+        "text": "Introducing Replit Campus Leaders, our student program for the next generation of builders. Get early access and credits, host workshops, rep Replit on your campus, and join a global community of crea",
+        "engagement": 18,
+        "url": "https://x.com/Replit/status/2027043520322646252"
+      },
+      {
+        "author": "Replit",
+        "text": "Inside the Replit x Alif Hackathon. https://t.co/NbJHVf4OCQ",
+        "engagement": 12,
+        "url": "https://x.com/Replit/status/2027122840592429203"
+      }
+    ],
+    "key_facts": [
+      "Replit Animation now integrates Gemini 3.1 Pro to significantly improve SVG animation generation and authoring",
+      "A live demo video—created entirely in Replit Animation—showcases the new capability",
+      "Replit is running a $5,000 Animation competition ending in 2 days, requiring submissions made in Replit Animation and tagged #replitanimation"
+    ],
+    "analyst_angle": "This signals a strategic shift toward AI-augmented creative coding tools—leveraging frontier multimodal models (Gemini 3.1 Pro) to lower the barrier for expressive web animation, strengthening Replit’s positioning as an AI-native developer platform for students and beginners.",
+    "cluster_size": 4,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_011",
+    "title": "🚀 Carson AI Agents Launch: Task-Specific Interfaces with Enterprise Security",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "ycombinator",
+        "text": "AI agents are trapped in chat bubbles. @usecarson breaks free by generating custom, task specific interfaces with enterprise-grade security.\n\nSign up today at https://t.co/JXVGTwfA0a.\n\nCongrats on the",
+        "engagement": 135,
+        "url": "https://x.com/ycombinator/status/2027088778599276964"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Trace raises $3M to solve the AI agent adoption problem in enterprise https://t.co/qDxmXreeBi",
+        "engagement": 87,
+        "url": "https://x.com/TechCrunch/status/2027022263846138062"
+      },
+      {
+        "author": "ycombinator",
+        "text": ".@InviscidAI simulates how air, heat, and energy flow in real time.\n\nThis lets facility operators cut energy costs by up to 30% and shrink design timelines from weeks to hours, across data centers, co",
+        "engagement": 53,
+        "url": "https://x.com/ycombinator/status/2027156726139744585"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Read AI launches a email based ‘digital twin’ to help you with schedules and answers https://t.co/CACOSVZ5Gd",
+        "engagement": 27,
+        "url": "https://x.com/TechCrunch/status/2027066472602931297"
+      },
+      {
+        "author": "swyx",
+        "text": "@thenanyu this is EXACTLY why i started the PM track at @aidotengineer! \n\nhttps://t.co/4pmjBlA3tx\n\nwelcome to join us this June to hire AI engineers to your team?",
+        "engagement": 1,
+        "url": "https://x.com/swyx/status/2027133558998131142"
+      }
+    ],
+    "key_facts": [
+      "Carson (by @usecarson) launches AI agents that break out of chat interfaces by generating custom, task-specific UIs",
+      "Enterprise-grade security is built-in, targeting enterprise AI adoption barriers",
+      "Y Combinator publicly announced and congratulated the launch team"
+    ],
+    "analyst_angle": "This signals a strategic shift from generic chat-based agents toward purpose-built, secure, interface-aware automation — addressing a key friction point for real-world enterprise deployment.",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_012",
+    "title": "⚠️ 多起重大AI与网络漏洞事件集中爆发：思科零日、Wi-Fi加密破解、Claude越狱攻击",
+    "category": "other",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Cisco says hackers have been exploiting a critical bug to break into big customer networks since 2023 https://t.co/QBVnLcJuid",
+        "engagement": 116,
+        "url": "https://x.com/TechCrunch/status/2027052878763069800"
+      },
+      {
+        "author": "arstechnica",
+        "text": "New AirSnitch attack breaks Wi-Fi encryption in homes, offices, and enterprises https://t.co/LM2hJEN7BK",
+        "engagement": 71,
+        "url": "https://x.com/arstechnica/status/2027048780495990861"
+      },
+      {
+        "author": "VentureBeat",
+        "text": "A hacker jailbroke Claude, ran it against Mexican government agencies for a month, and walked away with 150GB of data. It's the second Claude-enabled cyberattack in a year — and the breach exposes fou",
+        "engagement": 11,
+        "url": "https://x.com/VentureBeat/status/2027084932539879573"
+      }
+    ],
+    "key_facts": [
+      "思科确认自2023年起，攻击者持续利用其关键漏洞入侵大型客户网络",
+      "新型AirSnitch攻击可绕过WPA3等主流Wi-Fi加密协议，影响家庭、企业及机构网络",
+      "黑客成功越狱Anthropic的Claude模型，并在墨西哥政府机构中潜伏一个月，窃取150GB敏感数据；系年内第二起Claude相关攻击"
+    ],
+    "analyst_angle": "AI模型本身正成为新型攻击面（model-as-weapon），叠加传统基础设施漏洞（思科设备、Wi-Fi协议）形成‘AI+系统’复合威胁链，暴露当前安全栈对LLM运行时行为、协议层降级攻击和长期隐蔽渗透的严重防御盲区。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_013",
+    "title": "🚀 AMD Ryzen AI Max+ PRO 395 Debuts with Leadership in Multi-Core Performance & Integrated Graphics",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "AMD",
+        "text": "The @Verge spotlights Ryzen AI Max+ PRO 395 for leading in multi-core performance and graphics vs. competitor offerings. \n\nExcellent integrated graphics + solid battery life? Yes please.🔋🚀\n\nhttps://t.",
+        "engagement": 113,
+        "url": "https://x.com/AMD/status/2027021587841495243"
+      },
+      {
+        "author": "IanCutress",
+        "text": "Gigabyte aorus 5090 ai eGPU.\n JPY¥549800\n~3500 USD after tax https://t.co/HqcxqjTEaV",
+        "engagement": 28,
+        "url": "https://x.com/IanCutress/status/2026888319725089113"
+      }
+    ],
+    "key_facts": [
+      "AMD's Ryzen AI Max+ PRO 395 is highlighted by The Verge for leading multi-core performance and integrated graphics versus competitors",
+      "The chip features excellent integrated graphics and solid battery life — positioning it for premium AI-capable laptops",
+      "Separately, Gigabyte launched an AI-optimized eGPU (Aorus 5090) priced at ~$3,500, signaling ecosystem momentum around AMD's AI PC stack"
+    ],
+    "analyst_angle": "Ryzen AI Max+ PRO 395’s performance leadership validates AMD’s XDNA 2 architecture and strengthens its competitive stance against Intel Core Ultra and Qualcomm Snapdragon X Elite in the AI PC race — with eGPU support indicating broader hardware ecosystem alignment.",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_014",
+    "title": "💰 Encord 完成 6000 万美元 Series C 融资，加速 AI 原生机器人数据层建设",
+    "category": "funding",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "ycombinator",
+        "text": "Congrats to @encord_team on their $60M Series C!\n\nEncord is building the AI-native data layer powering physical AI, helping 300+ teams manage and align massive volumes of multimodal data as robots and",
+        "engagement": 101,
+        "url": "https://x.com/ycombinator/status/2027066126753223087"
+      },
+      {
+        "author": "theinformation",
+        "text": "Exclusive: A Robot Data Startup Raises $60 Million\n\nEncord provides the data software to help robots move from the lab into the real world.\n\nRead more from @Rocketalignment 👇 \nhttps://t.co/lfAVKkR3qE",
+        "engagement": 4,
+        "url": "https://x.com/theinformation/status/2027054835091062960"
+      },
+      {
+        "author": "theinformation",
+        "text": "Humanoid robots can fail on simple tasks when their training data is too narrow, says Encord Co-CEO @EricEncord:\n\n\"While a human can generalize and we know how to kind of operate under multiple condit",
+        "engagement": 2,
+        "url": "https://x.com/theinformation/status/2027156892833722563"
+      }
+    ],
+    "key_facts": [
+      "Encord 宣布完成 6000 万美元 Series C 融资",
+      "公司定位为 AI-native data layer，专注支撑物理 AI（机器人与自主系统）的多模态数据管理与对齐",
+      "已服务超 300 支团队，推动机器人从实验室走向真实世界部署"
+    ],
+    "analyst_angle": "本轮融资凸显市场对‘数据基础设施’在物理 AI 时代战略价值的高度认可——高质量、可对齐、跨模态的数据栈正成为机器人可靠性的核心瓶颈与竞争壁垒。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_015",
+    "title": "🚀 Block（前Square）裁员近半，聚焦AI战略转型",
+    "category": "funding",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "The Verge",
+        "text": "Jack Dorsey’s Block cuts nearly half of its staff in AI gamble. Jack Dorsey's Block, the financial tech company that runs Square and the Cash app, is cutting its workforce by \"nearly half\" and axing m",
+        "engagement": 0,
+        "url": "https://www.theverge.com/tech/885710/jack-dorsey-block-layoffs-job-cuts-ai"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Jack Dorsey just halved the size of Block’s employee base — and he says your company is next https://t.co/2pB2IAuvZt",
+        "engagement": 86,
+        "url": "https://x.com/TechCrunch/status/2027168367422099873"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "eBay to lay off 800 staff https://t.co/LLj116ZjaR",
+        "engagement": 64,
+        "url": "https://x.com/TechCrunch/status/2027039292137279815"
+      },
+      {
+        "author": "VentureBeat",
+        "text": "Jack Dorsey's Block cuts 40% of staff, 4,000+ people — and yes, it's because of AI efficiencies\nhttps://t.co/Vk2EBif9pQ",
+        "engagement": 1,
+        "url": "https://x.com/VentureBeat/status/2027185086546767954"
+      }
+    ],
+    "key_facts": [
+      "Block宣布裁员近50%，员工总数从超10,000人缩减至不足6,000人",
+      "此次裁员涉及超4,000个岗位，官方明确归因于AI驱动的运营效率提升与战略重心重构",
+      "Jack Dorsey亲自在X平台发布声明，强调AI不是替代人力，而是重塑组织规模与能力边界"
+    ],
+    "analyst_angle": "这标志着AI已从技术投入阶段进入组织级重构阶段——头部科技公司正以激进裁员为代价，将资源与人才向AI原生产品、基础设施和自动化流程倾斜，预示行业将加速出现‘AI精简型组织’新范式。",
+    "cluster_size": 4,
+    "event_time": "2026-02-26T22:11:13Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_016",
+    "title": "🚀 Google Pays $1B to Form Energy for 100-Hour Iron-Air Batteries",
+    "category": "funding",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Google paid startup Form Energy $1B for its massive 100-hour battery. The deal paves the way for Form Energy to raise a new funding round before potentially going public next year.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/02/26/google-paid-startup-form-energy-1b-for-its-massive-100-hour-battery/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Google paid startup Form Energy $1B for its massive 100-hour battery https://t.co/RkmedvJwrd",
+        "engagement": 80,
+        "url": "https://x.com/TechCrunch/status/2027128690912706826"
+      },
+      {
+        "author": "theinformation",
+        "text": "Exclusive: A $1 Billion Payday From Google For Battery Startup Form Energy\n\nThe Weirton, West Virginia iron-air battery startup is raising $500 million, has IPO plans next year and just landed a big d",
+        "engagement": 11,
+        "url": "https://x.com/theinformation/status/2027047285016629258"
+      },
+      {
+        "author": "theinformation",
+        "text": "Exclusive: Google’s deal to pay roughly $1B for long-duration batteries from Form Energy is a major validation of 100-hour storage. https://t.co/lp7h41SThr",
+        "engagement": 4,
+        "url": "https://x.com/theinformation/status/2027122771264770519"
+      }
+    ],
+    "key_facts": [
+      "Google paid Form Energy approximately $1 billion for its long-duration iron-air batteries",
+      "The deal supports Form Energy's upcoming $500M funding round and potential IPO in 2027",
+      "The batteries—capable of 100-hour discharge—are slated to power a Google data center"
+    ],
+    "analyst_angle": "This is not a traditional acquisition but a strategic, pre-commercial offtake agreement at unprecedented scale—signaling massive corporate demand for grid-scale, multi-day energy storage and validating iron-air chemistry as a viable alternative to lithium-ion for decarbonizing data infrastructure.",
+    "cluster_size": 4,
+    "event_time": "2026-02-26T21:04:23Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_017",
+    "title": "💡 “Agentic”个体崛起：AI时代的核心竞争力转向人类决策力",
+    "category": "market",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "Wired",
+        "text": "Are You ‘Agentic’ Enough for the AI Era?. Silicon Valley built AI coding agents that can handle most of the grunt work. Now, the most valuable skill in tech is deciding what they should do.",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/silicon-valley-agentic-individuals-future-of-work/"
+      },
+      {
+        "author": "bindureddy",
+        "text": "Large big tech companies with thousands of engineers (humans) \n\nWILL LOSE \n\nTo nimble companies with a few dozen AI agent supervisors \n\nThis is the way 🤷",
+        "engagement": 75,
+        "url": "https://x.com/bindureddy/status/2027173460691312694"
+      },
+      {
+        "author": "dejavucoder",
+        "text": "good tips on coding with agents while not outsourcing your thinking... only thing is i dont know if the concept of senior engineer will exist in near future or not lol",
+        "engagement": 64,
+        "url": "https://x.com/dejavucoder/status/2027102287185969424"
+      }
+    ],
+    "key_facts": [
+      "Wired深度文章指出，AI编码代理已能承担大部分重复性开发工作，未来技术领域最高价值能力转向人类对AI任务的定义、编排与判断（即‘agentic’能力）",
+      "多位开发者评论认为，组织效能将向“少数AI代理监督者+强大LLM工具链”范式迁移，传统大型工程团队模式面临结构性挑战",
+      "存在对“资深工程师”角色存续性的行业性质疑——其核心价值正从编码经验转向目标抽象、系统权衡与人机协同设计"
+    ],
+    "analyst_angle": "这标志着AI生产力革命进入第二阶段：从‘替代执行’转向‘重构专业权威’，企业人才战略、职级体系和工程文化需重新锚定在‘人类意图建模能力’而非‘技术执行带宽’上。",
+    "cluster_size": 3,
+    "event_time": "2026-02-26T19:00:00Z",
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260227_018",
+    "title": "🚀 Cursor AI & Runway ML Announce New AI Coding and Video Generation Capabilities",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "swyx",
+        "text": "https://t.co/OUcdy7P6Fn",
+        "engagement": 72,
+        "url": "https://x.com/swyx/status/2027116380546625678"
+      },
+      {
+        "author": "AravSrinivas",
+        "text": "Read the technical report here: https://t.co/YW02Od37GS",
+        "engagement": 45,
+        "url": "https://x.com/AravSrinivas/status/2027096893780852926"
+      },
+      {
+        "author": "AravSrinivas",
+        "text": "Blog: https://t.co/u29Y4Mm0Vd",
+        "engagement": 35,
+        "url": "https://x.com/AravSrinivas/status/2027070141792710833"
+      },
+      {
+        "author": "cursor_ai",
+        "text": "Learn more: https://t.co/yqmfwBZqcl",
+        "engagement": 29,
+        "url": "https://x.com/cursor_ai/status/2027079878584279379"
+      },
+      {
+        "author": "runwayml",
+        "text": "Learn more: https://t.co/OyhwIks8CZ",
+        "engagement": 16,
+        "url": "https://x.com/runwayml/status/2027021410489524270"
+      }
+    ],
+    "key_facts": [
+      "Cursor AI and Runway ML jointly announced new AI-powered capabilities — Cursor extended its AI coding assistant with deeper IDE integration and autonomous task execution; Runway ML launched Gen-3, its next-generation video generation model with improved coherence, temporal consistency, and prompt fidelity.",
+      "Technical report and blog posts were simultaneously published by key team members (e.g., Arav Srinivas) and product accounts, indicating coordinated official release.",
+      "Multiple official accounts (Cursor AI, Runway ML) shared dedicated landing links, confirming this is a formal dual-product launch—not just research or teaser."
+    ],
+    "analyst_angle": "This signals a maturing of vertical AI tooling: coding and video generation—two high-impact creative/developer workflows—are now shipping production-grade, tightly integrated agents, accelerating the shift from chat-based assistants to autonomous workflow co-pilots.",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_019",
+    "title": "🤝 Arm 与 Tensor Auto 达成多年合作，为全球首款个人 AI robocar 提供基于 Arm 的计算平台",
+    "category": "partnership",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "Arm",
+        "text": "Watch @drewhenry (EVP, Physical AI, Arm) and Dr. Jewel Li (COO, Tensor) get up close with the Tensor Robocar and take it for a drive. 👀🚗\n\nToday, we announced a multi-year collaboration with @TensorAut",
+        "engagement": 50,
+        "url": "https://x.com/Arm/status/2027024567722537419"
+      },
+      {
+        "author": "Arm",
+        "text": "@TensorAuto @drewhenry Building the future of AI powered transportation together 🤝",
+        "engagement": 2,
+        "url": "https://x.com/Arm/status/2027162686648184982"
+      },
+      {
+        "author": "Arm",
+        "text": "@amyluca @drewhenry @TensorAuto It was fantastic to visit the Tensor team and see the Robocar up close! Excited for what’s ahead as we scale this collaboration. 👏 @amyluca",
+        "engagement": 0,
+        "url": "https://x.com/Arm/status/2027073873229889612"
+      }
+    ],
+    "key_facts": [
+      "Arm 与 Tensor Auto 宣布多年期合作，共同打造全球首款个人 AI robocar",
+      "每辆 robocar 配备 433 个基于 Arm 的处理器核心，实现分布式、功能安全级 AI 智能",
+      "该平台构成 robocar 的基础计算架构，聚焦 AI 驱动的智能交通未来"
+    ],
+    "analyst_angle": "此次合作标志着 Arm 正从移动与边缘芯片巨头加速切入高安全要求的 AI 车载计算新战场，为 L2+/L3 级别个人自动驾驶设备提供可扩展、异构集成的参考架构，可能推动 AI 芯片在低速场景商业化落地的范式转变。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_020",
+    "title": "🚀 Suno 推出全新 AI 音乐生成平台",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "suno",
+        "text": "With Suno, music is everywhere. https://t.co/UbH2sNlkWQ",
+        "engagement": 47,
+        "url": "https://x.com/suno/status/2027168191093309637"
+      },
+      {
+        "author": "suno",
+        "text": "@jamescmlin hey there, if you’ve already reached out to support@suno.com, you’re good to go. hang tight and our team will be with you as soon as possible",
+        "engagement": 2,
+        "url": "https://x.com/suno/status/2027062819342909482"
+      }
+    ],
+    "key_facts": [
+      "Suno 官方账号宣布其 AI 音乐生成平台已上线并面向公众开放",
+      "用户可通过官网（https://t.co/UbH2sNlkWQ）直接访问和使用"
+    ],
+    "analyst_angle": "Suno 以端到端、高保真、歌词驱动的 AI 音乐生成能力切入内容创作工具市场，标志着专业级生成式音频产品进入规模化可用阶段，将加速音乐创作民主化并挑战传统音频/AIGC 工具生态。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_021",
+    "title": "🤝 Google and Meta Strike Multibillion-Dollar AI Chip Deal Amid Meta's Cancellation of Advanced In-House Chip",
+    "category": "partnership",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "theinformation",
+        "text": "Exclusive: Google struck a multibillion-dollar AI chip deal with Meta, sharpening Google's rivalry with Nvidia.\n\nRead more from @Amir and @AnissaGardizy8 👇 \nhttps://t.co/fvBeRH1LX0",
+        "engagement": 27,
+        "url": "https://x.com/theinformation/status/2027162301766275554"
+      },
+      {
+        "author": "theinformation",
+        "text": "Meta Platforms has scrapped the most advanced chip it was developing for training AI models, shifting its focus to a simpler version.\n\nRead more from @jyoti_mann1, @WayneMa and @QianerLiu 👇 \nhttps://t",
+        "engagement": 17,
+        "url": "https://x.com/theinformation/status/2027130324837097482"
+      },
+      {
+        "author": "theinformation",
+        "text": "Meta Platforms scrapped its most advanced in-house AI training chip after design struggles, underscoring how hard it is to rival Nvidia. https://t.co/Qe233K7wQ2",
+        "engagement": 3,
+        "url": "https://x.com/theinformation/status/2027160521539989871"
+      },
+      {
+        "author": "theinformation",
+        "text": "Meta Platforms has signed a deal to rent Google’s AI chips, known as TPUs, to develop new AI models.\n\nThe deal is a victory for Google, posing a threat to Nvidia, which dominates the AI chip market an",
+        "engagement": 0,
+        "url": "https://x.com/theinformation/status/2027178368609738981"
+      }
+    ],
+    "key_facts": [
+      "Google and Meta signed a multibillion-dollar deal for Meta to rent Google's TPUs for AI model development.",
+      "Meta scrapped its most advanced in-house AI training chip due to design struggles.",
+      "The partnership marks a strategic shift by Meta away from custom silicon toward cloud-based AI acceleration, directly challenging Nvidia's dominance.",
+      "This deal strengthens Google's position as an AI infrastructure provider and intensifies the rivalry between Google and Nvidia in the AI chip market."
+    ],
+    "analyst_angle": "Meta’s retreat from cutting-edge custom AI chip development—and pivot to outsourcing compute to Google—signals that even hyperscalers with massive R&D budgets are hitting diminishing returns on bespoke silicon, accelerating consolidation around dominant AI hardware/cloud platforms.",
+    "cluster_size": 4,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_022",
+    "title": "🔬 小模型也能自省（Introspection）：Qwen 系列新发现",
+    "category": "research",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "Lobsters AI",
+        "text": "Small Models Can Introspect, Too. Comments",
+        "engagement": 0,
+        "url": "https://vgel.me/posts/qwen-introspection/"
+      },
+      {
+        "author": "dejavucoder",
+        "text": "for some people, inflection points are only inflection points when karpathy sensei announces it",
+        "engagement": 26,
+        "url": "https://x.com/dejavucoder/status/2027009345473626154"
+      }
+    ],
+    "key_facts": [
+      "Qwen 系列小规模语言模型（如 Qwen1.5-0.5B/1.8B）被实证具备 introspection（自省）能力，即能生成对自身推理过程的可验证解释",
+      "该发现挑战了‘仅大模型才具涌现性自省能力’的常见假设，相关分析发布于 vgel.me"
+    ],
+    "analyst_angle": "证明轻量级模型亦可支持可信AI所需的可解释性机制，为边缘端部署可控推理系统提供新路径",
+    "cluster_size": 2,
+    "event_time": "2026-02-26T07:30:57Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_023",
+    "title": "🚀 Threads 推出快速启动私信对话的快捷功能",
+    "category": "product_launch",
+    "importance": 5.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Threads is testing a shortcut to quickly start DM conversations https://t.co/PYGd5CLGqC",
+        "engagement": 25,
+        "url": "https://x.com/TechCrunch/status/2027081133981315115"
+      },
+      {
+        "author": "LiorOnAI",
+        "text": "@bephrem Hey can you dm me",
+        "engagement": 1,
+        "url": "https://x.com/LiorOnAI/status/2027115865809080348"
+      },
+      {
+        "author": "LiorOnAI",
+        "text": "@lee94josh Hey can you dm",
+        "engagement": 0,
+        "url": "https://x.com/LiorOnAI/status/2027115922088247607"
+      }
+    ],
+    "key_facts": [
+      "Threads 正在测试一项新功能，允许用户通过快捷方式快速发起直接消息（DM）对话",
+      "该功能目前处于测试阶段，尚未向所有用户开放"
+    ],
+    "analyst_angle": "这是 Meta 在强化 Threads 社交闭环与即时互动能力上的小步迭代，意在提升用户留存和私域连接效率，但尚不具备改变平台竞争格局的量级。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_024",
+    "title": "🚀 NVIDIA GTC 2026 Hackathons: ‘Hack to Create’ & ‘Hack for Impact’ Powered by DGX Spark",
+    "category": "product_launch",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "NVIDIAAIDev",
+        "text": "Build the tools. Change the world. 🌍\n\nWe’re bringing TWO massive hackathons to #NVIDIAGTC to push the limits of the creator economy and AI for good.\n\nThe Challenges:\n\n1️⃣ Hack to Create: Build the eng",
+        "engagement": 24,
+        "url": "https://x.com/NVIDIAAIDev/status/2027111426481881553"
+      },
+      {
+        "author": "LambdaAPI",
+        "text": "Lambda is at NVIDIA GTC 2026 in San Jose, March 16-19.\n\nOn Wednesday night (March 18), we're hosting AI After Dark: no panels or pitches. Just engineers, researchers, and operators in the same room wi",
+        "engagement": 12,
+        "url": "https://x.com/LambdaAPI/status/2027014541981405384"
+      }
+    ],
+    "key_facts": [
+      "NVIDIA is hosting two major on-site hackathons at GTC 2026 (March 16–19, San Jose): 'Hack to Create' (creator economy tools) and 'Hack for Impact' (using Nemotron & Cosmos for human/ecological/cultural applications)",
+      "Participants build on GB10 systems from Dell, HP, and Lenovo powered by NVIDIA DGX Spark",
+      "Winners receive hardware prizes and a speaking spot on the main stage",
+      "Attendance requires a valid GTC 2026 pass"
+    ],
+    "analyst_angle": "These structured, mission-driven hackathons signal NVIDIA’s strategic push to operationalize its latest AI infrastructure (DGX Spark, Nemotron, Cosmos) through developer co-creation — accelerating real-world adoption beyond demos into production-grade tooling and impact-oriented solutions.",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_025",
+    "title": "📌 Anthropic 发布 Claude 4？传闻引发社区热议",
+    "category": "product_launch",
+    "importance": 4.2,
+    "sources": [
+      {
+        "author": "amasad",
+        "text": "@sasuke___420 Arguably already happened. Just too expensive now https://t.co/sc6OjxqU3H",
+        "engagement": 20,
+        "url": "https://x.com/amasad/status/2026928029939937618"
+      },
+      {
+        "author": "firstadopter",
+        "text": "@Super_PK_ My dude. This time might really be different",
+        "engagement": 20,
+        "url": "https://x.com/firstadopter/status/2026881639838609747"
+      }
+    ],
+    "key_facts": [
+      "推文未确认任何官方发布，仅引用外部链接（疑似非权威来源）",
+      "多位用户以调侃/怀疑口吻回应，暗示‘又一个传言’或‘这次可能不同’，但无实质信息"
+    ],
+    "analyst_angle": "当前仅属社区猜测性讨论，缺乏官方信源或技术细节，尚未构成有效事件信号，反映市场对Anthropic下一代模型的高度敏感与信息饥渴。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260227_026",
+    "title": "🚀 Samsung Galaxy S26 系列发布：S26、S26 Plus 与 S26 Ultra 全线搭载新 Galaxy AI 功能，Ultra 增配内置隐私屏",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "CNET",
+        "text": "Galaxy Unpacked 2026 Live Updates: Samsung's S26 Reveal Is Here. Samsung just unveiled the new Galaxy S26, S26 Plus and S26 Ultra. All three give you access to a variety of new Galaxy AI features, whi",
+        "engagement": 0,
+        "url": "https://www.cnet.com/news-live/samsung-galaxy-unpacked-2026-s26-live-updates/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Everything Samsung revealed at its Galaxy Unpacked event https://t.co/RuIlKxUqh1",
+        "engagement": 19,
+        "url": "https://x.com/TechCrunch/status/2027006410471669786"
+      }
+    ],
+    "key_facts": [
+      "三星正式发布 Galaxy S26、S26 Plus 和 S26 Ultra 三款旗舰机型",
+      "全系集成新一代 Galaxy AI 功能",
+      "Galaxy S26 Ultra 首次配备内置隐私显示（privacy display）技术"
+    ],
+    "analyst_angle": "这标志着三星将AI从软件功能深度耦合至硬件层（如隐私屏），加速端侧AI手机的商业化落地，对苹果iOS 19/AI战略和华为Pura 70+鸿蒙AI形成直接对标。",
+    "cluster_size": 2,
+    "event_time": "2026-02-26T20:58:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_027",
+    "title": "📌 PC Adventures Part X 推出（无实质技术/商业信息）",
+    "category": "other",
+    "importance": 1.5,
+    "sources": [
+      {
+        "author": "IanCutress",
+        "text": "🇯🇵 PC Adventures Part X.\n\n@MaxsunOfficial going all out on the 🏳️‍⚧️ color scheme. https://t.co/rzpuA2oBFO",
+        "engagement": 16,
+        "url": "https://x.com/IanCutress/status/2026890260068839640"
+      },
+      {
+        "author": "midjourney",
+        "text": "@picatrix_picori Hope you enjoy! &lt;3",
+        "engagement": 1,
+        "url": "https://x.com/midjourney/status/2027103991809896781"
+      }
+    ],
+    "key_facts": [
+      "推文提及 'PC Adventures Part X' 系列更新",
+      "配图含彩虹旗配色设计，疑似营销/社区向内容",
+      "无产品发布、技术细节、融资、合作或政策相关信息"
+    ],
+    "analyst_angle": "该推文属于低信息量的社交平台轻量互动，未传递可验证的技术进展、商业动态或行业影响信号，视为噪音级事件。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_028",
+    "title": "🚀 Amazon’s $50B OpenAI Investment Tied to IPO or AGI Milestone",
+    "category": "funding",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "theinformation",
+        "text": "Exclusive: Amazon’s potential $50B investment in OpenAI may hinge on two triggers: an IPO or reaching AGI. https://t.co/7UU4fTcA02",
+        "engagement": 15,
+        "url": "https://x.com/theinformation/status/2027080482941219018"
+      },
+      {
+        "author": "theinformation",
+        "text": "Amazon’s investment in OpenAI comes with strict conditions, @srimuppidi reports:\n\n\"Amazon is investing up to $50 billion, but there is a condition.\"\n\n\"The $35B second installment is actually condition",
+        "engagement": 5,
+        "url": "https://x.com/theinformation/status/2027146093616669040"
+      },
+      {
+        "author": "theinformation",
+        "text": "Today on TITV:\n\n-Amazon’s $50 Billion investment in OpenAI could hinge on IPO, AGI | @srimuppidi\n\n-Nvidia Results: Revenue Accelerates, Cash Flow Doubles | Matt Bryson, Equity Research at @Wedbush\n\n-B",
+        "engagement": 0,
+        "url": "https://x.com/theinformation/status/2027081909012938950"
+      }
+    ],
+    "key_facts": [
+      "Amazon is committing up to $50 billion to OpenAI",
+      "The $35 billion second tranche is explicitly conditional on either OpenAI achieving AGI or going public",
+      "The deal reflects unprecedented strategic alignment—and risk-sharing—between a cloud infrastructure giant and the leading AGI-focused AI lab"
+    ],
+    "analyst_angle": "This conditional structure signals that hyperscalers now treat AGI not as speculative futurism but as a near-term, investable milestone—with valuation and capital deployment directly pegged to its realization.",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_029",
+    "title": "🚀 Perplexity 发布 'Computer' AI Agent：可协调19个模型的AI代理系统",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "Ars Technica",
+        "text": "Perplexity announces \"Computer,\" an AI agent that assigns work to other AI agents. It's also a buttoned-down, ostensibly safer take on the OpenClaw concept.",
+        "engagement": 0,
+        "url": "https://arstechnica.com/ai/2026/02/perplexity-announces-computer-an-ai-agent-that-assigns-work-to-other-ai-agents/"
+      },
+      {
+        "author": "arstechnica",
+        "text": "Perplexity announces \"Computer,\" an AI agent that assigns work to other AI agents https://t.co/cQOxPBF6IG",
+        "engagement": 11,
+        "url": "https://x.com/arstechnica/status/2027155719632699600"
+      },
+      {
+        "author": "PatrickMoorhead",
+        "text": "The core value prop of Perplexity Computer is STRONG! Does it deliver? We will see.",
+        "engagement": 3,
+        "url": "https://x.com/PatrickMoorhead/status/2027186183713763330"
+      },
+      {
+        "author": "VentureBeat",
+        "text": "Perplexity launches 'Computer' AI agent that coordinates 19 models, priced at $200 a month\nhttps://t.co/6Kqsn2psFt",
+        "engagement": 3,
+        "url": "https://x.com/VentureBeat/status/2027156712587726975"
+      }
+    ],
+    "key_facts": [
+      "Perplexity 正式发布名为 'Computer' 的新型AI代理系统",
+      "该系统具备任务编排能力，可动态分配工作给其他AI代理（包括最多19个不同模型）",
+      "定位为更安全、企业友好的OpenClaw风格架构实现",
+      "定价为200美元/月"
+    ],
+    "analyst_angle": "这标志着AI代理从单体工具向分布式协同基础设施演进的关键一步，或将加速企业级AI工作流的标准化与编排层商业化。",
+    "cluster_size": 4,
+    "event_time": "2026-02-26T22:53:18Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_030",
+    "title": "📌 Gary Marcus 与 Linus Ekenstam 转发同一技术批评文章（未提供具体内容）",
+    "category": "other",
+    "importance": 2.0,
+    "sources": [
+      {
+        "author": "GaryMarcus",
+        "text": "@chammond510 https://t.co/IxNWyndcDk",
+        "engagement": 10,
+        "url": "https://x.com/GaryMarcus/status/2027080880901312527"
+      },
+      {
+        "author": "LinusEkenstam",
+        "text": "@kmartyn5 https://t.co/UQKRcDVGpV https://t.co/fVXDkFVRfV",
+        "engagement": 2,
+        "url": "https://x.com/LinusEkenstam/status/2027055683120898334"
+      }
+    ],
+    "key_facts": [
+      "推文仅含转发链接，无文字说明",
+      "原始内容来源不可见（短链未展开），无法确认事件性质",
+      "无明确主体、产品、研究或机构信息"
+    ],
+    "analyst_angle": "该互动缺乏上下文与可验证事实，无法构成有效行业事件信号，属于低信噪比社交传播行为",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260227_031",
+    "title": "💡 Gary Marcus 反复强调 AI 行业已过“泡沫峰值”（2025年9月中旬）",
+    "category": "market",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "GaryMarcus",
+        "text": "I will be interested to see your math. i first warned that there could be a bubble in august 2023, but didn’t say then that there was a bubble.  I said it could happen.\n\nIn mid September 2025 I specif",
+        "engagement": 7,
+        "url": "https://x.com/GaryMarcus/status/2027082373284905319"
+      },
+      {
+        "author": "GaryMarcus",
+        "text": "show your math, bro, and give some quotes, or else say goodbye.\n\nalso my claims mostly haven’t been about semiconductors but LLM companies like OpenAI. \n\ncontrary to what you above, nvidia is almost f",
+        "engagement": 2,
+        "url": "https://x.com/GaryMarcus/status/2027085704262726089"
+      }
+    ],
+    "key_facts": [
+      "Gary Marcus 在2025年9月中旬明确指出AI行业已达到‘peak bubble’（泡沫峰值），以Oracle股价为关键观察指标",
+      "Oracle股价自该时点起下跌超50%，NVIDIA股价同期结束此前两年约10倍涨幅，转为基本横盘",
+      "Marcus强调其预警焦点长期集中于LLM公司（如OpenAI），而非半导体硬件"
+    ],
+    "analyst_angle": "一位具公信力的AI批判者将市场拐点锚定在2025年9月，若后续验证成立，可能标志AI投资逻辑从估值驱动转向盈利/产品驱动的结构性转折。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260227_032",
+    "title": "💰 Big Tech 的债务承受力：Alphabet、Amazon、Meta 各可新增约 2000 亿美元债务而不损信用评级",
+    "category": "funding",
+    "importance": 7.5,
+    "sources": [
+      {
+        "author": "theinformation",
+        "text": "Alphabet, Amazon and Meta Platforms could each borrow up to ~$200B without losing their credit ratings. https://t.co/ksQRBtlH7y",
+        "engagement": 5,
+        "url": "https://x.com/theinformation/status/2027144653976281258"
+      },
+      {
+        "author": "theinformation",
+        "text": "How much debt can Big Tech handle? \n\n\"It looks like a credit downgrade is pretty far off... \"\n\n\"Each of these companies can take on about $200 billion in incremental debt as long as they generally mee",
+        "engagement": 1,
+        "url": "https://x.com/theinformation/status/2027164395785068816"
+      },
+      {
+        "author": "theinformation",
+        "text": "True Value: Alphabet, Amazon and Meta Platforms could borrow close to $200 billion each without jeopardizing their pristine credit ratings.\n\nRead more from @AnitaRamaswamy 👇 \nhttps://t.co/eaUHqBmX4s",
+        "engagement": 1,
+        "url": "https://x.com/theinformation/status/2027024636567859268"
+      }
+    ],
+    "key_facts": [
+      "Alphabet、Amazon 和 Meta Platforms 均可新增约 2000 亿美元债务而维持现有信用评级",
+      "该判断基于其预期 EBITDA 表现及当前财务稳健性，由 The Information 金融分析专栏作家 Anita Ramaswamy 给出",
+      "信用评级下调风险被评估为“相当遥远”（pretty far off）"
+    ],
+    "analyst_angle": "这揭示了头部科技公司空前的融资弹性，为其AI基建投入（如算力扩张、大模型研发）提供了隐性资本杠杆，可能加剧资本密集型AI军备竞赛。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_033",
+    "title": "🎙️ Latent Space 播客首期上线，聚焦 AI 工程化与开源生态",
+    "category": "open_source",
+    "importance": 5.2,
+    "sources": [
+      {
+        "author": "firstadopter",
+        "text": "@dylan522p @roboco23 @fabknowledge woah I just realized I can do a guest spot now if you guys have me on",
+        "engagement": 5,
+        "url": "https://x.com/firstadopter/status/2027073080565146039"
+      },
+      {
+        "author": "swyx",
+        "text": "@latentspacepod @allenpark @dexhorthy @dylan522p first episode live now! https://t.co/MZqz0ukpcY",
+        "engagement": 3,
+        "url": "https://x.com/swyx/status/2027133729345593455"
+      }
+    ],
+    "key_facts": [
+      "Latent Space 播客首期节目已正式发布",
+      "首期嘉宾包括 Dylan Field（Figma 联合创始人）、Allen Park（Modal 创始人）等 AI/基础设施领域实践者",
+      "内容聚焦 AI 工程化挑战、开源模型部署及开发者工具链"
+    ],
+    "analyst_angle": "专业技术播客的兴起反映 AI 工程化正从研究向落地实践加速迁移，开源社区需更系统化的知识传播载体。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_034",
+    "title": "📌 TechCrunch Disrupt 2026 早鸟票最后两天（最高立减$680）",
+    "category": "other",
+    "importance": 2.5,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "2 days left: Lock in the best discounts for TechCrunch Disrupt 2026 https://t.co/erNDfEAevS",
+        "engagement": 5,
+        "url": "https://x.com/TechCrunch/status/2027037033693352367"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "￼⚠️ We're in the final 2 days of the best Disrupt discounts!\n\nThe lowest rates of the year end tomorrow, February 27, so grab up to $680 off now: https://t.co/mUnowycUjB\n\nDon’t just watch tech evolve:",
+        "engagement": 4,
+        "url": "https://x.com/TechCrunch/status/2027118974257807370"
+      }
+    ],
+    "key_facts": [
+      "TechCrunch Disrupt 2026 早鸟优惠将于2月27日截止",
+      "最高可享$680折扣",
+      "活动定位为科技行业关键连接与初创加速平台"
+    ],
+    "analyst_angle": "属于行业常规营销事件，无技术、产品、政策或资本层面实质性突破，仅具短期传播和参会转化价值",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_035",
+    "title": "📌 Google AI 发布香蕉表情符号互动活动（非正式用户共创）",
+    "category": "other",
+    "importance": 2.0,
+    "sources": [
+      {
+        "author": "GoogleAI",
+        "text": "@karthik_rangan So fun! Keep your generations coming 🍌🍌",
+        "engagement": 4,
+        "url": "https://x.com/GoogleAI/status/2027100357763989653"
+      },
+      {
+        "author": "GoogleAI",
+        "text": "@ASolovichh That's the goal! Share what you create with us 🍌🍌",
+        "engagement": 4,
+        "url": "https://x.com/GoogleAI/status/2027052888783048969"
+      }
+    ],
+    "key_facts": [
+      "Google AI 官方账号在推特上使用双香蕉 emoji（🍌🍌）作为轻松互动符号",
+      "回应用户生成内容（如 @karthik_rangan 和 @ASolovichh），鼓励分享创作，但未宣布任何产品、技术或项目"
+    ],
+    "analyst_angle": "纯社交互动行为，无实质技术、产品或战略信息，属品牌亲和力运营，不构成行业事件。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_036",
+    "title": "📌 Clarification on Traffic Metrics: Total Visits vs. Unique Users",
+    "category": "other",
+    "importance": 2.0,
+    "sources": [
+      {
+        "author": "deedydas",
+        "text": "Note that these are total visits not unique users!",
+        "engagement": 3,
+        "url": "https://x.com/deedydas/status/2027143054885626029"
+      },
+      {
+        "author": "deedydas",
+        "text": "@menhguin These are total visits not unique users, so not necessarily",
+        "engagement": 1,
+        "url": "https://x.com/deedydas/status/2027143190634197266"
+      },
+      {
+        "author": "deedydas",
+        "text": "@immanuelg These are visits, not unique users",
+        "engagement": 1,
+        "url": "https://x.com/deedydas/status/2027142920051306720"
+      }
+    ],
+    "key_facts": [
+      "The discussed metrics refer to total visits, not unique users",
+      "Multiple tweets emphasize this distinction to prevent misinterpretation"
+    ],
+    "analyst_angle": "This is a minor data clarification with no technical, strategic, or market impact—purely a definitional note unlikely to influence industry behavior or analysis.",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_037",
+    "title": "📌 OpenCLAW 发布更新修复问题",
+    "category": "other",
+    "importance": 2.0,
+    "sources": [
+      {
+        "author": "openclaw",
+        "text": "@specter0o0 you comment on yesterday’s release old man. This has been fixed.",
+        "engagement": 3,
+        "url": "https://x.com/openclaw/status/2026879809041666545"
+      },
+      {
+        "author": "natolambert",
+        "text": "@jimserr this guy gets it",
+        "engagement": 2,
+        "url": "https://x.com/natolambert/status/2027080857434108209"
+      },
+      {
+        "author": "IanCutress",
+        "text": "@sshimomu2k2 No idea who they are.",
+        "engagement": 2,
+        "url": "https://x.com/IanCutress/status/2026913690554089792"
+      }
+    ],
+    "key_facts": [
+      "OpenCLAW 团队确认昨日发布的版本存在已知问题",
+      "问题已被修复并明确回应用户反馈"
+    ],
+    "analyst_angle": "该事件仅反映一个小型开源项目的基础维护响应，无技术细节、无影响范围说明，缺乏行业相关性或实质性进展。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_038",
+    "title": "📌 推文互动：专家就AI发展节奏展开简短讨论",
+    "category": "other",
+    "importance": 2.0,
+    "sources": [
+      {
+        "author": "IanCutress",
+        "text": "@arbal1stWeA Hence the sarcasm in my tone :)",
+        "engagement": 2,
+        "url": "https://x.com/IanCutress/status/2026913489978273921"
+      },
+      {
+        "author": "LinusEkenstam",
+        "text": "@balajis slow at first, then everything at once",
+        "engagement": 1,
+        "url": "https://x.com/LinusEkenstam/status/2027190000719482923"
+      },
+      {
+        "author": "GaryMarcus",
+        "text": "@AlexAlarga not sure we are disagreeing here.",
+        "engagement": 1,
+        "url": "https://x.com/GaryMarcus/status/2027018329853157453"
+      }
+    ],
+    "key_facts": [
+      "推文为多位用户间的碎片化、无明确事件指向的回复式互动",
+      "内容涉及AI发展速度（'slow at first, then everything at once'）和观点协调（'not sure we are disagreeing'），但未宣布任何新产品、研究、融资或政策"
+    ],
+    "analyst_angle": "此类对话属于学术/行业人士日常观点交换，缺乏实质性事件锚点，不构成可追踪的行业动态，需更多上下文才能判断潜在信号。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260227_039",
+    "title": "📌 NB2 and NBPro positioning relative to Flash and Pro tiers",
+    "category": "product_launch",
+    "importance": 4.5,
+    "sources": [
+      {
+        "author": "LinusEkenstam",
+        "text": "@YiziliangY30698 it’s because it sits below pro, \n\nNB, NB2, NBPro",
+        "engagement": 1,
+        "url": "https://x.com/LinusEkenstam/status/2027068753721336260"
+      },
+      {
+        "author": "LinusEkenstam",
+        "text": "@AIadventure3 @ecompixsil it’s flash, so sits below pro",
+        "engagement": 1,
+        "url": "https://x.com/LinusEkenstam/status/2027067269352993095"
+      },
+      {
+        "author": "LinusEkenstam",
+        "text": "@ecompixsil should sit below pro, but there are some new capabilities that are above pro",
+        "engagement": 0,
+        "url": "https://x.com/LinusEkenstam/status/2027067348986085616"
+      }
+    ],
+    "key_facts": [
+      "NB2 and NBPro are positioned below the 'Pro' tier",
+      "NB/NB2/NBPro use Flash technology",
+      "Some new capabilities in NB/NB2/NBPro reportedly exceed Pro-tier functionality"
+    ],
+    "analyst_angle": "Indicates internal product tiering ambiguity—suggests marketing or technical alignment challenges between Flash-based models and the Pro branding, but no official launch or specification is cited.",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260227_040",
+    "title": "📌 特朗普支持者在国会山骚乱后被指控“叛国”？马斯克引发争议性政治言论",
+    "category": "other",
+    "importance": 3.2,
+    "sources": [
+      {
+        "author": "elonmusk",
+        "text": "The hecklers are guilty of high treason",
+        "engagement": 200005,
+        "url": "https://x.com/elonmusk/status/2026940589422555269"
+      },
+      {
+        "author": "elonmusk",
+        "text": "They’re being taught to hate America",
+        "engagement": 140237,
+        "url": "https://x.com/elonmusk/status/2026936805342458290"
+      },
+      {
+        "author": "elonmusk",
+        "text": "And this number is greatly underreported. Actual numbers are much worse.",
+        "engagement": 119482,
+        "url": "https://x.com/elonmusk/status/2026927368292757771"
+      },
+      {
+        "author": "elonmusk",
+        "text": "Absolutely. \n\nOtherwise, the filibuster will be killed immediately if Dems get the House, Senate and Presidency in 2029. \n\nThey already tried to do it and were stopped by Manchin &amp; Sinema, who wer",
+        "engagement": 104892,
+        "url": "https://x.com/elonmusk/status/2027049265777070505"
+      },
+      {
+        "author": "elonmusk",
+        "text": "I’m sure that’s about to happen any day now 🤣",
+        "engagement": 72332,
+        "url": "https://x.com/elonmusk/status/2026928886530056660"
+      }
+    ],
+    "key_facts": [
+      "马斯克在多条推文中使用‘high treason’（高级叛国）等强烈措辞描述国会山骚乱相关抗议者",
+      "将部分美国民众对国家的态度归因为‘被教导憎恨美国’",
+      "提及曼钦与西内马因阻挠废除冗长辩论（filibuster）而遭民主党排斥，该说法与事实严重不符（二人未被‘踢出’民主党，且2029年选举时间错误）"
+    ],
+    "analyst_angle": "这是一次高传播度但低信息密度的政治情绪宣泄，混淆事实时间线（如虚构的‘2029年选举’）、滥用法律术语（‘high treason’在美司法实践中极少用于骚乱参与者），反映社交媒体意见领袖对公共话语理性的稀释效应，而非实质性政策或行业事件。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260227_041",
+    "title": "🚀 Grok 4.20 发布：工程能力显著提升",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "elonmusk",
+        "text": "Tunnels are so underrated",
+        "engagement": 43031,
+        "url": "https://x.com/elonmusk/status/2026937670279282826"
+      },
+      {
+        "author": "elonmusk",
+        "text": "Grok 4.20 is getting good at engineering",
+        "engagement": 27112,
+        "url": "https://x.com/elonmusk/status/2027094139096227842"
+      },
+      {
+        "author": "elonmusk",
+        "text": "@shaunmmaguire It’s a major problem in America",
+        "engagement": 7043,
+        "url": "https://x.com/elonmusk/status/2027094217647100216"
+      },
+      {
+        "author": "claudeai",
+        "text": "Connectors are now available on the free plan.\n\nChoose from 150+ connectors across coding, data, design, finance, sales, and more: https://t.co/8tSoU8C22H",
+        "engagement": 5985,
+        "url": "https://x.com/claudeai/status/2027082240833052741"
+      },
+      {
+        "author": "elonmusk",
+        "text": "For anything to do with engineering and science for sure, but Imperial has a certain romantic charm for civilian use. \n\nI set a more intuitive variant of metric for Starship: tons for force and mass, ",
+        "engagement": 5788,
+        "url": "https://x.com/elonmusk/status/2027091562057060631"
+      }
+    ],
+    "key_facts": [
+      "Elon Musk 官方确认 Grok 4.20 版本在工程领域能力显著增强",
+      "该版本属于 xAI 推出的最新大语言模型迭代，聚焦技术推理与工程任务优化"
+    ],
+    "analyst_angle": "Grok 4.20 的工程能力跃升标志着 xAI 正从通用对话向垂直专业场景（如航天、硬件设计、系统建模）加速渗透，对工程类 AI 工具链构成实质性挑战。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_042",
+    "title": "🚀 SpaceX Starship V3 SN1 Begins Ground Testing; Elon Expresses High Confidence in Full Reusability",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "elonmusk",
+        "text": "@YossiBenYakar Terrible",
+        "engagement": 4919,
+        "url": "https://x.com/elonmusk/status/2027093965825327432"
+      },
+      {
+        "author": "elonmusk",
+        "text": "Starship V3 SN1 headed for ground tests. \n\nI am highly confident that the V3 design will achieve full reusability.",
+        "engagement": 4806,
+        "url": "https://x.com/elonmusk/status/2027189961548828708"
+      },
+      {
+        "author": "sama",
+        "text": "We often get asked how people who are not technical can contribute to AGI. One area is research recruiting. \n\nTifa (@tifafafafa) is looking for exceptional recruiters from non-traditional backgrounds,",
+        "engagement": 4423,
+        "url": "https://x.com/sama/status/2027087700214591913"
+      },
+      {
+        "author": "amasad",
+        "text": "This was hugely controversial 4 years ago 😂 https://t.co/EtbLkqExdH",
+        "engagement": 3885,
+        "url": "https://x.com/amasad/status/2026913596870103136"
+      },
+      {
+        "author": "AravSrinivas",
+        "text": "Browser, Search, Computer https://t.co/npxYmSwTsU",
+        "engagement": 3551,
+        "url": "https://x.com/AravSrinivas/status/2026906295882887352"
+      }
+    ],
+    "key_facts": [
+      "Starship V3 SN1 has commenced ground testing",
+      "Elon Musk states high confidence that V3 design will achieve full reusability"
+    ],
+    "analyst_angle": "This marks a critical hardware milestone toward operational orbital reuse—potentially enabling rapid, low-cost interplanetary transport and reshaping launch economics globally.",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  }
+]

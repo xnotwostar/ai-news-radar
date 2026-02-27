@@ -1,0 +1,1429 @@
+[
+  {
+    "event_id": "evt_20260227_000",
+    "title": "🚀 NVIDIA Q1 芯片营收达 681 亿美元，创历史新高",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "kevinxu",
+        "text": "my niece is all in $NVDA and just shit her pants",
+        "engagement": 3006,
+        "url": "https://x.com/kevinxu/status/2026764388221465083"
+      },
+      {
+        "author": "kevinxu",
+        "text": "“Give them hope.”\n$NVDA +4%\n“Now take it all back.” https://t.co/F5AebuNbJn",
+        "engagement": 820,
+        "url": "https://x.com/kevinxu/status/2027072408809861278"
+      },
+      {
+        "author": "kevinxu",
+        "text": "you're bearish?\n\n$NVDA just sold $68.1 billion of chips in 3 months\n\nand you're bearish on $IREN? https://t.co/rAfdGPy8WF",
+        "engagement": 297,
+        "url": "https://x.com/kevinxu/status/2027122042236186844"
+      }
+    ],
+    "key_facts": [
+      "NVIDIA 在最近一个季度（Q1 FY2025）芯片销售额达 68.1 亿美元",
+      "该数据反映其 AI 加速芯片（如 H100、B100）持续供不应求与数据中心需求爆发",
+      "股价单日上涨 4%，市场情绪剧烈波动"
+    ],
+    "analyst_angle": "681 亿美元单季芯片营收远超市场预期（普遍预期约 $55–60B），印证 NVIDIA 已从 GPU 供应商升维为全球 AI 基建核心支柱，其技术代际领先窗口正转化为不可复制的营收护城河。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_001",
+    "title": "📌 多位开发者分享同一事件链接但未提供文本内容",
+    "category": "other",
+    "importance": 1.5,
+    "sources": [
+      {
+        "author": "op7418",
+        "text": "https://t.co/hJaGyxSqnf",
+        "engagement": 520,
+        "url": "https://x.com/op7418/status/2026520431700881816"
+      },
+      {
+        "author": "kevinxu",
+        "text": "you’re not gonna believe this https://t.co/70j01O29Ua",
+        "engagement": 201,
+        "url": "https://x.com/kevinxu/status/2026743461857341768"
+      },
+      {
+        "author": "dotey",
+        "text": "https://t.co/q69ej3I70K",
+        "engagement": 128,
+        "url": "https://x.com/dotey/status/2026755174761431119"
+      },
+      {
+        "author": "indigox",
+        "text": "https://t.co/lXJCUKgsGA",
+        "engagement": 44,
+        "url": "https://x.com/indigox/status/2026911299494449635"
+      },
+      {
+        "author": "dingyi",
+        "text": "fucking TUI... https://t.co/7ZbvJD9dcu",
+        "engagement": 36,
+        "url": "https://x.com/dingyi/status/2026495323712233639"
+      }
+    ],
+    "key_facts": [
+      "5条推文均附带不同短链，指向同一未知事件页面",
+      "无一条推文包含可提取的实质性描述、标题、时间、主体或事件类型",
+      "互动量较低（最高383赞/98转发），且含情绪化用语（如'fucking TUI...'）暗示负面体验但无上下文"
+    ],
+    "analyst_angle": "该事件无法被识别或验证，属于信息缺失型噪声；可能为小范围内部工具发布、失败的Demo、或链接失效导致的无效传播，不具备行业分析价值。",
+    "cluster_size": 22,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_002",
+    "title": "🚀 Claude Code 推出 Remote Control 远程控制功能（仅限 Claude Pro Max 用户）",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "dotey",
+        "text": "Claude Code 这个更新不错，可以把 Claude 当小龙虾🦞用了，简单来说就是你用 claude rc 运行 claude，然后会生成一个链接或者二维码，你扫描二维码或者打开链接，就可以从手机上或者其他电脑上控制你本机的 claude code。\n\n由于两边都要登录相同的 claude 账号，所以即使别人知道你的 URL 也无法控制你的电脑，倒是不用担心安全问题。\n\n目前只有 Max 订",
+        "engagement": 468,
+        "url": "https://x.com/dotey/status/2026436507611926973"
+      },
+      {
+        "author": "dingyi",
+        "text": "这个也不错，Mac 原生的 Claude Code 管理：\n\nhttps://t.co/MYAZgz0Fwd",
+        "engagement": 95,
+        "url": "https://x.com/dingyi/status/2026869877114548291"
+      },
+      {
+        "author": "wshuyi",
+        "text": "试了一下 Claude Code 最新的 Remote Control（远程控制），很好用。我把 remote control 的默认设置改为对所有 session 开启，现在可以随时拿起手机给 Claude Code 发布新的任务。比起用 Telegram 或者 Chatcode 调用 Claude Code 更为直接，也更安全 https://t.co/pqIMilU2vj",
+        "engagement": 85,
+        "url": "https://x.com/wshuyi/status/2026449026539991201"
+      },
+      {
+        "author": "indigox",
+        "text": "用 Remote Control 保持 Claude Code 的任务状态\n然后你可以用手机访问，这不就是？\nClaudeBot 🦞",
+        "engagement": 41,
+        "url": "https://x.com/indigox/status/2026422783866286438"
+      },
+      {
+        "author": "op7418",
+        "text": "我去，这个好，Claudecode 终于做了远程控制功能\n\n你可以用你的手机控制在你电脑上的 close code 了\n\n开启以后，可以用手机端的 Claude 或者是网页去控制你的 Claude code\n\n https://t.co/ZcyhS881mr",
+        "engagement": 39,
+        "url": "https://x.com/op7418/status/2026475939664974265"
+      }
+    ],
+    "key_facts": [
+      "Claude Code 新增 Remote Control 功能，允许用户通过手机或网页远程访问并控制本地运行的 Claude Code 实例",
+      "需登录同一 Claude 账号，URL/二维码本身不构成安全风险；当前仅向 Claude Pro Max 订阅用户开放",
+      "支持默认对所有 session 启用，实现随时发起任务，替代 Telegram/Chatcode 等间接调用方式"
+    ],
+    "analyst_angle": "这是 Anthropic 首次将本地 AI 编程代理（Claude Code）与跨设备协同控制深度整合，标志着其从桌面工具向分布式 AI 工作流平台演进的关键一步，强化了与 GitHub Copilot、Cursor 等竞品在开发者体验维度的差异化。",
+    "cluster_size": 13,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_003",
+    "title": "🌐 Skill 开源：知识网站一键生成工具发布",
+    "category": "open_source",
+    "importance": 6.8,
+    "sources": [
+      {
+        "author": "vista8",
+        "text": "一句话生成知识网站的Skill开源了！\n\n快捷安装指令\nnpx skills add joeseesun/knowledge-site-creator\n\nGithub地址：\nhttps://t.co/bMr0Lv1EJw\n\n演示网站\n\n① https://t.co/E7jqCkSxyy - 通过词根拆解，高效记忆英语单词，基于新东方词根词缀电子书生成。\n② https://t.co/fxzLm9T",
+        "engagement": 445,
+        "url": "https://x.com/vista8/status/2026662172445880741"
+      },
+      {
+        "author": "vista8",
+        "text": "个人觉得这个UI和UX Skill比较靠谱，Github有3w多Star。\n\n感觉有点东西，等我测试看实际效果如何。\n\n地址见评论区 https://t.co/V0DX4GOx47",
+        "engagement": 306,
+        "url": "https://x.com/vista8/status/2026485568125940156"
+      },
+      {
+        "author": "vista8",
+        "text": "兄弟们，我试过了，前端审美太TMD丑了。\n\n这个Skill匹配不上它的Star数量，UX还行。 https://t.co/5u7pgtllGH",
+        "engagement": 78,
+        "url": "https://x.com/vista8/status/2026491366671532363"
+      },
+      {
+        "author": "vista8",
+        "text": "https://t.co/2FUwslvG4u\n\nVercel的npx也支持安装这个Skill，下载的人也不少，虽然不如front-end Design那个Skill装的人多。\n安装命令 npx skills add https://t.co/rN5LHZb5tH --skill ui-ux-pro-max",
+        "engagement": 48,
+        "url": "https://x.com/vista8/status/2026485837773590836"
+      }
+    ],
+    "key_facts": [
+      "knowledge-site-creator Skill 已开源，支持通过 npx 快速安装（npx skills add joeseesun/knowledge-site-creator）",
+      "提供4个演示站点，覆盖英语词根学习、五代十国历史、CRAP设计原则、AI核心概念等垂直知识领域，生成方式包括电子书解析、网络检索、指定书名及大模型原生知识调用",
+      "项目托管于 GitHub（链接已发布），获约3万+ Stars，被 Vercel npx 生态集成并支持直接安装"
+    ],
+    "analyst_angle": "标志着低代码知识传播工具链走向成熟——用户无需前端开发能力即可基于结构化/非结构化知识源自动生成专业级静态知识站点，是AI-native content scaffolding的重要落地形态。",
+    "cluster_size": 4,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_004",
+    "title": "🚀 Xiaomi 17 Ultra & Leica Leitzphone Launch (Feb 28)",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "Xiaomi",
+        "text": "Gear up with Xiaomi 17 Ultra Photography Kit and Pro version.\n\nCrafted for photography enthusiasts — from a premium, camera-inspired grip to effortless everyday shooting.\n\nStay tuned for the Xiaomi La",
+        "engagement": 441,
+        "url": "https://x.com/Xiaomi/status/2026628284180476169"
+      },
+      {
+        "author": "Xiaomi",
+        "text": "Rooted in Leica's century of light and shadow and shaped by four years of collaboration, Leica Leitzphone powered by Xiaomi takes mobile imaging forward.\n\nTune in to witness the birth of a new legend ",
+        "engagement": 364,
+        "url": "https://x.com/Xiaomi/status/2026975532978491730"
+      },
+      {
+        "author": "Xiaomi",
+        "text": "Xiaomi Explorers, assemble!\n\nJoin the Xiaomi Launch on February 28th, 14:00 (GMT+1) to navigate the new wave of imagery. 🚀 https://t.co/7YvKWdKPmu",
+        "engagement": 307,
+        "url": "https://x.com/Xiaomi/status/2026643341899669769"
+      },
+      {
+        "author": "Xiaomi",
+        "text": "Fireworks fade in a blink. Xiaomi 17 Ultra freezes every breathtaking moment.\n\nJoin us at Xiaomi Launch.\n🕑 February 28th, 14:00 (GMT+1) https://t.co/niT7y9hmhu",
+        "engagement": 217,
+        "url": "https://x.com/Xiaomi/status/2026613143678456215"
+      },
+      {
+        "author": "Xiaomi",
+        "text": "What stunning views can you capture while moving through fireworks?\n\nPowered by LOFIC ultra-high dynamic range technology, Xiaomi 17 Ultra enhances dynamic range frame by frame and intelligently adapt",
+        "engagement": 190,
+        "url": "https://x.com/Xiaomi/status/2026598086714212375"
+      }
+    ],
+    "key_facts": [
+      "Xiaomi to launch the Xiaomi 17 Ultra smartphone on February 28 at 14:00 GMT+1",
+      "Co-developed with Leica as the 'Leica Leitzphone', marking culmination of four years of collaboration",
+      "Features LOFIC ultra-HDR technology for frame-by-frame dynamic range enhancement and ultra-pure night video in motion"
+    ],
+    "analyst_angle": "This represents Xiaomi’s most ambitious imaging flagship yet — a strategic leap toward premium mobile photography leadership, directly challenging Apple and Samsung with Leica-branded optical authority and proprietary sensor tech.",
+    "cluster_size": 7,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_005",
+    "title": "🚀 Pencil 桌面版发布：集成 MCP 支持与 AI Agent 直接对话生成设计",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "dingyi",
+        "text": "Paper 桌面版终于发布了，还有 MCP 支持和 AI agents 直接对话生成设计。\n\n加油，干死 Figma！ \n\nhttps://t.co/DbFoDdG76p",
+        "engagement": 397,
+        "url": "https://x.com/dingyi/status/2026505748469944563"
+      },
+      {
+        "author": "op7418",
+        "text": "Pencil 更新了，上线了类似 agent teams\n\n得 Agent 设计集群，可以多个 Agent 并行为你生成设计\n\n他们这个架构真不错，由于底层是 Claude Code 所以可以直接调用 CC 的 Agent Teams 能力\n\n https://t.co/i78DJb3yGY",
+        "engagement": 329,
+        "url": "https://x.com/op7418/status/2026477053927895060"
+      },
+      {
+        "author": "JefferyTatsuya",
+        "text": "文档或者plan肯定也都是跟Agent沟通完，它来撰写的。\n\n现在的设计文档，都是md，而且因为它考虑的细节很详细，再加上丰富的上下文和调研，现在的设计文档都篇幅非常长非常详细，agent执行时基本不会跑偏。\n\n这是跟vibe coding本质的差别。\n\n随之而来的问题: 那只想修改几个点有什么好办法呢？",
+        "engagement": 6,
+        "url": "https://x.com/JefferyTatsuya/status/2026799277079671285"
+      }
+    ],
+    "key_facts": [
+      "Pencil 正式发布桌面版应用",
+      "原生支持 MCP（Model Control Protocol）协议",
+      "实现用户与 AI Agents 直接对话生成 UI/UX 设计，支持多 Agent 协作（Agent Teams）",
+      "底层集成 Claude Code，可调用其 Agent Teams 能力"
+    ],
+    "analyst_angle": "这标志着设计工具正式迈入‘AI-native’范式——不再仅是插件增强，而是以 Agent 为一等公民重构工作流，对 Figma 等传统设计平台构成结构性挑战。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_006",
+    "title": "🚀 Qwen3.5 系列大模型发布：397B参数旗舰多模态Agent模型开源，含Flash轻量版与多尺寸商用版本",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "alibaba_cloud",
+        "text": "Qwen3.5 is here. The next frontier of Native Multimodal Agents is open. 🚀\nWe are thrilled to release Qwen3.5-397B-A17B, our flagship open-weight vision-language model. Built for the future of coding, ",
+        "engagement": 306,
+        "url": "https://x.com/alibaba_cloud/status/2026507649643155811"
+      },
+      {
+        "author": "alibaba_cloud",
+        "text": "Accelerate your AI with native vision-language Flash models. ⚡️ Qwen3.5-flash is now live! Engineered for fast response times and peak performance via hybrid architecture.\n\nStart building: https://t.c",
+        "engagement": 134,
+        "url": "https://x.com/alibaba_cloud/status/2026848106382340578"
+      },
+      {
+        "author": "alibaba_cloud",
+        "text": "🚀 Qwen Coding Plan is now live on Alibaba Cloud Model Studio!\n\n✨ What you get:\n• 🔥 Latest Qwen3.5-Plus models\n• 💡 Fixed monthly subscription: from ~$10/mo (Lite) or ~$50/mo (Pro)\n• 📦 Up to 90K request",
+        "engagement": 83,
+        "url": "https://x.com/alibaba_cloud/status/2026522129018102068"
+      },
+      {
+        "author": "alibaba_cloud",
+        "text": "Deploy the next frontier of intelligence. 🚀 Qwen3.5-35b-a3b, 27b, and 122b-a10b are live on Model Studio! Experience higher inference efficiency with our new hybrid architecture.\n\nExplore: https://t.c",
+        "engagement": 73,
+        "url": "https://x.com/alibaba_cloud/status/2026843747216949420"
+      }
+    ],
+    "key_facts": [
+      "阿里巴巴云正式发布Qwen3.5系列模型，包括旗舰版Qwen3.5-397B-A17B（397B总参、仅17B激活），采用创新混合架构（Gated Delta Networks + Sparse MoE）",
+      "首次实现原生多模态Agent能力，支持GUI交互、视频理解与智能体工作流，并覆盖200+语言",
+      "同步推出Qwen3.5-Flash（高性能低延迟推理版）、Qwen3.5-Coding（Model Studio编码订阅服务，$10起/月）、及多尺寸商用模型（35B-A3B、27B、122B-A10B）"
+    ],
+    "analyst_angle": "这是中国首个面向生产级多模态Agent的开源超大规模模型家族，以‘稀疏激活+线性注意力’架构突破推理成本瓶颈，或将加速全球AI Agent从Demo走向企业级部署。",
+    "cluster_size": 4,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_007",
+    "title": "💡 Coding Agent 在2026年后爆发式普及",
+    "category": "other",
+    "importance": 6.5,
+    "sources": [
+      {
+        "author": "dongxi_nlp",
+        "text": "非常不理解的是，为什么似乎在2026年之后，短短两个月之内，coding agent 似乎瞬间就飞起了？",
+        "engagement": 288,
+        "url": "https://x.com/dongxi_nlp/status/2026778028747973104"
+      },
+      {
+        "author": "dotey",
+        "text": "跟 Agent Skills 火一样，首先是模型能力到了+Agent 工具成熟了，然后能力泛化能做非编程任务，从技术圈到了非技术圈",
+        "engagement": 71,
+        "url": "https://x.com/dotey/status/2026785816916234388"
+      }
+    ],
+    "key_facts": [
+      "多位观察者指出 coding agent 在2026年后约两个月内出现显著爆发",
+      "爆发归因于模型能力突破与 Agent 工具链成熟，且能力泛化至非编程任务，推动从技术圈向大众圈扩散"
+    ],
+    "analyst_angle": "这反映 AI Agent 已跨越技术临界点，进入实用化扩散阶段，但‘2026年’时间点存疑（当前为2024年），可能为推文笔误或指向某关键里程碑事件（如特定模型/框架发布），需交叉验证时间线",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260227_008",
+    "title": "🚀 谷歌发布 Nano Banana 2 图像生成模型（基于 Gemini 3.1 Flash Image，支持 4K 输出、显著改善中文渲染）",
+    "category": "product_launch",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "谷歌推出 Nano Banana 2 图像 AI 模型：支持 4K 分辨率输出、改进中文字符乱码问题. IT之家 2 月 27 日消息，谷歌现已正式推出 Nano Banana 2 图像模型，新版模型基于 Gemini 3.1 Flash Image 构建，相比上一代拥有更快的响应速度和更强的理解能力，对用户提示词的解析也更加精准。据谷歌透露，Nano Banana 2 在生成一致性方面有明显提升",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/035.htm"
+      },
+      {
+        "author": "WaytoAGI",
+        "text": "感谢宝玉老师推荐！可以让龙虾沉淀成skill，建议使用nano banana pro 4k 生图API生成（一定是4K的哦）\n\n下图是总结的昨晚直播内容，实测即使给到的信息不够全面也能先搜索提炼再生成\n\n有人觉得密度太大不好看，其实可以让它总结某个知识点，自己再根据图片信息倒推完整内容，相当于作为提词器，检查自己对知识点的掌握程度✌️",
+        "engagement": 250,
+        "url": "https://x.com/WaytoAGI/status/2026667142553199008"
+      },
+      {
+        "author": "op7418",
+        "text": "Nano Banana 2 图像生成模型已经在 Gemini APP 中上线！\n\n选择图片生成就可以用，模型名称显示 Nano Banana 2 ，同时默认生成图片的分辨率提升到了 2K。\n\n文字渲染也变好了，比原来 Gemini 里的 Nano Banana Pro 清晰了不少。 https://t.co/Lm8xOvlUNU",
+        "engagement": 157,
+        "url": "https://x.com/op7418/status/2027021180667043976"
+      },
+      {
+        "author": "op7418",
+        "text": "啊？Nano Banana Pro 又要更新？这模型还能更新啥 https://t.co/b9HXGI6b1O",
+        "engagement": 137,
+        "url": "https://x.com/op7418/status/2026837700079468948"
+      },
+      {
+        "author": "oran_ge",
+        "text": "昨晚谷歌正式发布了 Nano Banana 2！🍌\n基于 Gemini Flash 模型做推理，相比 Nano Banana Pro 的使用成本下降 50% 以上。\n在成本下降的同时，模型的文字能力大幅增强，且生成速度更快\n同事用它刻了一座石碑...效果极其震撼\n\n模型使用方式：\n1. Gemini 官方可以体验，提供2k分辨率，压缩画质，但好在每天有一些额度可以免费体验\n2. Labnana 与",
+        "engagement": 129,
+        "url": "https://x.com/oran_ge/status/2027158521692000737"
+      }
+    ],
+    "key_facts": [
+      "Nano Banana 2 是谷歌新推出的轻量级图像生成模型，基于 Gemini 3.1 Flash Image 架构",
+      "支持最高 4K 分辨率图像输出（前代为 2K），并在中文字符渲染、语义一致性、伪影抑制方面实现关键修复",
+      "已在 Gemini 官方 App 上线，默认启用 2K 分辨率；第三方平台 Labnana 提供无损 4K、API、Skills 集成等增强服务",
+      "推理成本较 Nano Banana Pro 降低超 50%，响应速度与提示词理解精度同步提升"
+    ],
+    "analyst_angle": "这标志着谷歌正将 Agentic 图像生成能力下沉至高性价比、高可用性终端模型层级，以差异化策略应对 MidJourney v6 / DALL·E 3 / Stable Diffusion 3 的竞争，并强化多语言（尤其中文）场景的落地可靠性。",
+    "cluster_size": 13,
+    "event_time": "2026-02-26T22:36:48Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_009",
+    "title": "🚀 谷歌 Gemini 智能手机助手发布：GUI 驱动跨 App 自动化代办（首发 Galaxy S26 & Pixel 10）",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "雷锋网",
+        "text": "谷歌版「豆包手机」发布，GUI 操作实现跨 App 代办. 近日，三星最新发布的 Galaxy S26 系列进一步强化与Gemini 的系统级整合，推出Gemini智能手机助手帮助用户自动完成任务，能力和国内“豆包手机助手”相近。据介绍，用户可通过长按侧键在系统层面唤醒 Gemini，并将其作为“代办任务”的入口，由Gemini自动完成多步骤操作，用户在此期间仍可继续使用手机，并可从通知栏实时查看",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/industrynews/c6KzB3j5X9QsOQPw.html"
+      },
+      {
+        "author": "op7418",
+        "text": "谷歌终于上线了这个功能，可以让 Gemini 操纵你手机的上方 APP 帮你完成任务\n\n首先会在外卖和打车软件上进行测试\n\n https://t.co/WVNRtQuzqR",
+        "engagement": 243,
+        "url": "https://x.com/op7418/status/2026833951940292972"
+      },
+      {
+        "author": "op7418",
+        "text": "在用户执行其他任务时在后台运行。\n\n用户可以通过通知实时监控 Gemini 的进度，以便随时了解其正在做什么并随时介入。\n\n首先会在Galaxy S26 系列和 Pixel 10 系列上推出",
+        "engagement": 7,
+        "url": "https://x.com/op7418/status/2026835728068653378"
+      }
+    ],
+    "key_facts": [
+      "Gemini 智能手机助手已随三星 Galaxy S26 和谷歌 Pixel 10 系列正式上线，支持系统级长按侧键唤醒",
+      "采用 GUI 操作方案实现跨应用自动化任务（如外卖、打车），可在用户前台使用手机时后台运行",
+      "用户可通过通知栏实时监控进度、介入或中止任务，标志安卓从操作系统向‘理解型智能系统’演进"
+    ],
+    "analyst_angle": "这是首个大规模落地的 LLM 原生系统级代理（Agent）功能，将大模型能力深度嵌入 OS 层，预示着移动交互范式正从 APP 中心转向任务中心，对 iOS 生态和国内 AI 手机厂商构成实质性竞速压力。",
+    "cluster_size": 3,
+    "event_time": "2026-02-26T08:04:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_010",
+    "title": "🚀 Anthropic Cowork 桌面助手上线定时任务、插件系统与企业级 Agent 自动化能力",
+    "category": "product_launch",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "dotey",
+        "text": "Claude Code/Cowork 迭代还真快，小龙虾🦞的定时任务也学过来了。\n\n现在有了远程操控 /remote-control 和定时任务，🦞的大部分任务都可以做了。\n\nAnthropic 的桌面工具 Cowork 新增了\"定时任务\"功能，用户可以让 Claude 在指定时间自动完成重复性工作——比如每天早上生成简报、每周更新表格、每周五准备团队演示文稿。\n\nCowork 是 Anthrop",
+        "engagement": 185,
+        "url": "https://x.com/dotey/status/2026756475801186704"
+      },
+      {
+        "author": "indigox",
+        "text": "Anthropic = MS Office + AWS + 牛马白领🤪 今天一小时直播发布了一堆 Enterprise Agents，主打企业协同与提效，让 Claude 交付\"接近最终成品\"的工作，不只是草稿建议，而是完整的可交付成果。\n\n新的三层价值框架\n\n- 更聪明的员工：Claude 将完全嵌入到 Excel、PowerPoint、Slack、桌面工作流；\n- 更快的流程：Claude 可",
+        "engagement": 171,
+        "url": "https://x.com/indigox/status/2026435157092348335"
+      },
+      {
+        "author": "indigox",
+        "text": "Cowork 的更新可帮助企业根据自身工作方式定制 Claude 的插件。这些插件可以将 Claude 变成适用于每个角色和部门的专属代理。现在，您可以构建私有市场，将这些代理分发到整个组织！详情 https://t.co/Enhw9eza17",
+        "engagement": 0,
+        "url": "https://x.com/indigox/status/2026438770283938040"
+      }
+    ],
+    "key_facts": [
+      "Anthropic 推出 Cowork 桌面端 AI 助手新版本，新增定时任务（/remote-control）、插件系统和自定义侧边栏面板",
+      "Cowork 现支持 macOS/Windows，面向非开发者用户，所有付费 Claude 用户可免费使用（研究预览阶段）",
+      "企业版同步发布三层价值框架：更聪明的员工（深度嵌入 Office/Slack/桌面）、更快的流程（理解监管报告/临床文档等全链路）、变革性产品（作为智能层重构企业软件）",
+      "新增私有插件市场、OpenTelemetry 可审计监控、MCP 连接器（Gmail/Drive/Docusign/FactSet 等 10+ 专业工具）、垂直领域插件（HR/投行/PR/股权研究等）",
+      "Cowork 插件支持组织内私有分发，使 Claude 可按角色/部门定制为专属 Agent"
+    ],
+    "analyst_angle": "Anthropic 正将 Claude 从‘对话式协作者’加速推向‘自治型工作流代理’，其 Cowork + 企业 Agent 双轨策略直指知识工作自动化核心——不是替代人，而是重定义‘可交付成果’的生产边界与组织基础设施要求。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_011",
+    "title": "🚀 AI驱动大规模组织重构：Block裁4000人、瑞穗金融裁5000岗，科技与金融行业开启“智能精简”范式",
+    "category": "market",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "瑞穗金融拟利用AI在未来十年裁减5000个行政岗位，将员工调岗至销售等部门. 2月27日消息，日本瑞穗金融集团计划利用人工智能（AI）技术，大幅减少文件审核、数据录入等任务所需的工作量，在未来十年裁减5000个行政岗位，同时提供技能再培训，把这些员工调配到销售、分析等业务支持部门，以提高盈利能力。出于因招聘减少和员工退休导致的自然减员，瑞穗计划最终将行政人员减少至多三分之一。（界面）",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3700865671671680?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "Block宣布AI重组裁员超4000人，股价盘后大涨逾24%. Block周四宣布将裁减超过4000名员工，占其员工总数的近一半。在盘后交易中，该公司股价飙升超过24%。“今天，我们与团队共同做出了一个艰难的决定，”Block联合创始人兼CEO杰克·多尔西在致股东的信中写道。“我们将公司规模缩减近一半，从超过10000名员工减少至约6000人，这意味着超过4000名员工将被要求离职或接受调岗安排。",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3700808197779337?f=rss"
+      },
+      {
+        "author": "dotey",
+        "text": "Block大裁员：Jack Dorsey 砍掉近半员工，称 AI 改变了公司运营方式\n\nBlock（前身为 Square）CEO Jack Dorsey 宣布裁员约 4000 人，将公司从超过 1 万人缩减至不到 6000 人，裁员比例接近一半。这是 Block 历史上规模最大的一次裁员。\n\nJack 在致全员信中强调，裁员并非因为经营困难——公司毛利润仍在增长，客户规模持续扩大，盈利能力也在改善",
+        "engagement": 133,
+        "url": "https://x.com/dotey/status/2027159428114362386"
+      },
+      {
+        "author": "oran_ge",
+        "text": "Square 宣布裁员 40%，这可能只是接下来裁员大潮的开始。\n公司没有任何经营困难，只是...\nAI 已经改变了组织运作的方式\nAI + 扁平化的组织方式，可以比之前 2 倍多的人做更多的事。\n未来的公司里，每个人都必须成为超级个体，做超出自己岗位边界的事。\n不要被动等待，现在就主动开始转变。",
+        "engagement": 60,
+        "url": "https://x.com/oran_ge/status/2027166167715213567"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "block大裁员又是今天的热点\n\n这个评论挺好，翻译一下：\n\n一家营收 240 亿美元、毛利还在快速增长（+24%）的公司，居然一边裁掉 4,000 人，一边把 2026 年毛利润指引上调到 122 亿美元。盘后股价直接飙涨 20%，市值大概瞬间多了 60 亿美元。折算下来，市场等于是按“每裁掉一个岗位，给公司多算约 150 万美元的企业价值”在定价。\n\n这就是 Block 发出的警报信号——“煤",
+        "engagement": 40,
+        "url": "https://x.com/jesselaunz/status/2027158577409090043"
+      }
+    ],
+    "key_facts": [
+      "Block宣布裁员超4000人（占员工总数近50%），从10000+人缩减至约6000人，主因是AI工具重塑运营模式，而非经营困难；毛利润持续增长，2026年毛利指引上调至122亿美元，盘后股价大涨24%",
+      "瑞穗金融集团计划十年内利用AI裁减5000个行政岗位（最多削减三分之一行政人员），将员工再培训后转岗至销售、分析等高价值业务部门",
+      "ASML、Salesforce、亚马逊、高盛、花旗、陶氏等多家巨头同步推进AI相关裁员或组织精简，共性特征为‘在增长中主动瘦身’，强调AI+扁平化团队可实现更高人效"
+    ],
+    "analyst_angle": "这标志着AI已从技术赋能层跃升为组织战略核心变量——企业估值逻辑正从‘人力规模×营收效率’转向‘AI能力×精锐团队杠杆率’，一场以生产力重构为本质的全球性企业治理范式革命正在加速落地。",
+    "cluster_size": 7,
+    "event_time": "2026-02-27T00:35:41Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_012",
+    "title": "📊 中国 AI 模型 2 月全球 Token 用量首超美国，MiniMax 等四款霸榜前五",
+    "category": "market",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "OpenRouter：中国 AI 模型 2 月全球 token 用量首超美国，MiniMax 等四款大模型霸榜前五. IT之家 2 月 27 日消息，在线 AI 托管平台 OpenRouter 最新数据显示，由 MiniMax、月之暗面（Moonshot AI）、智谱领衔的中国开源人工智能模型，已登顶全球 Token 使用量榜单。IT之家注：OpenRouter 聚合了全球众多顶尖 AI 大模型，",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/039.htm"
+      },
+      {
+        "author": "oran_ge",
+        "text": "年前发布的几个国产新模型的竞技场排名出来了\n排名最高的，没想到是第一次打榜的...豆包（Seed 2.0）\n\nSeed2.0不仅拿下了国内综合第一，还在全球总榜里冲进了前10。其他几家新模型，GLM5、文心5、Qwen3.5、Kimi K2.5，紧跟着排在了16 17 18 19 名。\n特别值得一提的是，Seed2.0视觉能力更是仅次于 Gemini 的三个版本，排名全球第4。考虑到Seed2.0",
+        "engagement": 124,
+        "url": "https://x.com/oran_ge/status/2026826543813767278"
+      }
+    ],
+    "key_facts": [
+      "OpenRouter 平台数据显示，2024年2月中国AI模型全球Token用量首次超越美国",
+      "MiniMax、月之暗面（Moonshot AI）、智谱、豆包（Seed 2.0）四款中国模型包揽OpenRouter全球Token用量榜前五",
+      "Seed 2.0在多项竞技场评测中表现突出：Hard Prompt第8、Coding第7、多模态理解全球第4（仅次于Gemini三版本），且推理成本仅为Gemini的1/5",
+      "OpenRouter作为聚合全球主流大模型的‘超级API平台’，其Token用量是反映实际开发者采纳度与市场热度的关键客观指标"
+    ],
+    "analyst_angle": "这标志着中国大模型已从‘参数竞赛’进入‘真实调用规模’阶段，商业化落地速度和工程化效率（如低成本多模态）正成为全球竞争力新支点。",
+    "cluster_size": 2,
+    "event_time": "2026-02-26T22:56:20Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_013",
+    "title": "🚀 牛马AI v1.0.23 正式发布：支持多场景人机协同、Skills生态与浏览器端扩展",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "yangyi",
+        "text": "已升级1.0.23版本，给大家来发一波邀请码\n500次使用：NM-32KK-9NDW\n下载地址:https://t.co/I98Puo1N6e\n\n分享一下群友们在用牛马AI做什么：\n\n1、提供演讲稿，生成PPT\n2、汇总Excel表格做多表数据处理\n3、自媒体流程（选题-文字稿-发布），数据采集分析（多社媒平台利用Playwright汇总报表进行内容分析）\n4、利用牛马AI清理桌面垃圾文件，梳理文",
+        "engagement": 84,
+        "url": "https://x.com/yangyi/status/2026957567717761301"
+      },
+      {
+        "author": "yangyi",
+        "text": "v1.0.22版本已发布，新用户登录问题终于解决好了\n当前如果进入后遇到code1的问题，很可能是本地claude code版本过低导致的（曾经安装过，一直没升级）\n建议手动升级一下，一般都能解决\n\n另外，推荐大家有什么不清楚的先询问一下引导助手，包括你对牛马AI不了解的，或者你希望牛马AI帮助你做的工作，问问它会有收获\n\n产品下载地址：https://t.co/I98Puo1N6e\n附上200个",
+        "engagement": 26,
+        "url": "https://x.com/yangyi/status/2026480496033804329"
+      },
+      {
+        "author": "vista8",
+        "text": "Yangyi兄的牛马AI内测地址：https://t.co/zNn1rJTeIw\n\n内测邀请码，可以用50次：NM-2GHX-5X6N",
+        "engagement": 11,
+        "url": "https://x.com/vista8/status/2027034762020589740"
+      },
+      {
+        "author": "yangyi",
+        "text": "@Jackywine 牛马AI接下来视窗会重构一下，也能支持浏览器了",
+        "engagement": 2,
+        "url": "https://x.com/yangyi/status/2026860167355314432"
+      },
+      {
+        "author": "yangyi",
+        "text": "@yuyy614893671 @dotey 我正在构建 跑通后我会把这个能力固化到牛马ai里 把插件规范也给它 这样人们都可以自己构建属于自己的人机协同基座",
+        "engagement": 1,
+        "url": "https://x.com/yangyi/status/2027181533170389351"
+      }
+    ],
+    "key_facts": [
+      "牛马AI正式发布v1.0.23版本，修复v1.0.22中用户登录异常（code1错误）等关键问题",
+      "新增500次调用邀请码（NM-32KK-9NDW），支持PPT生成、Excel多表处理、OCR发票识别、TG量化机器人、Sora2/Veo3/Seedance视频生成等11类真实用户工作流",
+      "明确宣布‘视窗重构’并支持浏览器端运行，同时规划插件规范与自建人机协同基座能力，向开放Skills生态演进"
+    ],
+    "analyst_angle": "牛马AI正从单点AI工具快速进化为低门槛、高扩展性的本地化人机协同操作系统，其Skills+浏览器+插件规范路线图直指Copilot OS级定位，填补国内轻量级AI Agent基座空白。",
+    "cluster_size": 11,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_014",
+    "title": "🚀 闪电说（Lightning Say）上线支持 Skills 的 Agent 功能，即将集成 Computer Use",
+    "category": "product_launch",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "vista8",
+        "text": "正在体验闪电说的Agent功能，有点意思！\n\n支持读取屏幕内容，然后用设定好的Skill回复，很适合客服和运营场景啊。\n\n据说后续还会支持Computer Use，一句话让AI执行复杂任务，非常期待。 https://t.co/Gy87nBfUmj",
+        "engagement": 79,
+        "url": "https://x.com/vista8/status/2027001485016666607"
+      },
+      {
+        "author": "dotey",
+        "text": "@yaoeryi @sitinme 支持skills的就可以",
+        "engagement": 0,
+        "url": "https://x.com/dotey/status/2026883073862734329"
+      }
+    ],
+    "key_facts": [
+      "闪电说已上线具备 Skill 支持的 Agent 功能",
+      "当前支持读取屏幕内容并基于预设 Skill 自动回复，适用于客服与运营场景",
+      "官方透露后续将支持 Computer Use，实现自然语言驱动复杂本地任务执行"
+    ],
+    "analyst_angle": "标志着国内轻量级 AI Agent 产品正从对话式交互迈向具身操作（screen reading + action execution），为垂直场景自动化提供新范式。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_015",
+    "title": "🌐 龙虾（Lobster）开源项目在 GitHub 上线并启动社区贡献",
+    "category": "open_source",
+    "importance": 6.5,
+    "sources": [
+      {
+        "author": "dontbesilent",
+        "text": "把龙虾放在群晖 NAS 里面了，家养🦞 https://t.co/gnQGqKTqHx",
+        "engagement": 74,
+        "url": "https://x.com/dontbesilent/status/2026685121106161864"
+      },
+      {
+        "author": "FinanceYF5",
+        "text": "对话龙虾github开发贡献者 @AIRain2049 https://t.co/ENbmms4kwX",
+        "engagement": 4,
+        "url": "https://x.com/FinanceYF5/status/2026879432515076163"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "@ootR77013489 哈哈。在github里一般吧",
+        "engagement": 0,
+        "url": "https://x.com/jesselaunz/status/2026899532399915340"
+      },
+      {
+        "author": "dotey",
+        "text": "@goocarlos @Forbes @annatonger 厉害的👍",
+        "engagement": 0,
+        "url": "https://x.com/dotey/status/2026893028141502715"
+      },
+      {
+        "author": "op7418",
+        "text": "@xianlezheng 要加的，后面会把 Git 整合进去。",
+        "engagement": 0,
+        "url": "https://x.com/op7418/status/2026639161273496018"
+      }
+    ],
+    "key_facts": [
+      "项目代号'龙虾'（Lobster）已正式托管于 GitHub",
+      "已有开发者参与贡献，社区互动初现（如开发讨论、Git 工具链整合规划）",
+      "项目与群晖 NAS 场景产生趣味性关联（非官方集成，属爱好者实验性尝试）"
+    ],
+    "analyst_angle": "虽尚处早期阶段，但命名鲜明、社区自发互动活跃，暗示可能是一个面向边缘/家庭AI或NAS增强场景的轻量级开源工具链雏形，值得关注其后续技术定位与生态扩展。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_016",
+    "title": "🚀 DJI 多款影像新品集中发布：Inspire 3、Osmo Pocket 3、RS 5、Osmo Mobile 8 与 Osmo 360",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "DJIGlobal",
+        "text": "With its transformable design and powerful imaging system, #DJI Inspire 3 adapts to the scene and captures light with cinematic precision.\n🎥Best-FPV\n#DJIRonin #Inspire3 https://t.co/cVMvRguMgL",
+        "engagement": 68,
+        "url": "https://x.com/DJIGlobal/status/2026507487252185570"
+      },
+      {
+        "author": "DJIGlobal",
+        "text": "Thinking about #Pocket3? This is your hint.🔥It’s worth it.\n🎥: lifewithelliott\n#DJI #DJIOsmo #OsmoPocket3 https://t.co/veJ1TNhibL",
+        "engagement": 65,
+        "url": "https://x.com/DJIGlobal/status/2026764347721085182"
+      },
+      {
+        "author": "DJIGlobal",
+        "text": "#DJI RS 5 Unboxing ASMR for those who craft motion.✨\n🎥 itspatj\n#DJIRonin #DJIRS5 #RS5 https://t.co/6Fo9fa6lI9",
+        "engagement": 64,
+        "url": "https://x.com/DJIGlobal/status/2026674106830065673"
+      },
+      {
+        "author": "DJIGlobal",
+        "text": "Still wondering if you need an #OsmoMobile8?👀 If your phone is already good, stabilization changes everything.\n🎥: dorpell\n#DJI #DJIOsmo https://t.co/pGAG1EwDvm",
+        "engagement": 38,
+        "url": "https://x.com/DJIGlobal/status/2026568624341713125"
+      },
+      {
+        "author": "DJIGlobal",
+        "text": "Ever played ice hockey?🏒 With #Osmo360, you’re brought straight onto the ice, capturing the game exactly as it feels from the helmet.\n🎥: swaggyp_63\n#DJI #DJIOsmo #360camera https://t.co/w8pl3w6LLW",
+        "engagement": 33,
+        "url": "https://x.com/DJIGlobal/status/2026930786843160866"
+      }
+    ],
+    "key_facts": [
+      "DJI 官方账号密集发布 Inspire 3（专业级可变形航拍平台）、Osmo Pocket 3（第三代口袋云台相机）、RS 5（新一代手持云台）、Osmo Mobile 8（手机云台）及 Osmo 360（全景运动相机）五款新品",
+      "各推文均附带实拍样片/ASMR开箱/场景化演示，强调‘ cinematic precision’、‘stabilization changes everything’、‘capturing the game as it feels’等核心体验升级",
+      "产品线覆盖专业影视（Inspire/RS）、Vlog创作者（Pocket/Mobile）、极限运动（360）三大高增长影像赛道"
+    ],
+    "analyst_angle": "DJI 此次并非单点突破，而是以全栈影像硬件矩阵升级回应AI视频时代对高质量源头素材的刚性需求——云台、传感器、光学与人体工学协同进化，进一步抬高消费级与准专业级影像创作门槛。",
+    "cluster_size": 6,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_017",
+    "title": "🤖 Agent 协同实验：飞书机器人接入 OpenClaw + Manus API 实现跨 Agent 调用",
+    "category": "open_source",
+    "importance": 6.2,
+    "sources": [
+      {
+        "author": "dontbesilent",
+        "text": "给豆包 AI 手机装了飞书\n飞书机器人连接了 openclaw\n给 openclaw 配置了 manus API\nopenclaw 也可以调用 mac 上面的 claude code\n\n你干不了的就调用另外一个 Agent 即可\n\n理论上可以通过嘴遁，让 Agent 之间相互赋能了\n\n实际执行起来……有点乱套😂Agent 太多了",
+        "engagement": 45,
+        "url": "https://x.com/dontbesilent/status/2026714496220402112"
+      },
+      {
+        "author": "dontbesilent",
+        "text": "@KKthinksoutloud /manus 我也接进去了，查东西反应太慢了，没有 perplexity 快",
+        "engagement": 3,
+        "url": "https://x.com/dontbesilent/status/2026936391729557595"
+      },
+      {
+        "author": "dontbesilent",
+        "text": "@mingyanch @KKthinksoutloud 好像没法说，manus 也是通用 Agent，能干的活儿太多\n\n生图 调研 做 PPT",
+        "engagement": 0,
+        "url": "https://x.com/dontbesilent/status/2027019515150926114"
+      }
+    ],
+    "key_facts": [
+      "飞书机器人成功连接开源 Agent 框架 OpenClaw",
+      "OpenClaw 配置 Manus API，支持调用本地 Claude Code（macOS）",
+      "实现多 Agent 协同调用雏形：当某 Agent 能力不足时，可委托其他 Agent 执行（如生图、调研、PPT生成）"
+    ],
+    "analyst_angle": "这标志着轻量级、用户可自主组装的开源 Agent 编排实践正从概念走向桌面端落地，虽尚处混乱实验阶段，但预示着去中心化 Agent 工作流生态的萌芽。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_018",
+    "title": "💡 AI GUI测试中的人机协同新范式：人类校验测试用例以缓解幻觉",
+    "category": "research",
+    "importance": 6.8,
+    "sources": [
+      {
+        "author": "xicilion",
+        "text": "我就说 vide 时代测试用例比代码值钱吧",
+        "engagement": 43,
+        "url": "https://x.com/xicilion/status/2027116159703888095"
+      },
+      {
+        "author": "yangyi",
+        "text": "@dotey 我在想会不会催生出一类人肉测试岗位。\nAI写好测试用例，人类读完，帮助AI完成GUI测试。\n\n就像验证码一样。\n当多数人完成的操作链路是类似的，AI就会学会。\n\n这样解决了AI自主冷启动GUI测试时高频幻觉的问题。\n\n我目前的卡点往往是在GUI测试上……",
+        "engagement": 14,
+        "url": "https://x.com/yangyi/status/2026530937270579556"
+      }
+    ],
+    "key_facts": [
+      "提出‘人肉测试员’作为AI GUI测试冷启动的桥梁角色",
+      "类比验证码机制，利用人类对相似操作链路的重复反馈训练AI理解真实GUI交互",
+      "核心动机是解决当前AI在自主生成/执行GUI测试时的高频幻觉问题"
+    ],
+    "analyst_angle": "这反映了AI工程化落地中‘人类在环（human-in-the-loop）’正从辅助调试转向结构性测试基础设施，预示GUI自动化测试可能率先形成新型人机分工范式。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260227_019",
+    "title": "📌 Huawei supports China Mobile Hong Kong in managing 5–10× New Year traffic surge",
+    "category": "chip_hardware",
+    "importance": 6.2,
+    "sources": [
+      {
+        "author": "Huawei",
+        "text": "As Hong Kong counts down to the New Year, tens of thousands gather at hotspots to welcome 2026. Behind the scenes, China Mobile Hong Kong and Huawei face the challenge of safeguarding a network facing",
+        "engagement": 35,
+        "url": "https://x.com/Huawei/status/2026944424857805290"
+      },
+      {
+        "author": "Huawei",
+        "text": "One farmer used his acquired knowledge to benefit his entire community! #DigiTruck #Huawei",
+        "engagement": 26,
+        "url": "https://x.com/Huawei/status/2026560460221563071"
+      },
+      {
+        "author": "Huawei",
+        "text": "Learn how post-deployment tests recorded a rise in regional traffic by 6.8%, while improving operations and maintenance efficiency by a factor of 30x: https://t.co/LOSXBFV5Rt #Huawei #HuaweiNews",
+        "engagement": 10,
+        "url": "https://x.com/Huawei/status/2026551052527612172"
+      },
+      {
+        "author": "Huawei",
+        "text": "This is #TECHcares in action, ensuring that we stay connected in moments that matter. Learn more at: https://t.co/pbBsQB9uDH #Huawei #BetterTogether",
+        "engagement": 9,
+        "url": "https://x.com/Huawei/status/2026944916237189347"
+      },
+      {
+        "author": "Huawei",
+        "text": "In some cities, #UrbanHeat can raise temperatures up to 10°C. Explore #Huawei #Transform to discover solutions for restructuring cooler, more resilient cities: https://t.co/FnRQXFYxxp #ThisIsHuawei",
+        "engagement": 6,
+        "url": "https://x.com/Huawei/status/2026597732115427347"
+      }
+    ],
+    "key_facts": [
+      "Huawei partnered with China Mobile Hong Kong to handle 5–10× network traffic surge during Hong Kong's 2026 New Year celebrations",
+      "Post-deployment tests showed 6.8% regional traffic increase and 30x improvement in O&M efficiency"
+    ],
+    "analyst_angle": "This highlights Huawei's real-world infrastructure resilience—especially in carrier-grade networking and intelligent O&M solutions—amid peak-load scenarios, reinforcing its role in telecom hardware and software-defined network optimization.",
+    "cluster_size": 6,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_020",
+    "title": "🚀 Google NotebookLM 推出新教学应用场景（课件驱动的AI授课辅助）",
+    "category": "product_launch",
+    "importance": 6.5,
+    "sources": [
+      {
+        "author": "dotey",
+        "text": "这个借助 NotebookLM 讲课的用法不错👍\nhttps://t.co/DxGOanP8IG",
+        "engagement": 30,
+        "url": "https://x.com/dotey/status/2026457611885756845"
+      },
+      {
+        "author": "dotey",
+        "text": "@LiGongBa_AI @iDemoChen @FightyAI @arkuy99 我印象中notebooklm有skill的，可以用它的skill生成素材，导出素材，但是我没试过",
+        "engagement": 2,
+        "url": "https://x.com/dotey/status/2026526097995608554"
+      },
+      {
+        "author": "dotey",
+        "text": "@lovevfp 不是，notebooklm根据课件生成的",
+        "engagement": 0,
+        "url": "https://x.com/dotey/status/2027094409511104726"
+      }
+    ],
+    "key_facts": [
+      "Google NotebookLM 被用于基于课件自动生成讲课内容，提升教学准备效率",
+      "用户确认 NotebookLM 支持 'skill' 功能，可生成并导出教学素材",
+      "该用法非官方宣传但已形成可复现的工作流，体现产品在教育场景的实质性落地"
+    ],
+    "analyst_angle": "NotebookLM 正从研究型AI笔记工具向轻量级教育生产力工具演进，虽未官宣教育垂直功能，但真实用户场景正加速验证其B2E（Business-to-Educator）潜力。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_021",
+    "title": "📊 2026年中国春节消费数据创纪录：旅游收入1170亿美元，鲜花市场年交易额19.5亿美元",
+    "category": "market",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "SixthTone",
+        "text": "Dounan, Asia’s largest fresh-cut flower market, moves billions of stems each year, connecting growers across Yunnan with buyers nationwide. Last year, it recorded 13.48 billion yuan (about $1.95 billi",
+        "engagement": 17,
+        "url": "https://x.com/SixthTone/status/2026756652049875006"
+      },
+      {
+        "author": "SixthTone",
+        "text": "Villagers light firecrackers during a traditional parade honoring local deities in the first lunar month in the Chaoshan region of the southern Guangdong province, Feb. 24, 2026. VCG https://t.co/AQak",
+        "engagement": 16,
+        "url": "https://x.com/SixthTone/status/2026557975884869902"
+      },
+      {
+        "author": "SixthTone",
+        "text": "China’s Spring Festival box office totaled 5.75 billion yuan ($805 million) in 2026, drawing 120 million admissions, even as average ticket prices fell 6%. https://t.co/hYuTdiqudL",
+        "engagement": 7,
+        "url": "https://x.com/SixthTone/status/2026914917459062857"
+      },
+      {
+        "author": "SixthTone",
+        "text": "China logged 596 million domestic trips during Chinese New Year, generating 803 billion yuan ($117 billion) in tourism spending, both record highs. https://t.co/qKAxhFoTFy",
+        "engagement": 6,
+        "url": "https://x.com/SixthTone/status/2026634588940853698"
+      }
+    ],
+    "key_facts": [
+      "2026年春节国内旅游达5.96亿人次，旅游收入8030亿元人民币（约1170亿美元），均创历史新高",
+      "云南斗南花卉市场作为亚洲最大鲜切花市场，2025年交易额达134.8亿元人民币（约19.5亿美元）",
+      "2026年春节档票房57.5亿元人民币（约8.05亿美元），观影人次1.2亿"
+    ],
+    "analyst_angle": "春节消费数据全面超预期，凸显中国内需韧性与区域特色产业（如斗南花卉）的规模化、供应链化升级能力，预示假日经济与下沉市场消费升级持续加速。",
+    "cluster_size": 4,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_022",
+    "title": "📌 《三国演义》绣像图+AI上色生成吕布貂蝉真人视频",
+    "category": "other",
+    "importance": 2.5,
+    "sources": [
+      {
+        "author": "jesselaunz",
+        "text": "OK， 吕布与貂蝉 绣像版转真人视频😁 https://t.co/d6o5YKHEp1",
+        "engagement": 12,
+        "url": "https://x.com/jesselaunz/status/2026573231851974834"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "pdfresources搜索三国演义，发现一本三国全图演义\n\n刷了一下，基本上根据三国演义出场顺序画的绣像\n\n吕布和貂蝉在相邻2页 ，让nano banna pro加个彩色画在一块 https://t.co/8egcF9eRff",
+        "engagement": 12,
+        "url": "https://x.com/jesselaunz/status/2026562901495132221"
+      }
+    ],
+    "key_facts": [
+      "用户利用PDF资源检索到《三国全图演义》绣像集，按原著出场顺序绘制人物",
+      "将相邻页的吕布与貂蝉绣像用nano banna pro进行AI彩色增强与合成",
+      "进一步生成吕布与貂蝉的真人风格短视频"
+    ],
+    "analyst_angle": "属于个人AIGC玩梗式实践，技术门槛低、传播性强但无模型/工具/数据层面创新，属典型社交媒体轻量级AI应用示例。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_023",
+    "title": "📌 阿里云百炼平台用户集中反馈模型响应慢、API调用报错等体验问题",
+    "category": "product_launch",
+    "importance": 4.2,
+    "sources": [
+      {
+        "author": "alibaba_cloud",
+        "text": "@ChengYi3629 可能是API key和模型地址不匹配，您可以私信小编提供下阿里云账号，我们做下具体排查",
+        "engagement": 6,
+        "url": "https://x.com/alibaba_cloud/status/2026456967863218373"
+      },
+      {
+        "author": "alibaba_cloud",
+        "text": "@Axiaochouwang 来啦，别担心，轻量服务器卡顿问题可以联系阿里云售后技术，协助您一起解决。",
+        "engagement": 5,
+        "url": "https://x.com/alibaba_cloud/status/2026986182761140684"
+      },
+      {
+        "author": "alibaba_cloud",
+        "text": "@GlocalTerapy 亲，别生气哈，有技术问题可以联系阿里云售后技术，协助您处理。",
+        "engagement": 4,
+        "url": "https://x.com/alibaba_cloud/status/2027051899237900745"
+      },
+      {
+        "author": "alibaba_cloud",
+        "text": "@punkcan 感谢反馈！关于模型反应慢的问题，可以联系阿里云售后技术，我们会持续优化平台体验。如有其他问题，欢迎随时联系。",
+        "engagement": 4,
+        "url": "https://x.com/alibaba_cloud/status/2027001443279097871"
+      },
+      {
+        "author": "alibaba_cloud",
+        "text": "@xlight 感谢反馈！关于模型报错问题，可以联系阿里云售后技术，我们会持续优化平台体验。如有其他问题，欢迎随时联系。",
+        "engagement": 3,
+        "url": "https://x.com/alibaba_cloud/status/2027001011244826931"
+      }
+    ],
+    "key_facts": [
+      "阿里云官方账号密集回应多位用户关于百炼平台模型响应慢、API key与模型地址不匹配、运行卡顿及报错等问题",
+      "所有回复均未提供具体技术原因或修复时间表，统一引导用户联系售后技术支持",
+      "事件反映百炼平台近期可能存在服务稳定性或集成配置层面的批量性体验退化"
+    ],
+    "analyst_angle": "此类集中式用户体验投诉虽未构成重大故障公告，但暗示阿里云百炼作为面向开发者的MaaS平台，在模型服务抽象层（如路由、鉴权、负载均衡）可能存在未公开的运维压力或灰度升级异常，需警惕客户留存与开发者口碑风险。",
+    "cluster_size": 9,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_024",
+    "title": "📌 Max API 服务出现不稳定现象，用户呼吁增加备用 API 方案",
+    "category": "other",
+    "importance": 3.5,
+    "sources": [
+      {
+        "author": "dontbesilent",
+        "text": "@bearliu max 也有用爆的时候，弄个 API 兜底吧",
+        "engagement": 5,
+        "url": "https://x.com/dontbesilent/status/2026522609610010875"
+      },
+      {
+        "author": "dingyi",
+        "text": "@bearliu 感动的我都想替他们维权了🤣",
+        "engagement": 4,
+        "url": "https://x.com/dingyi/status/2026930576200994861"
+      },
+      {
+        "author": "dingyi",
+        "text": "@bearliu 是哈哈哈，100 买的",
+        "engagement": 4,
+        "url": "https://x.com/dingyi/status/2026510990477861270"
+      },
+      {
+        "author": "dontbesilent",
+        "text": "@houzi777 @bearliu https://t.co/WbPGOIY6c0",
+        "engagement": 1,
+        "url": "https://x.com/dontbesilent/status/2026570080457564384"
+      }
+    ],
+    "key_facts": [
+      "用户反馈 Max（疑似 Anthropic Claude Max 或某大模型 API 服务）出现调用失败或‘用爆’情况",
+      "有用户建议通过 API 兜底方案提升服务稳定性",
+      "相关讨论附带外部链接（t.co/WbPGOIY6c0），但未提供具体内容摘要"
+    ],
+    "analyst_angle": "该事件反映当前主流大模型 API 服务在高并发场景下的稳定性挑战，但因信息碎片化、缺乏官方确认及技术细节，尚不足以构成重大产品或架构事件，属于短期可用性波动类噪声信号。",
+    "cluster_size": 4,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_025",
+    "title": "💡 Grok 模型在视频生成与事实核查中的表现引发用户讨论",
+    "category": "other",
+    "importance": 4.2,
+    "sources": [
+      {
+        "author": "jesselaunz",
+        "text": "@grok 的第一版解释不对，不是人类化文本问题，而是抓“胡扯淡”的能力 https://t.co/713j7ZuOn2",
+        "engagement": 4,
+        "url": "https://x.com/jesselaunz/status/2026447416640389234"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "@LinearUncle @grok 我只用grok。com做视频。@grok大概每次都根据上下文，比较准确",
+        "engagement": 2,
+        "url": "https://x.com/jesselaunz/status/2026760950142120041"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "图片传grok转成视频。这台词是@grok 自个想的，有点白话😅\n\nhttps://t.co/KgJWcNhZOH",
+        "engagement": 2,
+        "url": "https://x.com/jesselaunz/status/2026579156121825697"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "@grok 为何2017年就可以做出这样的预言，那时候的工作能有这么大的经验值吗？",
+        "engagement": 1,
+        "url": "https://x.com/jesselaunz/status/2026556646613463277"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "@grok 解释有点不对，参照检测源头链接重新解释 https://t.co/a3epYJYns1",
+        "engagement": 1,
+        "url": "https://x.com/jesselaunz/status/2026446597090111630"
+      }
+    ],
+    "key_facts": [
+      "用户指出 Grok 在解释性任务中存在‘抓胡扯淡’能力不足的问题",
+      "用户反馈 Grok 在视频生成（图片转视频）场景下能自主生成白话台词，但准确性存疑",
+      "存在对 Grok 历史预言能力的质疑（如2017年相关推断），反映对其训练数据与推理依据的困惑"
+    ],
+    "analyst_angle": "这并非官方发布或技术更新，而是终端用户基于实际使用体验提出的零散观察与质疑，折射出当前多模态大模型在可解释性、事实一致性及上下文可信度评估方面的普遍挑战。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260227_026",
+    "title": "📌 多显示器配置与双系统使用体验讨论",
+    "category": "other",
+    "importance": 2.5,
+    "sources": [
+      {
+        "author": "dingyi",
+        "text": "@wulujia 所以手机和电脑都是双系统，只用一个还是不行",
+        "engagement": 3,
+        "url": "https://x.com/dingyi/status/2026986766184689732"
+      },
+      {
+        "author": "dingyi",
+        "text": "@riverleaf88 哦对，我也不是很懂 Linux，但就算感觉这套操作流程比 Mac 顺手很多",
+        "engagement": 0,
+        "url": "https://x.com/dingyi/status/2027035826274898265"
+      },
+      {
+        "author": "dingyi",
+        "text": "@Lucius_Chen 看使用习惯吧，笔记本最大化还好，台式机还是喜欢这种多窗口的",
+        "engagement": 0,
+        "url": "https://x.com/dingyi/status/2026999445997724050"
+      },
+      {
+        "author": "dontbesilent",
+        "text": "@wufi82493858 暂时够用，就是不好塞进去第三个显示器",
+        "engagement": 0,
+        "url": "https://x.com/dontbesilent/status/2026579747711627441"
+      }
+    ],
+    "key_facts": [
+      "用户讨论手机和电脑采用双系统配置的实用性",
+      "部分用户反馈Linux操作流程比macOS更顺手",
+      "多显示器扩展受限（如难以接入第三台显示器）"
+    ],
+    "analyst_angle": "这些零散评论反映终端用户在混合操作系统与多屏工作流中的真实痛点，但未指向具体产品、技术发布或行业动向，属于低信噪比的日常使用反馈。",
+    "cluster_size": 4,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260227_027",
+    "title": "📌 无效或噪声推文：疑似随机码分享",
+    "category": "other",
+    "importance": 1.0,
+    "sources": [
+      {
+        "author": "yangyi",
+        "text": "@vesisjdodos NM-DQ2G-VDTZ\n这码可以多次用",
+        "engagement": 3,
+        "url": "https://x.com/yangyi/status/2026859819412631803"
+      },
+      {
+        "author": "yangyi",
+        "text": "@KIKO37882 NM-H7W7-DU6T",
+        "engagement": 1,
+        "url": "https://x.com/yangyi/status/2026569204682694671"
+      }
+    ],
+    "key_facts": [
+      "两条推文均含疑似随机生成的短码（如 NM-DQ2G-VDTZ、NM-H7W7-DU6T）",
+      "无上下文、无链接、无说明，未提及任何产品、技术、组织或事件",
+      "发布者账号信息缺失（unknown），无认证标识，无历史内容佐证"
+    ],
+    "analyst_angle": "此类推文缺乏可验证的事实要素和语义信息，无法关联到任何真实行业事件，应视为社交平台噪声，不构成有效情报。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_028",
+    "title": "📌 “超级个体”与“轻量化”概念模糊引发讨论",
+    "category": "other",
+    "importance": 3.5,
+    "sources": [
+      {
+        "author": "dontbesilent",
+        "text": "@Justin_Jia00813 那岂不是雇了人类就不超级了？",
+        "engagement": 2,
+        "url": "https://x.com/dontbesilent/status/2026955981549437041"
+      },
+      {
+        "author": "dontbesilent",
+        "text": "@li_sheng97651 @Justin_Jia00813 这是把一个没有定义的概念甩给了另外一个没有定义的概念\n\n超级个体没有定义，我们就用轻量化去代替这个定义\n\n但是多轻才算轻？怎么才算轻？怎么又算重了？依然没有定义",
+        "engagement": 0,
+        "url": "https://x.com/dontbesilent/status/2027014796521124004"
+      }
+    ],
+    "key_facts": [
+      "推文质疑“超级个体”缺乏明确定义",
+      "提出用“轻量化”替代但指出其同样未被定义",
+      "追问“多轻才算轻”“如何界定轻重”等操作性问题"
+    ],
+    "analyst_angle": "反映出AI时代流行术语在实践落地前存在语义空转风险，亟需行业共识或可度量标准来支撑概念转化",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260227_029",
+    "title": "📌 Figma 定价争议引发用户不满",
+    "category": "market",
+    "importance": 4.2,
+    "sources": [
+      {
+        "author": "dingyi",
+        "text": "@yuwen_lu_ 在硅谷也嫌 figma 贵吗？国内是真用不起了🤣",
+        "engagement": 2,
+        "url": "https://x.com/dingyi/status/2026530514794852734"
+      },
+      {
+        "author": "dingyi",
+        "text": "@FarewelltoWind 垃圾 figma",
+        "engagement": 1,
+        "url": "https://x.com/dingyi/status/2026732991830176059"
+      },
+      {
+        "author": "dingyi",
+        "text": "@K4yW9ng 和 figma 一个价",
+        "engagement": 0,
+        "url": "https://x.com/dingyi/status/2026875323154051279"
+      }
+    ],
+    "key_facts": [
+      "多位用户在社交平台吐槽 Figma 定价过高，称‘国内真用不起了’",
+      "出现将竞品与 Figma 价格直接类比的负面评价（如‘和 figma 一个价’）",
+      "情绪化表述如‘垃圾 figma’反映用户对商业化策略的强烈抵触"
+    ],
+    "analyst_angle": "Figma 高价策略正加剧其在中国等价格敏感市场的用户流失风险，可能为国产设计工具（如MasterGo、Pixso）创造替代性增长窗口。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260227_030",
+    "title": "📌 蓝奏云相关讨论（疑似服务调整或用户迁移）",
+    "category": "other",
+    "importance": 2.0,
+    "sources": [
+      {
+        "author": "yangyi",
+        "text": "@f0restzet 你是海外线路吗 我都要把蓝奏云去了",
+        "engagement": 1,
+        "url": "https://x.com/yangyi/status/2026960765434187856"
+      },
+      {
+        "author": "vista8",
+        "text": "@furunxun google可以用表达式搜，也有zlib和安娜档案，但有人整理在一起做网站，还是方便很多。\n\n不见",
+        "engagement": 0,
+        "url": "https://x.com/vista8/status/2026560809544155618"
+      }
+    ],
+    "key_facts": [
+      "用户提及‘要把蓝奏云去了’，暗示可能弃用或迁移服务",
+      "另一用户对比提及Google搜索、zlib、安娜档案等替代资源"
+    ],
+    "analyst_angle": "该讨论仅反映个别用户的工具使用偏好变化，无机构公告、产品更新或行业影响证据，属低信噪比的日常网络闲聊。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_031",
+    "title": "📌 事件标题不明确，缺乏有效信息",
+    "category": "other",
+    "importance": 1.0,
+    "sources": [
+      {
+        "author": "yangyi",
+        "text": "@KaUB2mIAiYWjhZ5 NM-H7W7-DU6T",
+        "engagement": 1,
+        "url": "https://x.com/yangyi/status/2026569183887311221"
+      },
+      {
+        "author": "yangyi",
+        "text": "@KaUB2mIAiYWjhZ5 啥工作流。。",
+        "engagement": 1,
+        "url": "https://x.com/yangyi/status/2026563535871078427"
+      }
+    ],
+    "key_facts": [
+      "推文内容为无效提及（疑似乱码或失效引用）",
+      "无实质性事件描述、主体、时间或上下文"
+    ],
+    "analyst_angle": "该推文未提供任何可验证的行业事件信息，属于社交平台噪声，不具备情报价值。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_032",
+    "title": "🔧 三星电子将停产2D NAND闪存，转向1c nm DRAM产线；DRAM/NAND涨价引发终端市场连锁反应",
+    "category": "chip_hardware",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "氪星晚报 ｜魅族手机或将成为历史：业务实质性停摆，3月正式退市；英伟达黄仁勋：年内将寻机进行资本运作. 大公司：\n  英伟达黄仁勋：年内将寻机进行资本运作\n  美东时间周三盘后，在英伟达财报电话会上，公司CEO黄仁勋表示，公司仍在持续开展股票回购和股息分红，并将在年内寻找合适的时机，把握独特的投资机会，推进相关资本运作。他还指出，生态系统投资将始终是公司资本配置的核心环节，同时我们也会持续推进战略",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3699924181134984?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "IDC：智能手机市场恐将因存储芯片供应短缺而下滑 13%. IT之家 2 月 27 日消息，国际数据公司（IDC）今日发布全球 PC 和手机市场的最新预测，称当前形势甚至比几个月前最悲观的情景还要严峻。报告显示，2025 年末，随着市场对 DRAM 与 NAND 闪存价格上涨的担忧加剧，PC 与智能手机厂商纷纷采取激进措施提前应对。正如 2025 年第四季度 PC 与手机历史出货量新闻稿所示，20",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/041.htm"
+      }
+    ],
+    "key_facts": [
+      "三星电子最早将于2025年3月在华城园区12号生产线正式停产2D NAND闪存，标志其2D NAND时代终结",
+      "该产线将转用于更先进的1c nm DRAM内存制程，反映存储芯片技术代际切换加速",
+      "IDC预警：DRAM与NAND闪存价格全面上涨已触发PC/智能手机厂商抢库存行为，预计2026年Q1出货激增，但2026全年智能手机出货量恐下滑13%"
+    ],
+    "analyst_angle": "存储芯片结构性产能转移（NAND退、DRAM进）叠加价格弹性拐点，正重塑终端备货逻辑与供应链议价权，利好高端DRAM厂商及具备垂直整合能力的设备/材料供应商。",
+    "cluster_size": 2,
+    "event_time": "2026-02-26T09:23:30Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_033",
+    "title": "🚀 中国 AI 模型全球 Token 用量首超美国",
+    "category": "market",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "IT早报 0227：中国 AI 调用量首超美国；今年国内手机价格预计迎全面普涨；携程集团总裁范敏辞职；外卖商家须增设显著“无堂食”专项标识.... “IT早报”时间，大家好，现在是 2026 年 2 月 27 日星期五，今天的重要科技资讯有：1、OpenRouter：中国 AI 模型 2 月全球 token 用量首超美国，MiniMax 等四款大模型霸榜前五在线 AI 托管平台 OpenRoute",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/044.htm"
+      },
+      {
+        "author": "雷锋网",
+        "text": "传魅族手机停摆，3月正式退市，魅友刷屏：加油；苹果阴间Bug！网友称iPhone深夜自动拨打电话，官方回应；元宝AI除夕夜辱骂用户，回应来了. 要闻提示1.传魅族手机停摆，3月正式退市，魅友刷屏：加油2.元宝AI除夕夜辱骂用户，官方回应3.苹果阴间Bug！网友称iPhone深夜自动拨打电话，官方回应4.刘强东称已接到5条大型游艇订单，每艘平均卖6000万欧元5.比亚迪跟进7年低息超长贷！超20家汽",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/zaobao/uUhp0brmvyVfXhQQ.html"
+      }
+    ],
+    "key_facts": [
+      "OpenRouter 数据显示，2026年2月中国AI模型全球token调用量首次超越美国",
+      "MiniMax、月之暗面（Moonshot AI）、智谱等四款中国大模型包揽OpenRouter平台全球用量前五"
+    ],
+    "analyst_angle": "这标志着中国大模型从‘追赶’进入‘并跑甚至局部领跑’阶段，商业化落地与开发者生态成熟度已形成实质性全球竞争力，或将加速重塑全球AI基础设施话语权格局",
+    "cluster_size": 2,
+    "event_time": "2026-02-26T10:27:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_034",
+    "title": "🔬 斯坦福 CS146S 课程：AI 时代软件开发范式重构",
+    "category": "research",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "dotey",
+        "text": "斯坦福大学去年秋季开了一门新课 CS146S，叫\"现代软件开发者\"，由知名风投 a16z 的合伙人 Martin Casado 主讲，核心主题就一个：AI 时代怎么写代码。\n\n课程的基本观点是，软件开发已经从\"从零手写代码\"变成了\"规划→AI生成→修改→循环\"的新工作流。课上会教学生怎么用 LLM 高效提示、搭建 AI 编程代理、用 Claude Code 等工具做开发，还涉及 AI 代码审查、安",
+        "engagement": 1922,
+        "url": "https://x.com/dotey/status/2026438910151152007"
+      },
+      {
+        "author": "DrJimFan",
+        "text": "We trained a humanoid with 22-DoF dexterous hands to assemble model cars, operate syringes, sort poker cards, fold/roll shirts, all learned primarily from 20,000+ hours of egocentric human video with ",
+        "engagement": 1915,
+        "url": "https://x.com/DrJimFan/status/2026709304984875202"
+      },
+      {
+        "author": "UnitreeRobotics",
+        "text": "Great Honor to Welcome German Chancellor Merz 🥳\nIt was a great honor to welcome German Chancellor and his delegation to visit Unitree Robotics！\nWe sincerely appreciate the enthusiasm from German entre",
+        "engagement": 1609,
+        "url": "https://x.com/UnitreeRobotics/status/2027017274666754551"
+      },
+      {
+        "author": "AndrewYNg",
+        "text": "Impressive inference speed from Inception Labs’ diffusion LLMs. Diffusion LLMs are a fascinating alternative to conventional autoregressive LLMs. Well done @StefanoErmon and team!",
+        "engagement": 1598,
+        "url": "https://x.com/AndrewYNg/status/2026478474681262576"
+      },
+      {
+        "author": "Huawei",
+        "text": ".@MTNGhana and Huawei have successfully completed the world's first large-scale deployment of the Alpha Antenna, with the transition to intelligent and AI-driven innovation establishing a new benchmar",
+        "engagement": 1014,
+        "url": "https://x.com/Huawei/status/2026550920809689176"
+      }
+    ],
+    "key_facts": [
+      "斯坦福大学2023年秋季开设新课 CS146S《现代软件开发者》，由 a16z 合伙人 Martin Casado 主讲",
+      "课程定义AI原生开发工作流为‘规划→AI生成→修改→循环’，聚焦LLM提示工程、AI编程代理、Claude Code等工具链实战",
+      "邀请Cognition（Devin）、Claude Code创造者Boris Cherney、Warp CEO、Semgrep CEO、Vercel AI负责人等一线AI编程工具链关键人物担任嘉宾"
+    ],
+    "analyst_angle": "这门课不是教学技巧，而是正式宣告‘手写代码’作为核心开发能力的退场——高校首次系统性将AI编程工作流纳入计算机核心课程体系，标志着软件工程教育范式的代际切换。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_035",
+    "title": "📌 开源英语学习网站：基于新东方词根的闪卡工具一键部署",
+    "category": "open_source",
+    "importance": 5.2,
+    "sources": [
+      {
+        "author": "vista8",
+        "text": "学英语最有效方法是重复背诵高质量段落。\n\n但词汇量仍然是基础。\n\n上午学习 @jesselaunz ，也基于新东方高频词根词汇也做了个网站，支持一键部署Vercel、replit和Github page。\n\n另外，闪卡是科学证实少数对学习有帮助的实用工具。\n\n改天把项目写成Skill，一句话生成任何主题学习网站。\n\n体验地址 https://t.co/E7jqCkRZJ0\nGithub开源 htt",
+        "engagement": 900,
+        "url": "https://x.com/vista8/status/2026558733619241003"
+      },
+      {
+        "author": "dotey",
+        "text": "推荐高密度信息大图提示词\n作者 @WaytoAGI \n\n链接：https://t.co/800kkBim5c https://t.co/PkKIgOf8SU",
+        "engagement": 738,
+        "url": "https://x.com/dotey/status/2026512661979046000"
+      },
+      {
+        "author": "kevinxu",
+        "text": "hot take but i'd rather have a $2m mortgage at 3% than a $1m mortgage at 6%",
+        "engagement": 610,
+        "url": "https://x.com/kevinxu/status/2026887952346108225"
+      },
+      {
+        "author": "dotey",
+        "text": "https://t.co/cWuygSAY95",
+        "engagement": 439,
+        "url": "https://x.com/dotey/status/2026564921429839991"
+      },
+      {
+        "author": "dontbesilent",
+        "text": "大多数情况下，其实你都没有被强迫\n\n所谓的被家人强迫、被老板强迫、被朋友强迫、被亲戚强迫、被伴侣强迫，其实都是自愿的\n\n在对方手里没枪的情况下，他其实很难真正强迫你的",
+        "engagement": 391,
+        "url": "https://x.com/dontbesilent/status/2026969852506935749"
+      }
+    ],
+    "key_facts": [
+      "项目为开源英语学习网站，聚焦新东方高频词根词汇",
+      "支持一键部署至 Vercel、Replit 和 GitHub Pages",
+      "集成科学验证的闪卡（spaced repetition）学习机制"
+    ],
+    "analyst_angle": "虽非底层技术突破，但体现了教育科技领域‘小而美’开源工具的实用化趋势——将认知科学方法（如间隔重复）与低代码部署结合，降低个性化学习工具的使用门槛。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260227_036",
+    "title": "💡 AI 工程团队用 Claude 一周完成 Next.js 项目：模型能力+成熟生态+测试驱动的协作范式",
+    "category": "research",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "op7418",
+        "text": "逛 B 站发现一个有意思的 AI 硬件，墨水屏 AI 冰箱贴。\n\n支持语音输入和声音闹钟，感觉这种东西可玩性很强，也可以给龙虾 openclaw 配一个 https://t.co/YRbM3w0BtP",
+        "engagement": 360,
+        "url": "https://x.com/op7418/status/2026856221005983946"
+      },
+      {
+        "author": "alibaba_cloud",
+        "text": "We're excited to see Qwen and Wan featured in Fal's State of Generative Media report. It's clear that AI has moved from experimentation to production. Dive into the report to see how Qwen and Wan driv",
+        "engagement": 343,
+        "url": "https://x.com/alibaba_cloud/status/2026597652767584651"
+      },
+      {
+        "author": "Huawei",
+        "text": "Digital literacy helps develop confidence and courage. People of all ages in Kenya are seeing a world of opportunity open up thanks to the computer skills they learn in the Huawei DigiTruck! https://t",
+        "engagement": 332,
+        "url": "https://x.com/Huawei/status/2026559755217678758"
+      },
+      {
+        "author": "vista8",
+        "text": "Github上升很快的一个Skill叫ClawFeed。\n\n看示意网站抓了很多X上的优质内容，地址见评论区 https://t.co/UhoFzwcvkh",
+        "engagement": 300,
+        "url": "https://x.com/vista8/status/2027069976772046890"
+      },
+      {
+        "author": "dotey",
+        "text": "这条新闻很多人把焦点放在“1周”用AI做出来上面，但是也要看看为什么能一周做出来。\n\n这个项目能成功，靠的是几个条件同时到位。\n\n首先，Next.js 文档极其完善，Stack Overflow 上积累了海量问答，这些内容早就进了大模型的训练数据，让 AI 实现一个 getServerSideProps，它不会瞎编，因为它确实被训练过。\n\n其次，Next.js 自带几千个端到端测试，团队直接搬过来",
+        "engagement": 254,
+        "url": "https://x.com/dotey/status/2026528869902069965"
+      }
+    ],
+    "key_facts": [
+      "Cloudflare 团队实证：在 Next.js + Vite + 完善测试集 + 高上下文窗口模型（如 Claude）组合下，AI 可在一周内完成端到端 Web 应用开发",
+      "成功依赖四大条件：1）高质量开源文档与社区知识已内化进模型训练数据；2）现成端到端测试集作为可验证规格说明书；3）Vite 等基建解决底层难题，AI 专注业务逻辑层；4）当前大模型具备跨文件/跨模块一致性推理与源码级 debug 能力",
+      "人机分工明确：工程师把控架构、优先级与偏差识别；AI 承担编码、测试生成与 PR 自动审查；形成‘人设方向+AI 执行+机器验证’闭环"
+    ],
+    "analyst_angle": "这标志着 AI 编程已从‘单点代码补全’进入‘工程级协同生产’阶段——真正瓶颈不再是模型幻觉，而是人类能否系统性构建适配 AI 的开发基础设施（文档粒度、测试完备性、抽象层级对齐）",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "opinion"
+  }
+]
