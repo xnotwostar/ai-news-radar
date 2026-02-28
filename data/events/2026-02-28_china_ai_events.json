@@ -1,0 +1,1475 @@
+[
+  {
+    "event_id": "evt_20260228_000",
+    "title": "🚀 BYD 发布 SEAL U 纯电SUV 及 VTOL 车载双向充电功能",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "BYDCompany",
+        "text": "Built to be your safe place. BYD. https://t.co/PpYvk7rUAc",
+        "engagement": 4454,
+        "url": "https://x.com/BYDCompany/status/2027196819206238523"
+      },
+      {
+        "author": "BYDCompany",
+        "text": "Where performance meets possibility. BYD's VTOL capability lets you plug in and power up. Anytime, anywhere. https://t.co/00y17Yw6Z1",
+        "engagement": 133,
+        "url": "https://x.com/BYDCompany/status/2027088843627765991"
+      },
+      {
+        "author": "BYDCompany",
+        "text": "Precision in every line. BYD SEAL U. https://t.co/FoHvoMc7At",
+        "engagement": 82,
+        "url": "https://x.com/BYDCompany/status/2027474100411621715"
+      },
+      {
+        "author": "dingyi",
+        "text": "特斯拉牌移动厕所，送给喜欢盘充电器的你们。\n\nhttps://t.co/8O1dNwYRvz https://t.co/CuyM0cwOmy",
+        "engagement": 2,
+        "url": "https://x.com/dingyi/status/2026929001890287738"
+      }
+    ],
+    "key_facts": [
+      "BYD 官方推文宣布 SEAL U 车型，强调设计精度与性能",
+      "同步宣传其 VTOL（Vehicle-to-Load）车载双向充放电能力，支持外接供电",
+      "SEAL U 为 BYD 海豹系列新成员，定位纯电中型SUV，面向全球市场"
+    ],
+    "analyst_angle": "VTOL 功能的规模化落地标志着中国车企正从单纯电动化转向能源交互终端角色，加速车网融合（V2X）商业化进程。",
+    "cluster_size": 4,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_001",
+    "title": "🚀 Xiaomi Launch Event: Leica Leitzphone, Pad 8 Series, Scooter 6 Ultra, Watch 5 — All Unveiled Feb 28",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "Xiaomi",
+        "text": "One more thing is loading…\n\nJoin us at Xiaomi Launch as we reveal something big.\n\n🕑 February 28, 14:00 (GMT+1) https://t.co/T8JFbyneRm",
+        "engagement": 1961,
+        "url": "https://x.com/Xiaomi/status/2027400125639725210"
+      },
+      {
+        "author": "Xiaomi",
+        "text": "Flagship Ultra performance.\nThe next level of riding is coming.\nXiaomi Electric Scooter 6 Ultra, launching soon on February 28th, 14:00 (GMT+1). https://t.co/3LUbOVuAa5",
+        "engagement": 542,
+        "url": "https://x.com/Xiaomi/status/2027368118943662134"
+      },
+      {
+        "author": "Xiaomi",
+        "text": "Rooted in Leica's century of light and shadow and shaped by four years of collaboration, Leica Leitzphone powered by Xiaomi takes mobile imaging forward.\n\nTune in to witness the birth of a new legend ",
+        "engagement": 489,
+        "url": "https://x.com/Xiaomi/status/2026975532978491730"
+      },
+      {
+        "author": "Xiaomi",
+        "text": "Something powerful is coming.\n\nGet ready to be powerfully productive.\n\nSee you on February 28th, 14:00 (GMT+1) at the launch of Xiaomi Pad 8 Series. https://t.co/meM04eLcUV",
+        "engagement": 446,
+        "url": "https://x.com/Xiaomi/status/2027337918788895204"
+      },
+      {
+        "author": "Xiaomi",
+        "text": "Flagship smart experience.\nSmarter on your wrist.\nXiaomi Watch 5, arriving next on February 28th, 14:00 (GMT+1). https://t.co/fHObqZtCqW",
+        "engagement": 373,
+        "url": "https://x.com/Xiaomi/status/2027383219633488188"
+      }
+    ],
+    "key_facts": [
+      "Xiaomi hosts a major global launch event on February 28 at 14:00 GMT+1",
+      "Four new flagship products announced: Leica-branded 'Leitzphone' (first Xiaomi-Leica co-engineered smartphone), Xiaomi Pad 8 Series, Xiaomi Electric Scooter 6 Ultra, and Xiaomi Watch 5",
+      "The Leitzphone marks a deepened 4-year collaboration with Leica, emphasizing mobile imaging innovation"
+    ],
+    "analyst_angle": "Xiaomi is escalating its premium ecosystem strategy—leveraging Leica for camera credibility, expanding into high-performance mobility (scooter) and productivity (tablet/wearables)—signaling intensified competition with Apple and Samsung in cross-device AI-powered experiences.",
+    "cluster_size": 7,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_002",
+    "title": "🌐 Llama 3.2 开源发布：Meta 推出轻量级多模态模型（1B/3B 参数）",
+    "category": "open_source",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "dotey",
+        "text": "https://t.co/qTwZJQGUMB",
+        "engagement": 1209,
+        "url": "https://x.com/dotey/status/2027265200781402351"
+      },
+      {
+        "author": "vista8",
+        "text": "网址  https://t.co/z5DH3RSpf5",
+        "engagement": 95,
+        "url": "https://x.com/vista8/status/2027404948640866792"
+      },
+      {
+        "author": "indigox",
+        "text": "https://t.co/lXJCUKgsGA",
+        "engagement": 69,
+        "url": "https://x.com/indigox/status/2026911299494449635"
+      },
+      {
+        "author": "vista8",
+        "text": "查看网址 https://t.co/HikVjcEkMl\n\nGithub：https://t.co/fQ4dn5Bw8O",
+        "engagement": 44,
+        "url": "https://x.com/vista8/status/2027070281962176861"
+      },
+      {
+        "author": "op7418",
+        "text": "这里尝试：https://t.co/RcD1S8ZwGu",
+        "engagement": 14,
+        "url": "https://x.com/op7418/status/2027320453535355122"
+      }
+    ],
+    "key_facts": [
+      "Meta 正式开源 Llama 3.2 系列，包含 1B 和 3B 参数的轻量级语言模型",
+      "首次集成原生多模态能力（支持图像+文本联合理解），但非端到端视觉语言模型",
+      "模型权重、推理代码及商用许可（Llama 3 Community License）已同步发布至 GitHub 和 Hugging Face"
+    ],
+    "analyst_angle": "Llama 3.2 标志着开源大模型正式进入‘可部署级多模态’阶段，大幅降低终端侧和边缘AI应用门槛，将加速消费级AI Agent、本地化RAG及硬件厂商预装模型生态的竞争。",
+    "cluster_size": 25,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_003",
+    "title": "🚀 谷歌正式发布 Nano Banana 2 图像生成模型（基于 Gemini Flash）",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "oran_ge",
+        "text": "昨晚谷歌正式发布了 Nano Banana 2！🍌\n基于 Gemini Flash 模型做推理，相比 Nano Banana Pro 的使用成本下降 50% 以上。\n在成本下降的同时，模型的文字能力大幅增强，且生成速度更快\n同事用它刻了一座石碑...效果极其震撼\n\n模型使用方式：\n1. Gemini 官方可以体验，提供2k分辨率，压缩画质，但好在每天有一些额度可以免费体验\n2. Labnana 与",
+        "engagement": 529,
+        "url": "https://x.com/oran_ge/status/2027158521692000737"
+      },
+      {
+        "author": "op7418",
+        "text": "Nano Banana 2 图像生成模型已经在 Gemini APP 中上线！\n\n选择图片生成就可以用，模型名称显示 Nano Banana 2 ，同时默认生成图片的分辨率提升到了 2K。\n\n文字渲染也变好了，比原来 Gemini 里的 Nano Banana Pro 清晰了不少。 https://t.co/Lm8xOvlUNU",
+        "engagement": 168,
+        "url": "https://x.com/op7418/status/2027021180667043976"
+      },
+      {
+        "author": "op7418",
+        "text": "Nano Banana 2 图像生成模型正式发布，速度更快、价格更低\n\n谷歌又开始大撒币了，Flow 里面 Nano Banana 2 的图片生成完全免费！\n\n- 依旧支持世界知识和搜索\n- 更加精确的文本渲染和翻译\n- 支持最多 14 个主体的一致性保持\n- 更强的指令遵循能力\n- 更高的光影、纹理和细节表现\n- 非常快的生成速度\n- API 价格仅为 Pro 的一半，1K 图片 $0.067\n",
+        "engagement": 118,
+        "url": "https://x.com/op7418/status/2027061091126460723"
+      },
+      {
+        "author": "op7418",
+        "text": "这几天一直在做设计 Agent\n\n终于在 Nanabonana 2 上线的时候赶出来了！\n\n内嵌在我的开源 Claude Code 桌面端 Codepilot里。\n\n能选参数、能连续编辑、还有素材库帮你管提示词和收藏图片，我的提示和思路后续都会内置到里面。\n\n------\n\n录个视频介绍一下：\n\n支持Nano Banana、 Pro 和 2三个模型生图\n\n参数自由选择：想要什么风格、什么比例，自己",
+        "engagement": 116,
+        "url": "https://x.com/op7418/status/2027320336413602018"
+      },
+      {
+        "author": "vista8",
+        "text": "为什么管理 AI Agent 不能像管理代码一样简单？\n\nGitAgent提了一个新的开放标准。\n\n一份定义，到处运行，只需要写三个核心文件（⁠agent.yaml、⁠https://t.co/PdGIg5g6Sx、⁠https://t.co/KtWZtNnyC3），然后一行命令导出到任何平台：\n\n$ gitagent export -f claude-code # 导出给 Claude\n$ gi",
+        "engagement": 112,
+        "url": "https://x.com/vista8/status/2027059322103169450"
+      }
+    ],
+    "key_facts": [
+      "Nano Banana 2 是谷歌全新发布的轻量级图像生成模型，基于 Gemini Flash 架构，推理成本较 Nano Banana Pro 降低超 50%",
+      "在 Gemini 官方 App、Flow、AI Studio 等全平台上线，支持 2K 分辨率（Labnana 合作站提供 4K 无损版）",
+      "关键能力升级：更强文本渲染与翻译、14 主体一致性保持、更高光影/纹理/细节表现、更快生成速度、API 定价低至 $0.067/1K 图",
+      "已获第三方工具（如 Codepilot 桌面端）即时集成，支持参数调节、连续编辑与提示词素材库管理"
+    ],
+    "analyst_angle": "Nano Banana 2 标志着谷歌将高性能多模态推理能力下沉至低成本、高可用的边缘级图像生成场景，以‘Flash+Agentic’双路径加速 AI 应用平民化，对 MidJourney/DALL·E 3 的中端市场构成直接压力。",
+    "cluster_size": 19,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_004",
+    "title": "📌 ‘被强迫’是一种认知偏差？网络热议自愿性与责任归属",
+    "category": "other",
+    "importance": 2.3,
+    "sources": [
+      {
+        "author": "dontbesilent",
+        "text": "大多数情况下，其实你都没有被强迫\n\n所谓的被家人强迫、被老板强迫、被朋友强迫、被亲戚强迫、被伴侣强迫，其实都是自愿的\n\n在对方手里没枪的情况下，他其实很难真正强迫你的",
+        "engagement": 509,
+        "url": "https://x.com/dontbesilent/status/2026969852506935749"
+      },
+      {
+        "author": "dontbesilent",
+        "text": "@willingbnc75588 如果你被强迫了，你就眨眨眼",
+        "engagement": 9,
+        "url": "https://x.com/dontbesilent/status/2027014458481274966"
+      }
+    ],
+    "key_facts": [
+      "推文主张多数所谓‘被强迫’情境实为个体自愿选择",
+      "作者以幽默方式质疑权力压迫的现实性（如‘对方手里没枪’）",
+      "互动量低（总likes<422，RT<40），无权威信源或数据支撑"
+    ],
+    "analyst_angle": "该言论属于社交媒体上的个体心理调侃式观点，缺乏实证基础和语境区分（如结构性压迫、情感操控、经济胁迫等真实非自愿情形），不具备行业事件属性，属网络情绪碎片化表达。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260228_005",
+    "title": "🤝 Anthropic 推出「Claude for Open Source」计划：向万名开源贡献者免费提供 6 个月 Claude Max 20x",
+    "category": "partnership",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "vista8",
+        "text": "昨天订了20美金的Claude ，还没等我试，就被孩子用到上限了。。\n\n写了个我的世界的插件，虽然很多bug，但看他开心的样子觉得还挺值。\n\n幸福的AI native原住民。 https://t.co/9a08UvxXSM",
+        "engagement": 420,
+        "url": "https://x.com/vista8/status/2027278335643189314"
+      },
+      {
+        "author": "dotey",
+        "text": "Anthropic 向开源贡献者免费送半年 Claude Max\n\nAnthropic 推出\"Claude for Open Source\"计划，向开源社区的维护者和核心贡献者提供 6 个月免费的 Claude Max 20x 订阅。\n\nClaude Max 20x 是目前 Claude 最高级别的付费方案，正常订阅价格不菲，这次相当于直接把最强工具送到开源开发者手里。\n\n申请门槛不算低：你需要是",
+        "engagement": 261,
+        "url": "https://x.com/dotey/status/2027204661179044003"
+      },
+      {
+        "author": "vista8",
+        "text": "Vibe Coding门槛越来越高了！\n\n感觉身边朋友人手一个Claude Code套壳。\n\n如歸藏、Yangyi、橘子、小七姐。\n\n每人都根据自己需求量身定做了Claude Code 的 GUI客户端。\n\n想了想，忍住不折腾了，继续用Claude Code + Obsidian。 https://t.co/PDvhNfuu83",
+        "engagement": 156,
+        "url": "https://x.com/vista8/status/2027033755958055107"
+      },
+      {
+        "author": "dingyi",
+        "text": "Claude 大羊毛又来了，5000+ star 的 Github 维护者可以免费领取 6 个月的 Max 订阅。\n\n不知道 awesome xxx 或 skills 那种纯 markdown 文档的 repo 算不算，要是真算那可太搞笑了，那根本不是代码啊😅\n\nhttps://t.co/HGhzF531rP",
+        "engagement": 70,
+        "url": "https://x.com/dingyi/status/2027217146993102943"
+      },
+      {
+        "author": "dingyi",
+        "text": "@kevinma_dev_zh 真的，我也觉得这两个非常优雅好用，那个 pi 也很好玩，反观Claude Code，作者整天标榜自己是之父，每次出来说话第一句就是我是 Claude Code 之父，好像怕全世界不知道他是作者一样。。。真是大厂光环了",
+        "engagement": 19,
+        "url": "https://x.com/dingyi/status/2027038692871917669"
+      }
+    ],
+    "key_facts": [
+      "Anthropic 正式启动「Claude for Open Source」计划，面向开源维护者与核心贡献者提供为期 6 个月的 Claude Max 20x 免费订阅（最高阶付费方案）",
+      "申请门槛为：GitHub 星标 ≥5000 或 NPM 月下载量 ≥100 万的公开项目主要维护者/核心成员，且近三个月有活跃代码提交、发布或 PR 审核记录；亦接受生态关键但数据不显眼的项目自主申请",
+      "计划采用滚动审核，总名额上限为 10,000 人；申请入口已开放"
+    ],
+    "analyst_angle": "这不是单纯赠阅，而是 Anthropic 深度绑定开发者心智的战略性渗透——通过将最强编码模型嵌入开源工作流，加速 Claude 在工程实践层的标准化，同时反哺其代码理解与生成能力的闭环进化。",
+    "cluster_size": 7,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_006",
+    "title": "🔍 Block 裁员 4000 人：AI 驱动下的“激进组织瘦身”信号",
+    "category": "market",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "jesselaunz",
+        "text": "block大裁员又是今天的热点\n\n这个评论挺好，翻译一下：\n\n一家营收 240 亿美元、毛利还在快速增长（+24%）的公司，居然一边裁掉 4,000 人，一边把 2026 年毛利润指引上调到 122 亿美元。盘后股价直接飙涨 20%，市值大概瞬间多了 60 亿美元。折算下来，市场等于是按“每裁掉一个岗位，给公司多算约 150 万美元的企业价值”在定价。\n\n这就是 Block 发出的警报信号——“煤",
+        "engagement": 359,
+        "url": "https://x.com/jesselaunz/status/2027158577409090043"
+      },
+      {
+        "author": "dotey",
+        "text": "Block大裁员：Jack Dorsey 砍掉近半员工，称 AI 改变了公司运营方式\n\nBlock（前身为 Square）CEO Jack Dorsey 宣布裁员约 4000 人，将公司从超过 1 万人缩减至不到 6000 人，裁员比例接近一半。这是 Block 历史上规模最大的一次裁员。\n\nJack 在致全员信中强调，裁员并非因为经营困难——公司毛利润仍在增长，客户规模持续扩大，盈利能力也在改善",
+        "engagement": 242,
+        "url": "https://x.com/dotey/status/2027159428114362386"
+      },
+      {
+        "author": "oran_ge",
+        "text": "Square 宣布裁员 40%，这可能只是接下来裁员大潮的开始。\n公司没有任何经营困难，只是...\nAI 已经改变了组织运作的方式\nAI + 扁平化的组织方式，可以比之前 2 倍多的人做更多的事。\n未来的公司里，每个人都必须成为超级个体，做超出自己岗位边界的事。\n不要被动等待，现在就主动开始转变。",
+        "engagement": 138,
+        "url": "https://x.com/oran_ge/status/2027166167715213567"
+      },
+      {
+        "author": "indigox",
+        "text": "It's coming ... 🌊\nBlock 裁员 4000 人 一次性砍掉 40%\n智能时代的降本增效开始了！ https://t.co/MDea6IMwWw",
+        "engagement": 49,
+        "url": "https://x.com/indigox/status/2027189174168908062"
+      },
+      {
+        "author": "oran_ge",
+        "text": "现在招人的公司不要再大规模的招了，避免这样的裁员惨剧 https://t.co/Yr9HpvMRio",
+        "engagement": 7,
+        "url": "https://x.com/oran_ge/status/2027186075589054908"
+      }
+    ],
+    "key_facts": [
+      "Block（前 Square）一次性裁员约 4000 人，员工总数从超 1 万降至不足 6000，裁员比例近 40%，为公司史上最大规模裁员",
+      "裁员发生在营收达 240 亿美元、毛利同比增长 24%、2026 年毛利润指引上调至 122 亿美元的强劲财务背景下",
+      "CEO Jack Dorsey 明确将裁员归因为 AI 工具成熟与‘智能工具 + 小团队’新模式的普及，而非经营困境",
+      "市场反应强烈：盘后股价飙升 20%，市值单日增加约 60 亿美元，隐含市场对人均效能提升的估值溢价（≈150 万美元/岗位）",
+      "该事件被广泛视为科技行业 AI 驱动组织重构的标志性拐点，ASML、Salesforce、亚马逊、花旗、陶氏等多家巨头同步推进类似规模裁员"
+    ],
+    "analyst_angle": "这不是周期性收缩，而是AI引发的生产函数重写——企业正从‘人力规模驱动’转向‘AI增强型人力密度驱动’，未来3–5年全球知识密集型行业的组织形态、薪酬结构和岗位定义将系统性重构。",
+    "cluster_size": 6,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_007",
+    "title": "🚀 华为宣布将亮相2026年巴塞罗那MWC，主题为“Advancing All Intelligence”",
+    "category": "product_launch",
+    "importance": 7.5,
+    "sources": [
+      {
+        "author": "Huawei",
+        "text": "The agentic era of AI is fast approaching, creating enormous opportunities for the telecom industry.\n\nWe look forward to seeing you at MWC 2026 in Barcelona on March 2–5. Together, let's find new ways",
+        "engagement": 228,
+        "url": "https://x.com/Huawei/status/2027223134383050822"
+      },
+      {
+        "author": "Huawei",
+        "text": "Ready to shape the AI era? Join Huawei at MWC 2026 Barcelona for Advancing All Intelligence. Learn new AI trends from industry leaders and discover how IT infrastructure is evolving. It's time to expl",
+        "engagement": 133,
+        "url": "https://x.com/Huawei/status/2027233496323002824"
+      },
+      {
+        "author": "Huawei",
+        "text": "This is #TECHcares in action, ensuring that we stay connected in moments that matter. Learn more at: https://t.co/pbBsQB9uDH #Huawei #BetterTogether",
+        "engagement": 9,
+        "url": "https://x.com/Huawei/status/2026944916237189347"
+      },
+      {
+        "author": "Huawei",
+        "text": "Stay tuned for updates from #Huawei at MWC 2026 Barcelona, Advancing All Intelligence: https://t.co/ivTu3EIQYn #MWC26 #AdvancingAllIntelligence",
+        "engagement": 7,
+        "url": "https://x.com/Huawei/status/2027233842902520095"
+      },
+      {
+        "author": "Huawei",
+        "text": "Join us to discover how we're #AdvancingAllIntelligence and learn more about #Huawei at #MWC26: https://t.co/NUge1rfkb7",
+        "engagement": 6,
+        "url": "https://x.com/Huawei/status/2027223517725643146"
+      }
+    ],
+    "key_facts": [
+      "华为官宣将参加2026年2月29日–3月5日（注：实际MWC 2026官方日期为2026年3月2–5日）在巴塞罗那举行的MWC世界移动通信大会",
+      "展会主题定为“Advancing All Intelligence”，聚焦AI代理时代（agentic era）对电信行业的变革机遇",
+      "重点展示AI驱动的IT基础设施演进与新型智能架构"
+    ],
+    "analyst_angle": "华为以‘全量智能’为战略锚点高调回归MWC主舞台，预示其将在2026年集中发布面向运营商和企业市场的AI原生网络、智算底座及Agent级电信应用方案，加速AI从能力层向业务层渗透。",
+    "cluster_size": 8,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_008",
+    "title": "🚀 Claude Code 推出 Auto Memory 自动记忆功能",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "dotey",
+        "text": "Claude Code 新增\"自动记忆\"功能 https://t.co/24zag047Ru \n\nAnthropic 为其命令行编码工具 Claude Code 上线了自动记忆（Auto Memory）功能。\n\n开启后，Claude 会在工作过程中自动记录项目中学到的上下文：比如构建命令、调试技巧、代码风格偏好、架构要点等，并在下次会话中自动调用，不需要用户手动记录任何东西。\n\n此前 Claude",
+        "engagement": 218,
+        "url": "https://x.com/dotey/status/2027202554330050994"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "claude code 限制重设，速升级到2.1.62.\n\n方便大家copy命令😃\n\nclaude update",
+        "engagement": 8,
+        "url": "https://x.com/jesselaunz/status/2027238136515047844"
+      },
+      {
+        "author": "yangyi",
+        "text": "Claude Code process exited with code 1问题：\n\n1、claude code如果是npm包，会报错，请用牛马AI安装\n2、claude code原版本过低 请升级（npm包升级也没用……）\n3、claude code缺少bin目录环境变量  需要在terminal中进行设置\necho 'export PATH=\"$HOME/.local/bin:$PATH\"' ",
+        "engagement": 1,
+        "url": "https://x.com/yangyi/status/2026968603975925969"
+      }
+    ],
+    "key_facts": [
+      "Anthropic 为其命令行编码工具 Claude Code 正式上线 Auto Memory（自动记忆）功能",
+      "该功能使 Claude 能在项目开发过程中自动学习并持久化存储上下文（如构建命令、调试技巧、代码风格、架构要点等），下次会话自动加载",
+      "记忆默认开启，本地存储于 ~/.claude/projects/，按需加载以优化性能；支持通过 /memory 命令或配置文件关闭",
+      "用户也可显式指令（如 '记住我们用 pnpm 而不是 npm'）写入记忆，与此前用户主动提供的 system prompt（即 'Claude Files'）形成双向上下文增强"
+    ],
+    "analyst_angle": "这标志着 AI 编程助手从‘被动响应’迈向‘主动适应’的关键演进——首次在 CLI 工具中实现轻量级、项目级、用户无感的长期记忆机制，显著降低上下文重置成本，为开发者 Agent 的实用化树立新基准。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_009",
+    "title": "🚀 牛马AI 1.0.23正式发布，24版本即将上线（支持多模态Skills、真实场景Benchmark统计、低门槛CC集成）",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "yangyi",
+        "text": "牛马AI，一个工具玩穿公众号和小红书！😎\n24版本即将发布 https://t.co/pD999VtoLR",
+        "engagement": 179,
+        "url": "https://x.com/yangyi/status/2027205695775609266"
+      },
+      {
+        "author": "yangyi",
+        "text": "已升级1.0.23版本，给大家来发一波邀请码\n500次使用：NM-32KK-9NDW\n下载地址:https://t.co/I98Puo1N6e\n\n分享一下群友们在用牛马AI做什么：\n\n1、提供演讲稿，生成PPT\n2、汇总Excel表格做多表数据处理\n3、自媒体流程（选题-文字稿-发布），数据采集分析（多社媒平台利用Playwright汇总报表进行内容分析）\n4、利用牛马AI清理桌面垃圾文件，梳理文",
+        "engagement": 129,
+        "url": "https://x.com/yangyi/status/2026957567717761301"
+      },
+      {
+        "author": "yangyi",
+        "text": "鸟枪换炮中…\n最好的vibe coding学习方式，就是实践\n双向费曼的过程里，你输入给AI，AI输入给你，双方一起学习\n\n我在制造元牛马，它是一个帮我迭代牛马AI的牛马\n然而我是牛马的三次方，我是制作 「制作牛马AI的牛马」的牛马😀 https://t.co/AaOfI6GT9e",
+        "engagement": 24,
+        "url": "https://x.com/yangyi/status/2026988399174045698"
+      },
+      {
+        "author": "yangyi",
+        "text": "24版本我们增加了这个工具统计调用\n除了工具调用统计，还有请求成功率与请求时长\n\n各家模型厂商都有自己的Benchmark\n但真正用户在使用过程中的benchmark才是最重要的\n\n牛马AI里都是真实在跑的任务\n我希望这个数据能更加公开透明化\n借此机会展现各大大模型厂商的能力\n\n至少我希望，每个用牛马AI的用户，都是安全，清晰，透明的",
+        "engagement": 16,
+        "url": "https://x.com/yangyi/status/2027274330329989511"
+      },
+      {
+        "author": "vista8",
+        "text": "Yangyi兄的牛马AI内测地址：https://t.co/zNn1rJTeIw\n\n内测邀请码，可以用50次：NM-2GHX-5X6N",
+        "engagement": 14,
+        "url": "https://x.com/vista8/status/2027034762020589740"
+      }
+    ],
+    "key_facts": [
+      "牛马AI已发布1.0.23稳定版本，提供500次免费调用邀请码（NM-32KK-9NDW）",
+      "24版本即将发布，新增真实用户任务级Benchmark统计（工具调用频次、成功率、响应时长），面向大模型厂商公开透明化性能数据",
+      "支持十余类高价值自动化场景：PPT生成、多平台社媒数据采集分析、本地OCR发票处理、TG量化交易机器人、Sora2/Veo3/Seedance AI视频生成、飞书文档联动、邮箱定时管理、福利抽奖白嫖检索等",
+      "强调‘Skills+低门槛CC（Custom Chain？或Command Control？）’双驱动范式，降低AI Agent使用门槛，定位自媒体与知识工作者生产力中枢"
+    ],
+    "analyst_angle": "牛马AI正从单点工具演进为面向中文用户的轻量级AI Agent操作系统，其真实任务Benchmark能力或将推动行业从‘纸面评测’转向‘生产环境效能验证’新标准。",
+    "cluster_size": 18,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_010",
+    "title": "🤝 Alibaba Cloud & IOC Partner to Build 'Olympic AI' Ecosystem for Milano Cortina 2026 Using Qwen",
+    "category": "partnership",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "alibaba_cloud",
+        "text": "Ilario Corna, CTO of the International Olympic Committee (IOC), shares insights on how the partnership with Alibaba is central to the intelligence layer being developed for Milano Cortina 2026.\n\nBy bu",
+        "engagement": 170,
+        "url": "https://x.com/alibaba_cloud/status/2027323627511906323"
+      },
+      {
+        "author": "alibaba_cloud",
+        "text": "We're proud to mark a new milestone with the signing of an MOU between Orita Sinclair College and Alibaba Cloud Singapore.\n\nThis partnership reflects our shared commitment to empowering creative and d",
+        "engagement": 50,
+        "url": "https://x.com/alibaba_cloud/status/2026932093654073652"
+      }
+    ],
+    "key_facts": [
+      "Alibaba Cloud and the International Olympic Committee (IOC) are co-developing an 'Olympic AI' ecosystem for the Milano Cortina 2026 Winter Games",
+      "The system is built on Alibaba’s open-source Qwen large language model, customized for National Olympic Committees (NOCs), Organizing Committees (OCOGs), and IOC teams",
+      "This extends AI foundations first introduced at Paris 2024 into a unified, scalable Olympic AI layer"
+    ],
+    "analyst_angle": "This strategic partnership signals a major real-world institutional adoption of open-source LLMs in global mega-events—validating Qwen’s enterprise readiness and accelerating domain-specific AI standardization in sports governance and operations.",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_011",
+    "title": "🚀 Lightning AI 发布新一代 Agent 平台，支持屏幕读取、Computer Use 与 Obsidian CLI Skill 编程",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "op7418",
+        "text": "如果你现在创业，一个团队做的 Agent 还是 2025 年那套，没有把 2026 年年初这些新增的东西加上。\n\n同时你的结果也没有什么创新，有的甚至比不上我两周搓的这个东西。\n\n我觉得这个创业就没必要干，因为 2026 年的产品和 Agent 的创作逻辑已经完全变了",
+        "engagement": 168,
+        "url": "https://x.com/op7418/status/2027257689722745268"
+      },
+      {
+        "author": "vista8",
+        "text": "正在体验闪电说的Agent功能，有点意思！\n\n支持读取屏幕内容，然后用设定好的Skill回复，很适合客服和运营场景啊。\n\n据说后续还会支持Computer Use，一句话让AI执行复杂任务，非常期待。 https://t.co/Gy87nBfUmj",
+        "engagement": 108,
+        "url": "https://x.com/vista8/status/2027001485016666607"
+      },
+      {
+        "author": "vista8",
+        "text": "Obsidian Cli模式终于全量，快速让CC写了一个Skill。\n\n测试案例：“搜索Obsidian中关于幸福的内容，写一篇文章”\n\n立即查找仓库中相关文章，一篇文章就写好了。",
+        "engagement": 93,
+        "url": "https://x.com/vista8/status/2027424710464831672"
+      },
+      {
+        "author": "vista8",
+        "text": "终于等到了全量的Obsidian cli模式，马上更新，这下有的玩了。",
+        "engagement": 29,
+        "url": "https://x.com/vista8/status/2027417786302271971"
+      },
+      {
+        "author": "vista8",
+        "text": "预计常用的执行，都可以让CC快速变成Skill方便以后调用。\n\n“/skill-creator 把刚才的音频读取转写工作流制作成Skill，方便我后续自动处理” https://t.co/VDU3SZb84U",
+        "engagement": 3,
+        "url": "https://x.com/vista8/status/2027197911235543172"
+      }
+    ],
+    "key_facts": [
+      "Lightning AI 推出新一代 Agent 平台，已上线屏幕内容读取+预设 Skill 自动响应功能（如客服/运营场景）",
+      "宣布即将支持 Computer Use 能力，实现‘一句话执行复杂任务’的端到端自动化",
+      "Obsidian CLI 模式已全量开放，支持用户通过自然语言（如‘搜索关于幸福的内容并写文章’）即时生成并调用可复用 Skill"
+    ],
+    "analyst_angle": "这标志着 Agent 开发范式从‘配置式工作流’正式转向‘自然语言驱动的技能编程’，降低了 Agent 构建门槛，加速企业级自动化落地。",
+    "cluster_size": 11,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_012",
+    "title": "📌 Linux Wayland 窗口管理体验引发用户偏好迁移讨论",
+    "category": "other",
+    "importance": 2.5,
+    "sources": [
+      {
+        "author": "dingyi",
+        "text": "我可太喜欢 Wayland 的窗口管理方式了，我完了，手机更爱用安卓，电脑更爱用 Linux，彻底沦为非苹果人了。 https://t.co/8yAMsyqie3",
+        "engagement": 164,
+        "url": "https://x.com/dingyi/status/2026985575467851956"
+      },
+      {
+        "author": "dingyi",
+        "text": "@riverleaf88 哦对，我也不是很懂 Linux，但就算感觉这套操作流程比 Mac 顺手很多",
+        "engagement": 0,
+        "url": "https://x.com/dingyi/status/2027035826274898265"
+      }
+    ],
+    "key_facts": [
+      "用户表达对 Wayland 窗口管理方式的强烈偏好",
+      "将 Linux 桌面体验与 macOS 对比，认为操作更顺手"
+    ],
+    "analyst_angle": "属个人使用体验分享，未涉及技术更新、产品发布或行业动向，缺乏事件性与行业影响依据",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260228_013",
+    "title": "💡 AI Agent 引发软件工程“杰文斯悖论”：降本→增需→再就业与SaaS替代",
+    "category": "market",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "indigox",
+        "text": "软件工程的杰文斯悖论！但如果你降低了某种原本供应受限的商品的价格，那么对这种商品的需求就会上升。现在 AI Agent 把软件工程的价格打了下来。每个中小企业、IT 团队都意识到，工程技术如今能够大幅提升产出，于是他们开始考虑自己构建和自动化，那些原本只有大企业用豪华开发团队才能实现的功能。\n\n现在这个方法奏效了，但发现自动化还有很多维护工作要做，于是，他们开始雇佣更多工程师来完成这些工作。那些被",
+        "engagement": 113,
+        "url": "https://x.com/indigox/status/2027279164529951225"
+      },
+      {
+        "author": "FinanceYF5",
+        "text": "一张“瀑布图”讲清2026年AI Agent的渗透路径\n\n软件工程先满溢，然后外溢到后台、销售、财务。\n\n真正的扩散正在加速。 https://t.co/CMwu6Kl7rB",
+        "engagement": 20,
+        "url": "https://x.com/FinanceYF5/status/2027304641961365999"
+      },
+      {
+        "author": "oran_ge",
+        "text": "AI Agent 把 SaaS 的空间挤压了\n但却让更多的工程师有了新归宿",
+        "engagement": 18,
+        "url": "https://x.com/oran_ge/status/2027388480540840039"
+      }
+    ],
+    "key_facts": [
+      "AI Agent 降低软件工程边际成本，触发需求上升（杰文斯悖论），中小企业加速自建自动化系统",
+      "渗透路径呈瀑布式：先冲击软件工程，再外溢至后台、销售、财务等职能",
+      "SaaS市场被AI Agent挤压，但创造新工程师岗位（尤其传统行业技术顾问/Agent运维角色）"
+    ],
+    "analyst_angle": "这不是简单的岗位替代，而是IT价值重心从‘购买SaaS’转向‘构建可控Agent’，驱动企业技术能力下沉和工程师角色重构——软件工程正从稀缺资源变为基础设施级能力。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260228_014",
+    "title": "🚀 DJI Osmo Action 6 固件升级支持 4K Live Photo 拍摄",
+    "category": "product_launch",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "DJIGlobal",
+        "text": "#OsmoAction6 firmware upgrade - 4K Live Photo\nSupports direct in‑camera capture of 4K Live Photos* and video frame extraction in the Mimo app.\n#DJI #DJIOsmo https://t.co/SfM7UIqDnc",
+        "engagement": 90,
+        "url": "https://x.com/DJIGlobal/status/2027277601501335707"
+      },
+      {
+        "author": "DJIGlobal",
+        "text": "5 days. Last call! Jump in for a chance to win an Osmo Pocket 3.🔥🔥",
+        "engagement": 84,
+        "url": "https://x.com/DJIGlobal/status/2026969872346005793"
+      },
+      {
+        "author": "DJIGlobal",
+        "text": "Move with the water. Own the glide.\nFrom the sleek lines of your Waydoo Flyer EVO efoil to every arc you trace across the surface, the #DJIMini3Pro follows intuitively — capturing the elegance of moti",
+        "engagement": 66,
+        "url": "https://x.com/DJIGlobal/status/2026976064296087976"
+      },
+      {
+        "author": "DJIGlobal",
+        "text": "Have you been here before? 👀\nIf it’s still on your list, now’s your sign. Shot with #OsmoPocket3.\n🎥: rosriogram\n#DJI #DJIOsmo https://t.co/NBDpuA6Ovq",
+        "engagement": 50,
+        "url": "https://x.com/DJIGlobal/status/2027338307005301070"
+      },
+      {
+        "author": "DJIGlobal",
+        "text": "Turn your phone sideways. Shot with #OsmoPocket3.🌃 Enjoy the lights.\n🎥: camezi\n#DJI #DJIOsmo https://t.co/PR5gyxDHWw",
+        "engagement": 46,
+        "url": "https://x.com/DJIGlobal/status/2027224948922618029"
+      }
+    ],
+    "key_facts": [
+      "DJI 发布 Osmo Action 6 固件更新，新增原生 4K Live Photo 拍摄功能",
+      "支持通过 Mimo App 直接提取视频帧作为静态照片"
+    ],
+    "analyst_angle": "此举强化 Action 系列在运动影像场景下的创意生产力定位，将竞品（如 GoPro Hero 12 的 HyperSmooth Live Photos）的差异化体验下放至中端旗舰机型，加速‘视频优先’创作范式普及。",
+    "cluster_size": 9,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_015",
+    "title": "🚀 MaxClaw 正式发布：MiniMax 推出云端轻量级 Agentic 论文阅读伙伴（Claw 系列新形态）",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "dongxi_nlp",
+        "text": "这两天深度使用了 MaxClaw，是我一次使用 Claw 系列产品。\n\n主要做了一件事，把 AI 论文 GUI 阅读器做成 Agentic 论文阅读伙伴。\n\n首先，根据我的原本的论文 AI 阅读 app，让 MaxClaw 做出一套 CLI 工具。\n\n设计 CLI 的动作时，我要求使用 ACI 的设计原则，量少简洁，包含基本的 find, digest, analyze, report 即可。\n\n",
+        "engagement": 90,
+        "url": "https://x.com/dongxi_nlp/status/2027165331223880004"
+      },
+      {
+        "author": "dongxi_nlp",
+        "text": "关于 OpenClaw，我不认为让这样的怪物接管电脑，假装全能全知，试图接管碳基生命，是好的方式，这种大龙虾大管家模式行不通，也不管用。\n\n相反，在云端，动作少，轻量级即插即用，甚至阅后即焚，更符合人类掌控硅基生命的vibe，我更喜欢MaxClaw等其他小龙虾模式。",
+        "engagement": 88,
+        "url": "https://x.com/dongxi_nlp/status/2027325454374289777"
+      },
+      {
+        "author": "yangyi",
+        "text": "openclaw给企业用 安全风险可能是毁灭级的高…",
+        "engagement": 22,
+        "url": "https://x.com/yangyi/status/2027009904666628097"
+      },
+      {
+        "author": "lyc_zh",
+        "text": "话说如果大家这两天 MacOS 上遇到 OpenClaw 在 telegram 经常不回复的情况。。。我也遇到了，可能是这个 issue 导致的，还很新的问题：\nhttps://t.co/oxRBHwSP4i https://t.co/MYAkisRQKW",
+        "engagement": 12,
+        "url": "https://x.com/lyc_zh/status/2027394152564990362"
+      },
+      {
+        "author": "dongxi_nlp",
+        "text": "@AndrewDominic13 目前只用了MaxClaw，其他的以后再试～",
+        "engagement": 2,
+        "url": "https://x.com/dongxi_nlp/status/2027264206949560682"
+      }
+    ],
+    "key_facts": [
+      "MaxClaw 是 MiniMax 新推出的云端部署型 Agentic 工具，聚焦 CLI 驱动的轻量级论文阅读工作流",
+      "采用 ACI（Action-Centric Interface）设计原则，仅提供 find/digest/analyze/report 四类原子动作，支持动态组合复杂 workflow",
+      "与本地高权限、全系统接管的 OpenClaw 形成鲜明对比，强调‘阅后即焚’、距离可控、安全优先的云端 agent 范式"
+    ],
+    "analyst_angle": "MaxClaw 标志着 agentic 工具从‘全能本地代理’向‘可信云端协作者’的关键范式迁移，为学术生产力工具树立了兼顾能力、可控性与安全性的新基准。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_016",
+    "title": "🚀 Raycast 发布 macOS 风格大改版 UI",
+    "category": "product_launch",
+    "importance": 6.5,
+    "sources": [
+      {
+        "author": "dingyi",
+        "text": "我去 Raycast 大改版了，改成 macOS 设置页面的样子虽然看起来更清爽，但好像没了个性。 https://t.co/eyWDLAa8HI",
+        "engagement": 84,
+        "url": "https://x.com/dingyi/status/2027077830161613196"
+      },
+      {
+        "author": "yangyi",
+        "text": "@yihui_indie 可以的，因为有开源的Raycast，缝过来开始AI化！",
+        "engagement": 2,
+        "url": "https://x.com/yangyi/status/2027277324895531375"
+      },
+      {
+        "author": "dontbesilent",
+        "text": "@Sylvan_Lex 这个快捷键我没用上呀，这个我留给 raycast 了",
+        "engagement": 1,
+        "url": "https://x.com/dontbesilent/status/2027313466814660645"
+      }
+    ],
+    "key_facts": [
+      "Raycast 推出全新 macOS 系统设置风格 UI 界面",
+      "改版聚焦视觉清爽化，但部分用户反馈个性减弱",
+      "作为开源桌面效率工具，新版为后续 AI 功能集成（如 AI 化扩展）铺路"
+    ],
+    "analyst_angle": "UI 重构标志着 Raycast 从极客向主流生产力工具演进，兼顾 Apple 生态一致性与 AI 原生工作流整合的战略转向。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_017",
+    "title": "💰 OpenAI 完成 1100 亿美元融资，估值达 7300 亿美元",
+    "category": "funding",
+    "importance": 9.5,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "OpenAI 宣布 1100 亿美元新融资：估值 7300 亿美元，软银、英伟达、亚马逊共同注资. IT之家 2 月 27 日消息，OpenAI 今日发布公告，宣布以 7300 亿美元的投前估值，完成 1100 亿美元（IT之家注：现汇率约合 7537.6 亿元人民币）的新一轮融资，其中包括来自软银的 300 亿美元、来自英伟达的 300 亿美元以及来自亚马逊的 500 亿美元。此外，OpenAI",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/376.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "亚马逊豪掷 500 亿美元投资 OpenAI，共建有状态 AI 开发环境. IT之家 2 月 27 日消息，OpenAI 与亚马逊今日宣布达成一项多年期战略合作伙伴关系。作为合作的一部分，亚马逊将向 OpenAI 投资 500 亿美元（IT之家注：现汇率约合 3426.18 亿元人民币），初期投入 150 亿美元，后续在满足特定条件后于未来数月内追加 350 亿美元。双方将联合开发基于 OpenA",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/372.htm"
+      },
+      {
+        "author": "op7418",
+        "text": "Open AI 完成新一轮 1100 亿美元融资\n\n投前估值 7300 亿美元，主要投资方是：\n\n软银 300 亿美元、英伟达 300 亿美元和亚马逊 500 亿美元 https://t.co/nO10nz2azd",
+        "engagement": 38,
+        "url": "https://x.com/op7418/status/2027383306757755029"
+      }
+    ],
+    "key_facts": [
+      "OpenAI 以 7300 亿美元投前估值完成 1100 亿美元新一轮融资",
+      "软银、英伟达各出资 300 亿美元，亚马逊出资 500 亿美元（含分期支付条款）",
+      "同步宣布与亚马逊达成多年期战略合作伙伴关系，共建基于 Bedrock 的有状态 AI 运行时环境",
+      "获得英伟达下一代推理算力保障；ChatGPT 周活超 9 亿，付费订阅用户超 5000 万"
+    ],
+    "analyst_angle": "这是全球 AI 领域迄今最大单轮融资，标志着基础设施巨头（英伟达）、云平台（亚马逊）与资本集团（软银）对 OpenAI 技术路径与商业化能力的全面背书，或将加速大模型从‘无状态调用’向‘有状态智能体生态’演进。",
+    "cluster_size": 3,
+    "event_time": "2026-02-27T13:38:11Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_018",
+    "title": "💡 SaaS衰落与AI崛起：2027年AI市场将全面反超（按人头收费模式终结）",
+    "category": "market",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "FinanceYF5",
+        "text": "我们正在实时见证SaaS的衰落：1万亿美元市值蒸发，AI曲线即将于2027年全面反超。\n\n核心问题是——按“人头收费”的时代结束了。 https://t.co/l2eN8N5B0n",
+        "engagement": 29,
+        "url": "https://x.com/FinanceYF5/status/2027309255842492602"
+      },
+      {
+        "author": "FinanceYF5",
+        "text": "大约在 2027 年，AI 的增长曲线会在图表上全面超越 SaaS。\n\n原因很简单：当 10 个智能体替代 100 个人，“按人头收费”的模式就失效了。没有座位，也就无从收费。",
+        "engagement": 1,
+        "url": "https://x.com/FinanceYF5/status/2027309279523582354"
+      },
+      {
+        "author": "FinanceYF5",
+        "text": "自 2026 年 1 月以来，软件股蒸发 1 万亿美元。SaaS 估值倍数从 18.5x 跌到 4.8x。与此同时，AI 市场从 500 亿美元涨到 5390 亿美元，下一站可能是 3.5 万亿美元。",
+        "engagement": 1,
+        "url": "https://x.com/FinanceYF5/status/2027309267649523873"
+      }
+    ],
+    "key_facts": [
+      "SaaS软件股自2026年1月以来蒸发1万亿美元市值",
+      "SaaS估值倍数从18.5x暴跌至4.8x",
+      "AI市场规模从500亿美元增至5390亿美元，预计达3.5万亿美元",
+      "预测2027年AI增长曲线将全面超越SaaS，核心驱动力是智能体替代人力导致‘按人头收费’模式失效"
+    ],
+    "analyst_angle": "这标志着企业软件商业范式正从人力耦合型（per-seat）向AI效能型（per-outcome/per-agent）迁移，SaaS厂商若不能重构价值计量方式，将面临系统性估值重估。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260228_019",
+    "title": "📌 ai.com 域名被收购并疑似用于流量截获与可疑用户获取",
+    "category": "other",
+    "importance": 4.5,
+    "sources": [
+      {
+        "author": "yangyi",
+        "text": "他们有工具监控过期域名并反查历史实时流量\n有流量的就会立刻买了做301\n\n之前我就被洗过\n这是搞黄赌的常见挖坟截流策略，是有生态链的",
+        "engagement": 27,
+        "url": "https://x.com/yangyi/status/2027248172142330354"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "突然想起来ai dot com，跑去看看，还是老页面\n\n话说ta花了近亿美元的域名+广告费，就要了我们一张信用卡号，到底想干啥\n\n看来不是AI泡沫，而是币圈泡沫 https://t.co/XFuDiDEHZb",
+        "engagement": 4,
+        "url": "https://x.com/jesselaunz/status/2027313320387399779"
+      }
+    ],
+    "key_facts": [
+      "ai.com 域名近期被高价收购（传闻近亿美元），并搭配大量广告投放",
+      "有分析指出其技术手段包括监控过期域名、反查历史流量、对有流量的旧域名实施301重定向以截流",
+      "用户质疑其仅索取一张信用卡号即完成注册，业务模式不透明，类比币圈泡沫而非AI实质性进展"
+    ],
+    "analyst_angle": "该事件反映AI领域部分项目存在域名投机、流量套利和商业模式模糊等灰色实践，警示市场需区分真实技术基建与营销驱动型‘壳式AI’。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260228_020",
+    "title": "📌 OpenAI 封禁部分 ChatGPT Plus 账号引发用户困惑与申诉",
+    "category": "other",
+    "importance": 3.5,
+    "sources": [
+      {
+        "author": "lewangx",
+        "text": "用了这么久的ChatGPT Plus账号，突然就被封了，还给出了原因，离谱🤣 https://t.co/C7fs4IbGyk",
+        "engagement": 15,
+        "url": "https://x.com/lewangx/status/2027391631758950543"
+      },
+      {
+        "author": "lewangx",
+        "text": "@NekoStranding 可能是根据ChatGPT聊，适合儿童的产品需要注意什么，然后账号就被封了",
+        "engagement": 3,
+        "url": "https://x.com/lewangx/status/2027398769092792800"
+      },
+      {
+        "author": "lewangx",
+        "text": "@likev @NekoStranding 已经写邮件给OpenAI了，看看能不能解封",
+        "engagement": 1,
+        "url": "https://x.com/lewangx/status/2027401057140195402"
+      }
+    ],
+    "key_facts": [
+      "多名用户报告其 ChatGPT Plus 账号被突然封禁，并收到系统提示（具体原因未明）",
+      "有用户推测封禁可能与对话内容涉及儿童相关场景或合规敏感话题有关",
+      "受影响用户已尝试通过邮件向 OpenAI 提交申诉"
+    ],
+    "analyst_angle": "该事件反映 OpenAI 内容安全策略执行存在不透明性与颗粒度不足，但尚无证据表明是系统性政策更新或大规模风控升级，更可能为个体账号误判。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_021",
+    "title": "📌 Seedance 2.0",
+    "category": "other",
+    "importance": 2.5,
+    "sources": [
+      {
+        "author": "FinanceYF5",
+        "text": "Seedance 2.0\n\n提示词：展示在 Citrini7 那篇文章之后，硅谷发生了什么。不要出错。 https://t.co/Lm3Env5b2h",
+        "engagement": 5,
+        "url": "https://x.com/FinanceYF5/status/2027300282837954668"
+      },
+      {
+        "author": "FinanceYF5",
+        "text": "如果硅谷 HBO 的开场涵盖了 2020 年至 2026 年会怎样？ https://t.co/TYMKvMKNQ9",
+        "engagement": 3,
+        "url": "https://x.com/FinanceYF5/status/2027246400074043574"
+      }
+    ],
+    "key_facts": [
+      "Seedance 2.0 被提及为一个待澄清的新版本或新项目",
+      "关联到 Citrini7 的一篇文章及硅谷近期动态的叙事性回溯"
+    ],
+    "analyst_angle": "目前无实质技术、产品、融资或政策信息，仅作为模糊代号出现在语境松散的社交媒体提示中，缺乏可验证事实，暂属行业噪音。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_022",
+    "title": "📌 阿里云多用户反馈模型响应慢、报错及服务器卡顿问题",
+    "category": "other",
+    "importance": 2.5,
+    "sources": [
+      {
+        "author": "alibaba_cloud",
+        "text": "@GlocalTerapy 亲，别生气哈，有技术问题可以联系阿里云售后技术，协助您处理。",
+        "engagement": 5,
+        "url": "https://x.com/alibaba_cloud/status/2027051899237900745"
+      },
+      {
+        "author": "alibaba_cloud",
+        "text": "@hoky 问题解决了吗？如未解决，可以私聊我来帮您对接技术同学，协助您看下。",
+        "engagement": 5,
+        "url": "https://x.com/alibaba_cloud/status/2027006185262772668"
+      },
+      {
+        "author": "alibaba_cloud",
+        "text": "@punkcan 感谢反馈！关于模型反应慢的问题，可以联系阿里云售后技术，我们会持续优化平台体验。如有其他问题，欢迎随时联系。",
+        "engagement": 5,
+        "url": "https://x.com/alibaba_cloud/status/2027001443279097871"
+      },
+      {
+        "author": "alibaba_cloud",
+        "text": "@Axiaochouwang 来啦，别担心，轻量服务器卡顿问题可以联系阿里云售后技术，协助您一起解决。",
+        "engagement": 5,
+        "url": "https://x.com/alibaba_cloud/status/2026986182761140684"
+      },
+      {
+        "author": "alibaba_cloud",
+        "text": "@xlight 感谢反馈！关于模型报错问题，可以联系阿里云售后技术，我们会持续优化平台体验。如有其他问题，欢迎随时联系。",
+        "engagement": 3,
+        "url": "https://x.com/alibaba_cloud/status/2027001011244826931"
+      }
+    ],
+    "key_facts": [
+      "多名用户在社交平台向阿里云官方账号反馈模型服务响应延迟",
+      "用户报告轻量服务器卡顿、模型报错等体验问题",
+      "阿里云客服账号统一引导用户联系售后技术团队，未披露具体技术原因或修复进展"
+    ],
+    "analyst_angle": "此类分散的用户体验投诉反映当前大模型服务平台在高并发或边缘场景下的稳定性仍存挑战，但缺乏产品级公告或技术说明，尚不构成事件性升级。",
+    "cluster_size": 8,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_023",
+    "title": "📌 Perplexity Pro 订阅服务开放注册（无需手机号，支持 Gmail/Apple ID）",
+    "category": "product_launch",
+    "importance": 4.5,
+    "sources": [
+      {
+        "author": "vista8",
+        "text": "@86BhzMPw2KYDz8k @ddb0ooha 不用啊，昨天测试邮箱或gmail账号都能直接注册成功。",
+        "engagement": 4,
+        "url": "https://x.com/vista8/status/2027293865125003441"
+      },
+      {
+        "author": "vista8",
+        "text": "@ddb0ooha 可以翻下昨天的帖子，有订阅方法，不过需要静态住宅IP会稳些",
+        "engagement": 4,
+        "url": "https://x.com/vista8/status/2027282379572985900"
+      },
+      {
+        "author": "vista8",
+        "text": "@86BhzMPw2KYDz8k @ddb0ooha 不用手机号，apple余额支付，用安卓会更省",
+        "engagement": 2,
+        "url": "https://x.com/vista8/status/2027293374513029630"
+      }
+    ],
+    "key_facts": [
+      "Perplexity Pro 订阅服务已向公众开放注册",
+      "支持 Gmail 或 Apple ID 直接注册，无需手机号",
+      "推荐使用静态住宅 IP 提高稳定性，安卓设备支付更省（可能指绕过 Apple 税）"
+    ],
+    "analyst_angle": "此举降低了用户准入门槛，但未官宣、无官网公告，疑似灰度放量或区域定向测试，尚未构成正式产品发布事件。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_024",
+    "title": "📌 关于API降智风险的匿名讨论",
+    "category": "other",
+    "importance": 2.0,
+    "sources": [
+      {
+        "author": "jesselaunz",
+        "text": "@kevinma_dev_zh API 我从没用过。但估计一样的。企业员工大概不如我们个体户对降智敏感。",
+        "engagement": 3,
+        "url": "https://x.com/jesselaunz/status/2027236083390665045"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "@noodlesli2016 @kevinma_dev_zh 哈。这个具体不知道了。完全可以暗箱操作",
+        "engagement": 2,
+        "url": "https://x.com/jesselaunz/status/2027256868721369451"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "@noodlesli2016 @kevinma_dev_zh 有这个逻辑",
+        "engagement": 1,
+        "url": "https://x.com/jesselaunz/status/2027261932252860856"
+      }
+    ],
+    "key_facts": [
+      "用户质疑企业API可能存在‘降智’（指模型能力弱化或输出质量下降）现象",
+      "推测企业可能对API接口进行暗箱操作以区分服务层级"
+    ],
+    "analyst_angle": "这反映了开发者社区对AI服务透明度和一致性的信任隐忧，但缺乏具体产品、厂商或技术证据，属于碎片化猜测而非可验证事件。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260228_025",
+    "title": "📌 VigoCreativeAI 推出新版本创意生成工具（疑似免费试用）",
+    "category": "product_launch",
+    "importance": 4.5,
+    "sources": [
+      {
+        "author": "Cydiar404",
+        "text": "@vista8 晚点用我们产品生成，免费！",
+        "engagement": 3,
+        "url": "https://x.com/Cydiar404/status/2027214299295617309"
+      },
+      {
+        "author": "op7418",
+        "text": "@VigoCreativeAI 是的 如果价格降很多，速度快很多也不是不能接受",
+        "engagement": 3,
+        "url": "https://x.com/op7418/status/2027025011513741429"
+      },
+      {
+        "author": "op7418",
+        "text": "@linxiaobei888 是的 除了价格和速度，都没有比 Pro 更好",
+        "engagement": 0,
+        "url": "https://x.com/op7418/status/2027062211240509621"
+      }
+    ],
+    "key_facts": [
+      "VigoCreativeAI 被提及为新创意生成工具，可能提供免费试用",
+      "用户关注其价格、生成速度与 Pro 版对比表现",
+      "尚未确认官方发布渠道或正式命名，无技术参数/发布时间等关键信息"
+    ],
+    "analyst_angle": "当前仅见零星用户侧提及，缺乏官方公告、产品细节或差异化能力说明，暂属未验证的早期信号，需等待正式发布确认是否构成实质性产品迭代。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_026",
+    "title": "📌 手机与电脑双系统使用习惯讨论",
+    "category": "other",
+    "importance": 2.0,
+    "sources": [
+      {
+        "author": "dingyi",
+        "text": "@wulujia 所以手机和电脑都是双系统，只用一个还是不行",
+        "engagement": 3,
+        "url": "https://x.com/dingyi/status/2026986766184689732"
+      },
+      {
+        "author": "dingyi",
+        "text": "@Lucius_Chen 看使用习惯吧，笔记本最大化还好，台式机还是喜欢这种多窗口的",
+        "engagement": 0,
+        "url": "https://x.com/dingyi/status/2026999445997724050"
+      }
+    ],
+    "key_facts": [
+      "用户讨论手机和电脑采用双系统配置的必要性",
+      "提及笔记本与台式机在多窗口使用习惯上的差异"
+    ],
+    "analyst_angle": "该讨论反映终端设备操作系统生态尚未统一，但属于日常使用偏好层面的碎片化观点，无技术突破、产品发布或行业影响，属低信噪比社交互动",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260228_027",
+    "title": "📌 华为官方账号互动式回复活动",
+    "category": "other",
+    "importance": 2.0,
+    "sources": [
+      {
+        "author": "Huawei",
+        "text": "@Krishna13175753 Thanks so much! 🫶 #HuaweiAnswers",
+        "engagement": 2,
+        "url": "https://x.com/Huawei/status/2027316208983507301"
+      },
+      {
+        "author": "Huawei",
+        "text": "@theuiuxayo Love this! 😍 #HuaweiAnswers",
+        "engagement": 2,
+        "url": "https://x.com/Huawei/status/2027316070625980630"
+      },
+      {
+        "author": "Huawei",
+        "text": "@king21061_king Glad you enjoyed it! 😉 #HuaweiAnswers",
+        "engagement": 1,
+        "url": "https://x.com/Huawei/status/2027320600818339963"
+      },
+      {
+        "author": "Huawei",
+        "text": "@kunle_aremu Absolutely! 💯 #HuaweiAnswers",
+        "engagement": 1,
+        "url": "https://x.com/Huawei/status/2027319280338088248"
+      },
+      {
+        "author": "Huawei",
+        "text": "@Maliaonaire ❤️❤️ #HuaweiAnswers",
+        "engagement": 1,
+        "url": "https://x.com/Huawei/status/2027310523231195236"
+      }
+    ],
+    "key_facts": [
+      "华为官方推特账号近期批量发布简短、表情丰富的用户互动回复",
+      "所有推文均带话题标签 #HuaweiAnswers，无实质性产品、技术或政策信息"
+    ],
+    "analyst_angle": "此类推文属于常规社交媒体运营行为，无实质行业影响，仅反映品牌亲和力维护动作。",
+    "cluster_size": 9,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_028",
+    "title": "🚀 Vibe Coding：零代码应用开发新范式",
+    "category": "product_launch",
+    "importance": 7.5,
+    "sources": [
+      {
+        "author": "lewangx",
+        "text": "@ZZSHCN vibe coding啊，真正实现了不写一行代码开发一个应用",
+        "engagement": 1,
+        "url": "https://x.com/lewangx/status/2027392255300960681"
+      },
+      {
+        "author": "dingyi",
+        "text": "@profree6 确实，收集链接的虽然也辛苦，但和代码没半点关系",
+        "engagement": 0,
+        "url": "https://x.com/dingyi/status/2027223057098818029"
+      }
+    ],
+    "key_facts": [
+      "Vibe Coding 被提及为一种‘不写一行代码即可开发应用’的新型开发方式",
+      "该概念已引发开发者社区关注，强调脱离传统编码逻辑的交互范式"
+    ],
+    "analyst_angle": "这标志着低代码/无代码向更自然化、意图驱动的AI原生开发范式演进，可能加速应用开发民主化，但当前仍需明确其技术实现（如是否基于LLM+UI编排）及生产可用性边界。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_029",
+    "title": "🔬 ChatGPT Health 被《Nature Medicine》研究证实严重低估医疗紧急程度",
+    "category": "research",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "研究称 ChatGPT Health 未能识别医疗紧急情况，恐将导致本可避免的伤亡. IT之家 2 月 27 日消息，当地时间 2 月 26 日，据英国《卫报》报道，一项研究发现，ChatGPT Health 经常未能识别需要紧急医疗干预的情况，也频繁未能检测出自杀意念。专家警告，这种缺陷“可能导致本可避免的伤害甚至死亡”。OpenAI 于 1 月向部分用户推出 ChatGPT Health 功能",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/384.htm"
+      },
+      {
+        "author": "FinanceYF5",
+        "text": "4/ https://t.co/VwXPVaIkqx🥉 第三名\n\n医生就诊后的自动随访。\n\n通过逆向记录就诊内容，并结合健康背景信息（生命体征、化验结果、用药情况、临床指南），生成通俗易懂的总结、患者问答，以及升级处理提醒信号。\nhttps://t.co/JMzUkqGtqr",
+        "engagement": 1,
+        "url": "https://x.com/FinanceYF5/status/2027308090421662097"
+      }
+    ],
+    "key_facts": [
+      "《Nature Medicine》发表首项独立安全评估，显示ChatGPT Health在超50%案例中低估医疗紧急程度",
+      "该功能未能可靠识别自杀意念及需紧急干预的医疗状况，专家警告或致‘本可避免的伤害甚至死亡’",
+      "ChatGPT Health于1月上线，定位为连接医疗记录与健康应用的AI健康助手，日均4000万用户咨询健康问题"
+    ],
+    "analyst_angle": "这是大模型医疗落地进程中首个高影响力、同行评议的系统性安全警示，将倒逼监管框架加速成型，并重设AI健康助手的临床准入门槛与责任边界。",
+    "cluster_size": 2,
+    "event_time": "2026-02-27T14:53:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_030",
+    "title": "🚀 小米汽车宣布筹建安全顾问委员会并强化电池自研与整车安全体系",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "9点1氪丨语音误关大灯致车祸，领克道歉；OpenAI获1100亿美元融资；米哈游内部通报员工意外离世. 今日热点导览\n  \n   豆包手机回应存在安全漏洞\n   影石创新：所涉337调查已终结\n   米哈游多款未公开角色遭泄露，3名“00后”被刑拘\n   中国邮政称已叫停《尘白禁区》联名活动\n   蜜雪冰城要在河南老家建“雪王乐园”\n  \n  TOP 3 大新闻\n  语音误关大灯致车祸，领克致歉\n",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3702272216543360?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "小米汽车：将筹建安全顾问委员会及公众安全沟通机制. 小米方面透露，新的一年，小米汽车将筹建小米汽车安全顾问委员会，将向全国各大专院校、科研院所的车辆安全专家，以及曾经参与过国家事务调查召回的专家发出邀请，请他们来为小米汽车的安全进行多角度评估和把关。此外，小米汽车还希望建立公众安全沟通机制，与车主、媒体、专家定期沟通，为小米汽车安全出谋划策，预计今年上半年将召开一期活动。（界面）",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3701537182347657?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "IT早报 0228：魅族宣布暂停手机业务；小米回应汽车火灾事故调查过程；微信“面对面接收照片和文件”功能原理解析；多品牌车主尝试语音关闭大灯.... “IT早报”时间，大家好，现在是 2026 年 2 月 28 日星期六，今天的重要科技资讯有：1、魅族科技宣布战略转型，将暂停国内手机新产品自研硬件项目魅族科技表示，魅族公司将积极地全面战略转型，在全新的 AI 时代，从过去以硬件为主导转向为以 AI",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/401.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "雷军直播汇总：小米汽车的目标就是做同档最安全的车，安全团队超 3500 人、电池研发团队超 220 人. IT之家 2 月 27 日消息，小米创办人、董事长兼 CEO 雷军今晚举行直播，与侯景雷、于立国等员工共谈小米汽车的安全体系。直播结束后，雷军在官方账号发文，对此次直播中的内容进行了汇总。IT之家附原文如下：1. 今天在小米汽车电池工厂直播，位于北京亦庄的小米汽车工厂内。小米汽车工厂是一个综合",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/385.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "雷军谈小米汽车为何要自研电池包：5 年前造车时就下决心要把电池做好. IT之家 2 月 27 日消息，今天晚间，小米创办人、董事长兼 CEO 雷军与多位小米专家在小米汽车工厂直播，这是春节假期后雷军的第一场直播。直播中，雷军在谈及小米汽车为何要自研电池包时表示，优秀的主机厂想把新能源汽车做好就一定要在三电技术，尤其是在电池技术上下很大功夫。“5 年前我们造车的时候，我们就下决心一定要把电池做好，所",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/355.htm"
+      }
+    ],
+    "key_facts": [
+      "小米汽车宣布筹建跨机构安全顾问委员会，邀请高校、科研院所及国家召回调查专家参与多角度安全评估",
+      "将建立常态化公众安全沟通机制，计划2026年上半年召开首期活动",
+      "雷军直播披露小米汽车安全投入：安全团队超3500人、电池研发团队超220人，自建9855㎡全工艺电池Pack工厂",
+      "新一代SU7搭载2200兆帕超强钢、全系9气囊、电池包底部防弹涂层、激光雷达等硬核安全配置"
+    ],
+    "analyst_angle": "小米正以系统性安全治理架构（专家委员会+公众沟通+自研三电）重构智能电动车安全信任范式，标志着中国车企从功能竞争转向可信度竞争的关键跃迁。",
+    "cluster_size": 10,
+    "event_time": "2026-02-27T12:06:20Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_031",
+    "title": "🤝 中科第五纪获红杉中国领投数亿元融资，成宇树科技“核心生态合作伙伴”",
+    "category": "funding",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "给宇树做“大脑”的具身智能公司，融资数亿元，红杉中国投了. 文｜富充\n  编辑｜苏建勋\n  在我们访谈具身智能公司“中科第五纪”期间，两件事情先后发生。\n  第一件事，是2026年1月，中科第五纪获得宇树科技“核心生态合作伙伴”称号。在To B及工业场景，中科第五纪目前作为宇树机器人的“大脑”模型供应商。\n  第二件事，是中科第五纪在近期接连完成Pre-A及Pre-A+轮融资，两笔交易在一个月之内",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3700919151538052?f=rss"
+      },
+      {
+        "author": "雷锋网",
+        "text": "对话原力灵机范浩强：评判机器人好坏，只有一个指标. 范浩强是个很幽默的人。我们问他下一个十年，具身智能要解决的问题是什么，他说可能机器人觉醒把人类灭了，就没有下一个十年了。这当然是一个玩笑，探讨行业的发展，难免要做一些科幻性的想象。在他看来，AI 应该是一生的事业。毕竟他高一就拿到了国际信息奥赛金牌，高二起就是一个真正的 AI 研究员了。原力灵机的名字很陌生，但来头可不小，因为这是从旷视出来的具身",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/robot/sN3CJJLdL8Oj8afj.html"
+      },
+      {
+        "author": "雷锋网",
+        "text": "独家 | 星海图孵化首席科学家许华哲创业，新公司已获得星海图投资. 雷峰网独家获悉，星海图孵化首席科学家许华哲创业，新公司将会切入具身智能C端应用赛道。据悉，许华哲的新公司已获得星海图种子轮投资。作为具身智能领域的明星创业公司，星海图自2023年9月成立以来，获得了资本市场的持续关注。2025年7月，星海图连续完成A4&nbsp;轮及A5&nbsp;轮战略融资，合计融资金额超过1亿美元。2026年",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/robot/vZ1kKdmdP0efTsSX.html"
+      }
+    ],
+    "key_facts": [
+      "中科第五纪近期连续完成Pre-A及Pre-A+轮融资，总规模达数亿元；Pre-A轮由红杉中国领投",
+      "2026年1月获宇树科技授予‘核心生态合作伙伴’称号，为其机器人提供‘大脑’（具身智能模型）",
+      "创始人刘年丰指出，融资与生态认证同步发生，反映一级市场对具身智能投资逻辑转向务实（聚焦To B/工业落地）"
+    ],
+    "analyst_angle": "头部VC背书叠加头部机器人本体厂商深度绑定，标志着具身智能产业正从‘模型先行’进入‘模型×本体协同验证’阶段，商业化闭环加速成型。",
+    "cluster_size": 3,
+    "event_time": "2026-02-27T02:11:09Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_032",
+    "title": "📌 证监会同日对海泰发展、双良节能两家上市公司立案调查",
+    "category": "policy",
+    "importance": 7.5,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "海泰发展：因公司涉嫌信息披露违法违规，证监会决定对公司立案. 36氪获悉，海泰发展公告，公司于2月27日收到证监会下发的《立案告知书》，因公司涉嫌信息披露违法违规，证监会决定对公司进行立案。目前公司各项经营活动和业务均正常开展。在立案调查期间，公司将积极配合中国证监会的相关调查工作，并严格按照相关法律法规和监管要求及时履行信息披露义务。",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3701544701686149?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "双良节能：因涉嫌信息披露误导性陈述等违法违规行为被证监会立案. 36氪获悉，双良节能公告，公司于2月27日收到中国证券监督管理委员会下发的《立案告知书》，因公司涉嫌信息披露误导性陈述等违法违规行为，决定对公司立案。目前公司经营情况正常。在立案调查期间，公司将积极配合中国证监会的相关调查工作，并严格按照有关法律法规及监管要求履行信息披露义务。",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3701522373325184?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "深交所：本周对142起证券异常交易行为采取了自律监管措施. 36氪获悉，据深交所，2026年2月24日至2026年2月27日，深交所共对142起证券异常交易行为采取了自律监管措施，涉及盘中拉抬打压、虚假申报等异常交易情形；共对5起上市公司重大事项进行核查，并上报证监会4起涉嫌违法违规案件线索。",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3701518233907332?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "中富通：拟定增募资不超过6.43亿元，用于基于人工智能的公共安全平台产业化项目等. 36氪获悉，中富通公告，拟定增募资不超过6.43亿元，用于基于人工智能的公共安全平台产业化项目、通信服务网点升级改造项目、研发中心升级建设项目、补充流动资金。",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3701511281586563?f=rss"
+      }
+    ],
+    "key_facts": [
+      "证监会于2026年2月27日同日向海泰发展和双良节能下发《立案告知书》，均因涉嫌信息披露违法违规（海泰为一般性违规，双良明确指向‘误导性陈述’）",
+      "深交所同期通报本周上报证监会4起涉嫌违法违规案件线索，显示监管协同强化",
+      "两家公司均强调经营正常，承诺积极配合调查并履行信披义务"
+    ],
+    "analyst_angle": "同一交易日对两家A股公司就信披问题立案，释放出证监会对上市公司信息披露质量‘零容忍’的强监管信号，或预示新一轮信披合规整治周期启动。",
+    "cluster_size": 4,
+    "event_time": "2026-02-27T12:11:59Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_033",
+    "title": "🔧 三星 Exynos 2600 芯片温控突破：Galaxy S26 系列告别“火龙”发热问题",
+    "category": "chip_hardware",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "告别“火龙”称号：三星 Exynos 2600 芯片温控测试通关. IT之家 2 月 28 日消息，Youtube 频道 Vật Vờ Studio 最新一期视频中，主播 Long Ngong 极限测试了三星 Galaxy S26 和 Galaxy S26+ 手机的 Exynos 2600 芯片，发现三星已解决长期困扰用户的发热降频问题。IT之家附上相关测试视频如下： 该主播为了验证 Exynos",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/415.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "三星确认 Galaxy S26 系列手机全系配备 10bit 屏幕，但官网标注为 8bit. IT之家 2 月 27 日消息，据科技媒体 Sammobile 今天报道，三星前天举行 Galaxy Unpacked 发布会，推出 Galaxy S26、S26+ 以及 S26 Ultra 手机。IT之家援引 Sammobile，三星官网上的 Galaxy S26 系列参数表却写明该系列机型可显示“16",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/369.htm"
+      }
+    ],
+    "key_facts": [
+      "Exynos 2600 芯片在 Galaxy S26/S26+ 上通过极限高负载游戏（《原神》《崩坏》《英雄联盟手游》）温控测试，平均温度仅约32℃（26℃室温下）",
+      "长期被诟病的发热降频问题得到实质性解决，标志三星移动芯片热管理能力重大进步",
+      "Galaxy S26 系列全系搭载10bit屏幕（官网误标为8bit），支持10.1亿色显示"
+    ],
+    "analyst_angle": "Exynos 2600 的散热表现若经第三方复现确认，将显著扭转三星旗舰SoC的市场信任危机，为Exynos在高端市场的回归提供关键技术支点。",
+    "cluster_size": 2,
+    "event_time": "2026-02-27T13:22:32Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_034",
+    "title": "🚀 Moto Edge 70 Fusion+ 渲染图曝光 & Google Pixel 11 Pro XL 跑分现身",
+    "category": "product_launch",
+    "importance": 6.8,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "摩托罗拉 Moto Edge 70 Fusion+ 手机渲染图曝光：5000 万主摄、7000mAh 电池、6.8 英寸曲面屏. IT之家 2 月 28 日消息，科技媒体 YtechB 昨日（2 月 27 日）发布博文，分享了一组渲染图，展示了摩托罗拉 Moto Edge 70 Fusion+ 手机，并透露了该机的核心参数。外观方面，Edge 70 Fusion+ 背板材质以“尼龙与亚麻”为灵感，",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/399.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "谷歌 Pixel 11 Pro XL 手机现身 Geekbench：7 核 Tensor G6 处理器、多核 2657 分. IT之家 2 月 27 日消息，一款代号为“Kodiak”的谷歌新机最近现身 Geekbench 跑分数据库，X 平台消息人士 Reptalica 认为这是 Pixel 11 Pro XL 手机。IT之家了解到，这款手机搭载 Tensor G6 处理器，采用 7 核设计，内",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/381.htm"
+      }
+    ],
+    "key_facts": [
+      "Moto Edge 70 Fusion+ 曝光：6.78 英寸 1.5K 四曲面 AMOLED 屏、144Hz 刷新率、5000 万主摄、7000mAh 电池、尼龙+亚麻风格背板",
+      "Google Pixel 11 Pro XL（代号 Kodiak）现身 Geekbench：搭载 7 核 Tensor G6（基于 Arm Lumex 架构），含 1×C1-Ultra + 4×C1-Pro + 2×C1-Pro 核心，GPU 为 PowerVR CXTP-48-1536，12GB 内存，多核跑分 2657"
+    ],
+    "analyst_angle": "两大旗舰新机密集曝光预示 Q2 Android 高端市场将迎新一轮硬件军备竞赛，尤其 Tensor G6 首次实测验证谷歌自研芯片向高性能方向演进，而 Moto 大电池+曲面屏组合凸显差异化续航策略。",
+    "cluster_size": 2,
+    "event_time": "2026-02-27T14:30:19Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_035",
+    "title": "💡 Anthropic 拒绝五角大楼军用AI要求，引发全行业伦理立场联合声明",
+    "category": "policy",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "kevinxu",
+        "text": "Last week, my agents invited every billionaire to our wedding.\n\nMost declined but several EAs sent  gifts anyway.\n\nNow I have a Rolex, a Rimowa set, and 47 monogrammed towels on the way.",
+        "engagement": 5577,
+        "url": "https://x.com/kevinxu/status/2027233105149616270"
+      },
+      {
+        "author": "UnitreeRobotics",
+        "text": "Great Honor to Welcome German Chancellor Merz 🥳\nIt was a great honor to welcome German Chancellor and his delegation to visit Unitree Robotics！\nWe sincerely appreciate the enthusiasm from German entre",
+        "engagement": 2343,
+        "url": "https://x.com/UnitreeRobotics/status/2027017274666754551"
+      },
+      {
+        "author": "kevinxu",
+        "text": "“Give them hope.”\n$NVDA +4%\n“Now take it all back.” https://t.co/F5AebuNbJn",
+        "engagement": 1011,
+        "url": "https://x.com/kevinxu/status/2027072408809861278"
+      },
+      {
+        "author": "dotey",
+        "text": "Anthropic 和五角大楼这周彻底闹翻了。五角大楼要求 Claude 向军方开放所有合法用途，不设任何限制。\n\nAnthropic 拒绝了，坚持 AI 不能用于大规模监控美国公民，也不能用于全自主致命武器。\n\n五角大楼给了最后通牒，限今天下午 5:01 前答复，否则取消 2 亿美元合同，还威胁动用《国防生产法》，把 Anthropic 列为供应链风险。\n\nDario Amodei 公开回应：我",
+        "engagement": 847,
+        "url": "https://x.com/dotey/status/2027500382910615893"
+      },
+      {
+        "author": "vista8",
+        "text": "Github上升很快的一个Skill叫ClawFeed。\n\n看示意网站抓了很多X上的优质内容，地址见评论区 https://t.co/UhoFzwcvkh",
+        "engagement": 836,
+        "url": "https://x.com/vista8/status/2027069976772046890"
+      }
+    ],
+    "key_facts": [
+      "五角大楼要求 Anthropic 向军方开放 Claude 的所有合法用途（含大规模监控与全自主致命武器），遭其明确拒绝",
+      "Anthropic 坚持核心伦理红线：不支持大规模监控美国公民、不支持全自主致命武器；Dario Amodei 公开表态‘良心上无法答应’",
+      "特朗普下令联邦机构立即停用 Anthropic 技术；OpenAI、Google 员工联合签署声援公开信；Sam Altman 和 Ilya Sutskever 公开表态支持，强调这是整个行业的原则性危机"
+    ],
+    "analyst_angle": "这标志着AI行业首次在国家级安全需求与技术伦理红线之间爆发制度性对峙，或将推动美国出台首部具约束力的AI军事应用禁令，并加速全球AI治理联盟的实质性形成。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260228_036",
+    "title": "💡 Harness Engineering：2026年AI工程新范式崛起",
+    "category": "research",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "vista8",
+        "text": "终于看到靠谱的日更AI资讯聚合，来自著名的AI Newsletter：latent. space\n\n如果没时间精力，读这个频道就够，不用折腾。\n\n信息源：12个Reddit子版、500多个 Twitter账号 和 24 个 Discord频道，每天累计上万信息筛选精华。\n\n这家专业性靠谱，Ben's bite也很好，但是周更。\n\n地址见评论区，建议收藏",
+        "engagement": 699,
+        "url": "https://x.com/vista8/status/2027404900335063285"
+      },
+      {
+        "author": "kevinxu",
+        "text": "hot take but i'd rather have a $2m mortgage at 3% than a $1m mortgage at 6%",
+        "engagement": 677,
+        "url": "https://x.com/kevinxu/status/2026887952346108225"
+      },
+      {
+        "author": "kevinxu",
+        "text": "you're bearish?\n\n$NVDA just sold $68.1 billion of chips in 3 months\n\nand you're bearish on $IREN? https://t.co/rAfdGPy8WF",
+        "engagement": 552,
+        "url": "https://x.com/kevinxu/status/2027122042236186844"
+      },
+      {
+        "author": "dotey",
+        "text": "2026 年 “Harness Engineering” 这个词要火。\n\n“Harness” 这个词，字面意思是“马具”，就是套在马身上、让人能控制马匹方向和力量的那套装备。\n\n用在 AI 编程的语境里，它的比喻再贴切不过：AI Agent 就像一匹动力十足但不太守规矩的马，而 Harness 就是那套让它既能跑得快、又不会跑偏的缰绳和马鞍。\n\n过去三年，三个阶段：\n\n1. Prompt Engi",
+        "engagement": 423,
+        "url": "https://x.com/dotey/status/2027156511555027252"
+      },
+      {
+        "author": "kevinxu",
+        "text": "hot take but you should never put 90% of your portfolio all in one stock",
+        "engagement": 370,
+        "url": "https://x.com/kevinxu/status/2027222953264558329"
+      }
+    ],
+    "key_facts": [
+      "'Harness Engineering'被提出作为继Prompt Engineering（2023–2024）和Context Engineering（2025）之后的第三代AI系统工程范式",
+      "核心目标是构建可控、可靠、可审计的AI Agent执行环境，超越单纯提示词或上下文设计，涵盖系统级约束、工具链治理、反馈闭环与安全护栏",
+      "该概念由推特用户@dotey在技术语境中首次系统阐释，并引发对AI工程演进路径的结构性讨论"
+    ],
+    "analyst_angle": "这标志着行业正从‘如何让AI回答更好’转向‘如何让AI行为更可信’，预示着AI工程重心向系统可靠性、运行时治理与人机协同控制机制迁移，将深刻影响Agent架构、MLOps和AI安全工具链的发展优先级。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260228_037",
+    "title": "📌 苹果礼品卡成AI服务支付新通货（Claude订阅）",
+    "category": "market",
+    "importance": 4.2,
+    "sources": [
+      {
+        "author": "vista8",
+        "text": "感觉苹果礼品卡才是硬通货！订阅Claude Code方便。\n\n1. 打开pockyt，微信或支付宝下单买需要金额。\n\n2. 然后打开苹果手机：\n\n设置->媒体与购买项目->查看账户->管理付款方式->点apple 账户->点兑换->手动输入兑换码\n\n兑换后打开Claude，用apple id余额支付升级即可。\n\n前提：用美区Apple ID",
+        "engagement": 349,
+        "url": "https://x.com/vista8/status/2027026299521466477"
+      },
+      {
+        "author": "kevinxu",
+        "text": "This is insane.\n\nParamount should've invested $110B in OpenAI instead.",
+        "engagement": 337,
+        "url": "https://x.com/kevinxu/status/2027523718935933321"
+      },
+      {
+        "author": "kevinxu",
+        "text": "Duolingo ($DUOL)\n\n- $1B revenue\n- 100M+ MAUs\n- Profitable\n- $5B market cap\n\nHumans&amp; (AI Lab)\n\n- $0 revenue\n- 0 users\n- No product\n- $4.5B valuation\n\n...is this a bubble? https://t.co/r00tlRVJ22",
+        "engagement": 276,
+        "url": "https://x.com/kevinxu/status/2027172912810316177"
+      },
+      {
+        "author": "kevinxu",
+        "text": "she's been crying to me all day\n\ni told her \"no crying in the casino\"\n\nshe spit in my face https://t.co/02nKaQCmD0",
+        "engagement": 225,
+        "url": "https://x.com/kevinxu/status/2027115176164839444"
+      },
+      {
+        "author": "dontbesilent",
+        "text": "Ghostty 太好用！抛弃了 iterm2 https://t.co/eyVxyI2fFY",
+        "engagement": 194,
+        "url": "https://x.com/dontbesilent/status/2027290525460758670"
+      }
+    ],
+    "key_facts": [
+      "用户正通过美区Apple ID兑换苹果礼品卡，用余额支付Claude Code订阅服务",
+      "该做法绕过本地支付限制，形成事实上的跨境AI服务套利/便捷通道"
+    ],
+    "analyst_angle": "反映AI消费级服务在支付基础设施不完善地区的‘灰色合规’渗透路径，凸显苹果生态闭环对AI商业化落地的隐性赋能作用。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  }
+]
