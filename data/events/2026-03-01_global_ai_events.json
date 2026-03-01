@@ -1,0 +1,449 @@
+[
+  {
+    "event_id": "evt_20260301_000",
+    "title": "📌 ICLR 2026 Workshop Decisions Due Feb 28 (AoE)",
+    "category": "research",
+    "importance": 4.5,
+    "sources": [
+      {
+        "author": "Reddit ML",
+        "text": "[D] ICLR Workshop Results. The ICLR 26 websites mention that the mandatory notification for workshop paper accept/reject is 28 Feb 2026 (AoE). So has anyone received their decisions yet?   &#32; submi",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rhl1to/d_iclr_workshop_results/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "6 days left to lock in the lowest TechCrunch Disrupt 2026 rates https://t.co/eMGOhZpJ6B",
+        "engagement": 26,
+        "url": "https://x.com/TechCrunch/status/2025587981197943047"
+      }
+    ],
+    "key_facts": [
+      "ICLR 2026 workshop paper acceptance/rejection notifications are mandated by Feb 28, 2026 (Anywhere on Earth time zone)",
+      "As of Mar 1, 2025 UTC, many authors report not yet having received decisions"
+    ],
+    "analyst_angle": "Timing signals standard academic review cadence for top-tier ML workshops—but lack of early notifications suggests potential delays or high submission volume, with implications for author planning (e.g., resubmission deadlines, conference travel prep).",
+    "cluster_size": 2,
+    "event_time": "2026-03-01T02:12:12Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260301_001",
+    "title": "🌐 Alibaba Team Open-Sources CoPaw: A High-Performance Personal Agent Workstation",
+    "category": "open_source",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "MarkTechPost",
+        "text": "Alibaba Team Open-Sources CoPaw: A High-Performance Personal Agent Workstation for Developers to Scale Multi-Channel AI Workflows and Memory. As the industry moves from simple Large Language Model (LL",
+        "engagement": 0,
+        "url": "https://www.marktechpost.com/2026/03/01/alibaba-team-open-sources-copaw-a-high-performance-personal-agent-workstation-for-developers-to-scale-multi-channel-ai-workflows-and-memory/"
+      },
+      {
+        "author": "dejavucoder",
+        "text": "my ongoing observation is agentic engineering needs end to end product/task owners for fastest execution",
+        "engagement": 19,
+        "url": "https://x.com/dejavucoder/status/2025594123617730699"
+      }
+    ],
+    "key_facts": [
+      "Alibaba researchers have open-sourced CoPaw, a personal agent workstation designed for developers",
+      "CoPaw enables scalable multi-channel AI workflows and enhanced memory management for autonomous agentic systems",
+      "It addresses the growing need for robust execution environments beyond LLM inference"
+    ],
+    "analyst_angle": "CoPaw signals a strategic shift toward developer-centric tooling for agentic AI—lowering the barrier to building, orchestrating, and maintaining production-grade agent systems.",
+    "cluster_size": 2,
+    "event_time": "2026-03-01T10:03:56Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260301_002",
+    "title": "💡 AI专家质疑AI实验室对技术社会影响的判断",
+    "category": "other",
+    "importance": 6.5,
+    "sources": [
+      {
+        "author": "emollick",
+        "text": "@nahuelzn I think this is a stance against the AI labs positions!\n\nI feel like my mix of criticism and enthusiasm has been pretty constant, so I am surprised to hear it.",
+        "engagement": 4,
+        "url": "https://x.com/emollick/status/2025602110843195669"
+      },
+      {
+        "author": "emollick",
+        "text": "@nahuelzn Rewrote the post",
+        "engagement": 2,
+        "url": "https://x.com/emollick/status/2025607760159621631"
+      },
+      {
+        "author": "emollick",
+        "text": "@nahuelzn My apologies for being unclear on tone. I meant it as a discussion of the wider impacts of AI on society. If the AI labs are right about the technology, they are still likely wrong about the",
+        "engagement": 2,
+        "url": "https://x.com/emollick/status/2025605320450433116"
+      }
+    ],
+    "key_facts": [
+      "Emollick 明确区分对AI技术本身的兴趣与对其社会影响预测的批评",
+      "强调AI实验室可能在技术能力判断上正确，但在社会影响推演上存在系统性偏差",
+      "主动澄清原意是发起关于AI广泛社会影响的严肃讨论，而非否定技术进展"
+    ],
+    "analyst_angle": "这反映了AI领域日益凸显的‘技术乐观主义’与‘社会审慎主义’之间的张力，预示着政策制定、公众沟通和AI治理框架将更需要跨学科共识，而非仅依赖研发方叙事。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260301_003",
+    "title": "📌 OpenRouter 推出新模型路由服务（尚未公开上线）",
+    "category": "product_launch",
+    "importance": 4.0,
+    "sources": [
+      {
+        "author": "emollick",
+        "text": "@rebeccatrinidad Thanks!",
+        "engagement": 1,
+        "url": "https://x.com/emollick/status/2025609928807784657"
+      },
+      {
+        "author": "rasbt",
+        "text": "@tanmay_patil Thanks, someone else mentioned them yesterday but they don’t seem to be available yet",
+        "engagement": 1,
+        "url": "https://x.com/rasbt/status/2025599253679104482"
+      },
+      {
+        "author": "rasbt",
+        "text": "@permutans @sukh_saroy Thanks!",
+        "engagement": 1,
+        "url": "https://x.com/rasbt/status/2025598865211068600"
+      }
+    ],
+    "key_facts": [
+      "OpenRouter 被多位用户提及正推出一项新模型路由服务",
+      "该服务目前尚未对公众开放，处于未上线状态"
+    ],
+    "analyst_angle": "虽为早期动向，但反映模型即服务（MaaS）基础设施层持续演进，需关注其正式发布后对 API 聚合与成本优化生态的影响。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260301_004",
+    "title": "🤝 OpenAI & Anthropic Face Pentagon Backlash Over Military AI Use",
+    "category": "policy",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "OpenAI shares more details about its agreement with the Pentagon. By CEO Sam Altman’s own admission, OpenAI’s deal with the Department of Defense was “definitely rushed,” and “the optics don’t look go",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/01/openai-shares-more-details-about-its-agreement-with-the-pentagon/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Anthropic’s Claude rises to No. 1 in the App Store following Pentagon dispute. Anthropic’s chatbot Claude seems to have benefited from the attention around the company’s fraught negotiations with the ",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/01/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/"
+      },
+      {
+        "author": "Ars Technica",
+        "text": "Trump moves to ban Anthropic from the US government. The Defense Department pressured Anthropic to drop restrictions on how its AI can be used by the military.",
+        "engagement": 0,
+        "url": "https://arstechnica.com/tech-policy/2026/02/trump-moves-to-ban-anthropic-from-the-us-government/"
+      }
+    ],
+    "key_facts": [
+      "OpenAI admits its Pentagon agreement was 'definitely rushed' and acknowledges poor optics",
+      "Anthropic faced DoD pressure to remove military use restrictions on its AI, prompting a Trump administration move to ban it from US government contracts",
+      "Claude surged to #1 in the App Store amid public scrutiny of both companies' defense engagements"
+    ],
+    "analyst_angle": "This signals escalating regulatory and reputational risk for AI firms engaging with defense — not as isolated contracts, but as a litmus test for responsible AI governance, transparency, and public trust.",
+    "cluster_size": 3,
+    "event_time": "2026-02-28T20:00:26Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260301_005",
+    "title": "🚀 Honor Unveils 'Robot Phone' with Moving Camera & Humanoid Robot at MWC 2026",
+    "category": "product_launch",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Honor says its ‘Robot phone’ with moving camera can dance to music. Honor first teased its &#8220;Robot phone&#8221; with a movable camera arm earlier this year. Ahead of the Mobile World Congress (MW",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/01/honor-says-its-robot-phone-with-moving-camera-can-dance-to-music/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Honor launches its new slim foldable Magic V6 with a 6,600 mAh battery. Honor also previewed battery tech that could take foldable batteries over 7,000 mAh mark",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/01/honor-launches-its-new-slim-foldable-magic-v6-with-a-6600-mah-battery/"
+      },
+      {
+        "author": "The Verge",
+        "text": "Honor claims its Robot Phone will launch later this year. Honor has revealed more details of its so-called Robot Phone at MWC 2026, and finally showed a working unit in action alongside a dancing huma",
+        "engagement": 0,
+        "url": "https://www.theverge.com/gadgets/887140/honor-robot-phone-mwc-release-date-specs"
+      },
+      {
+        "author": "The Verge",
+        "text": "Honor’s Magic V6 is the first foldable with an IP69 rating. For the third year running, Honor has announced what it says is the world's thinnest book-style folding phone. For the second year, it's com",
+        "engagement": 0,
+        "url": "https://www.theverge.com/tech/887104/honor-magic-v6-thinnest-battery-launch-mwc"
+      },
+      {
+        "author": "CNET",
+        "text": "First Steps? Honor's Humanoid Robot Makes Its Debut With a Moonwalk and a Backflip. Honor's move into robotics feels like a bold move, and it turns out that its first humanoid has some bold moves of i",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/mobile/honors-humanoid-robot-takes-its-first-steps-at-mwc-2026/"
+      }
+    ],
+    "key_facts": [
+      "Honor publicly demonstrated a functional 'Robot Phone' with a motorized, movable camera arm that responds to music and environmental cues",
+      "The device — confirmed for H2 2026 launch — was showcased alongside a dancing humanoid robot performing moonwalks and backflips",
+      "Also launched at MWC: the ultra-slim Magic V6 foldable (world's thinnest book-style foldable), IP69-rated, with 6,600 mAh battery and roadmap to >7,000 mAh"
+    ],
+    "analyst_angle": "Honor is strategically converging mobile hardware innovation with embodied AI and robotics — signaling a shift from incremental foldable upgrades to platform-level convergence where phones act as interactive robotic agents, potentially redefining smartphone UX and competitive positioning against Huawei, Xiaomi, and global AI-hardware players.",
+    "cluster_size": 7,
+    "event_time": "2026-03-01T10:05:21Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260301_006",
+    "title": "💡 AI 工程师角色重构：编码变易、工程变难，免费广告模式兴起与现代AI教育普及",
+    "category": "other",
+    "importance": 6.8,
+    "sources": [
+      {
+        "author": "Hacker News AI",
+        "text": "AI Made Writing Code Easier. It Made Being an Engineer Harder. Article URL: https://www.ivanturkovic.com/2026/02/25/ai-made-writing-code-easier-engineering-harder/\nComments URL: https://news.ycombinat",
+        "engagement": 0,
+        "url": "https://www.ivanturkovic.com/2026/02/25/ai-made-writing-code-easier-engineering-harder/"
+      },
+      {
+        "author": "Hacker News AI",
+        "text": "I built a demo of what AI chat will look like when it's \"free\" and ad-supported. Article URL: https://99helpers.com/tools/ad-supported-chat\nComments URL: https://news.ycombinator.com/item?id=47205890\n",
+        "engagement": 0,
+        "url": "https://99helpers.com/tools/ad-supported-chat"
+      },
+      {
+        "author": "Hacker News AI",
+        "text": "10-202: Introduction to Modern AI (CMU). Article URL: https://modernaicourse.org\nComments URL: https://news.ycombinator.com/item?id=47204559\nPoints: 143\n# Comments: 33",
+        "engagement": 0,
+        "url": "https://modernaicourse.org"
+      }
+    ],
+    "key_facts": [
+      "文章指出AI降低了编码门槛但抬高了系统工程、架构判断与跨层权衡等高阶工程能力要求",
+      "出现‘免费+广告支持’的AI聊天产品原型，预示商业化路径分化",
+      "CMU推出面向公众的《Modern AI》入门课程（10-202），强调可访问性与实践导向"
+    ],
+    "analyst_angle": "这组动态共同折射出AI从工具层向角色层与生态层的深度渗透——工程师价值正从‘写代码’转向‘定义问题、约束边界、评估权衡’；同时，AI服务正加速走向大众化分层（广告免费版 vs 专业订阅版），而顶尖高校主动开放课程则倒逼行业人才标准升级。",
+    "cluster_size": 3,
+    "event_time": "2026-03-01T07:35:03Z",
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260301_007",
+    "title": "🔬 Open-source LLMs now within 5 quality points of proprietary models (Jan 2026 benchmark)",
+    "category": "research",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "Reddit ML",
+        "text": "[R] Benchmarked 94 LLM endpoints for jan 2026. open source is now within 5 quality points of proprietary.       been doing a deep dive on model selection for production inference and pulled togethar s",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rhuwyt/r_benchmarked_94_llm_endpoints_for_jan_2026_open/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[R] Tiny transformers (<100 params) can add two 10-digit numbers to 100% accuracy.       Really interesting project. Crazy you can get such good performance. A key component is that they are digit tok",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rh84o0/r_tiny_transformers_100_params_can_add_two/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[R] AudioMuse-AI-DCLAP - LAION CLAP distilled for text to music. Hi All, I just want to share that I distilled the LAION CLAP model specialized for music and I called AudioMuse-AI-DCLAP. It enable to ",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rh82jp/r_audiomuseaidclap_laion_clap_distilled_for_text/"
+      }
+    ],
+    "key_facts": [
+      "Benchmarked 94 LLM endpoints using WhatLLM.org's January 2026 report",
+      "Open-source models now trail proprietary models by ≤5 points on the Quality Index (QI)",
+      "QI is a composite metric reflecting reasoning, instruction-following, multilingual, and safety performance"
+    ],
+    "analyst_angle": "This marks a tipping point where open-weight models become viable for enterprise production inference—accelerating adoption, reducing vendor lock-in, and intensifying pressure on closed-model business models.",
+    "cluster_size": 3,
+    "event_time": "2026-02-28T17:12:53Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260301_008",
+    "title": "🔬 ZOT：基于达尔文选择与动力学校对的零依赖 Rust 异常检测工具发布",
+    "category": "research",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "Reddit ML",
+        "text": "[R] Using Darwinian selection instead of Neural Networks for anomaly detection.. I built ZOT as an experiment to see if biological immune systems (Darwinian selection + Kinetic Proofreading) could rep",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rhz8eb/r_using_darwinian_selection_instead_of_neural/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[D] got tired of \"just vibes\" testing for edge ML models, so I built automated quality gates. so about 6 months ago I was messing around with a vision model on a Snapdragon device as a side project. w",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rhq2qp/d_got_tired_of_just_vibes_testing_for_edge_ml/"
+      }
+    ],
+    "key_facts": [
+      "ZOT 是一个 400+ 行、零依赖的 Rust 二进制程序，不使用神经网络，而是模拟生物免疫系统机制（达尔文选择 + 动力学校对）进行异常检测",
+      "直接读取硬件级遥测数据（内存与时钟延迟），实现自主演化式威胁识别",
+      "项目作为对大模型范式替代路径的实验性探索，聚焦边缘/硬件感知的轻量可信检测"
+    ],
+    "analyst_angle": "这标志着‘生物启发式轻量化AI’在边缘安全领域迈出实质性一步——绕过深度学习的数据与算力依赖，为资源受限场景提供可验证、可解释、低维护的异常检测新范式。",
+    "cluster_size": 2,
+    "event_time": "2026-03-01T06:31:17Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260301_009",
+    "title": "💡 AI Leaders’ Ominous Job Loss Rhetoric Risks Backlash Amid Rising Public Scrutiny",
+    "category": "other",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "emollick",
+        "text": "The CEOs of the AI labs have spent the last two years ominously discussing massive future job losses even as they continued AI development.\n\nAs AI becomes more salient outside of the “AI bubble,” work",
+        "engagement": 723,
+        "url": "https://x.com/emollick/status/2025606987728191696"
+      },
+      {
+        "author": "emollick",
+        "text": "The failure to articulate non-ominous visions of the future (even Machines of Loving Grace fails to explain what life would actually be like) is going to be a problem for AI companies in the next phas",
+        "engagement": 206,
+        "url": "https://x.com/emollick/status/2025607547009273979"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "China’s brain-computer interface industry is racing ahead https://t.co/0eub7ahIf4",
+        "engagement": 179,
+        "url": "https://x.com/TechCrunch/status/2025602558732152922"
+      },
+      {
+        "author": "firstadopter",
+        "text": "Hockey should always be 3-on-3",
+        "engagement": 27,
+        "url": "https://x.com/firstadopter/status/2025599456301711741"
+      },
+      {
+        "author": "firstadopter",
+        "text": "@markgurman Hey Mark, which Mac do you use? I'm considering a Mac Studio but wondering if it will be worth it (faster) than my MacBook Pro for office productivity and video editing.",
+        "engagement": 19,
+        "url": "https://x.com/firstadopter/status/2025591752023761314"
+      }
+    ],
+    "key_facts": [
+      "AI lab CEOs have repeatedly warned of massive future job losses while accelerating development",
+      "Ethan Mollick highlights the strategic failure to articulate positive, concrete visions of AI-augmented human futures",
+      "Growing public and policymaker attention outside the 'AI bubble' increases reputational and regulatory risk for AI companies"
+    ],
+    "analyst_angle": "AI firms face mounting pressure to shift from dystopian framing to credible, human-centered transition narratives—failure risks eroding trust, inviting regulation, and slowing adoption.",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260301_010",
+    "title": "📌 Anthropic 与多家云巨头达成合作",
+    "category": "partnership",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "LinusEkenstam",
+        "text": "I’ve been talking about the post work era for 10+ years already. \n\nWelcome all new brave souls who have entered since then. https://t.co/xmDXkVGXuM",
+        "engagement": 17,
+        "url": "https://x.com/LinusEkenstam/status/2025589318044275183"
+      },
+      {
+        "author": "theinformation",
+        "text": "Partnerships with multiple cloud giants give Anthropic distribution — but also billions in payouts. https://t.co/9hbfObmyQZ",
+        "engagement": 11,
+        "url": "https://x.com/theinformation/status/2025590156430864866"
+      },
+      {
+        "author": "dejavucoder",
+        "text": "idea is idea generation and decision making is faster this way because end to end knowledge.",
+        "engagement": 4,
+        "url": "https://x.com/dejavucoder/status/2025595306889687443"
+      },
+      {
+        "author": "theinformation",
+        "text": "Sunday Insights: Reddit stock has fallen 43% in the past five weeks, following flat growth in 2025 in Reddit’s most important user group.\n\nRead more from @mvpeers 👇 \nhttps://t.co/5692hWnGYW",
+        "engagement": 3,
+        "url": "https://x.com/theinformation/status/2025606008349823262"
+      },
+      {
+        "author": "firstadopter",
+        "text": "@michaeljburry Watching",
+        "engagement": 2,
+        "url": "https://x.com/firstadopter/status/2025599023323775205"
+      }
+    ],
+    "key_facts": [
+      "Anthropic 与多家云巨头（如 AWS、Google Cloud、Azure）建立深度合作关系",
+      "合作带来广泛渠道分发能力，同时触发数十亿美元级预付款/收入承诺"
+    ],
+    "analyst_angle": "这标志着大模型厂商正从独立技术路线转向‘云原生嵌入’战略，加速商业化闭环，但亦加剧对云厂商生态的依赖风险。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260301_011",
+    "title": "📌 多家科技媒体集中报道AI治理困境与基础设施扩张，Lego发布Smart Brick智能积木",
+    "category": "other",
+    "importance": 4.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "The trap Anthropic built for itself. Anthropic, OpenAI, Google DeepMind and others have long promised to govern themselves responsibly. Now, in the absence of rules, there's not a lot to protect them.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "The billion-dollar infrastructure deals powering the AI boom. Here's everything we know about the biggest AI infrastructure projects, including major spending from Meta, Oracle, Microsoft, Google, and",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/02/28/billion-dollar-infrastructure-deals-ai-boom-data-centers-openai-oracle-nvidia-microsoft-google-meta/"
+      },
+      {
+        "author": "The Verge",
+        "text": "Lego’s Smart Brick is here, and it transforms these new Star Wars sets. Lego's new Smart Brick is a pretty big deal. It packs a miniature computer, a microphone, and NFC tech into a classic 2&#215;4 L",
+        "engagement": 0,
+        "url": "https://www.theverge.com/gadgets/886014/lego-smart-brick-star-wars-set-price-availability-release-date-buy"
+      },
+      {
+        "author": "The Verge",
+        "text": "Soundcore’s Space 2 are an evolution of its budget headphones. We finally have an update to the Soundcore Space One that launched two and a half years ago. At MWC 2026, Soundcore has announced the Spa",
+        "engagement": 0,
+        "url": "https://www.theverge.com/tech/886180/soundcore-space-2-announcement-mwc-2026"
+      },
+      {
+        "author": "The Verge",
+        "text": "Resident Evil Requiem leans too much on the series’ past. Resident Evil turns 30 this year. The series is full of history - the new Resident Evil Requiem is technically the ninth mainline game, but th",
+        "engagement": 0,
+        "url": "https://www.theverge.com/games/885811/resident-evil-requiem-grace-leon-nostalgia-ending"
+      }
+    ],
+    "key_facts": [
+      "TechCrunch刊文指出Anthropic、OpenAI等AI公司因缺乏外部监管而陷入自我治理困境",
+      "TechCrunch同步报道Meta、Microsoft、Google、Oracle、OpenAI等正推进数十亿美元级AI数据中心基建项目",
+      "The Verge报道Lego在CES 2026首发Smart Brick——集成微型计算机、麦克风和NFC的2×4标准积木，首发应用于Star Wars系列"
+    ],
+    "analyst_angle": "这些推文实为多起独立事件的并发报道（AI治理反思、算力基建热潮、消费电子创新），无共同核心事件；属典型媒体‘信息流聚合’现象，反映当前科技领域三大并行焦点，但不具备单一可结构化事件实体。",
+    "cluster_size": 5,
+    "event_time": "2026-02-28T20:41:55Z",
+    "event_type": "news"
+  }
+]
