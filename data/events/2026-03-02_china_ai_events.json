@@ -1,0 +1,310 @@
+[
+  {
+    "event_id": "evt_20260302_000",
+    "title": "🚀 Anthropic 发布 23 页 Claude Code 全场景使用指南",
+    "category": "product_launch",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "FinanceYF5",
+        "text": "Anthropic 发布了一份 23 页指南，讲解如何用 Claude Code 做几乎所有事情。\n\n以下是完整拆解：\n\n1/ 增长营销（一个人的团队） https://t.co/vCvzmycSj3",
+        "engagement": 1651,
+        "url": "https://x.com/FinanceYF5/status/2025744296692072498"
+      },
+      {
+        "author": "FinanceYF5",
+        "text": "OpenClaw？\n\n你是说那个用「vibe coding」做出来、3 个月内 GitHub 星标数就超过 Linux、在硅谷引发 Mac mini 断货、还成为首个被 OpenAI 收购的“一人独角兽”项目？ https://t.co/m6uV4hERPF",
+        "engagement": 15,
+        "url": "https://x.com/FinanceYF5/status/2025741334796189875"
+      },
+      {
+        "author": "FinanceYF5",
+        "text": "1/ 增长营销（一个人的团队） https://t.co/TjxirHVu8E",
+        "engagement": 14,
+        "url": "https://x.com/FinanceYF5/status/2025744310453612646"
+      },
+      {
+        "author": "FinanceYF5",
+        "text": "6/ 数据科学与可视化 https://t.co/FVz4X268Tq",
+        "engagement": 4,
+        "url": "https://x.com/FinanceYF5/status/2025744379621875861"
+      },
+      {
+        "author": "FinanceYF5",
+        "text": "9/ 强化学习工程团队 https://t.co/jcKBd4jdJC",
+        "engagement": 3,
+        "url": "https://x.com/FinanceYF5/status/2025744421007110492"
+      }
+    ],
+    "key_facts": [
+      "Anthropic 正式发布一份 23 页官方指南，系统覆盖 Claude Code 在增长营销、数据科学与可视化、强化学习工程等多场景的实操应用",
+      "该指南定位为‘用 Claude Code 做几乎所有事情’的完整手册，面向开发者与独立工作者"
+    ],
+    "analyst_angle": "此举显著降低 Claude Code 的采用门槛，标志着 Anthropic 从模型能力输出转向生产力工具化落地，加速其在个体开发者和小团队中的渗透。",
+    "cluster_size": 10,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260302_001",
+    "title": "🚀 Teamily AI 新版内测上线（邀请制），上一版已获300万注册用户",
+    "category": "product_launch",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "FinanceYF5",
+        "text": "以上就是全部，原作者 @Hartdrawss\n\n如果您喜欢这个主题：\n\n1.关注我（@FinanceYF5）\n2. 点赞+转发下面第一条帖子\n\nhttps://t.co/60DEd9Lpx1",
+        "engagement": 22,
+        "url": "https://x.com/FinanceYF5/status/2025744609008398518"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "我刚才想起来让cc帮我增加几个免费的pdf tools，刷刷的几分钟就直接给了我6个，全部能用。直接push就更新了\n\n怪不得外推大咖说APP以后不存在了\n\n不过呢，反正目前能用CC一句话自己搞APP的人也就是全球的2500分之一\n\n所以搞上去还是对另外的用户有帮助的。😁 https://t.co/cQVyKk2E7Y",
+        "engagement": 17,
+        "url": "https://x.com/jesselaunz/status/2025743645643846071"
+      },
+      {
+        "author": "FinanceYF5",
+        "text": "还在早期，但方向值得关注。 @Teamily_AI\n\n新版通过邀请码内测，感兴趣可以去 https://t.co/QZXE7Lpkn7 申请。上一版已有 300 万注册用户。\n\nDiscord: https://t.co/CFrUJ1SKK1\n\nhttps://t.co/kU8s5Lq6JB https://t.co/SOe8yOH3hA",
+        "engagement": 4,
+        "url": "https://x.com/FinanceYF5/status/2025740743307120766"
+      },
+      {
+        "author": "FinanceYF5",
+        "text": "@Teamily_AI 以上就是全部\n\n如果您喜欢这个主题：\n\n1.关注我（@FinanceYF5）\n2. 点赞+转发下面第一条帖子\n\nhttps://t.co/hMAqg3h0pS",
+        "engagement": 1,
+        "url": "https://x.com/FinanceYF5/status/2025741095452488007"
+      }
+    ],
+    "key_facts": [
+      "Teamily AI 推出新版，目前处于邀请码内测阶段",
+      "上一版本已积累300万注册用户",
+      "新版支持快速集成PDF工具等轻量应用能力（如通过CC指令添加6个可用PDF工具）",
+      "官方Discord社区已开放：https://t.co/CFrUJ1SKK1"
+    ],
+    "analyst_angle": "Teamily AI 正从工具聚合平台向低代码/自然语言驱动的应用构建层演进，暗示‘APP’形态正被对话式AI工作流重构，虽处早期但验证了终端用户对AI原生应用创建的需求。",
+    "cluster_size": 4,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260302_002",
+    "title": "🚀 荣耀发布全球首款机器人手机 Robot Phone（MWC 2026）",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "鸿蒙智行 2 月交付 28212 辆，同比增长 31%. IT之家 3 月 2 日消息，今天上午，鸿蒙智行官微发文宣布：2026 年 2 月交付 28212 辆，同比增长 31%，历史累计交付突破 128.2 万辆。官方同时宣布，自今年“春节安心行”活动启动以来，已为 69396 位车主提供车辆出行安全检测；全国 736 家用户中心春节期间不打烊，为 21801 位车主提供维保服务，持续保障用户的",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/880.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "荣耀首款人形机器人荣耀 ROBOT 热舞视频发布，在 MWC 2026 上演太空步. IT之家 3 月 2 日消息，昨晚，荣耀首款人形机器人荣耀 ROBOT 亮相 MWC 2026，发布会现场开启热舞模式。今日，荣耀官方发布独家视角，展示其太空步等技能。此次一同亮相的还有荣耀打造的机器人手机 Robot Phone，新机最显眼之处就是配备一颗硕大的电动翻转摄像头，号称是新形态具身智能 AI 终端。",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/875.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "荣耀罗巍谈和 ARRI 技术合作：准备把这独一无二的电影感塞进可折叠机械臂云台里. IT之家 3 月 2 日消息，荣耀昨晚在 MWC 2026 现场举行全球发布会，宣布与顶级电影摄影机厂商 ARRI 阿莱达成战略技术合作。据介绍，本次合作将率先在全球首款“手机机器人”Robot Phone 中落地，融合荣耀的移动影像以及 ARRI 百年底蕴的电影摄影技术。IT之家注意到，荣耀首席影像工程师罗巍昨日",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/874.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "IT早报 0302：2026 年 2 月汽车销量榜出炉；荣耀机器人手机 Robot Phone 亮相；多地试点开征新能源汽车“里程税”不实；业内人士回应重新激活魅族需要多少钱.... “IT早报”时间，大家好，现在是 2026 年 3 月 2 日星期一，今天的重要科技资讯有：1、2026 年 2 月汽车销量 / 交付榜出炉：上汽集团 269465 辆第一、比亚迪 190190 辆新能源销冠2026",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/872.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "【IT之家图赏】荣耀 Robot Phone 机器人手机现场实拍：三轴云台亮眼，号称“具身智能”加持. IT之家 3 月 1 日消息，荣耀今晚在 MWC 2026 展会上带来了全新“机器人手机”Robot Phone，新机最显眼之处就是配备一颗硕大的电动翻转摄像头，号称是新形态具身智能 AI 终端。IT之家在西班牙巴塞罗那现场第一时间前往了荣耀展区并看到了这台手机，现在为各位小伙伴们带来实拍图赏。",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/860.htm"
+      }
+    ],
+    "key_facts": [
+      "荣耀在 MWC 2026 正式发布 Robot Phone，定义为‘新形态具身智能 AI 终端’",
+      "搭载行业最小 4DoF 可折叠机械臂三轴云台，配备 2 亿像素翻转式摄像头",
+      "首次实现 ARRI 阿莱电影级色彩科学与移动影像系统深度集成，由荣耀首席影像工程师罗巍主导落地",
+      "该产品是荣耀‘阿尔法战略’第二阶段核心载体，标志其从智能手机厂商向 AI 终端生态公司转型的关键落地"
+    ],
+    "analyst_angle": "Robot Phone 不是概念噱头，而是将具身智能（物理交互能力）、电影级影像工作流与消费电子量产能力首次系统性融合，或将重构高端AI终端的定义边界，并加速手机厂商与专业影像/机器人技术公司的跨界整合浪潮。",
+    "cluster_size": 10,
+    "event_time": "2026-03-01T12:32:07Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260302_003",
+    "title": "🚀 华为将在 MWC 2026 发布 Agentic Core 解决方案并开源 A2A-T 协议软件",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "华为将在 MWC 2026 发布 Agentic Core 解决方案，加速智能体网络商用. IT之家 3 月 2 日消息，昨晚，华为宣布将于 MWC 2026 巴塞罗那期间发布 Agentic Core 解决方案，通过网元智能、网络智能、业务智能三大引擎，应对 AI 时代流量激增、差异化网络需求以及运营商新业务变现等关键挑战，推动智能体网络规模商用。网元智能：随着 AI 智能体成为下一代 AI 手",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/877.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "华为将在 MWC 2026 期间启动 A2A-T 软件开源计划，加速智能体通信标准应用. IT之家 3 月 2 日消息，在 2026 年世界移动通信大会（MWC 2026）将召开之际，华为宣布，将于大会期间正式启动 A2A-T（Agent-to-Agent for Telecom）协议配套软件的开源计划。此举旨在通过开放协作，加速智能体通信标准应用。▲ A2A-T 框架据介绍，A2A-T 协议由全",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/870.htm"
+      }
+    ],
+    "key_facts": [
+      "华为将于 MWC 2026 巴塞罗那正式发布 Agentic Core 解决方案，包含网元智能、网络智能、业务智能三大引擎",
+      "同步启动 A2A-T（Agent-to-Agent for Telecom）协议配套软件开源计划，该协议由 TM Forum 联合产业伙伴于 2026 年 2 月 6 日发布（IG1453 Beta 及增强版 IG1453A）",
+      "Agentic Core 面向 Physical AI（具身机器人、自动驾驶等端侧 AI）规模化连接需求，支持数字身份、智能体注册与发现、A2A 会话管理，应对 10 倍连接增长"
+    ],
+    "analyst_angle": "这是全球首个面向电信基础设施的智能体原生（agent-native）网络架构落地实践，标志着运营商网络正从‘连接人’转向‘承载智能体’，或将重构 6G 时代网络协议栈与标准生态。",
+    "cluster_size": 2,
+    "event_time": "2026-03-01T23:07:50Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260302_004",
+    "title": "📌 AI 已根本改变代码编写与创业方式",
+    "category": "other",
+    "importance": 7.5,
+    "sources": [
+      {
+        "author": "SixthTone",
+        "text": "In boardrooms and banquet halls across China, wedding traditions worth hundreds of thousands of yuan are now being quietly dismantled — not by economic necessity, but by choice.\n\nOn Chinese social med",
+        "engagement": 19,
+        "url": "https://x.com/SixthTone/status/2025743942860656959"
+      },
+      {
+        "author": "FinanceYF5",
+        "text": "10/ 法务部门 https://t.co/jtHSEtKKDD",
+        "engagement": 6,
+        "url": "https://x.com/FinanceYF5/status/2025744434604953973"
+      },
+      {
+        "author": "FinanceYF5",
+        "text": "2/ 数据基础设施 https://t.co/Tz1osaCkVp",
+        "engagement": 4,
+        "url": "https://x.com/FinanceYF5/status/2025744324361871514"
+      },
+      {
+        "author": "FinanceYF5",
+        "text": "源：https://t.co/6V8REhTqtQ",
+        "engagement": 3,
+        "url": "https://x.com/FinanceYF5/status/2025741358238175248"
+      },
+      {
+        "author": "FinanceYF5",
+        "text": "GitHub 星标不等于影响力。\n\n但这一切在 6 个月前都还不可能发生。AI 已经从根本上改变了我们写代码的方式，以及创业公司的构建方式。",
+        "engagement": 2,
+        "url": "https://x.com/FinanceYF5/status/2025741346687053950"
+      }
+    ],
+    "key_facts": [
+      "AI 已从根本上改变写代码的方式",
+      "AI 已改变创业公司的构建方式",
+      "GitHub 星标不再等同于技术影响力"
+    ],
+    "analyst_angle": "该观点揭示了AI对开发者工作流和初创生态的范式级影响——技术价值评估标准正在从开源指标转向AI原生能力，但未指向具体产品、融资或政策，属行业认知层面的重要洞见。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260302_005",
+    "title": "💰 望里科技完成数千万元B+轮融资，专注生成式AI驱动的心理数字诊疗",
+    "category": "funding",
+    "importance": 7.5,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "生成式AI赋能数字化心理治疗，「望里科技」获数千万元B+轮融资｜36氪首发. 文｜胡香赟\n  编辑｜海若镜\n  36氪获悉，精神心理数字诊疗平台「望里科技」已完成数千万元B+轮融资。本轮融资由远毅资本独家投资，募集资金主要用于产品研发。此外，望里科技的新一轮融资也已开启，指数资本任财务顾问。\n  望里科技专注于精神心理领域，自建的该领域数据库已积累30万真实世界患者数据。此外，望里科技已在精神病学",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3670040712094601?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "8点1氪丨阿联酋宣布承担所有滞留旅客费用；宗馥莉砍掉娃哈哈机器人业务；五粮液回应董事长被查. 今日热点导览\n  国际油价开盘暴涨超10%\n  国投白银LOF：3月2日开市起至当日10:30停牌\n  Guess中国超百家分支机构已注销\n  奈飞证实收到派拉蒙支付的28亿美元终止费\n  外媒：OpenAI获1100亿美元融资，英伟达投资300亿美元\n  TOP3大新闻\n  伊朗、以色列等多国相继宣布关",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3705035989299333?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "《公开募集证券投资基金业绩比较基准指引》3月1日起正式施行. 自3月1日起，《公开募集证券投资基金业绩比较基准指引》正式施行，新产品将严格遵照新规要求，存量产品则留有一年过渡期。据业内人士透露，多家基金公司已向监管报送基准调整方案，并历经多轮沟通与优化。在此过程中，监管层重点关注基准与实际投资的匹配度、基准设定的合理性，以及调整额度与实施优先级等核心问题，对上报材料提出了更为细致、严格的要求。（证",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3705055535886472?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "中泰证券：互联网生态进入AI主导的第三阶段，建议关注两大投资主线. 36氪获悉，中泰证券研报称，建议关注两大投资主线：AI应用：AI超级入口的竞争不光是基模、Agent能力的竞争，更是已有互联网业态覆盖能力、具体消费/生活场景触达能力、用户数据资源沉淀能力的综合实力角逐，行业格局加速向头部集中，具备全域生态与全栈AI能力的头部平台，将享受渗透率提升与估值重塑的戴维斯双击。营销需求：流量格局变迁期必",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3705049080836484?f=rss"
+      },
+      {
+        "author": "FinanceYF5",
+        "text": "两位创始人合作超过六年，从创建如今全球广泛使用的联邦学习库 FedML 开始，随后推出 TensorOpera AI 与去中心化 AI 项目。Teamily AI 是这段旅程的下一阶段：将分布式智能带入日常人类协作\n\n\"当群组能够和 AI 一起思考，而不仅仅是沟通，可能性的上限将被大幅抬升。\"\n\n\"让我们一起协作、创造与构建\" https://t.co/MLY0EDUPqK",
+        "engagement": 1,
+        "url": "https://x.com/FinanceYF5/status/2025740728606089477"
+      }
+    ],
+    "key_facts": [
+      "望里科技完成数千万元B+轮融资，由远毅资本独家投资",
+      "融资将主要用于产品研发；新一轮融资已启动，指数资本任财务顾问",
+      "公司已积累30万真实世界精神心理患者多模态数据，发表十余篇精神病学顶刊论文，承接多项国家级/省部级课题",
+      "其‘专业设备+APP+专业人员’一站式心理服务方案已覆盖全国16省超100个城市"
+    ],
+    "analyst_angle": "精神健康是AI医疗落地的关键高价值场景，望里科技以临床级数据壁垒+科研背书+规模化落地能力构建护城河，本轮融资标志着生成式AI在严肃医疗领域的商业化加速进入深水区。",
+    "cluster_size": 5,
+    "event_time": "2026-03-01T23:59:49Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260302_006",
+    "title": "🚀 联想 MWC 2026 发布 AI Workmate Concept 桌面AI伴侣（带投影+文档扫描转PPT）",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "联想 MWC 2026 展示 AI 伴侣产品：一双“大眼睛”能投影，还可扫描文档并转成 PPT. IT之家 3 月 2 日消息，据外媒 The Verge 今日报道，在 MWC 2026 大会上，联想除了展示多款笔记本新品和概念机型外，还推出两款基于 AI 的生产力助手概念设备。这两款产品均为独立桌面终端，定位为提升办公效率的数字助手，同时试图为职场环境增加“拟人化”的陪伴体验。其中，AI Wor",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/898.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "联想 AI 平板拯救者 Y700 搭载第五代骁龙 8 至尊版，号称“小屏称王”. IT之家 3 月 2 日消息，联想今日官宣，AI 平板拯救者 Y700 搭载第五代骁龙 8 至尊版处理器，搭配 LPDDR5T+UFS 4.1 Pro，安兔兔综合跑分 4532189，官方宣传语喊出了“小屏称王”。联想 AI 平板拯救者 Y700 已官宣将在 3 月焕新登场，提供黑白双配色。该机部分配置信息已曝光 /",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/897.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "开启折叠屏 7000mAh 时代：荣耀 Magic V6 装载全新一代青海湖刀片电池，能量密度 985Wh/L. IT之家 3 月 2 日消息，荣耀手机官方今日宣布，Magic V6 装载全新一代 7150mAh 青海湖刀片电池，宣称“开启折叠屏 7000mAh 时代”。据介绍，荣耀 Magic V6 的这块电池硅含量突破 32%，翻倍领先行业均值；能量密度 985Wh/L，超车规级动力电池。参考",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/896.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "华为终端：尊界 S800 首发搭载全新一代激光雷达，全球量产最高线束. IT之家 3 月 2 日消息，今天上午，华为终端通过官微宣布，鸿蒙智行尊界 S800 首发搭载全新一代、全球量产最高线束激光雷达，具备超高清、超精准、超远距的特性，将会“远超期待”。据悉，早在 1 月底，市场就有消息称鸿蒙智行将推出全新 500 线激光雷达，实现“不止 500 线”的进阶升级。2 月下旬，华为宣布鸿蒙智行技术焕",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/893.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "从汽车到数据中心，联发科 MWC26 巴塞罗那展示丰富技术. IT之家 3 月 2 日消息，联发科昨日宣布将在 MWC26 巴塞罗那上展示一系列最新技术，覆盖从汽车到数据中心的广泛领域。此外，联发科总经理陈冠州也将在本次展会上发布以 \"AI for Life： From Edge to Cloud\" 为主题的演讲。6G 移动通信联发科将展出全球首个 6G 无线接取互通性 (Radio Intero",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/924/892.htm"
+      }
+    ],
+    "key_facts": [
+      "联想在 MWC 2026 正式展出 AI Workmate Concept，一款独立桌面AI生产力终端",
+      "设备配备旋转机械臂+表情圆形屏，支持本地AI语音/手势交互",
+      "具备摄像头扫描纸质文档并自动转为PPT的核心办公功能",
+      "定位为‘始终在线的桌面伙伴’，强调拟人化陪伴与职场效率双重价值"
+    ],
+    "analyst_angle": "这标志着AI从手机/PC延伸至专用办公边缘终端，预示‘AI Agent硬件化’进入落地验证阶段，或将催生新型智能办公外设品类。",
+    "cluster_size": 5,
+    "event_time": "2026-03-02T01:09:42Z",
+    "event_type": "news"
+  }
+]
