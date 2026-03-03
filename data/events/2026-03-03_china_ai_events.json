@@ -1,0 +1,351 @@
+[
+  {
+    "event_id": "evt_20260303_000",
+    "title": "💰 Galbot完成25亿元人民币融资，中芯基金、中石化等联合参投",
+    "category": "funding",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "氪星晚报｜马斯克称第二代星链卫星将提供5G速度的太空互联网服务；调整住宿税，日本京都预计增收132亿日元；卢伟冰：小米今年即将发布全新的机器人产品. 大公司：\n  智元机器人等在安徽成立华智天成科技新公司\n  36氪获悉，爱企查App显示，近日，安徽华智天成科技有限公司成立，法定代表人为肖智成，注册资本约1176万元人民币，经营范围包括计算机软硬件及辅助设备零售、计算机软硬件及辅助设备批发、软件销",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3705604996952453?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "安克投过的全地形机器人公司再融资，华创领投超亿元，产品已规模化落地｜硬氪首发. 本文约1400字，建议阅读3分钟\n  作者&nbsp;|&nbsp;乔钰杰\n  编辑&nbsp;|&nbsp;袁斯来\n  硬氪获悉，大载重全地形机器人企业觉物科技（深圳）有限公司（下称“觉物科技”）近日宣布完成亿元级A轮融资。本轮融资由华创资本、江西金控资本等投资机构参与。此前，公司已获得包括日初资本、安克创新在内的多",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3705358618407300?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "头部人形机器人关节公司完成C+轮融资，单品销量第一、年营收翻倍｜硬氪首发. 作者｜黄楠\n  编辑｜袁斯来\n  硬氪获悉，深圳市零差云控科技有限公司（以下简称“零差云控”）近日完成C+轮融资，源式资本担任本轮融资独家财务顾问。零差云控是硬氪持续关注的企业【详细可见报道：估值超10亿，这家机器人关节公司销售额全球第一｜潜伏独角兽】。本轮融资信息和企业定位如下：\n  融资金额及投资机构\n  融资轮次：C",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3590663070384392?f=rss"
+      },
+      {
+        "author": "TechNode",
+        "text": "Humanoid robot maker Galbot raises RMB 2.5 billion. Galbot, a China-based humanoid robot developer focused on embodied AI models, has completed a new funding round totaling RMB 2.5 billion (about $350",
+        "engagement": 0,
+        "url": "https://technode.com/2026/03/02/humanoid-robot-maker-galbot-raises-rmb-2-5-billion/"
+      },
+      {
+        "author": "36氪",
+        "text": "GEO服务商「PureblueAI清蓝」完成数千万元天使轮融资，发布新AI营销数字员工平台 | 36氪首发. 36氪获悉，北京清蓝智汇科技有限公司（简称 PureblueAI 清蓝）正式宣布完成数千万元人民币天使轮融资。本轮融资由祥峰中国（Vertex China）领投，老股东英诺基金及一村淞灵、36氪跟投。\n  本轮融资资金，将主要用于新一代产品开发与技术迭代、全行业生态拓展及业务布局，同时将持",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3705907852800136?f=rss"
+      }
+    ],
+    "key_facts": [
+      "Galbot（中国具身智能人形机器人公司）完成25亿元人民币（约3.5亿美元）新轮融资",
+      "投资方包括国家大基金（中国集成电路产业投资基金）、中石化、中信系投资机构、上汽集团金融平台等战略与产业资本",
+      "融资规模为近期全球人形机器人领域最大单笔融资之一，显著高于同期其他机器人公司（如觉物科技亿元级A轮、零差云控数千万元C+轮）",
+      "Galbot聚焦具身AI模型与人形机器人本体协同研发，强调‘AI for Robotics’闭环落地能力"
+    ],
+    "analyst_angle": "国家级产业基金与能源、汽车巨头集体重仓Galbot，标志人形机器人已从技术验证阶段跃入国家战略级产业化导入期，或将加速推动核心零部件国产替代与整机成本下降曲线。",
+    "cluster_size": 26,
+    "event_time": "2026-03-02T01:58:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260303_001",
+    "title": "🌐 阿里巴巴开源Qwen3.5-0.8B/2B/4B/9B四款小尺寸模型",
+    "category": "open_source",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "阿里巴巴开源4款Qwen3.5小尺寸模型系列. 36氪获悉，3月2日夜间，阿里巴巴正式开源了4款Qwen3.5小尺寸模型系列：Qwen3.5-0.8B/2B/4B/9B。这一系列模型采用原生多模态训练、最新的模型架构，可满足从极端资源受限到高性能轻量级应用的不同需求。模型发布后，马斯克第一时间在X上点赞并评论道：惊人的智能水平。",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3706522955592070?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "阿里千问开源四款 Qwen3.5 小尺寸模型，覆盖从 0.8B 到 9B 的轻量级 AI 需求. IT之家 3 月 2 日消息，今天阿里千问宣布开源 4 款 Qwen3.5 小尺寸模型系列：Qwen3.5-0.8B/2B/4B/9B。官方称，这一系列模型继承了 Qwen3.5 家族的强大基因，采用原生多模态训练、最新的模型架构，表现出卓越的性能，以满足从极端资源受限到高性能轻量级应用的不同需求。I",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/206.htm"
+      },
+      {
+        "author": "雷锋网",
+        "text": "阿里巴巴AI品牌统一为千问. 3月2日，记者获悉，阿里巴巴集团内部将 AI 的总称和核心品牌统一为千问，千问大模型（Qwen）涵盖基础大模型和专业领域模型，千问APP是阿里巴巴在C端的旗舰AI应用。据悉，此举是为了避免之前千问、通义千问、Qwen 等多个名称导致的混淆问题，统一名称之后，阿里巴巴大模型品牌中文为“千问大模型”，英文为“Qwen”，“通义实验室”为阿里巴巴集团旗下AI机构的组织名称。",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/industrynews/LfXLlB2VZCGxBk6W.html"
+      }
+    ],
+    "key_facts": [
+      "阿里巴巴于3月2日开源Qwen3.5系列4款小尺寸模型：0.8B、2B、4B、9B，覆盖端侧到轻量级Agent场景",
+      "模型采用原生多模态训练与最新架构，强调极致轻量（0.8B/2B适配移动端/IoT）、高效Agent基座（4B）及高性能轻量部署（9B）",
+      "Qwen3.5系列包揽Hugging Face全球开源大模型榜前4，马斯克在X平台点赞并评价‘惊人的智能水平’",
+      "同期阿里巴巴统一AI品牌为‘千问大模型（Qwen）’，‘通义实验室’作为组织名称，结束‘通义千问’‘Qwen’等多名称混用"
+    ],
+    "analyst_angle": "这是中国大模型厂商首次以系统化小尺寸产品矩阵冲击全球轻量化AI生态，标志着开源竞争从‘大而全’转向‘精而广’，加速端侧AI和自主Agent基础设施普及。",
+    "cluster_size": 3,
+    "event_time": "2026-03-02T03:16:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260303_002",
+    "title": "🚀 华为发布下一代全光网创新产品与解决方案，提出泛在智能体互联新范式",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "华为李鹏：泛在智能体应用将孕育十万亿美元级新产业空间. IT之家 3 月 3 日消息，当地时间 3 月 2 日，在巴塞罗那 MWC 2026 世界移动通信大会期间，华为高级副总裁、ICT 销售与服务总裁李鹏在演讲中表示，人类社会正迈入智能体互联网时代。他认为，网络的行动主体，将在 90 亿人的基础上，激增 9000 亿规模的智能体。泛在的智能体应用将对网络提出更高要求。他表示，未来十年，网络价值将",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/240.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "华为发布下一代全光网创新产品与解决方案，光纤故障位置可精准定位到 10 米以内. IT之家 3 月 3 日消息，在巴塞罗那 MWC 2026 世界移动通信大会期间，华为光产品线总裁陈帮华发布了下一代全光网创新产品与解决方案，主打“以智赋网（AI for Networks）和以网兴智（Networks for AI）”。据华为官方介绍，AI 正在从技术创新走进现实应用，深入娱乐、教育、健康等家庭场景",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/231.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "荣耀方飞：AI 的终极意义不是取代人类，而在于服务人、陪伴人、成就人. IT之家 3 月 3 日消息，荣耀终端股份有限公司产品线总裁方飞昨日在 MWC 2026 开幕日的 ConnectAI 主题论坛上，与合作伙伴 Orange 集团围绕 AI 终端、连接和生态展开了一场坦诚的对话。方飞认为，AI 的终极意义不是取代人类，而在于服务人、陪伴人、成就人。她表示，从手机到家居、教育、音频乃至宠物玩具，",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/226.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "科大讯飞 AI 眼镜亮相：支持多模态同传翻译，仅重 40 克. IT之家 3 月 2 日消息，在 2026 年世界移动通信大会（MWC 2026）上，科大讯飞首次展出了讯飞 AI 眼镜。该眼镜专为面对面交流设计，对方讲话后，翻译字幕可在镜片上实时呈现，并通过内置扬声器播放译文，实现所见即所得的自然沟通。据IT之家了解，该款眼镜集多模态同传翻译与极致轻量化设计于一身，具有多模态降噪、全能翻译、多模态",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/209.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "雷鸟推出蝙蝠侠限定版 Air 4 Pro AR 眼镜：可选蝙蝠侠 / 小丑版，提供专属遮光罩. IT之家 3 月 2 日消息，雷鸟今天在 MWC 2026 展会上推出了蝙蝠侠限定版 Air 4 Pro AR 眼镜，相比普通版产品新增了专属遮光罩，不仅能够阻挡环境光线，还能够当作 Cosplay 道具使用。据介绍，蝙蝠侠版 Air 4 Pro 拥有专属包装盒，内含多重 DC 元素，可选蝙蝠侠 / 小",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/197.htm"
+      }
+    ],
+    "key_facts": [
+      "华为在MWC 2026正式发布下一代全光网创新产品与解决方案，核心理念为‘以智赋网（AI for Networks）’和‘以网兴智（Networks for AI）’",
+      "新方案实现光纤故障精准定位至10米以内，支撑高可靠、低时延、可感知的智能体互联基础设施",
+      "华为预测未来十年网络价值将从‘人与人沟通’跃迁为‘智能体互联’，催生10万亿美元级新产业空间",
+      "ITU-T已发布ION-2030技术框架，标志下一代光网络进入标准化加速期"
+    ],
+    "analyst_angle": "华为此举不仅是一次光通信技术升级，更是面向AI原生时代的网络范式革命——将网络从被动承载管道升维为智能体协同的主动使能平台，或将加速运营商角色转型并重构全球算力-联接-智能产业分工。",
+    "cluster_size": 7,
+    "event_time": "2026-03-02T02:46:30Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260303_003",
+    "title": "🚀 苹果 iPhone 17e 发布：A19 芯片 + C1X 基带 + MagSafe，4499 元起",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "IT早报 0303：4499 元起苹果 iPhone 17e 发布；阿里巴巴大模型品牌统一为千问；小鹏汽车第二代 VLA 智驾发布；vivo X300 Ultra MWC 首秀.... “IT早报”时间，大家好，现在是 2026 年 3 月 3 日星期二，今天的重要科技资讯有：1、苹果 iPhone 17e 发布：搭载 A19 芯片、支持 MagSafe，4499 元起iPhone17e 3 月 ",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/221.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "苹果 iPhone 17e 细节：4 核 GPU 版 A19 芯片、新一代人像、单实体 SIM + eSIM 设计. IT之家 3 月 3 日消息，科技媒体 MacRumors 昨日（3 月 2 日）发布博文，指出苹果最新发布的 iPhone 17e 上，除了支持 MagSafe 磁吸无线充电、配备 C1X 5G 基带芯片外，还有几个值得关注的细节变化。iPhone 17e 搭载了全新的 A19 ",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/219.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "苹果“芯片分级”策略延续：iPad Air M4 相比 Pro 核心数有所减少. IT之家 3 月 3 日消息，与前几代产品类似，苹果 2026 款 iPad Air 搭载的 M4 芯片与当前在售的 iPad Pro 中搭载的 M4 芯片并不完全相同。根据官网规格，这款 M4 芯片在 CPU 和 GPU 核心数量上均有所削减，其中新款 iPad Air 搭载的 M4 芯片配置为：8 核 CPU（3",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/217.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "省一笔钱：苹果 iPhone 17e 尺寸未变化，兼容 16e 手机壳. IT之家 3 月 3 日消息，科技媒体 Appleinsider 今天（3 月 3 日）发布博文，报道称在 iPhone 17e 机型上，苹果公司在升级规格、加入 MagSafe 磁吸充电外，其外观尺寸和前代 iPhone 16e 保持一致，意味着旧款 iPhone 16e 手机壳可以兼容 iPhone 17e。每当新 iP",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/215.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "苹果官方配件新品一览：斜挎挂绳新增 iPhone 17e 手机壳同款配色、Apple Watch 表带上新多色. IT之家 3 月 2 日消息，苹果今晚推出了 iPhone 17e、iPad Air (M4) 等新品，并且在官网上新了一系列配件，涵盖 iPhone17e 硅胶保护壳、新配色的斜挎挂绳等。IT之家现在就为大家带来详情：iPhone 17e 专用 MagSafe 硅胶保护壳：这款产品可",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/208.htm"
+      }
+    ],
+    "key_facts": [
+      "iPhone 17e 于 2026 年 3 月 2 日正式发布，起售价 4499 元（256GB），搭载全新 4 核 GPU 版 A19 芯片与自研 C1X 5G 基带，网速提升 2 倍",
+      "支持 MagSafe 磁吸无线充电、卫星紧急求救与道路救援，配备 4800 万像素融合式摄像头及光学级 2 倍长焦能力",
+      "采用第二代超瓷晶面板（Ceramic Shield 2），外观尺寸与 iPhone 16e 完全一致，旧壳兼容；新增柔粉色配色，提供三款哑光选项"
+    ],
+    "analyst_angle": "iPhone 17e 是苹果首次在 e 系列中下放自研基带与新一代芯片，标志着中端机型技术平权加速，或将挤压安卓旗舰价格带并倒逼高通/联发科加速基带集成创新。",
+    "cluster_size": 9,
+    "event_time": "2026-03-02T14:02:05Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260303_004",
+    "title": "🔧 英特尔 Arc Pro B70 旗舰工作站显卡实锤：32GB GDDR6 + 32 Xe2 核心",
+    "category": "chip_hardware",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "英特尔 Arc Pro B70 旗舰工作站显卡实锤：预估 32GB 显存、32 个 Xe2 核心. IT之家 3 月 3 日消息，科技媒体 Wccftech 昨日（3 月 2 日）发布博文，报道称在微软官方开源 AI 推理框架 LLM-Scaler vLLM 更新日志中，确认了旗舰级工作站显卡 Arc Pro B70 的存在。IT之家援引博文介绍，Arc Pro B70 定位为 Battlemag",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/241.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "英伟达发布 595.71 WHQL 驱动：修复 595.59 版本显卡风扇“翻车”问题、新增支持《生化危机：安魂曲》等游戏. IT之家 3 月 2 日消息，英伟达在 2 月 27 日发布 GeForce 595.59 WHQL 驱动，不过有大量用户随即反馈新版驱动会导致显卡风扇出现异常，仅有单个风扇运转，后续英伟达紧急撤包。而如今，英伟达重新上线了相应驱动更新，并将其版本号提升为 595.71 W",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/204.htm"
+      }
+    ],
+    "key_facts": [
+      "Arc Pro B70 是英特尔 Battlemage 系列旗舰工作站显卡，芯片代号 BMG-G31",
+      "搭载 32 个 Xe2 核心、32GB GDDR6 显存、256 位显存位宽",
+      "信息首次在微软开源 AI 推理框架 vLLM 的更新日志中被官方确认"
+    ],
+    "analyst_angle": "这是英特尔首次通过主流开源AI基础设施（vLLM）间接‘官宣’Battlemage架构高端工作站GPU，标志着其正加速推进Xe2架构在专业AI推理与HPC场景的落地，对NVIDIA A系列和AMD Instinct在工作站市场的垄断构成实质性挑战。",
+    "cluster_size": 2,
+    "event_time": "2026-03-02T14:42:38Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260303_005",
+    "title": "🔬 ForeAct: MIT 提出新型视觉-语言动作模型（VLA）推理框架",
+    "category": "research",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "kevinxu",
+        "text": "what does money even mean any more\n\n$700000000000 just... gone",
+        "engagement": 304,
+        "url": "https://x.com/kevinxu/status/2026101319266922571"
+      },
+      {
+        "author": "BYDCompany",
+        "text": "Shaped by innovation. Guided by progress. BYD SEAL U. https://t.co/VXkQcSOEb8",
+        "engagement": 129,
+        "url": "https://x.com/BYDCompany/status/2026094775447814476"
+      },
+      {
+        "author": "dotey",
+        "text": "重生之我的捧哏是AI！\n孙华晨、芭比 https://t.co/Hnye00uZju",
+        "engagement": 69,
+        "url": "https://x.com/dotey/status/2026070440062357785"
+      },
+      {
+        "author": "dotey",
+        "text": "@mtrainier2020 已经有人拿这条推文去问梁斌了😂 https://t.co/v16SkZ9mbZ",
+        "engagement": 50,
+        "url": "https://x.com/dotey/status/2026073708444483719"
+      },
+      {
+        "author": "songhan_mit",
+        "text": "Explore ForeAct:  we imagine the future observation by generating an image as the reasoning process, we make the image generation very fast so you can do the image generation in the middle of actions.",
+        "engagement": 33,
+        "url": "https://x.com/songhan_mit/status/2026102474281496763"
+      }
+    ],
+    "key_facts": [
+      "ForeAct 是 MIT Song Han 团队提出的新型 VLA 推理框架",
+      "核心创新是通过快速生成中间未来观测图像作为推理过程，提升动作决策质量",
+      "该方法将图像生成嵌入动作执行流中，实现低延迟、高保真视觉推理"
+    ],
+    "analyst_angle": "ForeAct 代表了具身智能中‘感知-推理-行动’闭环的范式演进，将生成模型从后处理工具转变为实时推理原语，有望推动机器人与 AR/VR 交互系统向更自主、可解释方向发展。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260303_006",
+    "title": "🚀 Kimi AI发布K2.5模型，20天营收超2025全年，估值达10–12亿美元（中国最快本土十亿美金独角兽）",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "yangyi",
+        "text": "生产力发展伴随局部震荡的失业是毋庸置疑的\n但是不能忽略国家宏观调控啊\n这世界又不是100%的自由市场经济\n\n用ai 那就交ai税 交完了补贴失业的人\n要求使用ai量和就业人数的最低比值\n而且人们失业了不会干别的吗 做那些ai不好做甚至做不了的事情呗\n\n失业 就会促进再就业培训\n而且生产力推动了 生存成本可能就会逐步下降 到未来大家不需要再为活着而工作了\n\n这个时代大概率会出现两类分化\n一种是高度数",
+        "engagement": 20,
+        "url": "https://x.com/yangyi/status/2026103213645300023"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "gemini 3.1 pro的稳定性表现很差，测试中只完成47%\n\n前面我用3.0 pro的经验也不佳，提升了某些角度，但稳定度比2.5 pro下降很多\n\nGoogle gemini的表现是我昨天翻译改画模型曲线预测的一个原因\n\n即随着scaling law，存在某些方面提高，但总体性能下降的可能性。 https://t.co/GUrIjHiYHS",
+        "engagement": 20,
+        "url": "https://x.com/jesselaunz/status/2026036811257250184"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "哈哈。原推一个评论很好：左边make money，右边make twitter threads\n\nhttps://t.co/Ch6sHeYy5U",
+        "engagement": 13,
+        "url": "https://x.com/jesselaunz/status/2026047911352836222"
+      },
+      {
+        "author": "alibaba_cloud",
+        "text": "@hellofrommarv Hello, we’re very sorry this happened.\nIf you have any questions regarding Alibaba Cloud, please feel free to contact us at any time.",
+        "engagement": 7,
+        "url": "https://x.com/alibaba_cloud/status/2026104944013832311"
+      },
+      {
+        "author": "TechBuzzChina",
+        "text": "A good model release + viral application can make all the difference ... \n\nIt was just reported that @Kimi_Moonshot's cumulative revenue in its first 20 days post-launch of K2.5 (the one widely used i",
+        "engagement": 4,
+        "url": "https://x.com/TechBuzzChina/status/2026089798268780751"
+      }
+    ],
+    "key_facts": [
+      "Kimi（月之暗面）发布K2.5模型，成为OpenClaw等热门应用的底层主力模型",
+      "上线20天累计营收已超过其2025年全年总收入",
+      "公司连续融资超12亿美元，最新估值10–12亿美元，成为中国最快达成‘decacorn’（十亿美金独角兽）的本土AI企业"
+    ],
+    "analyst_angle": "K2.5的商业化爆发标志着中国大模型已从技术验证迈入规模化收入阶段，其API+应用生态双轮驱动模式正挑战OpenAI主导的全球商业范式。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260303_007",
+    "title": "📌 椰树集团因工厂低俗广告被海口市监局约谈整改",
+    "category": "other",
+    "importance": 3.5,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "8点1氪丨椰树集团再陷擦边营销风波被约谈；电影难看20分钟内可退款40%，一影院试行“观影后悔权”；中欧航线票价暴涨. 今日热点导览\n  伊朗称霍尔木兹海峡已关闭： “不会让一滴石油流出”\n  雷军：小米机器人已在汽车工厂实习，未来5年大批人形机器人进厂\n  亚马逊在阿联酋数据中心遭撞击起火\n  多家金店暂停投资金条销售\n  北京银行贵金属业务出现BUG\n  BOSS直聘称网传伊朗急招炮兵照片系P",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3706462657245318?f=rss"
+      },
+      {
+        "author": "wshuyi",
+        "text": "……进去不到五分钟，他们就拖着一只被打得鼻青脸肿、奄奄一息的黑熊出来了。那只熊一边痛哭流涕，一边绝望地大喊：\"别打了！别打了！我是兔子！我承认我就是兔子！\"",
+        "engagement": 3,
+        "url": "https://x.com/wshuyi/status/2026082086529196119"
+      },
+      {
+        "author": "wshuyi",
+        "text": "@yetone ……进去不到五分钟，他们就拖着一只被打得鼻青脸肿、奄奄一息的黑熊出来了。那只熊一边痛哭流涕，一边绝望地大喊：\"别打了！别打了！我是兔子！我承认我就是兔子！\"",
+        "engagement": 1,
+        "url": "https://x.com/wshuyi/status/2026084830979760180"
+      },
+      {
+        "author": "jordanschneider",
+        "text": "@zephyr_z9 Or they only caught that many and other labs were sloppier",
+        "engagement": 1,
+        "url": "https://x.com/jordanschneider/status/2026046943374233963"
+      },
+      {
+        "author": "yangyi",
+        "text": "@CHRIS_OM9 没问题 明天换网盘下载了",
+        "engagement": 0,
+        "url": "https://x.com/yangyi/status/2026094764249301120"
+      }
+    ],
+    "key_facts": [
+      "椰树集团在对外开放的工厂参观区内悬挂涉嫌低俗内容的宣传广告",
+      "3月2日海口市监局就此约谈企业，责令整改",
+      "事件引发媒体关注（36氪、南方都市报等报道）"
+    ],
+    "analyst_angle": "属典型品牌公关危机，反映传统企业数字化传播合规意识薄弱，但未涉及技术、政策或产业格局变化，行业影响有限",
+    "cluster_size": 5,
+    "event_time": "2026-03-03T00:11:42Z",
+    "event_type": "news"
+  }
+]

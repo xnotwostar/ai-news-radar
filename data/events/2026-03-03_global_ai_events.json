@@ -1,0 +1,469 @@
+[
+  {
+    "event_id": "evt_20260303_000",
+    "title": "🔬 NullClaw: 678 KB Zig AI Agent Framework Running on 1 MB RAM, Boots in 2ms",
+    "category": "research",
+    "importance": 8.4,
+    "sources": [
+      {
+        "author": "Hacker News AI",
+        "text": "A case for Go as the best language for AI agents. Article URL: https://getbruin.com/blog/go-is-the-best-language-for-agents/\nComments URL: https://news.ycombinator.com/item?id=47222270\nPoints: 151\n# C",
+        "engagement": 0,
+        "url": "https://getbruin.com/blog/go-is-the-best-language-for-agents/"
+      },
+      {
+        "author": "MarkTechPost",
+        "text": "Meet NullClaw: The 678 KB Zig AI Agent Framework Running on 1 MB RAM and Booting in Two Milliseconds. In the current AI landscape, agentic frameworks typically rely on high-level managed languages lik",
+        "engagement": 0,
+        "url": "https://www.marktechpost.com/2026/03/02/meet-nullclaw-the-678-kb-zig-ai-agent-framework-running-on-1-mb-ram-and-booting-in-two-milliseconds/"
+      },
+      {
+        "author": "MarkTechPost",
+        "text": "FireRedTeam Releases FireRed-OCR-2B Utilizing GRPO to Solve Structural Hallucinations in Tables and LaTeX for Software Developers. Document digitization has long been a multi-stage problem: first dete",
+        "engagement": 0,
+        "url": "https://www.marktechpost.com/2026/03/01/fireredteam-releases-firered-ocr-2b-utilizing-grpo-to-solve-structural-hallucinations-in-tables-and-latex-for-software-developers/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[R] Toward Guarantees for Clinical Reasoning in Vision Language Models via Formal Verification. AI (VLM-based) radiology models can sound confident and still be wrong ; hallucinating diagnoses that th",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rih9kk/r_toward_guarantees_for_clinical_reasoning_in/"
+      },
+      {
+        "author": "natolambert",
+        "text": "Made a language model RL cheatsheet for the extra page on the inside back cover of the physical edition RLHF Book. https://t.co/EAOFvw9yVr",
+        "engagement": 1099,
+        "url": "https://x.com/natolambert/status/2026096742471479598"
+      }
+    ],
+    "key_facts": [
+      "NullClaw is a lightweight AI agent framework written in Zig",
+      "Binary size is 678 KB, runs on just 1 MB RAM, and boots in 2 milliseconds",
+      "Designed as a low-overhead alternative to Python/Go-based agentic frameworks, eliminating GC and VM runtime overhead"
+    ],
+    "analyst_angle": "NullClaw signals a strategic shift toward systems-language AI infrastructure—prioritizing determinism, memory safety, and embedded deployability over ecosystem convenience, potentially enabling AI agents on edge devices and safety-critical systems.",
+    "cluster_size": 5,
+    "event_time": "2026-03-02T02:55:12Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260303_001",
+    "title": "💰 Parade’s Cami Tellez launches creator economy marketing platform with $4M funding",
+    "category": "funding",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Instagram tracked growing usage while targeting teens, lawyers argue. The company said usage grew from 40 minutes per day in 2023 to 46 minutes in 2026. Other documents referenced teens as being a top",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/02/instagram-tracked-growing-usage-while-targeting-teens-lawyers-argue/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "X adds ‘Paid Partnership’ labels so creators can ditch the hashtags. The new labels comply with regulations and allow creators to be more transparent with their followers.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/02/x-ads-paid-partnership-labels-for-creators-so-they-can-ditch-the-hashtags/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Parade’s Cami Tellez announces new creator economy marketing platform, $4M in funding. Cami Tellez announces launch of new company, $4 million raise.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/02/parades-cami-tellez-announces-new-creator-economy-marketing-platform-4m-in-funding/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[D] Self-Promotion Thread. Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and servic",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rihows/d_selfpromotion_thread/"
+      },
+      {
+        "author": "amasad",
+        "text": "Replit Design will make great videos for your marketing pages.",
+        "engagement": 257,
+        "url": "https://x.com/amasad/status/2026084943512883244"
+      }
+    ],
+    "key_facts": [
+      "Cami Tellez (founder of Parade) announced a new creator economy marketing platform",
+      "The company raised $4 million in funding",
+      "The launch represents a targeted infrastructure play for creator-led brand partnerships and monetization"
+    ],
+    "analyst_angle": "This signals growing institutional confidence in the creator economy's maturation beyond content platforms—shifting focus to B2B SaaS tools that help brands and creators transact transparently, especially amid rising regulatory scrutiny on influencer disclosures (e.g., X’s new 'Paid Partnership' labels).",
+    "cluster_size": 5,
+    "event_time": "2026-03-02T03:15:30Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260303_002",
+    "title": "🔍 WhatsApp 官方推荐 Mullvad 和 Amnezia VPN 绕过网络封锁",
+    "category": "policy",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "CNET",
+        "text": "WhatsApp Advises Users to Try Mullvad and Amnezia VPNs to Circumvent Blocks. Meta's messaging app calls out Swedish- and Cyprus-based virtual private networks.",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/services-and-software/whatsapp-names/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "A Meta AI security researcher said an OpenClaw agent ran amok on her inbox  https://t.co/4K7ffSKWvb",
+        "engagement": 83,
+        "url": "https://x.com/TechCrunch/status/2026099666111385859"
+      }
+    ],
+    "key_facts": [
+      "WhatsApp（Meta旗下）罕见地在官方渠道公开建议用户使用 Mullvad（瑞典）和 Amnezia（塞浦路斯）两款VPN服务以规避地区性网络封锁",
+      "此举被视为对多国审查政策的技术回应，非传统安全通告，隐含平台中立性与可访问性立场",
+      "事件与同期 Meta AI 安全研究员提及的 OpenClaw 智能体异常事件无直接技术关联，属独立政策/运营动作"
+    ],
+    "analyst_angle": "主流通讯平台首次公开背书第三方VPN，标志数字权利实践从社区倡导升级为商业平台主动介入，或将推动全球合规与抗审查基础设施的标准化讨论。",
+    "cluster_size": 2,
+    "event_time": "2026-03-02T21:03:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260303_003",
+    "title": "🔬 'The Protocol' Paper Released by Ian Goodfellow and Daniel Rosset — New Framework for AI Safety & Alignment",
+    "category": "research",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "emollick",
+        "text": "Paper: https://t.co/GEKTZULG3u",
+        "engagement": 29,
+        "url": "https://x.com/emollick/status/2026098477814468912"
+      },
+      {
+        "author": "natolambert",
+        "text": "i should host this on https://t.co/EwR4Y4KHIw somewhere, i'll do that soon.",
+        "engagement": 14,
+        "url": "https://x.com/natolambert/status/2026100258175152234"
+      },
+      {
+        "author": "MLStreetTalk",
+        "text": "@goodfellow_ian @daniel_rossett Glad you are back in the game. Can you tell us more about the protocol out of interest?",
+        "engagement": 14,
+        "url": "https://x.com/MLStreetTalk/status/2026099868704424284"
+      }
+    ],
+    "key_facts": [
+      "Paper authored by Ian Goodfellow and Daniel Rosset, signaling a return to foundational AI safety research",
+      "Title and content suggest a novel protocol-oriented framework for alignment, distinct from current RLHF or constitutional AI approaches",
+      "Early community interest evidenced by citations, hosting intent (MLStreetTalk, Natolambert), and engagement from experts"
+    ],
+    "analyst_angle": "This represents a high-signal re-entry by seminal figures into alignment research—potentially introducing a new formalism that could influence both academic consensus and industry safety practices in 2024–2025.",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260303_004",
+    "title": "📌 瑞典气候变迁实证：40家新酒庄四年落地，传统冬季模式消退",
+    "category": "other",
+    "importance": 5.8,
+    "sources": [
+      {
+        "author": "LinusEkenstam",
+        "text": "People forget winters used to be wait from December to March. claiming climate change is not happening because new york gets snow (in february). meanwhile canadians, rockies and other snow secure plac",
+        "engagement": 16,
+        "url": "https://x.com/LinusEkenstam/status/2026093699286053362"
+      },
+      {
+        "author": "rasbt",
+        "text": "@OrganicGPT only on SWE-Bench Verified, not in aggregate https://t.co/bMuSPDOGOQ",
+        "engagement": 3,
+        "url": "https://x.com/rasbt/status/2026088278869328370"
+      },
+      {
+        "author": "LinusEkenstam",
+        "text": "@SidraMiconi yup, I’m from Sweden. can confirm. \nused to be winter hellscape from dec to march, now 40 new vineyards have opened in the last 4 years in my region alone.",
+        "engagement": 2,
+        "url": "https://x.com/LinusEkenstam/status/2026095035763273763"
+      }
+    ],
+    "key_facts": [
+      "瑞典南部过去冬季（12–3月）严寒漫长，现显著变暖",
+      "过去四年当地新增40家葡萄园，反映积温与生长季延长",
+      "推文作者为瑞典本地人，提供亲身气候观察与农业变化佐证"
+    ],
+    "analyst_angle": "个体经验性气候叙事虽非科研论文，但作为高信度地域性适应信号，补充了宏观数据缺失的微观现实，提示农业经济带北移已在中高纬度悄然发生。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260303_005",
+    "title": "📌 ChatGPT uninstall surge & Claude outage amid DoD controversy",
+    "category": "market",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "ChatGPT uninstalls surged by 295% after DoD deal. Many consumers ditched ChatGPT's app after news of its DoD deal went live, while Claude's downloads grew.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/02/chatgpt-uninstalls-surged-by-295-after-dod-deal/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Users are ditching ChatGPT for Claude — here’s how to make the switch. Following controversies surrounding ChatGPT, many users are ditching the AI chatbot for Claude instead. Here's how to make the sw",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/02/users-are-ditching-chatgpt-for-claude-heres-how-to-make-the-switch/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Tech workers urge DOD, Congress to withdraw Anthropic label as a supply-chain risk. Tech workers have signed an open letter urging the Department of Defense to withdraw its designation of Anthropic as",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/02/tech-workers-urge-dod-congress-to-withdraw-anthropic-label-as-a-supply-chain-risk/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "A married founder duo’s company, 14.ai, is replacing customer support teams at startups. 14.ai also launched a consumer brand to understand how much AI can handle customer support tasks.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/02/a-married-founder-duos-company-14-ai-is-replacing-customer-support-teams-at-startups/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Anthropic’s Claude reports widespread outage. Anthropic's AI chatbot Claude experienced widespread service disruptions on Monday morning, with thousands of users reporting issues accessing the bot.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/02/anthropics-claude-reports-widespread-outage/"
+      }
+    ],
+    "key_facts": [
+      "ChatGPT uninstalls surged by 295% following public announcement of its U.S. Department of Defense (DoD) deal",
+      "Claude experienced a widespread service outage on March 2, coinciding with heightened user migration interest",
+      "Tech workers launched an open letter urging DoD and Congress to rescind Anthropic’s 'supply chain risk' designation"
+    ],
+    "analyst_angle": "Consumer trust in AI brands is now highly sensitive to government partnerships and security labeling — signaling a new era where geopolitical alignment and transparency directly drive app store metrics and brand switching.",
+    "cluster_size": 8,
+    "event_time": "2026-03-02T13:31:49Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260303_006",
+    "title": "🚀 Apple 发布搭载 M4 芯片的 iPad Air（起售价 $599）",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Apple speeds up the iPad Air with an M4 upgrade, starting at $599. Apple refreshes the iPad Air with the M4 chip and more memory to make it better for AI use cases.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/02/apple-speeds-up-the-ipad-air-with-an-m4-upgrade-starting-at-599/"
+      },
+      {
+        "author": "Ars Technica",
+        "text": "$599 M4 iPad Air is a lot like the old one, but with a substantial RAM boost. Unexpected RAM upgrade is the highlight of an otherwise straightforward refresh.",
+        "engagement": 0,
+        "url": "https://arstechnica.com/gadgets/2026/03/apple-keeps-the-ipad-air-fresh-with-m4-chip-upgrade-and-12gb-of-ram/"
+      },
+      {
+        "author": "Wired",
+        "text": "Apple Gives the iPad Air a Small Power Boost. The iPad Air enjoys a relatively modest update with the M4 chip and 12 gigabytes of RAM.",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/apple-ipad-air-m4-2026/"
+      },
+      {
+        "author": "CNET",
+        "text": "Apple Updated the Wrong iPad. Commentary: The iPad Air just got a chip bump. Meanwhile, the most affordable iPad remains cut off from AI and is another year older.",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/computing/apple-updated-the-wrong-ipad/"
+      },
+      {
+        "author": "CNET",
+        "text": "Apple's Midrange iPad Gets an M4 Chip Bump, Arriving March 11. Another iPad Air appears, right on schedule. M4 chip and some wireless improvements are on tap.",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/computing/apples-ipad-air-gets-an-m4-chip-bump-coming/"
+      }
+    ],
+    "key_facts": [
+      "iPad Air 全面升级至 M4 芯片，显著提升 AI 推理与多任务处理能力",
+      "内存大幅升级至 12GB RAM（较前代翻倍），为本地大模型运行和专业创作提供更强支持",
+      "3 月 11 日正式发售，起售价维持 $599，属常规年度迭代但侧重 AI 就绪性"
+    ],
+    "analyst_angle": "苹果将 M4 首发落地于 iPad Air 而非更高端的 iPad Pro，释放明确信号：AI 算力正加速下沉至主流移动设备，推动边缘侧生成式 AI 应用普及，同时倒逼安卓阵营加快中高端平板芯片与内存规格升级。",
+    "cluster_size": 5,
+    "event_time": "2026-03-02T14:19:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260303_007",
+    "title": "🚀 Apple 发布 iPhone 17e：599 美元起售，搭载 A19 芯片、256GB 存储与 MagSafe",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Apple bakes in AI smarts into its new $599 iPhone 17e. The base model comes with 256 GB of storage, which Apple says is twice the entry storage from the previous generation at the same starting price.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/02/apples-bakes-in-ai-smarts-into-its-new-599-iphone-17e/"
+      },
+      {
+        "author": "The Verge",
+        "text": "How the new iPhone 17E stacks up against Apple’s pricier phones. The iPhone 17 lineup now has a “budget” option. Announced this week, the iPhone 17E will hit stores on Wednesday, March 11th, starting ",
+        "engagement": 0,
+        "url": "https://www.theverge.com/gadgets/887570/iphone-17e-vs-17-pro-max-air-spec-comparison-price-features"
+      },
+      {
+        "author": "Ars Technica",
+        "text": "Apple's new iPhone 17e has an A19 chip, MagSafe, and 256GB of storage for $599. New just-the-basics phone replaces the year-old iPhone 16e at the same price.",
+        "engagement": 0,
+        "url": "https://arstechnica.com/gadgets/2026/03/apples-new-iphone-17e-has-an-a19-chip-magsafe-and-256gb-of-storage-for-599/"
+      },
+      {
+        "author": "CNET",
+        "text": "Apple Debuts the $599 iPhone 17E With MagSafe – and It Comes in Pink. The follow-up to the 2025 iPhone 16E comes with double the base storage of last year's budget device.",
+        "engagement": 0,
+        "url": "https://www.cnet.com/news-live/iphone-17e-launch/"
+      }
+    ],
+    "key_facts": [
+      "iPhone 17e 是苹果新推出的入门级机型，起售价 599 美元，3 月 11 日正式发售，3 月 4 日开启预购",
+      "标配 256GB 存储（较上代 iPhone 16e 基础版翻倍），搭载自研 A19 芯片，支持 MagSafe，提供粉色配色",
+      "定位‘预算款’但全面升级，填补 iPhone 17 全系（含 iPhone 17、17 Pro/Pro Max）中的价格与功能梯度"
+    ],
+    "analyst_angle": "苹果首次以‘E’系列名义在同代实现存储与芯片双升级，标志着其将 AI 能力下沉至入门机型的战略落地，或将加速中端智能手机市场向‘AI-ready 硬件标配’演进。",
+    "cluster_size": 4,
+    "event_time": "2026-03-02T14:34:52Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260303_008",
+    "title": "🚀 Confluence Labs Launches with SOTA ARC-AGI-2 Performance (97.9%)",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "elonmusk",
+        "text": "@pmddomingos Pretty much",
+        "engagement": 2319,
+        "url": "https://x.com/elonmusk/status/2026085310585864246"
+      },
+      {
+        "author": "AnthropicAI",
+        "text": "We're proud to support @LACMA's Art + Technology Lab—a program that empowers artists to prototype ideas at the edges of art, science, and emerging technology.\n\nThe 2026 call for proposals is open to a",
+        "engagement": 1909,
+        "url": "https://x.com/AnthropicAI/status/2026096054253564002"
+      },
+      {
+        "author": "ycombinator",
+        "text": ".@_confluencelabs is coming out of stealth with SOTA on ARC-AGI-2 (97.9%).\n\nThey're focused on learning efficiency — making AI useful where data is sparse and experiments are costly. Read more at http",
+        "engagement": 949,
+        "url": "https://x.com/ycombinator/status/2026084664503603649"
+      },
+      {
+        "author": "emollick",
+        "text": "New randomized experiment shows AI narrows skill gaps. We found this among talent levels at the same job, but this paper looks at education. They find that AI reduces the gap between more &amp; less e",
+        "engagement": 429,
+        "url": "https://x.com/emollick/status/2026098230736437362"
+      },
+      {
+        "author": "firstadopter",
+        "text": "It's pathetic seeing many people today kowtow to obvious slop and paper-thin analysis. Is going viral the only thing you respect, or is it actual quality?",
+        "engagement": 129,
+        "url": "https://x.com/firstadopter/status/2026089601333387742"
+      }
+    ],
+    "key_facts": [
+      "Confluence Labs has emerged from stealth with state-of-the-art performance on ARC-AGI-2 benchmark (97.9%)",
+      "The company focuses on learning efficiency—enabling AI utility in low-data, high-cost experimental regimes",
+      "YC-backed launch announced via @ycombinator; founders include @BingBongBrent and @bankminer78"
+    ],
+    "analyst_angle": "This signals a strategic shift toward sample-efficient, generalizable reasoning—addressing a critical bottleneck for real-world AGI deployment beyond data-rich domains.",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260303_009",
+    "title": "🚀 Pronto Raises Valuation 8× Amid India Home Services Digitization Push",
+    "category": "funding",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "India’s Pronto formalizes house help as its valuation jumps 8× in under a year. Pronto handles 18,000 daily bookings and plans rapid expansion as it races rivals to digitize India's largely offline ho",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/02/indias-pronto-formalizes-house-help-as-its-valuation-jumps-8x-in-under-a-year/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Stripe wants to turn your AI costs into a profit center. Stripe released a preview intended to allow AI companies to easily track, pass through, and make a profit on underlying AI model fees.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/02/stripe-wants-to-turn-your-ai-costs-into-a-profit-center/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Tesla’s battle with the California Department of Motor Vehicles isn’t over after all https://t.co/yG3CaXRXlU",
+        "engagement": 44,
+        "url": "https://x.com/TechCrunch/status/2026094058863841713"
+      },
+      {
+        "author": "emollick",
+        "text": "@mattturck You should be ashamed.",
+        "engagement": 12,
+        "url": "https://x.com/emollick/status/2026098632903024725"
+      },
+      {
+        "author": "LinusEkenstam",
+        "text": "@Art_If_Ficial Barcelona been between +5 and +9 above average for all of February. \n\nlast year June saw August level heatwaves. So yeah climate is def fucked. \n\nBut that’s a human problem, not a plane",
+        "engagement": 3,
+        "url": "https://x.com/LinusEkenstam/status/2026095444817064140"
+      }
+    ],
+    "key_facts": [
+      "Pronto, an Indian home services platform, has seen its valuation increase 8× in under one year",
+      "The company handles 18,000 daily bookings and is accelerating expansion to digitize India's largely offline domestic help market"
+    ],
+    "analyst_angle": "Pronto’s explosive valuation growth signals intensifying investor confidence in vertical SaaS and on-demand service infrastructure in emerging markets — a bellwether for the next wave of 'offline-first' digital transformation in labor-intensive service economies.",
+    "cluster_size": 5,
+    "event_time": "2026-03-02T23:18:27Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260303_010",
+    "title": "📌 Geopolitical drama stalls PayPay IPO amid Japan-US tensions",
+    "category": "funding",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Geopolitical drama reportedly stalls IPO of SoftBank-backed PayPay. The Japan-based company reportedly aimed for a public valuation of at least ¥1.5 trillion ($10 billion).",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/02/geopolitical-drama-reportedly-stalls-ipo-of-softbank-backed-paypay/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "No one has a good plan for how AI companies should work with the government. As OpenAI transitions from a wildly successful consumer startup into a piece of national security infrastructure, the compa",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/02/openai-anthropic-department-of-defense-war-hegseth-ai-companies-work-with-us-government/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Paramount+ and HBO Max to merge into one streaming service after WBD deal closes. Ellison reassured investors that HBO’s identity and creative vision as a studio would remain unchanged, stating, “Our ",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/02/paramount-and-hbo-max-to-merge-into-one-streaming-service-after-wbd-deal-closes/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Hacktivists claim to have hacked Homeland Security to release ICE contract data. A hacking group called Department of Peace said they hacked a specific office within Homeland Security to protest ICE’s",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/02/hacktivists-claim-to-have-hacked-homeland-security-to-release-ice-contract-data/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Hackers and internet outages hit Iran amid US air strikes. Users of a popular Iranian prayer app were flooded with phone notifications as U.S. air strikes hit Iran's biggest cities, killing the countr",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/02/hackers-and-internet-outages-hit-iran-amid-u-s-air-strikes/"
+      }
+    ],
+    "key_facts": [
+      "SoftBank-backed Japanese fintech PayPay has postponed its planned IPO due to geopolitical complications",
+      "The company targeted a public valuation of at least ¥1.5 trillion (~$10 billion)"
+    ],
+    "analyst_angle": "This delay signals growing investor and regulatory caution around cross-border fintech valuations in volatile geopolitical environments—especially for firms with heavy SoftBank exposure and US-Japan strategic sensitivities.",
+    "cluster_size": 5,
+    "event_time": "2026-03-02T14:16:53Z",
+    "event_type": "news"
+  }
+]
