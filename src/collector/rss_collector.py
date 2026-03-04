@@ -67,6 +67,7 @@ RSS_FEEDS = {
     "MarkTechPost": "https://www.marktechpost.com/feed",
     "Lobsters AI": "https://lobste.rs/t/ai.rss",
     "Reddit ML": "https://www.reddit.com/r/MachineLearning/.rss",
+    "Latent Space": "https://www.latent.space/feed",
 }
 
 # These sources are AI-specific and don't need keyword filtering
@@ -74,6 +75,7 @@ AI_SPECIFIC_SOURCES = {
     "VentureBeat", "Hacker News AI", "KDnuggets",
     "MarkTechPost", "OpenAI Blog", "Google DeepMind",
     "Hugging Face", "NVIDIA Blog", "Lobsters AI", "Reddit ML",
+    "Latent Space",
 }
 
 # ---------------------------------------------------------------------------
