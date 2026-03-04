@@ -165,8 +165,11 @@ def run_twitter_pipeline(
     _save_events(events, f"{date_str}_{name}_events.json")
 
     # Step 4.5: Deduplicate against recent history
-    deduplicator = HistoryDeduplicator(lookback_days=3, threshold=2)
-    events = deduplicator.deduplicate(events, name, date_str)
+    if not os.environ.get("NO_DEDUP"):
+        deduplicator = HistoryDeduplicator(lookback_days=3, threshold=2)
+        events = deduplicator.deduplicate(events, name, date_str)
+    else:
+        logger.info("Skipping history dedup (NO_DEDUP=1)")
 
     # Step 5: Rank
     ranker = Ranker()
@@ -387,4 +390,7 @@ if __name__ == "__main__":
         if "--no-push" in args:
             os.environ["NO_PUSH"] = "1"
             args = [a for a in args if a != "--no-push"]
+        if "--no-dedup" in args:
+            os.environ["NO_DEDUP"] = "1"
+            args = [a for a in args if a != "--no-dedup"]
         main(args if args else None)
