@@ -1,0 +1,312 @@
+[
+  {
+    "event_id": "evt_20260304_000",
+    "title": "🚀 Google Gemini on Pixel gains grocery-ordering; ChatGPT launches GPT-5.3 Instant; Claude Code adds Voice Mode",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "ChatGPT’s new GPT-5.3 Instant model will stop telling you to calm down. The company says the new model will reduce the \"cringe\" that's been annoying its users for months.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/03/chatgpts-new-gpt-5-3-instant-model-will-stop-telling-you-to-calm-down/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Claude Code rolls out a voice mode capability. Anthropic is stepping up its game in the AI coding space with the rollout of Voice Mode in Claude Code.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/03/claude-code-rolls-out-a-voice-mode-capability/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Android users can now share tracker tag info with airlines to help locate lost luggage. More than 10 global airlines now accept Find Hub locations as part of their baggage recovery process.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/03/android-users-can-now-share-tracker-tag-info-with-airlines-to-help-locate-lost-luggage/"
+      },
+      {
+        "author": "The Verge",
+        "text": "Android’s Find Hub adds iPhone-like luggage tracking links. Google is rolling out an Android update that includes the ability to share the location of your missing luggage with an airline. It's simila",
+        "engagement": 0,
+        "url": "https://www.theverge.com/tech/888200/google-android-find-hub-luggage-tracking"
+      },
+      {
+        "author": "The Verge",
+        "text": "Google’s latest Pixel drop allows Gemini to order groceries for you and more. Google is adding several new features to Pixel phones with its latest March update, including the ability for its Gemini A",
+        "engagement": 0,
+        "url": "https://www.theverge.com/tech/888295/google-gemini-pixel-drop-march-2026"
+      }
+    ],
+    "key_facts": [
+      "Google rolls out March 2026 Pixel update enabling Gemini AI to autonomously order groceries and book rides",
+      "OpenAI launches GPT-5.3 Instant — a new inference-optimized model reducing 'cringe' behaviors (e.g., unsolicited 'calm down' prompts)",
+      "Anthropic introduces Voice Mode for Claude Code, expanding its AI coding assistant’s multimodal capabilities"
+    ],
+    "analyst_angle": "Three major AI labs simultaneously ship user-facing product upgrades — signaling intensified competition in real-world AI agent functionality, with emphasis on autonomy (Gemini), usability refinement (GPT-5.3 Instant), and developer workflow enhancement (Claude Code Voice Mode).",
+    "cluster_size": 27,
+    "event_time": "2026-03-03T02:21:07Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_001",
+    "title": "📊 AI Startup Funding Surge: $189B VC Flow, Wayve $1.8B, MatX $500M",
+    "category": "funding",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Just three companies dominated the $189B in VC investments last month. Crunchbase data shows a record $189 billion of global venture capital flowed to startups last month, with AI startups nabbing 90%",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/03/openai-anthropic-waymo-dominated-189-billion-vc-investments-february-crunchbase-report/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "AI companies are spending millions to thwart this former tech exec’s congressional bid. A tech billionaire-backed super PAC is spending $125 million to undercut candidates pushing for AI regulation. N",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/03/ai-companies-are-spending-millions-to-thwart-this-former-tech-execs-congressional-bid/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Self-driving tech startup Wayve raises $1.8B from Nvidia, Uber, and three automakers https://t.co/7pEYAu2ZjS",
+        "engagement": 117,
+        "url": "https://x.com/TechCrunch/status/2026457517069570233"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Nvidia challenger AI chip startup MatX raised $500M https://t.co/usZV4S7cWP",
+        "engagement": 61,
+        "url": "https://x.com/TechCrunch/status/2026459786263539936"
+      }
+    ],
+    "key_facts": [
+      "Global VC funding hit a record $189 billion in February, with AI startups capturing 90% of the total",
+      "Self-driving startup Wayve raised $1.8 billion from Nvidia, Uber, and three automakers",
+      "AI chip startup MatX (positioned as an Nvidia challenger) raised $500 million"
+    ],
+    "analyst_angle": "This unprecedented capital concentration signals not just AI hype, but a structural reallocation of tech investment toward foundational AI infrastructure and autonomy—consolidating power among well-funded incumbents and strategic hardware partners.",
+    "cluster_size": 4,
+    "event_time": "2026-03-03T21:44:09Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_002",
+    "title": "🚀 Apple 发布搭载 M5 芯片的新款 MacBook Air 和 MacBook Pro",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "The new MacBook Pro laptops are as much as $400 more expensive than their predecessors. Thank the RAM shortage.. With the demands for more computers and data centers to power AI, the market is experie",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/03/apple-new-macbook-pro-laptop-price-more-expensive-than-previous-models-ram-memory-shortage/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Apple unveils new MacBook Air and MacBook Pro with M5. These updated M5 chips were specifically designed to make the MacBook Air and MacBook Pro laptops better at handling intensive AI tasks.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/03/apple-unveils-new-macbook-air-and-macbook-pro-with-m5/"
+      },
+      {
+        "author": "The Verge",
+        "text": "The best AirPods deals you can get right now. If you know where to look, you can often score deals on Apple’s ever-expanding AirPods lineup. Both the AirPods Max and AirPods 4 (with and without ANC) n",
+        "engagement": 0,
+        "url": "https://www.theverge.com/21302051/best-apple-airpods-deals"
+      },
+      {
+        "author": "Ars Technica",
+        "text": "M5 Pro and M5 Max are surprisingly big departures from older Apple Silicon. Apple is using more chiplets and three types of CPU cores to make the M5 family.",
+        "engagement": 0,
+        "url": "https://arstechnica.com/gadgets/2026/03/m5-pro-and-m5-max-are-surprisingly-big-departures-from-older-apple-silicon/"
+      },
+      {
+        "author": "Ars Technica",
+        "text": "New MacBook Airs come with M5, double the storage, and higher starting prices. New Airs leave more room underneath for the rumored low-cost MacBook.",
+        "engagement": 0,
+        "url": "https://arstechnica.com/gadgets/2026/03/new-macbook-airs-come-with-m5-double-the-storage-and-higher-starting-prices/"
+      }
+    ],
+    "key_facts": [
+      "Apple 正式发布搭载全新 M5 系列芯片（含 M5、M5 Pro、M5 Max）的 MacBook Air 和 MacBook Pro",
+      "M5 系列采用 chiplet 架构与三类 CPU 核心，专为 AI 任务优化",
+      "新款机型因 RAM 全球短缺导致内存成本飙升，起售价最高上涨 $400"
+    ],
+    "analyst_angle": "M5 芯片标志着苹果自研芯片从通用计算向 AI 原生架构的关键跃迁，叠加供应链压力下的定价策略，预示着高端 PC 市场正加速进入‘AI 硬件溢价’新周期。",
+    "cluster_size": 11,
+    "event_time": "2026-03-03T14:45:03Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_003",
+    "title": "💥 U.S./Israel Military Strikes Against Iran Trigger Cyber Operations, Energy Volatility & AWS Infrastructure Damage",
+    "category": "policy",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Hacked traffic cams and hijacked TVs: How cyber operations supported the war against Iran. After U.S. and Israeli forces started bombing Iran, reports say cyber operations have disrupted communication",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/03/hacked-traffic-cams-and-hijacked-tvs-how-cyber-operations-supported-the-war-against-iran/"
+      },
+      {
+        "author": "The Verge",
+        "text": "What Trump’s war on Iran means for the US energy crunch. Fuel prices surged after the Trump administration launched strikes against Iran on Saturday, immediately raising questions about whether the wa",
+        "engagement": 0,
+        "url": "https://www.theverge.com/science/888526/what-trumps-war-on-iran-means-for-the-us-energy-crunch"
+      },
+      {
+        "author": "CNET",
+        "text": "Amazon Web Services Confirms Damage After Middle East Drone Strikes. The strikes in Bahrain and the UAE caused structural damage, disrupted power delivery and, in some cases, sparked fires and caused ",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/services-and-software/amazon-web-services-damage-middle-east-drone-strikes/"
+      }
+    ],
+    "key_facts": [
+      "U.S. and Israeli kinetic strikes against Iran were accompanied by coordinated cyber operations disrupting Iranian communications, surveillance systems, and enabling psychological operations",
+      "Trump administration's military action triggered immediate fuel price surges and raised concerns about U.S. energy grid stability and domestic oil/gas production pressure",
+      "Drone strikes in Bahrain and UAE caused structural damage, power disruption, fires, and water damage to Amazon Web Services (AWS) infrastructure facilities"
+    ],
+    "analyst_angle": "This marks a rare, publicly documented convergence of kinetic warfare, state-sponsored cyber operations, and direct physical impact on global cloud infrastructure—signaling a new threshold in geopolitical conflict with cascading implications for critical infrastructure resilience, energy markets, and cloud service SLAs.",
+    "cluster_size": 3,
+    "event_time": "2026-03-03T17:37:59Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_004",
+    "title": "💡 AI's Job Impact Remains Limited in 2025 — Granular Labor Effects Still Poorly Understood",
+    "category": "market",
+    "importance": 6.8,
+    "sources": [
+      {
+        "author": "emollick",
+        "text": "The job impacts of AI are going to be complicated, both over time &amp; within categories. I wish we had more granular data on juniors versus seniors, system integrators versus primary developers, etc",
+        "engagement": 130,
+        "url": "https://x.com/emollick/status/2026469024142348687"
+      },
+      {
+        "author": "emollick",
+        "text": "And, importantly, very few companies in 2025 did anything different as a result of AI.",
+        "engagement": 54,
+        "url": "https://x.com/emollick/status/2026469451533537413"
+      },
+      {
+        "author": "LiorOnAI",
+        "text": "Little known fact:\n\nThe modern AI boom traces back to a 1983 Canadian research bet.\n\nThat year, the government backed the creation of the Canadian Institute for Advanced Research (CIFAR) with ~CAD $50",
+        "engagement": 36,
+        "url": "https://x.com/LiorOnAI/status/2026467466441117769"
+      },
+      {
+        "author": "noahzweben",
+        "text": "@m1guelpf We have a fixed error message coming in our next release!",
+        "engagement": 11,
+        "url": "https://x.com/noahzweben/status/2026467141642498252"
+      },
+      {
+        "author": "StefanoErmon",
+        "text": "@nathanrs Please apply here! We will reach back out soon after. https://t.co/jLh7RNQj15",
+        "engagement": 3,
+        "url": "https://x.com/StefanoErmon/status/2026458966478483940"
+      }
+    ],
+    "key_facts": [
+      "Empirical evidence shows very few companies meaningfully changed operations due to AI in 2025",
+      "Job impacts of AI are highly heterogeneous across experience levels (juniors vs. seniors) and roles (system integrators vs. primary developers)",
+      "Lack of granular labor-market data impedes accurate assessment of AI’s real-world employment effects"
+    ],
+    "analyst_angle": "The muted organizational adoption and unclear labor segmentation suggest AI’s macroeconomic labor impact remains overhyped relative to current reality—policy and enterprise planning should prioritize measurement infrastructure before scaling interventions.",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260304_005",
+    "title": "💰 AI Startup Valuation Tactics & Anduril's $60B Funding Push",
+    "category": "funding",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Why AI startups are selling the same equity at two different prices. Some AI founders are using a novel valuation mechanism to manufacture unicorn status.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/03/why-ai-startups-are-selling-the-same-equity-at-two-different-prices/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Alibaba’s Qwen tech lead steps down after major AI push. Reactions rippled through Alibaba's Qwen team after tech lead Junyang Lin stepped down following a major model launch.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Anduril aims at $60 billion valuation in new funding round. The funding round would come less than a year after Anduril's Series G, which closed in June with $2.5 billion against a $30 billion valuati",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/03/anduril-aims-at-60-billion-valuation-in-new-funding-round/"
+      },
+      {
+        "author": "swyx",
+        "text": "@arafatkatze this was basically my thought process before signing lol. \"shit... they've made every choice i wish i made. ok they are smarter than me lets see what its like inside\"",
+        "engagement": 2,
+        "url": "https://x.com/swyx/status/2026459106165535122"
+      },
+      {
+        "author": "StefanoErmon",
+        "text": "@aminkarbasi We are too!",
+        "engagement": 1,
+        "url": "https://x.com/StefanoErmon/status/2026457358126428640"
+      }
+    ],
+    "key_facts": [
+      "Anduril is targeting a $60 billion valuation in a new funding round, up from $30 billion just months after its $2.5B Series G in June 2025",
+      "TechCrunch reports emerging valuation arbitrage practices among AI startups — selling identical equity at different prices to inflate paper valuations and achieve 'unicorn' status",
+      "Alibaba's Qwen tech lead Junyang Lin stepped down following a major model launch, signaling internal turbulence amid rapid AI scaling"
+    ],
+    "analyst_angle": "These developments collectively expose growing valuation fragility in the AI startup ecosystem: aggressive fundraising targets coexist with opaque pricing mechanisms and leadership instability — suggesting mounting pressure to monetize hype before sustainable unit economics or technical differentiation are proven.",
+    "cluster_size": 5,
+    "event_time": "2026-03-03T20:06:45Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_006",
+    "title": "📜 X enforces AI disclosure policy for conflict-related content",
+    "category": "policy",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "X says it will suspend creators from revenue-sharing program for unlabeled AI posts of ‘armed conflict’. Creators who break the rules will get a three-month suspension, and if they continue to violate",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/03/x-says-it-will-suspend-creators-from-revenue-sharing-program-for-unlabeled-ai-posts-of-armed-conflict/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Activist investor Elliott takes a $1B stake in Pinterest, betting on AI-driven growth. The news comes as Pinterest has faced serious headwinds. Shares tumbled over the past year, with disappointing ea",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/03/activist-investor-elliot-takes-a-1b-stake-in-pinterest-betting-on-ai-driven-growth/"
+      },
+      {
+        "author": "The Verge",
+        "text": "Another Oracle outage is messing up US TikTok. The US version of TikTok is once again experiencing issues due to an Oracle outage, just a month after coming back online from a similar outage in Februa",
+        "engagement": 0,
+        "url": "https://www.theverge.com/tech/888647/tiktok-us-oracle-outage-march-2026"
+      },
+      {
+        "author": "The Verge",
+        "text": "Highguard is shutting down this month. Another high-profile live-service game is shutting down soon after launch: this time it's the free-to-play squad shooter Highguard. Developer Wildlight Entertain",
+        "engagement": 0,
+        "url": "https://www.theverge.com/games/880206/highguard-shut-down"
+      },
+      {
+        "author": "The Verge",
+        "text": "Shark’s latest robot vacuum hunts stains with UV light. The Shark PowerDetect UV Reveal is SharkNinja's latest robot vacuum and mop. A flagship model with a multifunctional dock that empties the dustb",
+        "engagement": 0,
+        "url": "https://www.theverge.com/tech/888179/shark-powerdetect-uv-reveal-robot-vacuum-review"
+      }
+    ],
+    "key_facts": [
+      "X will suspend creators from its revenue-sharing program for posting AI-generated content about armed conflict without proper labeling",
+      "First offense triggers a three-month suspension; repeat violations lead to permanent bans"
+    ],
+    "analyst_angle": "This marks one of the first enforceable, penalty-backed platform policies targeting unlabeled AI-generated war/disinformation content — signaling a shift from voluntary labeling to accountability-driven AI governance on major social platforms.",
+    "cluster_size": 5,
+    "event_time": "2026-03-03T17:27:37Z",
+    "event_type": "news"
+  }
+]

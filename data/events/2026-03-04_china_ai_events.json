@@ -1,0 +1,468 @@
+[
+  {
+    "event_id": "evt_20260304_000",
+    "title": "🚀 Claude Code 上线语音编程模式：长按空格即可语音输入开发需求",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "敲代码不如“说”代码：AI 编程工具 Claude Code 陆续上线语音模式. IT之家 3 月 4 日消息，Anthropic 昨日（3 月 3 日）发布公告，宣布在其编程工具 Claude Code 中，逐步推送全新的“语音模式”，意味着广受开发者欢迎的“直觉编程”正在向更高效的“语音编程”时代演进。IT之家援引博文介绍，该语音模块直接内置于 Claude Code 的底层架构中，用户在顺利",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/605.htm"
+      },
+      {
+        "author": "wshuyi",
+        "text": "试了一下 Claude Code 最新的 Remote Control（远程控制），很好用。我把 remote control 的默认设置改为对所有 session 开启，现在可以随时拿起手机给 Claude Code 发布新的任务。比起用 Telegram 或者 Chatcode 调用 Claude Code 更为直接，也更安全 https://t.co/pqIMilU2vj",
+        "engagement": 85,
+        "url": "https://x.com/wshuyi/status/2026449026539991201"
+      },
+      {
+        "author": "dotey",
+        "text": "这个借助 NotebookLM 讲课的用法不错👍\nhttps://t.co/DxGOanP8IG",
+        "engagement": 34,
+        "url": "https://x.com/dotey/status/2026457611885756845"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "Claude code都存在一周年了\n\n我感觉我大量应用还是这两个月\n\n在opus 4.5之后，准确率大不同了",
+        "engagement": 14,
+        "url": "https://x.com/jesselaunz/status/2026462604810662172"
+      },
+      {
+        "author": "dotey",
+        "text": "对，有课件就可以用 AI 辅助自学\nhttps://t.co/ns5xLBrM0H",
+        "engagement": 7,
+        "url": "https://x.com/dotey/status/2026451165995552907"
+      }
+    ],
+    "key_facts": [
+      "Anthropic 于 3 月 3 日正式宣布在 Claude Code 中逐步推送内置语音模式",
+      "语音交互通过长按空格键触发，指令实时发送至 AI 执行，无需第三方语音转文本中间件",
+      "语音模块深度集成至底层架构，首批面向约 5% 内测用户开放"
+    ],
+    "analyst_angle": "语音编程从实验性功能迈向生产级集成，标志着 AI 编程工具正从‘键盘优先’转向‘多模态自然交互’范式，或将加速开发者工作流重构与低代码/无代码场景渗透。",
+    "cluster_size": 6,
+    "event_time": "2026-03-03T23:42:58Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_001",
+    "title": "📌 阿里云Qwen API调用异常问题集中反馈",
+    "category": "product_launch",
+    "importance": 4.2,
+    "sources": [
+      {
+        "author": "alibaba_cloud",
+        "text": "@ChengYi3629 可能是API key和模型地址不匹配，您可以私信小编提供下阿里云账号，我们做下具体排查",
+        "engagement": 6,
+        "url": "https://x.com/alibaba_cloud/status/2026456967863218373"
+      },
+      {
+        "author": "dotey",
+        "text": "@shiquda123321 必须官方订阅",
+        "engagement": 5,
+        "url": "https://x.com/dotey/status/2026450581968109962"
+      },
+      {
+        "author": "dotey",
+        "text": "@LiGongBa_AI @iDemoChen @FightyAI @arkuy99 试过，不行的",
+        "engagement": 2,
+        "url": "https://x.com/dotey/status/2026456552098484424"
+      },
+      {
+        "author": "yangyi",
+        "text": "@wangshangju1 没问题 我更新好版本就发你私信",
+        "engagement": 2,
+        "url": "https://x.com/yangyi/status/2026455735220187238"
+      },
+      {
+        "author": "alibaba_cloud",
+        "text": "@ChengYi3629 @k4758938739259 您好，非常抱歉给您带来不好的的感受体验。\n请问方便私信小编，提供一下阿里云账号或者工单编号吗？\n小编跟技术工程师再核实一下具体情况",
+        "engagement": 2,
+        "url": "https://x.com/alibaba_cloud/status/2026453922429415448"
+      }
+    ],
+    "key_facts": [
+      "多位用户在社交媒体反馈调用阿里云Qwen大模型API时出现失败",
+      "官方账号确认存在体验问题，正通过私信收集账号/工单信息协同技术团队排查",
+      "问题疑似由API key与模型服务地址不匹配引发"
+    ],
+    "analyst_angle": "属已上线产品的稳定性事件，尚未构成重大发布或架构变更，但批量用户报错反映当前Qwen API服务治理或文档指引存在落地疏漏，需关注后续修复时效与透明度。",
+    "cluster_size": 7,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_002",
+    "title": "🚀 华为发布U6GHz完整产品矩阵及5G-A万兆基带方案（MWC 2026）",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "黄金频段争夺战打响，华为发布U6GHz完整产品矩阵丨MWC 2026. 作者丨邱晓芬\n  编辑丨苏建勋\n  在2026世界移动通信大会（MWC 2026）中偌大的1号馆里，华为几乎占据了一半以上的位置。这么大的空间和篇幅，华为想重点传递的关键词是U6GHz。\n  为了实现6G这一遥远的蓝图，近期，全球已掀起了一场U6GHz（6.425-7.125 GHz）的探索热潮，阿联酋、巴西及欧洲等多国各大运",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3705512345170309?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "华为杨超斌：6G 标准化工作已正式启动，首个标准版本不早于 2029 年 3 月冻结. IT之家 3 月 4 日消息，当地时间 3 月 3 日，在巴塞罗那举行的 2026 年世界移动通信大会（MWC26）期间，华为 ICT BG CEO 杨超斌表示 6G 标准化工作已正式启动，首个 3GPP 标准版本冻结时间不早于 2029 年 3 月。他认为，未来五年是移动 AI 业务爆发的关键窗口，5G-A ",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/614.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "华为发布新一代基带方案：能效与容量提升 100%，256T U6GHz AAU 全球首发 5G-A 支持万兆下行. IT之家 3 月 4 日消息，华为在巴塞罗那举行的 2026 年世界移动通信大会（MWC26）期间发布了新一代基带及无线网络解决方案。在 MWC26 上，华为公司副总裁、无线网络产品线总裁方向发布了构筑 Agentic MBB 的系列解决方案。方向表示，移动 AI 时代正加速到来，移",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/601.htm"
+      },
+      {
+        "author": "雷锋网",
+        "text": "华为杨超斌：创造移动产业新价值，共筑美好智能世界. 【西班牙，巴塞罗那，2026年3月3日】在MWC26 巴塞罗那期间，华为ICT BG CEO杨超斌发表主题演讲。他表示：“智能时代正在加速到来。面对移动AI应用的全面爆发，产业界需共同努力，充分释放5G-A潜能，并高效利用U6GHz等新频谱资源，在创造产业新价值的同时，为6G演进奠定基础。”AI正加速发展，成为智能世界的核心引擎。全球日均Toke",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/industrynews/PTuoXmiF3nMf08PH.html"
+      },
+      {
+        "author": "雷锋网",
+        "text": "骁龙X105、Wi-Fi 8与骁龙可穿戴至尊版，高通的AI原生6G拼图. 当AI开始从云端走向边缘，个人AI开始兴起，通信网络的角色也随之改变。它不再只是承载数据流量的通道，而正在成为分布式计算体系的一部分。这也让全新一代移动通信技术被赋予了一个前所未有的定义——AI原生。不同于5G在既有通信框架中引入AI优化，6G从标准制定之初便围绕连接、感知与计算的深度融合展开设计。网络不再只是“更快”，而是",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/chips/q23arpkjO3Ra5gH1.html"
+      }
+    ],
+    "key_facts": [
+      "华为在MWC 2026正式发布面向5G-A/6G的U6GHz（6.425–7.125 GHz）全系列无线产品矩阵，包括全球首发256T U6GHz AAU，支持万兆下行",
+      "同步推出新一代基带方案，能效与容量提升100%，并首发业界首个无线网络智能体（RAN Agent），基于通信大模型+无线数字孪生系统（RDTS），实现分钟级感知-分析-决策闭环",
+      "华为明确U6GHz为未来十年移动网络扩容核心‘黄金频段’，在容量、覆盖、成本三维度达成最优平衡，是5G-A规模商用与6G演进的关键物理层基础"
+    ],
+    "analyst_angle": "华为以U6GHz硬件+AI原生RAN软件双轮驱动，实质性锚定5G-A产业节奏并加速6G技术路径收敛，标志着中国厂商从标准参与转向频谱定义与系统架构主导。",
+    "cluster_size": 5,
+    "event_time": "2026-03-03T02:38:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_003",
+    "title": "🚀 蔚来ES9技术发布会定档4月9日，首发天行线控转向、天行全主动悬架、SkyOS•天枢、神玑NX9031芯片及全域900V架构",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "蔚来ES9技术发布会定档4月9日. 36氪获悉，3月3日，蔚来创始人、董事长、CEO李斌在元宵节直播中宣布，蔚来ES9技术发布会将于4月9日正式举行。据了解，ES9搭载首个获得国家量产许可的线控转向系统——天行线控转向、全球首个集成式液压全主动悬架系统——天行全主动悬架、中国首个整车全域操作系统“SkyOS•天枢”、自研高阶智驾芯片“神玑 NX9031”以及全域900V高压架构等。",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3707920224940416?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "比亚迪第二代刀片电池暨闪充技术发布会定档 3 月 5 日晚. IT之家 3 月 4 日消息，比亚迪汽车今日官宣，比亚迪第二代刀片电池暨闪充技术发布会定档 3 月 5 日 19:00 在深圳大运中心体育馆举行。据IT之家此前报道，比亚迪在 2020 年发布第一代刀片电池，据比亚迪董事长王传福当时介绍，比亚迪刀片电池具有高安全、长寿命、长续航优势。刀片电池基于比亚迪磷酸铁锂技术，其体积能量密度与主流三",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/628.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "蔚来乐道 L90 激光雷达款车型将与纯视觉版同步销售，预计今年第二季度正式发布. IT之家 3 月 3 日消息，蔚来创始人、董事长、CEO 李斌和蔚来高级副总裁兼乐道汽车总裁沈斐在今天的元宵节直播中宣布，乐道 L90 激光雷达版车型预计第二季度正式发布。该版本车型将与现有纯视觉版本同步销售，形成双智驾方案布局，两种方案均支持高阶辅助驾驶与主动安全能力，激光雷达版本因硬件成本增加，定价略高。目前，乐",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/585.htm"
+      }
+    ],
+    "key_facts": [
+      "蔚来ES9技术发布会定于4月9日举行，由李斌在元宵节直播中正式官宣",
+      "ES9将搭载中国首个获国家量产许可的线控转向系统（天行线控转向）和全球首个集成式液压全主动悬架系统（天行全主动悬架）",
+      "首发自研高阶智驾芯片‘神玑 NX9031’、中国首个整车全域操作系统‘SkyOS•天枢’，以及全域900V高压架构"
+    ],
+    "analyst_angle": "这是国内车企首次在单一车型上实现‘全栈自研+全栈量产落地’的智能底盘、智驾芯片、OS与高压平台协同突破，标志着中国高端电动车从硬件堆砌迈向系统级技术主权时代。",
+    "cluster_size": 3,
+    "event_time": "2026-03-03T15:22:48Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_004",
+    "title": "🚀 苹果发布 M5 Pro/M5 Max MacBook Pro 及 M4 iPad Air，全面转向 Apple Silicon 生态",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "苹果 M4 iPad Air 跑分出炉：单核与 iPad Pro 持平，多核因核心数略逊一筹. IT之家 3 月 4 日消息，随着苹果新款 iPad Air 正式发布，首批 Geekbench 性能测试数据也已出炉。其 Geekbench 6 单核得分为 3714，多核得分为 12296。作为对比，11 英寸 M4 iPad Pro 的单核跑分约为 3691，多核跑分则为 13663。两者单核成绩",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/638.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "苹果调整 14 英寸 M5 MacBook Pro 配置：1TB 起跳. IT之家 3 月 4 日消息，苹果在发布 M5 Pro/M5 Max 芯片版 MacBook Pro 外，还顺势调整了 14 英寸标准版 M5 MacBook Pro 的配置选项，起步存储取消 512GB，全系 1TB 固态硬盘（SSD）起跳，最高可支持扩展至 4TB。售价方面，IT之家附上标准版 M5 MacBook Pr",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/612.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "IT早报 0304：苹果 M5 系列 MacBook Pro / Air 发布；微信公布 2 月朋友圈热度谣言；最高法公布五大网暴典型案例；政协委员建议禁止 16 岁以下使用社交平台.... “IT早报”时间，大家好，现在是 2026 年 3 月 4 日星期三，今天的重要科技资讯有：1、苹果发布搭载 M5 Pro/M5 Max 芯片款 MacBook Pro：17999 元起，3 月 11 日发售",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/602.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "苹果 MacBook Neo 入门笔记本细节曝光：多彩机身、12.9 英寸屏幕、支持 MagSafe. IT之家 3 月 4 日消息，科技媒体 MacRumors 昨日（3 月 3 日）发布博文，解读官方泄露的内部文档，指出苹果有望于今晚发布入门 MacBook 笔记本电脑，上市后名称为“MacBook Neo”。渲染图，来自 X 平台定位方面，这款入门 MacBook 被视为苹果抢占大众消费与教",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/595.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "与英特尔划清界限：苹果 2026 款 Studio Display 仅兼容 Apple Silicon 芯片 Mac. IT之家 3 月 4 日消息，苹果昨晚宣布推出全新的 Studio Display 系列显示器，专为完美搭配 Mac 设计，起售价 11999 元。不过，如果你手中仍然在使用搭载英特尔芯片的 Mac 电脑，那么苹果刚刚发布的新款 Studio Display 和 Studio D",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/594.htm"
+      }
+    ],
+    "key_facts": [
+      "苹果于2026年3月3日发布搭载M5 Pro/M5 Max芯片的MacBook Pro（17999元起，3月11日发售）",
+      "新款M4 iPad Air跑分公布：Geekbench 6单核3714、多核12296，CPU为8核（3P+5E），性能核心与M4 iPad Pro一致",
+      "苹果调整标准版M5 MacBook Pro配置：全系1TB SSD起步（取消512GB选项），起售价13499元",
+      "新款Studio Display系列仅兼容Apple Silicon Mac（不支持任何Intel Mac），强化生态绑定",
+      "入门级MacBook Neo（代号）细节曝光：12.9英寸屏、多彩机身、MagSafe、采用联发科网络芯片，预计3月4日晚发布"
+    ],
+    "analyst_angle": "苹果以M5系列发布为标志，完成从芯片架构（M4/M5）、终端产品（Pro/Air/Neo）、外设（Studio Display）到存储策略的全栈升级，加速淘汰Intel生态并收窄入门门槛，进一步巩固垂直整合壁垒。",
+    "cluster_size": 14,
+    "event_time": "2026-03-03T03:17:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_005",
+    "title": "🚀 阿里千问发布 Qwen3.5 四款小尺寸开源模型（0.8B/2B/4B/9B），林俊旸卸任核心负责人",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "阿里千问技术负责人林俊旸宣布卸任. IT之家 3 月 4 日消息，阿里千问核心负责人林俊旸（yáng）3 月 4 日凌晨在 X 平台发文：me stepping down. bye my beloved qwen.（我卸任了。再见了，我亲爱的千问。）阿里千问 3 月 2 日开源 4 款 Qwen3.5 小尺寸模型系列，分别是 Qwen3.5-0.8B/2B/4B/9B。小模型发布后，在海外社交媒体",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/624.htm"
+      },
+      {
+        "author": "雷锋网",
+        "text": "阿里云百炼专属版登陆国际市场，加速全球企业构建专属AI引擎. 3月3日， 阿里云在 2026 年世界移动通信大会上宣布，面向国际市场正式推出企业级Agentic AI开发平台——百炼专属版。该平台专为金融、医疗、公共服务及电信运营商等高合规行业设计，提供从数据处理、模型微调、评估部署到Agent上线系统的全生命周期管理，帮助中国出海公司及国际企业构建专属业务Agent，加速AI应用落地。&nbsp",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/industrynews/hSJAaoRMruFtIEHE.html"
+      }
+    ],
+    "key_facts": [
+      "阿里千问于3月2日开源Qwen3.5系列4款小尺寸模型：0.8B、2B、4B、9B，聚焦高效部署与边缘场景",
+      "该发布引发马斯克公开点赞，林俊旸在X平台致谢并宣布卸任（3月4日凌晨）",
+      "林俊旸为阿里最年轻的P10技术负责人（1993年生），主导千问开源生态建设；其卸任标志千问技术领导层重要更迭"
+    ],
+    "analyst_angle": "小模型密集开源+核心人物交接，反映阿里正从‘大模型军备竞赛’转向‘可商用、可合规、可全球化’的工程化落地阶段，Qwen3.5系列或成为出海AI产品（如百炼专属版）的关键轻量底座。",
+    "cluster_size": 2,
+    "event_time": "2026-03-03T06:15:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_006",
+    "title": "🚀 广汽昊铂 A800 轿车首发搭载华为乾崑云曦 × HUAWEI XPIXEL 智能车灯模组及 ADS 4.1",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "广汽昊铂 A800 轿车确认搭载乾崑云曦 × HUAWEI XPIXEL，支持远程自定义灯语. IT之家 3 月 4 日消息，华为乾崑智能汽车解决方案昨晚发布视频，宣布广汽昊铂 A800 轿车将搭载乾崑云曦 × HUAWEI XPIXEL 智能车灯模组，支持使用手机远程自定义灯语。IT之家注：华为官方显示，HUAWEI XPIXEL 智能车灯模组归属华为乾崑车载光，提供智能灯语、智能照明、照明光毯",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/610.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "华为余隽宣布鸿蒙智选正式开号，将推基于鸿蒙系统的智能终端产品. IT之家 3 月 4 日消息，去年 6 月，华为常务董事、终端 BG 董事长余承东宣布，华为智选品牌升级为鸿蒙智选，覆盖智能家居、运动健康、差旅办公等智能硬件领域。随后，华为官方还发布了鸿蒙智选 Logo：由鸿蒙智选缩写 HS（HarmonyOS Select）演变而来，用圆环勾勒出象征鸿蒙生态的包容万象。华为终端 BG IoT 产品",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/606.htm"
+      }
+    ],
+    "key_facts": [
+      "广汽昊铂 A800 轿车于 2024 年 3 月 4 日正式上市，为首款搭载华为乾崑云曦 × HUAWEI XPIXEL 智能车灯模组的量产车型",
+      "HUAWEI XPIXEL 支持远程手机自定义灯语、智能照明、光毯、互动迎宾等车载光交互功能，归属华为乾崑车载光技术体系",
+      "该车同步首批搭载华为乾崑智驾 ADS 4.1（即 HUAWEI ADS 4.1），并提供三电机四驱动力系统"
+    ],
+    "analyst_angle": "这是华为‘乾崑+鸿蒙智选’双品牌战略在智能汽车硬件层的首次规模化落地，标志着华为从智驾软件向智能座舱光交互等全栈车载硬件能力输出的关键跃迁。",
+    "cluster_size": 2,
+    "event_time": "2026-03-03T23:46:15Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_007",
+    "title": "🚀 中兴努比亚豆包手机海外首秀：首款AI原生手机M153 + 情感AI新物种iMoochi发布",
+    "category": "product_launch",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "中兴努比亚豆包手机海外首秀，主打情感陪伴 AI“新物种”iMoochi 同步亮相. IT之家 3 月 4 日消息，3 月 2 日，中兴通讯终端业务在 2026 年世界移动通信大会（MWC26）上展出全系列、多形态 AI 终端产品。其中，与字节跳动旗下豆包合作开发的 AI 原生手机努比亚 M153 豆包手机助手技术预览版完成海外首秀，主打情感陪伴的 AI 产品 iMoochi 同步在本次展会发布。此",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/589.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "努比亚 Neo 5 GT 亮相 MWC 2026：天玑 7400 芯片、6.8 英寸 144Hz AMOLED 屏幕. IT之家 3 月 3 日消息，据科技媒体 NoteBook Check 今天报道，努比亚今天在 MWC 2026 展会上带来了 Neo GT 手机，主打大容量电池、高亮屏幕，还将主动散热风扇下放到“中端价位段”，预计下月海外上市，建议零售价 399 欧元（IT之家注：现汇率约合 ",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/573.htm"
+      },
+      {
+        "author": "雷锋网",
+        "text": "千问AI眼镜真机曝光：首秀MWC2026，全球观众排队试戴. 当地时间3月2日，世界移动通信大会（MWC 2026）在西班牙巴塞罗那开幕，中国科技产品备受瞩目。在千问AI眼镜的展台，一位来自美国的观众试戴后提到产品的换电设计“太妙了”，续航焦虑明显降低，“基本可以全天开机使用智能服务，很了不起”。这是千问AI眼镜的全球首秀，作为阿里巴巴推出的最新AI硬件，加之现场高达5米醒目的“Qwen”标识，展",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/industrynews/48BnhZoTf5BIStsV.html"
+      },
+      {
+        "author": "雷锋网",
+        "text": "魔法原子春晚机器人惊艳亮相MWC 持续引领行业创新发展. 近日，2026年世界移动通信大会（MWC Barcelona）在巴塞罗那盛大开幕，全球顶尖科技公司齐聚一堂。继春晚之后，魔法原子携春晚同款机器人首次亮相，展示了其在机器人技术上的最新成果，并通过这一亮相加速全球化战略，推动“中国智造”走向世界舞台。春晚“机器熊猫”走红海外 中国硬科技“软”出圈在魔法原子展台，一只“机器熊猫”成为全场焦点，吸",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/robot/KsRaXWF6vfFrSPy2.html"
+      }
+    ],
+    "key_facts": [
+      "努比亚M153是中兴与字节跳动豆包联合开发的首款AI原生手机，于MWC2026完成全球海外首秀",
+      "实现操作系统级深度集成豆包手机助手，支持自然语言发起的跨应用、多步骤复杂任务执行",
+      "同步发布主打情感陪伴的AI产品iMoochi，定位‘AI新物种’，强调人机情感交互范式升级"
+    ],
+    "analyst_angle": "这标志着中国终端厂商正从‘AI功能叠加’迈向‘AI原生重构’，系统级AI集成+情感智能双轨突破，或将加速全球手机OS层AI标准竞争格局形成。",
+    "cluster_size": 4,
+    "event_time": "2026-03-03T01:42:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_008",
+    "title": "📌 Cursor Agent 推出本地运行版本",
+    "category": "product_launch",
+    "importance": 6.5,
+    "sources": [
+      {
+        "author": "dotey",
+        "text": "谢谢补充\nhttps://t.co/91zEX0pNwE",
+        "engagement": 33,
+        "url": "https://x.com/dotey/status/2026450430977360383"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "@andrew_zyf 这两个月的工作效率是过去十个月的十倍不止",
+        "engagement": 1,
+        "url": "https://x.com/jesselaunz/status/2026465246039388436"
+      },
+      {
+        "author": "dingyi",
+        "text": "@himself65 SaaS 软件行业要完了！",
+        "engagement": 0,
+        "url": "https://x.com/dingyi/status/2026465222576451688"
+      },
+      {
+        "author": "dotey",
+        "text": "@peater007 cursor agent 也有 local 的",
+        "engagement": 0,
+        "url": "https://x.com/dotey/status/2026456729437761770"
+      },
+      {
+        "author": "dotey",
+        "text": "@fng409855148069 流程没有变，变的是工具和方法",
+        "engagement": 0,
+        "url": "https://x.com/dotey/status/2026450962869571591"
+      }
+    ],
+    "key_facts": [
+      "Cursor Agent 新增支持本地（local）运行模式",
+      "该更新显著提升开发效率（有用户称‘两个月效率超过去十个月’）",
+      "属于 Cursor（AI 编程助手）的实质性功能演进，非纯云端依赖"
+    ],
+    "analyst_angle": "本地化 AI 编程代理降低延迟、增强隐私与离线可用性，标志着编程辅助工具正从云端 API 调用向端侧智能体架构演进，对 SaaS 开发工具竞争格局构成潜在扰动。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_009",
+    "title": "💰 擎羽科技完成数千万元天使轮融资，前大疆工程师创业，专注仿生柔性机器人",
+    "category": "funding",
+    "importance": 7.5,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "前大疆工程师创业，宇树天使投资人出手，仿生柔性机器人公司完成新融资｜硬氪首发. 作者｜黄楠\n  编辑｜袁斯来\n  硬氪独家获悉，深圳擎羽科技有限公司（以下简称“擎羽科技”）近日完成数千万元天使轮融资。本轮领投方为德迅投资，作为宇树科技的天使投资人，这也是其继极壳科技、首形科技、若创科技后，在硬件领域出手布局的又一项目。老股东奇绩创坛本轮持续加注。融资资金将用于技术研发投入、产品迭代及多场景商业化探",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3701222224817801?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "8点1氪丨油价或涨超70%；黄金白银出现断崖式下跌；iPhone 17使用一个月后橙色变粉色，苹果官方拒绝保修申请. 今日热点导览\n  周大福珠宝集团：金条类产品正常在售\n  霍尔木兹海峡受阻，国际油价暴涨，国内成品油将迎上调\n  “紫薯精”带火刘文祥麻辣烫：门店爆单，品牌方暂停接收新合作\n  舍得酒业副总裁王勇因工作原因辞职\n  华为在海外发布多个型号超节点产品及解决方案\n  TOP3大新闻\n ",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3707876236931461?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "莱芒生物完成近2亿元新增融资，加速推进代谢增强型免疫细胞疗法临床转化｜36氪首发. 文｜胡香赟\n  编辑｜海若镜\n  36氪获悉，莱芒生物近期已完成近2亿元新增融资。本轮融资由粤财控股旗下机构粤财中垠联合晶泰科技领投，矿世之星、Mony Valley、泰珑投资、中山创投、以及个人财务投资者跟投，老股东富汇创投持续加注。募集资金将重点用于推进极低剂量代谢增强型CAR-T细胞药物的注册I期临床研究，并",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3707151883382917?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "氪星晚报｜全国首个跨境电商出口“前置监管仓”投用；亚马逊云服务称仍在努力恢复阿联酋网络服务；2026年全国消费促进月启动. 大公司：\n  亚马逊花逾4亿美元购美知名高校校区用于AI建设\n  美国乔治·华盛顿大学2日说，美国亚马逊公司斥资4.27亿美元，收购该校弗吉尼亚科学与技术校区，以加快人工智能（AI）基础设施建设。\n  红果短剧已为多款小说相关软件登记著作权\n  36氪获悉，3月3日，爱企查A",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3707029227499651?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "荣耀“转型”：发布Robot Phone和首款人形机器人丨MWC 2026. 作者丨邱晓芬\n  编辑丨苏建勋\n  在2026世界移动通信大会（MWC 2026）上，荣耀发布的人形机器人、Robot Phone吸引了大量观众的目光。\n  在Robot Phone上，荣耀打破了过去“黑色方块”的设计，将微型相机和云台系统塞进了手机里。\n  据介绍，Robot Phone最大的技术挑战之一在于，如何在有",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3705522207289479?f=rss"
+      }
+    ],
+    "key_facts": [
+      "深圳擎羽科技有限公司于2025年3月成立，近日完成数千万元天使轮融资",
+      "本轮由德迅投资领投（曾为宇树科技天使投资人），老股东奇绩创坛持续加注",
+      "公司聚焦仿生柔性机器人，采用自适应柔驱技术，突破传统刚性机器人在灵活性与安全性上的限制",
+      "创始人彭锐为港大机器人学博士、前大疆嵌入式工程师，获25–26届港府青年科学家奖"
+    ],
+    "analyst_angle": "柔性机器人正从实验室走向商业化临界点，本轮融资标志着资本对‘安全可交互’具身智能硬件赛道的实质性押注，有望加速医疗康复、服务场景落地。",
+    "cluster_size": 5,
+    "event_time": "2026-03-03T05:24:59Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_010",
+    "title": "🚀 小雨智造发布工业通用具身智能机器人（焊接场景落地）",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "前小米高管创业机器人，用“爆品逻辑”做工业通用具身智能. 文｜富充\n  编辑｜苏建勋\n  小雨智造创始人乔忠良身上，有着“小米系”具身智能创业者的典型特质：善于寻找落地场景，商业化思路很务实。\n  2023年2月成立起，小雨智造就瞄准“工业通用具身智能”的目标。焊接机器人作为“沿途下蛋”的第一款产品，在2025年第四季度进入客户产线。\n  2010年，北航计算机系硕士毕业后，乔忠良加入创业阶段的小",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3706592101691525?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "一条内裤的“远征”： 巴迪高试图用“0手触”撬动一次性内裤的信任缺口 |  早期项目. 近两年，一次性内裤在国内市场进入高速增长期。\n  在旅行出游频繁、“懒人经济”持续升温的背景下，这一原本存在感不高的品类，正从边缘产品走向大众消费的视野。除户外、差旅等高频使用场景外，一次性内裤也逐渐渗透至产后恢复、医疗护理等领域，需求不断外扩，带动纺织服饰、母婴等赛道品牌加速入场，形成一股新的消费热潮。相关数",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3697641252646531?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "阿里千问大模型技术负责人自宣卸任. 阿里千问大模型技术负责人林俊旸自宣卸任，他在社交平台写道“me stepping down. bye my beloved qwen.”（我将卸任，再见我亲爱的千问）。作为阿里千问大模型的技术核心人物，林俊旸或将离开千问团队，目前尚不知他是否会离开阿里巴巴。记者就此消息向阿里巴巴求证，截至发稿暂未获得回复。（第一财经）",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3707917194015106?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "中信证券：AIDC供电系统升级迭代催生全新机遇，海外电网升级趋势明确. 36氪获悉，中信证券研报称，AIDC供电系统升级迭代催生全新机遇，海外电网升级趋势明确。AI供电系统由不间断供电系统（UPS）向全直流系统演变，输出电压等级不断提升，SST方案配套提速；服务器电源功率密度提升下产品量价齐升，催生超级电容需求。中信证券看好服务器电源国产品牌份额提升，产能短缺与方案迭代下国内超级电容、SST等新产",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3707907861197191?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "马云和阿里蚂蚁核心管理层在云谷学校交流AI. 36氪获悉，3月3日，马云与阿里、蚂蚁的核心管理层来到杭州云谷学校，与校长、老师们畅谈AI带来的挑战和机会。云谷学校公众号显示，阿里巴巴集团主席蔡崇信、CEO吴泳铭、风险委员会主席邵晓锋、电商事业群CEO蒋凡，蚂蚁集团董事长井贤栋和CEO韩歆毅一同参加交流。",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3707906508206212?f=rss"
+      }
+    ],
+    "key_facts": [
+      "小雨智造由前小米MIUI研发负责人乔忠良于2023年2月创立，聚焦‘工业通用具身智能’",
+      "首款落地产品为焊接机器人，已于2025年第四季度进入客户产线",
+      "创始团队具备小米系‘爆品逻辑’与强工程化落地能力，强调商业化务实路径"
+    ],
+    "analyst_angle": "工业具身智能正从实验室走向真实产线，小雨智造以焊接为切口验证通用性架构，标志着中国具身智能创业从消费端叙事转向高价值工业场景攻坚。",
+    "cluster_size": 5,
+    "event_time": "2026-03-03T02:16:44Z",
+    "event_type": "news"
+  }
+]
