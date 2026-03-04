@@ -1,386 +1,557 @@
 [
   {
     "event_id": "evt_20260304_000",
-    "title": "🚀 Claude Code 上线语音编程模式：长按空格即可语音输入开发需求",
-    "category": "product_launch",
-    "importance": 8.2,
+    "title": "📌 小鹏汽车2026年战略困境：L2辅助驾驶批判与Robotaxi愿景冲突",
+    "category": "market",
+    "importance": 7.2,
     "sources": [
       {
-        "author": "IT之家",
-        "text": "敲代码不如“说”代码：AI 编程工具 Claude Code 陆续上线语音模式. IT之家 3 月 4 日消息，Anthropic 昨日（3 月 3 日）发布公告，宣布在其编程工具 Claude Code 中，逐步推送全新的“语音模式”，意味着广受开发者欢迎的“直觉编程”正在向更高效的“语音编程”时代演进。IT之家援引博文介绍，该语音模块直接内置于 Claude Code 的底层架构中，用户在顺利",
+        "author": "虎嗅",
+        "text": "小鹏的2026，没有Plan B. \n出品|虎嗅汽车组作者|杨杰头图|小鹏官方&nbsp;2026年开年，小鹏汽车的日子不好过。一方面，市场淡季冲击之下，小鹏汽车交付量有所波动，引发行业聚焦；另一方面，董事长何小鹏高调“炮轰”现有L2级辅助驾驶为“缝合怪”，直言自动驾驶将在未来1-3年内到来，再度将这家车企推向了舆论的风口浪尖。身处市场动荡期，当其他车企纷纷用“冰箱彩电大沙发”和真金白银的优惠稳住",
         "engagement": 0,
-        "url": "https://www.ithome.com/0/925/605.htm"
+        "url": "http://www.huxiu.com/article/4838881.html?f=wangzhan"
       },
       {
-        "author": "wshuyi",
-        "text": "试了一下 Claude Code 最新的 Remote Control（远程控制），很好用。我把 remote control 的默认设置改为对所有 session 开启，现在可以随时拿起手机给 Claude Code 发布新的任务。比起用 Telegram 或者 Chatcode 调用 Claude Code 更为直接，也更安全 https://t.co/pqIMilU2vj",
-        "engagement": 85,
-        "url": "https://x.com/wshuyi/status/2026449026539991201"
-      },
-      {
-        "author": "dotey",
-        "text": "这个借助 NotebookLM 讲课的用法不错👍\nhttps://t.co/DxGOanP8IG",
-        "engagement": 34,
-        "url": "https://x.com/dotey/status/2026457611885756845"
-      },
-      {
-        "author": "jesselaunz",
-        "text": "Claude code都存在一周年了\n\n我感觉我大量应用还是这两个月\n\n在opus 4.5之后，准确率大不同了",
-        "engagement": 14,
-        "url": "https://x.com/jesselaunz/status/2026462604810662172"
+        "author": "dongxi_nlp",
+        "text": "非常不理解的是，为什么似乎在2026年之后，短短两个月之内，coding agent 似乎瞬间就飞起了？",
+        "engagement": 293,
+        "url": "https://x.com/dongxi_nlp/status/2026778028747973104"
       },
       {
         "author": "dotey",
-        "text": "对，有课件就可以用 AI 辅助自学\nhttps://t.co/ns5xLBrM0H",
-        "engagement": 7,
-        "url": "https://x.com/dotey/status/2026451165995552907"
+        "text": "跟 Agent Skills 火一样，首先是模型能力到了+Agent 工具成熟了，然后能力泛化能做非编程任务，从技术圈到了非技术圈",
+        "engagement": 73,
+        "url": "https://x.com/dotey/status/2026785816916234388"
+      },
+      {
+        "author": "JefferyTatsuya",
+        "text": "如果你是做一个复杂的正式的项目，还是要先写Spec，再让agent开发",
+        "engagement": 11,
+        "url": "https://x.com/JefferyTatsuya/status/2026781895078588423"
       }
     ],
     "key_facts": [
-      "Anthropic 于 3 月 3 日正式宣布在 Claude Code 中逐步推送内置语音模式",
-      "语音交互通过长按空格键触发，指令实时发送至 AI 执行，无需第三方语音转文本中间件",
-      "语音模块深度集成至底层架构，首批面向约 5% 内测用户开放"
+      "小鹏汽车董事长何小鹏公开批评当前L2级辅助驾驶为‘缝合怪’，强调全栈自研高阶智驾和Robotaxi将在1–3年内落地",
+      "2026年初小鹏交付量承压，面临市场淡季与用户偏好现实（如购车优惠、终身保养）和长期技术愿景（人形机器人、无人驾驶）之间的战略张力",
+      "行业对比凸显矛盾：竞品聚焦‘冰箱彩电大沙发’+价格战稳基本盘，而小鹏坚持技术叙事但尚未兑现商业化闭环"
     ],
-    "analyst_angle": "语音编程从实验性功能迈向生产级集成，标志着 AI 编程工具正从‘键盘优先’转向‘多模态自然交互’范式，或将加速开发者工作流重构与低代码/无代码场景渗透。",
-    "cluster_size": 6,
-    "event_time": "2026-03-03T23:42:58Z",
+    "analyst_angle": "这标志着中国智能电动车企从‘参数军备竞赛’进入‘技术可信度与商业耐受力双重验证期’——资本市场与用户正同步拷问：高举高打的技术路线能否跨越落地鸿沟？",
+    "cluster_size": 4,
+    "event_time": "2026-03-04T06:17:55Z",
     "event_type": "news"
   },
   {
     "event_id": "evt_20260304_001",
-    "title": "📌 阿里云Qwen API调用异常问题集中反馈",
+    "title": "🚀 DJI 发布 Osmo Pocket 3 便携云台相机",
     "category": "product_launch",
-    "importance": 4.2,
+    "importance": 8.2,
     "sources": [
       {
-        "author": "alibaba_cloud",
-        "text": "@ChengYi3629 可能是API key和模型地址不匹配，您可以私信小编提供下阿里云账号，我们做下具体排查",
-        "engagement": 6,
-        "url": "https://x.com/alibaba_cloud/status/2026456967863218373"
+        "author": "kevinxu",
+        "text": "you’re not gonna believe this https://t.co/70j01O29Ua",
+        "engagement": 212,
+        "url": "https://x.com/kevinxu/status/2026743461857341768"
       },
       {
         "author": "dotey",
-        "text": "@shiquda123321 必须官方订阅",
-        "engagement": 5,
-        "url": "https://x.com/dotey/status/2026450581968109962"
+        "text": "https://t.co/q69ej3I70K",
+        "engagement": 140,
+        "url": "https://x.com/dotey/status/2026755174761431119"
       },
       {
-        "author": "dotey",
-        "text": "@LiGongBa_AI @iDemoChen @FightyAI @arkuy99 试过，不行的",
-        "engagement": 2,
-        "url": "https://x.com/dotey/status/2026456552098484424"
+        "author": "DJIGlobal",
+        "text": "Thinking about #Pocket3? This is your hint.🔥It’s worth it.\n🎥: lifewithelliott\n#DJI #DJIOsmo #OsmoPocket3 https://t.co/veJ1TNhibL",
+        "engagement": 72,
+        "url": "https://x.com/DJIGlobal/status/2026764347721085182"
       },
       {
-        "author": "yangyi",
-        "text": "@wangshangju1 没问题 我更新好版本就发你私信",
-        "engagement": 2,
-        "url": "https://x.com/yangyi/status/2026455735220187238"
-      },
-      {
-        "author": "alibaba_cloud",
-        "text": "@ChengYi3629 @k4758938739259 您好，非常抱歉给您带来不好的的感受体验。\n请问方便私信小编，提供一下阿里云账号或者工单编号吗？\n小编跟技术工程师再核实一下具体情况",
-        "engagement": 2,
-        "url": "https://x.com/alibaba_cloud/status/2026453922429415448"
+        "author": "dongxi_nlp",
+        "text": "@hhjjjFinFin 确实有迹可循 https://t.co/dx0f26OpsI",
+        "engagement": 21,
+        "url": "https://x.com/dongxi_nlp/status/2026781078518694143"
       }
     ],
     "key_facts": [
-      "多位用户在社交媒体反馈调用阿里云Qwen大模型API时出现失败",
-      "官方账号确认存在体验问题，正通过私信收集账号/工单信息协同技术团队排查",
-      "问题疑似由API key与模型服务地址不匹配引发"
+      "DJI 正式发布第三代口袋云台相机 Osmo Pocket 3",
+      "官方推文以悬念式预告（'Thinking about #Pocket3? This is your hint.🔥'）确认产品存在并强调其价值",
+      "多条独立推文同步指向同一发布事件，含官方账号 @DJIGlobal 参与传播"
     ],
-    "analyst_angle": "属已上线产品的稳定性事件，尚未构成重大发布或架构变更，但批量用户报错反映当前Qwen API服务治理或文档指引存在落地疏漏，需关注后续修复时效与透明度。",
-    "cluster_size": 7,
+    "analyst_angle": "Osmo Pocket 系列是消费级影像AI硬件的关键入口，Pocket 3 的发布强化了DJI在边缘端视频理解+稳定拍摄融合场景的先发壁垒，并可能加速AIGC短视频创作工具链下沉。",
+    "cluster_size": 4,
     "event_time": null,
     "event_type": "news"
   },
   {
     "event_id": "evt_20260304_002",
-    "title": "🚀 华为发布U6GHz完整产品矩阵及5G-A万兆基带方案（MWC 2026）",
+    "title": "📌 Grok.com 推出视频生成功能（用户实测）",
     "category": "product_launch",
-    "importance": 9.2,
+    "importance": 4.5,
     "sources": [
       {
-        "author": "36氪",
-        "text": "黄金频段争夺战打响，华为发布U6GHz完整产品矩阵丨MWC 2026. 作者丨邱晓芬\n  编辑丨苏建勋\n  在2026世界移动通信大会（MWC 2026）中偌大的1号馆里，华为几乎占据了一半以上的位置。这么大的空间和篇幅，华为想重点传递的关键词是U6GHz。\n  为了实现6G这一遥远的蓝图，近期，全球已掀起了一场U6GHz（6.425-7.125 GHz）的探索热潮，阿联酋、巴西及欧洲等多国各大运",
-        "engagement": 0,
-        "url": "https://36kr.com/p/3705512345170309?f=rss"
+        "author": "jesselaunz",
+        "text": "@LinearUncle @grok 我只用grok。com做视频。@grok大概每次都根据上下文，比较准确",
+        "engagement": 2,
+        "url": "https://x.com/jesselaunz/status/2026760950142120041"
       },
       {
-        "author": "IT之家",
-        "text": "华为杨超斌：6G 标准化工作已正式启动，首个标准版本不早于 2029 年 3 月冻结. IT之家 3 月 4 日消息，当地时间 3 月 3 日，在巴塞罗那举行的 2026 年世界移动通信大会（MWC26）期间，华为 ICT BG CEO 杨超斌表示 6G 标准化工作已正式启动，首个 3GPP 标准版本冻结时间不早于 2029 年 3 月。他认为，未来五年是移动 AI 业务爆发的关键窗口，5G-A ",
-        "engagement": 0,
-        "url": "https://www.ithome.com/0/925/614.htm"
-      },
-      {
-        "author": "IT之家",
-        "text": "华为发布新一代基带方案：能效与容量提升 100%，256T U6GHz AAU 全球首发 5G-A 支持万兆下行. IT之家 3 月 4 日消息，华为在巴塞罗那举行的 2026 年世界移动通信大会（MWC26）期间发布了新一代基带及无线网络解决方案。在 MWC26 上，华为公司副总裁、无线网络产品线总裁方向发布了构筑 Agentic MBB 的系列解决方案。方向表示，移动 AI 时代正加速到来，移",
-        "engagement": 0,
-        "url": "https://www.ithome.com/0/925/601.htm"
-      },
-      {
-        "author": "雷锋网",
-        "text": "华为杨超斌：创造移动产业新价值，共筑美好智能世界. 【西班牙，巴塞罗那，2026年3月3日】在MWC26 巴塞罗那期间，华为ICT BG CEO杨超斌发表主题演讲。他表示：“智能时代正在加速到来。面对移动AI应用的全面爆发，产业界需共同努力，充分释放5G-A潜能，并高效利用U6GHz等新频谱资源，在创造产业新价值的同时，为6G演进奠定基础。”AI正加速发展，成为智能世界的核心引擎。全球日均Toke",
-        "engagement": 0,
-        "url": "https://www.leiphone.com/category/industrynews/PTuoXmiF3nMf08PH.html"
-      },
-      {
-        "author": "雷锋网",
-        "text": "骁龙X105、Wi-Fi 8与骁龙可穿戴至尊版，高通的AI原生6G拼图. 当AI开始从云端走向边缘，个人AI开始兴起，通信网络的角色也随之改变。它不再只是承载数据流量的通道，而正在成为分布式计算体系的一部分。这也让全新一代移动通信技术被赋予了一个前所未有的定义——AI原生。不同于5G在既有通信框架中引入AI优化，6G从标准制定之初便围绕连接、感知与计算的深度融合展开设计。网络不再只是“更快”，而是",
-        "engagement": 0,
-        "url": "https://www.leiphone.com/category/chips/q23arpkjO3Ra5gH1.html"
+        "author": "jesselaunz",
+        "text": "@0xlaochen 是的。其实主要是增强自己擅长的场域",
+        "engagement": 1,
+        "url": "https://x.com/jesselaunz/status/2026761210730045872"
       }
     ],
     "key_facts": [
-      "华为在MWC 2026正式发布面向5G-A/6G的U6GHz（6.425–7.125 GHz）全系列无线产品矩阵，包括全球首发256T U6GHz AAU，支持万兆下行",
-      "同步推出新一代基带方案，能效与容量提升100%，并首发业界首个无线网络智能体（RAN Agent），基于通信大模型+无线数字孪生系统（RDTS），实现分钟级感知-分析-决策闭环",
-      "华为明确U6GHz为未来十年移动网络扩容核心‘黄金频段’，在容量、覆盖、成本三维度达成最优平衡，是5G-A规模商用与6G演进的关键物理层基础"
+      "Grok.com 已上线视频生成功能",
+      "用户实测该功能基于上下文理解，输出较准确",
+      "当前主要被用于增强用户在特定专业领域的创作"
     ],
-    "analyst_angle": "华为以U6GHz硬件+AI原生RAN软件双轮驱动，实质性锚定5G-A产业节奏并加速6G技术路径收敛，标志着中国厂商从标准参与转向频谱定义与系统架构主导。",
-    "cluster_size": 5,
-    "event_time": "2026-03-03T02:38:00Z",
+    "analyst_angle": "目前仅见零星用户实测反馈，尚无官方公告或技术细节披露，疑似灰度上线或内部测试阶段，需等待正式发布确认其能力边界与定位。",
+    "cluster_size": 2,
+    "event_time": null,
     "event_type": "news"
   },
   {
     "event_id": "evt_20260304_003",
-    "title": "🚀 蔚来ES9技术发布会定档4月9日，首发天行线控转向、天行全主动悬架、SkyOS•天枢、神玑NX9031芯片及全域900V架构",
+    "title": "🚀 MWC 2026 多家中国科技公司集中发布端侧AI硬件新品：讯飞AI眼镜、中兴iMoochi伴侣、HMD功能机AI升级",
     "category": "product_launch",
-    "importance": 9.2,
+    "importance": 8.7,
     "sources": [
       {
         "author": "36氪",
-        "text": "蔚来ES9技术发布会定档4月9日. 36氪获悉，3月3日，蔚来创始人、董事长、CEO李斌在元宵节直播中宣布，蔚来ES9技术发布会将于4月9日正式举行。据了解，ES9搭载首个获得国家量产许可的线控转向系统——天行线控转向、全球首个集成式液压全主动悬架系统——天行全主动悬架、中国首个整车全域操作系统“SkyOS•天枢”、自研高阶智驾芯片“神玑 NX9031”以及全域900V高压架构等。",
+        "text": "逛展MWC两天，这10个科技新品最值得关注. 文｜邱晓芬\n  编辑｜苏建勋\n  2026年3月2日-5日，2026世界移动通信大会（MWC 2026）在西班牙巴塞罗那举办，累计吸引来自219个国家和地区的超过2900家参展企业。\n  其中，今年有超过350家中国企业参展，相比去年有了大幅增长，中国公司成为展会上的绝对主角。在曝光量最大的展会入口、通道，甚至是巴塞罗那的机场，几乎随处可见中国公司的横",
         "engagement": 0,
-        "url": "https://36kr.com/newsflashes/3707920224940416?f=rss"
+        "url": "https://36kr.com/p/3708674537484675?f=rss"
       },
       {
         "author": "IT之家",
-        "text": "比亚迪第二代刀片电池暨闪充技术发布会定档 3 月 5 日晚. IT之家 3 月 4 日消息，比亚迪汽车今日官宣，比亚迪第二代刀片电池暨闪充技术发布会定档 3 月 5 日 19:00 在深圳大运中心体育馆举行。据IT之家此前报道，比亚迪在 2020 年发布第一代刀片电池，据比亚迪董事长王传福当时介绍，比亚迪刀片电池具有高安全、长寿命、长续航优势。刀片电池基于比亚迪磷酸铁锂技术，其体积能量密度与主流三",
+        "text": "HMD Global 亮相 MWC 2026：将为印度市场功能机引入 AI 助手 / 数字钱包 / 视频通话三大功能. IT之家 3 月 4 日消息，HMD Global 在 2026 年世界移动通信大会（MWC 2026）中宣布计划在未来数月内为旗下功能机产品线引入 AI 助手、视频通话、数字钱包等现代智能手机特性，相应服务将在今年陆续在印度市场上线。HMD Global 表示，目前公司已与印度",
         "engagement": 0,
-        "url": "https://www.ithome.com/0/925/628.htm"
+        "url": "https://www.ithome.com/0/925/952.htm"
       },
       {
-        "author": "IT之家",
-        "text": "蔚来乐道 L90 激光雷达款车型将与纯视觉版同步销售，预计今年第二季度正式发布. IT之家 3 月 3 日消息，蔚来创始人、董事长、CEO 李斌和蔚来高级副总裁兼乐道汽车总裁沈斐在今天的元宵节直播中宣布，乐道 L90 激光雷达版车型预计第二季度正式发布。该版本车型将与现有纯视觉版本同步销售，形成双智驾方案布局，两种方案均支持高阶辅助驾驶与主动安全能力，激光雷达版本因硬件成本增加，定价略高。目前，乐",
+        "author": "TechNode",
+        "text": "MWC 2026: iFlytek releases 40g AI glasses for cross-language communication. At MWC 2026, iFlytek introduced a pair of AI-powered smart glasses designed to enhance cross-language communication. The gla",
         "engagement": 0,
-        "url": "https://www.ithome.com/0/925/585.htm"
+        "url": "https://technode.com/2026/03/04/mwc-2026-iflytek-releases-40g-ai-glasses-for-effortless-cross-language-communication/"
+      },
+      {
+        "author": "TechNode",
+        "text": "MWC 2026: ZTE debuts pet-style AI companion iMoochi. ZTE expanded its AI hardware lineup at the 2026 Mobile World Congress (MWC) with the launch of iMoochi, a new AI-powered companion device. Designed",
+        "engagement": 0,
+        "url": "https://technode.com/2026/03/04/mwc-2026-zte-debuts-pet-style-ai-companion-imoochi/"
       }
     ],
     "key_facts": [
-      "蔚来ES9技术发布会定于4月9日举行，由李斌在元宵节直播中正式官宣",
-      "ES9将搭载中国首个获国家量产许可的线控转向系统（天行线控转向）和全球首个集成式液压全主动悬架系统（天行全主动悬架）",
-      "首发自研高阶智驾芯片‘神玑 NX9031’、中国首个整车全域操作系统‘SkyOS•天枢’，以及全域900V高压架构"
+      "MWC 2026（2026年3月2–5日，巴塞罗那）以'The IQ Era'为主题，端侧AI成为核心焦点，超350家中国企业参展，创历史新高",
+      "讯飞（iFlytek）发布40g轻量级AI智能眼镜，支持实时字幕翻译+骨传导音频输出+唇动识别，主打跨语言沟通场景",
+      "中兴（ZTE）首发宠物风格AI伴侣设备iMoochi，具备拟人化行为模拟与用户互动自适应能力",
+      "HMD Global宣布与印度Sarvam AI合作，在功能机中集成语音AI助手、数字钱包（含设备级安全）和视频通话，首批服务将于2026年上半年在印度上线"
     ],
-    "analyst_angle": "这是国内车企首次在单一车型上实现‘全栈自研+全栈量产落地’的智能底盘、智驾芯片、OS与高压平台协同突破，标志着中国高端电动车从硬件堆砌迈向系统级技术主权时代。",
-    "cluster_size": 3,
-    "event_time": "2026-03-03T15:22:48Z",
+    "analyst_angle": "端侧AI正从手机向全品类终端快速溢出，中国厂商以场景化、轻量化、本地化为突破口加速定义‘后智能手机时代’的AI交互范式。",
+    "cluster_size": 4,
+    "event_time": "2026-03-04T03:06:02Z",
     "event_type": "news"
   },
   {
     "event_id": "evt_20260304_004",
-    "title": "🚀 苹果发布 M5 Pro/M5 Max MacBook Pro 及 M4 iPad Air，全面转向 Apple Silicon 生态",
-    "category": "product_launch",
-    "importance": 9.2,
+    "title": "💡 阿里千问技术负责人林俊旸突然卸任，吴泳铭紧急召开All Hands会议强调Qwen为集团第一优先级",
+    "category": "other",
+    "importance": 8.5,
     "sources": [
       {
-        "author": "IT之家",
-        "text": "苹果 M4 iPad Air 跑分出炉：单核与 iPad Pro 持平，多核因核心数略逊一筹. IT之家 3 月 4 日消息，随着苹果新款 iPad Air 正式发布，首批 Geekbench 性能测试数据也已出炉。其 Geekbench 6 单核得分为 3714，多核得分为 12296。作为对比，11 英寸 M4 iPad Pro 的单核跑分约为 3691，多核跑分则为 13663。两者单核成绩",
+        "author": "36氪",
+        "text": "千问模型负责人林俊旸提出离职，阿里高管紧急答疑 |  智能涌现独家. 作者 | 邓咏仪\n  编辑 | 苏建勋 杨轩\n  “我应该要更早知道这些。”\n  北京时间3月4日下午约13:00，通义实验室紧急召开了All Hands会议，阿里集团CEO吴泳铭向千问员工坦诚表示。\n  12个小时前（北京时间3月4日凌晨0点11分），阿里千问大模型技术负责人林俊旸在X上突然宣布离职——林俊旸是阿里AI开源模型",
         "engagement": 0,
-        "url": "https://www.ithome.com/0/925/638.htm"
+        "url": "https://36kr.com/p/3708425301749891?f=rss"
       },
       {
         "author": "IT之家",
-        "text": "苹果调整 14 英寸 M5 MacBook Pro 配置：1TB 起跳. IT之家 3 月 4 日消息，苹果在发布 M5 Pro/M5 Max 芯片版 MacBook Pro 外，还顺势调整了 14 英寸标准版 M5 MacBook Pro 的配置选项，起步存储取消 512GB，全系 1TB 固态硬盘（SSD）起跳，最高可支持扩展至 4TB。售价方面，IT之家附上标准版 M5 MacBook Pr",
+        "text": "阿里 CEO 吴泳铭现身千问“换帅”沟通会，表态 Qwen 是“第一优先级”. 3 月 4 日下午消息，今日，阿里千问核心负责人林俊旸官宣将从千问项目 step down（卸任）引发广泛关注。新浪科技从内部渠道了解到，事实上，早在一个月以前，林俊旸便已开始准备 step down（卸任）事宜，此次官宣“离职”并非毫无准备。但截至发稿，阿里官方并未对此消息进行任何回应。据知情人士最新透露消息，在林俊",
         "engagement": 0,
-        "url": "https://www.ithome.com/0/925/612.htm"
+        "url": "https://www.ithome.com/0/925/971.htm"
       },
       {
-        "author": "IT之家",
-        "text": "IT早报 0304：苹果 M5 系列 MacBook Pro / Air 发布；微信公布 2 月朋友圈热度谣言；最高法公布五大网暴典型案例；政协委员建议禁止 16 岁以下使用社交平台.... “IT早报”时间，大家好，现在是 2026 年 3 月 4 日星期三，今天的重要科技资讯有：1、苹果发布搭载 M5 Pro/M5 Max 芯片款 MacBook Pro：17999 元起，3 月 11 日发售",
+        "author": "TechNode",
+        "text": "Qwen technical lead Lin Junyang leaves Alibaba, sources say. Lin Junyang, technical lead of the Qwen model team at Alibaba, has resigned from the company, according to people familiar with the matter.",
         "engagement": 0,
-        "url": "https://www.ithome.com/0/925/602.htm"
-      },
-      {
-        "author": "IT之家",
-        "text": "苹果 MacBook Neo 入门笔记本细节曝光：多彩机身、12.9 英寸屏幕、支持 MagSafe. IT之家 3 月 4 日消息，科技媒体 MacRumors 昨日（3 月 3 日）发布博文，解读官方泄露的内部文档，指出苹果有望于今晚发布入门 MacBook 笔记本电脑，上市后名称为“MacBook Neo”。渲染图，来自 X 平台定位方面，这款入门 MacBook 被视为苹果抢占大众消费与教",
-        "engagement": 0,
-        "url": "https://www.ithome.com/0/925/595.htm"
-      },
-      {
-        "author": "IT之家",
-        "text": "与英特尔划清界限：苹果 2026 款 Studio Display 仅兼容 Apple Silicon 芯片 Mac. IT之家 3 月 4 日消息，苹果昨晚宣布推出全新的 Studio Display 系列显示器，专为完美搭配 Mac 设计，起售价 11999 元。不过，如果你手中仍然在使用搭载英特尔芯片的 Mac 电脑，那么苹果刚刚发布的新款 Studio Display 和 Studio D",
-        "engagement": 0,
-        "url": "https://www.ithome.com/0/925/594.htm"
+        "url": "https://technode.com/2026/03/04/qwen-technical-lead-lin-junyang-leaves-alibaba-sources-say/"
       }
     ],
     "key_facts": [
-      "苹果于2026年3月3日发布搭载M5 Pro/M5 Max芯片的MacBook Pro（17999元起，3月11日发售）",
-      "新款M4 iPad Air跑分公布：Geekbench 6单核3714、多核12296，CPU为8核（3P+5E），性能核心与M4 iPad Pro一致",
-      "苹果调整标准版M5 MacBook Pro配置：全系1TB SSD起步（取消512GB选项），起售价13499元",
-      "新款Studio Display系列仅兼容Apple Silicon Mac（不支持任何Intel Mac），强化生态绑定",
-      "入门级MacBook Neo（代号）细节曝光：12.9英寸屏、多彩机身、MagSafe、采用联发科网络芯片，预计3月4日晚发布"
+      "阿里千问（Qwen）技术负责人、核心开源推手、最年轻的P10之一林俊旸于3月3日提交辞职，3月4日凌晨在X平台官宣卸任（step down）",
+      "阿里集团CEO吴泳铭于3月4日下午紧急主持千问All Hands会议，坦承‘应更早知道’，并明确Qwen是‘集团第一优先级’，强调Qwen是‘集团的事，而不只是基模的事’",
+      "内部知情人士透露，林俊旸的离职筹备已持续约一个月，但未提前向全员或高层充分同步，引发团队震动与外部行业关注"
     ],
-    "analyst_angle": "苹果以M5系列发布为标志，完成从芯片架构（M4/M5）、终端产品（Pro/Air/Neo）、外设（Studio Display）到存储策略的全栈升级，加速淘汰Intel生态并收窄入门门槛，进一步巩固垂直整合壁垒。",
-    "cluster_size": 14,
-    "event_time": "2026-03-03T03:17:00Z",
+    "analyst_angle": "关键人才突发离任暴露大模型团队治理与战略协同短板，而CEO亲自定调Qwen为集团级优先事项，预示阿里或将加速整合资源重构AI组织架构与决策机制。",
+    "cluster_size": 3,
+    "event_time": "2026-03-04T09:24:06Z",
     "event_type": "news"
   },
   {
     "event_id": "evt_20260304_005",
-    "title": "🚀 阿里千问发布 Qwen3.5 四款小尺寸开源模型（0.8B/2B/4B/9B），林俊旸卸任核心负责人",
-    "category": "product_launch",
-    "importance": 8.5,
+    "title": "🤝 擎羽科技完成数千万天使轮融资，宇树天使投资方德迅领投",
+    "category": "funding",
+    "importance": 7.8,
     "sources": [
       {
-        "author": "IT之家",
-        "text": "阿里千问技术负责人林俊旸宣布卸任. IT之家 3 月 4 日消息，阿里千问核心负责人林俊旸（yáng）3 月 4 日凌晨在 X 平台发文：me stepping down. bye my beloved qwen.（我卸任了。再见了，我亲爱的千问。）阿里千问 3 月 2 日开源 4 款 Qwen3.5 小尺寸模型系列，分别是 Qwen3.5-0.8B/2B/4B/9B。小模型发布后，在海外社交媒体",
+        "author": "36氪",
+        "text": "阳台储能公司获数千万融资，用消费硬件逻辑重新定义户用储能｜硬氪首发. 作者｜黄楠\n  编辑｜袁斯来\n  硬氪获悉，临阁能源科技（苏州）有限公司（以下简称“临阁能源”）近日完成数千万元天使轮融资，本轮投资方为天空工场创投，融资资金将重点投入核心技术研发、持续丰富产品矩阵，推进产品的规模化化生产交付，并加快全球渠道布局。\n  作为MOVA的生态链企业，临阁能源是一家聚焦家庭阳台储能场景的智能硬件与能源",
         "engagement": 0,
-        "url": "https://www.ithome.com/0/925/624.htm"
+        "url": "https://36kr.com/p/3706785150546307?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "前大疆工程师创业，宇树天使投资人出手，仿生柔性机器人公司完成新融资｜硬氪首发. 作者｜黄楠\n  编辑｜袁斯来\n  硬氪获悉，深圳擎羽科技有限公司（以下简称“擎羽科技”）近日完成数千万元天使轮融资。本轮领投方为德迅投资，作为宇树科技的天使投资人，这也是其继极壳科技、首形科技、若创科技后，在硬件领域出手布局的又一项目。老股东奇绩创坛本轮持续加注。融资资金将用于技术研发投入、产品迭代及多场景商业化探索。",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3701222224817801?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "莱芒生物完成近2亿元新增融资，加速推进代谢增强型免疫细胞疗法临床转化｜36氪首发. 文｜胡香赟\n  编辑｜海若镜\n  36氪获悉，莱芒生物近期已完成近2亿元新增融资。本轮融资由粤财控股旗下机构粤财中垠联合晶泰科技领投，矿世之星、Mony Valley、泰珑投资、中山创投、以及个人财务投资者跟投，老股东富汇创投持续加注。募集资金将重点用于推进极低剂量代谢增强型CAR-T细胞药物的注册I期临床研究，并",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3707151883382917?f=rss"
       },
       {
         "author": "雷锋网",
-        "text": "阿里云百炼专属版登陆国际市场，加速全球企业构建专属AI引擎. 3月3日， 阿里云在 2026 年世界移动通信大会上宣布，面向国际市场正式推出企业级Agentic AI开发平台——百炼专属版。该平台专为金融、医疗、公共服务及电信运营商等高合规行业设计，提供从数据处理、模型微调、评估部署到Agent上线系统的全生命周期管理，帮助中国出海公司及国际企业构建专属业务Agent，加速AI应用落地。&nbsp",
+        "text": "擎羽科技完成天使轮融资：宇树天使投资方领投，押注仿生柔性机器人. 仿生柔性机器人公司「擎羽科技」近日完成数千万人民币天使轮融资。本轮融资由德迅投资领投，老股东奇绩创坛持续加注。资金将主要用于技术研发投入，加快产品迭代更新。擎羽科技成立于 2025 年 3 月，聚焦新一代仿生柔性机器人，试图解决机器人进入真实世界时长期存在的非标环境适配难、部署成本高、人机协作不自然等问题。与传统强调刚性结构与高确定",
         "engagement": 0,
-        "url": "https://www.leiphone.com/category/industrynews/hSJAaoRMruFtIEHE.html"
+        "url": "https://www.leiphone.com/category/ai/1uKAuRYu562APkJt.html"
       }
     ],
     "key_facts": [
-      "阿里千问于3月2日开源Qwen3.5系列4款小尺寸模型：0.8B、2B、4B、9B，聚焦高效部署与边缘场景",
-      "该发布引发马斯克公开点赞，林俊旸在X平台致谢并宣布卸任（3月4日凌晨）",
-      "林俊旸为阿里最年轻的P10技术负责人（1993年生），主导千问开源生态建设；其卸任标志千问技术领导层重要更迭"
+      "擎羽科技于2025年3月成立，完成数千万元人民币天使轮融资",
+      "本轮由德迅投资领投（宇树科技天使投资人），老股东奇绩创坛持续加注",
+      "公司专注仿生柔性机器人，采用自适应柔驱技术，突破传统刚性机器人在非标环境适配、人机协作自然性方面的瓶颈",
+      "创始人彭锐为港大机器人学博士、前大疆嵌入式工程师，获港府青年科学家奖，成果发表于Nature Communications"
     ],
-    "analyst_angle": "小模型密集开源+核心人物交接，反映阿里正从‘大模型军备竞赛’转向‘可商用、可合规、可全球化’的工程化落地阶段，Qwen3.5系列或成为出海AI产品（如百炼专属版）的关键轻量底座。",
-    "cluster_size": 2,
-    "event_time": "2026-03-03T06:15:00Z",
+    "analyst_angle": "柔性执行正成为具身智能落地开放场景的关键差异化路径，本轮融资标志着资本对‘人机共生’底层驱动范式的早期共识形成，有望加速柔性机器人从实验室走向家庭服务、康复护理等高价值人机共融场景。",
+    "cluster_size": 4,
+    "event_time": "2026-03-04T00:00:00Z",
     "event_type": "news"
   },
   {
     "event_id": "evt_20260304_006",
-    "title": "🚀 广汽昊铂 A800 轿车首发搭载华为乾崑云曦 × HUAWEI XPIXEL 智能车灯模组及 ADS 4.1",
-    "category": "product_launch",
-    "importance": 8.5,
+    "title": "🔧 特斯拉拟大幅增产2nm AI6芯片，与三星电子磋商每月新增2.4万片晶圆产能",
+    "category": "chip_hardware",
+    "importance": 9.2,
     "sources": [
       {
-        "author": "IT之家",
-        "text": "广汽昊铂 A800 轿车确认搭载乾崑云曦 × HUAWEI XPIXEL，支持远程自定义灯语. IT之家 3 月 4 日消息，华为乾崑智能汽车解决方案昨晚发布视频，宣布广汽昊铂 A800 轿车将搭载乾崑云曦 × HUAWEI XPIXEL 智能车灯模组，支持使用手机远程自定义灯语。IT之家注：华为官方显示，HUAWEI XPIXEL 智能车灯模组归属华为乾崑车载光，提供智能灯语、智能照明、照明光毯",
+        "author": "36氪",
+        "text": "消息称特斯拉计划就大幅提升AI6芯片产能规模与三星电子磋商. 特斯拉采购部门高管计划本周拜访三星电子，就大幅提升2nm芯片AI6的产能规模展开磋商。消息人士表示，特斯拉去年与三星晶圆代工达成的订单规模相当于每月1.6万片晶圆的投片量，而特斯拉的额外需求达到每月2.4万片晶圆。（财联社）",
         "engagement": 0,
-        "url": "https://www.ithome.com/0/925/610.htm"
+        "url": "https://36kr.com/newsflashes/3708614282965382?f=rss"
       },
       {
         "author": "IT之家",
-        "text": "华为余隽宣布鸿蒙智选正式开号，将推基于鸿蒙系统的智能终端产品. IT之家 3 月 4 日消息，去年 6 月，华为常务董事、终端 BG 董事长余承东宣布，华为智选品牌升级为鸿蒙智选，覆盖智能家居、运动健康、差旅办公等智能硬件领域。随后，华为官方还发布了鸿蒙智选 Logo：由鸿蒙智选缩写 HS（HarmonyOS Select）演变而来，用圆环勾勒出象征鸿蒙生态的包容万象。华为终端 BG IoT 产品",
+        "text": "TrendForce：亚洲半导体巨头今年瞄准 1360 亿美元投资规模，同比增长 25%. IT之家 3 月 4 日消息，AI 芯片、存储芯片和逻辑处理器需求持续飙升，正在推动亚洲半导体企业大幅提高投资规模。今天晚间，集邦咨询 TrendForce 数据显示，亚洲多家主要芯片厂商今年资本支出预计将超过 1360 亿美元（IT之家注：现汇率约合 9404.47 亿元人民币），比 2025 年增长约 ",
         "engagement": 0,
-        "url": "https://www.ithome.com/0/925/606.htm"
+        "url": "https://www.ithome.com/0/925/957.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "卢伟冰：小米玄戒芯片有望一年一更，未来将为海外市场开发新 AI 助手. IT之家 3 月 4 日消息，今天晚间，据 CNBC 报道，小米计划每年推出一款新的手机处理器芯片。小米总裁卢伟冰在接受 CNBC 采访时表示，这一计划体现出公司正加大力度向更高端技术领域拓展。此外，小米正在为海外市场开发新的 AI 助手。去年，小米发布了玄戒 O1 芯片，采用 3nm 先进制程。能够自主设计 SoC 的手机厂",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/950.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "消息称特斯拉计划就大幅提升 AI6 芯片产能规模与三星电子磋商. IT之家 3 月 4 日消息，韩媒 The Elec 今日报道称，特斯拉采购部门高管计划本周拜访三星电子，就大幅提升 2nm 芯片 AI6 的产能规模展开磋商。消息人士表示，特斯拉去年与三星晶圆代工达成的订单规模相当于每月 1.6 万片晶圆的投片量，而特斯拉的额外需求达到每月 2.4 万片晶圆。IT之家注意到，特斯拉将 AI6 视为",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/942.htm"
       }
     ],
     "key_facts": [
-      "广汽昊铂 A800 轿车于 2024 年 3 月 4 日正式上市，为首款搭载华为乾崑云曦 × HUAWEI XPIXEL 智能车灯模组的量产车型",
-      "HUAWEI XPIXEL 支持远程手机自定义灯语、智能照明、光毯、互动迎宾等车载光交互功能，归属华为乾崑车载光技术体系",
-      "该车同步首批搭载华为乾崑智驾 ADS 4.1（即 HUAWEI ADS 4.1），并提供三电机四驱动力系统"
+      "特斯拉计划本周派采购高管赴三星电子，就大幅提升AI6芯片（2nm制程）产能展开磋商",
+      "当前订单为每月1.6万片晶圆，新增需求达每月2.4万片晶圆，总需求或超4万片/月",
+      "AI6被特斯拉定义为‘通用型AI芯片’，将统一支撑其电动汽车、人形机器人（Optimus）及AI数据中心业务"
     ],
-    "analyst_angle": "这是华为‘乾崑+鸿蒙智选’双品牌战略在智能汽车硬件层的首次规模化落地，标志着华为从智驾软件向智能座舱光交互等全栈车载硬件能力输出的关键跃迁。",
-    "cluster_size": 2,
-    "event_time": "2026-03-03T23:46:15Z",
+    "analyst_angle": "特斯拉正从垂直整合AI硬件底层出发，以自研芯片+代工绑定双轨策略构建全栈AI基础设施护城河，此举或将加速车规级与通用AI芯片的工艺收敛，并对台积电在先进制程AI芯片代工领域的主导地位形成实质性挑战。",
+    "cluster_size": 4,
+    "event_time": "2026-03-04T10:35:46Z",
     "event_type": "news"
   },
   {
     "event_id": "evt_20260304_007",
-    "title": "🚀 中兴努比亚豆包手机海外首秀：首款AI原生手机M153 + 情感AI新物种iMoochi发布",
+    "title": "🔧 英伟达将推 RTX 5050 9GB 桌面显卡，搭载 96-bit GDDR7 显存",
+    "category": "chip_hardware",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "低端显卡用上 24Gb GDDR7：爆料称英伟达将推 RTX 5050 9GB. IT之家 3 月 5 日消息，消息人士 MEGAsizeGPU (@Zed__Wang) 北京时间今日凌晨表示，英伟达将推出采用 96-bit 显存位宽、搭载 9GB GDDR7 显存的 GeForce RTX 5050 显卡。IT之家注意到，谈及移动端产品时爆料人通常会带上 \"Laptop\" \"Mobile\" \"M",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/998.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "钻石散热走入 AI 服务器，Akash Systems 实现 H200 / MI350X 系统出货. IT之家 3 月 4 日消息，金刚石（钻石）拥有优秀的热传导能力，显著优于目前在电脑中广泛应用的铜。而 Akash Systems 正是一家专注于金刚石冷却技术的企业，曾一度位列美国《CHIPS》法案拟议资助名单之中。而在 2026 年 2 月和 3 月，该企业先后实现首款基于英伟达 H200 与",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/976.htm"
+      }
+    ],
+    "key_facts": [
+      "英伟达计划推出桌面端 GeForce RTX 5050，配备 96-bit 显存位宽与 9GB GDDR7 显存",
+      "该配置需使用单颗 24Gb GDDR7 颗粒（突破传统多颗堆叠方案），为消费级显卡首次采用 GDDR7",
+      "当前 RTX 5050 桌面版为 128-bit/8GB GDDR6，新版带宽与容量结构发生显著变化"
+    ],
+    "analyst_angle": "GDDR7 首次下放至入门级桌面显卡，预示英伟达正加速推进高带宽显存普及节奏，可能重塑中低端GPU能效比与AI推理终端部署成本结构。",
+    "cluster_size": 2,
+    "event_time": "2026-03-04T13:57:44Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_008",
+    "title": "🚀 OPPO Find X9 系列将通过‘快速共享’原生支持苹果 AirDrop 标准",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "谷歌 Pixel 以外首家：OPPO Find X9 系列手机将通过“快速共享”打通苹果隔空投送. IT之家 3 月 4 日消息，谷歌去年宣布 Pixel 10 通过“快速共享”支持苹果 AirDrop 标准时，引发广泛关注。谷歌上个月向媒体确认，今年还会有更多手机厂商加入这一功能，OPPO 也已经确认，将成为下一家支持该功能的厂商。据外媒 Android Authority 今晚报道，OPPO ",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/993.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "消息称苹果国行 eSIM 快速转移功能已随 iPhone 17e 手机上线. IT之家 3 月 4 日消息，据爱范儿报道，此前苹果高管透露国行 iPhone 将支持 eSIM 快速转移功能，用户可将号码直接从一台 iPhone 迁移至另一台，如今该功能已随 iPhone 17e 上线。公开信息显示，国行版 iPhone 17e 采用了 iPhone Air 同款的 C1X 调制解调器，使用单实体 ",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/945.htm"
+      }
+    ],
+    "key_facts": [
+      "OPPO 成为谷歌 Pixel 之外首家官宣支持跨平台‘快速共享’（兼容 AirDrop 标准）的安卓厂商",
+      "该功能将随本月晚些时候的软件更新上线 Find X9/Pro 系列，无需第三方应用，支持 iOS/iPadOS/macOS 设备",
+      "此举标志着安卓阵营首次实现与苹果生态在近场文件共享层面的官方级互操作"
+    ],
+    "analyst_angle": "这是安卓-苹果互操作性从‘碎片化实验’迈向‘标准化落地’的关键一步，或倒逼更多 OEM 加入谷歌主导的跨平台协议，长期可能削弱苹果生态封闭性壁垒。",
+    "cluster_size": 2,
+    "event_time": "2026-03-04T11:09:31Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_009",
+    "title": "🚀 苹果发布平价 MacBook Neo（M5 芯片，4599 元起）",
     "category": "product_launch",
     "importance": 8.7,
     "sources": [
       {
         "author": "IT之家",
-        "text": "中兴努比亚豆包手机海外首秀，主打情感陪伴 AI“新物种”iMoochi 同步亮相. IT之家 3 月 4 日消息，3 月 2 日，中兴通讯终端业务在 2026 年世界移动通信大会（MWC26）上展出全系列、多形态 AI 终端产品。其中，与字节跳动旗下豆包合作开发的 AI 原生手机努比亚 M153 豆包手机助手技术预览版完成海外首秀，主打情感陪伴的 AI 产品 iMoochi 同步在本次展会发布。此",
+        "text": "6065 元起：苹果 MacBook Air M5 16+512G 教育优惠国补换新探底. MacBook Air M5 官方定价 8499 元，教育优惠价 7699 元。叠加政府补贴后，仅需 6544 元起即可入手。下单时选择“以旧换新”补贴 480 元（对旧机无要求，但需达 100 元估值门槛），折合仅需 6065 元好价：京东 MacBook Air M5 教育优惠版 512G 国补换新 6",
         "engagement": 0,
-        "url": "https://www.ithome.com/0/925/589.htm"
+        "url": "https://www.ithome.com/0/925/991.htm"
       },
       {
         "author": "IT之家",
-        "text": "努比亚 Neo 5 GT 亮相 MWC 2026：天玑 7400 芯片、6.8 英寸 144Hz AMOLED 屏幕. IT之家 3 月 3 日消息，据科技媒体 NoteBook Check 今天报道，努比亚今天在 MWC 2026 展会上带来了 Neo GT 手机，主打大容量电池、高亮屏幕，还将主动散热风扇下放到“中端价位段”，预计下月海外上市，建议零售价 399 欧元（IT之家注：现汇率约合 ",
+        "text": "苹果 MacBook Neo 笔记本面板仅覆盖 sRGB 色域，无环境光传感器. IT之家 3 月 4 日消息，苹果今天发布了平价 MacBook Neo 笔记本，定价为 4599 元起。IT之家注意到，该机配备一块 2408 x 1503 分辨率 60Hz LCD 面板，亮度为 500 尼特，与现款 MacBook Air 相同。不过该机面板仅覆盖 sRGB 色域，同时不支持原彩显示技术。作为比",
         "engagement": 0,
-        "url": "https://www.ithome.com/0/925/573.htm"
+        "url": "https://www.ithome.com/0/925/987.htm"
       },
       {
-        "author": "雷锋网",
-        "text": "千问AI眼镜真机曝光：首秀MWC2026，全球观众排队试戴. 当地时间3月2日，世界移动通信大会（MWC 2026）在西班牙巴塞罗那开幕，中国科技产品备受瞩目。在千问AI眼镜的展台，一位来自美国的观众试戴后提到产品的换电设计“太妙了”，续航焦虑明显降低，“基本可以全天开机使用智能服务，很了不起”。这是千问AI眼镜的全球首秀，作为阿里巴巴推出的最新AI硬件，加之现场高达5米醒目的“Qwen”标识，展",
+        "author": "IT之家",
+        "text": "苹果 MacBook Neo 笔记本键盘无背光，触控板不支持压力感应. IT之家 3 月 4 日消息，苹果今天发布了平价 MacBook Neo 笔记本，配备 13 英寸 Liquid 视网膜显示屏，该机定价为 4599 元起。IT之家经现场体验，同时综合官网硬件参数比较，该机配备的键盘并未提供背光功能，同时触控板也不支持压力感应功能。作为比较，MacBook Air / Pro 的触控板支持用力",
         "engagement": 0,
-        "url": "https://www.leiphone.com/category/industrynews/48BnhZoTf5BIStsV.html"
+        "url": "https://www.ithome.com/0/925/984.htm"
       },
       {
-        "author": "雷锋网",
-        "text": "魔法原子春晚机器人惊艳亮相MWC 持续引领行业创新发展. 近日，2026年世界移动通信大会（MWC Barcelona）在巴塞罗那盛大开幕，全球顶尖科技公司齐聚一堂。继春晚之后，魔法原子携春晚同款机器人首次亮相，展示了其在机器人技术上的最新成果，并通过这一亮相加速全球化战略，推动“中国智造”走向世界舞台。春晚“机器熊猫”走红海外 中国硬科技“软”出圈在魔法原子展台，一只“机器熊猫”成为全场焦点，吸",
+        "author": "IT之家",
+        "text": "苹果 MacBook Neo 笔记本双 USB-C 接口仅有一个为 USB 3 速率、另一个为 USB 2 速率. IT之家 3 月 4 日消息，苹果今天发布了平价 MacBook Neo 笔记本，配备 13 英寸 Liquid 视网膜显示屏，该机定价为 4599 元起。IT之家在现场对这款笔记本进行体验，该机并未配备 MacBook Pro / Air 同款 MagSafe 磁吸充电接口，仅在机",
         "engagement": 0,
-        "url": "https://www.leiphone.com/category/robot/KsRaXWF6vfFrSPy2.html"
+        "url": "https://www.ithome.com/0/925/983.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "苹果平价 MacBook Neo 笔记本未配备 MagSafe 磁吸充电接口，仅提供双 USB-C. IT之家 3 月 4 日消息，苹果今天发布了平价 MacBook Neo 笔记本，配备 13 英寸 Liquid 视网膜显示屏，该机定价为 4599 元起。IT之家在现场对这款笔记本进行体验，该机并未配备 MacBook Pro / Air 同款 MagSafe 磁吸充电接口，仅在机身左侧提供了 ",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/981.htm"
       }
     ],
     "key_facts": [
-      "努比亚M153是中兴与字节跳动豆包联合开发的首款AI原生手机，于MWC2026完成全球海外首秀",
-      "实现操作系统级深度集成豆包手机助手，支持自然语言发起的跨应用、多步骤复杂任务执行",
-      "同步发布主打情感陪伴的AI产品iMoochi，定位‘AI新物种’，强调人机情感交互范式升级"
+      "苹果于 3 月 4 日正式发布全新入门级笔记本 MacBook Neo，起售价 4599 元，搭载 M5 芯片",
+      "Neo 配备 13 英寸 LCD 屏（2408×1503，60Hz，500 尼特），仅覆盖 sRGB 色域，无原彩显示与环境光传感器",
+      "键盘无背光、触控板不支持压力感应、无 MagSafe 磁吸充电，仅配双 USB-C 接口（一个 USB 3，一个 USB 2）",
+      "同期 MacBook Air M5 教育价 7699 元，叠加国补+以旧换新后低至 6065 元，形成清晰价格分层"
     ],
-    "analyst_angle": "这标志着中国终端厂商正从‘AI功能叠加’迈向‘AI原生重构’，系统级AI集成+情感智能双轨突破，或将加速全球手机OS层AI标准竞争格局形成。",
-    "cluster_size": 4,
-    "event_time": "2026-03-03T01:42:00Z",
+    "analyst_angle": "MacBook Neo 是苹果首次在中国市场定向推出的‘平价 Mac’，以显著降配换取价格下探，标志着其正式切入中端 Windows 笔记本主战场，或将重塑教育/入门创作市场格局，并倒逼竞品加速 ARM 生态适配。",
+    "cluster_size": 7,
+    "event_time": "2026-03-04T14:15:00Z",
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260304_008",
-    "title": "📌 Cursor Agent 推出本地运行版本",
-    "category": "product_launch",
-    "importance": 6.5,
+    "event_id": "evt_20260304_010",
+    "title": "🤝 OpenAI 洽谈与北约部署 AI（非机密网络）",
+    "category": "partnership",
+    "importance": 8.2,
     "sources": [
       {
-        "author": "dotey",
-        "text": "谢谢补充\nhttps://t.co/91zEX0pNwE",
-        "engagement": 33,
-        "url": "https://x.com/dotey/status/2026450430977360383"
-      },
-      {
-        "author": "jesselaunz",
-        "text": "@andrew_zyf 这两个月的工作效率是过去十个月的十倍不止",
-        "engagement": 1,
-        "url": "https://x.com/jesselaunz/status/2026465246039388436"
-      },
-      {
-        "author": "dingyi",
-        "text": "@himself65 SaaS 软件行业要完了！",
+        "author": "IT之家",
+        "text": "牵手美国国防部后，消息称 OpenAI 正洽谈与北约展开 AI 合作. IT之家 3 月 4 日消息，据《华尔街日报》报道，知情人士于当地时间周二透露，OpenAI 正考虑签订合同，将其人工智能技术部署在北大西洋公约组织（北约）的“非机密”网络上。就在几天前，这家 ChatGPT 的开发方刚与美国国防部达成合作协议。报道称，OpenAI 首席执行官山姆 · 奥尔特曼最初在公司内部会议上表示，公司正",
         "engagement": 0,
-        "url": "https://x.com/dingyi/status/2026465222576451688"
+        "url": "https://www.ithome.com/0/925/967.htm"
       },
       {
-        "author": "dotey",
-        "text": "@peater007 cursor agent 也有 local 的",
+        "author": "IT之家",
+        "text": "Meta 与新闻集团达成内容 AI 应用授权协议，年交易规模可达 5000 万美元. IT之家 3 月 4 日消息，综合《华尔街日报》与 Engadget 报道，Meta 已与旗下包括《华尔街日报》和其它媒体的新闻集团达成一份为期至少 3 年的内容 AI 应用授权协议，年交易规模可达 5000 万美元（IT之家注：现汇率约合 3.46 亿元人民币）。Meta 可在其 AI 服务中应用新闻集团在美国",
         "engagement": 0,
-        "url": "https://x.com/dotey/status/2026456729437761770"
+        "url": "https://www.ithome.com/0/925/933.htm"
       },
       {
-        "author": "dotey",
-        "text": "@fng409855148069 流程没有变，变的是工具和方法",
+        "author": "雷锋网",
+        "text": "比亚迪硬抗导弹！车身完好没起火，乘客仅轻伤；马云与阿里、蚂蚁核心管理层齐聚谈AI；OpenAI与美军方合作惹众怒：ChatGPT卸载量爆增295%. 要闻提示1.OpenAI 与美国防部合作惹众怒：ChatGPT 卸载量大增 295%，一星评价暴涨 775%2.比亚迪车在以色列扛住了一枚导弹！车身完好没起火，乘客仅轻伤3.马云与阿里、蚂蚁核心管理层罕见齐聚谈AI4.李开复谈“Anthropic 指",
         "engagement": 0,
-        "url": "https://x.com/dotey/status/2026450962869571591"
+        "url": "https://www.leiphone.com/category/zaobao/FADiQEiJYEW0rqjk.html"
       }
     ],
     "key_facts": [
-      "Cursor Agent 新增支持本地（local）运行模式",
-      "该更新显著提升开发效率（有用户称‘两个月效率超过去十个月’）",
-      "属于 Cursor（AI 编程助手）的实质性功能演进，非纯云端依赖"
+      "OpenAI 正与北约洽谈将其AI技术部署在北约的‘非机密’网络上，此前已与美国国防部达成合作",
+      "CEO山姆·奥尔特曼曾内部提及‘所有机密网络’，但公司随后澄清仅限非机密网络",
+      "北约为32国军事联盟，尚未就此事公开置评",
+      "该动作为继美军合作后，OpenAI 在国防与多边安全组织AI落地的关键延伸"
     ],
-    "analyst_angle": "本地化 AI 编程代理降低延迟、增强隐私与离线可用性，标志着编程辅助工具正从云端 API 调用向端侧智能体架构演进，对 SaaS 开发工具竞争格局构成潜在扰动。",
+    "analyst_angle": "标志着AI头部企业正系统性嵌入西方安全架构，但‘非机密’限定反映监管敏感性与信任边界仍存；后续若扩展至分级网络或触发全球AI军民融合治理新议程。",
+    "cluster_size": 3,
+    "event_time": "2026-03-04T03:02:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_011",
+    "title": "🚀 广汽昊铂 A800 上市：首发搭载华为乾崑 ADS 4.1 + 鸿蒙座舱 5，可选 896 线四激光雷达方案",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "广汽昊铂 A800 豪华轿车上市：华为乾崑 ADS 4.1 加持，指导价 18.98 万-29.98 万元. IT之家 3 月 4 日消息，广汽昊铂 A800 豪华轿车今晚正式上市，新车搭载华为乾崑 ADS 4.1、鸿蒙座舱 5，可选尊界 S800、问界 M9“同款”华为乾崑智驾四激光雷达方案。智慧旗舰版：官方指导价 29.98 万元，置换补贴价 27.48 万元智慧尊贵版：官方指导价 24.98",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/958.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "新阿维塔 12 将首批交付华为全球量产最高 896 线激光雷达，3 月 20 日预售. IT之家 3 月 4 日消息，今日华为双光路图像级 896 线激光雷达正式发布，阿维塔科技官方宣布，新阿维塔 12 将首个交付华为全球量产最高 896 线激光雷达。同时，新阿维塔 12 将于 3 月 20 日开启预售。据华为介绍，实测显示，896 线激光雷达 55 米外可清晰识别小狗摇尾巴动态，120 米外精准",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/936.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "同样配备华为全新一代 896 线四激光雷达，岚图预热“FUV”新车 FE. IT之家 3 月 4 日消息，今天下午，华为乾崑新一代双光路图像级 896 线激光雷达，由鸿蒙智行尊界 S800、问界 M9 同步首发搭载。尊界 S800 和问界 M9 将拥有更强大的全向立体融合感知系统：全车 36 个传感器，包括 4 个激光雷达、3 分布式 4D 毫米波雷达矩阵、2 个 4D 毫米波角雷达、11 个视觉",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/925/935.htm"
+      }
+    ],
+    "key_facts": [
+      "广汽昊铂 A800 于 3 月 4 日正式上市，售价 18.98 万–29.98 万元，提供四款配置",
+      "全系标配华为乾崑 ADS 4.1 智驾系统与鸿蒙座舱 5，高配版可选尊界 S800/问界 M9 同款四激光雷达方案",
+      "同日，华为发布全球量产最高规格 896 线双光路图像级激光雷达，阿维塔 12、岚图 FE 等多款车型宣布首批搭载"
+    ],
+    "analyst_angle": "华为高阶智驾硬件（ADS 4.1 + 896 线激光雷达）正加速从旗舰车型（尊界/问界）向主流豪华品牌（昊铂/阿维塔/岚图）规模化下放，标志着‘华为智选车模式’进入深度整合与量产普及新阶段。",
+    "cluster_size": 3,
+    "event_time": "2026-03-04T10:18:38Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_012",
+    "title": "🚀 Anthropic 推出 Claude Cowork 定时任务与插件系统，强化 AI Agent 自动化能力",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "kevinxu",
+        "text": "my niece is all in $NVDA and just shit her pants",
+        "engagement": 3024,
+        "url": "https://x.com/kevinxu/status/2026764388221465083"
+      },
+      {
+        "author": "dotey",
+        "text": "Claude Code/Cowork 迭代还真快，小龙虾🦞的定时任务也学过来了。\n\n现在有了远程操控 /remote-control 和定时任务，🦞的大部分任务都可以做了。\n\nAnthropic 的桌面工具 Cowork 新增了\"定时任务\"功能，用户可以让 Claude 在指定时间自动完成重复性工作——比如每天早上生成简报、每周更新表格、每周五准备团队演示文稿。\n\nCowork 是 Anthrop",
+        "engagement": 188,
+        "url": "https://x.com/dotey/status/2026756475801186704"
+      },
+      {
+        "author": "jordanschneider",
+        "text": "Warclaude could go pretty hard https://t.co/Wzn1oQgZEa",
+        "engagement": 22,
+        "url": "https://x.com/jordanschneider/status/2026768716202156476"
+      },
+      {
+        "author": "SixthTone",
+        "text": "Dounan, Asia’s largest fresh-cut flower market, moves billions of stems each year, connecting growers across Yunnan with buyers nationwide. Last year, it recorded 13.48 billion yuan (about $1.95 billi",
+        "engagement": 21,
+        "url": "https://x.com/SixthTone/status/2026756652049875006"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "我以前从来没贴过star history曲线，问了一下chatGPT，原来这么简单 https://t.co/B9VMAohOOo",
+        "engagement": 8,
+        "url": "https://x.com/jesselaunz/status/2026793297092760011"
+      }
+    ],
+    "key_facts": [
+      "Anthropic 桌面端 AI 助手 Cowork 新增定时任务功能，支持每日/每周等周期性自动化工作（如晨间简报、周五演示文稿生成）",
+      "本次更新同步上线插件系统，覆盖设计、工程、运营等垂直领域，并在侧边栏集成自定义面板统一管理插件、技能与外部连接器",
+      "Cowork 目前处于研究预览阶段，面向所有付费 Claude 用户，支持 macOS 和 Windows，主打本地文件处理与非开发者友好的任务自动化"
+    ],
+    "analyst_angle": "这标志着 Anthropic 正从‘对话式助手’加速转向‘可调度、可扩展的轻量级 AI Agent’，补全了消费级 AI 工具链中关键的自动化工作流闭环，对 Copilot 类产品的竞争格局构成实质性升级。",
     "cluster_size": 5,
     "event_time": null,
     "event_type": "news"
   },
   {
-    "event_id": "evt_20260304_009",
-    "title": "💰 擎羽科技完成数千万元天使轮融资，前大疆工程师创业，专注仿生柔性机器人",
-    "category": "funding",
-    "importance": 7.5,
+    "event_id": "evt_20260304_013",
+    "title": "🚀 红魔11 AIR发布：首款全透明设计轻薄电竞旗舰，207g实现性能与手感双向突破",
+    "category": "product_launch",
+    "importance": 7.8,
     "sources": [
       {
         "author": "36氪",
-        "text": "前大疆工程师创业，宇树天使投资人出手，仿生柔性机器人公司完成新融资｜硬氪首发. 作者｜黄楠\n  编辑｜袁斯来\n  硬氪独家获悉，深圳擎羽科技有限公司（以下简称“擎羽科技”）近日完成数千万元天使轮融资。本轮领投方为德迅投资，作为宇树科技的天使投资人，这也是其继极壳科技、首形科技、若创科技后，在硬件领域出手布局的又一项目。老股东奇绩创坛本轮持续加注。融资资金将用于技术研发投入、产品迭代及多场景商业化探",
+        "text": "科氪 | 轻薄电竞新标杆？红魔11 AIR实测体验：性能与手感双向突破. 在游戏手机市场长期陷入“性能与厚重绑定”的困局时，红魔11 AIR的登场打破了行业惯性。作为红魔2026年主打的新生代性能旗舰，它以“不妥协”的极致追求重新定义AIR机型，既保留了旗舰级游戏性能，又将机身重量控制在可日常单手握持的范围，精准击中“想玩游戏但讨厌厚重机身”的用户需求，兼顾手感、战力与颜值，目标成为同档最强、颜值",
         "engagement": 0,
-        "url": "https://36kr.com/p/3701222224817801?f=rss"
+        "url": "https://36kr.com/p/3708807719317892?f=rss"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "opus 4.6昨天晚上表现很差\n\n今早起来验收成果，5个project有3个都要改，且有一个很隐蔽的将指定参考project的 {% if a== \"0\" %} 改成了 {% if a != \"0\" %} ，一晃眼差点把漏洞留下了\n\n性能卓越且算力充裕稳定的model要且用且珍惜啊",
+        "engagement": 5,
+        "url": "https://x.com/jesselaunz/status/2026769871716102322"
+      },
+      {
+        "author": "jordanschneider",
+        "text": "if we’re stack ranking all the problems in the DIB, where would dario not signing over the keys rank?",
+        "engagement": 4,
+        "url": "https://x.com/jordanschneider/status/2026761487902019887"
+      },
+      {
+        "author": "jordanschneider",
+        "text": "@TheStalwart @MrMarket85 @Citrini7 Get ken griffin on to debate ctrini",
+        "engagement": 1,
+        "url": "https://x.com/jordanschneider/status/2026761638859387384"
+      },
+      {
+        "author": "dotey",
+        "text": "@zhishiai6 @claudeai 卧槽，还真快，感谢！",
+        "engagement": 0,
+        "url": "https://x.com/dotey/status/2026755356920008918"
+      }
+    ],
+    "key_facts": [
+      "红魔11 AIR是红魔2026年主打新生代性能旗舰，定位‘轻薄电竞新标杆’",
+      "首次实现全系透明设计，机身厚7.85mm、重仅207g，兼顾旗舰级游戏性能与单手握持舒适性",
+      "突破行业‘性能与厚重绑定’惯性，精准瞄准‘想玩游戏但讨厌厚重机身’核心用户群"
+    ],
+    "analyst_angle": "红魔通过结构创新与材料升级重构游戏手机价值公式，若量产交付与散热/续航表现达标，或将倒逼主流旗舰厂商加速优化高性能终端的轻量化路径。",
+    "cluster_size": 5,
+    "event_time": "2026-03-04T16:00:55Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260304_014",
+    "title": "🚀 小鹏发布第二代VLA，宣称L2直通L4，何小鹏称智驾进入‘AI定义超级智能体’新阶段",
+    "category": "product_launch",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "何小鹏：未来1-3年完全自动驾驶将真正到来｜最前线. \n  小鹏汽车董事长 何小鹏\n  文｜肖漫\n  编辑｜李勤\n  “通过我们内部比较测评，我认为比行业一流选手领先接近5倍。”在第二代VLA发布会后的交流中，小鹏汽车董事长兼CEO何小鹏说道。\n  智驾的演进，正从“软件定义汽车”变为“AI 定义超级智能体”。新浪潮下，小鹏汽车给出了他们面向未来的激进解法：跳过在硬件、软件与法规层面皆面临妥协的 ",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3707327485505672?f=rss"
       },
       {
         "author": "36氪",
@@ -390,79 +561,31 @@
       },
       {
         "author": "36氪",
-        "text": "莱芒生物完成近2亿元新增融资，加速推进代谢增强型免疫细胞疗法临床转化｜36氪首发. 文｜胡香赟\n  编辑｜海若镜\n  36氪获悉，莱芒生物近期已完成近2亿元新增融资。本轮融资由粤财控股旗下机构粤财中垠联合晶泰科技领投，矿世之星、Mony Valley、泰珑投资、中山创投、以及个人财务投资者跟投，老股东富汇创投持续加注。募集资金将重点用于推进极低剂量代谢增强型CAR-T细胞药物的注册I期临床研究，并",
+        "text": "百度App开学季上线文心老师. 36氪获悉，3月4日，百度App开学季官宣上线免费AI版1对1家教“文心老师”及全新的学习频道，为全国中小学学生及家长打造“免费学习机 + 免费家教”的一站式学习体验。",
         "engagement": 0,
-        "url": "https://36kr.com/p/3707151883382917?f=rss"
+        "url": "https://36kr.com/newsflashes/3708623442948231?f=rss"
       },
       {
         "author": "36氪",
-        "text": "氪星晚报｜全国首个跨境电商出口“前置监管仓”投用；亚马逊云服务称仍在努力恢复阿联酋网络服务；2026年全国消费促进月启动. 大公司：\n  亚马逊花逾4亿美元购美知名高校校区用于AI建设\n  美国乔治·华盛顿大学2日说，美国亚马逊公司斥资4.27亿美元，收购该校弗吉尼亚科学与技术校区，以加快人工智能（AI）基础设施建设。\n  红果短剧已为多款小说相关软件登记著作权\n  36氪获悉，3月3日，爱企查A",
+        "text": "热门中概股美股盘前涨多跌少，爱奇艺涨超2%. 36氪获悉，热门中概股美股盘前涨多跌少，截至发稿，爱奇艺涨超2%，B站、网易涨超1%，小鹏汽车涨近1%，百度涨0.44%；京东跌超1%，阿里巴巴跌0.45%。",
         "engagement": 0,
-        "url": "https://36kr.com/p/3707029227499651?f=rss"
+        "url": "https://36kr.com/newsflashes/3708619080986756?f=rss"
       },
       {
         "author": "36氪",
-        "text": "荣耀“转型”：发布Robot Phone和首款人形机器人丨MWC 2026. 作者丨邱晓芬\n  编辑丨苏建勋\n  在2026世界移动通信大会（MWC 2026）上，荣耀发布的人形机器人、Robot Phone吸引了大量观众的目光。\n  在Robot Phone上，荣耀打破了过去“黑色方块”的设计，将微型相机和云台系统塞进了手机里。\n  据介绍，Robot Phone最大的技术挑战之一在于，如何在有",
+        "text": "美股大型科技股盘前涨跌不一，特斯拉涨超1%. 36氪获悉，美股大型科技股盘前涨跌不一，截至发稿，特斯拉涨超1%，英伟达涨近1%，Arm涨0.22%；奈飞跌0.51%，谷歌跌0.46%，亚马逊跌0.37%，Meta跌0.04%。",
         "engagement": 0,
-        "url": "https://36kr.com/p/3705522207289479?f=rss"
+        "url": "https://36kr.com/newsflashes/3708617883332996?f=rss"
       }
     ],
     "key_facts": [
-      "深圳擎羽科技有限公司于2025年3月成立，近日完成数千万元天使轮融资",
-      "本轮由德迅投资领投（曾为宇树科技天使投资人），老股东奇绩创坛持续加注",
-      "公司聚焦仿生柔性机器人，采用自适应柔驱技术，突破传统刚性机器人在灵活性与安全性上的限制",
-      "创始人彭锐为港大机器人学博士、前大疆嵌入式工程师，获25–26届港府青年科学家奖"
+      "小鹏汽车正式发布第二代VLA（视觉语言动作）模型，作为其下一代自动驾驶系统核心",
+      "何小鹏在发布会后交流中表示，该技术使小鹏具备从L2直接跃迁至L4的能力，跳过L3过渡阶段",
+      "小鹏将智驾演进范式升级为‘AI定义超级智能体’，对标AGI在物理世界的落地"
     ],
-    "analyst_angle": "柔性机器人正从实验室走向商业化临界点，本轮融资标志着资本对‘安全可交互’具身智能硬件赛道的实质性押注，有望加速医疗康复、服务场景落地。",
+    "analyst_angle": "这标志着中国车企正从功能迭代转向AI原生架构竞争，L2+L4双轨策略可能加速全球L3法规僵局下的商业化突围，并倒逼传统智驾技术栈重构。",
     "cluster_size": 5,
-    "event_time": "2026-03-03T05:24:59Z",
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260304_010",
-    "title": "🚀 小雨智造发布工业通用具身智能机器人（焊接场景落地）",
-    "category": "product_launch",
-    "importance": 7.8,
-    "sources": [
-      {
-        "author": "36氪",
-        "text": "前小米高管创业机器人，用“爆品逻辑”做工业通用具身智能. 文｜富充\n  编辑｜苏建勋\n  小雨智造创始人乔忠良身上，有着“小米系”具身智能创业者的典型特质：善于寻找落地场景，商业化思路很务实。\n  2023年2月成立起，小雨智造就瞄准“工业通用具身智能”的目标。焊接机器人作为“沿途下蛋”的第一款产品，在2025年第四季度进入客户产线。\n  2010年，北航计算机系硕士毕业后，乔忠良加入创业阶段的小",
-        "engagement": 0,
-        "url": "https://36kr.com/p/3706592101691525?f=rss"
-      },
-      {
-        "author": "36氪",
-        "text": "一条内裤的“远征”： 巴迪高试图用“0手触”撬动一次性内裤的信任缺口 |  早期项目. 近两年，一次性内裤在国内市场进入高速增长期。\n  在旅行出游频繁、“懒人经济”持续升温的背景下，这一原本存在感不高的品类，正从边缘产品走向大众消费的视野。除户外、差旅等高频使用场景外，一次性内裤也逐渐渗透至产后恢复、医疗护理等领域，需求不断外扩，带动纺织服饰、母婴等赛道品牌加速入场，形成一股新的消费热潮。相关数",
-        "engagement": 0,
-        "url": "https://36kr.com/p/3697641252646531?f=rss"
-      },
-      {
-        "author": "36氪",
-        "text": "阿里千问大模型技术负责人自宣卸任. 阿里千问大模型技术负责人林俊旸自宣卸任，他在社交平台写道“me stepping down. bye my beloved qwen.”（我将卸任，再见我亲爱的千问）。作为阿里千问大模型的技术核心人物，林俊旸或将离开千问团队，目前尚不知他是否会离开阿里巴巴。记者就此消息向阿里巴巴求证，截至发稿暂未获得回复。（第一财经）",
-        "engagement": 0,
-        "url": "https://36kr.com/newsflashes/3707917194015106?f=rss"
-      },
-      {
-        "author": "36氪",
-        "text": "中信证券：AIDC供电系统升级迭代催生全新机遇，海外电网升级趋势明确. 36氪获悉，中信证券研报称，AIDC供电系统升级迭代催生全新机遇，海外电网升级趋势明确。AI供电系统由不间断供电系统（UPS）向全直流系统演变，输出电压等级不断提升，SST方案配套提速；服务器电源功率密度提升下产品量价齐升，催生超级电容需求。中信证券看好服务器电源国产品牌份额提升，产能短缺与方案迭代下国内超级电容、SST等新产",
-        "engagement": 0,
-        "url": "https://36kr.com/newsflashes/3707907861197191?f=rss"
-      },
-      {
-        "author": "36氪",
-        "text": "马云和阿里蚂蚁核心管理层在云谷学校交流AI. 36氪获悉，3月3日，马云与阿里、蚂蚁的核心管理层来到杭州云谷学校，与校长、老师们畅谈AI带来的挑战和机会。云谷学校公众号显示，阿里巴巴集团主席蔡崇信、CEO吴泳铭、风险委员会主席邵晓锋、电商事业群CEO蒋凡，蚂蚁集团董事长井贤栋和CEO韩歆毅一同参加交流。",
-        "engagement": 0,
-        "url": "https://36kr.com/newsflashes/3707906508206212?f=rss"
-      }
-    ],
-    "key_facts": [
-      "小雨智造由前小米MIUI研发负责人乔忠良于2023年2月创立，聚焦‘工业通用具身智能’",
-      "首款落地产品为焊接机器人，已于2025年第四季度进入客户产线",
-      "创始团队具备小米系‘爆品逻辑’与强工程化落地能力，强调商业化务实路径"
-    ],
-    "analyst_angle": "工业具身智能正从实验室走向真实产线，小雨智造以焊接为切口验证通用性架构，标志着中国具身智能创业从消费端叙事转向高价值工业场景攻坚。",
-    "cluster_size": 5,
-    "event_time": "2026-03-03T02:16:44Z",
+    "event_time": "2026-03-04T00:09:22Z",
     "event_type": "news"
   }
 ]

@@ -1,130 +1,138 @@
 [
   {
-    "title": "如何评价阿里千问大模型负责人林俊旸自宣卸任？会对通义千问造成什么影响？",
-    "url": "https://www.zhihu.com/question/2012332008160895210",
+    "title": "网友想用 AI 生成男女同样身高的合照，结果得到女矮男高的照片，问题出在哪？该如何修正？",
+    "url": "https://www.zhihu.com/question/2012192001999726052",
     "platform": "zhihu",
     "rank": 0,
     "hot_value": null,
     "published_at": null
   },
   {
-    "title": "19岁天才少年做AI应用年入2亿",
-    "url": "https://www.baidu.com/s?wd=19%E5%B2%81%E5%A4%A9%E6%89%8D%E5%B0%91%E5%B9%B4%E5%81%9AAI%E5%BA%94%E7%94%A8%E5%B9%B4%E5%85%A52%E4%BA%BF",
+    "title": "国内目前使用的 AI 智能问答软件，豆包、通义千问、元宝、 kimi 、 deepseek，哪个好用？",
+    "url": "https://www.zhihu.com/question/1922608207504867947",
+    "platform": "zhihu",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": null
+  },
+  {
+    "title": "AI真人微短剧爆火 演员会被替代吗",
+    "url": "https://www.baidu.com/s?wd=AI%E7%9C%9F%E4%BA%BA%E5%BE%AE%E7%9F%AD%E5%89%A7%E7%88%86%E7%81%AB+%E6%BC%94%E5%91%98%E4%BC%9A%E8%A2%AB%E6%9B%BF%E4%BB%A3%E5%90%97",
     "platform": "baidu",
     "rank": 0,
     "hot_value": null,
     "published_at": null
   },
   {
-    "title": "建议为AI生成内容添加不可去除水印",
-    "url": "https://www.baidu.com/s?wd=%E5%BB%BA%E8%AE%AE%E4%B8%BAAI%E7%94%9F%E6%88%90%E5%86%85%E5%AE%B9%E6%B7%BB%E5%8A%A0%E4%B8%8D%E5%8F%AF%E5%8E%BB%E9%99%A4%E6%B0%B4%E5%8D%B0",
+    "title": "甄子丹：机器人太厉害了 我可能打不过",
+    "url": "https://www.baidu.com/s?wd=%E7%94%84%E5%AD%90%E4%B8%B9%EF%BC%9A%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%AA%E5%8E%89%E5%AE%B3%E4%BA%86+%E6%88%91%E5%8F%AF%E8%83%BD%E6%89%93%E4%B8%8D%E8%BF%87",
     "platform": "baidu",
     "rank": 0,
     "hot_value": null,
     "published_at": null
   },
   {
-    "title": "19岁天才少年做AI应用年入2亿",
-    "url": "https://www.toutiao.com/trending/7612983983969668662/",
-    "platform": "toutiao",
+    "title": "博士用十年为机器人注入灵魂",
+    "url": "https://www.douyin.com/hot/2419302",
+    "platform": "douyin",
     "rank": 0,
     "hot_value": null,
     "published_at": null
   },
   {
-    "title": "阿里千问大模型技术负责人自宣卸任",
-    "url": "https://www.36kr.com/newsflashes/3707917194015106",
+    "title": "消息称特斯拉计划就大幅提升AI6芯片产能规模与三星电子磋商",
+    "url": "https://www.36kr.com/newsflashes/3708614282965382",
     "platform": "36kr",
     "rank": 0,
     "hot_value": null,
-    "published_at": "2026-03-04 00:48:51.412000+00:00"
+    "published_at": "2026-03-04 12:54:52.720000+00:00"
   },
   {
-    "title": "中信证券：AIDC供电系统升级迭代催生全新机遇，海外电网升级趋势明确",
-    "url": "https://www.36kr.com/newsflashes/3707907861197191",
-    "platform": "36kr",
-    "rank": 0,
-    "hot_value": null,
-    "published_at": "2026-03-04 00:39:51.412000+00:00"
-  },
-  {
-    "title": "马云和阿里蚂蚁核心管理层在云谷学校交流AI",
-    "url": "https://www.36kr.com/newsflashes/3707906508206212",
-    "platform": "36kr",
-    "rank": 0,
-    "hot_value": null,
-    "published_at": "2026-03-04 00:37:51.412000+00:00"
-  },
-  {
-    "title": "全国政协委员周鸿祎：建立“全国统筹+区域细化” 的推理算力布局体系",
-    "url": "https://www.36kr.com/newsflashes/3707901522735240",
-    "platform": "36kr",
-    "rank": 0,
-    "hot_value": null,
-    "published_at": "2026-03-04 00:32:51.412000+00:00"
-  },
-  {
-    "title": "挑战微软 GitHub：消息称 OpenAI 正秘密开发代码托管平台",
-    "url": "https://www.ithome.com/0/925/623.htm",
+    "title": "消息称 OpenAI 将发布上下文窗口超百万 Tokens 的 GPT-5.4，有“极限推理”能力",
+    "url": "https://www.ithome.com/0/925/992.htm",
     "platform": "ithome",
     "rank": 0,
     "hot_value": null,
     "published_at": null
   },
   {
-    "title": "希捷推出第二代商用 HAMR HDD 平台 Mozaic 魔彩盒 4+，单盘 44TB 创新纪录",
-    "url": "https://www.ithome.com/0/925/619.htm",
+    "title": "阿里千问 AI 硬件负责人宋刚：“AI 办事”将成为 AI 眼镜的刚需",
+    "url": "https://www.ithome.com/0/925/990.htm",
     "platform": "ithome",
     "rank": 0,
     "hot_value": null,
     "published_at": null
   },
   {
-    "title": "微软 Build 2026 开发者大会定档 6 月：直击 AI 核心，纳德拉将携众高管出席",
-    "url": "https://www.ithome.com/0/925/618.htm",
+    "title": "谷歌遭自杀者家属起诉，被指控旗下 Gemini AI 诱导暴力与自残",
+    "url": "https://www.ithome.com/0/925/985.htm",
     "platform": "ithome",
     "rank": 0,
     "hot_value": null,
     "published_at": null
   },
   {
-    "title": "英特尔董事会主席换人：Craig H. Barratt 将接替 Frank D. Yeary",
-    "url": "https://www.ithome.com/0/925/609.htm",
+    "title": "4499 元起苹果 iPhone 17e 开启预售：A19 芯片、叠加国补 + 以旧换新低至 3299 元",
+    "url": "https://www.ithome.com/0/925/979.htm",
     "platform": "ithome",
     "rank": 0,
     "hot_value": null,
     "published_at": null
   },
   {
-    "title": "敲代码不如“说”代码：AI 编程工具 Claude Code 陆续上线语音模式",
-    "url": "https://www.ithome.com/0/925/605.htm",
+    "title": "钻石散热走入 AI 服务器，Akash Systems 实现 H200 / MI350X 系统出货",
+    "url": "https://www.ithome.com/0/925/976.htm",
     "platform": "ithome",
     "rank": 0,
     "hot_value": null,
     "published_at": null
   },
   {
-    "title": "AI 爹味治好了：OpenAI 连夜爆出 GPT-5.4，紧急上新 GPT-5.3 反击谷歌",
-    "url": "https://www.ithome.com/0/925/604.htm",
+    "title": "牵手美国国防部后，消息称 OpenAI 正洽谈与北约展开 AI 合作",
+    "url": "https://www.ithome.com/0/925/967.htm",
     "platform": "ithome",
     "rank": 0,
     "hot_value": null,
     "published_at": null
   },
   {
-    "title": "IT早报 0304：苹果 M5 系列 MacBook Pro / Air 发布；微信公布 2 月朋友圈热度谣言；最高法公布五大网暴典型案例；政协委员建议禁止 16 岁以下使用社交平台...",
-    "url": "https://www.ithome.com/0/925/602.htm",
-    "platform": "ithome",
-    "rank": 0,
-    "hot_value": null,
-    "published_at": null
-  },
-  {
-    "title": "阿里千问大模型技术负责人自宣卸任",
-    "url": "https://wallstreetcn.com/livenews/3063116",
+    "title": "OpenAI与Trade Desk Inc.（TTD）围绕广告销售启动初步的磋商。（The Information）",
+    "url": "https://wallstreetcn.com/livenews/3063894",
     "platform": "wallstreetcn",
     "rank": 0,
     "hot_value": null,
-    "published_at": "2026-03-04 00:48:42+00:00"
+    "published_at": "2026-03-04 22:47:42+00:00"
+  },
+  {
+    "title": "Meta计划研发自研芯片，来训练自家的AI模型",
+    "url": "https://wallstreetcn.com/livenews/3063889",
+    "platform": "wallstreetcn",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": "2026-03-04 22:15:47+00:00"
+  },
+  {
+    "title": "博通：预计Anthropic将在2027（财务）年度带来3 GW算力需求。\n\n预计OpenAI将在2027年批量部署芯片。\n\nMeta的定制芯片路线图“正在推进之中，进展不错”。",
+    "url": "https://wallstreetcn.com/livenews/3063886",
+    "platform": "wallstreetcn",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": "2026-03-04 22:09:20+00:00"
+  },
+  {
+    "title": "博通：预计二季度AI芯片收入107亿美元。",
+    "url": "https://wallstreetcn.com/livenews/3063885",
+    "platform": "wallstreetcn",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": "2026-03-04 22:07:36+00:00"
+  },
+  {
+    "title": "周三（3月4日），存储芯片与硬件供应链指数涨3.90%，报105.81点，美股开盘后90分钟高开高走，随后平缓地逐步回吐涨幅。",
+    "url": "https://wallstreetcn.com/livenews/3063872",
+    "platform": "wallstreetcn",
+    "rank": 0,
+    "hot_value": null,
+    "published_at": "2026-03-04 21:30:08+00:00"
   }
 ]

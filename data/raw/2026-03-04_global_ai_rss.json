@@ -1,5 +1,82 @@
 [
   {
+    "title": "Anthropic CEO Dario Amodei calls OpenAI’s messaging around military deal ‘straight up lies,’ report says",
+    "summary": "Anthropic gave up its contract with the Pentagon over AI safety disagreements -- then, OpenAI swooped in.",
+    "url": "https://techcrunch.com/2026/03/04/anthropic-ceo-dario-amodei-calls-openais-messaging-around-military-deal-straight-up-lies-report-says/",
+    "source": "TechCrunch",
+    "published": "2026-03-04 22:40:05+00:00"
+  },
+  {
+    "title": "Apple Music to add Transparency Tags to distinguish AI music, says report",
+    "summary": "The label or distributor has to opt in to tagging their music as AI, so it's unclear how effective this intervention will be.",
+    "url": "https://techcrunch.com/2026/03/04/apple-music-to-add-transparency-tags-to-distinguish-ai-music-says-report/",
+    "source": "TechCrunch",
+    "published": "2026-03-04 21:43:58+00:00"
+  },
+  {
+    "title": "US and EU police shut down LeakBase, a site accused of sharing stolen passwords and hacking tools",
+    "summary": "Authorities say LeakBase was \"one of the world’s largest online forums for cybercriminals,\" and maintained an archive of hacked databases containing hundreds of millions of passwords.",
+    "url": "https://techcrunch.com/2026/03/04/u-s-and-eu-police-shut-down-leakbase-a-site-accused-of-sharing-stolen-passwords-and-hacking-tools/",
+    "source": "TechCrunch",
+    "published": "2026-03-04 19:01:55+00:00"
+  },
+  {
+    "title": "Google Search rolls out Gemini’s Canvas in AI Mode to all US users",
+    "summary": "Canvas in AI Mode is available to U.S. users in English for creating plans, projects, apps, and more.",
+    "url": "https://techcrunch.com/2026/03/04/https-techcrunch-com-2026-03-04-google-search-rolls-out-geminis-canvas-in-ai-mode-to-all-us-users/",
+    "source": "TechCrunch",
+    "published": "2026-03-04 18:50:58+00:00"
+  },
+  {
+    "title": "Decagon completes first tender offer at $4.5B valuation",
+    "summary": "The AI-powered customer support startup is the latest example of a fast-growing, young company that's providing employee liquidity.",
+    "url": "https://techcrunch.com/2026/03/04/decagon-completes-first-tender-offer-at-4-5b-valuation/",
+    "source": "TechCrunch",
+    "published": "2026-03-04 18:32:53+00:00"
+  },
+  {
+    "title": "The US military is still using Claude — but defense-tech clients are fleeing",
+    "summary": "As the U.S. continues its aerial attack on Iran, Anthropic models are being used for many targeting decisions.",
+    "url": "https://techcrunch.com/2026/03/04/the-us-military-is-still-using-claude-but-defense-tech-clients-are-fleeing/",
+    "source": "TechCrunch",
+    "published": "2026-03-04 17:20:01+00:00"
+  },
+  {
+    "title": "Father sues Google, claiming Gemini chatbot drove son into fatal delusion",
+    "summary": "A father is suing Google and Alphabet, alleging its Gemini chatbot reinforced his son’s delusional belief it was his AI wife and coached him toward suicide and a planned airport attack.",
+    "url": "https://techcrunch.com/2026/03/04/father-sues-google-claiming-gemini-chatbot-drove-son-into-fatal-delusion/",
+    "source": "TechCrunch",
+    "published": "2026-03-04 14:58:36+00:00"
+  },
+  {
+    "title": "Meet the MacBook Neo, Apple’s colorful answer to the Chromebook, starting at $599",
+    "summary": "Apple is offering the MacBook Neo at a more affordable price point by using an A18 Pro chip, which is used in the iPhone 16 Pro.",
+    "url": "https://techcrunch.com/2026/03/04/meet-the-macbook-neo-apples-colorful-answer-to-the-chromebook-starting-at-599/",
+    "source": "TechCrunch",
+    "published": "2026-03-04 14:57:17+00:00"
+  },
+  {
+    "title": "One startup’s pitch to provide more reliable AI answers: Crowdsource the chatbots",
+    "summary": "CollectivIQ looks to give users more accurate answers to their AI queries by showing them responses that pull information from ChatGPT, Gemini, Claude, Grok — and up to 10 other models — all at the same time.",
+    "url": "https://techcrunch.com/2026/03/04/one-startups-pitch-to-provide-more-reliable-ai-answers-crowdsource-the-chatbots/",
+    "source": "TechCrunch",
+    "published": "2026-03-04 14:00:00+00:00"
+  },
+  {
+    "title": "Who needs data centers in space when they can float offshore?",
+    "summary": "Offshore wind developer Aikido will deploy a small data center beneath a floating offshore wind turbine later this year.",
+    "url": "https://techcrunch.com/2026/03/04/who-needs-data-centers-in-space-when-they-can-float-offshore/",
+    "source": "TechCrunch",
+    "published": "2026-03-04 12:00:00+00:00"
+  },
+  {
+    "title": "Eight Sleep raises $50M at $1.5B valuation",
+    "summary": "Eight Sleep said it was free-cash-flow positive in 2025 and plans to use the new funding for new products, global expansions, and clinical validation.",
+    "url": "https://techcrunch.com/2026/03/04/eight-sleep-raises-50m-at-1-5b-valuation/",
+    "source": "TechCrunch",
+    "published": "2026-03-04 11:00:00+00:00"
+  },
+  {
     "title": "Why AI startups are selling the same equity at two different prices",
     "summary": "Some AI founders are using a novel valuation mechanism to manufacture unicorn status.",
     "url": "https://techcrunch.com/2026/03/03/why-ai-startups-are-selling-the-same-equity-at-two-different-prices/",
@@ -14,382 +91,256 @@
     "published": "2026-03-03 23:16:36+00:00"
   },
   {
-    "title": "Just three companies dominated the $189B in VC investments last month",
-    "summary": "Crunchbase data shows a record $189 billion of global venture capital flowed to startups last month, with AI startups nabbing 90% of the capital.",
-    "url": "https://techcrunch.com/2026/03/03/openai-anthropic-waymo-dominated-189-billion-vc-investments-february-crunchbase-report/",
-    "source": "TechCrunch",
-    "published": "2026-03-03 22:38:58+00:00"
-  },
-  {
-    "title": "AI companies are spending millions to thwart this former tech exec’s congressional bid",
-    "summary": "A tech billionaire-backed super PAC is spending $125 million to undercut candidates pushing for AI regulation. New York's Alex Bores, a former tech executive himself, is one of them.",
-    "url": "https://techcrunch.com/2026/03/03/ai-companies-are-spending-millions-to-thwart-this-former-tech-execs-congressional-bid/",
-    "source": "TechCrunch",
-    "published": "2026-03-03 21:44:09+00:00"
-  },
-  {
-    "title": "ChatGPT’s new GPT-5.3 Instant model will stop telling you to calm down",
-    "summary": "The company says the new model will reduce the \"cringe\" that's been annoying its users for months.",
-    "url": "https://techcrunch.com/2026/03/03/chatgpts-new-gpt-5-3-instant-model-will-stop-telling-you-to-calm-down/",
-    "source": "TechCrunch",
-    "published": "2026-03-03 20:20:56+00:00"
-  },
-  {
-    "title": "Anduril aims at $60 billion valuation in new funding round",
-    "summary": "The funding round would come less than a year after Anduril's Series G, which closed in June with $2.5 billion against a $30 billion valuation.",
-    "url": "https://techcrunch.com/2026/03/03/anduril-aims-at-60-billion-valuation-in-new-funding-round/",
-    "source": "TechCrunch",
-    "published": "2026-03-03 20:06:45+00:00"
-  },
-  {
-    "title": "Claude Code rolls out a voice mode capability",
-    "summary": "Anthropic is stepping up its game in the AI coding space with the rollout of Voice Mode in Claude Code.",
-    "url": "https://techcrunch.com/2026/03/03/claude-code-rolls-out-a-voice-mode-capability/",
-    "source": "TechCrunch",
-    "published": "2026-03-03 20:02:10+00:00"
-  },
-  {
-    "title": "Android users can now share tracker tag info with airlines to help locate lost luggage",
-    "summary": "More than 10 global airlines now accept Find Hub locations as part of their baggage recovery process.",
-    "url": "https://techcrunch.com/2026/03/03/android-users-can-now-share-tracker-tag-info-with-airlines-to-help-locate-lost-luggage/",
-    "source": "TechCrunch",
-    "published": "2026-03-03 19:00:00+00:00"
-  },
-  {
-    "title": "X says it will suspend creators from revenue-sharing program for unlabeled AI posts of ‘armed conflict’",
-    "summary": "Creators who break the rules will get a three-month suspension, and if they continue to violate the policy, they'll be permanently banned.",
-    "url": "https://techcrunch.com/2026/03/03/x-says-it-will-suspend-creators-from-revenue-sharing-program-for-unlabeled-ai-posts-of-armed-conflict/",
-    "source": "TechCrunch",
-    "published": "2026-03-03 18:27:47+00:00"
-  },
-  {
-    "title": "The new MacBook Pro laptops are as much as $400 more expensive than their predecessors. Thank the RAM shortage.",
-    "summary": "With the demands for more computers and data centers to power AI, the market is experiencing a shortage of RAM, causing memory prices to surge.",
-    "url": "https://techcrunch.com/2026/03/03/apple-new-macbook-pro-laptop-price-more-expensive-than-previous-models-ram-memory-shortage/",
-    "source": "TechCrunch",
-    "published": "2026-03-03 17:39:35+00:00"
-  },
-  {
-    "title": "Hacked traffic cams and hijacked TVs: How cyber operations supported the war against Iran",
-    "summary": "After U.S. and Israeli forces started bombing Iran, reports say cyber operations have disrupted communications, supported surveillance activities, and have been used in psychological operations.",
-    "url": "https://techcrunch.com/2026/03/03/hacked-traffic-cams-and-hijacked-tvs-how-cyber-operations-supported-the-war-against-iran/",
-    "source": "TechCrunch",
-    "published": "2026-03-03 17:37:59+00:00"
-  },
-  {
-    "title": "Activist investor Elliott takes a $1B stake in Pinterest, betting on AI-driven growth",
-    "summary": "The news comes as Pinterest has faced serious headwinds. Shares tumbled over the past year, with disappointing earnings, layoffs affecting 15% of its workforce, a declining ad business, and increased rivalry from AI chatbots.",
-    "url": "https://techcrunch.com/2026/03/03/activist-investor-elliot-takes-a-1b-stake-in-pinterest-betting-on-ai-driven-growth/",
-    "source": "TechCrunch",
-    "published": "2026-03-03 17:27:37+00:00"
-  },
-  {
-    "title": "Apple unveils new MacBook Air and MacBook Pro with M5",
-    "summary": "These updated M5 chips were specifically designed to make the MacBook Air and MacBook Pro laptops better at handling intensive AI tasks.",
-    "url": "https://techcrunch.com/2026/03/03/apple-unveils-new-macbook-air-and-macbook-pro-with-m5/",
-    "source": "TechCrunch",
-    "published": "2026-03-03 15:41:36+00:00"
-  },
-  {
-    "title": "What Trump’s war on Iran means for the US energy crunch",
-    "summary": "Fuel prices surged after the Trump administration launched strikes against Iran on Saturday, immediately raising questions about whether the war would increase energy costs for Americans, put more pressure on power grids, and push companies to pump out more oil and gas in the US. If conflict drags o",
-    "url": "https://www.theverge.com/science/888526/what-trumps-war-on-iran-means-for-the-us-energy-crunch",
+    "title": "The new MacBook Air debuts with a $50 gift card as the M4 model hits its best price",
+    "summary": "Powered by the new M5 chip, Apple’s latest MacBook Airs are more powerful than ever with double the base storage (512GB), but they also cost $100 more than their predecessor. Fortunately, though, we’ve found a few ways to save. Best Buy is offering the new 13-inch M5-powered MacBook Air for $1,099 w",
+    "url": "https://www.theverge.com/gadgets/889391/apple-macbook-air-m5-m4-deal-sale",
     "source": "The Verge",
-    "published": "2026-03-03 21:41:25+00:00"
+    "published": "2026-03-04 20:23:41+00:00"
   },
   {
-    "title": "The best AirPods deals you can get right now",
-    "summary": "If you know where to look, you can often score deals on Apple’s ever-expanding AirPods lineup. Both the AirPods Max and AirPods 4 (with and without ANC) now consistently receive discounts, as do the newer AirPods Pro 3. And while more recent shopping events like Black Friday and Cyber Monday deliver",
-    "url": "https://www.theverge.com/21302051/best-apple-airpods-deals",
+    "title": "The world’s biggest automaker has one of the dirtiest supply chains: report",
+    "summary": "Tesla, Ford, and Volvo occupy the top three spots in a new ranking of 18 global automakers based on their efforts to eliminate carbon emissions, environmental harms, and human rights violations from their supply chains. Toyota, meanwhile, lurks near the bottom of the list, underscoring the persisten",
+    "url": "https://www.theverge.com/transportation/889145/lead-the-charge-supply-chain-leaderboard-toyota-tesla",
     "source": "The Verge",
-    "published": "2026-03-03 21:00:00+00:00"
+    "published": "2026-03-04 20:22:27+00:00"
   },
   {
-    "title": "Another Oracle outage is messing up US TikTok",
-    "summary": "The US version of TikTok is once again experiencing issues due to an Oracle outage, just a month after coming back online from a similar outage in February. The service disruption, impacting Oracle's Ashburn, Virginia data center, began early Tuesday afternoon, with Downdetector reports spiking arou",
-    "url": "https://www.theverge.com/tech/888647/tiktok-us-oracle-outage-march-2026",
+    "title": "Console exclusives might be making a comeback",
+    "summary": "The near future of game consoles could look a lot like the past. Once a hallmark of the industry, over the last few years console-exclusive games have steadily become rare, as the likes of Sony and Microsoft experimented with offering titles on multiple platforms. Heck, who knows what an Xbox even i",
+    "url": "https://www.theverge.com/entertainment/889336/console-exclusives-comeback",
     "source": "The Verge",
-    "published": "2026-03-03 20:26:21+00:00"
+    "published": "2026-03-04 20:15:00+00:00"
   },
   {
-    "title": "Highguard is shutting down this month",
-    "summary": "Another high-profile live-service game is shutting down soon after launch: this time it's the free-to-play squad shooter Highguard. Developer Wildlight Entertainment says that, even though Highguard reached 2 million players, the game will be shut down permanently on March 12th. That's less than two",
-    "url": "https://www.theverge.com/games/880206/highguard-shut-down",
+    "title": "Google’s AI-powered workspace is now available to more users in Search",
+    "summary": "Google is bringing Canvas to everyone in the US using AI Mode in Search. The feature opens up a dedicated workspace within its AI-powered search tool, allowing it to use the latest information from Search to organize plans, develop tools, and draft documents in a panel alongside your chat. Though Go",
+    "url": "https://www.theverge.com/tech/889339/google-canvas-ai-mode-search-us-launch",
     "source": "The Verge",
-    "published": "2026-03-03 20:16:03+00:00"
+    "published": "2026-03-04 18:57:01+00:00"
   },
   {
-    "title": "Shark’s latest robot vacuum hunts stains with UV light",
-    "summary": "The Shark PowerDetect UV Reveal is SharkNinja's latest robot vacuum and mop. A flagship model with a multifunctional dock that empties the dustbin and refills and washes its mop, the Reveal's signature feature is a UV light designed to \"find\" stains on your floors. It costs $1,299.99 and is availabl",
-    "url": "https://www.theverge.com/tech/888179/shark-powerdetect-uv-reveal-robot-vacuum-review",
+    "title": "Google isn’t waiting for a settlement — the 30 percent Android app store fee is dead",
+    "summary": "In November, Epic and Google jointly proposed a settlement that would change Android's fate globally without cracking open Google's Android monopoly quite the way it otherwise might. Today, Google has decided it's not waiting for that settlement to be approved: it's moving forward with many of its p",
+    "url": "https://www.theverge.com/policy/889252/google-app-store-fee-reduction-20-percent-epic-v-google",
     "source": "The Verge",
-    "published": "2026-03-03 20:07:38+00:00"
+    "published": "2026-03-04 18:09:30+00:00"
   },
   {
-    "title": "Android’s Find Hub adds iPhone-like luggage tracking links",
-    "summary": "Google is rolling out an Android update that includes the ability to share the location of your missing luggage with an airline. It's similar to the luggage-tracking feature Apple brought to the iPhone, allowing you to view the location of your Find Hub tag or accessory on a map, and provide your ai",
-    "url": "https://www.theverge.com/tech/888200/google-android-find-hub-luggage-tracking",
-    "source": "The Verge",
-    "published": "2026-03-03 19:00:00+00:00"
-  },
-  {
-    "title": "Google’s latest Pixel drop allows Gemini to order groceries for you and more",
-    "summary": "Google is adding several new features to Pixel phones with its latest March update, including the ability for its Gemini AI assistant to do things for you, like order groceries or book a ride. This feature, which was first shown off during Samsung's Unpacked event last week, is rolling out now to th",
-    "url": "https://www.theverge.com/tech/888295/google-gemini-pixel-drop-march-2026",
-    "source": "The Verge",
-    "published": "2026-03-03 19:00:00+00:00"
-  },
-  {
-    "title": "FCC chair calls Paramount/WBD merger \"a lot cleaner\" than defunct Netflix deal",
-    "summary": "FCC to review foreign debt, but Carr indicates it will be a formality.",
-    "url": "https://arstechnica.com/tech-policy/2026/03/trump-fcc-chair-paramount-warner-bros-merger-likely-to-get-quick-approval/",
+    "title": "Lawsuit: Google Gemini sent man on violent missions, set suicide \"countdown\"",
+    "summary": "Gemini allegedly called man its \"husband,\" said they could be together in death.",
+    "url": "https://arstechnica.com/tech-policy/2026/03/lawsuit-google-gemini-sent-man-on-violent-missions-set-suicide-countdown/",
     "source": "Ars Technica",
-    "published": "2026-03-03 22:05:36+00:00"
+    "published": "2026-03-04 20:29:14+00:00"
   },
   {
-    "title": "What we can learn from scientific analysis of Renaissance recipes",
-    "summary": "Multispectral imaging, proteomics, historical texts yield new insights into 16th-century medical manuals.",
-    "url": "https://arstechnica.com/science/2026/03/renaissance-diy-science-people-tested-tweaked-home-remedy-recipes/",
+    "title": "After a rocky six years, Sony cancels future single-player PC game releases",
+    "summary": "Titles like Ghost of Yotei will remain exclusive to Sony's hardware.",
+    "url": "https://arstechnica.com/gaming/2026/03/sony-wont-bring-any-more-single-player-playstation-games-to-pc/",
     "source": "Ars Technica",
-    "published": "2026-03-03 20:23:23+00:00"
+    "published": "2026-03-04 19:17:59+00:00"
   },
   {
-    "title": "There are plenty of great choices if you want to spend less than $15K on an EV",
-    "summary": "There's a lot of good Hyundai and Kia EVs in this price bracket, plus the Bolt and i3.",
-    "url": "https://arstechnica.com/cars/2026/03/there-are-plenty-of-great-choices-if-you-want-to-spend-less-than-15k-on-an-ev/",
+    "title": "The $599 MacBook Neo is Apple's long-awaited colorful, lower-cost MacBook",
+    "summary": "Cute, colorful laptop takes the place of the old $599 M1 MacBook Air.",
+    "url": "https://arstechnica.com/gadgets/2026/03/the-599-macbook-neo-is-apples-long-awaited-colorful-lower-cost-macbook/",
     "source": "Ars Technica",
-    "published": "2026-03-03 19:58:10+00:00"
+    "published": "2026-03-04 14:18:55+00:00"
   },
   {
-    "title": "M5 Pro and M5 Max are surprisingly big departures from older Apple Silicon",
-    "summary": "Apple is using more chiplets and three types of CPU cores to make the M5 family.",
-    "url": "https://arstechnica.com/gadgets/2026/03/m5-pro-and-m5-max-are-surprisingly-big-departures-from-older-apple-silicon/",
-    "source": "Ars Technica",
-    "published": "2026-03-03 18:41:29+00:00"
-  },
-  {
-    "title": "New MacBook Airs come with M5, double the storage, and higher starting prices",
-    "summary": "New Airs leave more room underneath for the rumored low-cost MacBook.",
-    "url": "https://arstechnica.com/gadgets/2026/03/new-macbook-airs-come-with-m5-double-the-storage-and-higher-starting-prices/",
-    "source": "Ars Technica",
-    "published": "2026-03-03 15:58:55+00:00"
-  },
-  {
-    "title": "Apple intros M5 Pro and Max MacBook Pros and its first new monitors in years",
-    "summary": "New laptops come with more storage but also higher starting prices.",
-    "url": "https://arstechnica.com/gadgets/2026/03/apple-intros-m5-pro-and-max-macbook-pros-and-its-first-new-monitors-in-years/",
-    "source": "Ars Technica",
-    "published": "2026-03-03 15:19:43+00:00"
-  },
-  {
-    "title": "Medical journal The Lancet blasts RFK Jr.’s health work as a failure",
-    "summary": "Kennedy's destruction \"might take generations to repair,\" The Lancet said.",
-    "url": "https://arstechnica.com/health/2026/03/medical-journal-the-lancet-blasts-rfk-jr-s-health-work-as-a-failure/",
-    "source": "Ars Technica",
-    "published": "2026-03-03 13:24:33+00:00"
-  },
-  {
-    "title": "LLMs can unmask pseudonymous users at scale with surprising accuracy",
-    "summary": "Pseudonymity has never been perfect for preserving privacy. Soon it may be pointless.",
-    "url": "https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/",
-    "source": "Ars Technica",
-    "published": "2026-03-03 12:30:24+00:00"
-  },
-  {
-    "title": "With developer verification, Google's Apple envy threatens to dismantle Android's open legacy",
-    "summary": "Questions remain as Google prepares to lock down Android app distribution in the name of security.",
-    "url": "https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/",
-    "source": "Ars Technica",
-    "published": "2026-03-03 12:00:30+00:00"
-  },
-  {
-    "title": "Apple’s New MacBook Air and MacBook Pro Have New Chips, More Storage, and Higher Prices",
-    "summary": "Apple also announced two new pricey Studio Display computer monitors. If you're waiting on that rumored entry-level MacBook, the company seems to be saving it for its March 4 media event.",
-    "url": "https://www.wired.com/story/apple-macbook-macbook-air-m5-macbook-pro-m5-pro-m5-max-2026/",
+    "title": "Big Tech Signs White House Data Center Pledge With Good Optics and Little Substance",
+    "summary": "“Data centers … they need some PR help,”President Donald Trump said at the event.",
+    "url": "https://www.wired.com/story/big-tech-signs-white-house-data-center-pledge-with-good-optics-not-much-substance/",
     "source": "Wired",
-    "published": "2026-03-03 14:45:03+00:00"
+    "published": "2026-03-04 22:13:27+00:00"
   },
   {
-    "title": "Shark UV Reveal Review (2026): UV Light Mode",
-    "summary": "The UV light built into Shark’s newest robot vacuum is on a quest to embarrass me with how many stains it's spotted.",
-    "url": "https://www.wired.com/review/shark-powerdetect-uv-reveal/",
+    "title": "What AI Models for War Actually Look Like",
+    "summary": "While companies like Anthropic debate limits on military uses of AI, Smack Technologies is training models to plan battlefield operations.",
+    "url": "https://www.wired.com/story/ai-model-military-use-smack-technologies/",
     "source": "Wired",
-    "published": "2026-03-03 13:31:00+00:00"
+    "published": "2026-03-04 22:00:03+00:00"
   },
   {
-    "title": "How to Monitor Your Blood Pressure at Home (2026)",
-    "summary": "There have never been so many ways to check for hypertension. Here’s what's available and how to use them.",
-    "url": "https://www.wired.com/story/how-to-monitor-blood-pressure-at-home/",
+    "title": "Which iPhone 17 Model Should You Buy?",
+    "summary": "The iPhone 17e is here to fill out Apple’s smartphone lineup. Our primer on the differences and similarities of these iPhones can help you shop.",
+    "url": "https://www.wired.com/story/which-apple-iphone-17-models-to-buy/",
     "source": "Wired",
-    "published": "2026-03-03 12:00:00+00:00"
+    "published": "2026-03-04 20:00:00+00:00"
   },
   {
-    "title": "Amazon Web Services Confirms Damage After Middle East Drone Strikes",
-    "summary": "The strikes in Bahrain and the UAE caused structural damage, disrupted power delivery and, in some cases, sparked fires and caused water damage.",
-    "url": "https://www.cnet.com/tech/services-and-software/amazon-web-services-damage-middle-east-drone-strikes/",
+    "title": "How Vulnerable Are Computers to an 80-Year-Old Spy Technique? Congress Wants Answers",
+    "summary": "A pair of US lawmakers are calling for an investigation into how easily spies can steal information based on devices’ electromagnetic and acoustic leaks—a spying trick the NSA once codenamed TEMPEST.",
+    "url": "https://www.wired.com/story/how-vulnerable-are-computers-to-an-80-year-old-spy-technique-congress-wants-answers/",
+    "source": "Wired",
+    "published": "2026-03-04 19:00:00+00:00"
+  },
+  {
+    "title": "Google Pixel 10a Review: Sensible Value",
+    "summary": "It may not offer much new, but the Pixel 10a remains one of the best smartphones in the US for under $500.",
+    "url": "https://www.wired.com/review/google-pixel-10a/",
+    "source": "Wired",
+    "published": "2026-03-04 17:00:00+00:00"
+  },
+  {
+    "title": "16 Best Air Purifiers (2026): Coway, AirDoctor, IQAir",
+    "summary": "Protect your home against dust, pets, allergies, and more with air purifiers tested firsthand by WIRED.",
+    "url": "https://www.wired.com/gallery/best-air-purifiers/",
+    "source": "Wired",
+    "published": "2026-03-04 11:31:00+00:00"
+  },
+  {
+    "title": "Some People See Aliens While on DMT. Researchers Want to Find Out What They Can Teach Us",
+    "summary": "A new psychedelic retreat calling itself a “SETI for the mind” aims to establish two-way communication with the nonhuman entities people encounter while tripping on DMT.",
+    "url": "https://www.wired.com/story/some-people-see-aliens-while-on-dmt-researchers-want-to-find-out-what-they-can-teach-us/",
+    "source": "Wired",
+    "published": "2026-03-04 11:30:00+00:00"
+  },
+  {
+    "title": "How Is Kalshi Not Gambling?",
+    "summary": "On Kalshi, people have placed bets on everything from football games to foreign affairs. The prediction market’s CEO, Tarek Mansour, says this doesn’t count as gambling—and is actually good for society.",
+    "url": "https://www.wired.com/story/big-interview-tarek-mansour-kalshi/",
+    "source": "Wired",
+    "published": "2026-03-04 11:00:00+00:00"
+  },
+  {
+    "title": "Best Theraguns and Therabody Tools for Smarter Recovery (2026)",
+    "summary": "From massage guns to compression boots and LED face masks, these are the top performers in Therabody’s wellness lineup.",
+    "url": "https://www.wired.com/gallery/best-theragun-percussive-therapy-devices/",
+    "source": "Wired",
+    "published": "2026-03-04 10:30:00+00:00"
+  },
+  {
+    "title": "What It’s Like to Have a Brain Implant for 5 Years",
+    "summary": "No one has had a Synchron brain-computer interface longer than Rodney Gorham. He’s still finding new ways to use it.",
+    "url": "https://www.wired.com/story/synchron-brain-computer-interface-five-years-als/",
+    "source": "Wired",
+    "published": "2026-03-04 10:00:00+00:00"
+  },
+  {
+    "title": "Barkbox Promo Codes and Discounts: Up to 50% Off",
+    "summary": "Save on Barkbox subscriptions, including monthly themed collections of plush toys, tough chews, and healthy snacks designed to keep your pup’s tail wagging.",
+    "url": "https://www.wired.com/story/barkbox-promo-code/",
+    "source": "Wired",
+    "published": "2026-03-04 06:00:00+00:00"
+  },
+  {
+    "title": "X Targets Paid Creators Who Don't Label AI-Generated War Content",
+    "summary": "It's unclear if this policy will eventually apply to all creators on the platform.",
+    "url": "https://www.cnet.com/tech/services-and-software/x-paid-creators-ai-generated-war-content/",
     "source": "CNET",
-    "published": "2026-03-04 00:18:08+00:00"
+    "published": "2026-03-04 22:08:00+00:00"
   },
   {
-    "title": "Best iPhone in 2026: Here's Which Apple Phone You Should Buy",
-    "summary": "Apple now sells more iPhone models than ever, and we've tested everything available. From the iPhone Air and iPhone 17 to the iPhone 16E and iPhone 17 Pro, we have recommendations that will work for your budget and needs.",
-    "url": "https://www.cnet.com/tech/mobile/best-iphone/",
+    "title": "Apple Debuts the $599 iPhone 17E With MagSafe, and It Comes in Pink",
+    "summary": "The follow-up to the 2025 iPhone 16E comes with twice the base storage of last year's budget device.",
+    "url": "https://www.cnet.com/news-live/iphone-17e-launch/",
     "source": "CNET",
-    "published": "2026-03-04 00:00:00+00:00"
+    "published": "2026-03-04 22:07:00+00:00"
   },
   {
-    "title": "iPad Air vs. iPad (and iPad Pro): How to Decide?",
-    "summary": "A new iPad Air has made the decision a little more complicated.",
-    "url": "https://www.cnet.com/tech/computing/ipad-air-vs-ipad-and-ipad-pro-how-to-decide/",
+    "title": "LG's G6 OLED TV Offers Even Higher Brightness, Comes Out in March",
+    "summary": "The LG G6 is 20% brighter than the older model and now delivers an enhanced, antireflective coating.",
+    "url": "https://www.cnet.com/tech/home-entertainment/lgs-g6-oled-tv/",
     "source": "CNET",
-    "published": "2026-03-03 23:02:00+00:00"
+    "published": "2026-03-04 20:05:00+00:00"
   },
   {
-    "title": "Meta Enters the AI Shopping Wars to Challenge ChatGPT and Gemini",
-    "summary": "Mark Zuckerberg's company begins a partial rollout of its agentic AI shopping research tool.",
-    "url": "https://www.cnet.com/tech/services-and-software/meta-new-ai-shopping-tool/",
+    "title": "Concierge Bots, Autonomous Carts and Smart Tags: Welcome to MWC's Airport of the Future",
+    "summary": "Your airport could someday be much more tech-infused. Here's what that might look like.",
+    "url": "https://www.cnet.com/tech/mobile/airport-of-the-future-mwc-2026/",
     "source": "CNET",
-    "published": "2026-03-03 22:47:00+00:00"
+    "published": "2026-03-04 18:30:00+00:00"
   },
   {
-    "title": "Best Budget Laptops I've Tested: Cheap Computers for Every Use",
-    "summary": "From inexpensive Windows models to affordable MacBooks and even a cheap Copilot Plus PC, these are my favorite low-cost, high-value laptops that I've tested and reviewed.",
-    "url": "https://www.cnet.com/tech/computing/best-budget-laptop/",
+    "title": "Best Desks of 2026: I’ve Spent Nearly 4,000 Hours Testing Desks. These Are the Ones You Want",
+    "summary": "Refresh your office with one of the best desks available today.",
+    "url": "https://www.cnet.com/news/best-desks/",
     "source": "CNET",
-    "published": "2026-03-03 22:19:00+00:00"
+    "published": "2026-03-04 17:51:00+00:00"
   },
   {
-    "title": "Supreme Court Declines Case on Granting Copyright to AI-Created Art",
-    "summary": "A piece of AI-generated art is still the subject of a prolonged legal fight, 14 years after its creation.",
-    "url": "https://www.cnet.com/tech/services-and-software/supreme-court-declines-case-on-granting-copyright-to-ai-created-art/",
+    "title": "Apple Debuts Budget MacBook Neo for $599",
+    "summary": "It has a 13-inch display powered by an A18 Pro chip, and you can get it in a rainbow of colors.",
+    "url": "https://www.cnet.com/tech/computing/apple-debuts-budget-macbook-neo-for-599/",
     "source": "CNET",
-    "published": "2026-03-03 21:28:00+00:00"
+    "published": "2026-03-04 17:50:00+00:00"
   },
   {
-    "title": "Google's New 'Find the Look' Feature Is Expanding to Pixel, and It Nailed My Outfit",
-    "summary": "The AI-powered visual search tool that debuted on the Samsung Galaxy S26 is now on Pixel phones too, and it's dangerously good at helping me shop. RIP my bank account.",
-    "url": "https://www.cnet.com/tech/mobile/samsungs-galaxy-s26-circle-to-search-google-ai-full-outift/",
+    "title": "Google's Gemini AI Drove Man Into Deadly Delusion, Family Claims in Lawsuit",
+    "summary": "A lawsuit filed by the family of Jonathan Gavalas alleges Google's AI encouraged harmful behavior that posed a risk to public safety and ultimately led to his suicide.",
+    "url": "https://www.cnet.com/tech/services-and-software/gemini-ai-jonathan-gavalas-wrongful-death-lawsuit-march-2026/",
     "source": "CNET",
-    "published": "2026-03-03 20:30:38+00:00"
+    "published": "2026-03-04 17:22:26+00:00"
   },
   {
-    "title": "Apple Accidentally Leaks Potential Budget MacBook Ahead of Big Event",
-    "summary": "The 'MacBook Neo' just showed up in Apple's regulatory documents. Could this be the budget MacBook we've been waiting for?",
-    "url": "https://www.cnet.com/tech/computing/apple-accidentally-leaks-potential-budget-macbook-ahead-of-big-event/",
+    "title": "My Pixel 10A Review: An Entry Point to Android for iPhone Owners",
+    "summary": "The Pixel 10A won't replace Google's Pixel 10, but its lower-than-Apple price combined with AirDrop might make it easier to switch from iOS.",
+    "url": "https://www.cnet.com/tech/mobile/google-pixel-10a-review/",
     "source": "CNET",
-    "published": "2026-03-03 19:48:00+00:00"
+    "published": "2026-03-04 17:01:03+00:00"
   },
   {
-    "title": "Best Home Security Cameras With Floodlights in 2026: Smart and Bright",
-    "summary": "Today's home cameras can dazzle with powerful LEDs: These are the models that impressed me the most.",
-    "url": "https://www.cnet.com/home/security/best-floodlight-home-security-cameras/",
+    "title": "NotebookLM's Video Overviews Just Got Better Thanks to a Trifecta of Google's AI Models",
+    "summary": "Cinematic Video Overviews are a new option available for Google AI Ultra subscribers.",
+    "url": "https://www.cnet.com/tech/services-and-software/notebooklm-video-overviews-better-trifecta-google-ai-models/",
     "source": "CNET",
-    "published": "2026-03-03 19:37:00+00:00"
+    "published": "2026-03-04 17:01:02+00:00"
   },
   {
-    "title": "The New M5 MacBook Air Is Here: Should You Upgrade?",
-    "summary": "Come for the new processor, stay for the greater storage.",
-    "url": "https://www.cnet.com/tech/computing/the-new-m5-macbook-air-is-here-should-you-upgrade/",
-    "source": "CNET",
-    "published": "2026-03-03 19:21:00+00:00"
-  },
-  {
-    "title": "Vivo's X300 Ultra Aims to Catapult You Into Hollywood Stardom",
-    "summary": "With a wealth of pro video-focused tools on board, the latest flagship phone from Vivo could be a video creator's dream.",
-    "url": "https://www.cnet.com/tech/mobile/vivo-x300-ultra-review-mwc-2026/",
-    "source": "CNET",
-    "published": "2026-03-03 18:20:15+00:00"
-  },
-  {
-    "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
-    "summary": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet.",
-    "url": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
-    "source": "Google DeepMind",
-    "published": "2026-03-03 16:35:55+00:00"
-  },
-  {
-    "title": "PRX Part 3 — Training a Text-to-Image Model in 24h!",
-    "summary": "",
-    "url": "https://huggingface.co/blog/Photoroom/prx-part3",
-    "source": "Hugging Face",
-    "published": "2026-03-03 16:50:49+00:00"
-  },
-  {
-    "title": "How to Minimize Game Runtime Inference Costs with Coding Agents",
-    "summary": "NVIDIA ACE is a suite of technologies for building AI agents for gaming. ACE provides ready-to-integrate cloud and on-device AI models for every part of in-game...",
-    "url": "https://developer.nvidia.com/blog/how-to-minimize-game-runtime-inference-costs-with-coding-agents/",
+    "title": "Tuning Flash Attention for Peak Performance in NVIDIA CUDA Tile",
+    "summary": "In this post, we dive into one of the most critical workloads in modern AI: Flash Attention, where you’ll learn: How to implement Flash Attention using NVIDIA...",
+    "url": "https://developer.nvidia.com/blog/tuning-flash-attention-for-peak-performance-in-nvidia-cuda-tile/",
     "source": "NVIDIA Blog",
-    "published": "2026-03-03 19:49:57+00:00"
+    "published": "2026-03-04 17:00:00+00:00"
   },
   {
-    "title": "cuTile.jl Brings NVIDIA CUDA Tile-Based Programming to Julia",
-    "summary": "NVIDIA CUDA Tile is one of the most significant additions to NVIDIA CUDA programming and unlocks automatic access to tensor cores and other specialized...",
-    "url": "https://developer.nvidia.com/blog/cutile-jl-brings-nvidia-cuda-tile-based-programming-to-julia/",
-    "source": "NVIDIA Blog",
-    "published": "2026-03-03 19:48:16+00:00"
-  },
-  {
-    "title": "GPT‑5.3 Instant",
-    "summary": "Article URL: https://openai.com/index/gpt-5-3-instant/\nComments URL: https://news.ycombinator.com/item?id=47236169\nPoints: 283\n# Comments: 207",
-    "url": "https://openai.com/index/gpt-5-3-instant/",
+    "title": "Father claims Google's AI product fuelled son's delusional spiral",
+    "summary": "Article URL: https://www.bbc.com/news/articles/czx44p99457o\nComments URL: https://news.ycombinator.com/item?id=47252838\nPoints: 147\n# Comments: 177",
+    "url": "https://www.bbc.com/news/articles/czx44p99457o",
     "source": "Hacker News AI",
-    "published": "2026-03-03 17:57:33+00:00"
+    "published": "2026-03-04 19:48:07+00:00"
   },
   {
-    "title": "When AI writes the software, who verifies it?",
-    "summary": "Article URL: https://leodemoura.github.io/blog/2026/02/28/when-ai-writes-the-worlds-software.html\nComments URL: https://news.ycombinator.com/item?id=47234917\nPoints: 133\n# Comments: 128",
-    "url": "https://leodemoura.github.io/blog/2026/02/28/when-ai-writes-the-worlds-software.html",
+    "title": "Did Alibaba just kneecap its powerful Qwen AI team?",
+    "summary": "Article URL: https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in\nComments URL: https://news.ycombinator.com/item?id=47246746\nPoints: 126\n# Comments: 36",
+    "url": "https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in",
     "source": "Hacker News AI",
-    "published": "2026-03-03 16:34:53+00:00"
+    "published": "2026-03-04 12:54:04+00:00"
   },
   {
-    "title": "AI-generated art can’t be copyrighted after Supreme Court declines review",
-    "summary": "Article URL: https://www.theverge.com/policy/887678/supreme-court-ai-art-copyright\nComments URL: https://news.ycombinator.com/item?id=47232289\nPoints: 157\n# Comments: 120",
-    "url": "https://www.theverge.com/policy/887678/supreme-court-ai-art-copyright",
+    "title": "Cancel ChatGPT AI boycott surges after OpenAI pentagon military deal",
+    "summary": "Article URL: https://www.euronews.com/next/2026/03/02/cancel-chatgpt-ai-boycott-surges-after-openai-pentagon-military-deal\nComments URL: https://news.ycombinator.com/item?id=47241092\nPoints: 153\n# Comments: 34",
+    "url": "https://www.euronews.com/next/2026/03/02/cancel-chatgpt-ai-boycott-surges-after-openai-pentagon-military-deal",
     "source": "Hacker News AI",
-    "published": "2026-03-03 13:51:34+00:00"
+    "published": "2026-03-04 00:10:38+00:00"
   },
   {
-    "title": "India's top court angry after junior judge cites fake AI-generated orders",
-    "summary": "Article URL: https://www.bbc.com/news/articles/c178zzw780xo\nComments URL: https://news.ycombinator.com/item?id=47231261\nPoints: 339\n# Comments: 178",
-    "url": "https://www.bbc.com/news/articles/c178zzw780xo",
-    "source": "Hacker News AI",
-    "published": "2026-03-03 12:13:40+00:00"
-  },
-  {
-    "title": "Elevated Errors in Claude.ai",
-    "summary": "Article URL: https://status.claude.com/incidents/yf48hzysrvl5\nComments URL: https://news.ycombinator.com/item?id=47227647\nPoints: 203\n# Comments: 162",
-    "url": "https://status.claude.com/incidents/yf48hzysrvl5",
-    "source": "Hacker News AI",
-    "published": "2026-03-03 03:31:07+00:00"
-  },
-  {
-    "title": "7 Essential OpenClaw Skills You Need Right Now",
-    "summary": "Skills are what make OpenClaw more than a local assistant, and these are the most popular ones worth installing today.",
-    "url": "https://www.kdnuggets.com/7-essential-openclaw-skills-you-need-right-now",
+    "title": "A Guide to Kedro: Your Production-Ready Data Science Toolbox",
+    "summary": "This article introduces and explores Kedro's main features, guiding you through its core concepts for a better understanding before diving deeper into this framework for addressing real data science projects.",
+    "url": "https://www.kdnuggets.com/a-guide-to-kedro-your-production-ready-data-science-toolbox",
     "source": "KDnuggets",
-    "published": "2026-03-03 17:00:00+00:00"
+    "published": "2026-03-04 15:00:41+00:00"
   },
   {
-    "title": "From PRD to Functioning Software with Google Antigravity",
-    "summary": "This article guide you through an example use case to turn a PRD into a functioning software prototype using Google Antigravity.",
-    "url": "https://www.kdnuggets.com/from-prd-to-functioning-software-with-google-antigravity",
+    "title": "5 Useful Python Scripts to Automate Exploratory Data Analysis",
+    "summary": "Spending hours cleaning, summarizing, and visualizing your data manually? Automate your exploratory data analysis workflow with these 5 ready-to-use Python scripts.",
+    "url": "https://www.kdnuggets.com/5-useful-python-scripts-to-automate-exploratory-data-analysis",
     "source": "KDnuggets",
-    "published": "2026-03-03 15:00:25+00:00"
+    "published": "2026-03-04 13:00:15+00:00"
   },
   {
-    "title": "10 Agentic AI Concepts Explained in Under 10 Minutes",
-    "summary": "An AI agent combines a large language model for reasoning, access to tools or APIs for action, memory to retain context and a control loop to decide what happens next.",
-    "url": "https://www.kdnuggets.com/10-agentic-ai-concepts-explained-in-under-10-minutes",
-    "source": "KDnuggets",
-    "published": "2026-03-03 13:00:30+00:00"
+    "title": "LangWatch Open Sources the Missing Evaluation Layer for AI Agents to Enable End-to-End Tracing, Simulation, and Systematic Testing",
+    "summary": "As AI development shifts from simple chat interfaces to complex, multi-step autonomous agents, the industry has encountered a significant bottleneck: non-determinism. Unlike traditional software where code follows a predictable path, agents built on LLMs introduce a high degree of variance. LangWatc",
+    "url": "https://www.marktechpost.com/2026/03/04/langwatch-open-sources-the-missing-evaluation-layer-for-ai-agents-to-enable-end-to-end-tracing-simulation-and-systematic-testing/",
+    "source": "MarkTechPost",
+    "published": "2026-03-04 18:36:28+00:00"
   },
   {
-    "title": "The SMB Owner’s Guide to AI ROI: Measuring Time Saved, Revenue Gained, and Risk Added (Sponsored)",
-    "summary": "Artificial intelligence is currently occupying the same mental space that \"the cloud\" did fifteen years ago, or the internet itself did twenty-five years ago.",
-    "url": "https://bit.ly/4rRtvVu",
-    "source": "KDnuggets",
-    "published": "2026-03-03 02:14:58+00:00"
+    "title": "Physical Intelligence Team Unveils MEM for Robots: A Multi-Scale Memory System Giving Gemma 3-4B VLAs 15-Minute Context for Complex Tasks",
+    "summary": "Current end-to-end robotic policies, specifically Vision-Language-Action (VLA) models, typically operate on a single observation or a very short history. This &#8216;lack of memory&#8217; makes long-horizon tasks, such as cleaning a kitchen or following a complex recipe, computationally intractable ",
+    "url": "https://www.marktechpost.com/2026/03/03/physical-intelligence-team-unveils-mem-for-robots-a-multi-scale-memory-system-giving-gemma-3-4b-vlas-15-minute-context-for-complex-tasks/",
+    "source": "MarkTechPost",
+    "published": "2026-03-04 06:01:11+00:00"
   },
   {
     "title": "Meet SymTorch: A PyTorch Library that Translates Deep Learning Models into Human-Readable Equations",
@@ -399,122 +350,52 @@
     "published": "2026-03-03 23:39:46+00:00"
   },
   {
-    "title": "How to Build a Stable and Efficient QLoRA Fine-Tuning Pipeline Using Unsloth for Large Language Models",
-    "summary": "In this tutorial, we demonstrate how to efficiently fine-tune a large language model using Unsloth and QLoRA. We focus on building a stable, end-to-end supervised fine-tuning pipeline that handles common Colab issues such as GPU detection failures, runtime crashes, and library incompatibilities. By ",
-    "url": "https://www.marktechpost.com/2026/03/03/how-to-build-a-stable-and-efficient-qlora-fine-tuning-pipeline-using-unsloth-for-large-language-models/",
-    "source": "MarkTechPost",
-    "published": "2026-03-03 22:29:23+00:00"
-  },
-  {
-    "title": "Google Drops Gemini 3.1 Flash-Lite: A Cost-efficient Powerhouse with Adjustable Thinking Levels Designed for High-Scale Production AI",
-    "summary": "Google has released Gemini 3.1 Flash-Lite, the most cost-efficient entry in the Gemini 3 model series. Designed for &#8216;intelligence at scale,&#8217; this model is optimized for high-volume tasks where low latency and cost-per-token are the primary engineering constraints. It is currently availab",
-    "url": "https://www.marktechpost.com/2026/03/03/google-drops-gemini-3-1-flash-lite-a-cost-efficient-powerhouse-with-adjustable-thinking-levels-designed-for-high-scale-production-ai/",
-    "source": "MarkTechPost",
-    "published": "2026-03-03 18:28:09+00:00"
-  },
-  {
-    "title": "Alibaba Releases OpenSandbox to Provide Software Developers with a Unified, Secure, and Scalable API for Autonomous AI Agent Execution",
-    "summary": "Alibaba has released OpenSandbox, an open-source tool designed to provide AI agents with secure, isolated environments for code execution, web browsing, and model training. Released under the Apache 2.0 license, the proposed system targets to standardize the &#8216;execution layer&#8217; of the AI a",
-    "url": "https://www.marktechpost.com/2026/03/03/alibaba-releases-opensandbox-to-provide-software-developers-with-a-unified-secure-and-scalable-api-for-autonomous-ai-agent-execution/",
-    "source": "MarkTechPost",
-    "published": "2026-03-03 08:32:06+00:00"
-  },
-  {
-    "title": "A Coding Guide to Build a Scalable End-to-End Analytics and Machine Learning Pipeline on Millions of Rows Using Vaex",
-    "summary": "In this tutorial, we design an end-to-end, production-style analytics and modeling pipeline using Vaex to operate efficiently on millions of rows without materializing data in memory. We generate a realistic, large-scale dataset, engineer rich behavioral and city-level features using lazy expression",
-    "url": "https://www.marktechpost.com/2026/03/02/a-coding-guide-to-build-a-scalable-end-to-end-analytics-and-machine-learning-pipeline-on-millions-of-rows-using-vaex/",
-    "source": "MarkTechPost",
-    "published": "2026-03-03 03:23:03+00:00"
-  },
-  {
-    "title": "Alibaba just released Qwen 3.5 Small models: a family of 0.8B to 9B parameters built for on-device applications",
-    "summary": "Alibaba’s Qwen team has released the Qwen3.5 Small Model Series, a collection of Large Language Models (LLMs) ranging from 0.8B to 9B parameters. While the industry trend has historically favored increasing parameter counts to achieve &#8216;frontier&#8217; performance, this release focuses on &#821",
-    "url": "https://www.marktechpost.com/2026/03/02/alibaba-just-released-qwen-3-5-small-models-a-family-of-0-8b-to-9b-parameters-built-for-on-device-applications/",
-    "source": "MarkTechPost",
-    "published": "2026-03-03 02:21:07+00:00"
-  },
-  {
-    "title": "Anthropic is untrustworthy",
+    "title": "Matthew Explains",
     "summary": "Comments",
-    "url": "https://anthropic.ml/",
+    "url": "https://matthewexplains.com",
     "source": "Lobsters AI",
-    "published": "2026-03-03 20:34:58+00:00"
+    "published": "2026-03-04 16:37:47+00:00"
   },
   {
-    "title": "GenDB: The Next Generation of Query Processing -- Synthesized, Not Engineered",
-    "summary": "Comments",
-    "url": "https://arxiv.org/pdf/2603.02081",
-    "source": "Lobsters AI",
-    "published": "2026-03-03 20:21:20+00:00"
-  },
-  {
-    "title": "Detecting LLM-Generated Web Novels Using \"Classical\" Machine Learning (AIGC Text Detection)",
-    "summary": "Comments",
-    "url": "https://blog.lyc8503.net/en/post/llm-classifier/",
-    "source": "Lobsters AI",
-    "published": "2026-03-03 02:19:54+00:00"
-  },
-  {
-    "title": "[P] We made GoodSeed, a pleasant ML experiment tracker",
-    "summary": "      GoodSeed v0.3.0 🎉 I and my friend are pleased to announce GoodSeed - a ML experiment tracker which we are now using as a replacement for Neptune. Key Features  Simple and fast: Beautiful, clean UI Metric plots: Zoom-based downsampling, smoothing, relative time x axis, fullscreen mode, ... Moni",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1rk1mgi/p_we_made_goodseed_a_pleasant_ml_experiment/",
+    "title": "[R] GFlowsNets for accelerating ray tracing for radio propagation modeling",
+    "summary": "      Hi everyone! I have just submitted my new journal paper on using Generative Flow Networks (GFlowNets) to speed up radio propagation modeling.  Preprint on arXiv Tutorial notebook  GitHub repository  The problem and our solution Traditional point-to-point ray tracing suffers from exponential co",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1rkgn8y/r_gflowsnets_for_accelerating_ray_tracing_for/",
     "source": "Reddit ML",
-    "published": "2026-03-03 21:09:20+00:00"
+    "published": "2026-03-04 09:04:21+00:00"
   },
   {
-    "title": "[R] AdamWClip: AdamW with adaptive gradient clipping",
-    "summary": "Hi, Would you like to try out an optimizer that does (adaptive) gradient clipping, so you don't have to set clipping thresholds manually? We have developed AdamWClip, an extension to AdamW that does exactly that, with no additional memory required and only marginal computational overhead. In our pre",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1rjmwmf/r_adamwclip_adamw_with_adaptive_gradient_clipping/",
+    "title": "[R] IJCAI-ECAI'26 Summary Rejects status",
+    "summary": "Hi, is there any update regarding summary rejects ? Deadline is March 4 AOE, and my paper status is still &quot;Submitted&quot; on chairingtool. Does anyone know by when they will be out ?   &#32; submitted by &#32;  /u/AddendumNo5533   [link] &#32; [comments]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1rkln6n/r_ijcaiecai26_summary_rejects_status/",
     "source": "Reddit ML",
-    "published": "2026-03-03 11:28:52+00:00"
+    "published": "2026-03-04 13:37:48+00:00"
   },
   {
-    "title": "[P] I trained Qwen2.5-1.5b with RLVR (GRPO) vs SFT and compared benchmark performance",
-    "summary": "      Hello everyone. I trained Qwen2.5-1.5B-Instruct with RLVR and SFT on the GSM8K dataset. RLVR boosted math reasoning by +11.9 points. SFT degraded it by -15.2. SFT (Supervised Fine-tuning): Standard next-token prediction training on labeled data. RLVR (Reinforcement Learning with Verifiable Rew",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1rk2kcz/p_i_trained_qwen2515b_with_rlvr_grpo_vs_sft_and/",
+    "title": "[D] Intel Core Ultra 7 265K vs AMD Ryzen 7 7800X3D Which one is better for ML?",
+    "summary": "I am building a new PC for a mix of gaming and ML work, having a hard time to pick weather if I should go with Intel or AMD, current specs are 5070 ti, 32gb ram, what do u guys think?  &#32; submitted by &#32;  /u/peter34512800   [link] &#32; [comments]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1rkxbx8/d_intel_core_ultra_7_265k_vs_amd_ryzen_7_7800x3d/",
     "source": "Reddit ML",
-    "published": "2026-03-03 21:44:35+00:00"
+    "published": "2026-03-04 20:56:50+00:00"
   },
   {
-    "title": "[P] Bridging the gap between arXiv PDFs and runnable implementations: Announcing ResearchClaw (Open Source)",
-    "summary": "Reproducing results from arXiv shouldn't be a full-time job. We developed ResearchClaw to tackle the common headache of missing or broken research code. Our tool aims to automate the research pipeline: from intelligent paper crawling to generating testable implementations directly from paper methodo",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1rk7ncx/p_bridging_the_gap_between_arxiv_pdfs_and/",
+    "title": "[P] I open-sourced a synth framework for creating physics-simulated humanoids in Unity with MuJoCo -- train them with on-device RL and interact in VR",
+    "summary": "I've been building a system to create physics-based humanoid characters in Unity that can learn through reinforcement learning -- and you can physically interact with them in mixed reality on Quest. Today I'm open-sourcing the three packages that make it up. What it does:  synth-core -- Take any Daz",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1rkf5rn/p_i_opensourced_a_synth_framework_for_creating/",
     "source": "Reddit ML",
-    "published": "2026-03-04 01:12:47+00:00"
+    "published": "2026-03-04 07:31:08+00:00"
   },
   {
-    "title": "[R] Are neurons the wrong primitive for modeling decision systems?",
-    "summary": "A recent ICLR paper proposes Behavior Learning — replacing neural layers with learnable constrained optimization blocks. It models it as:  &quot;utility + constraints → optimal decision&quot;  https://openreview.net/forum?id=bbAN9PPcI1 If many real-world systems are optimization-driven, should &quot",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1rjcqzq/r_are_neurons_the_wrong_primitive_for_modeling/",
+    "title": "[D] Quantified analysis of 2,218 Gary Marcus claims - two independent LLM pipelines, scored against evidence",
+    "summary": "Built a dataset scoring every testable claim from Marcus's 474 Substack posts. Two pipelines (Claude Opus 4.6 and ChatGPT Codex) analyzed the corpus, then a reconciliation layer compared outputs. 52% supported, 34% mixed, 6.4% contradicted among assessable claims. Distribution is more interesting th",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1rk8e5p/d_quantified_analysis_of_2218_gary_marcus_claims/",
     "source": "Reddit ML",
-    "published": "2026-03-03 02:09:54+00:00"
+    "published": "2026-03-04 01:45:38+00:00"
   },
   {
-    "title": "[R] Boundary-Metric Evaluation for Thin-Structure Segmentation under 2% Foreground Sparsity",
-    "summary": "Hey! I'm currently a undergrad student graduating in May and soon starting my Masters in AI. I've wanted to write a research paper to start gaining some experience in that area and just recently finished my first one. This paper focuses on investigating segmentation under some extreme foreground spa",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1rjptov/r_boundarymetric_evaluation_for_thinstructure/",
-    "source": "Reddit ML",
-    "published": "2026-03-03 13:50:08+00:00"
-  },
-  {
-    "title": "[R] How often do you implement research papers?",
-    "summary": "      How often do you guys implement papers? I have been using this tool where I can get the whole paper implementation in one click and then run it in colab or cursor, super helpful till now. Are there any other good products out there where I can run multiple implementations parallelly? https://p",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1rk7ghz/r_how_often_do_you_implement_research_papers/",
-    "source": "Reddit ML",
-    "published": "2026-03-04 01:04:30+00:00"
-  },
-  {
-    "title": "[P] *Free Code* Real-time voice-to-voice with your LLM & full reasoning LLM interface (Telegram + 25 tools, vision, docs, memory) on a Mac Studio running Qwen 3.5 35B — 100% local, zero API cost. Full build open-sourced. cloudfare + n8n + Pipecat + MLX unlock insane possibilities on consumer hardwar",
-    "summary": "      I gave Qwen 3.5 35B a voice, a Telegram brain with 25+ tools, and remote access from my phone — all running on a Mac Studio M1 Ultra, zero cloud. Full build open-sourced. I used Claude Opus 4.6 Thinking to help write and structure this post — and to help architect and debug the entire system o",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1rk66ay/p_free_code_realtime_voicetovoice_with_your_llm/",
-    "source": "Reddit ML",
-    "published": "2026-03-04 00:08:52+00:00"
-  },
-  {
-    "title": "[AINews] Truth in the time of Artifice",
-    "summary": "A quiet day lets us question the nature of reality",
-    "url": "https://www.latent.space/p/ainews-truth-in-the-time-of-artifice",
+    "title": "[AINews] Anthropic @ $19B ARR, Qwen team leaves, Gemini and GPT bump up fast models",
+    "summary": "a quiet day",
+    "url": "https://www.latent.space/p/ainews-anthropic-19b-arr-qwen-team",
     "source": "Latent Space",
-    "published": "2026-03-03 08:01:30+00:00"
+    "published": "2026-03-04 03:11:53+00:00"
   }
 ]
