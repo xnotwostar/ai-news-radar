@@ -49,6 +49,7 @@ jobs:
           git config user.email "bot@ai-news-radar"
           git add data/ docs/
           git diff --cached --quiet || git commit -m "daily: $(date +%Y-%m-%d)"
+          git pull --rebase
           git push
 
       - name: Wait for GitHub Pages deployment
