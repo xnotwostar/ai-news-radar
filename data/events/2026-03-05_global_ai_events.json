@@ -1,0 +1,426 @@
+[
+  {
+    "event_id": "evt_20260305_000",
+    "title": "📜 Pentagon Formally Labels Anthropic a Supply-Chain Risk — First U.S. AI Firm to Receive the Designation",
+    "category": "policy",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "It’s official: The Pentagon has labeled Anthropic a supply-chain risk. The Department of Defense has officially labeled Anthropic a supply-chain risk, making the AI firm the first American company wit",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/05/its-official-the-pentagon-has-labeled-anthropic-a-supply-chain-risk/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Anthropic CEO Dario Amodei could still be trying to make a deal with Pentagon. Anthropic's $200 million contract with the Department of Defense broke down due to disagreements over giving the military",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/05/anthropic-ceo-dario-amodei-could-still-be-trying-to-make-a-deal-with-pentagon/"
+      },
+      {
+        "author": "The Verge",
+        "text": "The Pentagon formally labels Anthropic a supply-chain risk. After weeks of failed negotiations, public ultimatums, and lawsuit threats, the Defense Department has formally labeled Anthropic a \"supply-",
+        "engagement": 0,
+        "url": "https://www.theverge.com/ai-artificial-intelligence/890347/pentagon-anthropic-supply-chain-risk"
+      },
+      {
+        "author": "Wired",
+        "text": "OpenAI Had Banned Military Use. The Pentagon Tested Its Models Through Microsoft Anyway. Sources allege the Defense Department experimented with Microsoft’s version of OpenAI technology before the Cha",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/openai-defense-department-ban-military-use-microsoft/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Anthropic CEO stands firm as Pentagon deadline looms https://t.co/ggCcEoCTL8",
+        "engagement": 325,
+        "url": "https://x.com/TechCrunch/status/2027162671418835335"
+      }
+    ],
+    "key_facts": [
+      "The U.S. Department of Defense has officially designated Anthropic as a 'supply-chain risk' — the first American AI company to receive this label.",
+      "The designation follows a breakdown in negotiations over a $200M DoD contract, primarily due to Anthropic’s refusal to grant unrestricted military access to its AI systems.",
+      "Despite the label, the DoD continues using Anthropic’s AI in operational contexts (e.g., Iran), highlighting a tension between policy enforcement and real-world deployment."
+    ],
+    "analyst_angle": "This marks a watershed moment in AI governance: the U.S. government is weaponizing supply-chain risk frameworks to enforce compliance with military AI usage policies — setting a precedent that could reshape how foundational AI firms engage with federal agencies.",
+    "cluster_size": 5,
+    "event_time": "2026-03-05T16:45:51Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260305_001",
+    "title": "🤝 Google 与 Meta 达成数十亿美元 AI 芯片合作，加剧与 Nvidia 的竞争",
+    "category": "partnership",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "CNET",
+        "text": "Big Tech Promises to Pay for AI Data Center Power, but Who Will Enforce It?. Microsoft, Google, Amazon, Meta and others signed a nonbinding pledge agreeing to cover the cost of powering AI data center",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/services-and-software/ai-data-center-electricity-costs-white-house-ratepayer-protection-pledge/"
+      },
+      {
+        "author": "theinformation",
+        "text": "Exclusive: Google struck a multibillion-dollar AI chip deal with Meta, sharpening Google's rivalry with Nvidia.\n\nRead more from @Amir and @AnissaGardizy8 👇 \nhttps://t.co/fvBeRH1LX0",
+        "engagement": 59,
+        "url": "https://x.com/theinformation/status/2027162301766275554"
+      }
+    ],
+    "key_facts": [
+      "Google 与 Meta 达成多十亿美元级 AI 芯片合作（具体芯片类型未披露，但指向定制化AI加速器）",
+      "该交易强化了两大科技巨头在AI硬件供应链上的垂直协同，并直接挑战 Nvidia 在训练芯片市场的主导地位"
+    ],
+    "analyst_angle": "这标志着超大规模厂商正加速摆脱对 Nvidia 的单一依赖，通过联合定制芯片重构AI算力生态，可能推动行业从‘GPU-centric’向‘chip-co-design’范式演进。",
+    "cluster_size": 2,
+    "event_time": "2026-03-05T20:54:12Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260305_002",
+    "title": "🚀 Luma 发布创意 AI 智能体（Luma Agents）及 Unified Intelligence 模型",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "EXCLUSIVE: Luma launches creative AI agents powered by its new ‘Unified Intelligence’ models. Luma introduced Luma Agents, powered by its new “Unified Intelligence” models, designed to coordinate mult",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Cursor is rolling out a new kind of agentic coding tool. Called Automations, the new system gives users a way to automatically launch agents within their coding environment, triggered by a new additio",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/"
+      }
+    ],
+    "key_facts": [
+      "Luma 正式发布 Luma Agents，是端到端生成式 AI 智能体系统，支持文本、图像、视频与音频跨模态创作",
+      "底层基于全新自研的 'Unified Intelligence' 模型架构，专为协调多AI系统协同工作而设计"
+    ],
+    "analyst_angle": "这标志着生成式AI正从单任务模型向可编排、多模态、自主执行的智能体范式加速演进，Luma以统一架构切入创意工作流，直面Runway、Pika及Adobe Firefly等竞品。",
+    "cluster_size": 2,
+    "event_time": "2026-03-05T17:00:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260305_003",
+    "title": "🚀 OpenAI Launches GPT-5.4 with Pro and Thinking Versions",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "OpenAI launches GPT-5.4 with Pro and Thinking versions. GPT-5.4 is billed as \"our most capable and efficient frontier model for professional work.\"",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/"
+      },
+      {
+        "author": "The Verge",
+        "text": "OpenAI’s new GPT-5.4 model is a big step toward autonomous agents. OpenAI is launching GPT-5.4, the latest version of its AI model that the company says combines advancements in reasoning, coding, and",
+        "engagement": 0,
+        "url": "https://www.theverge.com/ai-artificial-intelligence/889926/openai-gpt-5-4-model-release-ai-agents"
+      },
+      {
+        "author": "Ars Technica",
+        "text": "OpenAI introduces GPT-5.4 with more knowledge-work capability. Updates come amid user blowback over the company's Pentagon deal.",
+        "engagement": 0,
+        "url": "https://arstechnica.com/ai/2026/03/openai-introduces-gpt-5-4-with-more-knowledge-work-capability/"
+      },
+      {
+        "author": "CNET",
+        "text": "New ChatGPT 5.4 Model Is 'Built for Agents.' Will It Lure Back Claude Converts?. OpenAI has new AI models for the second time this week.",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/services-and-software/openai-chatgpt-5-4-thinking-news/"
+      },
+      {
+        "author": "Hacker News AI",
+        "text": "GPT-5.4. https://openai.com/index/gpt-5-4-thinking-system-card/https://x.com/OpenAI/status/2029620619743219811\n\nComments URL: https://news.ycombinator.com/item?id=47265045\nPoints: 543\n# Comments: 488",
+        "engagement": 0,
+        "url": "https://openai.com/index/introducing-gpt-5-4/"
+      }
+    ],
+    "key_facts": [
+      "GPT-5.4 is OpenAI's latest frontier model, positioned as 'most capable and efficient for professional work';",
+      "Introduces native computer use capabilities — enabling autonomous operation of UIs (e.g., spreadsheets, documents, presentations);",
+      "Features two variants: 'Pro' (optimized for knowledge work) and 'Thinking' (enhanced reasoning and agent-like autonomy);",
+      "Officially launched on March 5, 2026, with public documentation and system card released via OpenAI's website."
+    ],
+    "analyst_angle": "GPT-5.4 marks a strategic pivot from chat-centric AI to agentic infrastructure — its native computer control capability lowers the barrier for real-world autonomous agent deployment, potentially accelerating enterprise workflow automation and intensifying competition with Anthropic, Google, and open-weight alternatives.",
+    "cluster_size": 6,
+    "event_time": "2026-03-05T17:37:15Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260305_004",
+    "title": "🤝 Oura收购手势识别初创公司Doublepoint，加码可穿戴AI交互",
+    "category": "partnership",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Oura acquires Doublepoint, a startup that specializes in gesture recognition technology. The company believes its next phase of wearable AI will be powered by a combination of voice and gesture.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/05/oura-acquires-doublepoint-a-startup-that-specializes-in-gesture-recognition-technology/"
+      },
+      {
+        "author": "CNET",
+        "text": "Watch Out, Meta. I Tried Alibaba's Qwen Smart Glasses and They're Mega Impressive. These AI-focused smart glasses are available now in China but will roll out internationally later this year.",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/mobile/alibaba-launches-qwen-ai-smart-glasses-at-mwc-2026/"
+      }
+    ],
+    "key_facts": [
+      "Oura于2026年3月5日宣布收购手势识别技术公司Doublepoint",
+      "此次收购旨在推动下一代可穿戴AI发展，融合语音与手势双模态交互",
+      "同期，阿里巴巴在MWC 2026发布Qwen AI智能眼镜（已在中国上市，年内全球铺开），凸显AI眼镜赛道加速竞争"
+    ],
+    "analyst_angle": "可穿戴设备正从健康监测向主动式AI交互终端演进，手势+语音融合成为人机交互新焦点，头部厂商正通过并购与自研双路径抢占下一代入口。",
+    "cluster_size": 2,
+    "event_time": "2026-03-05T13:05:14Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260305_005",
+    "title": "📌 'The Boys' Season 5 Trailer Released — Final Season Teases Bloody Conclusion",
+    "category": "other",
+    "importance": 4.0,
+    "sources": [
+      {
+        "author": "Ars Technica",
+        "text": "The Boys S5 trailer tees up a bloody final season. \"My power is absolute. At heights no one ever dreamed of. But I have a bigger destiny.\"",
+        "engagement": 0,
+        "url": "https://arstechnica.com/culture/2026/03/the-boys-s5-trailer-tees-up-a-bloody-final-season/"
+      },
+      {
+        "author": "CNET",
+        "text": "Will 'The Boys' Season 5 Deliver? 5 Major Things I Can't Wait to See. Commentary: Prime Video's superhero satire is coming to an end. As a fan, here are the big moments I'm most looking forward to.",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/services-and-software/the-boys-season-5-things-big-moments-how-to-watch/"
+      },
+      {
+        "author": "CNET",
+        "text": "'The Boys' Final Season Trailer Teases a Big, Bloody Conclusion. Soldier Boy, Homelander, Butcher and more appear in the season 5 preview.",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/services-and-software/the-boys-final-season-trailer/"
+      }
+    ],
+    "key_facts": [
+      "Season 5 is confirmed as the final season of 'The Boys'",
+      "Official trailer released on March 5, 2026, featuring Homelander, Soldier Boy, and Butcher",
+      "Trailer includes the line: 'My power is absolute. At heights no one ever dreamed of. But I have a bigger destiny.'"
+    ],
+    "analyst_angle": "While culturally significant, this is a scripted TV show milestone—not an AI/tech industry event; falls outside core domain relevance but noted for cross-industry media timing awareness.",
+    "cluster_size": 3,
+    "event_time": "2026-03-05T18:55:13Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260305_006",
+    "title": "🚀 Apple 发布 MacBook Neo 与 iPhone 17E：低价策略引爆产品线重构",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "Wired",
+        "text": "The Bargain-Basement MacBook Neo Exposes the Insane Price of Another Key Apple Product. Can it really be the case that the company can now make a laptop $200 cheaper than a watch?",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/the-bargain-basement-macbook-neo-exposes-the-insane-price-of-another-key-apple-product/"
+      },
+      {
+        "author": "CNET",
+        "text": "Apple Debuts the $599 iPhone 17E With MagSafe, and It Comes in Pink. The follow-up to the 2025 iPhone 16E comes with twice the base storage of last year's budget device.",
+        "engagement": 0,
+        "url": "https://www.cnet.com/news-live/iphone-17e-launch/"
+      },
+      {
+        "author": "CNET",
+        "text": "I Think Mac and iPad Will Merge. Does MacBook Neo Prove My Point or Make It Irrelevant?. Commentary: I can see a future that could almost be here, and I've been waiting for. Does anyone else care, tho",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/computing/i-think-mac-and-ipad-will-merge-does-macbook-neo-prove-my-point-or-make-that-irrelevant/"
+      }
+    ],
+    "key_facts": [
+      "Apple 正式发布入门级笔记本 MacBook Neo，起售价显著低于 Apple Watch，凸显成本压缩与定位下探",
+      "同步发布 iPhone 17E（$599），支持 MagSafe，基础存储翻倍至 256GB，延续并强化‘E’系列预算旗舰策略",
+      "多信源交叉印证发布日期为 2025 年 3 月 5 日，属 Apple 春季非传统发布会节奏的重要产品动作"
+    ],
+    "analyst_angle": "Apple 正通过 MacBook Neo 和 iPhone 17E 双线推进‘高端功能平民化’战略，模糊硬件品类边界（如 Mac/iPad 融合讨论升温），预示其正以系统级成本优化和垂直整合能力重构中端市场定价权。",
+    "cluster_size": 3,
+    "event_time": "2026-03-05T13:01:05Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260305_007",
+    "title": "🔬 Flash Attention 优化与新型 O(1) KV Cache 注意力机制突破",
+    "category": "research",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "NVIDIA Blog",
+        "text": "Tuning Flash Attention for Peak Performance in NVIDIA CUDA Tile. In this post, we dive into one of the most critical workloads in modern AI: Flash Attention, where you’ll learn: How to implement Flash",
+        "engagement": 0,
+        "url": "https://developer.nvidia.com/blog/tuning-flash-attention-for-peak-performance-in-nvidia-cuda-tile/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[D] A mathematical proof from an anonymous Korean forum: The essence of Attention is fundamentally a d^2 problem, not n^2. (PDF included). Hello, r/MachineLearning . I am just a regular user from a Ko",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rl9j3s/d_a_mathematical_proof_from_an_anonymous_korean/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[P] DWARF: O(1) KV cache attention derived from heterodyne receiver physics. DWARF uses a fixed circular buffer (about 1.5GB, always, regardless of context length). The tradeoff is you don't get full ",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rls1dr/p_dwarf_o1_kv_cache_attention_derived_from/"
+      }
+    ],
+    "key_facts": [
+      "NVIDIA 官方博客发布 CUDA Tile 级 Flash Attention 调优技术，显著提升现代 AI 推理/训练中注意力计算的硬件利用率",
+      "Reddit 上涌现两项独立但高度相关的前沿研究：1）匿名韩国社区提出注意力本质是 d²（隐维平方）而非传统 n²（序列长度平方）复杂度的数学证明；2）DWARF 方法基于异步解调物理原理实现 O(1) KV 缓存占用（恒定 ~1.5GB），突破长上下文下 KV 缓存内存爆炸瓶颈"
+    ],
+    "analyst_angle": "这标志着注意力机制正从‘工程优化’阶段迈向‘理论重构+硬件协同设计’新范式——d²理论为算力压缩提供数学根基，O(1) KV 缓存为万亿 token 推理铺平道路，或将加速端侧大模型与超长上下文应用落地。",
+    "cluster_size": 3,
+    "event_time": "2026-03-05T05:50:03Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260305_008",
+    "title": "🚀 SynScience Launches AI Co-Scientists for End-to-End Scientific Research",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "GaryMarcus",
+        "text": "Important comments from Jack Shanahan, a retired US Air Force General who was first Director of the first Department of Defense Joint Artificial Intelligence Center.\n\nYou may need to click to see the ",
+        "engagement": 2566,
+        "url": "https://x.com/GaryMarcus/status/2027157316231983380"
+      },
+      {
+        "author": "GaryMarcus",
+        "text": "Historic!\n\nI don’t always agree with @DarioAmodei but my hat is off to him for this incredibly brave statement.",
+        "engagement": 1972,
+        "url": "https://x.com/GaryMarcus/status/2027158302149452035"
+      },
+      {
+        "author": "ycombinator",
+        "text": ".@SynScience is building AI co-scientists for end-to-end scientific research. Scientists can now delegate the full research loop: literature reviews, hypothesis generation, experiment runs on GPUs, an",
+        "engagement": 214,
+        "url": "https://x.com/ycombinator/status/2027164275731726632"
+      },
+      {
+        "author": "amasad",
+        "text": "Great story on how to take an app from idea to revenue.",
+        "engagement": 150,
+        "url": "https://x.com/amasad/status/2027158191314973038"
+      },
+      {
+        "author": "ycombinator",
+        "text": ".@InviscidAI simulates how air, heat, and energy flow in real time.\n\nThis lets facility operators cut energy costs by up to 30% and shrink design timelines from weeks to hours, across data centers, co",
+        "engagement": 117,
+        "url": "https://x.com/ycombinator/status/2027156726139744585"
+      }
+    ],
+    "key_facts": [
+      "SynScience launched AI co-scientists that automate the full research loop: literature review, hypothesis generation, GPU-based experiment execution, analysis, and publication-ready drafting",
+      "Already battle-tested in ML research; biology mode achieves SOTA on BioBench Verified (92%)",
+      "Backed and publicly announced by Y Combinator"
+    ],
+    "analyst_angle": "This represents a significant step toward AI-augmented scientific discovery—shifting from narrow tooling to autonomous research agents capable of closing the loop, with near-term impact in high-value domains like biomedicine and materials science.",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260305_009",
+    "title": "💡 Devin AI Demonstrates Real-World Debugging & Autonomous Workflow in Production",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "swyx",
+        "text": "today @devinai investigated and a production bug (we migrated vercel orgs and forgot a key) and asked for exactly what it needed from us and verified fixes and then when i complimented it, it saluted ",
+        "engagement": 66,
+        "url": "https://x.com/swyx/status/2027156931157368971"
+      },
+      {
+        "author": "firstadopter",
+        "text": "Netflix stock spikes 10% on declining to bid again for Warner Bros. Wow. https://t.co/CzFpLCvRJQ",
+        "engagement": 54,
+        "url": "https://x.com/firstadopter/status/2027164634768117960"
+      },
+      {
+        "author": "firstadopter",
+        "text": "\"But today, frontier AI systems are simply not reliable enough to power fully autonomous weapons. We will not knowingly provide a product that puts America’s warfighters and civilians at risk.\"",
+        "engagement": 45,
+        "url": "https://x.com/firstadopter/status/2027165128811020422"
+      },
+      {
+        "author": "emollick",
+        "text": "@alexolegimas Yeah, I was worried about how many people were taking this at face value. This seems like a situation where a lot of other things are going on.",
+        "engagement": 30,
+        "url": "https://x.com/emollick/status/2027164183297495433"
+      },
+      {
+        "author": "emollick",
+        "text": "@stbaasch How do you organize software development around agents? What replaces traditional agile? How do you reorganize production &amp; support &amp; product management as a result. Who is in charge",
+        "engagement": 18,
+        "url": "https://x.com/emollick/status/2027160671683535094"
+      }
+    ],
+    "key_facts": [
+      "Devin AI successfully diagnosed and resolved a production bug involving a misconfigured Vercel org migration (missing API key)",
+      "It autonomously requested precise information from engineers, verified fixes, and responded to praise with a salute — indicating emergent interactive behavior",
+      "The demonstration signals meaningful progress toward practical, autonomous software engineering agents"
+    ],
+    "analyst_angle": "This isn’t just a demo—it’s evidence that AI agents are crossing into real-world, high-stakes engineering workflows, forcing reevaluation of SDLC roles, verification protocols, and team structures.",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260305_010",
+    "title": "🔧 Meta Platforms scrapped its most advanced in-house AI training chip after design struggles",
+    "category": "chip_hardware",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "theinformation",
+        "text": "Meta Platforms scrapped its most advanced in-house AI training chip after design struggles, underscoring how hard it is to rival Nvidia. https://t.co/Qe233K7wQ2",
+        "engagement": 10,
+        "url": "https://x.com/theinformation/status/2027160521539989871"
+      },
+      {
+        "author": "arstechnica",
+        "text": "Genomes chart the history of Neanderthal-modern human interactions https://t.co/pNvS2jIpDZ",
+        "engagement": 7,
+        "url": "https://x.com/arstechnica/status/2027162014561501560"
+      },
+      {
+        "author": "theinformation",
+        "text": "Humanoid robots can fail on simple tasks when their training data is too narrow, says Encord Co-CEO @EricEncord:\n\n\"While a human can generalize and we know how to kind of operate under multiple condit",
+        "engagement": 7,
+        "url": "https://x.com/theinformation/status/2027156892833722563"
+      },
+      {
+        "author": "theinformation",
+        "text": "How much debt can Big Tech handle? \n\n\"It looks like a credit downgrade is pretty far off... \"\n\n\"Each of these companies can take on about $200 billion in incremental debt as long as they generally mee",
+        "engagement": 5,
+        "url": "https://x.com/theinformation/status/2027164395785068816"
+      },
+      {
+        "author": "Arm",
+        "text": "@TensorAuto @drewhenry Building the future of AI powered transportation together 🤝",
+        "engagement": 4,
+        "url": "https://x.com/Arm/status/2027162686648184982"
+      }
+    ],
+    "key_facts": [
+      "Meta abandoned its most advanced custom AI training chip due to design challenges",
+      "The decision highlights the difficulty of competing with Nvidia in high-end AI silicon"
+    ],
+    "analyst_angle": "This signals that even well-resourced tech giants face steep engineering and time-to-market barriers in AI chip development—reinforcing Nvidia's architectural and ecosystem moat while pushing Big Tech toward hybrid strategies (e.g., custom inference chips + Nvidia for training).",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  }
+]

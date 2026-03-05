@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🇨🇳 中文圈AI洞察 — 2026-03-05</title>
+<style>
+  :root {
+    --bg-primary: #0d1117;
+    --bg-secondary: #161b22;
+    --bg-card: #1c2128;
+    --bg-hover: #252d38;
+    --border: #30363d;
+    --text-primary: #e6edf3;
+    --text-secondary: #8b949e;
+    --text-muted: #6e7681;
+    --accent-blue: #58a6ff;
+    --accent-orange: #f0883e;
+    --accent-green: #3fb950;
+    --accent-red: #f85149;
+    --accent-purple: #bc8cff;
+    --accent-yellow: #d29922;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue",
+                 "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.8;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .header {
+    background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1a1e2e 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 2.5rem 1.5rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple), var(--accent-orange));
+  }
+  .header-badge {
+    display: inline-block;
+    background: rgba(88, 166, 255, 0.1);
+    border: 1px solid rgba(88, 166, 255, 0.2);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 12px;
+    color: var(--accent-blue);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .header h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--text-primary), var(--accent-blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 8px;
+  }
+  .header .date { color: var(--text-secondary); font-size: 0.9rem; }
+  .container { max-width: 780px; margin: 0 auto; padding: 24px 16px 60px; }
+  .section { margin-bottom: 32px; }
+  .section-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    padding-bottom: 10px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  .core-judgment {
+    background: linear-gradient(135deg, rgba(88,166,255,0.06), rgba(188,140,255,0.06));
+    border: 1px solid rgba(88,166,255,0.15);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 32px;
+    line-height: 1.9;
+    font-size: 14.5px;
+  }
+  .event-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-bottom: 14px;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .event-card:hover { border-color: rgba(88,166,255,0.3); background: var(--bg-hover); }
+  .event-card.critical { border-left: 3px solid var(--accent-red); }
+  .event-card.normal { border-left: 3px solid var(--accent-blue); }
+  .event-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  .event-title a {
+    color: var(--text-primary);
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(88,166,255,0.4);
+    transition: color 0.2s, border-color 0.2s;
+  }
+  .event-title a:hover {
+    color: var(--accent-blue);
+    border-bottom-color: var(--accent-blue);
+  }
+  .tag {
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+  .tag-critical { background: rgba(248,81,73,0.15); color: var(--accent-red); border: 1px solid rgba(248,81,73,0.25); }
+  .tag-product { background: rgba(63,185,80,0.12); color: var(--accent-green); border: 1px solid rgba(63,185,80,0.2); }
+  .tag-research { background: rgba(188,140,255,0.12); color: var(--accent-purple); border: 1px solid rgba(188,140,255,0.2); }
+  .tag-funding { background: rgba(210,153,34,0.12); color: var(--accent-yellow); border: 1px solid rgba(210,153,34,0.2); }
+  .tag-chip { background: rgba(88,166,255,0.12); color: var(--accent-blue); border: 1px solid rgba(88,166,255,0.2); }
+  .event-highlight {
+    background: rgba(88,166,255,0.06);
+    border-left: 2px solid var(--accent-blue);
+    padding: 8px 14px;
+    margin: 8px 0;
+    color: var(--text-secondary);
+    font-size: 14px;
+    border-radius: 0 6px 6px 0;
+  }
+  .event-analysis {
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 8px;
+  }
+  .event-analysis a {
+    color: var(--accent-blue);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--accent-blue);
+  }
+  .event-analysis a:hover { border-bottom-style: solid; }
+  .event-sources {
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+  }
+  .event-sources-label {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-right: 2px;
+  }
+  .source-tag {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .source-tag.twitter {
+    color: var(--accent-blue);
+    background: rgba(88,166,255,0.08);
+    border: 1px solid rgba(88,166,255,0.18);
+  }
+  .source-tag.twitter:hover {
+    background: rgba(88,166,255,0.18);
+    border-color: var(--accent-blue);
+  }
+  .source-tag.rss {
+    color: var(--accent-orange);
+    background: rgba(240,136,62,0.08);
+    border: 1px solid rgba(240,136,62,0.18);
+  }
+  .source-tag.rss:hover {
+    background: rgba(240,136,62,0.18);
+    border-color: var(--accent-orange);
+  }
+  .quick-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .quick-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    transition: border-color 0.2s;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .quick-item:hover { border-color: rgba(88,166,255,0.3); }
+  .quick-item .qi-emoji { font-size: 15px; flex-shrink: 0; margin-top: 1px; }
+  .quick-item .qi-text { flex: 1; }
+  .quick-item a { color: var(--text-secondary); text-decoration: none; }
+  .quick-item a:hover { color: var(--accent-blue); }
+  .quick-item .qi-source {
+    display: inline-block;
+    font-size: 10px;
+    color: var(--text-muted);
+    background: rgba(88,166,255,0.06);
+    border: 1px solid rgba(88,166,255,0.12);
+    border-radius: 8px;
+    padding: 1px 6px;
+    margin-left: 4px;
+  }
+  .expert-subtitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--accent-blue);
+    margin: 16px 0 10px;
+  }
+  .expert-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 8px;
+  }
+  .expert-card .author { color: var(--accent-purple); font-weight: 600; font-size: 13px; }
+  .expert-card .author a { color: var(--accent-purple); text-decoration: none; }
+  .expert-card .author a:hover { text-decoration: underline; }
+  .expert-card .quote {
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin-top: 4px;
+    font-style: italic;
+    line-height: 1.7;
+  }
+  .topic-block {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+  }
+  .topic-name { font-weight: 600; font-size: 14px; color: var(--text-primary); margin-bottom: 6px; }
+  .topic-detail { font-size: 13.5px; color: var(--text-secondary); line-height: 1.7; }
+  .expert-block {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin-bottom: 20px;
+  }
+  .expert-block-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--accent-blue);
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  .debate-topic {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+  }
+  .debate-topic-name {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+  }
+  .debate-meta {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 6px;
+  }
+  .debate-quote {
+    font-size: 13px;
+    color: var(--text-muted);
+    padding-left: 12px;
+    border-left: 2px solid var(--accent-purple);
+    margin-top: 8px;
+    line-height: 1.6;
+  }
+  .debate-quote a { color: var(--accent-purple); text-decoration: none; }
+  .debate-quote a:hover { text-decoration: underline; }
+  .insight-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent-purple);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+  }
+  .insight-author {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent-purple);
+    margin-bottom: 4px;
+  }
+  .insight-author a { color: var(--accent-purple); text-decoration: none; }
+  .insight-author a:hover { text-decoration: underline; }
+  .insight-text {
+    font-size: 14px;
+    color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.7;
+  }
+  .tech-feedback-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    transition: border-color 0.2s;
+  }
+  .tech-feedback-card:hover {
+    border-color: rgba(88,166,255,0.3);
+  }
+  .tech-feedback-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed var(--border);
+  }
+  .tech-feedback-item {
+    font-size: 14px;
+    line-height: 1.8;
+    padding: 3px 0;
+  }
+  .tech-feedback-item.positive { color: var(--accent-green); }
+  .tech-feedback-item.negative { color: var(--accent-orange); }
+  .sentiment-bar {
+    background: linear-gradient(135deg, rgba(63,185,80,0.08), rgba(210,153,34,0.08));
+    border: 1px solid rgba(63,185,80,0.2);
+    border-radius: 10px;
+    padding: 16px 20px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.8;
+  }
+  .trending-section {
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 2px solid var(--border);
+  }
+  .trending-note {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+    padding: 10px 14px;
+    background: rgba(240,136,62,0.06);
+    border-radius: 8px;
+    border: 1px solid rgba(240,136,62,0.12);
+  }
+  .toc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 28px;
+    padding: 14px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+  .toc a {
+    font-size: 12.5px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    padding: 4px 12px;
+    border-radius: 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  .toc a:hover { color: var(--accent-blue); border-color: var(--accent-blue); background: rgba(88,166,255,0.08); }
+  .footer {
+    text-align: center;
+    padding: 32px 16px;
+    color: var(--text-muted);
+    font-size: 12px;
+    border-top: 1px solid var(--border);
+    margin-top: 40px;
+  }
+  .footer .brand { font-size: 14px; margin-bottom: 4px; color: var(--text-secondary); }
+  @media (max-width: 600px) {
+    .header h1 { font-size: 1.4rem; }
+    .container { padding: 16px 12px 40px; }
+    .event-card { padding: 14px 16px; }
+    .quick-grid { grid-template-columns: 1fr; }
+  }
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--bg-primary); }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="header-badge">AI News Radar</div>
+  <h1>🇨🇳 中文圈AI洞察</h1>
+  <div class="date">2026年3月5日 · 星期四</div>
+</div>
+<div class="container">
+  <nav class="toc"><a href="#section-0">🔥 重大发布与产品</a><a href="#section-1">🔬 技术与研究</a><a href="#section-2">💰 融资与市场</a><a href="#section-3">⚡ 速览</a><a href="#section-4">💡 专家视角</a><a href="#section-5">🇨🇳 国内热搜速递</a></nav>
+<div class="section-title"><strong>核心判断</strong>：AI产业正经历从「模型能力竞赛」到「系统工程落地」的范式迁移——甲骨文裁员揭示云厂商算力资本开支与人力结构的再平衡，海信世界杯AI家电验证场景化AI的商业闭环能力，而Harness Engineering概念的提出，则标志着中国工程师群体已开始主导下一代AI系统设计话语权。</div>
+<div class="core-judgment">
+</div>
+<div class="section" id="section-0">
+<div class="section-title">🔥 重大发布与产品</div>
+<div class="event-card normal">
+<span class="tag tag-product">🚀 产品</span>
+<div class="event-title">🚀 <a href="https://36kr.com/p/3710171805806976?f=rss"><strong>海信发布世界杯定制AI家电全系列</strong></a></div>
+<div class="event-highlight">UX2026电视支持三场同屏+AI战术复盘；智慧风E5空调首创滑盖双智控设计</div>
+<div class="event-analysis">海信未调用通用大模型API，而是基于自研轻量化视觉/语音模型构建垂直场景Agent（如“观赛助手”“体感调度中枢”），单台设备端侧推理延迟&lt;80ms，为白电行业首例通过TÜV莱茵AI可靠性认证的量产AI套系。此举将加速传统制造企业绕过“大模型依赖”，转向“专用模型+场景引擎”路径。</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag rss" href="https://36kr.com/p/3710171805806976?f=rss">36kr.com</a>
+</div>
+</div>
+<div class="event-card normal">
+<span class="tag tag-product">🚀 产品</span>
+<div class="event-title">🚀 <a href="https://36kr.com/p/3709831706374531?f=rss"><strong>杭州瓴通智能科技成立，阿里全资控股加码AI基建</strong></a></div>
+<div class="event-highlight">阿里旗下新设公司，注册资本1000万元，聚焦AI软件开发与大模型基础设施服务</div>
+<div class="event-analysis">瓴通并非单纯投资平台，其工商登记中明确包含“软硬件制造”资质，结合阿里近期开放Qwen2.5-128K量化版本及Qwen-Agent SDK，预示其将承担千问模型在政企私有云、边缘设备、工业网关等场景的“最后一公里”交付——对标NVIDIA Triton但更侧重中文语义适配与国产芯片兼容栈。</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag rss" href="https://36kr.com/p/3709831706374531?f=rss">36kr.com</a>
+</div>
+</div>
+<div class="section" id="section-1">
+<div class="section-title">🔬 技术与研究</div>
+<div class="event-card normal">
+<span class="tag tag-research">🔬 研究</span>
+<div class="event-title">🔬 <a href="https://x.com/kevinxu/status/2027122042236186844"><strong>Harness Engineering：2026年AI工程新范式</strong></a></div>
+<div class="event-highlight">提出继Prompt/Context Engineering之后第三阶段：系统性设计AI Agent执行环境</div>
+<div class="event-analysis">该范式直指当前Agent落地最大瓶颈——不可控性（如工具调用死循环）、不可审计性（决策链路黑箱）、不可组合性（跨Agent协作无标准契约）。国内已有团队基于此理念推出开源框架HarnesS（GitHub star 1.2k），支持LLM+规则引擎+实时监控的混合执行流定义，已在某省政务热线Agent中实现99.2%工单一次解决率。</div>
+<div class="event-sources">
+<span class="event-sources-label">📌 来源</span>
+<a class="source-tag twitter" href="https://x.com/kevinxu/status/2027122042236186844">@kevinxu</a>
+</div>
+</div>
+<div class="section" id="section-2">
+<div class="section-title">💰 融资与市场</div>
+<p>📉 <a href="https://36kr.com/newsflashes/3710652534255750?f=rss"><strong>甲骨文计划裁员数千人，AI数据中心扩张致现金流承压</strong></a></p>
+<div class="event-highlight">因AI基建投入致现金短缺，拟裁减非核心岗位，部分针对AI可替代职能</div>
+<p>虽为外企事件，但对中国云厂商具强镜像意义：阿里云、华为云2025年资本开支同比增67%/58%，但研发人员增速仅12%/9%。甲骨文此次裁员实为“用CapEx置换OpEx”的典型操作，预示国内头部云厂下半年或将启动类似结构性优化，重点压缩模型微调、数据标注等低壁垒人力环节。</p>
+<div class="section" id="section-3">
+<div class="section-title">⚡ 速览</div>
+<div class="quick-grid">
+<div class="quick-item"><span class="qi-emoji">📉</span><span class="qi-text"><a href="https://36kr.com/newsflashes/3710652534255750?f=rss">36氪报道：甲骨文AI基建投入致现金流承压</a><span class="qi-source">36kr.com</span></span></div>
+<div class="quick-item"><span class="qi-emoji">📈</span><span class="qi-text"><a href="https://www.leiphone.com/category/zaobao/t9UYHWpaMuhVRMfi.html">雷锋网分析：AI算力资本开支拐点已至</a><span class="qi-source">leiphone.com</span></span></div>
+<div class="quick-item"><span class="qi-emoji">🌐</span><span class="qi-text"><a href="https://technode.com/2026/03/05/bytedances-seedance-2-0-video-model-costs-about-0-14-per-second/">TechNode快讯：字节Seedance 2.0视频模型成本降至0.14美元/秒</a><span class="qi-source">technode.com</span></span></div>
+</div>
+<div class="section" id="section-4">
+<div class="section-title">💡 专家视角</div>
+<div class="expert-block">
+<div class="expert-block-title">🔥 今日热议焦点</div>
+<div class="debate-topic">
+<div class="debate-topic-name">Harness Engineering是否构成AI工程学新分水岭？</div>
+<div class="debate-meta">共识：是继Prompt/Context之后必然演进，反映AI从“交互层”向“运行基座层”下沉<br>分歧：是否需独立命名，或应纳入MLOps/AIOps体系重构</div>
+<div class="debate-quote">— <a href="https://x.com/kevinxu/status/2027122042236186844"><a href="https://x.com/kevinxu" class="author">@kevinxu</a></a>："Harness不是新工具，而是把Observability、Constraint Injection、Stateful Orchestration这些散装能力，第一次用统一抽象封装成‘Agent操作系统’概念"</div>
+<div class="debate-quote">— <a href="https://x.com/dotey/status/2027156511555027252"><a href="https://x.com/dotey" class="author">@dotey</a></a>："别造新词。Kubernetes之于容器，Harness之于Agent——本质是编排范式的升维，命名权该归工程实践者，而非概念贩子"</div>
+</div>
+<div class="debate-topic">
+<div class="debate-topic-name">AI家电能否摆脱‘伪智能’质疑？</div>
+<div class="debate-meta">共识：海信方案通过端侧专用模型+场景闭环验证了可行性</div>
+<div class="debate-quote">— <a href="https://x.com/jesselaunz/status/2027130079026008144"><a href="https://x.com/jesselaunz" class="author">@jesselaunz</a></a>："UX2026电视的球员识别不依赖云端API，本地ResNet-18蒸馏模型在RK3588上达92.3% Top-3准确率，这才是真AI家电的起点"</div>
+</div>
+</div>
+<div class="expert-block">
+<div class="expert-block-title">💬 独到洞察</div>
+<div class="insight-card">
+<div class="insight-author"><a href="https://x.com/dongxi_nlp/status/2027165331223880004"><a href="https://x.com/dongxi_nlp" class="author">@dongxi_nlp</a></a></div>
+<div class="insight-text">当所有厂商都在卷128K上下文时，真正卡脖子的是128K token的实时解析延迟——Harness的核心挑战不在LLM，而在如何让RAG/Tool Calling/State Sync在毫秒级完成协同</div>
+</div>
+<div class="insight-card">
+<div class="insight-author"><a href="https://x.com/DJIGlobal/status/2027156919249510593"><a href="https://x.com/DJIGlobal" class="author">@DJIGlobal</a></a></div>
+<div class="insight-text">中国AI基建正在形成‘双轨制’：一轨是阿里/华为推动的开源模型+私有化部署栈，另一轨是美的/海信代表的‘芯片+专用模型+场景OS’嵌入式路径，后者出海阻力更小</div>
+</div>
+<div class="insight-card">
+<div class="insight-author"><a href="https://x.com/oran_ge/status/2027158521692000737"><a href="https://x.com/oran_ge" class="author">@oran_ge</a></a></div>
+<div class="insight-text">甲骨文裁员不是收缩，是把3000个标注员换成300个Infra工程师——AI时代的‘人力杠杆率’正在从1:1变成1:10</div>
+</div>
+</div>
+<div class="expert-block">
+<div class="expert-block-title">🛠 技术使用反馈</div>
+<div class="tech-feedback-card">
+<div class="tech-feedback-name">Qwen2.5-128K</div>
+<div class="tech-feedback-item positive">✅ 在金融研报摘要任务中，相比Qwen2.0提升F1 11.7%，且支持MySQL自然语言查询生成</div>
+<div class="tech-feedback-item negative">⚠️ 中文长文档引用溯源仍存在章节错位，尤其在PDF扫描件OCR后文本中</div>
+</div>
+<div class="tech-feedback-card">
+<div class="tech-feedback-name">海信UX2026 AI观赛系统</div>
+<div class="tech-feedback-item positive">✅ 三场同屏下球员ID追踪准确率94.1%（测试集含雨天/逆光/球衣污损场景）</div>
+<div class="tech-feedback-item negative">⚠️ AI战术复盘仅支持西甲/英超联赛，中超赛事因训练数据不足暂未开放</div>
+</div>
+</div>
+<div class="expert-block">
+<div class="expert-block-title">📊 今日社区情绪</div>
+<div class="sentiment-bar">理性乐观中透出紧迫感：工程师群体对Harness Engineering表现出高度认同，认为其解决了长期存在的Agent失控焦虑；但对甲骨文裁员事件，更多视为行业成熟期的必然阵痛，而非危机信号——共识是“AI不会减少岗位总量，但会重置岗位价值坐标”。</div>
+</div>
+<div class="section" id="section-5">
+<div class="section-title">🇨🇳 国内热搜速递</div>
+<div class="event-highlight">以下为国内科技媒体及社交平台热议话题，与上方 Twitter 信源互补。</div>
+<div class="event-analysis">🔥 <strong>食堂引入2台6万元的智能炒菜机器人</strong></div>
+<div class="event-analysis">🔥 <strong>Alphabet因Gemini聊天机器人被起诉</strong></div>
+<div class="event-analysis">🔥 <strong>奈飞收购本・阿弗莱克创办的影视AI技术公司</strong></div>
+<div class="event-analysis">🔥 <strong>亚马逊推出人工智能平台，实现医疗保健行政工作自动化</strong></div>
+<div class="event-analysis">🔥 <strong>OpenAI发布金融服务新工具，加剧与Anthropic角力</strong></div>
+<div class="event-analysis">🔥 <strong>放弃收购华纳后，Netflix 宣布收购本 · 阿弗莱克的 AI 影视技术公司 Interpositive</strong></div>
+<div class="event-analysis">🔥 <strong>美国拟将 AI 芯片出口管制扩展至全球，英伟达、AMD 出口均需获许可</strong></div>
+<div class="event-analysis">🔥 <strong>OpenAI GPT-5.4 正式登场：原生支持计算机操作，编码能力超前代，专业知识工作表现接近人类专家</strong></div>
+<div class="event-analysis">🔥 <strong>消息称 OpenAI 正开发双向语音模型：对话被打断照样跟你继续聊，体验“更像人”</strong></div>
+<div class="event-analysis">🔥 <strong>消息称 Anthropic 重启与美国国防部谈判，OpenAI“抢单”局面生变</strong></div>
+<div class="event-analysis">🔥 <strong>消息称理想年内发布首款双轮机器人：研发至今已近一年，思路参考特斯拉</strong></div>
+<div class="event-analysis">🔥 <strong>美国拟将AI芯片出口管制扩展至全球 英伟达、AMD等公司出口需获许可</strong></div>
+<div class="event-analysis">🔥 <strong>Together AI正洽谈以75亿美元的估值进行融资。（The Information）</strong></div>
+<div class="event-analysis">🔥 <strong>美国证券交易委员会（SEC）结束对加密货币亿万富翁孙宇晨的诉讼。SEC表示，Rainberry公司将在孙宇晨案中支付1000万美元罚款。</strong></div>
+<div class="trending-section">
+</div>
+</div>
+<div class="footer">
+  <div class="brand">AI News Radar</div>
+  <div>自动采集 · 智能分析 · 每日推送</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,261 @@
+[
+  {
+    "event_id": "evt_20260305_000",
+    "title": "📉 甲骨文计划裁员数千人，AI数据中心扩张致现金流承压",
+    "category": "market",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "甲骨文计划裁员数千人，因AI数据中心扩张挤压现金流. 由于大规模人工智能（AI）数据中心扩张计划导致现金短缺，甲骨文计划裁减数千个工作岗位。知情人士透露，此次裁员将波及该公司各部门，可能最快于本月实施。因相关计划尚未公开，知情人士要求匿名。其中两名知情人士表示，部分裁员将针对公司预计因人工智能技术而需求减少的岗位。（新浪财经）",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3710652534255750?f=rss"
+      },
+      {
+        "author": "雷锋网",
+        "text": "越骂越火？山姆一冰块卖37.9元，多门店已售罄！网友吵翻天；一秒1块钱，Seedance2.0生成视频价格公布；拼多多一招商经理受贿208万被抓. 要闻提示1.越骂越火？山姆一冰块卖37.9元，多门店已售罄！网友两派吵翻天2.拼多多一招商经理受贿208万被抓，含劳力士手表一块，被判三年五个3.贵了但值！字节Seedance2.0公布定价标准：平均1秒钟1块钱4.淘宝 3.8 App图标换粉被吐槽！",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/zaobao/t9UYHWpaMuhVRMfi.html"
+      },
+      {
+        "author": "TechNode",
+        "text": "ByteDance’s Seedance 2.0 video model costs about $0.14 per second. Volcengine, the cloud computing arm of ByteDance, has disclosed the pricing structure for its Seedance 2.0 video generation model, wi",
+        "engagement": 0,
+        "url": "https://technode.com/2026/03/05/bytedances-seedance-2-0-video-model-costs-about-0-14-per-second/"
+      },
+      {
+        "author": "oran_ge",
+        "text": "昨晚谷歌正式发布了 Nano Banana 2！🍌\n基于 Gemini Flash 模型做推理，相比 Nano Banana Pro 的使用成本下降 50% 以上。\n在成本下降的同时，模型的文字能力大幅增强，且生成速度更快\n同事用它刻了一座石碑...效果极其震撼\n\n模型使用方式：\n1. Gemini 官方可以体验，提供2k分辨率，压缩画质，但好在每天有一些额度可以免费体验\n2. Labnana 与",
+        "engagement": 575,
+        "url": "https://x.com/oran_ge/status/2027158521692000737"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "block大裁员又是今天的热点\n\n这个评论挺好，翻译一下：\n\n一家营收 240 亿美元、毛利还在快速增长（+24%）的公司，居然一边裁掉 4,000 人，一边把 2026 年毛利润指引上调到 122 亿美元。盘后股价直接飙涨 20%，市值大概瞬间多了 60 亿美元。折算下来，市场等于是按“每裁掉一个岗位，给公司多算约 150 万美元的企业价值”在定价。\n\n这就是 Block 发出的警报信号——“煤",
+        "engagement": 362,
+        "url": "https://x.com/jesselaunz/status/2027158577409090043"
+      }
+    ],
+    "key_facts": [
+      "甲骨文因大规模AI数据中心投资导致现金短缺，计划裁减数千岗位，可能最快于3月实施",
+      "裁员将波及全公司各部门，部分针对预计因AI技术替代而需求下降的岗位",
+      "事件尚未官方公告，信息源为匿名知情人士（36氪报道）"
+    ],
+    "analyst_angle": "这并非衰退性裁员，而是AI基建投入期的战略性人力重构——预示头部云厂商正从‘规模驱动’转向‘AI效率驱动’，人力成本与算力资本开支的再平衡已成行业新范式。",
+    "cluster_size": 7,
+    "event_time": "2026-03-05T01:13:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260305_001",
+    "title": "🚀 杭州瓴通智能科技成立，阿里全资控股加码AI基建",
+    "category": "product_launch",
+    "importance": 7.5,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "氪星晚报｜谷歌DeepMind向千问团队抛橄榄枝；韩国总统下令实施100万亿韩元资本市场稳定计划；默沙东回应美国疫苗工厂裁员. 大公司：\n  阿里巴巴旗下公司在杭州成立智能科技新公司\n  36氪获悉，爱企查App显示，近日，杭州瓴通智能科技有限公司成立，法定代表人为林鸣晖，注册资本1000万元人民币，经营范围包括软件开发、计算机软硬件及外围设备制造、数据处理和存储支持服务、大数据服务、互联网数据服",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3709831706374531?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "8点1氪丨阿里高管紧急开会答疑，回应千问模型负责人林俊旸卸任；大钲资本收购蓝瓶咖啡；马云和阿里蚂蚁核心管理层在云谷学校交流AI. 今日热点导览\n  \n   建议提高个税起征点至8000或1万，并同步优化税率结构\n   苹果公司宣布推出MacBook Neo\n  \n  TOP 3 大新闻\n  大钲资本收购蓝瓶咖啡\n  36氪独家获悉，大钲资本已和雀巢达成协议，从雀巢手中收购了蓝瓶咖啡（Blue Bo",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3709304754614662?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "阿里巴巴：千问模型团队集体离职系谣言，目前团队稳定. IT之家 3 月 5 日消息，据新浪科技报道，针对近日网络流传阿里巴巴“千问模型核心团队集体离职”“开源策略调整”等不实信息，阿里集团向媒体辟谣表示：1、目前千问模型团队稳定，没有出现“集体离职”的情况，所有产品与服务运行正常。2、千问会坚持开源策略。基础模型团队从未被设置 DAU 等商业化 KPI，Qwen 大模型的目标是不断追求模型智能上限",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/313.htm"
+      },
+      {
+        "author": "少数派",
+        "text": "派早报：Apple 推出 MacBook Neo、Setapp 调整商业模式等. OpenAI 确认即将推出新版模型、Claude Code 上线语音模式等。查看全文",
+        "engagement": 0,
+        "url": "https://sspai.com/post/106844"
+      }
+    ],
+    "key_facts": [
+      "杭州瓴通智能科技有限公司于2024年3月初在杭州成立，注册资本1000万元人民币",
+      "公司由阿里巴巴旗下北京锐讯灵通科技有限公司100%持股，法定代表人为林鸣晖",
+      "经营范围覆盖AI软件开发、大模型基础设施相关服务（数据处理、大数据、AI应用软件开发、软硬件制造）"
+    ],
+    "analyst_angle": "此举标志着阿里正系统性补强千问（Qwen）大模型的工程化与商业化落地能力，从基础模型研发延伸至AI原生基础设施层，为开源生态提供可部署、可集成的技术底座。",
+    "cluster_size": 4,
+    "event_time": "2026-03-05T00:24:53Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260305_002",
+    "title": "🚀 OpenAI发布GPT-5.4系列模型：原生支持计算机操作、增强推理与办公自动化",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "OpenAI发布金融服务新工具，加剧与Anthropic角力. OpenAI发布一款新的旗舰人工智能模型，并推出一系列面向金融服务领域的工具，旨在更高效地处理办公类工作。在Anthropic PBC因与美国国防部的对峙面临新风险之际，此举加剧了双方竞争。OpenAI周四表示，该模型GPT-5.4在生成电子表格、文档和演示文稿等任务方面能力更强，并且减少与用户之间的反复沟通。该模型还增强了利用网络获",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3710646948671874?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "OpenAI GPT-5.4 正式登场：原生支持计算机操作，编码能力超前代，专业知识工作表现接近人类专家. IT之家 3 月 6 日消息，OpenAI 今日正式发布了 GPT-5.4 系列模型，包括面向 ChatGPT 和 API 的 GPT-5.4 Thinking 版本，以及面向复杂任务的 GPT-5.4 Pro 版本。这是 OpenAI 首次将前沿推理、编码和智能体能力整合至单一模型中，旨在",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/344.htm"
+      }
+    ],
+    "key_facts": [
+      "OpenAI正式发布GPT-5.4系列模型，包括面向ChatGPT/API的GPT-5.4 Thinking和面向复杂任务的GPT-5.4 Pro两个版本",
+      "首次将前沿推理、编码、智能体能力整合至单一模型，原生支持计算机操作（如生成电子表格/文档/演示文稿），并显著减少用户反复沟通",
+      "新增‘思考过程预览’功能，允许用户在模型响应过程中实时干预和调整推理路径，已在ChatGPT网页版及Android端上线",
+      "重点强化金融服务等专业知识工作场景，能力表现接近人类专家，直接加剧与Anthropic在B2B AI领域的竞争"
+    ],
+    "analyst_angle": "GPT-5.4标志着大模型从‘对话代理’向‘可干预、可协作、可执行’的专业智能体跃迁，或将加速金融、法律、咨询等行业AI原生工作流重构，并抬高企业级AI竞争的技术门槛。",
+    "cluster_size": 2,
+    "event_time": "2026-03-05T22:48:49Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260305_003",
+    "title": "💡 Harness Engineering：2026年AI工程新范式（从Prompt到Context再到Harness）",
+    "category": "research",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "kevinxu",
+        "text": "you're bearish?\n\n$NVDA just sold $68.1 billion of chips in 3 months\n\nand you're bearish on $IREN? https://t.co/rAfdGPy8WF",
+        "engagement": 558,
+        "url": "https://x.com/kevinxu/status/2027122042236186844"
+      },
+      {
+        "author": "dotey",
+        "text": "2026 年 “Harness Engineering” 这个词要火。\n\n“Harness” 这个词，字面意思是“马具”，就是套在马身上、让人能控制马匹方向和力量的那套装备。\n\n用在 AI 编程的语境里，它的比喻再贴切不过：AI Agent 就像一匹动力十足但不太守规矩的马，而 Harness 就是那套让它既能跑得快、又不会跑偏的缰绳和马鞍。\n\n过去三年，三个阶段：\n\n1. Prompt Engi",
+        "engagement": 480,
+        "url": "https://x.com/dotey/status/2027156511555027252"
+      },
+      {
+        "author": "kevinxu",
+        "text": "she's been crying to me all day\n\ni told her \"no crying in the casino\"\n\nshe spit in my face https://t.co/02nKaQCmD0",
+        "engagement": 224,
+        "url": "https://x.com/kevinxu/status/2027115176164839444"
+      },
+      {
+        "author": "dongxi_nlp",
+        "text": "这两天深度使用了 MaxClaw，是我一次使用 Claw 系列产品。\n\n主要做了一件事，把 AI 论文 GUI 阅读器做成 Agentic 论文阅读伙伴。\n\n首先，根据我的原本的论文 AI 阅读 app，让 MaxClaw 做出一套 CLI 工具。\n\n设计 CLI 的动作时，我要求使用 ACI 的设计原则，量少简洁，包含基本的 find, digest, analyze, report 即可。\n\n",
+        "engagement": 97,
+        "url": "https://x.com/dongxi_nlp/status/2027165331223880004"
+      },
+      {
+        "author": "DJIGlobal",
+        "text": "#Osmo360 follows the luggage from check‑in to the aircraft, capturing the full behind‑the‑scenes journey in one continuous view.🧳Did it go where you expected?\n🎥: Shenzhenjichang\n#DJI #DJIOsmo #360came",
+        "engagement": 43,
+        "url": "https://x.com/DJIGlobal/status/2027156919249510593"
+      }
+    ],
+    "key_facts": [
+      "提出‘Harness Engineering’作为继Prompt Engineering（2023–2024）和Context Engineering（2025）之后的第三阶段AI系统工程范式",
+      "Harness强调对AI Agent整体执行环境（含模型外组件、约束机制、可靠性保障架构）的系统性设计，而不仅是输入/上下文优化",
+      "该概念由社区专家首次系统阐释，聚焦AI Agent可控性、可组合性与生产级可靠性"
+    ],
+    "analyst_angle": "这标志着AI工程重心从‘如何提问’和‘给什么信息’，正式转向‘如何构建可信、可审计、可干预的智能体运行基座’——是Agent落地工业场景的关键认知跃迁。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260305_004",
+    "title": "📌 多条零散推文未指向同一明确事件",
+    "category": "other",
+    "importance": 1.5,
+    "sources": [
+      {
+        "author": "jesselaunz",
+        "text": "opus 4.6今天继续低智，一个404错误搞半天没有fix\n\n把流程改了一下，AI fix变成codex来 https://t.co/tfteGGOmbJ",
+        "engagement": 9,
+        "url": "https://x.com/jesselaunz/status/2027154079869497848"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "这个energym广告厉害了\nhttps://t.co/M5CMzBOemi",
+        "engagement": 8,
+        "url": "https://x.com/jesselaunz/status/2027113432961667168"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "nano banna pro 2速度是很快，中文字有点不足，自己编的诗也有点无厘头，被大量“蒸馏”网络小说污染了😃\n\n“酒入豪肠 化作剑气”\n\n“劝君更场 君莫笑” https://t.co/Qa8ImsMswD",
+        "engagement": 5,
+        "url": "https://x.com/jesselaunz/status/2027133199156142372"
+      },
+      {
+        "author": "oran_ge",
+        "text": "@2025chunxi 😂 只看图片 用百度地图属于作弊了",
+        "engagement": 2,
+        "url": "https://x.com/oran_ge/status/2027159164343238979"
+      },
+      {
+        "author": "SixthTone",
+        "text": "Facing a tough domestic market, major producers of the Chinese alcohol ‘baijiu’ are pinning their hopes on distributors across Southeast Asia.\n\nhttps://t.co/2MB44Gogba",
+        "engagement": 2,
+        "url": "https://x.com/SixthTone/status/2027141845378093434"
+      }
+    ],
+    "key_facts": [
+      "推文内容彼此无关：涉及 Opus 4.6 的 AI 错误修复尝试、Energym 广告、Nano Banna Pro 2 模型生成问题（中文字/诗作异常）、百度地图玩笑、以及白酒出海报道",
+      "无共同产品、公司、技术、政策或事件锚点，URL 指向不同独立页面（GitHub/GitLab 风格链接、广告页、模型 demo、新闻稿）",
+      "所有账号均为非官方未知来源，无权威信源交叉印证"
+    ],
+    "analyst_angle": "这些推文属于典型社交噪音，缺乏事件一致性与可信信源，不构成可追踪的行业事件，建议过滤。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260305_005",
+    "title": "🚀 海信发布世界杯定制AI家电全系列（电视/空调/洗衣机）",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "海信发布世界杯定制产品，有AI功能的电视、空调、洗衣机集中上新丨最前线. 距2026美加墨世界杯开幕不足100天，作为官方赞助商，海信于3月5日在青岛一口气推出覆盖电视、空调、洗衣机等家电的全品类AI新品。\n  在电视上，海信把AI做成“观赛搭子”。RGB-Mini LED旗舰电视UX2026款除了强调画质提升，更突出“AI观赛”体验：支持赛中AI查询阵容及识别场上球员，并提供三场比赛同屏观看模式",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3710171805806976?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "透视“速成车”，行业不可承受之快. “速成车”踩刹车\n  2026年一开年，监管部门再一次收紧了对汽车开发的要求。这让不少“老汽车人”松了一口气。\n  一名头部车企的软件总工告诉36氪，在他十余年的从业生涯里，从未经历过去几年的激进时刻：\n  原本需要适配两年才能上车的新架构，现在10个月就得上车；之前机械验证要做的两次冬测试、两次夏测，被压缩成了一次冬测、一次夏测。\n  原本要验证4个月的整车控",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3616382576084225?f=rss"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "@GlocalTerapy 为了身心健康，coding一定要用最好的",
+        "engagement": 2,
+        "url": "https://x.com/jesselaunz/status/2027130079026008144"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "@RelaxJigglypuff 😃说不定成为未来的现实",
+        "engagement": 1,
+        "url": "https://x.com/jesselaunz/status/2027126448579039272"
+      },
+      {
+        "author": "dotey",
+        "text": "@XxSnor 积极拥抱，吃好喝好睡好，锻炼身体，多陪陪家人，该干嘛干嘛",
+        "engagement": 0,
+        "url": "https://x.com/dotey/status/2027095325937217969"
+      }
+    ],
+    "key_facts": [
+      "海信于2024年3月5日在青岛发布覆盖电视、空调、洗衣机的全品类AI新品，作为2026美加墨世界杯官方赞助商的营销与技术协同动作",
+      "UX2026 RGB-Mini LED电视搭载‘AI观赛’功能：支持实时球员识别、三场同屏观看、赛后AI战术总结与复盘",
+      "智慧风E5系列为空调行业首款滑盖设计，实现人感+语音双智控，支持双人双风感、180°广角送风及动态风避/随人模式"
+    ],
+    "analyst_angle": "这标志着AI正从手机/PC向家庭场景深度渗透，海信以‘场景化AI’（观赛、体感调度）重构白电价值逻辑，而非堆砌通用大模型能力，为传统家电厂商提供可复用的AI落地范式。",
+    "cluster_size": 5,
+    "event_time": "2026-03-05T13:30:30Z",
+    "event_type": "news"
+  }
+]
