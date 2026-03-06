@@ -1,0 +1,431 @@
+[
+  {
+    "event_id": "evt_20260306_000",
+    "title": "📜 美国推进《应用商店问责法案》；Anthropic与五角大楼因AI军事化使用爆发重大冲突",
+    "category": "policy",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "美国推进《应用商店问责法案》，要求平台建立年龄门槛机制. IT之家 3 月 6 日消息，据外媒 The Verge 报道，当地时间 3 月 5 日，美国众议院能源和商务委员会将一揽子儿童网络安全法案送交众议院全体表决。委员会当天推进三项法案：《儿童互联网与数字安全法案》《萨米法案》以及《应用商店问责法案》。其中，《应用商店问责法案》要求应用商店建立年龄门槛机制，以限制未成年人接触不适合的内容。据I",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/712.htm"
+      },
+      {
+        "author": "dotey",
+        "text": "Anthropic 和五角大楼这周彻底闹翻了。五角大楼要求 Claude 向军方开放所有合法用途，不设任何限制。\n\nAnthropic 拒绝了，坚持 AI 不能用于大规模监控美国公民，也不能用于全自主致命武器。\n\n五角大楼给了最后通牒，限今天下午 5:01 前答复，否则取消 2 亿美元合同，还威胁动用《国防生产法》，把 Anthropic 列为供应链风险。\n\nDario Amodei 公开回应：我",
+        "engagement": 2325,
+        "url": "https://x.com/dotey/status/2027500382910615893"
+      }
+    ],
+    "key_facts": [
+      "美国众议院能源和商务委员会于3月5日推进《应用商店问责法案》等三项儿童网络安全法案，要求应用商店建立年龄门槛机制，并限制AI聊天机器人对未成年人隐瞒其AI身份",
+      "Anthropic拒绝五角大楼要求Claude无限制用于军方合法用途，坚守不支持大规模监控公民及全自主致命武器的伦理红线，面临2亿美元合同取消及《国防生产法》制裁威胁",
+      "特朗普下令联邦机构立即停用Anthropic技术；Sam Altman、Ilya Sutskever及OpenAI/Google员工联合声援，凸显AI行业首次就军事化红线形成跨公司共识"
+    ],
+    "analyst_angle": "这标志着AI治理从平台合规（如年龄验证）迈向核心伦理红线博弈——首次出现头部厂商以终止国家级合同为代价，集体抵制AI军事化滥用，或将加速推动美欧出台具有法律约束力的AI武器禁令框架。",
+    "cluster_size": 2,
+    "event_time": "2026-03-06T15:43:04Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_001",
+    "title": "🚀 Codepilot 推出全AI自动化笔记工具（含 CLI 模式、Agent 分屏执行）",
+    "category": "product_launch",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "少数派",
+        "text": "年度征文｜给 NPC 接上 AI：重生爽文看不够？我直接做了个能骂反派的游戏. 要是你也有那种「看爽文不够爽，想自己进去打反派」的冲动——做一个吧，现在真的不难。查看全文",
+        "engagement": 0,
+        "url": "https://sspai.com/post/106789"
+      },
+      {
+        "author": "vista8",
+        "text": "Obsidian Cli模式终于全量，快速让CC写了一个Skill。\n\n测试案例：“搜索Obsidian中关于幸福的内容，写一篇文章”\n\n立即查找仓库中相关文章，一篇文章就写好了。",
+        "engagement": 247,
+        "url": "https://x.com/vista8/status/2027424710464831672"
+      },
+      {
+        "author": "op7418",
+        "text": "哈哈，突发奇想，给 Codepilot 搞了个超好玩的东西！\n\n一键分屏并行执行任务！\n\n帮你更好的管理你的 Agent 进度，支持快速切换和无限分屏，只需要你的屏幕够长\n\n交互逻辑借鉴了 Dia 浏览器 https://t.co/lLSgfyVyqV",
+        "engagement": 87,
+        "url": "https://x.com/op7418/status/2027436426967822633"
+      },
+      {
+        "author": "dontbesilent",
+        "text": "不知道这些搞 AI 硬件的在想啥\n\n这 UI 能不能稍微设计一下\n\n半成品就往外发，小时候快乐星球看多了 https://t.co/e1pCBjD6FU",
+        "engagement": 27,
+        "url": "https://x.com/dontbesilent/status/2027434892704026971"
+      },
+      {
+        "author": "vista8",
+        "text": "全AI自动化的笔记工具，体验真的是AI优先，有点爽。 https://t.co/zGohxPrhEx",
+        "engagement": 15,
+        "url": "https://x.com/vista8/status/2027425971276800218"
+      }
+    ],
+    "key_facts": [
+      "Codepilot 正式上线全量 Obsidian CLI 模式，支持自然语言指令驱动内容检索与生成（如‘搜索关于幸福的内容并写一篇文章’）",
+      "新增一键分屏并行 Agent 执行功能，借鉴 Dia 浏览器交互逻辑，支持无限分屏与进度管理",
+      "产品定位为‘全AI自动化的笔记工具’，强调 AI-first 体验，已上线公开链接供体验"
+    ],
+    "analyst_angle": "Codepilot 将 LLM Agent 能力深度嵌入知识工作流（尤其是 Obsidian 生态），标志着 AI 工具正从单任务辅助迈向多 Agent 协同的自动化操作系统雏形。",
+    "cluster_size": 5,
+    "event_time": "2026-03-06T07:00:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_002",
+    "title": "🤝 魔法原子管理团队升级，锚定具身智能研发与全球拓展",
+    "category": "partnership",
+    "importance": 7.5,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "氪星晚报｜蜜雪冰城公司已公布多项咖啡相关专利；证监会同意春光集团创业板IPO注册；千问持续推进AI生活服务落地. 大公司：\n  蜜雪冰城公司已公布多项咖啡相关专利\n  36氪获悉，目前蜜雪冰城现磨咖啡业务处于前期规划试点阶段，除全自动咖啡机外，接下来将同步试点升级咖啡产品线，包括推出咖啡新品，升级咖啡豆、牛奶等核心原料等多个方面，整体仍将延续高质平价的产品策略。爱企查App显示，蜜雪冰城股份有限公",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3711355370615169?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "8点1氪丨寿司郎被曝吃出寄生虫卵，当地市监局通报；全国人大代表建议尽量不要调休；谷歌DeepMind高管公开邀请千问团队入职. 今日热点导览\n  \n   魔法原子回应创始人离职：确有此事，目前技术团队稳定\n   伊朗：禁止美以欧船只通过霍尔木兹海峡\n   现货白银向下跌破81美元/盎司\n   MacBook Neo国补后低至3000多元\n   亚马逊在机器人部门裁员约100人\n  \n  TOP 3",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3710693707166083?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "国家发改委主任郑栅洁：春晚机器人不是单单炫技、更有技术内涵. IT之家 3 月 6 日消息，据央视新闻报道，十四届全国人大四次会议今天举行经济主题记者会。国家发展和改革委员会主任郑栅洁表示，我们要重点打造六大新兴产业和六大未来产业。六大新兴支柱产业包括集成电路、航空航天、生物医药、低空经济、新型储能、智能机器人。郑栅洁举例介绍，像春晚上的机器人，它不是单单炫技，而是有很多技术含量的内涵。现在机器人",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/606.htm"
+      },
+      {
+        "author": "雷锋网",
+        "text": "魔法原子管理团队完成升级 锚定具身智能研发攻坚 加码全球市场拓展步伐. 3月6日，魔法原子正式发布官方公告，宣布一系列高层管理团队重要调整。此次调整是公司面向具身智能产业加速规模化落地阶段的一次组织升级，旨在进一步强化核心领导团队，深化公司在具身智能技术研发、数据体系建设及全球商业化布局方面的战略能力，为公司推动具身智能大规模产业落地与全球业务拓展注入强劲动能。根据官方公告，此次任命包括：陈春玉继",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/industrynews/FkN0nikMDdQX4kT6.html"
+      },
+      {
+        "author": "雷锋网",
+        "text": "火速捡漏？阿里正式批准林俊旸辞职，谷歌DeepMind立刻抛橄榄枝；某车CEO头戴摄像头炮轰激光雷达：放在车顶不好看；OpenAI深夜祭出GPT-5.4. 要闻提示1.莲花CEO穿西装头顶摄像头炮轰激光雷达：放在车顶不好看2.阿里CEO发内部信批准林俊旸离职！谷歌DeepMind向千问团队抛橄榄枝3.虎鲸文娱组织升级！董事长樊路远：积极拥抱AI，加速“线上+线下”全场景融合4.参加春晚后，魔法原子",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/zaobao/c94KIpPbhKgQmseL.html"
+      }
+    ],
+    "key_facts": [
+      "魔法原子于3月6日正式宣布高层管理团队重要调整，聚焦具身智能规模化落地",
+      "联合创始人兼CTO陈春玉继续留任，强调其在人形机器人领域10余年研发与落地经验",
+      "组织升级旨在强化具身智能技术研发、数据体系建设及全球商业化布局能力"
+    ],
+    "analyst_angle": "此次管理层升级并非人事震荡，而是面向产业化临界点的战略性加固，标志着国产具身智能公司正从技术验证转向全球商业攻坚阶段。",
+    "cluster_size": 5,
+    "event_time": "2026-03-05T23:55:17Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_003",
+    "title": "🔧 Steam Machine 主机发货延期，内存与存储芯片短缺成主因",
+    "category": "chip_hardware",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "V社称 Steam Machine 主机今年内发货存在挑战，内存与存储芯片短缺成主因. IT之家 3 月 7 日消息，V社去年发布的 Steam Machine 主机曾让不少玩家眼前一亮，这款产品将为熟悉 Steam 平台的 PC 玩家打造，能够无缝将游戏库搬到客厅沙发，原计划今年初发售，价格则是一直没有公布。不过V社今天在 Steam 平台 2025 回顾文章中以一小段话表示，Steam Mac",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/715.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "AYANEO Pocket AIR Mini x B.Duck 小黄鸭联名限定款掌机亮相，搭载联发科 G90T 芯片. IT之家 3 月 6 日消息，AYANEO 今日官宣推出 Pocket AIR Mini x B.Duck 小黄鸭联名限定款掌机（售价暂未公布），新机的机身印有小黄鸭元素，主题色为 IP 标志性的黄色。据介绍，AYANEO Pocket AIR Mini × B.Duck 联名限",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/708.htm"
+      }
+    ],
+    "key_facts": [
+      "V社在Steam 2025回顾文章中确认Steam Machine主机无法100%于2026年内上市，目标调整为2026年上半年",
+      "延期主因为当前内存与存储芯片（DRAM/NAND）供应链短缺",
+      "该硬件是V社面向客厅PC游戏场景的战略级自有主机产品，原计划2026年初发售"
+    ],
+    "analyst_angle": "芯片短缺已从消费电子蔓延至游戏硬件创新落地环节，凸显高性能小体积主机对先进存储方案的强依赖，或倒逼厂商加速采用LPDDR5X/PCIe 5.0 SSD等新架构适配",
+    "cluster_size": 2,
+    "event_time": "2026-03-06T15:13:15Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_004",
+    "title": "🚀 华为 Mate 80 Pro Max 正式开售：搭载麒麟 9030 Pro 芯片，7999 元起",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "华为 Mate 80 Pro Max 手机开放购买：麒麟 9030 Pro 芯片，7999 元起. IT之家 3 月 6 日消息，华为官网显示，Mate 80 Pro Max 手机的部分配色 / 版本已开放购买，定价 7999 元起，预计 2026 年 4 月 15 日前完成发货。官网信息显示，华为 Mate 80 Pro Max 手机搭载麒麟 9030 Pro 处理器，整机性能对比 Harmon",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/710.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "消息称港版华为 Mate X7 折叠屏手机搭载麒麟 9030 Pro 处理器. IT之家 3 月 6 日消息，华为 Mate X7 折叠屏旗舰手机已于 2025 年 12 月 11 日在全球市场发布，号称开启全新篇章。据博主 @6GHz 透露，港版华为 Mate X7 折叠屏手机搭载麒麟 9030 Pro 处理器。另外，香港官网显示，华为 Mate X7 折叠屏手机还预装 EMUI 15 系统（香",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/638.htm"
+      },
+      {
+        "author": "雷锋网",
+        "text": "涨价潮席卷手机市场，华为Mate X7等机型“逆势”出圈成真香首选！. 近期，关于内存价格“狂飙”的消息持续发酵，一场席卷全行业的涨价潮正加速向终端市场蔓延。据多家媒体报道，由于存储芯片供需失衡加剧，手机行业即将迎来一轮全面涨价，OPPO、小米、荣耀等多个品牌已通过渠道释放涨价节奏，不仅新机价格全线上调，就连已发布的老机型也陆续跟进调价。然而，在一片“涨”声中，华为却展现出截然不同的市场姿态。对比",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/industrynews/X5fGvGxgzXHxNIVn.html"
+      }
+    ],
+    "key_facts": [
+      "华为 Mate 80 Pro Max 于 2026 年 3 月 6 日在官网及京东等平台开放购买，起售价 7999 元，预计最晚 4 月 15 日前发货",
+      "该机首发搭载自研麒麟 9030 Pro 处理器，整机性能相较 HarmonyOS 4.3 版本的 Mate 70 Pro+ 最高提升 42%",
+      "同款麒麟 9030 Pro 芯片亦确认用于港版 Mate X7 折叠屏手机（已全球发布），印证该芯片已进入量产商用阶段"
+    ],
+    "analyst_angle": "麒麟 9030 Pro 的规模化落地标志着华为高端芯片供应链实现关键闭环，叠加逆势稳价策略，正重塑国产旗舰市场定价权与用户心智锚点。",
+    "cluster_size": 3,
+    "event_time": "2026-03-06T07:15:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_005",
+    "title": "🚀 QQ 鸿蒙版 App 推出 9.2.10 邀测版：新增聊天记录分类查看、全屏输入等关键功能",
+    "category": "product_launch",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "QQ 鸿蒙版 App 获 9.2.10 版本邀测升级，新增聊天记录支持分类查看等功能. IT之家 3 月 6 日消息，QQ 鸿蒙版 App 在华为应用市场（App Gallery）开启 9.2.10 (2692) 版本邀测升级（需收到短信通知后点击链接跳转安装），测试时间为 2026/3/6-2026/3/27。IT之家附 QQ 鸿蒙版 App 本次测试版本新特性如下：1、新增聊天记录支持分类查看",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/697.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "SP12 → SP22：华为首批鸿蒙 HarmonyOS 6.0.0.328 花粉 Beta 版升级机型开启更新. IT之家 3 月 6 日消息，华为更多机型今日开启了鸿蒙 HarmonyOS 6.0.0.328 花粉 Beta 版尝鲜升级，含 Mate 60 系列、Pura 70 系列等。该批次机型首发升级了 HarmonyOS 6.0.0.328 SP22 版本，相较此前的 SP12 版本，又",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/676.htm"
+      }
+    ],
+    "key_facts": [
+      "QQ 鸿蒙版 App 于 2026年3月6日开启 9.2.10 (2692) 版本邀测升级，测试期至 3月27日",
+      "新增核心体验功能：聊天记录支持分类查看、全屏输入；修复已知问题",
+      "当前鸿蒙版安装量超3094万，但评分仅2.5（2.9万个评分），反映用户对功能成熟度与体验仍有期待"
+    ],
+    "analyst_angle": "QQ 加速鸿蒙生态适配节奏，9.2.10 版本聚焦交互效率提升，标志着主流社交App正从基础功能可用迈向深度体验优化阶段，为HarmonyOS NEXT纯血应用生态提供关键用户入口支撑。",
+    "cluster_size": 2,
+    "event_time": "2026-03-06T11:27:55Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_006",
+    "title": "🚀 小米 Xiaomi miclaw（类 OpenClaw 移动 AI Agent）开启封测",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "小米 17 系列手机“龙虾”封测版本开推，新增基于 MiMo 大模型构建的 Xiaomi miclaw 应用. IT之家 3 月 6 日消息，小米今日官宣 Xiaomi miclaw 开始小范围封闭测试，支持一句话操控手机、米家设备等。据小米相机部的产品经理 @Bao_小李 今日分享，手机版“龙虾”的封闭测试版本已开启推送，具体版本号为“3.0.303.4.WPBCNXM”，包体大小约 1.5GB",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/692.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "努比亚倪飞：Z80 Ultra 将系统化集成原生 OpenClaw，使手机成为真正 GateWay 类型的“龙虾”. IT之家 3 月 6 日消息，中兴通讯终端事业部总裁、努比亚技术有限公司总裁倪飞今日宣布，努比亚 Z80 Ultra 将率先系统化集成原生 OpenClaw，使手机成为真正的 GateWay 类型的“龙虾”，全面支持 ClawBot 的场景化应用以及 Skills 生态的无限接入能",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/678.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "腾讯今日在鹅厂门口免费安装 OpenClaw，现场发“小龙虾出生证明”. IT之家 3 月 6 日消息，据腾讯云分享，今天，鹅厂门口现场免费安装 OpenClaw。据腾讯云介绍，来自腾讯云 Lighthouse 的工程师，为用户提供一站式的 OpenClaw 从“装”到“玩”服务：安装部署、模型配置、IM 渠道打通，以及热门的 Skills 技能。IT之家注意到，腾讯还给用户颁发了“小龙虾出生证明",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/604.htm"
+      },
+      {
+        "author": "TechNode",
+        "text": "Xiaomi begins limited closed beta of OpenClaw-like mobile AI agent Xiaomi miclaw. Xiaomi has begun a limited closed beta for Xiaomi miclaw, a mobile AI agent system built on its MiMo large model, acco",
+        "engagement": 0,
+        "url": "https://technode.com/2026/03/06/xiaomi-begins-limited-closed-beta-of-openclaw-like-mobile-ai-agent-xiaomi-miclaw/"
+      }
+    ],
+    "key_facts": [
+      "小米于3月6日启动 Xiaomi miclaw 应用的小范围封闭测试，版本号为 3.0.303.4.WPBCNXM，包体约1.5GB",
+      "Xiaomi miclaw 基于小米自研 MiMo 大模型，支持一句话指令操控手机、米家设备及系统级工具，具备意图理解、授权调用、记忆与模糊任务解析能力",
+      "努比亚宣布 Z80 Ultra 将原生集成 OpenClaw，定位为 Gateway 类‘龙虾’终端；腾讯同日于深圳鹅厂门口开展 OpenClaw 实地部署与用户赋能活动",
+      "OpenClaw 已登顶 GitHub 星标榜（超越 Linux 和 React），并开通官方微博，形成跨厂商协同的开放 Agent 生态信号"
+    ],
+    "analyst_angle": "‘龙虾’（Lobster）作为中国AI手机Agent统一技术代号正加速从概念走向量产落地，小米miclaw、努比亚OpenClaw集成、腾讯生态支持共同标志AI手机进入‘自主任务执行’2.0阶段，推动终端从交互界面升级为AI服务网关。",
+    "cluster_size": 4,
+    "event_time": "2026-03-06T06:14:15Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_007",
+    "title": "🚀 阿里千问推出3.8节AI办事卡活动，全面打通淘宝/支付宝/闪购实现AI一句话购物",
+    "category": "product_launch",
+    "importance": 6.5,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "阿里千问推出 3.8 节活动：人人可领 AI 办事卡，可享无门槛立减. IT之家 3 月 6 日消息，阿里千问今日推出 3.8 节活动，3 月 6 日 ~3 月 8 日，打开千问 App，人人可领 AI 办事卡，用 AI 一句话下单，可享无门槛立减，可以买鲜花、买百货、点餐饮等。IT之家注意到，千问 App 今年 1 月宣布全面接入淘宝、支付宝、淘宝闪购等阿里生态业务，在全球首先实现点外卖、买东西",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/608.htm"
+      },
+      {
+        "author": "雷锋网",
+        "text": "史上最便宜MacBook今起预售，美团闪购：开学季“苹果三件套”热度大增. 3月6日，起售价4599元的苹果MacBook Neo开启预售，这款“史上最便宜的苹果笔记本”，因其叠加国补后落入3000元价格区间的售价，受到业界和消费者广泛关注。&nbsp;▲开学季多款苹果设备热度大增。图为美团骑手在苹果门店取货。（摄影：小飞）&nbsp;分析人士称，这款苹果新品的售价和配置，瞄准的是大学新生和职场新",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/industrynews/599BT1PqumXa7ygC.html"
+      }
+    ],
+    "key_facts": [
+      "阿里千问于3月6日-8日推出3.8节营销活动，用户可领取‘AI办事卡’，享无门槛立减，支持鲜花、百货、餐饮等AI一句话下单",
+      "千问App已于2024年1月全面接入淘宝、支付宝、淘宝闪购等阿里核心生态，全球首个实现点外卖、买东西、订机票等端到端AI购物功能",
+      "2月已启动‘春节30亿大免单’活动，用户更新App即可领25元无门槛免单卡，覆盖奶茶、年货、外卖等场景"
+    ],
+    "analyst_angle": "这不是单纯促销，而是将大模型从对话工具升级为‘AI操作系统入口’的关键落地——通过高频消费场景反哺用户习惯与数据飞轮，加速AIGC向AGI级任务执行演进。",
+    "cluster_size": 2,
+    "event_time": "2026-03-06T09:39:41Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_008",
+    "title": "📌 多品牌AI影像与内容创作工具实践动态",
+    "category": "other",
+    "importance": 2.5,
+    "sources": [
+      {
+        "author": "BYDCompany",
+        "text": "Precision in every line. BYD SEAL U. https://t.co/FoHvoMc7At",
+        "engagement": 152,
+        "url": "https://x.com/BYDCompany/status/2027474100411621715"
+      },
+      {
+        "author": "DJIGlobal",
+        "text": "Have you ever seen Tokyo like this?🌇Captured from day to night with #OsmoPocket3, the city slowly shifts in light, color, and rhythm.\n🎥: alan__tw\n#DJI #DJIOsmo https://t.co/Lgo5sOSz83",
+        "engagement": 104,
+        "url": "https://x.com/DJIGlobal/status/2027489184672305178"
+      },
+      {
+        "author": "dontbesilent",
+        "text": "我的小红书大号现在发了新视频，并且在评论区里面没有发商品链接之后，竟然起死回生开始涨粉了\n\n按我过往经验，评论区发个链接不应该有负面影响，也是帮平台贡献GMV\n\n但反正现在情况就是这么个情况……供大家参考🥲",
+        "engagement": 47,
+        "url": "https://x.com/dontbesilent/status/2027432627905650988"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "https://t.co/m8zeEjRaTX",
+        "engagement": 13,
+        "url": "https://x.com/jesselaunz/status/2027502484965797913"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "我这个账号第一次用article发文\n\n因为胎息经原文想做个加黑方便点，用nano banna pro 2生成100%文字正确的5：2 article图花了点功夫\n\n直接要求nbp2按原文生成图片，会有一定错误（图一）\n\n因为我的fo大多数是AI爱好者，而非修炼爱好者，故此把这个tip发一下\n\n第一步：要竖排写到HTML里\n\nprompt： 胎從伏氣中結，氣從有胎中息，氣入身來為之生，神去離形為之",
+        "engagement": 12,
+        "url": "https://x.com/jesselaunz/status/2027506194789863694"
+      }
+    ],
+    "key_facts": [
+      "BYD发布SEAL U车型宣传图，强调设计精度（非AI生成声明未提及，纯营销素材）",
+      "DJI用Osmo Pocket 3拍摄东京昼夜延时视频，展示便携影像设备能力",
+      "小红书创作者观察到评论区不放商品链接反而提升涨粉率，属平台算法反馈现象",
+      "AI爱好者尝试用Nano Banna Pro 2生成古籍竖排图文，探索中文字精准图像生成工作流"
+    ],
+    "analyst_angle": "这些推文表面分散，实则共同折射出AI时代内容生产链的微观实践困境：硬件采集（DJI）、工业设计传播（BYD）、平台分发规则（小红书）、AI图文生成瓶颈（NBP2古籍排版），但无统一事件、技术突破或行业公告，仅为多源零散行为快照。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_009",
+    "title": "🚀 中国AI人形机器人集体亮相马年春晚 & CES展，技术落地加速",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "倒计时10天，2026 AI最佳场景渗透案例火热征集中. 2026年开年，中国AI领域热度拉满，几乎每隔几天就有重磅消息刷屏。\n  国内，马年春晚舞台上，宇树科技、银河通用、魔法原子、松延动力四家人形机器人品牌集体亮相，覆盖武术、歌曲、小品、微电影等多个节目，以高难度动作与沉浸式交互，展现中国AI从实验室走向大众视野的加速进程，成为“史上最AI春晚”的标志性亮点。\n  国外，CES展会成为中国AI",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3711294378930306?f=rss"
+      },
+      {
+        "author": "dotey",
+        "text": "@Yuchenj_UW \"Code is a liability, not an asset\"",
+        "engagement": 4,
+        "url": "https://x.com/dotey/status/2027432688148206027"
+      },
+      {
+        "author": "lyc_zh",
+        "text": "最后解决方案 干掉 long polling 用 telegram webhook 了。。。非常稳定现在",
+        "engagement": 3,
+        "url": "https://x.com/lyc_zh/status/2027493209736155366"
+      },
+      {
+        "author": "SixthTone",
+        "text": "China has issued new regulations on “ghost kitchens” — food vendors offering only take-out — requiring them for the first time to clearly disclose that status on all online platforms.\n\nhttps://t.co/h8",
+        "engagement": 3,
+        "url": "https://x.com/SixthTone/status/2027474202182242387"
+      },
+      {
+        "author": "yangyi",
+        "text": "@xbanboo 你开始接活儿了\n你让你锤弟咋办",
+        "engagement": 2,
+        "url": "https://x.com/yangyi/status/2027426842639237479"
+      }
+    ],
+    "key_facts": [
+      "宇树科技、银河通用、魔法原子、松延动力四家人形机器人品牌集体登上2026马年春晚，覆盖武术、歌曲、小品、微电影等多节目形态",
+      "CES 2026人形机器人展区38个展位中，中国企业占21席（超55%），多款产品实现自主路线规划、物品识别与多步骤连续操作",
+      "技术重心从概念演示转向真实场景闭环能力，实用性成核心竞争力"
+    ],
+    "analyst_angle": "中国AI硬件产业化已跨越‘能动’阶段，进入‘能用、好用、规模化部署’临界点，人形机器人正从消费级展演快速切入工业巡检、物流搬运、特种服务等B端增量市场。",
+    "cluster_size": 5,
+    "event_time": "2026-03-06T10:16:48Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_010",
+    "title": "🔧 苹果2026款M5芯片MacBook Air跑分曝光：单核+9.34%、多核+13.56%",
+    "category": "chip_hardware",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "美股大型科技股盘前普跌，英伟达跌超1%. 36氪获悉，美股大型科技股盘前普跌，截至发稿，英伟达、亚马逊、谷歌跌超1%，特斯拉跌0.82%，Meta跌0.79%，苹果跌0.65%，微软跌0.55%。",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3711461226213504?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "Meta智能眼镜曝隐私风险 用户AI互动画面会被第三方查看. 最新消息显示，部分Meta AI眼镜拍摄的视频，会交给肯尼亚数据标注员进行人工审核，其中包含用户隐私敏感画面。Meta回应称，相关视频会对人脸打码，且AI服务条款中已说明数据可能会被人工审核。（财联社）",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3711382721392774?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "苹果 2026 款 M5 芯片 MacBook Air 跑分再曝：单核比 M4 款高 9.34%、多核高 13.56%. IT之家 3 月 7 日消息，科技媒体 TechRadar 的 Lance Ulanoff 昨日（3 月 6 日）在 X 平台发布推文，分享了两张图片，展示了苹果 2026 款 M5 芯片 MacBook Air 和 2025 款 M4 芯片 MacBook Air 的 Gee",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/714.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "《失落星船：马拉松》射击游戏今日发售，Steam 国区 168 元起. IT之家 3 月 6 日消息，Bungie《失落星船：马拉松》今日发售，登陆 PC、PS5、Xbox Series X|S 平台，其中 Steam 国区价格 168 元起。据介绍，该作是《光环》和《命运》创作者推出 PvPvE 第一人称生存撤离射击游戏，玩家将成为穿着生物控制外壳的疾行者，在失落的天仓五 IV 殖民地中搜寻物资",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/703.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "沃尔沃发布全新多重自适应安全带：能针对乘员体型单独优化预紧程度，减小伤害. IT之家 3 月 6 日消息，沃尔沃推出了一项新的安全技术，为安全带预紧器提供更灵活的调节能力，从而能够减少锁骨骨折等由安全带造成的伤害。目前的安全带虽然能够在事故中显著降低伤亡风险，但如果没有针对不同体型乘员进行优化，在碰撞中仍可能造成一定损伤。沃尔沃希望通过新的安全带系统解决这一问题。这套名为“多重自适应安全带”的系统",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/700.htm"
+      }
+    ],
+    "key_facts": [
+      "苹果2026款搭载M5芯片的MacBook Air GeekBench跑分曝光：单核4190分（较M4 +9.34%），多核17073分（较M4 +13.56%）",
+      "数据源自TechRadar主编Lance Ulanoff于X平台发布的实测截图，机型为尚未发布的2026款产品",
+      "性能提升印证苹果自研芯片持续迭代节奏，M5预计采用更先进制程与架构优化"
+    ],
+    "analyst_angle": "M5芯片能效比与多核性能显著跃升，强化苹果在轻薄本AI本地化推理场景的硬件先发优势，对Windows阵营ARM竞品（如高通Snapdragon X Elite）构成直接压力。",
+    "cluster_size": 5,
+    "event_time": "2026-03-06T11:39:40Z",
+    "event_type": "news"
+  }
+]

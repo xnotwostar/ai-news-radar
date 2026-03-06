@@ -1,0 +1,557 @@
+[
+  {
+    "event_id": "evt_20260306_000",
+    "title": "🚀 NVIDIA NeMo Evaluator Agent Skills for Conversational LLM Evaluation",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "Hugging Face",
+        "text": "Conversational LLM Evaluations in Minutes with NVIDIA NeMo Evaluator Agent Skills",
+        "engagement": 0,
+        "url": "https://huggingface.co/blog/nvidia/model-evaluation-skill"
+      },
+      {
+        "author": "Hacker News AI",
+        "text": "We might all be AI engineers now. Article URL: https://yasint.dev/we-might-all-be-ai-engineers-now/\nComments URL: https://news.ycombinator.com/item?id=47272734\nPoints: 153\n# Comments: 230",
+        "engagement": 0,
+        "url": "https://yasint.dev/we-might-all-be-ai-engineers-now/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[P] Domain specific LoRA fine tuning on consumer hardware. Been experimenting with a pattern for building domain-specific local LLMs that I haven't seen documented cleanly elsewhere. The problem: base",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rmkcek/p_domain_specific_lora_fine_tuning_on_consumer/"
+      },
+      {
+        "author": "NVIDIAAIDev",
+        "text": "Nice drop from @philipkiely and @Basetenco.\n\n📗 Inference Engineering maps the stack behind modern AI inference — runtimes, infrastructure, and tooling — and digs into the practical details of serving ",
+        "engagement": 140,
+        "url": "https://x.com/NVIDIAAIDev/status/2027515673212293362"
+      }
+    ],
+    "key_facts": [
+      "NVIDIA released NeMo Evaluator Agent Skills — a new capability enabling rapid, automated conversational LLM evaluation directly on Hugging Face",
+      "It allows evaluating model responses in realistic multi-turn dialog settings with domain-aware metrics, reducing evaluation time from hours to minutes",
+      "Integrated with NVIDIA's NeMo framework and optimized for GPU-accelerated inference (e.g., TensorRT-LLM), targeting developer and MLOps workflows"
+    ],
+    "analyst_angle": "This lowers the barrier to rigorous, production-grade LLM evaluation—shifting evaluation from research labs to engineering teams and accelerating iteration cycles for conversational AI products.",
+    "cluster_size": 4,
+    "event_time": "2026-03-06T09:13:30Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_001",
+    "title": "📜 美国联邦科研资助对生物医学创新与博士人才培养的基石作用",
+    "category": "policy",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "ylecun",
+        "text": "@JohnWSCarpente1 @deniswirtz Federal funding of scientific research does not fund bureaucrats. \nIt largely funds scholarships for PhD students. \nThe fund allocations are decided through an open peer r",
+        "engagement": 67,
+        "url": "https://x.com/ylecun/status/2027512099933397381"
+      },
+      {
+        "author": "ylecun",
+        "text": "@MaziyarPanahi The chain of innovation in biomedicine starts with government-funded (generally by NIH) fundamental research in universities. \nWithout that, no breakthroughs that industry can pick up o",
+        "engagement": 19,
+        "url": "https://x.com/ylecun/status/2027510717738262952"
+      },
+      {
+        "author": "ylecun",
+        "text": "@serotonin_check Without federal funding, biomedical research and drug discovery will grind to a stop over the next 5 to 10 years. \nEnjoy dying young.",
+        "engagement": 1,
+        "url": "https://x.com/ylecun/status/2027511604724507057"
+      },
+      {
+        "author": "ylecun",
+        "text": "@JohnProperBTC It's mostly funded by governments from developed countries",
+        "engagement": 1,
+        "url": "https://x.com/ylecun/status/2027511081535451267"
+      },
+      {
+        "author": "ylecun",
+        "text": "@DhruETF Enjoy dying young",
+        "engagement": 0,
+        "url": "https://x.com/ylecun/status/2027510946113966277"
+      }
+    ],
+    "key_facts": [
+      "联邦科研经费主要资助博士生奖学金，而非官僚体系",
+      "生物医学创新链条始于NIH等政府资助的基础研究，是产业转化和研发人才供给的源头",
+      "若取消联邦资助，生物医学研究与药物发现将在5–10年内实质性停滞"
+    ],
+    "analyst_angle": "Yann LeCun以尖锐措辞重申公共科研投入的战略不可替代性——这不仅是资金问题，更是国家长期科技竞争力、产业转化能力与高端人才供应链的根本保障。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260306_002",
+    "title": "🚀 Roblox 推出 AI 实时聊天净化工具，自动重写含违禁词的玩家消息",
+    "category": "product_launch",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "CNET",
+        "text": "Roblox's New AI Tool Rephrases Player Chats to Remove Banned Language. The new system turns, \"Oh shit, are you OK?\" into simply, \"Are you OK?\"",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/gaming/roblox-taps-ai-to-censor-all-of-those-dirty-words/"
+      },
+      {
+        "author": "AravSrinivas",
+        "text": "@cifilter You're welcome! Can't wait to ship the stuff you did with us soon.",
+        "engagement": 48,
+        "url": "https://x.com/AravSrinivas/status/2027511643878658103"
+      },
+      {
+        "author": "intel",
+        "text": "@signalonoise Something to be excited about! 😊",
+        "engagement": 1,
+        "url": "https://x.com/intel/status/2027516847000518761"
+      }
+    ],
+    "key_facts": [
+      "Roblox 上线新 AI 工具，实时检测并重写玩家聊天中含违禁语言的内容（如将 'Oh shit, are you OK?' 改为 'Are you OK?'）",
+      "该系统面向全平台用户部署，旨在提升儿童及青少年社区安全，无需人工审核介入"
+    ],
+    "analyst_angle": "这是游戏平台首次将端到端语义重写式AI内容安全方案规模化落地，标志着UGC环境治理从关键词过滤/屏蔽迈向上下文感知的生成式干预新阶段。",
+    "cluster_size": 3,
+    "event_time": "2026-03-06T20:43:19Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_003",
+    "title": "📌 2026年多个AI/ML顶会投稿与评审动态（ECCV/ISBI/MICCAI/IJCAI）",
+    "category": "other",
+    "importance": 3.5,
+    "sources": [
+      {
+        "author": "Reddit ML",
+        "text": "[D] ECCV submission flowed over page limit by 5 lines at the last minute.. how screwed are we?. We were making minor changes (like replacing a single word) to the submission before it closed and forgo",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rmf41l/d_eccv_submission_flowed_over_page_limit_by_5/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[D] ISBI 2026 in London. Hey, everyone, is anyone from the sub going to ISBI this year? I have a paper accepted and will be giving an oral presentation. Would love to meet and connect in London for IS",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rmqs51/d_isbi_2026_in_london/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[R] MICCAI 2026 Early Decisions. Hi, I am wondering if anyone has received their manuscript decision. Mine shows the status &quot;awaiting decision.&quot; Last time, it was desk-rejected, and I am cur",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rm1a2y/r_miccai_2026_early_decisions/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[D] IJCAI'26 AI4Tech track. Did anyone submit to this ? Please let me know if you have, and whether or not you received any notification yet.  &#32; submitted by &#32;  /u/AddendumNo5533   [link] &#32",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rlyiyi/d_ijcai26_ai4tech_track/"
+      },
+      {
+        "author": "techreview",
+        "text": "MIT Technology Review is a 2026 ASME finalist in reporting https://t.co/g6PiJLUfaO",
+        "engagement": 11,
+        "url": "https://x.com/techreview/status/2027508352608063956"
+      }
+    ],
+    "key_facts": [
+      "ECCV 2026投稿因最后时刻微调导致超页5行（第15页），引发作者对审稿灵活性的担忧",
+      "ISBI 2026将于伦敦举办，已有论文被接收并安排oral报告",
+      "MICCAI 2026早期状态显示'awaiting decision'，作者疑为desk rejection信号",
+      "IJCAI'26 AI4Tech track投稿者交流接收通知进展"
+    ],
+    "analyst_angle": "这些分散的社区讨论反映的是学术日程常规节奏（投稿截止、评审中、会议筹备），无政策变更、技术突破或组织级事件，属低影响力行业日常噪声。",
+    "cluster_size": 5,
+    "event_time": "2026-03-06T00:12:54Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_004",
+    "title": "📌 Yann LeCun 多次在推特上辱骂他人",
+    "category": "other",
+    "importance": 2.0,
+    "sources": [
+      {
+        "author": "ylecun",
+        "text": "@ryness You are an ignorant idiot.",
+        "engagement": 7,
+        "url": "https://x.com/ylecun/status/2027509827354980384"
+      },
+      {
+        "author": "ylecun",
+        "text": "@nevin_navarro You are an idiot",
+        "engagement": 2,
+        "url": "https://x.com/ylecun/status/2027512888059974139"
+      },
+      {
+        "author": "ylecun",
+        "text": "@PineappleTechn3 You are an ignorant idiot and seem happy to advertise that fact.",
+        "engagement": 0,
+        "url": "https://x.com/ylecun/status/2027512783391150426"
+      }
+    ],
+    "key_facts": [
+      "Yann LeCun 在三条推文中分别称三位用户为 'idiot' 或 'ignorant idiot'",
+      "相关推文互动极低（总点赞≤6，无转发）",
+      "内容为个人情绪化言论，无技术、产品、政策或行业相关信息"
+    ],
+    "analyst_angle": "此类非专业、攻击性社交言论属于个人行为噪音，不反映技术立场或机构动向，对AI行业无实质影响。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260306_005",
+    "title": "📌 Anthropic labeled 'supply-chain risk' by DoD over Pentagon contract collapse; challenges designation in court",
+    "category": "policy",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers. Trump's Department of War feud with Anthropic won't impact other companies that are using Claude via Microsof",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Anthropic’s Pentagon deal is a cautionary tale for startups chasing federal contracts. The Pentagon has officially designated Anthropic a supply-chain risk after the two failed to agree on how much co",
+        "engagement": 0,
+        "url": "https://techcrunch.com/video/anthropics-pentagon-deal-is-a-cautionary-tale-for-startups-chasing-federal-contracts/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Anthropic to challenge DOD’s supply-chain label in court. Anthropic CEO Dario Amodei said he plans to challenge the Department of Defense's designation of the AI firm as a supply-chain risk. He claims",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/05/anthropic-to-challenge-dods-supply-chain-label-in-court/"
+      },
+      {
+        "author": "Ars Technica",
+        "text": "Google's new command-line tool can plug OpenClaw into your Workspace data. This could make it easier to plug AI into Workspace APIs, but it's not yet an official Google product.",
+        "engagement": 0,
+        "url": "https://arstechnica.com/ai/2026/03/googles-new-command-line-tool-can-plug-openclaw-into-your-workspace-data/"
+      },
+      {
+        "author": "MarkTechPost",
+        "text": "Google AI Releases Android Bench: An Evaluation Framework and Leaderboard for LLMs in Android Development. Google has officially released Android Bench, a new leaderboard and evaluation framework desi",
+        "engagement": 0,
+        "url": "https://www.marktechpost.com/2026/03/06/google-ai-releases-android-bench-an-evaluation-framework-and-leaderboard-for-llms-in-android-development/"
+      }
+    ],
+    "key_facts": [
+      "The U.S. Department of Defense designated Anthropic a 'supply-chain risk' after its $200M Pentagon contract collapsed due to disagreements over military control of AI models—including use in autonomous weapons and domestic surveillance.",
+      "Anthropic CEO Dario Amodei announced plans to legally challenge the DoD's designation, asserting it does not affect most customers.",
+      "Microsoft, Google, and Amazon confirmed Claude remains fully available to non-defense customers via their platforms, insulating commercial users from the fallout."
+    ],
+    "analyst_angle": "This marks a pivotal regulatory inflection point: the first high-profile case where a foundational AI startup’s federal engagement triggers formal national security labeling—setting precedent for how DoD will assess AI vendor trustworthiness, with ripple effects on startup-federal contracting strategy and commercial cloud AI distribution.",
+    "cluster_size": 5,
+    "event_time": "2026-03-06T01:28:54Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_006",
+    "title": "🚀 WhatsApp Opens Chatbot Platform to Third-Party AI Firms in Brazil (Following Europe)",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "After Europe, WhatsApp will let rival AI companies offer chatbots in Brazil. Meta is now allowing rival AI companies to provide their chatbots on WhatsApp to Brazilian users for a fee, a day after the",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/06/after-europe-whatsapp-will-let-rival-ai-companies-offer-chatbots-in-brazil/"
+      },
+      {
+        "author": "CNET",
+        "text": "MWC 2026 Live: All the Robots, Phones, Concepts, AI and Labubu-Like Bots We Saw. Mobile World Congress has ended. We saw phones like Xiaomi's Leica Leitzphone, radical new designs like Honor's Robot P",
+        "engagement": 0,
+        "url": "https://www.cnet.com/news-live/mwc-2026-news-updates-product-announcements/"
+      }
+    ],
+    "key_facts": [
+      "Meta has expanded its WhatsApp chatbot platform to allow rival AI companies to deploy their chatbots for Brazilian users — for a fee.",
+      "This follows a near-identical rollout announced one day earlier for European users.",
+      "The move marks a strategic shift toward opening WhatsApp’s massive messaging infrastructure as an AI agent distribution channel, beyond Meta’s own Llama-based assistants."
+    ],
+    "analyst_angle": "This signals WhatsApp’s evolution from a communication app into a global AI agent marketplace — accelerating enterprise and consumer adoption of third-party AI services while monetizing access to its 2B+ user base.",
+    "cluster_size": 2,
+    "event_time": "2026-03-06T13:20:43Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_007",
+    "title": "🚀 Apple Unveils MacBook Neo (A-series + M-series), M4 iPad Air, and M5 Pro/Max Chips",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "The Verge",
+        "text": "The best deals on MacBooks right now. It’s 2026, and that means Apple sells MacBooks equipped with not just its capable M-series processors but A-series chips that were previously exclusive to the iPh",
+        "engagement": 0,
+        "url": "https://www.theverge.com/22399419/apple-macbook-air-pro-mac-mini-imac-deals"
+      },
+      {
+        "author": "The Verge",
+        "text": "You can already save up to $50 on the new M4 iPad Air. In case you missed it, Apple announced a host of new devices this week, including both a new phone and a cheaper laptop. It also unveiled the M4-",
+        "engagement": 0,
+        "url": "https://www.theverge.com/gadgets/890389/apple-ipad-air-m4-xbox-wireless-controller-deal-sale"
+      },
+      {
+        "author": "CNET",
+        "text": "Why Apple Just Made the Most Approachable MacBook Yet. Apple's colorful, lower-cost laptop pushes the MacBook even further into the mainstream.",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/computing/why-macbook-neo-is-going-to-change-everything/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[P] On-device speech toolkit for Apple Silicon — ASR, TTS, diarization, speech-to-speech, all in native Swift. Open-source Swift package running 11 speech models on Apple Silicon via MLX (GPU) and Cor",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rm7rox/p_ondevice_speech_toolkit_for_apple_silicon_asr/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[D] M1 Pro is hitting a wall with LLMs. Upgrade to M5 Max now or wait for the M6 redesign?. I'm an AI Engineer currently daily-driving a 16&quot; M1 Pro MBP. It’s been a workhorse, but I’m feeling the",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rm0md8/d_m1_pro_is_hitting_a_wall_with_llms_upgrade_to/"
+      }
+    ],
+    "key_facts": [
+      "Apple launched the MacBook Neo — a new lower-cost, colorful laptop starting at $599, featuring *both* M-series and *A-series chips* (previously iPhone-exclusive), marking unprecedented chip convergence.",
+      "The M4-powered iPad Air was announced and is already available for preorder with early discounts ahead of its March 11 launch.",
+      "Apple revealed the next-generation M5 Pro and M5 Max chips with 'Fusion Architecture', delivering up to 8× AI performance uplift over the M1 — targeting local LLM workloads and on-device AI acceleration."
+    ],
+    "analyst_angle": "This triple-tiered launch signals Apple’s strategic pivot toward AI-native hardware democratization: A-series integration lowers entry barriers, M4 refines edge AI in tablets, and M5 redefines pro-tier on-device AI capability — consolidating silicon, software, and speech/tooling ecosystems under one stack.",
+    "cluster_size": 5,
+    "event_time": "2026-03-06T01:43:17Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_008",
+    "title": "📌 Hayden AI 起诉前CEO窃取41GB邮件、简历造假；Block裁员40%聚焦‘智能’重建",
+    "category": "other",
+    "importance": 4.2,
+    "sources": [
+      {
+        "author": "Ars Technica",
+        "text": "AI startup sues ex-CEO, saying he took 41GB of email and lied on résumé. Hayden AI also claims co-founder improperly sold over $1.2M in stock.",
+        "engagement": 0,
+        "url": "https://arstechnica.com/tech-policy/2026/03/ai-startup-sues-ex-ceo-saying-he-took-41gb-of-email-and-lied-on-resume/"
+      },
+      {
+        "author": "Wired",
+        "text": "Jack Dorsey Is Ready to Explain the Block Layoffs. In an exclusive interview with WIRED, Block’s cofounder and CEO says he axed 40 percent of his workforce so that he can rebuild the company “as an in",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/jack-dorsey-explains-block-layoffs/"
+      }
+    ],
+    "key_facts": [
+      "Hayden AI起诉前CEO，指控其窃取41GB公司邮件、在简历中虚假陈述，并违规出售超120万美元股票",
+      "Block联合创始人兼CEO Jack Dorsey宣布裁员40%，称目标是将公司重塑为‘intelligence’（智能体）"
+    ],
+    "analyst_angle": "两则事件均反映AI初创与科技巨头在组织治理与战略收缩期的阵痛，但属独立公司不同性质的内部管理事件，无直接关联，行业影响限于公司治理警示层面，不构成技术、产品或市场格局变动。",
+    "cluster_size": 2,
+    "event_time": "2026-03-06T10:00:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_009",
+    "title": "📜 Iran’s Internet Shutdown & Cyber Warfare Escalation",
+    "category": "policy",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "Wired",
+        "text": "The Future of Iran’s Internet Is More Uncertain Than Ever. Iran’s internet shutdown has reduced connectivity by 99 percent, with air strikes likely causing additional outages, and few workarounds rema",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/the-future-of-irans-internet-is-more-uncertain-than-ever/"
+      },
+      {
+        "author": "Wired",
+        "text": "From Ukraine to Iran, Hacking Security Cameras Is Now Part of War’s ‘Playbook’. New research shows hundreds of attempts by apparent Iranian state hackers to hijack consumer-grade cameras, timed to mis",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/from-ukraine-to-iran-hacking-security-cameras-is-now-part-of-wars-playbook/"
+      }
+    ],
+    "key_facts": [
+      "Iran’s internet connectivity dropped by 99% amid widespread shutdowns, likely exacerbated by physical infrastructure damage from air strikes",
+      "Iranian state-linked actors conducted hundreds of coordinated attempts to hijack consumer security cameras—synchronized with missile and drone strikes—as part of an emerging cyber-physical warfare tactic",
+      "This camera-hijacking tactic has been observed in Ukraine, Israel, and Russia, indicating adoption across multiple conflict zones"
+    ],
+    "analyst_angle": "The convergence of kinetic strikes and real-time cyber operations (e.g., disabling surveillance to obscure military movements) signals a dangerous normalization of integrated cyber-physical warfare—raising urgent questions about critical infrastructure resilience and global norms for digital conflict.",
+    "cluster_size": 2,
+    "event_time": "2026-03-06T11:30:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_010",
+    "title": "🚀 OpenAI 推出 Codex Security（研究预览版）：上下文感知的代码漏洞检测与自动修复代理",
+    "category": "product_launch",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "MarkTechPost",
+        "text": "OpenAI Introduces Codex Security in Research Preview for Context-Aware Vulnerability Detection, Validation, and Patch Generation Across Codebases. OpenAI has introduced Codex Security, an application ",
+        "engagement": 0,
+        "url": "https://www.marktechpost.com/2026/03/06/openai-introduces-codex-security-in-research-preview-for-context-aware-vulnerability-detection-validation-and-patch-generation-across-codebases/"
+      },
+      {
+        "author": "MarkTechPost",
+        "text": "Liquid AI Releases LocalCowork Powered By LFM2-24B-A2B to Execute Privacy-First Agent Workflows Locally Via Model Context Protocol (MCP). Liquid AI has released LFM2-24B-A2B, a model optimized for loc",
+        "engagement": 0,
+        "url": "https://www.marktechpost.com/2026/03/05/liquid-ai-releases-localcowork-powered-by-lfm2-24b-a2b-to-execute-privacy-first-agent-workflows-locally-via-model-context-protocol-mcp/"
+      }
+    ],
+    "key_facts": [
+      "Codex Security 是 OpenAI 新推出的面向应用安全的 AI 代理，支持跨代码库的漏洞检测、验证与补丁生成",
+      "当前以 research preview 形式向 ChatGPT Enterprise/Business/Edu 客户开放",
+      "强调 context-aware 能力，可理解代码语义与调用上下文，生成可审查的修复建议"
+    ],
+    "analyst_angle": "这标志着大模型从通用编程辅助正式迈向企业级安全工程闭环，将显著加速 DevSecOps 流程，但其实际误报率、补丁可靠性及对复杂框架（如微服务/多语言混合）的支持能力仍需生产环境验证。",
+    "cluster_size": 2,
+    "event_time": "2026-03-06T05:45:50Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_011",
+    "title": "🚀 Groq Gains Major Validation from Jensen Huang & Analysts Amid AI Infrastructure Momentum",
+    "category": "product_launch",
+    "importance": 8.4,
+    "sources": [
+      {
+        "author": "elonmusk",
+        "text": "@Stickman_News @RogerSeverino_ While it might sound cliché, children really are the future",
+        "engagement": 1688,
+        "url": "https://x.com/elonmusk/status/2027506961584165259"
+      },
+      {
+        "author": "emollick",
+        "text": "Probably should just repost this every day.",
+        "engagement": 1232,
+        "url": "https://x.com/emollick/status/2027508410174882025"
+      },
+      {
+        "author": "emollick",
+        "text": "So over the past week you are seeing exactly what you would expect if AI is, in fact, both gaining capabilities &amp; proving to be very useful:\n- Rolling market disruption in response to growing awar",
+        "engagement": 681,
+        "url": "https://x.com/emollick/status/2027504950859772217"
+      },
+      {
+        "author": "firstadopter",
+        "text": "Jensen's earnings call Groq comments was one of the primary reasons I was so positive after Nvidia's earnings this week. Now @insane_analyst is uber bullish on Groq too:\n\n“Groq architecture and Nvidia",
+        "engagement": 147,
+        "url": "https://x.com/firstadopter/status/2027506761343615215"
+      },
+      {
+        "author": "arstechnica",
+        "text": "Under a Paramount-WBD merger, two struggling media giants would unite https://t.co/j81wI7LQdY",
+        "engagement": 5,
+        "url": "https://x.com/arstechnica/status/2027514450769809462"
+      }
+    ],
+    "key_facts": [
+      "Jensen Huang made positive, strategic comments about Groq during Nvidia's recent earnings call",
+      "Prominent analyst 'Insane Analyst' declared strong bullish conviction on Groq, citing deep architectural synergy between Groq’s LPU and Nvidia IP",
+      "Market sentiment shifted notably post-earnings, with investors citing Groq commentary as a key driver of optimism"
+    ],
+    "analyst_angle": "Groq is transitioning from niche inference accelerator to a strategically endorsed pillar in the AI hardware stack — signaling growing industry recognition of alternatives to GPU-centric inference.",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_012",
+    "title": "🔬 Anthropic’s Claude Finds 22 Firefox Vulnerabilities in Security Partnership with Mozilla",
+    "category": "research",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "OSHA probing fatality at Rivian warehouse. A 61-year-old worker died on Thursday after reportedly getting stuck between a tractor trailer and a loading dock.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/06/osha-probing-fatality-at-rivian-warehouse/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Anthropic’s Claude found 22 vulnerabilities in Firefox over two weeks. In a recent security partnership with Mozilla, Anthropic found 22 separate vulnerabilities in Firefox — 14 of them classified as ",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Claude’s consumer growth surge continues after Pentagon deal debacle. Claude's app is now seeing more new installs than ChatGPT and is growing its daily active users.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/06/claudes-consumer-growth-surge-continues-after-pentagon-deal-debacle/"
+      },
+      {
+        "author": "PatrickMoorhead",
+        "text": "@Jason I’ve lived here going on 25 years and I think it’s hilarious. And comedy.",
+        "engagement": 1,
+        "url": "https://x.com/PatrickMoorhead/status/2027506097481785627"
+      },
+      {
+        "author": "PatrickMoorhead",
+        "text": "@jrIndUSA I give it all here on X. Tech. Fitness. Life.",
+        "engagement": 0,
+        "url": "https://x.com/PatrickMoorhead/status/2027514276416495998"
+      }
+    ],
+    "key_facts": [
+      "Anthropic's Claude discovered 22 vulnerabilities in Firefox during a security collaboration with Mozilla",
+      "14 of the 22 vulnerabilities were classified as 'high-severity'",
+      "The findings were achieved within a two-week period"
+    ],
+    "analyst_angle": "This demonstrates LLMs' emerging, practical utility in automated security auditing — accelerating vulnerability discovery while validating real-world enterprise adoption beyond chat interfaces.",
+    "cluster_size": 5,
+    "event_time": "2026-03-06T17:56:07Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260306_013",
+    "title": "📜 多国推进未成年人社交媒体禁令（澳大利亚首开先例，印尼跟进）",
+    "category": "policy",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "These are the countries moving to ban social media for children. Australia was the first country to issue a ban in late 2025, aiming to reduce the pressures and risks that young users may face on soci",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/06/social-media-ban-children-countries-list/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "TriZetto confirms 3.4M people’s health and personal data was stolen during breach. Health tech giant TriZetto has confirmed that more than 3.4 million people had personal and health information stolen",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/06/trizetto-confirms-3-4m-peoples-health-and-personal-data-was-stolen-during-breach/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Indonesia outlines plan to limit under-16s’ access to social media. Indonesia has outlined new regulations that would restrict users under 16 from accessing digital platforms.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/06/indonesia-outlines-plan-to-limit-under-16s-access-to-social-media/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "City Detect, which uses AI to help cities stay safe and clean, raises $13M Series A. City Detect, a company that helps local governments prevent urban decay, is in at least 17 cities so far, including",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/06/city-detect-uses-ai-to-help-cities-stay-safe-and-clean/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Quantum scale-up Pasqal plans $2B SPAC listing, promises to ‘remain French’. A SPAC deal that is set to take French quantum company Pasqal public on the Nasdaq values the company at $2 billion pre-mon",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/06/quantum-scale-up-pasqal-plans-2b-spac-listing-promises-to-remain-french/"
+      }
+    ],
+    "key_facts": [
+      "澳大利亚于2025年底成为全球首个对儿童实施社交媒体禁令的国家，旨在应对网络欺凌、成瘾及接触掠食者等风险",
+      "印尼宣布新规，限制16岁以下用户访问数字平台",
+      "TechCrunch在同日集中报道多国政策动向，凸显全球监管加速趋势"
+    ],
+    "analyst_angle": "这标志着全球数字监管范式转向‘年龄门控+预防性立法’，或将倒逼平台重构内容分发、身份验证与青少年模式技术栈，并引发跨境合规连锁反应。",
+    "cluster_size": 5,
+    "event_time": "2026-03-06T13:44:18Z",
+    "event_type": "news"
+  }
+]
