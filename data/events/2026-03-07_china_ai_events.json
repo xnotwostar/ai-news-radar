@@ -1,0 +1,313 @@
+[
+  {
+    "event_id": "evt_20260307_000",
+    "title": "💡 林俊旸卸任阿里通义千问技术负责人，告别Qwen团队",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "9点1氪丨贾国龙卸任西贝CEO；字节跳动启动最大规模转正实习生招聘；OpenClaw爆火，程序员上门安装收费500元. 今日热点导览\n  \n   字节跳动启动最大规模转正实习生招聘，拟招超7000人\n   黄仁勋称OpenClaw为：当代最重磅的软件发布\n   印尼：3月28日起将限制16岁以下儿童使用YouTube、Facebook等平台\n   SpaceX计划在2027年底前发射约1200颗第",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3712170172264838?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "林俊旸告别千问：今天 Last day，不是这几天我不知道这世界这么多人爱我. 3月7日消息，近日引发广泛争议的千问核心负责人林俊旸于朋友圈发文告别Qwen道：“今天 last day，当大家为我鼓掌那一下，我真是忍住了泪水，不管别人说我什么，我至少内心里真觉得做到了为兄弟们好为阿里云好为集团好，虽然很多真没做到位抱歉。”\n“不是这几天，我都不知道这世界这么多人爱我。”林俊旸嘱咐道，“要加油啊，坤",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3712326079558017?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "阿里最年轻 P10 林俊旸离职尘埃落定：为千问，我只能做这么多了. IT之家 3 月 7 日消息，今日凌晨，原阿里通义千问大模型技术负责人林俊旸在朋友圈发文，正式告别阿里，迅速引起外界热议。林俊旸在朋友圈中写道：“不是这几天，我都不知道这世界这么多人爱我。今天 last day，当大家为我鼓掌那一下，我真是忍住了泪水。不管别人说我什么，我至少内心里真觉得做到了为兄弟们好为阿里云好为集团好，虽然很多",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/794.htm"
+      },
+      {
+        "author": "Xiaomi",
+        "text": "From Barcelona to the world. The love keeps coming. \n\nA closer look at the beauty of Xiaomi Vision Gran Turismo. https://t.co/33hyFaRt2h",
+        "engagement": 3697,
+        "url": "https://x.com/Xiaomi/status/2027870177757442172"
+      },
+      {
+        "author": "dongxi_nlp",
+        "text": "今天我的 timeline 终于清净了。\n\n从“前端后端互联网已死”这些垃圾信息，一致变为“哈梅内伊已死”。",
+        "engagement": 1363,
+        "url": "https://x.com/dongxi_nlp/status/2027857633550487629"
+      }
+    ],
+    "key_facts": [
+      "阿里通义千问核心技术负责人、最年轻P10林俊旸于2024年3月7日正式离职，结束在阿里云主导千问大模型研发的关键任期",
+      "其朋友圈告别文引发AI圈广泛震动，被IT之家等媒体称为千问‘灵魂人物’，离职标志着Qwen关键建设期阶段性收官",
+      "林俊旸强调‘为公司为千问，我只能做这么多啦’，并寄语团队‘加油啊，坤坤！还有很多事情没做呢’，暗示千问后续仍有重要演进"
+    ],
+    "analyst_angle": "头部大模型项目核心带头人离任并非衰退信号，而是技术成熟度提升后的自然迭代；Qwen已进入工程化落地与商业化深水区，团队稳定性与组织承接能力成为下一阶段关键考验",
+    "cluster_size": 8,
+    "event_time": "2026-03-07T00:57:15Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260307_001",
+    "title": "🚀 OpenAI 推出 Codex 开源计划：为开源开发者免费提供半年 ChatGPT Pro 订阅",
+    "category": "open_source",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "OpenAI 为开源项目开发者免费提供半年 ChatGPT Pro 订阅，无 Star 数、月下载量等硬性指标. IT之家 3 月 7 日消息，OpenAI 今天宣布推出 Codex 开源计划，为开源项目维护者 / 开发者免费提供半年的 ChatGPT Pro 订阅。OpenAI 表示，开源维护者在全球软件生态系统中默默承担了重要工作，Codex 开源基金在过去一年里已经为许多需要 API 的项目",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/817.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "OpenClaw 创始人建议：不要用小模型 / 旧模型跑高风险任务，有提示词注入风险. IT之家 3 月 7 日消息，开发者 Zhongpai Gao 昨天在 X 平台发文，分享自己用 OpenClaw AI 助手配置 GPT-5.4 模型的截图。这名开发者还提到，GPT-5.4 模型在 OpenClaw 的表现似乎比 Claude-Haiku-4.5（小模型）慢一些。不过这则帖文很快引起 Ope",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/803.htm"
+      },
+      {
+        "author": "kevinxu",
+        "text": "Doctor. Engineer. Banker. Lawyer.\n\nJust Claude plugins now. https://t.co/Qadzdj0qUC",
+        "engagement": 778,
+        "url": "https://x.com/kevinxu/status/2027859516872921601"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "当你非要用claude opus 4.6 or gpt-5.3-codex以外的models做vibe coding时\n\nhttps://t.co/lqvf6WhtVS",
+        "engagement": 92,
+        "url": "https://x.com/jesselaunz/status/2027872762967298105"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "@goldengrape 这个挺好。可惜就是google对各个账户管理的太混乱了。我的workspace用gemini是pro，但是antigravity和jules都认为是free账户",
+        "engagement": 0,
+        "url": "https://x.com/jesselaunz/status/2027877407752130989"
+      }
+    ],
+    "key_facts": [
+      "OpenAI 正式宣布 Codex 开源计划，向开源项目维护者和开发者免费提供为期半年的 ChatGPT Pro 订阅",
+      "无 Star 数、月下载量等门槛限制；受益者可继续使用 Codex、OpenCode、pi、OpenClaw 等工具，并部分获得 Codex Security 安全审计权限",
+      "Codex 开源基金已累计投入 100 万美元（约 691.7 万元人民币）支持需 API 的开源项目"
+    ],
+    "analyst_angle": "此举显著降低高质量 AI 编程辅助工具的使用门槛，标志着头部模型厂商从‘API 商业化’转向‘开源生态共建’战略升级，或将加速开源项目在 AI 原生开发范式下的规模化落地。",
+    "cluster_size": 5,
+    "event_time": "2026-03-07T07:01:25Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260307_002",
+    "title": "📜 人社部发布AI时代就业新政：1000万人次补贴培训+研究AI岗位创造机制",
+    "category": "policy",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "人社部：今年将开展补贴性职业技能培训1000万人次以上. 十四届全国人大四次会议今天举行民生主题记者会。\n\n人力资源社会保障部部长王晓萍在会上介绍，当前，技术变革日新月异，技能更新速度加快，学习成为这个时代的必然要求。‌人社部将根据劳动者不同阶段的个性化需求，构建贯穿职业生涯全过程的终身职业技能培训体系，努力实现人人皆学、处处能学、时时可学。\n\n对新成长劳动力，开展预备制培训、通用技能培训。\n对企",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3712388418302086?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "人力资源社会保障部部长：正研究措施发挥人工智能创造新岗位和赋能传统岗位作用. 人力资源社会保障部部长王晓萍3月7日在十四届全国人大四次会议民生主题记者会上表示，人力资源社会保障部正在研究相关措施，积极发挥人工智能在创造新岗位和赋能传统岗位方面的作用，推动实现技术进步与民生改善相协调的包容性发展。（新华社）",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3712308738716032?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "人社部：正研究措施发挥人工智能创造新岗位和赋能传统岗位作用. IT之家 3 月 7 日消息，据央视新闻报道，十四届全国人大四次会议今天举行民生主题记者会。人力资源社会保障部部长王晓萍在会上介绍，正在会同有关部门编制“十五五”就业专项规划，谋划一批务实管用、含金量高的重大就业政策、行动计划等，提高发展的就业带动力。当前人工智能迅猛发展，对就业带来深刻影响。我们正在研究相关政策，积极发挥人工智能在创造",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/837.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "小米雷军谈“人工智能时代”：未来每周或仅需工作 3 天，每天工作 2 个小时. IT之家 3 月 7 日消息，近日，全国人大代表、小米集团创始人、董事长兼 CEO 雷军在接受中国新闻周刊采访时表示，在人工智能时代，或许很多规则将被重写，但同时又会产生很多新的岗位。雷军建议，大家要用开放的心态，迎接更先进的时代。未来，也许不再需要每天工作 8 小时、每周工作 5 天了，或许一周仅需工作 3 天，每天",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/809.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "Anthropic 研究员：AI 对就业市场的冲击仍处在非常早期阶段. IT之家 3 月 7 日消息，据《商业内幕》今日报道，Anthropic 经济学家马克西姆 · 马森科夫和彼得 · 麦克罗里表示，AI 对就业市场的冲击仍处在非常早期阶段，距离真正改变劳动力结构还有相当距离。两人通过一项新的衡量方法发现，最容易受到 AI 影响的职业包括计算机程序员、客服人员、数据录入员、医疗记录专员，以及市场",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/805.htm"
+      }
+    ],
+    "key_facts": [
+      "人社部在十四届全国人大四次会议民生记者会上宣布，2024年将开展补贴性职业技能培训超1000万人次，重点覆盖低空经济、新能源汽车、人工智能技术、康养服务等领域",
+      "人社部部长王晓萍明确表示，正会同有关部门研究政策，系统发挥人工智能‘创造新岗位’和‘赋能传统岗位’双重作用，推动技术进步与民生改善协调的包容性发展",
+      "将构建贯穿职业生涯全过程的终身职业技能培训体系，并编制‘十五五’就业专项规划，谋划高含金量就业政策与行动计划"
+    ],
+    "analyst_angle": "这是中国首次在国家级两会平台系统提出AI驱动的就业治理框架，标志着政策重心从被动应对AI失业风险转向主动设计人机协同就业生态，或将引领全球AI劳动力政策范式升级。",
+    "cluster_size": 5,
+    "event_time": "2026-03-07T03:15:43Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260307_003",
+    "title": "🚀 OpenAI 推出 ChatGPT for Excel 测试版，同时再度推迟“成人模式”",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "OpenAI 再次推迟 ChatGPT“成人模式”：优先提升智能与个性化. IT之家 3 月 8 日消息，当地时间周六，OpenAI 在接受 Sources.news 采访时表示将再次推迟“成人模式的上线”，以便“专注于当前对更多用户来说更重要的工作”。OpenAI 发言人对 Axios 解释称，目前公司优先推进的工作包括“提升智能水平、改善对话个性、增强个性化体验，以及让交互变得更加主动”。不过",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/882.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "OpenAI 发布 ChatGPT for Excel 测试版，支持大白话操控表格. IT之家 3 月 7 日消息，OpenAI 公司昨日（3 月 6 日）发布公告，邀请用户测试 ChatGPT for Excel 功能，将其 AI 助手以插件形式嵌入到 Excel 中，同时还推出了一系列面向华尔街分析师和企业财务团队的金融数据集成功能。IT之家注：该功能目前处于测试阶段，OpenAI 已邀请美国",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/926/801.htm"
+      }
+    ],
+    "key_facts": [
+      "OpenAI 正式发布 ChatGPT for Excel 测试版，作为插件集成至 Excel，支持自然语言操控表格",
+      "该功能面向美、加、澳多类付费及教育用户开放，含金融数据集成功能",
+      "OpenAI 第二次推迟“成人模式”上线，称优先提升智能水平、对话个性与个性化体验"
+    ],
+    "analyst_angle": "ChatGPT for Excel 标志着大模型从通用对话向垂直生产力场景深度渗透的关键落地，而暂缓争议性功能则反映其在商业化节奏与品牌安全之间的审慎权衡。",
+    "cluster_size": 2,
+    "event_time": "2026-03-07T06:58:09Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260307_004",
+    "title": "🚀 Xiaomi Vision Gran Turismo Concept Unveiled at MWC26",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "Xiaomi",
+        "text": "Sculpted by the wind, every line is designed for aerodynamic perfection. Experience the future of driving.\n\nCome meet Xiaomi Vision Gran Turismo in person at #MWC26, March 2nd. \n\nDesigned exclusively ",
+        "engagement": 777,
+        "url": "https://x.com/Xiaomi/status/2027866401596207365"
+      },
+      {
+        "author": "Xiaomi",
+        "text": "Bumpy roads, dead batteries, lost items, noisy streets and missed connections.\nAll solved.\nXiaomi, smart on the go. \n\n#XiaomiSmartonthego #XiaomiElectricScooter6Ultra #XiaomiWatch5 #XiaomiUltraThinMag",
+        "engagement": 126,
+        "url": "https://x.com/Xiaomi/status/2027873950953263182"
+      },
+      {
+        "author": "indigox",
+        "text": "😆😆🤣\nhttps://t.co/8yHIWBK4tG",
+        "engagement": 19,
+        "url": "https://x.com/indigox/status/2027862819748589786"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "懒得慢慢看视频了。gemini速翻\n\n“今天，我们发起了“咆哮之狮”（Roaring Lion）行动。这是一项针对伊朗恐怖政权的行动，在与美国武装部队的全面合作下进行。这是一个针对全球最大恐怖主义赞助国的行动，一个多年来一直叫嚣着：“以色列去死，美国去死，西方去死”的政权。我们仔细倾听了他们的言辞，观察了他们的行动，而今天，我们采取了行动。\n\n我们采取行动是因为我们必须这样做。我们抓住了一个作战时",
+        "engagement": 6,
+        "url": "https://x.com/jesselaunz/status/2027875789845463248"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "老川发帖确认 https://t.co/MRToLhONVE",
+        "engagement": 6,
+        "url": "https://x.com/jesselaunz/status/2027871538331127854"
+      }
+    ],
+    "key_facts": [
+      "Xiaomi unveiled the Vision Gran Turismo concept car at MWC26 on March 2nd",
+      "The vehicle is a collaboration with Sony's Gran Turismo franchise and is displayed at Hall 3 | 3M30, Fira Barcelona Gran Via",
+      "It marks Xiaomi's first public showcase of its automotive design language and aerodynamic philosophy"
+    ],
+    "analyst_angle": "This is not a production vehicle but a strategic brand statement — signaling Xiaomi’s serious intent in smart EVs and ecosystem integration, leveraging GT’s global gaming prestige to build automotive credibility ahead of its SU7 Pro launch timeline.",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260307_005",
+    "title": "📌 新西兰政府发布AI相关政策声明",
+    "category": "policy",
+    "importance": 6.5,
+    "sources": [
+      {
+        "author": "jesselaunz",
+        "text": "目前貌似源头只有fox有这报道，所以polymarket的几率还是93% https://t.co/3KEXyHPenA",
+        "engagement": 4,
+        "url": "https://x.com/jesselaunz/status/2027858264957063333"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "新西兰政府发布声明 \n\nGoogle图片翻译 https://t.co/nvez1M3bFo",
+        "engagement": 3,
+        "url": "https://x.com/jesselaunz/status/2027855235147043251"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "@myanTokenGeek 速翻一下 https://t.co/0k9u0etxO3",
+        "engagement": 2,
+        "url": "https://x.com/jesselaunz/status/2027876940124979641"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "@crblandet 哈哈。注意力经济时代啥都有",
+        "engagement": 1,
+        "url": "https://x.com/jesselaunz/status/2027876087691415602"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "@goldengrape 试过，主要我的项目都在本地，不太好搞\n\n而且jules对我的worksplace 账户没有额度",
+        "engagement": 1,
+        "url": "https://x.com/jesselaunz/status/2027874736005612013"
+      }
+    ],
+    "key_facts": [
+      "新西兰政府已正式发布一项关于人工智能的官方政策声明",
+      "该事件目前主要由Fox News独家报道，尚未见新西兰政府官网或主流国际媒体（如Reuters、BBC）同步英文通稿",
+      "Polymarket市场对事件真实性给出93%概率，反映一定可信度但尚待权威信源确认"
+    ],
+    "analyst_angle": "若属实，这是新西兰首次系统性发布AI治理框架，虽暂未体现具体法规条款，但标志着南太平洋国家开始跟进全球AI政策制定浪潮，可能影响区域AI初创合规路径和跨境数据合作。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260307_006",
+    "title": "🚀 阶跃星辰Step3.5 Flash连续三日登顶OpenClaw全球调用量榜首",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "阶跃星辰Step3.5 Flash连续三天登上OpenClaw榜首. 全球最大的AI模型API聚合平台OpenRouter数据显示，近日，阶跃星辰的Step3.5 Flash模型调用量在OpenClaw上已经持续三日保持全球第一。2026年3月以来，Kimi K2.5、Step3.5 Flash和MiniMax M2.5的调用量分列全球前三。",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3712723267727495?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "寿司郎回应有消费者反映吃出金枪鱼寄生虫卵. 近日，有消费者反映“自己在门头沟区某商场寿司郎吃出金枪鱼寄生虫卵”。\n3月7日，寿司郎就此事回应媒体：“公司内部对此事件也非常重视，正在配合市场监督局进行相关检查，一切等检查结果确认。寿司郎一直视食品安全为品牌的生命线，食材的采购、运输以及店内存储严格按照国家规定的食品安全标准执行。如发现异常，我们必将刻不容缓进行整改。”（界面新闻）",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3712589164130441?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "2026全球开发者先锋大会本月将在上海举办. 2026全球开发者先锋大会将于3月27日至29日在上海举行。这场面向全球开发者的盛会，将汇聚前沿技术与产业资源，推动人工智能领域的创新交流。\n日前举行的大会媒体通气会上介绍，上海人工智能产业保持快速增长，2025年规上人工智能企业产业规模突破6300亿元，同比增长近四成。截至目前，上海已完成149款生成式人工智能服务备案，产业正成为拉动城市经济增长的重",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3712581674758281?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "西井科技更新IPO辅导备案. 证监会官网信息显示，上海西井科技股份有限公司（简称“西井科技”）已于近日更新A股IPO辅导备案，辅导机构为申万宏源证券。西井科技成立于2015年，是一家正向自研无人驾驶商用车的中国科技企业，致力于通过AI智能化能力为大物流行业客户提供数字化升级和绿色转型解决方案。西井科技2025年底完成F+轮融资，由申万投资领投，建投投资、中银资产等机构联合参投。（财联社）",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3712320657453192?f=rss"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "@blackanger 美帝的斩首实力的确强的离谱",
+        "engagement": 0,
+        "url": "https://x.com/jesselaunz/status/2027855802938327411"
+      }
+    ],
+    "key_facts": [
+      "Step3.5 Flash在OpenRouter旗下OpenClaw平台连续三天调用量全球第一",
+      "2026年3月以来，Step3.5 Flash与Kimi K2.5、MiniMax M2.5并列全球API调用量前三",
+      "该表现标志着国产轻量级大模型在实际商用渗透率和开发者采纳度上取得突破性进展"
+    ],
+    "analyst_angle": "调用量登顶反映模型在成本、延迟与效果平衡上的工程优势，预示中国AI厂商正从‘参数竞赛’转向‘场景交付能力’竞争新阶段。",
+    "cluster_size": 5,
+    "event_time": "2026-03-07T05:41:42Z",
+    "event_type": "news"
+  }
+]
