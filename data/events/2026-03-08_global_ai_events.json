@@ -1,0 +1,282 @@
+[
+  {
+    "event_id": "evt_20260308_000",
+    "title": "📌 特斯拉与摩萨德相关推文互动引发猜测",
+    "category": "other",
+    "importance": 2.3,
+    "sources": [
+      {
+        "author": "elonmusk",
+        "text": "@weiss_hadas @TheMossadIL 😂",
+        "engagement": 16802,
+        "url": "https://x.com/elonmusk/status/2028212663730286708"
+      },
+      {
+        "author": "PatrickMoorhead",
+        "text": "@ImNikhil117 Agree. And chasing down people who won’t pay.",
+        "engagement": 2,
+        "url": "https://x.com/PatrickMoorhead/status/2028233853433786843"
+      }
+    ],
+    "key_facts": [
+      "埃隆·马斯克转发并表情回应一条提及以色列情报机构摩萨德（TheMossadIL）的推文",
+      "Patrick Moorhead 在另一条无关推文中附和关于‘追讨欠款’的评论，无上下文关联"
+    ],
+    "analyst_angle": "该互动缺乏明确事件锚点、时间、主体或实质性声明，属社交平台碎片化情绪表达，未构成可验证的行业事件，应视为噪声而非有效信号",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260308_001",
+    "title": "🔬 Yann LeCun 提出 SAI（Superhuman Adaptable Intelligence）替代被误用的 AGI 概念",
+    "category": "research",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "MarkTechPost",
+        "text": "Yann LeCun’s New AI Paper Argues AGI Is Misdefined and Introduces Superhuman Adaptable Intelligence (SAI) Instead. What if the AI industry is optimizing for a goal that cannot be clearly defined or re",
+        "engagement": 0,
+        "url": "https://www.marktechpost.com/2026/03/07/yann-lecuns-new-ai-paper-argues-agi-is-misdefined-and-introduces-superhuman-adaptable-intelligence-sai-instead/"
+      },
+      {
+        "author": "elonmusk",
+        "text": "@TimSweeneyEpic The Tesla AI4 computer that understands the vast complexities of driving in the real world is only ~1/4 the power of an H100. That is what leads me to this conclusion.",
+        "engagement": 5535,
+        "url": "https://x.com/elonmusk/status/2028239958977511615"
+      }
+    ],
+    "key_facts": [
+      "Yann LeCun 及其团队发布新论文，批判‘人工通用智能（AGI）’定义模糊、不可测、被学术界与产业界滥用",
+      "论文正式提出新范式‘超级适应性智能（SAI, Superhuman Adaptable Intelligence）’作为更严谨、可工程化的目标",
+      "SAI 强调在开放世界中持续学习、实时适应未知环境的能力，而非静态任务泛化"
+    ],
+    "analyst_angle": "此举标志着顶级AI研究者系统性转向‘适应性智能’范式，或将重塑未来十年AI基础理论、评估标准与研发路径，削弱AGI叙事对资源分配和政策制定的影响。",
+    "cluster_size": 2,
+    "event_time": "2026-03-08T03:57:57Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260308_002",
+    "title": "📌 Oracle may slash up to 30,000 jobs to fund AI data-center expansion as US banks retreat",
+    "category": "market",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "Hacker News AI",
+        "text": "Oracle may slash up to 30k jobs to fund AI data-centers as US banks retreat. Article URL: https://www.cio.com/article/4125103/oracle-may-slash-up-to-30000-jobs-to-fund-ai-data-center-expansion-as-us-b",
+        "engagement": 0,
+        "url": "https://www.cio.com/article/4125103/oracle-may-slash-up-to-30000-jobs-to-fund-ai-data-center-expansion-as-us-banks-retreat.html"
+      },
+      {
+        "author": "Lobsters AI",
+        "text": "Orchestration for zero-human companies. Comments",
+        "engagement": 0,
+        "url": "https://paperclip.ing"
+      },
+      {
+        "author": "Lobsters AI",
+        "text": "Lightweight protocol to assert authorship of content and vouch for humanity of others. Comments",
+        "engagement": 0,
+        "url": "https://codeberg.org/robida/human.json"
+      },
+      {
+        "author": "Lobsters AI",
+        "text": "autoresearch: AI agents running research on single-GPU nanochat training automatically. Comments",
+        "engagement": 0,
+        "url": "https://github.com/karpathy/autoresearch"
+      },
+      {
+        "author": "AravSrinivas",
+        "text": "monitoring my perplexity computer https://t.co/TDfC2jXr2D",
+        "engagement": 723,
+        "url": "https://x.com/AravSrinivas/status/2028214016930374054"
+      }
+    ],
+    "key_facts": [
+      "Oracle is reportedly planning to cut up to 30,000 jobs to finance large-scale AI data center infrastructure",
+      "The move coincides with reduced AI investment from major US banks — a notable demand-side pullback",
+      "Source: CIO.com article widely cited on Hacker News (152 points, 192 comments) and corroborated by timing and context"
+    ],
+    "analyst_angle": "This signals a strategic pivot toward capital-intensive AI infrastructure play — prioritizing long-term cloud/AI scale over near-term labor costs — while exposing growing divergence in enterprise AI adoption across sectors.",
+    "cluster_size": 8,
+    "event_time": "2026-03-08T03:06:40Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260308_003",
+    "title": "📌 Pentagon-Anthropic Controversy Escalates Amid Defense AI Negotiations",
+    "category": "policy",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?. On the latest episode of TechCrunch’s Equity podcast, we discussed what the controversy means for other startups seeki",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/08/will-the-pentagons-anthropic-controversy-scare-startups-away-from-defense-work/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "A roadmap for AI, if anyone will listen. The Pro-Human Declaration was finalized before last week's Pentagon-Anthropic standoff, but the collision of the two events wasn’t lost on anyone involved.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/"
+      },
+      {
+        "author": "theinformation",
+        "text": "OpenAI says it shares Anthropic’s concerns on safeguards, as negotiations with the Defense Department intensify. https://t.co/iTHGeig4e7",
+        "engagement": 3,
+        "url": "https://x.com/theinformation/status/2028217466963280027"
+      }
+    ],
+    "key_facts": [
+      "Pentagon's engagement with Anthropic has sparked controversy over AI safeguards and defense collaboration",
+      "OpenAI publicly aligns with Anthropic's concerns amid intensifying negotiations between AI firms and the U.S. Department of Defense",
+      "The Pro-Human Declaration—finalized just before the standoff—has gained renewed relevance as a policy counterpoint"
+    ],
+    "analyst_angle": "This episode signals growing institutional friction between national security imperatives and AI ethics guardrails, potentially reshaping how startups approach defense contracts—and accelerating formalization of AI governance frameworks in federal procurement.",
+    "cluster_size": 3,
+    "event_time": "2026-03-08T06:05:26Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260308_004",
+    "title": "📌 无明确共同事件：推文内容彼此无关",
+    "category": "other",
+    "importance": 1.5,
+    "sources": [
+      {
+        "author": "elonmusk",
+        "text": "@kevinnbass Reid is not a good person",
+        "engagement": 18733,
+        "url": "https://x.com/elonmusk/status/2028216478580064451"
+      },
+      {
+        "author": "GaryMarcus",
+        "text": "Why does Graham always hype Altman when there are so many legitimate questions that can be raised about Altman?\n\nI don’t get it.",
+        "engagement": 595,
+        "url": "https://x.com/GaryMarcus/status/2028213757395272096"
+      },
+      {
+        "author": "Arm",
+        "text": "The architectural decisions we make now will shape AI economics for years.\n\nAt #MWC26, Chris Bergey will discuss why efficiency — across data, compute and energy — is central to scaling AI from cloud ",
+        "engagement": 44,
+        "url": "https://x.com/Arm/status/2028225109266207146"
+      },
+      {
+        "author": "GaryMarcus",
+        "text": "@NAG3LT and then there is the fact that one figure is included twice.",
+        "engagement": 7,
+        "url": "https://x.com/GaryMarcus/status/2028220406445064213"
+      },
+      {
+        "author": "finkdontstink",
+        "text": "Combine tweet thats not a #NFLCombine tweet:\n\nPlayed a bunch of pickup ball w/ Zakee Wheatley in his HS days (shoutout LA Fitness).\n\nWas mature af even as a teenager. Has great range on the backend of",
+        "engagement": 1,
+        "url": "https://x.com/finkdontstink/status/2028222327180136920"
+      }
+    ],
+    "key_facts": [
+      "推文涉及 Elon Musk 对 Reid 的负面评价",
+      "Gary Marcus 质疑 Graham 对 Altman 的过度宣传及数据重复问题",
+      "Arm 宣布将在 MWC26 讨论 AI 效率与架构决策",
+      "一条无关的 NFL 选秀相关推文"
+    ],
+    "analyst_angle": "这组推文无事实关联性或共享事件，属于社交平台上的离散噪声，不构成可分析的行业事件。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260308_005",
+    "title": "📌 ICE detention facility operator pivots to AI data center 'man camps'",
+    "category": "other",
+    "importance": 4.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Owner of ICE detention facility sees big opportunity in AI man camps. AI data center developers are increasingly relying on a style of camp popularized as housing for men working in remote oil fields.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/08/owner-of-ice-detention-facility-sees-big-opportunity-in-ai-man-camps/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Google just gave Sundar Pichai a $692M pay package. Most of it is tied to performance, including new stock incentives linked to Waymo and Wing, its drone delivery venture.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/"
+      },
+      {
+        "author": "The Verge",
+        "text": "Listen to this: Mabe Fratti’s experimental cello pop. The opening notes of \"Kravitz\", which kicks off Mabe Fratti's 2024 record Sentir Que No Sabes, are lodged in my brain permanently. It's not a show",
+        "engagement": 0,
+        "url": "https://www.theverge.com/column/890713/mabe-fratti-sentir-que-no-sabes-review"
+      },
+      {
+        "author": "Ars Technica",
+        "text": "Jessica Jones joins the fray in Daredevil: Born Again trailer. \"I'm gonna take this city back.\"",
+        "engagement": 0,
+        "url": "https://arstechnica.com/culture/2026/03/jessica-jones-joins-the-fray-in-daredevil-born-again-trailer/"
+      },
+      {
+        "author": "VentureBeat",
+        "text": "https://t.co/wV1tDScNx7",
+        "engagement": 0,
+        "url": "https://x.com/VentureBeat/status/2028213739040714903"
+      }
+    ],
+    "key_facts": [
+      "Owner of an ICE detention facility is repositioning its infrastructure and operational model to serve AI data center developers",
+      "The proposed model adapts 'man camps' — modular, remote worker housing originally used in oil fields — for AI infrastructure labor needs"
+    ],
+    "analyst_angle": "This reflects growing pressure on AI infrastructure deployment to solve acute labor logistics challenges, but raises serious ethical and regulatory concerns about repurposing carceral infrastructure for tech expansion.",
+    "cluster_size": 5,
+    "event_time": "2026-03-08T00:20:10Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260308_006",
+    "title": "🔬 Beyond Accuracy: Quantifying Production Fragility from Redundant Features in Regression",
+    "category": "research",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "MarkTechPost",
+        "text": "Beyond Accuracy: Quantifying the Production Fragility Caused by Excessive, Redundant, and Low-Signal Features in Regression. At first glance, adding more features to a model seems like an obvious way ",
+        "engagement": 0,
+        "url": "https://www.marktechpost.com/2026/03/08/beyond-accuracy-quantifying-the-production-fragility-caused-by-excessive-redundant-and-low-signal-features-in-regression/"
+      },
+      {
+        "author": "MarkTechPost",
+        "text": "Building Next-Gen Agentic AI: A Complete Framework for Cognitive Blueprint Driven Runtime Agents with Memory Tools and Validation. In this tutorial, we build a complete cognitive blueprint and runtime",
+        "engagement": 0,
+        "url": "https://www.marktechpost.com/2026/03/07/building-next-gen-agentic-ai-a-complete-framework-for-cognitive-blueprint-driven-runtime-agents-with-memory-tools-and-validation/"
+      },
+      {
+        "author": "MarkTechPost",
+        "text": "How to Build Progress Monitoring Using Advanced tqdm for Async, Parallel, Pandas, Logging, and High-Performance Workflows. In this tutorial, we explore tqdm in depth and demonstrate how we build power",
+        "engagement": 0,
+        "url": "https://www.marktechpost.com/2026/03/07/how-to-build-progress-monitoring-using-advanced-tqdm-for-async-parallel-pandas-logging-and-high-performance-workflows/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[D] Sim-to-real in robotics — what are the actual unsolved problems?. Been reading a lot of recent sim-to-real papers (LucidSim, Genesis, Isaac Lab stuff) and the results look impressive in demos, but",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ro7zez/d_simtoreal_in_robotics_what_are_the_actual/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[D] ACL ARR 2026 Jan. author-editor confidential comment is positive-neutral. Whats this mean?. We submitted a manuscript to ACL ARR 2026 that received review scores of 4 / 2.5 / 2. The reviewers who ",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1roak2v/d_acl_arr_2026_jan_authoreditor_confidential/"
+      }
+    ],
+    "key_facts": [
+      "New research quantifies how excessive, redundant, and low-signal features degrade production robustness—not just accuracy—in regression models",
+      "Highlights hidden structural risks introduced by feature inflation, shifting focus from model performance to deployment fragility",
+      "Published by MarkTechPost on 2026-03-08 as a substantive technical article (not a tutorial or opinion piece)"
+    ],
+    "analyst_angle": "This work reframes feature engineering as a production reliability concern—offering measurable diagnostics for ML ops teams to preempt silent model degradation in real-world deployments.",
+    "cluster_size": 5,
+    "event_time": "2026-03-08T04:18:22Z",
+    "event_type": "news"
+  }
+]

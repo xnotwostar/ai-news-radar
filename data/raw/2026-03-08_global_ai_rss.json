@@ -1,0 +1,135 @@
+[
+  {
+    "title": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?",
+    "summary": "On the latest episode of TechCrunch’s Equity podcast, we discussed what the controversy means for other startups seeking to work with the federal government.",
+    "url": "https://techcrunch.com/2026/03/08/will-the-pentagons-anthropic-controversy-scare-startups-away-from-defense-work/",
+    "source": "TechCrunch",
+    "published": "2026-03-08 20:14:42+00:00"
+  },
+  {
+    "title": "Owner of ICE detention facility sees big opportunity in AI man camps",
+    "summary": "AI data center developers are increasingly relying on a style of camp popularized as housing for men working in remote oil fields.",
+    "url": "https://techcrunch.com/2026/03/08/owner-of-ice-detention-facility-sees-big-opportunity-in-ai-man-camps/",
+    "source": "TechCrunch",
+    "published": "2026-03-08 16:30:00+00:00"
+  },
+  {
+    "title": "A roadmap for AI, if anyone will listen",
+    "summary": "The Pro-Human Declaration was finalized before last week's Pentagon-Anthropic standoff, but the collision of the two events wasn’t lost on anyone involved.",
+    "url": "https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/",
+    "source": "TechCrunch",
+    "published": "2026-03-08 06:05:26+00:00"
+  },
+  {
+    "title": "Google just gave Sundar Pichai a $692M pay package",
+    "summary": "Most of it is tied to performance, including new stock incentives linked to Waymo and Wing, its drone delivery venture.",
+    "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
+    "source": "TechCrunch",
+    "published": "2026-03-08 00:20:10+00:00"
+  },
+  {
+    "title": "Listen to this: Mabe Fratti’s experimental cello pop",
+    "summary": "The opening notes of \"Kravitz\", which kicks off Mabe Fratti's 2024 record Sentir Que No Sabes, are lodged in my brain permanently. It's not a showy album, by any means. But there's something about the buzzing of her cello, plucked as you might an upright bass. The way they ring out before coming to ",
+    "url": "https://www.theverge.com/column/890713/mabe-fratti-sentir-que-no-sabes-review",
+    "source": "The Verge",
+    "published": "2026-03-08 16:00:00+00:00"
+  },
+  {
+    "title": "Jessica Jones joins the fray in Daredevil: Born Again trailer",
+    "summary": "\"I'm gonna take this city back.\"",
+    "url": "https://arstechnica.com/culture/2026/03/jessica-jones-joins-the-fray-in-daredevil-born-again-trailer/",
+    "source": "Ars Technica",
+    "published": "2026-03-08 13:13:03+00:00"
+  },
+  {
+    "title": "Oracle may slash up to 30k jobs to fund AI data-centers as US banks retreat",
+    "summary": "Article URL: https://www.cio.com/article/4125103/oracle-may-slash-up-to-30000-jobs-to-fund-ai-data-center-expansion-as-us-banks-retreat.html\nComments URL: https://news.ycombinator.com/item?id=47298183\nPoints: 152\n# Comments: 192",
+    "url": "https://www.cio.com/article/4125103/oracle-may-slash-up-to-30000-jobs-to-fund-ai-data-center-expansion-as-us-banks-retreat.html",
+    "source": "Hacker News AI",
+    "published": "2026-03-08 15:37:32+00:00"
+  },
+  {
+    "title": "Beyond Accuracy: Quantifying the Production Fragility Caused by Excessive, Redundant, and Low-Signal Features in Regression",
+    "summary": "At first glance, adding more features to a model seems like an obvious way to improve performance. If a model can learn from more information, it should be able to make better predictions. In practice, however, this instinct often introduces hidden structural risks. Every additional feature creates ",
+    "url": "https://www.marktechpost.com/2026/03/08/beyond-accuracy-quantifying-the-production-fragility-caused-by-excessive-redundant-and-low-signal-features-in-regression/",
+    "source": "MarkTechPost",
+    "published": "2026-03-08 19:07:53+00:00"
+  },
+  {
+    "title": "Building Next-Gen Agentic AI: A Complete Framework for Cognitive Blueprint Driven Runtime Agents with Memory Tools and Validation",
+    "summary": "In this tutorial, we build a complete cognitive blueprint and runtime agent framework. We define structured blueprints for identity, goals, planning, memory, validation, and tool access, and use them to create agents that not only respond but also plan, execute, validate, and systematically improve ",
+    "url": "https://www.marktechpost.com/2026/03/07/building-next-gen-agentic-ai-a-complete-framework-for-cognitive-blueprint-driven-runtime-agents-with-memory-tools-and-validation/",
+    "source": "MarkTechPost",
+    "published": "2026-03-08 06:46:10+00:00"
+  },
+  {
+    "title": "How to Build Progress Monitoring Using Advanced tqdm for Async, Parallel, Pandas, Logging, and High-Performance Workflows",
+    "summary": "In this tutorial, we explore tqdm in depth and demonstrate how we build powerful, real-time progress tracking into modern Python workflows. We begin with nested progress bars and manual progress control, then move into practical scenarios such as streaming downloads, pandas data processing, parallel",
+    "url": "https://www.marktechpost.com/2026/03/07/how-to-build-progress-monitoring-using-advanced-tqdm-for-async-parallel-pandas-logging-and-high-performance-workflows/",
+    "source": "MarkTechPost",
+    "published": "2026-03-08 04:18:22+00:00"
+  },
+  {
+    "title": "Yann LeCun’s New AI Paper Argues AGI Is Misdefined and Introduces Superhuman Adaptable Intelligence (SAI) Instead",
+    "summary": "What if the AI industry is optimizing for a goal that cannot be clearly defined or reliably measured? That is the central argument of a new paper by Yann LeCun, and his team, which claims that Artificial General Intelligence has become an overloaded term used in inconsistent ways across academia and",
+    "url": "https://www.marktechpost.com/2026/03/07/yann-lecuns-new-ai-paper-argues-agi-is-misdefined-and-introduces-superhuman-adaptable-intelligence-sai-instead/",
+    "source": "MarkTechPost",
+    "published": "2026-03-08 03:57:57+00:00"
+  },
+  {
+    "title": "Orchestration for zero-human companies",
+    "summary": "Comments",
+    "url": "https://paperclip.ing",
+    "source": "Lobsters AI",
+    "published": "2026-03-08 16:48:02+00:00"
+  },
+  {
+    "title": "Lightweight protocol to assert authorship of content and vouch for humanity of others",
+    "summary": "Comments",
+    "url": "https://codeberg.org/robida/human.json",
+    "source": "Lobsters AI",
+    "published": "2026-03-08 16:31:00+00:00"
+  },
+  {
+    "title": "autoresearch: AI agents running research on single-GPU nanochat training automatically",
+    "summary": "Comments",
+    "url": "https://github.com/karpathy/autoresearch",
+    "source": "Lobsters AI",
+    "published": "2026-03-08 03:06:40+00:00"
+  },
+  {
+    "title": "[D] Sim-to-real in robotics — what are the actual unsolved problems?",
+    "summary": "Been reading a lot of recent sim-to-real papers (LucidSim, Genesis, Isaac Lab stuff) and the results look impressive in demos, but I'm curious what the reality is for people actually working on this. A few things I'm trying to understand:  When a trained policy fails in the real world, is the root c",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ro7zez/d_simtoreal_in_robotics_what_are_the_actual/",
+    "source": "Reddit ML",
+    "published": "2026-03-08 15:41:16+00:00"
+  },
+  {
+    "title": "[D] ACL ARR 2026 Jan. author-editor confidential comment is positive-neutral. Whats this mean?",
+    "summary": "We submitted a manuscript to ACL ARR 2026 that received review scores of 4 / 2.5 / 2. The reviewers who gave 2.5 and 2 mainly asked for additional statistical tests. Importantly, all reviewers acknowledged that the study itself is novel. We conducted the requested statistical tests and presented the",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1roak2v/d_acl_arr_2026_jan_authoreditor_confidential/",
+    "source": "Reddit ML",
+    "published": "2026-03-08 17:21:55+00:00"
+  },
+  {
+    "title": "[P] Made an AI FIA Steward to predict penalties during a F1 race",
+    "summary": "Hi! I am a huge F1 fan, but I believe it is one of the most rule-heavy sport. There are thousands of rules and regulations that govern the sport. Over the last few years the sport has gained increased popularity due to Netflix, and now the recently released film. I trained my model on about 1900 PDF",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1roe3ua/p_made_an_ai_fia_steward_to_predict_penalties/",
+    "source": "Reddit ML",
+    "published": "2026-03-08 19:34:46+00:00"
+  },
+  {
+    "title": "[D] We analyzed 4,000 Ethereum contracts by combining an LLM and symbolic execution and found 5,783 issues",
+    "summary": "Happy to share that our paper “SymGPT: Auditing Smart Contracts via Combining Symbolic Execution with Large Language Models” has been accepted to OOPSLA.  SymGPT combines large language models (LLMs) with symbolic execution to automatically verify whether Ethereum smart contracts comply with Ethereu",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ro8t22/d_we_analyzed_4000_ethereum_contracts_by/",
+    "source": "Reddit ML",
+    "published": "2026-03-08 16:14:02+00:00"
+  },
+  {
+    "title": "[R] Large scale evals for multimodal composed search",
+    "summary": "      Good to see industry labs spending more time on curating large eval sets, benefits small research groups so much  &#32; submitted by &#32;  /u/Lorenzo_de_Medici   [link] &#32; [comments] ",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1rnu6hu/r_large_scale_evals_for_multimodal_composed_search/",
+    "source": "Reddit ML",
+    "published": "2026-03-08 03:37:41+00:00"
+  }
+]
