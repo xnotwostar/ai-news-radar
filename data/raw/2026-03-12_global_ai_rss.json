@@ -301,6 +301,27 @@
     "published": "2026-03-11 10:00:00+00:00"
   },
   {
+    "title": "Social Media and AI Want Your Attention at All Times. This New Documentary Says That's Bad",
+    "summary": "Your Attention Please, a documentary premiering this week at SXSW in Austin, Texas, explores how we live in the attention economy.",
+    "url": "https://www.cnet.com/news/social-media/your-attention-please-documentary-interview-sxsw/",
+    "source": "CNET",
+    "published": "2026-03-12 01:00:48+00:00"
+  },
+  {
+    "title": "SXSW 2026 Updates: What We Expect on Tech and Culture From Austin",
+    "summary": "Innovation. Music. Films. Artificial intelligence. Here's what we're looking forward to at this year's South by Southwest festival and conference.",
+    "url": "https://www.cnet.com/news-live/sxsw-2026-updates-news-tech-culture/",
+    "source": "CNET",
+    "published": "2026-03-12 01:00:18+00:00"
+  },
+  {
+    "title": "Meta Launches AI Tools to Identify and Flag Messages From Scammers",
+    "summary": "The company aims to combat growing fraud schemes, including impersonation accounts that lure users with fake celebrity endorsements.",
+    "url": "https://www.cnet.com/tech/services-and-software/meta-launches-new-ai-tools-flag-scammers/",
+    "source": "CNET",
+    "published": "2026-03-12 00:44:28+00:00"
+  },
+  {
     "title": "AI Chatbots Are Making People All Think the Same, Study Says",
     "summary": "A new paper argues that humans are losing varied ways of thinking due to the use of chatbots, and that's concerning.",
     "url": "https://www.cnet.com/science/ai-chatbots-are-making-people-all-think-the-same/",
@@ -357,32 +378,11 @@
     "published": "2026-03-11 19:18:40+00:00"
   },
   {
-    "title": "SXSW 2026 Updates: What We Expect on Tech and Culture From Austin",
-    "summary": "Innovation. Music. Films. Artificial intelligence. Here's what we're looking forward to at this year's South by Southwest festival and conference.",
-    "url": "https://www.cnet.com/news-live/sxsw-2026-updates-news-tech-culture/",
-    "source": "CNET",
-    "published": "2026-03-11 18:45:11+00:00"
-  },
-  {
     "title": "Stop Editing Manually: 5 AI Tools in Photoshop You Should Be Using",
     "summary": "You can make a number of edits quicker and more efficiently with these AI tools.",
     "url": "https://www.cnet.com/tech/services-and-software/the-best-new-ai-features-in-photoshop-and-how-to-use-them-like-a-pro/",
     "source": "CNET",
     "published": "2026-03-11 18:09:34+00:00"
-  },
-  {
-    "title": "AI Creation Tilly Norwood Is Back With the Music Video No One Asked For",
-    "summary": "Let's just say Taylor Swift has nothing to worry about.",
-    "url": "https://www.cnet.com/tech/services-and-software/ai-creation-tilly-norwood-music-video/",
-    "source": "CNET",
-    "published": "2026-03-11 17:43:00+00:00"
-  },
-  {
-    "title": "Samsung Galaxy Buds 3 Pro: Are They Still Worth Buying With Buds 4 Pro's Release?",
-    "summary": "Samsung's flagship audio line upgraded with the Galaxy Buds 4 Pro. I'm revisiting the Buds 3 Pro to see if their lower price makes them a smarter buy than the latest model.",
-    "url": "https://www.cnet.com/tech/mobile/samsung-galaxy-buds-3-pro-review-2026/",
-    "source": "CNET",
-    "published": "2026-03-11 17:31:47+00:00"
   },
   {
     "title": "Code Concepts: A Large-Scale Synthetic Dataset Generated from Programming Concept Seeds",
@@ -399,15 +399,22 @@
     "published": "2026-03-11 16:00:00+00:00"
   },
   {
-    "title": "Don't post generated/AI-edited comments. HN is for conversation between humans.",
-    "summary": "Article URL: https://news.ycombinator.com/newsguidelines.html#generated\nComments URL: https://news.ycombinator.com/item?id=47340079\nPoints: 2708\n# Comments: 985",
+    "title": "Atlassian to cut roughly 1,600 jobs in pivot to AI",
+    "summary": "Article URL: https://www.reuters.com/technology/atlassian-lay-off-about-1600-people-pivot-ai-2026-03-11/\nComments URL: https://news.ycombinator.com/item?id=47343156\nPoints: 115\n# Comments: 153",
+    "url": "https://www.reuters.com/technology/atlassian-lay-off-about-1600-people-pivot-ai-2026-03-11/",
+    "source": "Hacker News AI",
+    "published": "2026-03-11 22:29:42+00:00"
+  },
+  {
+    "title": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+    "summary": "Article URL: https://news.ycombinator.com/newsguidelines.html#generated\nComments URL: https://news.ycombinator.com/item?id=47340079\nPoints: 2872\n# Comments: 1052",
     "url": "https://news.ycombinator.com/newsguidelines.html#generated",
     "source": "Hacker News AI",
     "published": "2026-03-11 19:29:29+00:00"
   },
   {
     "title": "I was interviewed by an AI bot for a job",
-    "summary": "https://archive.ph/DEwy7\n\nComments URL: https://news.ycombinator.com/item?id=47339164\nPoints: 138\n# Comments: 138",
+    "summary": "https://archive.ph/DEwy7\n\nComments URL: https://news.ycombinator.com/item?id=47339164\nPoints: 163\n# Comments: 171",
     "url": "https://www.theverge.com/featured-video/892850/i-was-interviewed-by-an-ai-bot-for-a-job",
     "source": "Hacker News AI",
     "published": "2026-03-11 18:17:30+00:00"
@@ -421,7 +428,7 @@
   },
   {
     "title": "How we hacked McKinsey's AI platform",
-    "summary": "Article URL: https://codewall.ai/blog/how-we-hacked-mckinseys-ai-platform\nComments URL: https://news.ycombinator.com/item?id=47333627\nPoints: 390\n# Comments: 163",
+    "summary": "Article URL: https://codewall.ai/blog/how-we-hacked-mckinseys-ai-platform\nComments URL: https://news.ycombinator.com/item?id=47333627\nPoints: 399\n# Comments: 167",
     "url": "https://codewall.ai/blog/how-we-hacked-mckinseys-ai-platform",
     "source": "Hacker News AI",
     "published": "2026-03-11 09:59:03+00:00"
@@ -511,18 +518,18 @@
     "published": "2026-03-11 12:19:28+00:00"
   },
   {
-    "title": "[P] Structured Prompting for Extremely Low-Resource Languages: 80% → 5% Vocabulary Contamination, No Fine-Tuning",
-    "summary": "Most low-resource language research assumes you can fine-tune. But what happens when a language has ~2M speakers, no official script standardization, near-zero web presence, and you're working with a frozen model? We ran into this with Tulu, a Dravidian language from coastal Karnataka, India. The co",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1rqxr78/p_structured_prompting_for_extremely_lowresource/",
-    "source": "Reddit ML",
-    "published": "2026-03-11 16:00:49+00:00"
-  },
-  {
     "title": "[D] A tool that audits healthcare Ml models for safety and trust",
     "summary": "While working on my final year project (ML-based structural detection and classification for microscopy datasets in healthcare), I ran into a problem that I think many ML systems in critical domains face: how do we actually audit model decisions? To explore this, I built a small platform that record",
     "url": "https://www.reddit.com/r/MachineLearning/comments/1rrd301/d_a_tool_that_audits_healthcare_ml_models_for/",
     "source": "Reddit ML",
     "published": "2026-03-12 01:23:58+00:00"
+  },
+  {
+    "title": "[P] Structured Prompting for Extremely Low-Resource Languages: 80% → 5% Vocabulary Contamination, No Fine-Tuning",
+    "summary": "Most low-resource language research assumes you can fine-tune. But what happens when a language has ~2M speakers, no official script standardization, near-zero web presence, and you're working with a frozen model? We ran into this with Tulu, a Dravidian language from coastal Karnataka, India. The co",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1rqxr78/p_structured_prompting_for_extremely_lowresource/",
+    "source": "Reddit ML",
+    "published": "2026-03-11 16:00:49+00:00"
   },
   {
     "title": "[R] IDP Leaderboard: Open benchmark for document AI across 16 VLMs, 9,000+ documents, 3 benchmark suites",
@@ -546,18 +553,18 @@
     "published": "2026-03-11 18:25:39+00:00"
   },
   {
-    "title": "[P]I built a two-model protocol to probe LLM constraint topology before token collapse — looking for feedback on methodology",
-    "summary": " I've been obsessing over something for a few weeks: what actually happens inside a language model in the split second before it picks a word? Not philosophically. Empirically. I wanted to watch it happen. Here's the thing that bugged me: the model isn't searching and then outputting. It's briefly h",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1rrcrcs/pi_built_a_twomodel_protocol_to_probe_llm/",
-    "source": "Reddit ML",
-    "published": "2026-03-12 01:09:49+00:00"
-  },
-  {
     "title": "[D] - Cross-retailer post-purchase outcome data doesn't exist as infrastructure. Is anyone working on this?",
     "summary": "Posting this more as a research question than anything else. Curious if there's prior work I'm missing. For recommendation systems in e-commerce, the dominant signals are browsing behavior, session data, explicit ratings, and within-platform purchase history. These are noisy, session-bounded, and si",
     "url": "https://www.reddit.com/r/MachineLearning/comments/1rr5jok/d_crossretailer_postpurchase_outcome_data_doesnt/",
     "source": "Reddit ML",
     "published": "2026-03-11 20:33:57+00:00"
+  },
+  {
+    "title": "[P]I built a two-model protocol to probe LLM constraint topology before token collapse — looking for feedback on methodology",
+    "summary": " I've been obsessing over something for a few weeks: what actually happens inside a language model in the split second before it picks a word? Not philosophically. Empirically. I wanted to watch it happen. Here's the thing that bugged me: the model isn't searching and then outputting. It's briefly h",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1rrcrcs/pi_built_a_twomodel_protocol_to_probe_llm/",
+    "source": "Reddit ML",
+    "published": "2026-03-12 01:09:49+00:00"
   },
   {
     "title": "[P] Most ML problems aren't modeling problems. They're dataset problems.",

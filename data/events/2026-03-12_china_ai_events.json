@@ -1,0 +1,281 @@
+[
+  {
+    "event_id": "evt_20260312_000",
+    "title": "🚀 百度发布全球首款手机龙虾应用「红手指 Operator」，腾讯/网易同步入局 OpenClaw 生态",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "百度智能云发布全球首款手机龙虾应用. 36氪获悉，百度智能云发布全球首款手机龙虾应用，通过“红手指Operator”即可实现手机“养虾”。百度表示，这款应用能带来OpenClaw原生移动端体验，还结合自研AI Agent能力，实现打车、外卖等跨App智能操作。",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3719285232318083?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "腾讯版龙虾 WorkBuddy 火速更新支持微信直连，开发团队“快干冒烟了”、凌晨还加班. IT之家 3 月 12 日消息，腾讯版小龙虾 WorkBuddy 今日凌晨 1 点官宣版本更新，该工具于 3 月 9 日上线，时隔 3 天迎来更新。一键连接微信，有手就能远程遥控指挥企业微信支持长链接，远程连接更稳定自动化任务执行和监控追踪，让小龙虾自动化产出IT之家注意到，腾讯公司公关总监张军对此表示：这",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/232.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "腾讯龙虾技能社区 SkillHub 上线，专为中国用户优化. IT之家 3 月 12 日消息，腾讯云 3 月 11 日宣布，腾讯专门为中国用户打造的 SkillHub 正式上线营业，包含 13000 多个龙虾技能。此外，腾讯 10+ 产品完成 skill 化改造，简单配置就能在 OpenClaw 中调用。IT之家附腾讯云官方介绍如下：中文搜索、下载快、安装简单SkillHub 是腾讯云基于 Ope",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/223.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "百度发布首款手机龙虾应用“红手指 Operator”：支持打车、订外卖等跨 App 交互操作. IT之家 3 月 12 日消息，昨天，百度智能云发布了一款即开即用的零部署服务 DuClaw。今天，百度智能云带来全球首款手机龙虾应用 —— 红手指 Operator，已正式上线安卓市场。IT之家注意到，官方介绍称红手指 Operator 能够带来 OpenClaw 原生移动端体验，还结合自研移动端 A",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/215.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "国内首个：网易有道龙虾 100% 开源，支持 GitHub 全量 skills 安装及实时更新. IT之家 3 月 12 日消息，随着“龙虾大战”愈演愈烈，龙虾“好不好用、安不安全”，正成为全民关注的焦点。网易有道日前宣布推出国内首个 AI Agent（智能体）产品 ——“有道龙虾”（LobsterAI），这也是国内首个实现代码 100% 全开源的 AI Agent 产品。据IT之家了解，有道龙虾",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/214.htm"
+      }
+    ],
+    "key_facts": [
+      "百度智能云发布全球首款手机端龙虾（Lobster）应用「红手指 Operator」，支持打车、外卖等跨App智能操作，基于OpenClaw原生移动端体验+自研AI Agent",
+      "腾讯WorkBuddy火速更新支持微信直连，上线SkillHub技能社区（含13000+本土化技能），完成10+内部产品skill化改造",
+      "网易有道推出国内首个100%全开源AI Agent「有道龙虾」，支持GitHub全量skills安装与实时更新，覆盖5000+ OpenClaw技能"
+    ],
+    "analyst_angle": "中国头部科技公司集体押注‘龙虾’（Lobster）——即基于OpenClaw框架的轻量化、可部署、强交互AI Agent移动端范式，标志着AI Agent从PC/Web实验阶段正式迈入亿级手机用户规模化落地新纪元，生态竞争已升级为‘基础设施+技能市场+安全信任’三位一体军备竞赛。",
+    "cluster_size": 15,
+    "event_time": "2026-03-11T03:00:43Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_001",
+    "title": "🚀 AMD 锐龙嵌入式 P100 COM 模块首发支持 LPCAMM2 内存（SolidRun）",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "AMD 处理器 + LPCAMM2，SolidRun 推出新款嵌入式计算机模块. IT之家 3 月 12 日消息，LPCAMM2 自面市之日起便成为同时追求高带宽与维护性的优秀内存形态，不过时至今日该类型模组主要还是被用于英特尔处理器平台。而在本月 9 日，以色列嵌入式系统制造商 SolidRun 宣布推出搭载 AMD 处理器与 LPCAMM2 内存条的 COM（IT之家注：计算机模块）系统。该产",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/251.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "上任 12 年来首次：AMD 苏姿丰下周访韩，会见三星李在镕抢夺 HBM 内存产能. IT之家 3 月 12 日消息，科技媒体 Wccftech 昨日（3 月 11 日）发布博文，报道称 AMD 首席执行官苏姿丰（Lisa Su）计划于 2026 年 3 月 18 日访问韩国，这是她自 2014 年上任以来首次入韩。IT之家援引媒体报道，苏姿丰此行最重要的议程是会见三星电子会长李在镕，双方将重点讨",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/235.htm"
+      }
+    ],
+    "key_facts": [
+      "SolidRun 于 3 月 9 日发布首款搭载 AMD 锐龙嵌入式 P100 处理器的 COM6 Compact 计算机模块",
+      "该模块为全球首批支持 LPCAMM2 内存的 AMD 平台产品，最高支持 9600MT/s 速率",
+      "采用标准 95×95 mm 封装，集成 M.2 2280 接口，面向高带宽、可维护性要求严苛的嵌入式AI边缘场景"
+    ],
+    "analyst_angle": "此举打破 LPCAMM2 长期绑定英特尔平台的生态壁垒，标志着 AMD 在嵌入式AI领域加速构建内存-处理器协同技术栈，为后续 Ryzen AI Edge SoC 和 OCP 开放计算生态铺路。",
+    "cluster_size": 2,
+    "event_time": "2026-03-12T02:05:44Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_002",
+    "title": "🚀 谷歌澄清 Project Genie 尚无法直接生成完整游戏，微软官宣 Xbox Next-Gen 主机 Helix",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "曾引发游戏巨头股价暴跌：谷歌回应称 Genie AI 直接做游戏还差得远. IT之家 3 月 12 日消息，游戏媒体 Game File 昨日（3 月 11 日）发布博文，报道称在 2026 游戏开发者大会（GDC）上，谷歌澄清其生成式 AI 项目 Project Genie 现阶段能力依然有限，无法直接开发完整的视频游戏。IT之家曾于今年 1 月报道，谷歌展示 Genie 项目后，导致多家游戏公",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/249.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "微软官宣下一代 Xbox 主机 Helix：AI 画质革命，开发机 2027 年交付. IT之家 3 月 12 日消息，科技媒体 Golem 昨日（3 月 11 日）发布博文，报道称在 2026 年游戏开发者大会（GDC）上，微软披露了下一代 Xbox 主机“Project Helix”的硬件细节。架构方面，微软 Xbox 硬件副总裁 Jason Ronald 表示，Helix 游戏主机采用定制 ",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/202.htm"
+      },
+      {
+        "author": "少数派",
+        "text": "派早报：Google 发布 Gemini Embedding 2 模型等. 联发科发布多个 IoT SoC 平台、ComfyUI 支持 App 化工作流等。查看全文",
+        "engagement": 0,
+        "url": "https://sspai.com/post/107110"
+      }
+    ],
+    "key_facts": [
+      "谷歌在2026 GDC上正式澄清：Project Genie当前仅支持轻量级游戏原型与交互式内容生成，不具备端到端开发商业级视频游戏的能力",
+      "微软在同场GDC宣布下一代Xbox主机‘Project Helix’，采用微软与AMD联合定制SoC，原生兼容PC与主机游戏，并深度集成AI加速渲染管线",
+      "此前（1月）Genie演示引发市场恐慌，导致Unity股价单日暴跌21%、Roblox跌超12%、Take-Two跌10%，凸显业界对AI颠覆游戏开发流程的深度焦虑"
+    ],
+    "analyst_angle": "两大科技巨头在GDC同步释放AI+游戏战略信号：谷歌主动降温预期以稳定生态信心，微软则以硬件级AI集成推进‘AI-ready主机’落地——标志着AI正从内容辅助工具迈向游戏计算基础设施层。",
+    "cluster_size": 3,
+    "event_time": "2026-03-12T00:41:44Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_003",
+    "title": "🚀 思特威发布 1200 万像素 AI 眼镜专用 CMOS 图像传感器 SC1220IOT",
+    "category": "chip_hardware",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "思特威推出全新 1200 万像素 AI 眼镜应用 CMOS 图像传感器，今年 Q2 量产. IT之家 3 月 12 日消息，国产供应链厂商思特威今日宣布，全新推出 1200 万像素 AI 眼镜应用 CMOS 图像传感器 ——SC1220IOT。据介绍，这款新品搭载 Always-On 低功耗常开功能。在 Always-On 模式下，SC1220IOT 能够以较低的帧率保持超低功耗常开运行，可满足智",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/246.htm"
+      },
+      {
+        "author": "雷锋网",
+        "text": "追觅芯际穿越“天穹”系列芯片正式量产，定义AI时代下一个十年. 2026年3月11日，在由追觅科技与央视财经联合主办的“AWE2026芯片产业高峰论坛”上，追觅生态企业芯际穿越正式发布“天穹”系列芯片，并宣布已实现规模化量产，即将搭载于追觅泛机器人系列产品中。与此同时，芯际穿越还披露了其太空算力布局的最新进展——近期将发射“瑶台”系列太空算力盒，启动近地轨道超级算力中心建设第一步，这标志着芯际穿越",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/industrynews/nNYigIDy8gKNhuYv.html"
+      }
+    ],
+    "key_facts": [
+      "思特威于2026年3月12日发布专为AI眼镜设计的1200万像素CMOS图像传感器SC1220IOT",
+      "该传感器支持Always-On低功耗常开模式，功耗低至1mW，适配环境检测与手势识别等全天候视觉任务",
+      "集成自研ColGain HDR®技术，单帧多增益合成实现75dB高动态范围",
+      "计划于2026年Q2进入量产阶段"
+    ],
+    "analyst_angle": "这是国内首颗面向AI眼镜终端深度优化的高分辨率、超低功耗图像传感器，填补国产AI可穿戴视觉感知芯片关键空白，有望加速AR/智能眼镜从概念走向规模化落地。",
+    "cluster_size": 2,
+    "event_time": "2026-03-11T09:34:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_004",
+    "title": "🚀 Alibaba Cloud Unveils New AI-Powered Financial Solutions & Cloud Gaming Meetup in Mexico",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "Huawei",
+        "text": "At Huawei's Industrial Digital and Intelligent Transformation Summit 2026, Ng Wun‑kit, Principal of Pui Kiu Middle School, Hong Kong SAR, China, shared how AI General Knowledge Courses, AI‑Empowered S",
+        "engagement": 241,
+        "url": "https://x.com/Huawei/status/2029386850948006169"
+      },
+      {
+        "author": "dotey",
+        "text": "https://t.co/XMBR2lx1zD",
+        "engagement": 155,
+        "url": "https://x.com/dotey/status/2029359835083350396"
+      },
+      {
+        "author": "alibaba_cloud",
+        "text": "One week to go! ☁️ Alibaba Cloud × TiDB, powered by PingCAP Mexico Meetup\n\nWe're coming to CDMX — and we're bringing the AI cloud with us.\n📅 March 12, 2026 | 16:00 – 22:00 PM CST\n📍 Ciudad de México\n\nJ",
+        "engagement": 119,
+        "url": "https://x.com/alibaba_cloud/status/2029361349503881589"
+      },
+      {
+        "author": "alibaba_cloud",
+        "text": "🚀 New AI-Powered Financial Solutions from Ant DT on Alibaba Cloud: Agentar turns plain language into workflows, ZOLOZ (new region: Malaysia) for ID verification, RealDOC for docs. Plus Ant Security Gu",
+        "engagement": 97,
+        "url": "https://x.com/alibaba_cloud/status/2029357493722177601"
+      },
+      {
+        "author": "oran_ge",
+        "text": "M5 相比 M4 的大模型推理速度提升\n竟然在 3 倍以上。 https://t.co/6EG6Fj5o2P",
+        "engagement": 78,
+        "url": "https://x.com/oran_ge/status/2029363803625054220"
+      }
+    ],
+    "key_facts": [
+      "Alibaba Cloud and Ant DT launched new AI financial products: Agentar (natural-language-to-workflow agent), ZOLOZ (expanded to Malaysia for ID verification), RealDOC (document intelligence), plus Ant Security Guard and Riskplus for AI safety and real-time risk decisioning",
+      "Alibaba Cloud is hosting a hands-on AI cloud meetup in Mexico City on March 12, 2026 — featuring a 6-hour 'Build the Next Cloud Gaming Platform' challenge integrating TiDB, LLMs, analytics, and multi-tenant architecture"
+    ],
+    "analyst_angle": "This signals Alibaba Cloud’s strategic push to embed vertically tailored AI agents and security-critical infrastructure into high-regulation sectors (finance) while simultaneously building developer mindshare in emerging markets via immersive, production-grade cloud-AI events.",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_005",
+    "title": "🚀 Claude Code 推出语音交互模式（当前仅支持英文）",
+    "category": "product_launch",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "op7418",
+        "text": "灰度到了 Claude Code 的语音模式：\n\n1. 装之前、用之前需要先装一个工具，然后它会给你引导\n2. 装完之后直接重启\n3. 重启完了以后，输入 /voice 启动，按住空格说话\n\n试了一下，目前不支持中文。 https://t.co/hAWZnR2R3Q",
+        "engagement": 47,
+        "url": "https://x.com/op7418/status/2029388420628529268"
+      },
+      {
+        "author": "kevinxu",
+        "text": "@Stocktwits this is good news",
+        "engagement": 24,
+        "url": "https://x.com/kevinxu/status/2029383346959335474"
+      },
+      {
+        "author": "dingyi",
+        "text": "好看。https://t.co/XNiPdQ7tTK",
+        "engagement": 16,
+        "url": "https://x.com/dingyi/status/2029385061913772036"
+      },
+      {
+        "author": "Huawei",
+        "text": "Explore the latest highlights from the #Huawei Industrial Digital and Intelligent Transformation Summit at #MWC26: https://t.co/RhCcHq2bAc #AdvancingIndustrialAllIntelligence",
+        "engagement": 12,
+        "url": "https://x.com/Huawei/status/2029387183879237708"
+      },
+      {
+        "author": "vista8",
+        "text": "@kuaidaoqingyi 七龙珠战队 https://t.co/nto3pZC5fy",
+        "engagement": 4,
+        "url": "https://x.com/vista8/status/2029385603763306636"
+      }
+    ],
+    "key_facts": [
+      "Claude Code 新增语音模式，需安装配套工具并重启后通过 '/voice' 命令启用",
+      "当前语音功能不支持中文，仅限英文语音输入"
+    ],
+    "analyst_angle": "这是代码助手向多模态自然交互迈出的关键一步，虽暂未支持中文，但预示着AI编程工具正从纯文本向语音+上下文协同演进，将加速开发者工作流重构。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_006",
+    "title": "📌 无关事件的碎片化推文集合",
+    "category": "other",
+    "importance": 1.2,
+    "sources": [
+      {
+        "author": "jesselaunz",
+        "text": "1比9，没有真理在手，还是好一些https://t.co/ecz2EKaovY\n\ngemini判断在英国利兹：\n\n通过视频中的几个线索可以判断，这个视频拍摄于英国利兹（Leeds），具体在Lower Briggate街区附近。\n\n以下是视频中的一些关键线索：\n\n3:25 处，可以清楚地看到一家名为 \"Bowers Tap\" 的酒吧招牌，这是一家位于利兹 Lower Briggate 的知名酒吧。\n",
+        "engagement": 3,
+        "url": "https://x.com/jesselaunz/status/2029361674839568809"
+      },
+      {
+        "author": "vista8",
+        "text": "@berryxia 主要有飞书的朋友问怎么让飞书里bot互相控制，我研究了下。。。",
+        "engagement": 2,
+        "url": "https://x.com/vista8/status/2029385056851247337"
+      },
+      {
+        "author": "oran_ge",
+        "text": "@kevinzhow 文生图也在3倍以上",
+        "engagement": 1,
+        "url": "https://x.com/oran_ge/status/2029388273370710189"
+      },
+      {
+        "author": "op7418",
+        "text": "@Zachary_haha 有啊 不过这东西难在推广",
+        "engagement": 1,
+        "url": "https://x.com/op7418/status/2029363554189754475"
+      },
+      {
+        "author": "op7418",
+        "text": "@iBigQiang 如果你用 CC Switch，需要在我这重新配置一下。\n\n我那个设置的供应商那里，你看一下，那写了，这个不影响 CC Switch，如果不行了，检查一下别的原因",
+        "engagement": 0,
+        "url": "https://x.com/op7418/status/2029387520614744321"
+      }
+    ],
+    "key_facts": [
+      "推文内容彼此无共同事件关联",
+      "包含地理定位（英国利兹）的视频分析、飞书Bot技术咨询、文生图性能提及、CC Switch配置讨论等完全不相关的主题"
+    ],
+    "analyst_angle": "这些推文属于典型社交噪音，无共享事件实体、无时间/主体/行为一致性，无法构成有效行业事件信号。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  }
+]
