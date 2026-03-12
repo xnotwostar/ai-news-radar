@@ -75,7 +75,9 @@ class Embedder:
             headers=headers,
             timeout=30,
         )
-        resp.raise_for_status()
+        if resp.status_code != 200:
+            logger.error("DashScope embedding error %d: %s", resp.status_code, resp.text)
+            resp.raise_for_status()
         data = resp.json()
 
         # Sort by index to maintain order

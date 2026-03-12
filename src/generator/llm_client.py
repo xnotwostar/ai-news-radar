@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import logging
 import os
+import time
 from typing import Sequence
 
 import anthropic
@@ -105,24 +106,31 @@ class LLMClient:
         user_prompt: str,
         temperature: float,
         max_tokens: int,
+        max_retries: int = 3,
     ) -> str:
         api_key = os.environ[api_key_env]
-        resp = httpx.post(
-            base_url,
-            headers={
-                "Authorization": f"Bearer {api_key}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": entry.model,
-                "messages": [
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_prompt},
-                ],
-                "temperature": temperature,
-                "max_tokens": max_tokens,
-            },
-            timeout=httpx.Timeout(entry.timeout, connect=30.0),
-        )
-        resp.raise_for_status()
-        return resp.json()["choices"][0]["message"]["content"]
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        }
+        payload = {
+            "model": entry.model,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            "temperature": temperature,
+            "max_tokens": max_tokens,
+        }
+        timeout = httpx.Timeout(entry.timeout, connect=30.0)
+
+        for attempt in range(max_retries + 1):
+            resp = httpx.post(base_url, headers=headers, json=payload, timeout=timeout)
+            if resp.status_code == 429 and attempt < max_retries:
+                wait = 2 ** attempt * 15  # 15s, 30s, 60s
+                logger.warning("Rate limited by %s/%s, retrying in %ds (%d/%d)",
+                               entry.provider, entry.model, wait, attempt + 1, max_retries)
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            return resp.json()["choices"][0]["message"]["content"]
