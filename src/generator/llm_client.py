@@ -127,7 +127,15 @@ class LLMClient:
         for attempt in range(max_retries + 1):
             resp = httpx.post(base_url, headers=headers, json=payload, timeout=timeout)
             if resp.status_code == 429 and attempt < max_retries:
-                wait = 2 ** attempt * 15  # 15s, 30s, 60s
+                # Respect Retry-After header if present, otherwise exponential backoff
+                retry_after = resp.headers.get("retry-after") or resp.headers.get("Retry-After")
+                if retry_after:
+                    try:
+                        wait = int(retry_after) + 5
+                    except ValueError:
+                        wait = 2 ** attempt * 60
+                else:
+                    wait = 2 ** attempt * 60  # 60s, 120s, 240s
                 logger.warning("Rate limited by %s/%s, retrying in %ds (%d/%d)",
                                entry.provider, entry.model, wait, attempt + 1, max_retries)
                 time.sleep(wait)

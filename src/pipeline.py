@@ -302,7 +302,7 @@ def main(pipeline_names: list[str] | None = None) -> None:
     # Execute in order: global → china (with trending merged in)
     # trending data is automatically merged into china_ai, no separate push
     execution_order = ["global_ai", "china_ai"]
-    push_interval = 30  # seconds between pipeline pushes
+    push_interval = 60  # seconds between pipeline pushes (Gemini free tier rate limit)
 
     # Get trending config so china_ai can pull its data
     trending_config = pipelines.get("trending")
