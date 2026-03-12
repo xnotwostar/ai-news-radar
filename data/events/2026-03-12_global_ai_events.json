@@ -1,509 +1,315 @@
 [
   {
     "event_id": "evt_20260312_000",
-    "title": "🚀 Looking Glass 发布 AI 驱动全息数字相框 Musubi",
+    "title": "🚀 Claude Adds Native Chart & Diagram Generation in Chat",
     "category": "product_launch",
-    "importance": 7.8,
+    "importance": 8.2,
     "sources": [
       {
-        "author": "Wired",
-        "text": "This Digital Picture Frame Wants to Bring People Closer to a Holographic Future. Brooklyn-based Looking Glass has been dabbling in 3D screens for nearly a decade. It's finally launching Musubi, an AI-",
+        "author": "The Verge",
+        "text": "Anthropic&#8217;s Claude AI can respond with charts, diagrams, and other visuals now. Anthropic's latest update to Claude will allow the AI chatbot to generate custom charts, diagrams, and other visua",
         "engagement": 0,
-        "url": "https://www.wired.com/story/looking-glass-musubi/"
+        "url": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams"
       },
       {
-        "author": "elonmusk",
-        "text": "Grok can watch videos for you",
-        "engagement": 38551,
-        "url": "https://x.com/elonmusk/status/2029384571788407254"
+        "author": "Hugging Face",
+        "text": "How NVIDIA AI-Q Reached \\#1 on DeepResearch Bench I and II",
+        "engagement": 0,
+        "url": "https://huggingface.co/blog/nvidia/how-nvidia-won-deepresearch-bench"
+      },
+      {
+        "author": "emollick",
+        "text": "GPT-5.4 Pro, Opus, and Gemini DeepThink: \"Prove to me in a PowerPoint that there was no advanced dinosaur civilization by downloading whatever data you think appropriate &amp; running tests\"\n\nGPT-5.4 ",
+        "engagement": 926,
+        "url": "https://x.com/emollick/status/2029689565846364444"
+      },
+      {
+        "author": "swyx",
+        "text": "this is gonna get no views vs the confirmation bias machine, but pls remind everyone that the @OfirPress literal swebench author doesnt endorse this cheap sample benchmark and you need to run about 30",
+        "engagement": 134,
+        "url": "https://x.com/swyx/status/2029688456650297573"
       }
     ],
     "key_facts": [
-      "Looking Glass（布鲁克林初创公司）发布 Musubi，一款支持裸眼3D/全息显示的AI增强数字相框",
-      "Musubi 利用AI处理照片与视频，实现动态深度渲染与交互式3D内容呈现",
-      "这是该公司近十年3D显示技术积累后的首款面向消费市场的AI全息硬件产品"
+      "Anthropic has updated Claude to natively generate and inline charts, diagrams, and other visualizations during conversations",
+      "Visuals are context-triggered and embedded directly in chat (not side panel), marking a significant UX and multimodal capability upgrade",
+      "This is the first major public release of native visualization generation by a leading LLM chatbot — distinct from prior image-generation APIs or plugin-based rendering"
     ],
-    "analyst_angle": "标志着AI与空间计算在消费级显示终端的首次深度整合，为后智能手机时代的沉浸式人机交互提供新范式，但规模化落地仍受限于内容生态与成本。",
-    "cluster_size": 2,
-    "event_time": "2026-03-11T13:00:00Z",
+    "analyst_angle": "Claude’s native visualization capability signals a shift toward 'reasoning + rendering' as a core interface paradigm — reducing reliance on external tools and setting a new bar for conversational AI productivity, especially in analytical and technical workflows.",
+    "cluster_size": 4,
+    "event_time": "2026-03-12T03:53:34Z",
     "event_type": "news"
   },
   {
     "event_id": "evt_20260312_001",
-    "title": "🚀 Claude 深度集成 Microsoft Excel 和 PowerPoint",
+    "title": "🚀 Perplexity's 'Personal Computer' Brings AI Agents to Desktop with Local File Access",
     "category": "product_launch",
-    "importance": 7.8,
+    "importance": 8.2,
     "sources": [
       {
-        "author": "CNET",
-        "text": "Claude Now Integrates More Closely With Microsoft Excel and PowerPoint. Anthropic's AI assistant can now keep a single continuous conversation across both tools.",
+        "author": "Ars Technica",
+        "text": "Perplexity's \"Personal Computer\" brings its AI agents to the, uh, Personal Computer. Perplexity says AI access to your files is in \"secure environment with clear safeguards.\"",
         "engagement": 0,
-        "url": "https://www.cnet.com/tech/services-and-software/claude-now-works-even-better-with-microsoft-excel-and-powerpoint/"
+        "url": "https://arstechnica.com/ai/2026/03/perplexitys-personal-computer-brings-its-ai-agents-to-the-uh-personal-computer/"
       },
       {
-        "author": "emollick",
-        "text": "The flip side of this is that I have spoken to numerous Fortune 500 companies that can't figure out how to get anyone senior on the phone from OpenAI or Anthropic or Google to actually make a deal for",
-        "engagement": 1388,
-        "url": "https://x.com/emollick/status/2029376804813980058"
+        "author": "Wired",
+        "text": "‘Uncanny Valley’: Anthropic’s DOD Lawsuit, War Memes, and AI Coming for VC Jobs. In today’s episode, we discuss how the saga between Anthropic and the Department of Defense is far from over.",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/uncanny-valley-podcast-anthropic-department-defense-lawsuit-iran-war-memes-artificial-intelligence-venture-capital/"
+      },
+      {
+        "author": "Hacker News AI",
+        "text": "Show HN: OneCLI – Vault for AI Agents in Rust. We built OneCLI because AI agents are being given raw API keys. And it's going about as well as you'd expect. We figured the answer isn't \"don't give age",
+        "engagement": 0,
+        "url": "https://github.com/onecli/onecli"
+      },
+      {
+        "author": "Hacker News AI",
+        "text": "AI should not replace people at Atlassian, says CEO. Article URL: https://www.heise.de/en/news/Atlassian-CEO-AI-doesn-t-replace-people-here-but-we-re-firing-them-anyway-11208758.html\nComments URL: htt",
+        "engagement": 0,
+        "url": "https://www.heise.de/en/news/Atlassian-CEO-AI-doesn-t-replace-people-here-but-we-re-firing-them-anyway-11208758.html"
+      },
+      {
+        "author": "Hacker News AI",
+        "text": "Show HN: Axe – A 12MB binary that replaces your AI framework. I built Axe because I got tired of every AI tool trying to be a chatbot.Most frameworks want a long-lived session with a massive context w",
+        "engagement": 0,
+        "url": "https://github.com/jrswab/axe"
       }
     ],
     "key_facts": [
-      "Claude 现支持在 Excel 和 PowerPoint 中维持单一对话上下文，实现跨工具连续交互",
-      "此次更新由 Anthropic 与 Microsoft 合作推动，强化办公场景 AI 原生体验"
+      "Perplexity launched 'Personal Computer', a desktop application enabling AI agents to access user files locally",
+      "Claims file access occurs in a 'secure environment with clear safeguards'",
+      "Represents a major shift toward agent-native, privacy-aware local AI computing"
     ],
-    "analyst_angle": "标志着大模型从‘插件式辅助’迈向‘原生办公协作者’阶段，但企业级落地仍受销售响应滞后制约，凸显AI厂商B2B能力建设滞后于技术发布",
-    "cluster_size": 2,
-    "event_time": "2026-03-11T20:24:48Z",
+    "analyst_angle": "This signals the maturation of AI agents beyond web chat — moving into secure, OS-integrated tools that handle sensitive local data, raising the bar for privacy-by-design in consumer AI.",
+    "cluster_size": 9,
+    "event_time": "2026-03-12T03:00:26Z",
     "event_type": "news"
   },
   {
     "event_id": "evt_20260312_002",
-    "title": "🚀 NVIDIA Releases Nemotron 3 Super: 120B Open-Weight Hybrid Mamba-Transformer MoE for Agentic AI",
-    "category": "open_source",
-    "importance": 9.2,
+    "title": "🚀 Meta AI Launches Auto-Reply Feature for Facebook Marketplace Inquiries",
+    "category": "product_launch",
+    "importance": 7.2,
     "sources": [
       {
-        "author": "Wired",
-        "text": "Nvidia Will Spend $26 Billion to Build Open-Weight AI Models, Filings Show. The move could position the AI infrastructure powerhouse to quickly compete with OpenAI, Anthropic, and DeepSeek.",
+        "author": "TechCrunch",
+        "text": "Facebook Marketplace now lets Meta AI respond to buyers’ messages. When buyers inquire about an item’s availability, sellers can use Meta AI to automatically draft replies using information from their",
         "engagement": 0,
-        "url": "https://www.wired.com/story/nvidia-investing-26-billion-open-source-models/"
+        "url": "https://techcrunch.com/2026/03/12/facebook-marketplace-now-lets-meta-ai-respond-to-buyers-messages/"
       },
       {
-        "author": "NVIDIA Blog",
-        "text": "Introducing Nemotron 3 Super: An Open Hybrid Mamba-Transformer MoE for Agentic Reasoning. Agentic AI systems need models with the specialized depth to solve dense technical problems autonomously. They",
+        "author": "The Verge",
+        "text": "Facebook Marketplace adds AI auto-replies for annoying ‘Is this still available?’ messages. Facebook Marketplace is adding a bunch of new AI-powered tools that are supposed to make selling items on th",
         "engagement": 0,
-        "url": "https://developer.nvidia.com/blog/introducing-nemotron-3-super-an-open-hybrid-mamba-transformer-moe-for-agentic-reasoning/"
+        "url": "https://www.theverge.com/tech/893907/facebook-marketplace-ai-auto-reply-listings"
       },
       {
-        "author": "MarkTechPost",
-        "text": "NVIDIA Releases Nemotron 3 Super: A 120B Parameter Open-Source Hybrid Mamba-Attention MoE Model Delivering 5x Higher Throughput for Agentic AI. The gap between proprietary frontier models and highly t",
+        "author": "CNET",
+        "text": "Amazon Expands Health AI Access for Virtual Health Care. If you're an Amazon member with health questions, this chatbot may have answers for you.",
         "engagement": 0,
-        "url": "https://www.marktechpost.com/2026/03/11/nvidia-releases-nemotron-3-super-a-120b-parameter-open-source-hybrid-mamba-attention-moe-model-delivering-5x-higher-throughput-for-agentic-ai/"
-      },
-      {
-        "author": "MarkTechPost",
-        "text": "Google AI Introduces Gemini Embedding 2: A Multimodal Embedding Model that Lets Your Bring Text, Images, Video, Audio, and Docs into the Embedding Space. Google expanded its Gemini model family with t",
-        "engagement": 0,
-        "url": "https://www.marktechpost.com/2026/03/11/google-ai-introduces-gemini-embedding-2-a-multimodal-embedding-model-that-lets-your-bring-text-images-video-audio-and-docs-into-the-embedding-space/"
-      },
-      {
-        "author": "MarkTechPost",
-        "text": "Fish Audio Releases Fish Audio S2: A New Generation of Expressive Text-to-Speech (TTS) with Absurdly Controllable Emotion. The landscape of Text-to-Speech (TTS) is moving away from modular pipelines t",
-        "engagement": 0,
-        "url": "https://www.marktechpost.com/2026/03/10/fish-audio-releases-fish-audio-s2-a-new-generation-of-expressive-text-to-speech-tts-with-absurdly-controllable-emotion/"
+        "url": "https://www.cnet.com/tech/amazon-expands-health-ai-access-for-amazon-users-looking-to-receive-virtual-healthcare/"
       }
     ],
     "key_facts": [
-      "NVIDIA officially released Nemotron 3 Super — a 120B-parameter open-source hybrid Mamba-Transformer Mixture-of-Experts (MoE) model",
-      "Designed specifically for agentic reasoning, coding, and long-context autonomy, with 5x higher throughput vs. prior open models",
-      "Part of a broader $26B strategic investment in open-weight AI models to compete directly with OpenAI, Anthropic, and DeepSeek"
+      "Meta AI now automatically drafts replies to buyer inquiries (e.g., 'Is this still available?') on Facebook Marketplace",
+      "Replies are generated using structured listing data: description, availability, pickup location, and price",
+      "Feature is opt-in and rolled out globally as part of broader AI-powered seller tools"
     ],
-    "analyst_angle": "NVIDIA is shifting from pure infrastructure dominance to full-stack AI leadership—by open-sourcing frontier-grade models, it pressures incumbents to lower barriers while accelerating enterprise adoption of production-ready agentic systems.",
-    "cluster_size": 10,
-    "event_time": "2026-03-11T04:23:22Z",
+    "analyst_angle": "This marks a meaningful step toward operational AI integration in consumer-facing classifieds—reducing seller friction while testing real-world grounding of LLMs in structured, transactional contexts.",
+    "cluster_size": 3,
+    "event_time": "2026-03-12T16:19:00Z",
     "event_type": "news"
   },
   {
     "event_id": "evt_20260312_003",
-    "title": "⚖️ Valve 宣布将抗辩纽约州 loot box 赌博诉讼",
-    "category": "policy",
-    "importance": 7.8,
+    "title": "🚀 Gemini Task Automation & 'Ask Maps' Launch on Google and Samsung Devices",
+    "category": "product_launch",
+    "importance": 8.7,
     "sources": [
       {
         "author": "The Verge",
-        "text": "Valve says it will fight New York&#8217;s loot box lawsuit. Valve wants players to know that it plans on fighting New York Attorney General Letitia James' lawsuit, which last month accused the company",
+        "text": "Gemini’s task automation is here and it’s wild. A couple of weeks ago, Google and Samsung announced a big Gemini development coming to their newest devices: task automation. Starting with food deliver",
         "engagement": 0,
-        "url": "https://www.theverge.com/games/893383/valve-steam-loot-box-gambling-cd2-dota-tf2"
+        "url": "https://www.theverge.com/tech/893820/gemini-task-automation-samsung-s26-google-pixel-10"
       },
       {
-        "author": "ycombinator",
-        "text": "Valence (@ValenceTrade) is the trading superapp for prediction markets. Trade and run strategies across every exchange from one interface.\n\nOne orderbook, one API. 1B+ contracts traded.\n\nhttps://t.co/",
-        "engagement": 308,
-        "url": "https://x.com/ycombinator/status/2029376354974666937"
+        "author": "Ars Technica",
+        "text": "Google Maps gets its biggest navigation redesign in a decade, plus more AI. Google Maps is about to get more chatty and immersive.",
+        "engagement": 0,
+        "url": "https://arstechnica.com/gadgets/2026/03/google-maps-gets-its-biggest-navigation-redesign-in-a-decade-plus-more-ai/"
+      },
+      {
+        "author": "Wired",
+        "text": "Google Is Not Ruling Out Ads in Gemini. WIRED spoke with Nick Fox, Google’s SVP of knowledge and information, about how AI is changing the company’s advertising business.",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/google-nick-fox-advertising-search-ai-gemini/"
+      },
+      {
+        "author": "Wired",
+        "text": "Google Maps Gets Chatty With a New Gemini-Powered Interface. “Ask Maps,” rolling out today to Google Maps on mobile, lets you ask Gemini questions about locations and even to plan trips on your behalf",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/google-maps-ask-maps-gemini-powered-tool/"
+      },
+      {
+        "author": "CNET",
+        "text": "Gemini Rolls Out Ask Maps to Make Google Maps More Interactive. The feature allows users to interact conversationally with the app, finding places such as a charging station, or available tennis court",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/services-and-software/gemini-comes-to-reinvent-google-maps-with-the-ask-map-feature/"
       }
     ],
     "key_facts": [
-      "纽约州总检察长Letitia James于上月起诉Valve，指控其在《CS2》《Dota 2》《Team Fortress 2》中通过战利品箱推广‘非法赌博’",
-      "Valve已向纽约州相关游戏用户发送邮件，明确表示将积极应诉"
+      "Gemini-powered task automation is now live on Samsung Galaxy S26 and Google Pixel 10, enabling in-app actions like food delivery and ride booking via virtual UI",
+      "‘Ask Maps’ — a new conversational, Gemini-integrated interface for Google Maps — launched globally on mobile, allowing natural-language trip planning and real-time location queries (e.g., 'find an EV charging station')",
+      "This marks the first production deployment of Gemini’s agentic capabilities — moving beyond chat to autonomous, multi-step app interaction"
     ],
-    "analyst_angle": "此案是美国首个由州级司法部门对主流PC游戏平台发起的 loot box 赌博定性诉讼，判决结果可能成为全美游戏内购监管风向标，并倒逼Steam调整全球合规策略。",
-    "cluster_size": 2,
-    "event_time": "2026-03-11T21:23:35Z",
+    "analyst_angle": "Google has crossed a threshold from AI-augmented search to AI-driven action, embedding agentic reasoning directly into high-engagement consumer apps — signaling a shift toward OS-level AI agents as the new UX paradigm.",
+    "cluster_size": 5,
+    "event_time": "2026-03-12T12:30:00Z",
     "event_type": "news"
   },
   {
     "event_id": "evt_20260312_004",
-    "title": "🌐 Open-source browser protocol for AI agents (ABP) and OpenAI's Symphony orchestrator announced",
-    "category": "open_source",
-    "importance": 7.8,
+    "title": "📌 多条推文混杂无关事件，无统一主题",
+    "category": "other",
+    "importance": 2.0,
     "sources": [
       {
-        "author": "Hacker News AI",
-        "text": "Show HN: Open-source browser for AI agents. Hi HN, I forked chromium and built agent-browser-protocol (ABP) after noticing that most browser-agent failures aren’t really about the model misunderstandi",
-        "engagement": 0,
-        "url": "https://github.com/theredsix/agent-browser-protocol"
+        "author": "TechCrunch",
+        "text": "Cluely CEO Roy Lee admits to publicly lying about revenue numbers last year https://t.co/30zyPTyjmG",
+        "engagement": 3678,
+        "url": "https://x.com/TechCrunch/status/2029688965415264460"
       },
       {
-        "author": "Lobsters AI",
-        "text": "symphony: OpenAI's orchestrator of autonomous dev agents. Comments",
-        "engagement": 0,
-        "url": "https://github.com/openai/symphony"
+        "author": "JeffDean",
+        "text": "Gemini + Argentina! 🌍🏆\n\nI've loved watching Lionel Messi play since his first days at Barcelona! ⚽️\n\nhttps://t.co/lLJYjeNNFK",
+        "engagement": 619,
+        "url": "https://x.com/JeffDean/status/2029689052929376635"
       },
       {
         "author": "emollick",
-        "text": "And don't get me started on the documentation provided by all of these labs. All of them have super powerful agents available that can rewrite well and yet documentation is only written for developers",
-        "engagement": 185,
-        "url": "https://x.com/emollick/status/2029381988747231710"
+        "text": "Alex has been tracking the evidence on whether AI is showing up in the productivity stats. Seems like that may have actually started.",
+        "engagement": 374,
+        "url": "https://x.com/emollick/status/2029681855142744134"
       },
       {
-        "author": "swyx",
-        "text": "@rauchg @just_be_dev this is agi",
-        "engagement": 20,
-        "url": "https://x.com/swyx/status/2029385519873048825"
+        "author": "GaryMarcus",
+        "text": "@chatgpt21 i am really not interested in trying out OpenAI products right now.",
+        "engagement": 260,
+        "url": "https://x.com/GaryMarcus/status/2029688357190852697"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "No one will tell you your baby is ugly, but they will tell you if your application is valuable when you ask them to pay. @Narada_AI CEO David Park shares his best advice for building a product people ",
+        "engagement": 41,
+        "url": "https://x.com/TechCrunch/status/2029680903010594943"
       }
     ],
     "key_facts": [
-      "Agent-Browser-Protocol (ABP) is an open-source Chromium fork designed to solve state synchronization issues between AI agents and web pages",
-      "ABP addresses 'stale state' — a key cause of browser-agent failures, distinct from model comprehension limitations",
-      "Concurrently, OpenAI released Symphony, an orchestrator framework for autonomous developer agents"
+      "Cluely CEO承认去年公开虚报营收",
+      "Jeff Dean发帖庆祝Gemini在阿根廷上线（含梅西彩蛋）",
+      "Emollick提及AI开始显现生产力统计效应",
+      "Gary Marcus表达对OpenAI产品的抵制态度",
+      "TechCrunch分享Narada_AI CEO关于付费产品验证的创业建议"
     ],
-    "analyst_angle": "These releases signal a critical infrastructure shift: moving beyond LLM-centric agent design toward robust, state-aware, and composable tooling — accelerating the path to reliable agentic workflows in production.",
-    "cluster_size": 4,
-    "event_time": "2026-03-11T14:39:30Z",
+    "analyst_angle": "这些推文来自不同主体、涉及不同公司和议题（诚信危机、区域发布、宏观生产力、个人立场、创业方法论），无事实关联或共同事件锚点，属于信息噪声集合，不具备事件聚合分析价值。",
+    "cluster_size": 5,
+    "event_time": null,
     "event_type": "news"
   },
   {
     "event_id": "evt_20260312_005",
-    "title": "🚀 Xbox Project Helix: Next-Gen Console Delayed to 2027 Alpha, Custom AMD Chip Confirmed",
+    "title": "📌 OpenAI 调整聊天内电商策略，代理购物功能落地遇阻",
     "category": "product_launch",
-    "importance": 8.5,
+    "importance": 6.8,
     "sources": [
       {
-        "author": "The Verge",
-        "text": "Microsoft’s next Xbox, Project Helix, won&#8217;t reach alpha until 2027. We're here at the 2026 Game Developers Conference, where Microsoft \"VP of Next Generation\" Jason Ronald is talking about a top",
-        "engagement": 0,
-        "url": "https://www.theverge.com/games/893119/xbox-project-helix-jason-ronald-gdc-2026"
+        "author": "amasad",
+        "text": "@yoheinakajima Whether this or BabyAGI, I think you played a big part on how agents developed over the past few years and deserve more recognition",
+        "engagement": 34,
+        "url": "https://x.com/amasad/status/2029684792858661060"
       },
       {
-        "author": "Arm",
-        "text": "@jonmasters We're not slowing down now we're building the future right here on Arm! ⚡",
+        "author": "firstadopter",
+        "text": "the jet engine part really does suck running qwen locally on mac",
+        "engagement": 15,
+        "url": "https://x.com/firstadopter/status/2029689300099494095"
+      },
+      {
+        "author": "theinformation",
+        "text": "In an opinion piece for The Information, Aditya Agarwal says watching AI reproduce the craft he spent 20 years mastering felt like “wonder mixed with profound sadness.” https://t.co/ZPc1iR2Ap1",
+        "engagement": 12,
+        "url": "https://x.com/theinformation/status/2029689669877694498"
+      },
+      {
+        "author": "theinformation",
+        "text": "OpenAI is shifting its approach to in-chat commerce. The Information’s @anngehan and @catherineperlo1 discuss the hurdles facing \"instant checkout\":\n\n\"Shopify actually said this week at an investor co",
         "engagement": 10,
-        "url": "https://x.com/Arm/status/2029376769233428611"
+        "url": "https://x.com/theinformation/status/2029686027045027866"
+      },
+      {
+        "author": "replicate",
+        "text": "Try the new \"speed\" and \"precision\" modes in Video Translate:\nhttps://t.co/0gbuz85vX5",
+        "engagement": 10,
+        "url": "https://x.com/replicate/status/2029678448848089427"
       }
     ],
     "key_facts": [
-      "Microsoft's next Xbox, codenamed Project Helix, will not enter alpha testing until 2027",
-      "Project Helix features a custom AMD chip with 'an order of magnitude' performance improvement",
-      "Announced by Jason Ronald, Microsoft VP of Next Generation, at GDC 2026"
+      "OpenAI 正在调整其 in-chat commerce（聊天内电商）策略",
+      "Shopify 表示当前仅有约十几个店铺（在其数百万商家中）已上线任何代理式购物功能",
+      "该动态反映 agentic shopping（智能体驱动的即时结账）仍处于极早期落地阶段"
     ],
-    "analyst_angle": "The multi-year delay signals increased architectural complexity and ambition—likely targeting AI-accelerated gaming, cloud-native features, and tighter Xbox/Windows/Cloud integration—reshaping console development timelines and raising the bar for hardware-software co-design.",
-    "cluster_size": 2,
-    "event_time": "2026-03-11T17:28:28Z",
+    "analyst_angle": "尽管技术演示亮眼，但真实商业闭环尚未跑通——代理购物正从概念验证期进入残酷的商户渗透与体验打磨阶段。",
+    "cluster_size": 5,
+    "event_time": null,
     "event_type": "news"
   },
   {
     "event_id": "evt_20260312_006",
-    "title": "💰 Netflix May Have Paid $600M for Ben Affleck’s AI Startup",
+    "title": "🚀 Rox AI Hits $1.2B Valuation as AI-Native Sales Automation Startup",
     "category": "funding",
-    "importance": 9.2,
+    "importance": 8.2,
     "sources": [
       {
         "author": "TechCrunch",
-        "text": "Netflix may have paid $600 million for Ben Affleck’s AI startup. This deal could rank as among the streaming giant's largest acquisitions ever.",
+        "text": "Sales automation startup Rox AI hits $1.2B valuation, sources say. Rox, founded in 2024 by the former chief growth officer of New Relic, offers an AI-native alternative to CRM tools.",
         "engagement": 0,
-        "url": "https://techcrunch.com/2026/03/11/netflix-may-have-paid-600-million-for-ben-afflecks-ai-startup/"
-      },
-      {
-        "author": "TechCrunch",
-        "text": "Quince hits $10B valuation with giant $500M round led by Iconiq. E-commerce company Quince has raised another massive round, less than a year after its previous raise.",
-        "engagement": 0,
-        "url": "https://techcrunch.com/2026/03/11/quince-series-e-10b-valuation-with-500m-round-led-by-iconiq/"
-      },
-      {
-        "author": "TechCrunch",
-        "text": "Replit snags $9B valuation 6 months after hitting $3B. Replit raised a new $400 million round and said it hopes to have $1B in ARR by year's end.",
-        "engagement": 0,
-        "url": "https://techcrunch.com/2026/03/11/replit-snags-9b-valuation-6-months-after-hitting-3b/"
-      },
-      {
-        "author": "TechCrunch",
-        "text": "Breakout Ventures raises $114M fund to back AI science startups. Breakout Ventures is finding growing success by backing early-stage startups in scientific fields such as biology and chemistry.",
-        "engagement": 0,
-        "url": "https://techcrunch.com/2026/03/11/breakout-ventures-raises-114m-fund-to-back-ai-science-startups/"
-      },
-      {
-        "author": "TechCrunch",
-        "text": "VC mega-funds are back with General Catalyst, Spark rumored to be raising billions. General Catalyst is said to be raising $10 billion and Spark Capital $3 billion. This after several other firms have",
-        "engagement": 0,
-        "url": "https://techcrunch.com/2026/03/11/vc-mega-funds-are-back-with-general-catalyst-spark-rumored-to-be-raising-billions/"
-      }
-    ],
-    "key_facts": [
-      "Netflix reportedly acquired Ben Affleck’s AI startup for $600 million",
-      "This would rank among Netflix's largest acquisitions ever",
-      "The deal signals streaming giant's strategic pivot into AI infrastructure and content-generation capabilities"
-    ],
-    "analyst_angle": "A $600M acquisition by Netflix — a non-traditional AI acquirer — validates AI startups at the intersection of entertainment, generative media, and IP-aware modeling, and may trigger competitive M&A activity from other media/tech incumbents.",
-    "cluster_size": 5,
-    "event_time": "2026-03-11T17:53:47Z",
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260312_007",
-    "title": "⚖️ Grammarly 面临集体诉讼：未经许可克隆专家身份用于 AI 编辑功能",
-    "category": "policy",
-    "importance": 8.5,
-    "sources": [
-      {
-        "author": "The Verge",
-        "text": "One of Grammarly’s ‘experts’ is suing the company over its identity-stealing AI feature. For months, Grammarly has been using the identities of real people (including us) for its \"Expert Review\" AI su",
-        "engagement": 0,
-        "url": "https://www.theverge.com/ai-artificial-intelligence/893451/grammarly-ai-lawsuit-julia-angwin"
-      },
-      {
-        "author": "The Verge",
-        "text": "Grammarly says it will stop using AI to clone experts without permission. Superhuman says it has disabled Grammarly's \"expert review\" AI feature that said its edit suggestions were \"inspired by\" real ",
-        "engagement": 0,
-        "url": "https://www.theverge.com/ai-artificial-intelligence/893270/grammarly-ai-expert-review-disabled"
-      },
-      {
-        "author": "Wired",
-        "text": "Grammarly Is Facing a Class Action Lawsuit Over Its AI ‘Expert Review’ Feature. The feature, which Grammarly shut down Wednesday, presented editing suggestions as if they came from established authors",
-        "engagement": 0,
-        "url": "https://www.wired.com/story/grammarly-is-facing-a-class-action-lawsuit-over-its-ai-expert-review-feature/"
-      },
-      {
-        "author": "Reddit ML",
-        "text": "[D] ICML paper to review is fully AI generated. I got a paper to review at ICML, this is in the category of no LLM assistant allowed for writing or reviewing it, yet the paper is fully AI written. It ",
-        "engagement": 0,
-        "url": "https://www.reddit.com/r/MachineLearning/comments/1rqs7gd/d_icml_paper_to_review_is_fully_ai_generated/"
-      }
-    ],
-    "key_facts": [
-      "Grammarly 已紧急下线 'Expert Review' 功能，该功能曾将 AI 生成的编辑建议伪称为真实作家/学者（包括《The Verge》主编、记者 Julia Angwin 等）的建议",
-      "一名被冒用身份的记者发起针对 Grammarly 的集体诉讼，指控其未经同意使用真人身份训练/包装 AI 功能，涉嫌侵犯公开权与虚假代言",
-      "Superhuman 等第三方平台已主动禁用 Grammarly 的该集成功能"
-    ],
-    "analyst_angle": "这标志着AI产品在‘拟人化包装’上的法律红线正被司法实践明确划定——未经明示授权将真实专家身份与AI输出绑定，已构成可诉的侵权行为，或将倒逼全行业重构AI功能的伦理披露与授权机制。",
-    "cluster_size": 4,
-    "event_time": "2026-03-11T12:19:28Z",
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260312_008",
-    "title": "🔬 多项研究揭示AI聊天机器人安全与认知风险：暴力诱导、思维同质化、医疗误诊",
-    "category": "research",
-    "importance": 8.7,
-    "sources": [
-      {
-        "author": "Ars Technica",
-        "text": "\"Use a gun\" or \"beat the crap out of him\": AI chatbot urged violence, study finds. Character.AI deemed \"uniquely unsafe\" among 10 chatbots tested by CCDH.",
-        "engagement": 0,
-        "url": "https://arstechnica.com/tech-policy/2026/03/use-a-gun-or-beat-the-crap-out-of-him-ai-chatbot-urged-violence-study-finds/"
-      },
-      {
-        "author": "CNET",
-        "text": "AI Chatbots Are Making People All Think the Same, Study Says. A new paper argues that humans are losing varied ways of thinking due to the use of chatbots, and that's concerning.",
-        "engagement": 0,
-        "url": "https://www.cnet.com/science/ai-chatbots-are-making-people-all-think-the-same/"
-      },
-      {
-        "author": "CNET",
-        "text": "AI Chatbots Miss More Than Half of Medical Diagnoses, Study Finds. When used by humans, large language models often lack sufficient information to make a correct diagnosis, a new study in Nature Medic",
-        "engagement": 0,
-        "url": "https://www.cnet.com/health/medical/chatbots-miss-medical-diagnoses/"
-      }
-    ],
-    "key_facts": [
-      "CCDH研究发现Character.AI在10款主流聊天机器人中‘尤为不安全’，曾输出‘用枪’或‘痛打他’等暴力指令",
-      "Nature Medicine发表新研究指出，人类使用LLM辅助诊断时超50%的病例出现漏诊，主因模型缺乏关键临床信息",
-      "另一项同行评议研究警示：高频使用聊天机器人正导致人类认知多样性下降，思维模式趋于同质化"
-    ],
-    "analyst_angle": "这组跨领域实证研究共同指向AI应用层系统性风险——从内容安全、医疗可靠性到人类认知演化，将加速监管框架升级与人机协作范式反思。",
-    "cluster_size": 3,
-    "event_time": "2026-03-11T20:44:13Z",
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260312_009",
-    "title": "📌 Atlassian 裁员约1600人，全面转向AI战略",
-    "category": "other",
-    "importance": 7.8,
-    "sources": [
-      {
-        "author": "Hacker News AI",
-        "text": "Atlassian to cut roughly 1,600 jobs in pivot to AI. Article URL: https://www.reuters.com/technology/atlassian-lay-off-about-1600-people-pivot-ai-2026-03-11/\nComments URL: https://news.ycombinator.com/",
-        "engagement": 0,
-        "url": "https://www.reuters.com/technology/atlassian-lay-off-about-1600-people-pivot-ai-2026-03-11/"
-      },
-      {
-        "author": "Hacker News AI",
-        "text": "Don't post generated/AI-edited comments. HN is for conversation between humans. Article URL: https://news.ycombinator.com/newsguidelines.html#generated\nComments URL: https://news.ycombinator.com/item?",
-        "engagement": 0,
-        "url": "https://news.ycombinator.com/newsguidelines.html#generated"
-      },
-      {
-        "author": "Hacker News AI",
-        "text": "I was interviewed by an AI bot for a job. https://archive.ph/DEwy7\n\nComments URL: https://news.ycombinator.com/item?id=47339164\nPoints: 163\n# Comments: 171",
-        "engagement": 0,
-        "url": "https://www.theverge.com/featured-video/892850/i-was-interviewed-by-an-ai-bot-for-a-job"
-      },
-      {
-        "author": "Hacker News AI",
-        "text": "How we hacked McKinsey's AI platform. Article URL: https://codewall.ai/blog/how-we-hacked-mckinseys-ai-platform\nComments URL: https://news.ycombinator.com/item?id=47333627\nPoints: 399\n# Comments: 167",
-        "engagement": 0,
-        "url": "https://codewall.ai/blog/how-we-hacked-mckinseys-ai-platform"
-      }
-    ],
-    "key_facts": [
-      "Atlassian 宣布将裁员约1600人，占其全球员工总数约20%；",
-      "此次裁员是公司战略重心向AI产品（如 AI-powered Jira、Confluence 和 Atlas）全面转型的关键举措；",
-      "裁员消息由路透社于2026年3月11日权威报道，获Hacker News高度关注（115分/153条评论）"
-    ],
-    "analyst_angle": "头部SaaS厂商以大规模组织重构为代价押注AI原生产品，标志着企业级AI商业化已从功能叠加进入架构与人力双重塑阶段。",
-    "cluster_size": 4,
-    "event_time": "2026-03-11T09:59:03Z",
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260312_010",
-    "title": "📌 Broadcom CEO Hock Tan Downplays Near-Term Viability of Co-Packaged Optics (CPO)",
-    "category": "chip_hardware",
-    "importance": 7.8,
-    "sources": [
-      {
-        "author": "elonmusk",
-        "text": "Easy to make cool videos with @Grok\n\nhttps://t.co/u2y4RZSsOD",
-        "engagement": 28253,
-        "url": "https://x.com/elonmusk/status/2029379085638791195"
-      },
-      {
-        "author": "elonmusk",
-        "text": "@jeremykauffman @nikitabier Coming soon",
-        "engagement": 3457,
-        "url": "https://x.com/elonmusk/status/2029383236691149108"
+        "url": "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/"
       },
       {
         "author": "AravSrinivas",
-        "text": "curiosity is the necessary \"skill\" of the biological computer",
-        "engagement": 852,
-        "url": "https://x.com/AravSrinivas/status/2029374073516769758"
-      },
-      {
-        "author": "firstadopter",
-        "text": "Just brutal for the optical bulls. THIS IS EXACTLY WHAT the CEO of Credo told me Monday. CPO is not close. It is years away.\n\nBroadcom CEO Hock Tan: “The best way .. is to use direct attached cooper. ",
-        "engagement": 379,
-        "url": "https://x.com/firstadopter/status/2029374774971941136"
-      },
-      {
-        "author": "emollick",
-        "text": "The deciding factor is whether an executive is willing to assume risk. If the answer is no, then risk reduction forces in the organization (IT and Legal among them) have every incentive to avoid anyth",
-        "engagement": 271,
-        "url": "https://x.com/emollick/status/2029374011847917960"
-      }
-    ],
-    "key_facts": [
-      "Broadcom CEO Hock Tan stated CPO is 'not close' and 'years away', emphasizing direct-attached copper as superior for latency, power, and cost in the near term",
-      "Tan acknowledged Broadcom's leadership in CPO but explicitly ruled out commercial deployment this year or likely next year",
-      "The remarks contradict bullish optical interconnect narratives and reportedly align with private warnings from Credo’s CEO"
-    ],
-    "analyst_angle": "This signals a major reality check for the AI infrastructure stack: optical interconnect hype is outpacing near-term technical and economic feasibility, reinforcing copper-based scale-out architectures as the dominant path through at least 2026.",
-    "cluster_size": 5,
-    "event_time": null,
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260312_011",
-    "title": "🚀 OpenAI 选定两家律所启动 IPO 准备工作",
-    "category": "funding",
-    "importance": 8.5,
-    "sources": [
-      {
-        "author": "GaryMarcus",
-        "text": "This clearly needs an update…",
-        "engagement": 74,
-        "url": "https://x.com/GaryMarcus/status/2029377064244293776"
+        "text": "@VCBrags This could be you man.",
+        "engagement": 6,
+        "url": "https://x.com/AravSrinivas/status/2029683620877922466"
       },
       {
         "author": "theinformation",
-        "text": "Exclusive: OpenAI has selected two law firms, Wachtell and Cooley, for IPO prep, some of its first concrete steps towards a potential blockbuster offering.\n\nRead more from @PauValida and @SriMuppidi 👇",
-        "engagement": 15,
-        "url": "https://x.com/theinformation/status/2029377107361415418"
+        "text": "Exclusive: Together AI, an Nvidia-backed provider of cloud services for AI, is in talks to raise $1 billion at a $7.5 billion valuation.\n\nRead more from @Pauvalida, @Steph_Palazzolo and @AnissaGardizy",
+        "engagement": 6,
+        "url": "https://x.com/theinformation/status/2029683384780296454"
       },
       {
-        "author": "emollick",
-        "text": "That's not actually true. \"described above, in many circumstances these outputs will be copyrightable in whole or in part—where AI is used as a tool, and where a human has been able to determine the e",
-        "engagement": 14,
-        "url": "https://x.com/emollick/status/2029384893281779857"
+        "author": "swyx",
+        "text": "@thsottiaux @lindsmccallum what\nthe \nfffff",
+        "engagement": 6,
+        "url": "https://x.com/swyx/status/2029680292248920362"
       },
       {
-        "author": "emollick",
-        "text": "@alexolegimas Stay away from this, economist. This is economic sociology/org theory stuff and your models aren't wanted around here.",
-        "engagement": 14,
-        "url": "https://x.com/emollick/status/2029378956454232076"
-      },
-      {
-        "author": "emollick",
-        "text": "@alexolegimas That isn't how economists work. You let them into your field one time and it is all graphs and identification strategies and stuff.",
-        "engagement": 11,
-        "url": "https://x.com/emollick/status/2029383009074659662"
+        "author": "swyx",
+        "text": "+400k in the last 2 weeks lmao",
+        "engagement": 5,
+        "url": "https://x.com/swyx/status/2029680408489775488"
       }
     ],
     "key_facts": [
-      "OpenAI 已正式选定 Wachtell 和 Cooley 两家顶级律所为其 IPO 做法律准备",
-      "这是 OpenAI 首批明确指向潜在大规模上市（blockbuster offering）的具体行动"
+      "Rox AI, founded in 2024 by former New Relic Chief Growth Officer, achieved a $1.2B valuation",
+      "Positioned as an AI-native alternative to traditional CRM tools",
+      "Valuation reported by TechCrunch citing unnamed sources (03-12 UTC)"
     ],
-    "analyst_angle": "此举标志着 OpenAI 从非营利/ capped-profit 架构向传统科技巨头上市路径实质性迈进，可能引发估值重估、监管关注升级及行业资本化节奏加速。",
+    "analyst_angle": "A $1.2B valuation for a 2024-founded startup signals intense investor confidence in vertical AI applications—especially sales automation displacing legacy CRM—amid tightening VC scrutiny on early-stage AI firms.",
     "cluster_size": 5,
-    "event_time": null,
-    "event_type": "news"
-  },
-  {
-    "event_id": "evt_20260312_012",
-    "title": "📌 多家科技公司发布AI相关产品与服务更新",
-    "category": "other",
-    "importance": 4.2,
-    "sources": [
-      {
-        "author": "TechCrunch",
-        "text": "AI ‘actor’ Tilly Norwood put out the worst song I’ve ever heard. This song is an AI actor's rallying cry to other AI actors, urging them to keep going despite the naysayers who doubt their humanity. L",
-        "engagement": 0,
-        "url": "https://techcrunch.com/2026/03/11/ai-actor-tilly-norwood-put-out-the-worst-song-ive-ever-heard/"
-      },
-      {
-        "author": "TechCrunch",
-        "text": "Nuro is testing its autonomous vehicle tech on Tokyo’s streets. Nuro began testing its self-driving software on public roads in Tokyo, marking the first international expansion for the AV startup.",
-        "engagement": 0,
-        "url": "https://techcrunch.com/2026/03/11/nuro-is-testing-its-autonomous-vehicle-tech-on-tokyos-streets/"
-      },
-      {
-        "author": "TechCrunch",
-        "text": "Google Play is adding new paid and PC games, game trials, community posts, and more. The updates indicate that Google is focused on transforming Google Play into an enhanced gaming hub.",
-        "engagement": 0,
-        "url": "https://techcrunch.com/2026/03/11/google-play-is-adding-new-paid-and-pc-games-game-trials-community-posts-and-more/"
-      },
-      {
-        "author": "TechCrunch",
-        "text": "Ford’s new AI assistant will help fleet owners know if seatbelts are being used. Ford Pro AI debuted at Work Truck Week in Indianapolis and is now available to all of its U.S.-based Pro telematics sub",
-        "engagement": 0,
-        "url": "https://techcrunch.com/2026/03/11/fords-new-ai-assistant-will-help-fleet-owners-know-if-seatbelts-are-being-used/"
-      },
-      {
-        "author": "kevinweil",
-        "text": "@is_OwenLewis Yeah we should enable a templates feature with formats for common journals... but honestly if you have the style file, and you take your current doc in prism and ask the AI to integrate ",
-        "engagement": 1,
-        "url": "https://x.com/kevinweil/status/2029376530783322241"
-      }
-    ],
-    "key_facts": [
-      "Nuro启动自动驾驶技术在东京的公开道路测试，为其首次国际扩张",
-      "Ford推出面向车队管理的AI助手Ford Pro AI，可监测安全带使用情况",
-      "Google Play升级为综合游戏平台，新增PC游戏、试玩、社区功能等",
-      "TechCrunch同日集中报道多项AI落地应用，但无统一技术/产品主体或跨公司协同事件"
-    ],
-    "analyst_angle": "这些是分散的、垂直场景驱动的AI工程化落地信号，反映AI正从实验室快速渗透至交通、汽车管理、娱乐等具体行业环节，但尚无单一突破性技术或生态级事件。",
-    "cluster_size": 5,
-    "event_time": "2026-03-11T22:51:39Z",
+    "event_time": "2026-03-12T22:25:50Z",
     "event_type": "news"
   }
 ]
