@@ -1,0 +1,433 @@
+[
+  {
+    "event_id": "evt_20260314_000",
+    "title": "💡 Claude Code Agent 功能体验与局限性讨论",
+    "category": "product_launch",
+    "importance": 6.5,
+    "sources": [
+      {
+        "author": "dotey",
+        "text": "基于 AI Agent 的交互不是因为 CLI 多好，是因为基于 GUI 还没摸索出来，GUI 如果没设计好反而对使用效率是阻力。\n\n现在相当于先回归到原始 CLI 状态重新开始摸索 AI Agent 的最佳交互模式。",
+        "engagement": 201,
+        "url": "https://x.com/dotey/status/2030402172962185277"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "如果感觉claude code表现得有点挫\n\n因为ta某一个版本开始自动设成medium effort了。\n\n打开/model 按左右键切换到high https://t.co/bwwBXe5Xhi",
+        "engagement": 89,
+        "url": "https://x.com/jesselaunz/status/2030386480850579494"
+      },
+      {
+        "author": "kevinxu",
+        "text": "i created this triage bot in 1 hour with claude cowork scheduled tasks. \n\nnow it automatically triages tasks to coding agents, my team, or asks for more detail. \n\ntasks are done before i even wake up.",
+        "engagement": 32,
+        "url": "https://x.com/kevinxu/status/2030380679968792952"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "claude code的/loop 有点鸡肋啊\n\n只支持一个session， 50个运行，3天过期\n\n我来应用的话大概是用来短期调试一个skill来做重复任务，比如定期查看天气和老马bots的运行情况，总结一个报告\n\n调试好这个skill后还是需要自做脚本定时来稳定复用",
+        "engagement": 4,
+        "url": "https://x.com/jesselaunz/status/2030390680191983778"
+      }
+    ],
+    "key_facts": [
+      "Claude Code 引入了 /model（支持 high/medium effort 模式切换）和 /loop（单会话、50次运行、3天过期的自动化循环功能）",
+      "用户已用其快速构建任务分诊机器人（triage bot），实现自动分发任务至编码 agent、团队或澄清请求",
+      "社区普遍认为当前 GUI 层 AI Agent 交互尚未成熟，CLI 式指令（如 /loop, /model）是现阶段探索最佳交互范式的过渡形态"
+    ],
+    "analyst_angle": "Claude Code 的轻量级 Agent 原语（/loop, /model）虽非完整平台，但正成为开发者早期验证 AI 工作流设计的‘最小可行界面’，折射出行业从 GUI 焦虑转向 CLI 优先的 Agent 交互实验阶段。",
+    "cluster_size": 4,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260314_001",
+    "title": "📌 GPT-5.4 与 Opus 4.6 模型性能对比热议（非官方发布）",
+    "category": "other",
+    "importance": 2.5,
+    "sources": [
+      {
+        "author": "jesselaunz",
+        "text": "@YuLin807 安心睡吧，有一个能有免费opus 4.6用的女朋友这件事情，会让推特上很多兄弟都睡不着的",
+        "engagement": 94,
+        "url": "https://x.com/jesselaunz/status/2030412066880970977"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "GPT-5.4是目前最佳写polymarket bots模型，比opus强很多 https://t.co/Aq3f3p1hxb",
+        "engagement": 79,
+        "url": "https://x.com/jesselaunz/status/2030413238916272209"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "OpenAI GPT-5.4 VS Anthropic Opus 4.6\n\nhttps://t.co/Trd18VBcyd",
+        "engagement": 17,
+        "url": "https://x.com/jesselaunz/status/2030415512073904517"
+      }
+    ],
+    "key_facts": [
+      "推文中提及‘GPT-5.4’和‘Opus 4.6’，但二者均非OpenAI或Anthropic官方发布的模型版本",
+      "相关链接指向非权威来源的对比页面或Polymarket bot使用 anecdote",
+      "无官方公告、技术报告或可信信源佐证该模型存在"
+    ],
+    "analyst_angle": "此类推文属于社区虚构/戏谑性命名（如‘GPT-5.4’实为对GPT-4系列的误称或调侃），反映模型版本认知混乱与信息噪音，需警惕非官方‘超前命名’引发的误导。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260314_002",
+    "title": "🚀 腾讯发布 OpenClaw（龙虾）AI 智能体生态系列：WorkBuddy、QClaw、Lighthouse 等全线落地，全国免费安装启动",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "腾讯龙虾团队答疑：龙虾的热度确实高过能力，但它是普通人拥抱 AI 浪潮的第一步. 文｜王毓婵\n  编辑｜苏建勋\n  最近一周，一向以风格稳重著称的腾讯一反常态，不仅借着一场“免费帮装虾”的线下活动迅速推高了大众对“龙虾”的热情，而且在短期内推出了大量“龙虾”产品。\n  目前已经上线的，有被称为腾讯版“免部署小龙虾”的办公工具WorkBuddy；支持一键启动，并将AI代理能力接入微信和QQ双端的QC",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3721355722684804?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "深圳龙岗“千人龙虾大会”火爆 现场装龙虾大排长队. 3月14日，记者实地走访深圳机器人剧场发现，今日由深圳龙岗区联合Kimi共同打造的“千人龙虾大会”现场火爆。活动开场近一小时后，入口处仍有众多进入报名候补名单的市民等待开放名额入场。据了解，该论坛会解答养虾有什么用、如何安全养虾、token成本多高、如何快速上手等问题。场外还设有龙虾安装摊位、中国电信和中国联通的网络服务点。有志愿者提前告知排长队",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3722549121399431?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "腾讯 “龙虾” 免费安装全国落地. 《科创板日报》14日讯，腾讯云宣布，开启 “龙虾” 全国免费安装计划。据介绍，未来40天，腾讯云Lighthouse、ADP、WorkBuddy、QClaw、云安全、云存储等龙虾产品的技术专家等，将在深圳、上海、北京、广州、杭州、成都、武汉等全国17个城市，免费提供安装部署、模型配置、技能安装、卸载清理等服务。（财联社）",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3722547550845576?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "部分院校禁用 OpenClaw“小龙虾”开源 AI 项目. IT之家 3 月 15 日消息，近期开源 AI 智能体项目 OpenClaw（IT之家注：又称“小龙虾”）凭借其轻量灵活、自托管、多云适配等特性迅速走红，“养虾”成为科技圈热议话题。不过也有部分院校相继发布 OpenClaw 校内使用的有关禁令，认为教职工应增强网络安全意识，理性看待新兴 AI 工具，相应话题登上微博热搜。IT之家注意到，",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/929/159.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "联想 3 月 16 日起推出 OpenClaw 免费部署服务. IT之家 3 月 14 日消息，联想中国今日宣布，联想 AI 服务“想帮帮”从 3 月 16 日起将推出 OpenClaw 免费部署服务，用户可以根据自己的情况，选择线上一键部署，也可以预约前往线下指定门店由工程师当面安装。线上部署：用户前往联想官网知识库首页轮播图，进入想帮帮安装部署 OpenClaw 页面，在文章底部下载安装想帮帮",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/929/151.htm"
+      }
+    ],
+    "key_facts": [
+      "腾讯龙虾团队正式推出 OpenClaw（别称“龙虾”/“小龙虾”）开源 AI 智能体项目，已上线 WorkBuddy（办公版免部署龙虾）、QClaw（微信/QQ 双端 AI 代理）、腾讯云 Lighthouse 轻量服务器及 Skillhub 生态工具",
+      "马化腾朋友圈预告将推出自研龙虾、本地虾、云端虾、企业虾、云桌面虾、安全隔离虾房、云保安、知识库等全栈产品矩阵",
+      "腾讯云联合多地政府与运营商启动为期40天的全国17城免费安装计划，覆盖部署、配置、技能安装与卸载清理",
+      "联想‘想帮帮’服务将于3月16日起提供 OpenClaw 一键线上部署及线下门店工程师安装，预置51个 Skills",
+      "山西应用科技学院等高校已紧急禁用 OpenClaw， citing 网络安全与合规风险，相关话题登上微博热搜"
+    ],
+    "analyst_angle": "OpenClaw 不是单一模型或工具，而是中国首个以‘可自托管+多端嵌入+技能市场+硬件协同’为特征的消费级 AI 智能体操作系统雏形，标志着大厂正从‘模型即服务’转向‘智能体即基础设施’的战略升维。",
+    "cluster_size": 9,
+    "event_time": "2026-03-14T03:19:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260314_003",
+    "title": "🚀 AWE 2026聚焦具身智能：家电巨头集体押注家庭服务机器人与AI原生终端",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "中国最大家电展上，一批想帮你做家务的机器人来了！. 文｜邱晓芬\n  编辑｜苏建勋\n  2026年，挤进具身智能机器人赛道的主力军，是一众家电企业。\n  3月12日-15日，中国最大的家电及消费电子博览会（AWE 2026）在上海举办。和往年不同的是，此次展会的亮点已经从过去的家电，变成了具身智能机器人。\n  有终端、有数据的大小家电企业，自然而然把家庭服务当做机器人的核心目标，展示了一系列功能——",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3722882943334789?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "华为与中国联通发布“AI 智慧盒”，融合家庭组网、电视与 AI 云服务. IT之家 3 月 14 日消息，3 月 12 日，在“AWE 2026：智联万物，生态共荣 —— 上海智能终端产业生态大会”上，华为与中国联通联合发布创新产品“AI 智慧盒”。该产品将家庭组网、高清电视与 AI 云服务三大核心需求融合于一台终端。发布会上，华为光产品线副总裁王金辉深度解读了产品的“1+1+4”核心架构：构建 ",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/929/073.htm"
+      },
+      {
+        "author": "雷锋网",
+        "text": "海尔发布行业首款最高级L4级智能体空调：空调风因人而异. 一台空调，如何让全家人都满意？老人体感畏寒，孩子却总喊热；离风口近了嫌冲，远了又不够凉；夜里一点噪音或一阵冷风，就能把浅眠的人吵醒。更麻烦的是，这些矛盾最终都落在同一个动作上——拿着遥控器反复调温度、调风向、调风速，调来调去，还是有人不舒服。在海尔智慧家庭的图景里，这些众口难调的困扰，不再是难题。3月14日，海尔空调将AI赋能的智慧空气解决",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/industrynews/2XDTcw3zj3gPM3O0.html"
+      }
+    ],
+    "key_facts": [
+      "AWE 2026（3月12–15日，上海）首次将具身智能机器人列为展会核心亮点，标志着家电企业从硬件制造商向家庭AI服务提供商的战略转向",
+      "追觅发布可执行家庭巡逻、老人防护、简单家务及烹饪任务的轮式具身机器人（功能尚处早期验证阶段）",
+      "华为与中国联通联合发布‘AI智慧盒’——集成家庭组网、4K电视与AI云服务的中枢终端，搭载‘通通’语音助手及‘小屏反向控大屏’能力",
+      "海尔发布行业首款L4级智能体空调，依托AI之眼2.0实现‘风因人而异’的无感自适应调控，是AI在家庭空气场景的首个L4级落地产品"
+    ],
+    "analyst_angle": "家电龙头正以‘终端+数据+场景’三位一体优势，绕过通用机器人研发长周期，直接切入高价值家庭服务AI落地，或将加速定义具身智能的商业化路径与技术演进标准。",
+    "cluster_size": 3,
+    "event_time": "2026-03-14T03:25:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260314_004",
+    "title": "💰 Kimi新一轮10亿美元融资进行中，估值飙升至180亿美元",
+    "category": "funding",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "Kimi新一轮10亿美元融资正在进行，估值涨至180亿美元. 3月14日，《科创板日报》记者独家获悉，月之暗面Kimi最新估值已上升至180亿美元，该公司估值在3个月内翻了4倍，新一轮10亿美元融资正在进行。不到3个月，Kimi已先后完成3轮融资，创下近年来国内大模型连续融资最多纪录，并成为国内估值最快突破百亿美元的独角兽公司。（财联社）",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3722680180521345?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "TikTok 交易案细节曝光：新投资者需向特朗普政府支付 100 亿美元“中介费”. IT之家 3 月 15 日消息，北京时间 2026 年 1 月 23 日，TikTok 宣布成立 TikTok 美国数据安全合资有限责任公司。该公司将负责电商、广告、市场营销等商业活动以及 TikTok 全球产品的互联互通。当地时间周六，《华尔街日报》与《纽约时报》报道称，特朗普政府正在从 TikTok 交易中收",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/929/158.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "消息称 Kimi 正进行新一轮 10 亿美元融资，估值已涨至 180 亿美元. IT之家 3 月 14 日消息，今天晚间，据《科创板日报》独家获悉，月之暗面 Kimi 最新估值已上升至 180 亿美元（IT之家注：现汇率约合 1243.55 亿元人民币），3 个月内估值翻了 4 倍。不仅如此，新一轮 10 亿美元（现汇率约合 69.09 亿元人民币）融资也正在进行中。报道提到，Kimi 在不到 3",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/929/134.htm"
+      }
+    ],
+    "key_facts": [
+      "月之暗面Kimi最新估值达180亿美元，3个月内翻4倍",
+      "新一轮10亿美元融资正在进行，不到3个月已连续完成3轮融资",
+      "成为国内估值最快突破百亿美元的AI独角兽，创近年大模型连续融资最多纪录",
+      "Stripe数据显示其个人订阅用户支付订单量1-2月爆发式增长（1月环比+8280%）"
+    ],
+    "analyst_angle": "Kimi以极高速度实现商业化验证与资本认可，标志着中国大模型公司正从技术叙事转向营收与规模双驱动的新阶段，可能加速行业集中度提升和估值体系重构。",
+    "cluster_size": 3,
+    "event_time": "2026-03-14T10:51:50Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260314_005",
+    "title": "📜 多部门联合开展“3·15”消费安全专项整治：进口消费品不合格通报、广告违法严打、珠宝假证清源行动",
+    "category": "policy",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "海关总署通报进口消费品质量安全不合格典型案例. 3月14日，在“3·15”国际消费者权益日来临之际，海关总署对2025年检验发现的100个进口消费品质量安全不合格典型案例进行通报。此次通报的典型案例涉及服装甲醛含量超标、pH值不合格，餐具、厨具等食品接触产品铅、铝、铬、钴、锰、镍等元素迁移量超标等情况。海关对检验发现的进口不合格消费品，均已依据《中华人民共和国进出口商品检验法》及其实施条例等法律法",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3722639948528260?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "大宗食品抽检合格率连续四年超99%，食品安全总体水平持续向好. 3月14日消息，据国务院食安办，2025年，全国米、面、油、肉、蛋、奶等大宗食品监督抽检合格率99.37%，连续4年稳定在99%以上，食品安全总体水平持续向好。全国食品生产经营企业配备食品安全总监115.5万名，配备食品安全员949.2万名，规模以上食品企业覆盖率达100%，实现责任到人到岗、风险精准防控。国务院食安办持续推进学校“互",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3722636904397444?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "市场监管总局：2025年共查处广告违法案件4.45万件，罚没金额2.52亿元. 3月14日，2025年，市场监管总局切实强化广告监管执法，细化完善广告监管规则，扎实开展广告合规助企行动，全年共查处广告违法案件4.45万件，罚没金额2.52亿元，有力维护了广告市场秩序，保障广大消费者合法权益。守护消费安全，监管永不止步。各级市场监管部门将继续坚持监管规范与促进发展并重，在广告市场秩序整治、监管规则完",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3722625830206085?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "市场监管总局 2025 年查处广告违法案件 4.45 万件，从严整治 AI 换脸等. IT之家 3 月 14 日消息，市场监管总局今日发文称，2025 年全年共查处广告违法案件 4.45 万件，罚没金额 2.52 亿元。文章称，市场监管部门始终把广告导向监管摆在广告监管工作的首要位置，紧盯群众深恶痛绝的“三俗”问题，重点整治广告中存在的软色情、利用焦虑贩卖畸形审美、恶俗炒作、恶搞经典、突破社会道德",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/929/111.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "两部门整治珠宝玉石等领域假证书假产品问题，清理网络平台及直播间等虚假测评. IT之家 3 月 14 日消息，“市说新语”公众号今日发文，为切实维护消费者合法权益，规范传统工艺市场秩序，促进相关行业健康有序发展，近日，市场监管总局、公安部联合印发通知，在全国范围内部署开展传统工艺市场“打假清源”联合执法行动，重点打击珠宝玉石、贵金属饰品、红木制品等领域“假证书、假机构、假产品、假网站”等突出问题。文",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/929/094.htm"
+      }
+    ],
+    "key_facts": [
+      "海关总署通报2025年100起进口消费品质量安全不合格案例，涉及甲醛超标、食品接触材料重金属迁移量超标等，依法实施退运或销毁",
+      "市场监管总局2025年查处广告违法案件4.45万件、罚没2.52亿元，首次明确将AI换脸等新型违法广告列为重点整治对象",
+      "市场监管总局联合公安部启动传统工艺市场‘打假清源’行动，重点打击珠宝玉石等领域‘假证书、假机构、假产品、假网站’乱象"
+    ],
+    "analyst_angle": "此次多维度、跨部门协同监管释放强烈政策信号：中国正从末端抽检向全链条治理升级，尤其强化对新兴技术滥用（如AI换脸广告）和高信任风险领域（如珠宝鉴定、进口食品接触材料）的穿透式监管，标志着消费安全治理进入‘精准化+技术化+协同化’新阶段。",
+    "cluster_size": 5,
+    "event_time": "2026-03-14T08:22:32Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260314_006",
+    "title": "🔧 特斯拉启动自建 TeraFab 晶圆厂项目（7天后上线）",
+    "category": "chip_hardware",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "马斯克：特斯拉自建 TeraFab 晶圆厂项目七天后启动. IT之家 3 月 14 日消息，今天晚间，马斯克通过 X 平台宣布：特斯拉自建 TeraFab 晶圆厂项目将在 7 天后上线。据悉，马斯克曾在特斯拉 2025Q4 财报电话会上披露，芯片产能很可能会成为限制特斯拉未来中期（3~4 年）增长的瓶颈，其从台积电、三星电子、美光等芯片供应商处获得的数据显示外部产能不足以满足需求。这意味着特斯拉很",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/929/156.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "鸿蒙智行尚界 Z7T 无伪装实车曝光，已完成工信部申报. IT之家 3 月 14 日消息，今日，小红书博主 @莫干山小红薯 分享了一组尚界新车的无伪装实车照，预计为即将推出的鸿蒙智行尚界 Z7T。IT之家注意到，这款新车已经现身第 405 批《道路机动车辆生产企业及产品公告》新产品公示，车长宽高为 5036mm*1976mm*1465mm，轴距为 3000mm，提供 170kW+264kW 双电机",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/929/142.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "上汽 MG 4X 纯电 SUV 完成申报：半固态电池、OPPO 智行生态互联. IT之家 3 月 14 日消息，工信部昨晚发布第 405 批《道路机动车辆生产企业及产品公告》新产品公示，IT之家发现了上汽 MG 4X 纯电 SUV 的身影。申报信息显示，这款新车长宽高为 4500mm*1849mm*1621（1627）mm，轴距为 2735mm。后轴搭载一台永磁同步电机，额定功率为 80kW，峰值",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/929/103.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "xAI 员工抱怨：马斯克大清洗让公司陷入混乱. IT之家 3 月 14 日消息，据科技媒体 Arstechnica 今天报道，埃隆 · 马斯克现已在 xAI 公司内部开启新一轮“大清洗”，迫使多名联合创始人退位，并从 SpaceX、特斯拉等公司调人审计这家初创公司。IT之家援引 Arstechnica，马斯克本周四在 X 平台发文称：“xAI 第一次构建的方式不对，因此现在要从零开始重建。特斯拉当",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/929/096.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "奇瑞风云 A9 轿跑纯电版申报图公布，有望第二季度上市. IT之家 3 月 14 日消息，工信部昨天公布的第 405 批《道路机动车辆生产企业及产品公告》新产品公示中，奇瑞风云 A9 轿跑的纯电版车型首次现身。IT之家从数据中获悉，新车长宽高分别为 4836/1896/1489mm，轴距 2900mm，轮胎尺寸为 235/45 R18。动力方面，新车将搭载 178kW 电机，与之匹配的储能设施为磷",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/929/095.htm"
+      }
+    ],
+    "key_facts": [
+      "马斯克于3月14日通过X平台宣布：特斯拉自建TeraFab晶圆厂项目将在7天后启动",
+      "该项目旨在解决芯片产能瓶颈——马斯克称外部代工（台积电、三星、美光等）无法满足特斯拉未来3~4年增长需求",
+      "TeraFab将集成逻辑制程、存储半导体、先进封装等全流程环节，实现先进芯片制造垂直整合"
+    ],
+    "analyst_angle": "这是全球首家车企实质性推进全栈自研芯片制造基础设施，标志着智能汽车竞争已从算法与软件层下沉至半导体物理层，或将引发新一轮车企IDM化浪潮。",
+    "cluster_size": 6,
+    "event_time": "2026-03-14T06:57:33Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260314_007",
+    "title": "💡 AI 研究代理或将重塑学术岗位结构",
+    "category": "research",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "DJIGlobal",
+        "text": "#Unboxing your Avata 2, all thrills, no frills!🔥 Ready to fly?\n🎥: chris_priestley\n#DJIAvata2 #DJI #Drone https://t.co/mJ3lsTxJHv",
+        "engagement": 273,
+        "url": "https://x.com/DJIGlobal/status/2030388195939021114"
+      },
+      {
+        "author": "dongxi_nlp",
+        "text": "如果 autoresearch agent 足够可靠，不单单是 nanochat，很多研究项目，随便扔一百个 research idea，自动执行验证。选出结果好的，让 prism + codex 直接写文章。\n\n很多学术职位，如research engineer/ assistant 可能不再需要了，或许很多 phd 也不再需要了。",
+        "engagement": 208,
+        "url": "https://x.com/dongxi_nlp/status/2030391666704523625"
+      },
+      {
+        "author": "kevinxu",
+        "text": "i'm insane because i think i'm gonna make it",
+        "engagement": 129,
+        "url": "https://x.com/kevinxu/status/2030372526162059608"
+      },
+      {
+        "author": "oran_ge",
+        "text": "这轮 AI 创业无比卷，最大的风险就是来自被模型厂商直接吃掉",
+        "engagement": 36,
+        "url": "https://x.com/oran_ge/status/2030379148339040574"
+      },
+      {
+        "author": "dotey",
+        "text": "@geekbb 我现在越来越多的看到某条推文评论我不能评论，就知道被拉黑了，只好礼貌性的拉黑回去了😂",
+        "engagement": 15,
+        "url": "https://x.com/dotey/status/2030410924016726183"
+      }
+    ],
+    "key_facts": [
+      "提出 autoresearch agent 若足够可靠，可自动执行百个研究构想的验证与筛选",
+      "预测 research engineer/assistant 等岗位及部分 PhD 职能可能被替代"
+    ],
+    "analyst_angle": "这并非技术发布，而是对AI原生科研范式演进的前瞻性判断——当研究流程（假设生成→实验→验证→写作）可端到端自动化，学术劳动力结构和博士培养价值将面临系统性重估。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260314_008",
+    "title": "💰 梅威斯Matrix Power完成A轮融资，专注AI数据中心算力电源",
+    "category": "funding",
+    "importance": 7.5,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "前华为北美高管团队创业AIDC算力电源赛道，正推进与国际大厂合作 | 硬氪首发. 作者&nbsp;|&nbsp;林晴晴\n  编辑&nbsp;|&nbsp;袁斯来\n  硬氪获悉，AIDC全栈算力电源解决方案提供商「梅威斯Matrix Power」已于近日完成A轮融资，由星星充电独家投资，金额为数千万元，治臻咨询担任其长期独家财务顾问。此前公司曾获某上市公司天使轮、宇杉资本Pre-A轮投资。本轮资金将",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3722683801909641?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "9点1氪丨济州航空空难一年后再现遇难者遗骸；中国区“苹果税”下调；市监局出手整治“误导性大小字”广告. 今日热点导览\n  美团王兴：“减少登味”，内部不要再叫我“兴哥”\n  斯泰兰蒂斯回应“玛莎拉蒂品牌要被出售”\n  8年超龄车延期3年营运？滴滴辟谣\n  微软市值5个月内蒸发1万亿美元\n  金融监管总局约谈5家平台运营机构\n  TOP3大新闻\n  韩媒：济州航空空难一年后再现遇难者遗骸\n  据韩联",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3722103811226244?f=rss"
+      },
+      {
+        "author": "SixthTone",
+        "text": "Chinese toy giant Pop Mart has filed a lawsuit against Chinese 3D printer maker Bambu Lab, accusing the company of intellectual property infringement after users widely shared Labubu toy templates on ",
+        "engagement": 2,
+        "url": "https://x.com/SixthTone/status/2030394367836381521"
+      },
+      {
+        "author": "kevinxu",
+        "text": "@cwRichardKim multiple mcp connections per service so i can auth via different profiles/agents\n\nlike for this: i want to be able to do all my regular linear and slack stuff via me but triage via this ",
+        "engagement": 1,
+        "url": "https://x.com/kevinxu/status/2030415602654065137"
+      },
+      {
+        "author": "indigox",
+        "text": "@templexp 有100的max x5 200 x20",
+        "engagement": 1,
+        "url": "https://x.com/indigox/status/2030379451310346474"
+      }
+    ],
+    "key_facts": [
+      "梅威斯Matrix Power（梅威斯电气技术上海有限公司）完成A轮融资，由星星充电独家投资，金额为数千万元",
+      "公司成立于2020年，聚焦AI数据中心（AIDC）全栈算力电源解决方案，覆盖54VDC至±400V/800V高压架构",
+      "本轮资金将用于AI数据中心电源研发、海外市场拓展及流动资金补充；此前已获某上市公司天使轮及宇杉资本Pre-A轮投资"
+    ],
+    "analyst_angle": "在AI算力基建加速扩张背景下，高密度、高效率AIDC专用电源正成为关键瓶颈环节，本轮融资标志着国产电源方案商开始切入全球AI基建供应链核心层级。",
+    "cluster_size": 5,
+    "event_time": "2026-03-14T01:23:11Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260314_009",
+    "title": "📜 美国商务部撤回《人工智能扩散规则》，AI芯片出口管制转向“逐案审查”",
+    "category": "policy",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "美国商务部撤回拟议的AI芯片出口管制新规. 当地时间3月13日，美国政府网站显示，人工智能芯片出口管制规定已被撤回。2025年1月，拜登政府首次提出名为《人工智能扩散规则》的“临时最终规则”，通过将全球国家划分为不同等级，对先进AI芯片的出口、再出口甚至境内转移设置严格门槛。特朗普政府上台后，美国商务部于2025年5月正式撤回了该规则，并在2026年1月发布了替代性的新规，将部分高性能芯片的许可审",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3722567113112199?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "每年拿出10亿元算力券，上海建立了国内最大算力调度平台. 3月14日，记者从2026上海全球投资促进大会上获悉，针对当前最热的人工智能赛道，为解决大企业找算力难、中小企业用算力贵问题，上海建立了国内最大算力调度平台，每年拿出10亿元算力券，通过先用后付、免申即享，帮助企业快速、低成本接入全市14万P异构算力。对于模型企业亟需的高质量语料，上海有全国首个语料运营平台，聚焦AI4S、工业制造、具身智能",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3722468983814785?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "94.1亿人次 2026年春运创历史新纪录. 3月14日，来自交通运输部的数据显示，2026年春运40天（2月2日至3月13日）全社会跨区域人员流动量为94.1亿人次，比2025年春运增长4.3%，创历史新纪录，总体安全平稳有序，流动中国充满生机和活力。（证券时报）",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3722455056660871?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "余承东：华为全场景生态正式进入全链生态时代. 3月14日，在AWE 2026华为直播探展中，华为余承东称华为全场景生态正式进入全链生态时代，华为与全生态伙伴共同给消费者带来基于鸿蒙底座的人车家智慧全生态。（财联社）",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3722373801278089?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "新研究：AI 聊天机器人可能会强化用户的妄想思维. IT之家 3 月 14 日消息，据英国《卫报》今日报道，《柳叶刀 · 精神病学》发表的一篇综述指出，AI 聊天机器人可能在某些情况下强化用户的妄想思维，尤其是本身存在精神病风险的人群。研究人员因此呼吁，在心理健康专业人士参与下，对 AI 聊天机器人进行临床评估。这篇综述由伦敦国王学院精神科医生兼研究人员汉密尔顿 · 莫林撰写。莫林在研究中分析了 ",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/929/155.htm"
+      }
+    ],
+    "key_facts": [
+      "美国商务部于2025年5月正式撤回拜登政府2025年1月提出的《人工智能扩散规则》（临时最终规则）",
+      "2026年1月发布替代性新规，将部分高性能AI芯片的许可审查从‘推定拒绝’调整为‘逐案审查’",
+      "原规则曾按国家等级对AI芯片出口、再出口及境内转移设置严格门槛，撤回标志着出口管制逻辑重大转向"
+    ],
+    "analyst_angle": "政策松动不等于放松监管，而是从‘一刀切’转向更精细化、场景化和技术可控性导向的出口管理，反映美在AI地缘博弈中平衡安全与产业竞争力的战略调整。",
+    "cluster_size": 5,
+    "event_time": "2026-03-14T05:54:26Z",
+    "event_type": "news"
+  }
+]

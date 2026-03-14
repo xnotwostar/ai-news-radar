@@ -1,0 +1,224 @@
+[
+  {
+    "event_id": "evt_20260314_000",
+    "title": "🚀 ChatGPT Launches Native App Integrations (DoorDash, Spotify, Uber, Canva, Figma, Expedia)",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "How to use the new ChatGPT app integrations, including DoorDash, Spotify, Uber, and others. Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in ChatGPT.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "‘Not built right the first time’ — Musk’s xAI is starting over again, again. The AI lab is revamping its effort to build an AI coding tool, with two new executives joining from Cursor.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/"
+      },
+      {
+        "author": "Hacker News AI",
+        "text": "AI didn't simplify software engineering: It just made bad engineering easier. Article URL: https://robenglander.com/writing/ai-did-not-simplify/\nComments URL: https://news.ycombinator.com/item?id=4737",
+        "engagement": 0,
+        "url": "https://robenglander.com/writing/ai-did-not-simplify/"
+      },
+      {
+        "author": "MarkTechPost",
+        "text": "Garry Tan Releases gstack: An Open-Source Claude Code System for Planning, Code Review, QA, and Shipping. What if AI-assisted coding became more reliable by separating product planning, engineering re",
+        "engagement": 0,
+        "url": "https://www.marktechpost.com/2026/03/14/garry-tan-releases-gstack-an-open-source-claude-code-system-for-planning-code-review-qa-and-shipping/"
+      },
+      {
+        "author": "MarkTechPost",
+        "text": "Google DeepMind Introduces Aletheia: The AI Agent Moving from Math Competitions to Fully Autonomous Professional Research Discoveries. Google DeepMind team has introduced Aletheia, a specialized AI ag",
+        "engagement": 0,
+        "url": "https://www.marktechpost.com/2026/03/13/google-deepmind-introduces-aletheia-the-ai-agent-moving-from-math-competitions-to-fully-autonomous-professional-research-discoveries/"
+      }
+    ],
+    "key_facts": [
+      "OpenAI officially launched native integrations with DoorDash, Spotify, Uber, Canva, Figma, and Expedia inside the ChatGPT app",
+      "Users can now invoke and interact with these services directly in chat without switching apps or using plugins",
+      "Announced and documented by TechCrunch on March 14, 2026, indicating broad rollout"
+    ],
+    "analyst_angle": "This marks a strategic shift from plugin ecosystems to deeply embedded, first-party app interoperability—signaling OpenAI’s move toward becoming an AI-native OS layer for daily digital workflows.",
+    "cluster_size": 24,
+    "event_time": "2026-03-13T23:05:53Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260314_001",
+    "title": "📌 ACL ARR Review Process Controversy and Commitment Deadline Uncertainty",
+    "category": "policy",
+    "importance": 6.2,
+    "sources": [
+      {
+        "author": "Reddit ML",
+        "text": "[D] Need advice on handling a difficult ACL ARR situation. Hi everyone I have been working on a paper about counter-narrative generation. We first submitted to the October ARR cycle and tried to be as",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rtled3/d_need_advice_on_handling_a_difficult_acl_arr/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[D] Reported our meta-reviewer in this ARR cycle — no response yet. Should we commit to ACL or should we go with March 2026 cycle with explaining how meta reviews are wrong in revision doc?. We filed ",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rth86s/d_reported_our_metareviewer_in_this_arr_cycle_no/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[D] ACL ARR 2026 Jan cycle — Does the commitment track have to match the track chosen during ARR submission?. During ARR submission we selected a topic area / track, but now when committing the paper ",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rtkazr/d_acl_arr_2026_jan_cycle_does_the_commitment/"
+      }
+    ],
+    "key_facts": [
+      "Multiple Reddit users report unresolved meta-reviewer complaints filed before the March 12 AoE deadline, with no response ahead of the ACL commitment deadline",
+      "Confusion persists about track alignment between ARR submission and final ACL commitment — system allows different track selection at commitment stage",
+      "Ongoing community concern over transparency, accountability, and procedural consistency in ACL's ARR review process"
+    ],
+    "analyst_angle": "These posts reflect growing operational friction in ACL's rolling review (ARR) model, signaling potential reputational and trust risks for the conference if procedural ambiguities and reviewer accountability gaps remain unaddressed.",
+    "cluster_size": 3,
+    "event_time": "2026-03-14T11:40:04Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260314_002",
+    "title": "📌 Gemini-powered Siri on Google infrastructure signals strategic shift",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "jeremyphoward",
+        "text": "A listener has created this detailed vocabulary and set of linked references for anyone interested in diving deeper:\nhttps://t.co/oM2kkUttLS",
+        "engagement": 445,
+        "url": "https://x.com/jeremyphoward/status/2030407029362401330"
+      },
+      {
+        "author": "AravSrinivas",
+        "text": "war time stocks monitor, built by perplexity computer",
+        "engagement": 299,
+        "url": "https://x.com/AravSrinivas/status/2030404368227553501"
+      },
+      {
+        "author": "karpathy",
+        "text": "@miolini nice, still got it.\n\n(i linked to the repo from main readme in a new notable forks section!)",
+        "engagement": 73,
+        "url": "https://x.com/karpathy/status/2030410101031649730"
+      },
+      {
+        "author": "theinformation",
+        "text": "A Gemini-powered Siri running on Google infrastructure would mark a major shift for a company known for vertical integration. https://t.co/w6bPC0IVfr",
+        "engagement": 8,
+        "url": "https://x.com/theinformation/status/2030399343283380316"
+      },
+      {
+        "author": "GaryMarcus",
+        "text": "@MSaintjour I have been polite to you.\n\nYou have been rude to me. In no way I am causally responsible for any of what was attached.\n\nGoodbye.",
+        "engagement": 1,
+        "url": "https://x.com/GaryMarcus/status/2030413948378554724"
+      }
+    ],
+    "key_facts": [
+      "The Information reports a prototype Gemini-powered Siri running on Google infrastructure",
+      "This would represent a major departure from Apple’s traditional vertical integration model",
+      "Implies potential cross-cloud AI inference or infrastructure sharing between Apple and Google"
+    ],
+    "analyst_angle": "A Gemini-backed Siri—especially if deployed on Google's infrastructure—suggests unprecedented inter-company AI collaboration, challenging long-held assumptions about platform sovereignty and hinting at a new era of pragmatic AI stack interoperability over strict silos.",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260314_003",
+    "title": "🚀 Apple MacBook Neo: Most Repairable MacBook in ~14 Years",
+    "category": "product_launch",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "The MacBook Neo is ‘the most repairable MacBook’ in years, according to iFixit. Apple’s new MacBook Neo isn’t just the most affordable MacBook — it’s also the company's most repairable laptop in “abou",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/14/the-macbook-neo-is-the-most-repairable-macbook-in-years-according-to-ifixit/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Meta reportedly considering layoffs that could affect 20% of the company. These layoffs could help Facebook's parent company offset its aggressive spending on AI infrastructure, as well as AI-related ",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Lawyer behind AI psychosis cases warns of mass casualty risks. AI chatbots have been linked to suicides for years. Now one lawyer says they are showing up in mass casualty cases too, and the technolog",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/13/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/"
+      },
+      {
+        "author": "The Verge",
+        "text": "Trump administration is allegedly collecting $10 billion on the TikTok deal. In September, Donald Trump claimed that \"the United States is getting a tremendous fee\" for brokering the TikTok deal. Now ",
+        "engagement": 0,
+        "url": "https://www.theverge.com/policy/895039/trump-10-billion-tiktok"
+      },
+      {
+        "author": "The Verge",
+        "text": "Meta is reportedly laying off up to 20 percent of its staff. According to Reuters, Meta is looking to offset spending on AI and data centers with a massive round of layoffs. Sources familiar with the ",
+        "engagement": 0,
+        "url": "https://www.theverge.com/business/895026/meta-laying-off-20-percent"
+      }
+    ],
+    "key_facts": [
+      "Apple launched the MacBook Neo, its most affordable and most repairable MacBook in approximately 14 years",
+      "iFixit rated it 'the most repairable MacBook in years', highlighting modular design and serviceability improvements"
+    ],
+    "analyst_angle": "This signals a strategic pivot toward sustainability and right-to-repair compliance—potentially pressuring competitors to follow suit and reshaping OEM repair economics in premium laptops.",
+    "cluster_size": 5,
+    "event_time": "2026-03-14T00:01:02Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260314_004",
+    "title": "🚀 MacBook Air M5 (2026): Minor spec bump with M5 chip, Wi-Fi 7, and base 512GB storage",
+    "category": "product_launch",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "The Verge",
+        "text": "MacBook Air M5 review: a small update for the ‘just right’ Mac. Not much has changed in the new MacBook Air for 2026: It now has the M5 chip, Wi-Fi 7, and faster storage starting at 512GB instead of 2",
+        "engagement": 0,
+        "url": "https://www.theverge.com/tech/894866/apple-macbook-air-m5-15-2026-laptop-review"
+      },
+      {
+        "author": "The Verge",
+        "text": "A Scavengers Reign artist explores contemplative sci-fi in new comics. You may recognize Jonathan Djob Nkondo's work from animated projects like the surreal sci-fi series Scavengers Reign or the recen",
+        "engagement": 0,
+        "url": "https://www.theverge.com/entertainment/894514/jonathan-djob-nkondo-artist-interview-kickstarter-scavengers-reign"
+      },
+      {
+        "author": "The Verge",
+        "text": "Wordle’s creator made a fun new puzzle game. Hi, friends! Welcome to Installer No. 119, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, hope your agents are wel",
+        "engagement": 0,
+        "url": "https://www.theverge.com/tech/894586/wordle-parseword-sonos-play-installer"
+      },
+      {
+        "author": "Ars Technica",
+        "text": "Staff complain that xAI is flailing because of constant upheaval. Staff complain that the constant upheaval is destroying morale.",
+        "engagement": 0,
+        "url": "https://arstechnica.com/ai/2026/03/staff-complain-that-xai-is-flailing-because-of-constant-upheaval/"
+      },
+      {
+        "author": "Ars Technica",
+        "text": "NASA officials sidestepped questions on Artemis II risks—there's a reason why. \"This ought to make for some good reading,\" NASA's mission management team chair said.",
+        "engagement": 0,
+        "url": "https://arstechnica.com/space/2026/03/flying-to-the-moon-for-the-first-time-in-54-years-is-risky-but-how-risky/"
+      }
+    ],
+    "key_facts": [
+      "Apple launched the 2026 MacBook Air featuring the new M5 chip",
+      "Key updates include Wi-Fi 7 support and base storage increased to 512GB (up from 256GB)",
+      "No major design or form factor changes; price increased by $100 vs. prior generation"
+    ],
+    "analyst_angle": "This incremental refresh signals Apple's shift toward cadenced silicon iteration over radical redesigns — prioritizing ecosystem lock-in and chip roadmap execution over disruptive hardware innovation in its most accessible Mac line.",
+    "cluster_size": 5,
+    "event_time": "2026-03-14T00:17:31Z",
+    "event_type": "news"
+  }
+]
