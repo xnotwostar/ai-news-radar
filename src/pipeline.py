@@ -171,8 +171,9 @@ def run_twitter_pipeline(
         except Exception as e:
             logger.warning("HN collection failed, continuing without it: %s", e)
 
-    # Step 2: Embed
+    # Step 2: Embed (provider from models.yaml; auto fallback if primary fails)
     embedder = Embedder(
+        provider=embed_cfg.provider,
         model=embed_cfg.model,
         dimensions=embed_cfg.dimensions,
     )

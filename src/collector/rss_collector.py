@@ -29,7 +29,7 @@ class RssItem:
     """Single item from an RSS feed, with provenance metadata."""
 
     __slots__ = ("title", "summary", "url", "source", "published",
-                 "tier", "weight", "category")
+                 "tier", "weight", "category", "_keyword_filter")
 
     def __init__(
         self,
@@ -50,6 +50,7 @@ class RssItem:
         self.tier = tier
         self.weight = weight
         self.category = category
+        self._keyword_filter = True
 
 
 AI_KEYWORDS = [

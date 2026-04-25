@@ -19,6 +19,8 @@ data_processing:
     timeout: 30
 
 embedding:
-  provider: dashscope
-  model: text-embedding-v4
-  dimensions: 1024
+  # Primary: Google Gemini (free tier generous, OpenAI-compat endpoint)
+  # Fallback (auto): dashscope text-embedding-v4 (used if GOOGLE_API_KEY missing or fails)
+  provider: google
+  model: gemini-embedding-001
+  dimensions: 3072
