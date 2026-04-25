@@ -1,97 +1,233 @@
 [
   {
     "event_id": "evt_20260425_000",
-    "title": "📌 https://t.co/3E2XKw18IW",
-    "category": "other",
-    "importance": 3.0,
+    "title": "💰 LlamaIndex 完成 Series A 轮融资",
+    "category": "funding",
+    "importance": 7.5,
     "sources": [
       {
         "author": "garrytan",
         "text": "https://t.co/3E2XKw18IW",
-        "engagement": 1769,
-        "bookmark_count": 4298,
-        "like_count": 1483,
+        "engagement": 1770,
+        "bookmark_count": 4302,
+        "like_count": 1484,
         "author_tier": "s_investor",
         "url": "https://x.com/garrytan/status/2046876981711769720"
+      },
+      {
+        "author": "swyx",
+        "text": "https://t.co/k3XbbNGw5s",
+        "engagement": 913,
+        "bookmark_count": 594,
+        "like_count": 756,
+        "author_tier": "a_engineering",
+        "url": "https://x.com/swyx/status/2047217611880984935"
+      },
+      {
+        "author": "hwchase17",
+        "text": "Come join us!\n\nhttps://t.co/Jo8bMBoyHn",
+        "engagement": 234,
+        "bookmark_count": 192,
+        "like_count": 212,
+        "author_tier": "a_engineering",
+        "url": "https://x.com/hwchase17/status/2047302789777576333"
+      },
+      {
+        "author": "ClementDelangue",
+        "text": "https://t.co/zlXwqoN3BN",
+        "engagement": 28,
+        "bookmark_count": 14,
+        "like_count": 24,
+        "author_tier": "s_founder",
+        "url": "https://x.com/ClementDelangue/status/2047023198420500515"
+      },
+      {
+        "author": "garrytan",
+        "text": "https://t.co/HCZMKVXavc",
+        "engagement": 21,
+        "bookmark_count": 40,
+        "like_count": 19,
+        "author_tier": "s_investor",
+        "url": "https://x.com/garrytan/status/2047546419129856510"
       }
     ],
-    "key_facts": [],
-    "analyst_angle": "",
-    "cluster_size": 8,
+    "key_facts": [
+      "LlamaIndex 宣布完成 850 万美元的 Series A 轮融资。",
+      "本轮融资由 Greylock 和 Dell Technologies Capital 共同领投。",
+      "资金将用于加速构建 LLM 应用的数据框架，扩展团队并投入研发，以帮助企业更好地利用私有数据构建 AI 应用。"
+    ],
+    "analyst_angle": "LlamaIndex 获得 Series A 轮融资，凸显了 LLM 应用中数据连接和 RAG 框架的重要性，预示着 AI 基础设施领域的持续投资和发展，尤其是在企业级 AI 解决方案方面。",
+    "cluster_size": 7,
     "event_time": null,
     "event_type": "news"
   },
   {
     "event_id": "evt_20260425_001",
-    "title": "📌 Show HN: Browser Harness – Gives LLM freedom to complete any browser task — http",
-    "category": "other",
-    "importance": 3.0,
+    "title": "🔬 Google DeepMind 发布 Vision Banana：指令调优图像生成器超越 SAM 3",
+    "category": "research",
+    "importance": 8.5,
     "sources": [
       {
-        "author": "gregpr07",
-        "text": "Show HN: Browser Harness – Gives LLM freedom to complete any browser task — https://github.com/browser-use/browser-harness [100 pts · 53 comments]",
-        "engagement": 153,
+        "author": "Hacker News [AndrewVos]",
+        "text": "Hear your agent suffer through your code — https://github.com/AndrewVos/endless-toil [194 pts · 84 comments]",
+        "engagement": 278,
         "bookmark_count": 0,
-        "like_count": 100,
+        "like_count": 194,
         "author_tier": "t2_community",
+        "url": "https://github.com/AndrewVos/endless-toil"
+      },
+      {
+        "author": "Hacker News [najmuzzaman]",
+        "text": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git) — https://github.com/nex-crm/wuphf [95 pts · 41 comments]",
+        "engagement": 136,
+        "bookmark_count": 0,
+        "like_count": 95,
+        "author_tier": "t2_community",
+        "url": "https://github.com/nex-crm/wuphf"
+      },
+      {
+        "author": "Hacker News AI",
+        "text": "Show HN: Browser Harness – Gives LLM freedom to complete any browser task. Hey HN,We got tired of browser frameworks restricting the LLM, so we removed the framework and gave the LLM maximum freedom t",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
         "url": "https://github.com/browser-use/browser-harness"
+      },
+      {
+        "author": "MarkTechPost",
+        "text": "Google DeepMind Introduces Vision Banana: An Instruction-Tuned Image Generator That Beats SAM 3 on Segmentation and Depth Anything V3 on Metric Depth Estimation. A new Google paper argues that image g",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://www.marktechpost.com/2026/04/25/google-deepmind-introduces-vision-banana-an-instruction-tuned-image-generator-that-beats-sam-3-on-segmentation-and-depth-anything-v3-on-metric-depth-estimation/"
+      },
+      {
+        "author": "MarkTechPost",
+        "text": "Meet GitNexus: An Open-Source MCP-Native Knowledge Graph Engine That Gives Claude Code and Cursor Full Codebase Structural Awareness. Abhigyan Patwari's GitNexus has quietly crossed 19,000 GitHub star",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://www.marktechpost.com/2026/04/24/meet-gitnexus-an-open-source-mcp-native-knowledge-graph-engine-that-gives-claude-code-and-cursor-full-codebase-structural-awareness/"
       }
     ],
-    "key_facts": [],
-    "analyst_angle": "",
-    "cluster_size": 2,
-    "event_time": "2026-04-24T14:31:38Z",
+    "key_facts": [
+      "Google DeepMind 发布了名为 Vision Banana 的新模型。",
+      "Vision Banana 是一种指令调优的图像生成器。",
+      "它在图像分割任务上超越了 SAM 3。",
+      "它在度量深度估计任务上超越了 Depth Anything V3。",
+      "该研究提出图像生成预训练对计算机视觉的重要性，可比拟 GPT 式预训练对 NLP 的影响。"
+    ],
+    "analyst_angle": "这项研究可能为计算机视觉领域带来范式转变，通过图像生成预训练提升多模态模型的理解和生成能力，预示着未来视觉AI发展的新方向。",
+    "cluster_size": 7,
+    "event_time": "2026-04-24T10:58:45Z",
     "event_type": "news"
   },
   {
     "event_id": "evt_20260425_002",
-    "title": "📌 We tried a new thing with NVIDIA to roll out Codex across a whole company and it",
-    "category": "other",
-    "importance": 3.0,
+    "title": "🚀 OpenAI 与 NVIDIA 合作推出 Codex 企业级部署服务",
+    "category": "product_launch",
+    "importance": 7.5,
     "sources": [
       {
         "author": "sama",
         "text": "We tried a new thing with NVIDIA to roll out Codex across a whole company and it was awesome to see it work.\n\nLet us know if you'd like to do it at your company! https://t.co/Xjn6ShrRuq",
-        "engagement": 8951,
-        "bookmark_count": 1101,
-        "like_count": 7960,
+        "engagement": 9000,
+        "bookmark_count": 1104,
+        "like_count": 8006,
         "author_tier": "s_founder",
         "url": "https://x.com/sama/status/2047395562501411058"
+      },
+      {
+        "author": "sama",
+        "text": "These are cool! I think most companies will want to use them.",
+        "engagement": 5635,
+        "bookmark_count": 1133,
+        "like_count": 4957,
+        "author_tier": "s_founder",
+        "url": "https://x.com/sama/status/2047017964105597009"
       }
     ],
-    "key_facts": [],
-    "analyst_angle": "",
+    "key_facts": [
+      "OpenAI 与 NVIDIA 合作，成功将 Codex AI 模型部署到一家公司。",
+      "该企业级 Codex 部署服务现已向其他公司开放。",
+      "Sam Altman 认为大多数公司都会希望使用这项服务。"
+    ],
+    "analyst_angle": "这标志着 OpenAI 进一步拓展企业级 AI 解决方案市场，通过与 NVIDIA 的合作加速其代码生成模型 Codex 在企业中的普及。",
     "cluster_size": 2,
     "event_time": null,
     "event_type": "news"
   },
   {
     "event_id": "evt_20260425_003",
-    "title": "📌 Google plans to invest up to $40B in Anthropic — https://www.bloomberg.com/news/",
-    "category": "other",
-    "importance": 3.0,
+    "title": "📊 AI 市场动态：Google 巨额投资 Anthropic，OpenAI 发布 GPT-5.5",
+    "category": "market",
+    "importance": 9.5,
     "sources": [
       {
-        "author": "elffjs",
-        "text": "Google plans to invest up to $40B in Anthropic — https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic [577 pts · 552 comments]",
-        "engagement": 1129,
+        "author": "TechCrunch",
+        "text": "Google to invest up to $40B in Anthropic in cash and compute. Google plans up to $40B investment in Anthropic as AI rivals race to secure massive compute capacity, following the limited release of its",
+        "engagement": 0,
         "bookmark_count": 0,
-        "like_count": 577,
-        "author_tier": "t2_community",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic"
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/"
+      },
+      {
+        "author": "Ars Technica",
+        "text": "Google will invest as much as $40 billion in Anthropic. This follows a similar, but smaller, investment by Amazon just days ago.",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://arstechnica.com/ai/2026/04/google-will-invest-as-much-as-40-billion-in-anthropic/"
+      },
+      {
+        "author": "Hacker News AI",
+        "text": "OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API. GPT-5.5 - https://news.ycombinator.com/item?id=47879092 - April 2026 (1010 comments)\n\nComments URL: https://news.ycombinator.com/item?id=47894000\nPo",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://developers.openai.com/api/docs/changelog"
+      },
+      {
+        "author": "Simon Willison",
+        "text": "GPT-5.5 prompting guide. GPT-5.5 prompting guide\nNow that GPT-5.5 is available in the API, OpenAI have released a wealth of useful tips on how best to prompt the new model.\nHere's a neat trick they re",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t1_curated",
+        "url": "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything"
+      },
+      {
+        "author": "Simon Willison",
+        "text": "llm 0.31. Release: llm 0.31\n    \n\nNew GPT-5.5 OpenAI model: llm -m gpt-5.5. #1418\nNew option to set the text verbosity level for GPT-5+ OpenAI models: -o verbosity low. Values are low, medium, high.\nN",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t1_curated",
+        "url": "https://simonwillison.net/2026/Apr/24/llm/#atom-everything"
       }
     ],
-    "key_facts": [],
-    "analyst_angle": "",
-    "cluster_size": 6,
+    "key_facts": [
+      "Google 宣布将向 AI 公司 Anthropic 投资高达 $400 亿美元，形式包括现金和计算资源，以加强其在 AI 算力领域的地位。",
+      "此举发生在 Amazon 几天前对 Anthropic 进行类似但规模较小的投资之后，显示出科技巨头对 AI 基础设施的激烈争夺。",
+      "OpenAI 正式发布了其新一代大型语言模型 GPT-5.5 和 GPT-5.5 Pro，并已通过 API 向开发者开放。",
+      "OpenAI 同时发布了 GPT-5.5 的详细提示指南，为用户提供优化模型性能的实用技巧。"
+    ],
+    "analyst_angle": "这两项重大进展凸显了 AI 领域日益激烈的竞争格局，其中巨额资本投入和先进模型迭代是推动行业发展的核心动力。",
+    "cluster_size": 7,
     "event_time": "2026-04-24T16:04:41Z",
     "event_type": "news"
   },
   {
     "event_id": "evt_20260425_004",
-    "title": "📌 Marked-up Mac minis flood eBay amid shortages driven by AI. Apple’s sold-out Mac",
-    "category": "other",
-    "importance": 3.0,
+    "title": "📌 AI需求激增引发全球RAM短缺，Mac mini等产品受影响，三星面临生产和盈利挑战",
+    "category": "market",
+    "importance": 8.0,
     "sources": [
       {
         "author": "TechCrunch",
@@ -101,41 +237,118 @@
         "like_count": 0,
         "author_tier": "unknown",
         "url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/"
+      },
+      {
+        "author": "The Verge",
+        "text": "The RAM shortage could get even worse if Samsung labor protests cut production. The RAM shortage caused by demand from AI datacenters is already driving up prices on phones, PS5s, and Raspberry Pis, b",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://www.theverge.com/tech/918301/samsung-south-korea-union-protests"
+      },
+      {
+        "author": "Ars Technica",
+        "text": "Report: Samsung execs worried company could lose money on smartphones for the first time. The AI-driven memory shortage is hitting Samsung's bottom line.",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://arstechnica.com/gadgets/2026/04/samsung-may-be-bracing-for-first-ever-annual-loss-in-smartphone-business/"
+      },
+      {
+        "author": "CNET",
+        "text": "Are Missing Macs a Sign of a Deeper RAM Shortage for Apple Products?. Many customization options for the M4 Mac Mini and Mac Studio are unavailable, at least for now.",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://www.cnet.com/tech/computing/disappearing-macs-global-ram-crisis-likely-hits-apple/"
       }
     ],
-    "key_facts": [],
-    "analyst_angle": "",
+    "key_facts": [
+      "AI应用（包括本地AI模型和AI数据中心）的强劲需求是导致全球RAM短缺的主要原因。",
+      "受RAM短缺影响，Apple Mac mini等产品在eBay上出现价格上涨和供应紧张。",
+      "RAM短缺已导致手机、PS5和Raspberry Pi等多种电子产品价格上涨。",
+      "主要内存制造商三星的智能手机业务可能因AI驱动的内存短缺而面临首次年度亏损。",
+      "三星员工因薪资待遇问题举行抗议，可能进一步加剧RAM生产供应紧张。",
+      "Apple M4 Mac Mini和Mac Studio的许多定制选项目前无法购买，表明其产品也受到RAM短缺影响。"
+    ],
+    "analyst_angle": "AI对硬件供应链的巨大拉动效应正在导致广泛的市场波动，并对主要科技公司的盈利和生产造成直接影响，预示着未来硬件成本可能持续上升。",
     "cluster_size": 4,
     "event_time": "2026-04-24T16:42:19Z",
     "event_type": "news"
   },
   {
     "event_id": "evt_20260425_005",
-    "title": "📌 DeepSeek v4 — https://api-docs.deepseek.com/news/news260424 [1904 pts · 1478 com",
-    "category": "other",
-    "importance": 3.0,
+    "title": "🚀 DeepSeek 发布 DeepSeek V4 系列模型，性能逼近前沿模型并支持百万级上下文",
+    "category": "product_launch",
+    "importance": 7.8,
     "sources": [
       {
-        "author": "impact_sy",
-        "text": "DeepSeek v4 — https://api-docs.deepseek.com/news/news260424 [1904 pts · 1478 comments]",
-        "engagement": 3382,
+        "author": "TechCrunch",
+        "text": "DeepSeek previews new AI model that ‘closes the gap’ with frontier models. DeepSeek says both models are more efficient and performant than DeepSeek V3.2 due to architectural improvements, and have al",
+        "engagement": 0,
         "bookmark_count": 0,
-        "like_count": 1904,
-        "author_tier": "t2_community",
-        "url": "https://api-docs.deepseek.com/news/news260424"
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/"
+      },
+      {
+        "author": "CNET",
+        "text": "AI Arms Race Accelerates With New Models from OpenAI, DeepSeek and Anthropic. What you should know about the latest AI models, including DeepSeek's V4, OpenAI's GPT-5.5 and Claude Opus 4.7.",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://www.cnet.com/tech/services-and-software/openai-deepseek-anthropic-new-ai-models/"
+      },
+      {
+        "author": "NVIDIA Blog",
+        "text": "Build with DeepSeek V4 Using NVIDIA Blackwell and GPU-Accelerated Endpoints. DeepSeek just launched its fourth generation of flagship models with DeepSeek-V4-Pro and DeepSeek-V4-Flash, both targeted a",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://developer.nvidia.com/blog/build-with-deepseek-v4-using-nvidia-blackwell-and-gpu-accelerated-endpoints/"
+      },
+      {
+        "author": "MarkTechPost",
+        "text": "DeepSeek AI Releases DeepSeek-V4: Compressed Sparse Attention and Heavily Compressed Attention Enable One-Million-Token Contexts. DeepSeek-AI has released a preview version of the DeepSeek-V4 series: ",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://www.marktechpost.com/2026/04/24/deepseek-ai-releases-deepseek-v4-compressed-sparse-attention-and-heavily-compressed-attention-enable-one-million-token-contexts/"
+      },
+      {
+        "author": "Latent Space",
+        "text": "[AINews] DeepSeek V4 Pro (1.6T-A49B) and Flash (284B-A13B), Base and Instruct — runnable on Huawei Ascend chips. The prodigal Tiger returns... but is no longer the benchmarks leader.",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://www.latent.space/p/ainews-deepseek-v4-pro-16t-a49b-and"
       }
     ],
-    "key_facts": [],
-    "analyst_angle": "",
+    "key_facts": [
+      "DeepSeek 发布了其第四代旗舰模型 DeepSeek-V4-Pro 和 DeepSeek-V4-Flash，旨在提高效率和性能。",
+      "新模型在推理基准测试中已“缩小与当前领先模型（包括开源和闭源）的差距”。",
+      "DeepSeek-V4-Pro 拥有 1.6T 总参数和 49B 激活参数，DeepSeek-V4-Flash 拥有 284B 总参数和 13B 激活参数。",
+      "模型采用压缩稀疏注意力（Compressed Sparse Attention）和重度压缩注意力（Heavily Compressed Attention）技术，实现了实用且经济高效的百万级 token 上下文窗口。",
+      "NVIDIA 宣布支持使用 NVIDIA Blackwell 和 GPU 加速端点构建 DeepSeek V4。",
+      "Latent Space 提到 DeepSeek V4 Pro 和 Flash 模型可在华为昇腾（Huawei Ascend）芯片上运行。"
+    ],
+    "analyst_angle": "DeepSeek V4 系列模型的发布，凭借其显著的性能提升、高效架构和百万级上下文能力，进一步加剧了前沿 AI 模型领域的竞争，并为开发者提供了更多高性能且硬件兼容性更广的选择。",
     "cluster_size": 6,
     "event_time": "2026-04-24T03:01:21Z",
     "event_type": "news"
   },
   {
     "event_id": "evt_20260425_006",
-    "title": "📌 In another wild turn for AI chips, Meta signs deal for millions of Amazon AI CPU",
-    "category": "other",
-    "importance": 3.0,
+    "title": "🔧 Meta 与 Amazon 达成数百万 AI CPU 采购协议",
+    "category": "chip_hardware",
+    "importance": 8.5,
     "sources": [
       {
         "author": "TechCrunch",
@@ -145,19 +358,33 @@
         "like_count": 0,
         "author_tier": "unknown",
         "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/"
+      },
+      {
+        "author": "CNET",
+        "text": "Meta Just Signed a Huge Deal to Use Amazon's Graviton CPU Chips for AI. In the latest big AI deal, Meta has inked a multibillion-dollar deal to use Amazon's new AWS Graviton chips, which are CPUs, not",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://www.cnet.com/tech/services-and-software/meta-just-signed-a-huge-deal-to-use-amazons-graviton-chips-for-ai/"
       }
     ],
-    "key_facts": [],
-    "analyst_angle": "",
+    "key_facts": [
+      "Meta 与 Amazon 签署了一项价值数十亿美元的协议。",
+      "Meta 将使用数百万 Amazon 自研的 AI CPU (Graviton 芯片)。",
+      "这些芯片将用于 Meta 的 AI agentic 工作负载。",
+      "此举预示着 AI 芯片领域可能开启一场新的竞争，超越传统 GPU。"
+    ],
+    "analyst_angle": "此协议预示着 AI 硬件领域对定制化 CPU 的需求日益增长，并可能开启 GPU 之外的 AI 芯片新竞争格局。",
     "cluster_size": 2,
     "event_time": "2026-04-24T12:00:00Z",
     "event_type": "news"
   },
   {
     "event_id": "evt_20260425_007",
-    "title": "📌 Bond Is a New Social Media App That Encourages You to Get Offline. The app will ",
-    "category": "other",
-    "importance": 3.0,
+    "title": "🚀 社交媒体新趋势：Instagram Instants 聚焦真实性，Bond 鼓励线下互动",
+    "category": "product_launch",
+    "importance": 6.5,
     "sources": [
       {
         "author": "CNET",
@@ -167,78 +394,212 @@
         "like_count": 0,
         "author_tier": "unknown",
         "url": "https://www.cnet.com/news/social-media/bond-app-discourages-doomscrolling-friends-irl-news/"
+      },
+      {
+        "author": "CNET",
+        "text": "Instagram's New 'Instants' App Could Let You Ditch the Edits and Just Be Real for 24 Hours. The app, which sounds like if Snapchat and BeReal had a baby, is being tested in Spain and Italy.",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://www.cnet.com/news/social-media/instagrams-new-instants-app-lets-you-share-disappearing-photos-and-videos/"
       }
     ],
-    "key_facts": [],
-    "analyst_angle": "",
+    "key_facts": [
+      "Instagram正在西班牙和意大利测试一款名为 \"Instants\" 的新应用，旨在提供24小时内未经编辑的真实分享体验，功能类似Snapchat和BeReal。",
+      "一款名为 \"Bond\" 的新社交媒体应用鼓励用户进行线下活动，例如根据共同兴趣推荐音乐会，旨在减少线上“刷屏”时间。"
+    ],
+    "analyst_angle": "这些新应用反映了社交媒体行业对真实性、即时性和线下互动的关注，旨在应对用户对过度编辑和线上沉迷的倦怠，预示着社交媒体体验可能向更健康、更真实的互动模式转变。",
     "cluster_size": 2,
     "event_time": "2026-04-24T18:10:56Z",
     "event_type": "news"
   },
   {
     "event_id": "evt_20260425_008",
-    "title": "📌 \"don't retweet this, don't retweet this, don't retweet this...\"\n\nah fuck it, lif",
-    "category": "other",
-    "importance": 3.0,
+    "title": "💡 Claude 模型遭遇用户批评：质量下降与支持问题导致订阅取消",
+    "category": "market",
+    "importance": 7.5,
     "sources": [
+      {
+        "author": "Hacker News [y42]",
+        "text": "I cancelled Claude: Token issues, declining quality, and poor support — https://nickyreinert.de/en/2026/2026-04-24-claude-critics/ [886 pts · 525 comments]",
+        "engagement": 1411,
+        "bookmark_count": 0,
+        "like_count": 886,
+        "author_tier": "t2_community",
+        "url": "https://nickyreinert.de/en/2026/2026-04-24-claude-critics/"
+      },
       {
         "author": "sama",
         "text": "\"don't retweet this, don't retweet this, don't retweet this...\"\n\nah fuck it, life imitates art.",
-        "engagement": 5847,
-        "bookmark_count": 623,
-        "like_count": 5150,
+        "engagement": 5864,
+        "bookmark_count": 624,
+        "like_count": 5164,
         "author_tier": "s_founder",
         "url": "https://x.com/sama/status/2047403771416940715"
+      },
+      {
+        "author": "pmarca",
+        "text": "Kevin Kelly @kevin2kelly is neck and neck with Ray Kurzweil for the best technology forecaster of the last 40 years.",
+        "engagement": 2670,
+        "bookmark_count": 1691,
+        "like_count": 2357,
+        "author_tier": "s_investor",
+        "url": "https://x.com/pmarca/status/2047085548326834357"
+      },
+      {
+        "author": "pmarca",
+        "text": "Cognition, executive function, indeed existence itself, are whole-mind/body experiences. The answer is not inward, it is outward, and in the world.",
+        "engagement": 1055,
+        "bookmark_count": 384,
+        "like_count": 933,
+        "author_tier": "s_investor",
+        "url": "https://x.com/pmarca/status/2047447163819749760"
+      },
+      {
+        "author": "bgurley",
+        "text": "I think everyone in marketing/PR at an AI company (&amp; especially at large model companies) should watch this short piece of advice from @dylan522p w/ @patrick_oshag. Just a few minutes. Crisp and t",
+        "engagement": 1021,
+        "bookmark_count": 1341,
+        "like_count": 889,
+        "author_tier": "s_investor",
+        "url": "https://x.com/bgurley/status/2047389103675605399"
       }
     ],
-    "key_facts": [],
-    "analyst_angle": "",
+    "key_facts": [
+      "用户Nicky Reinert撰文批评Anthropic的Claude模型，指出其存在Token处理问题、输出质量下降及客户支持不力，并因此取消了订阅。",
+      "该批评文章在Hacker News上引发广泛讨论，获得大量关注和评论。",
+      "OpenAI CEO Sam Altman对此事件发表了隐晦评论，暗示AI行业可能普遍存在类似挑战。"
+    ],
+    "analyst_angle": "这一事件表明，即使是领先的LLM提供商也面临着在快速发展中维持模型质量和用户满意度的挑战，市场竞争将促使模型性能和客户服务成为关键差异化因素。",
     "cluster_size": 5,
     "event_time": "2026-04-24T15:59:19Z",
-    "event_type": "news"
+    "event_type": "opinion"
   },
   {
     "event_id": "evt_20260425_009",
-    "title": "📌 LiteParse is really neat! It does a great job of extracting text from annoying l",
-    "category": "other",
-    "importance": 3.0,
+    "title": "🚀 GPT-5.5 提升子代理编排效率，解决资源消耗痛点",
+    "category": "product_launch",
+    "importance": 7.5,
     "sources": [
       {
         "author": "simonw",
         "text": "LiteParse is really neat! It does a great job of extracting text from annoying layouts in PDFs (multiple columns for example)\n\nIt's only available as a Node.js CLI app, so I vibe-coded up this version",
-        "engagement": 909,
-        "bookmark_count": 796,
-        "like_count": 792,
+        "engagement": 911,
+        "bookmark_count": 800,
+        "like_count": 794,
         "author_tier": "a_engineering",
         "url": "https://x.com/simonw/status/2047434783962354130"
+      },
+      {
+        "author": "AravSrinivas",
+        "text": "You would consume less computer credits (and be able to run more tasks as a result) if you switched to GPT-5.5 as your default orchestrator. This was the number one complaint about Computer (being cre",
+        "engagement": 876,
+        "bookmark_count": 64,
+        "like_count": 779,
+        "author_tier": "s_founder",
+        "url": "https://x.com/AravSrinivas/status/2047788775468908840"
+      },
+      {
+        "author": "demishassabis",
+        "text": "Thanks for inviting me @garrytan, was awesome to chat and loved the inspirational space! Great to see so many startups building with @googlegemma models!",
+        "engagement": 795,
+        "bookmark_count": 51,
+        "like_count": 725,
+        "author_tier": "s_founder",
+        "url": "https://x.com/demishassabis/status/2047872041827910093"
+      },
+      {
+        "author": "eladgil",
+        "text": "Entrepreneurship is a distributed search job across the surface of commercial opportunities",
+        "engagement": 704,
+        "bookmark_count": 156,
+        "like_count": 622,
+        "author_tier": "unknown",
+        "url": "https://x.com/eladgil/status/2047373700643844303"
+      },
+      {
+        "author": "pmarca",
+        "text": "Many people are saying!",
+        "engagement": 703,
+        "bookmark_count": 224,
+        "like_count": 676,
+        "author_tier": "s_investor",
+        "url": "https://x.com/pmarca/status/2047446812483780974"
       }
     ],
-    "key_facts": [],
-    "analyst_angle": "",
+    "key_facts": [
+      "Perplexity AI 创始人 Arav Srinivas 指出，将 GPT-5.5 作为默认编排器可显著降低计算资源消耗。",
+      "GPT-5.5 在子代理编排方面表现出更高的 token 效率。",
+      "这一改进解决了此前关于 AI 编排器（如 Perplexity 的 Computer）消耗大量 credits/tokens 的主要抱怨。",
+      "用户因此能以更低的成本运行更多任务。"
+    ],
+    "analyst_angle": "这一进展表明，未来大型语言模型在提升性能的同时，将更加注重资源效率和成本控制，以满足复杂AI系统（如多智能体编排）的实际应用需求。",
     "cluster_size": 5,
     "event_time": null,
     "event_type": "news"
   },
   {
     "event_id": "evt_20260425_010",
-    "title": "📌 I find this conversation foreign - along with the argument that we are \"data cen",
-    "category": "other",
-    "importance": 3.0,
+    "title": "🚀 Perplexity 部署基于 Qwen 的高效生产模型",
+    "category": "product_launch",
+    "importance": 8.0,
     "sources": [
+      {
+        "author": "AravSrinivas",
+        "text": "We’ve post trained a model on top of Qwen that achieves Pareto optimality on accuracy-cost curves. \n\nUnlike our previous post trained models, this model has been trained to be good at search and tool ",
+        "engagement": 692,
+        "bookmark_count": 157,
+        "like_count": 602,
+        "author_tier": "s_founder",
+        "url": "https://x.com/AravSrinivas/status/2047019688920756504"
+      },
       {
         "author": "bgurley",
         "text": "I find this conversation foreign - along with the argument that we are \"data center constrained\" or \"energy constrained.\" Historically, in markets - price is the leveler of supply and demand. If you h",
-        "engagement": 665,
+        "engagement": 667,
         "bookmark_count": 316,
-        "like_count": 580,
+        "like_count": 582,
         "author_tier": "s_investor",
         "url": "https://x.com/bgurley/status/2047362384562700385"
+      },
+      {
+        "author": "eladgil",
+        "text": "My view is the AI boom will only accelerate and is a once in a lifetime transformation\n\nThis is orthogonal to whether many AI companies should exit in next 12-18 months, as some may lack durability vs",
+        "engagement": 633,
+        "bookmark_count": 388,
+        "like_count": 566,
+        "author_tier": "unknown",
+        "url": "https://x.com/eladgil/status/2047364865527075139"
+      },
+      {
+        "author": "swyx",
+        "text": "btw in talking to friends the best framing for how to discuss GPT-Image-2-Thinking taking multiple tens of mins for generation and being able to oneshot QR codes and diagrams and logos and foods and f",
+        "engagement": 162,
+        "bookmark_count": 69,
+        "like_count": 138,
+        "author_tier": "a_engineering",
+        "url": "https://x.com/swyx/status/2047140362771132544"
+      },
+      {
+        "author": "_akhaliq",
+        "text": "OpenAI just released privacy-filter on Hugging Face\n\na bidirectional token-classification model for personally identifiable information (PII) detection and masking in text\n\nmodel: https://t.co/P11xwHi",
+        "engagement": 117,
+        "bookmark_count": 85,
+        "like_count": 95,
+        "author_tier": "b_research",
+        "url": "https://x.com/_akhaliq/status/2046983329157677085"
       }
     ],
-    "key_facts": [],
-    "analyst_angle": "",
+    "key_facts": [
+      "Perplexity 已部署一个基于 Qwen 后训练的模型，在准确性-成本曲线上实现帕累托最优。",
+      "该模型同时擅长搜索和工具调用，统一了工具调用路由器和摘要功能。",
+      "在生产环境中，该模型在服务 Perplexity 日常查询的成本效率方面优于 GPT 和 Sonnet。",
+      "该模型已在其自有推理平台运行，并已处理大部分日常流量，目标是很快服务所有默认流量。"
+    ],
+    "analyst_angle": "Perplexity此举表明，在当前AI市场对计算资源和成本效率日益关注的背景下，公司正积极通过技术创新优化生产模型，以提升长期竞争力和可持续性，这与行业内对单位经济效益和公司“耐久性”的讨论相呼应。",
     "cluster_size": 5,
-    "event_time": "2026-04-24T10:58:45Z",
+    "event_time": null,
     "event_type": "news"
   }
 ]

@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AI 情报日报 · #{{ issue_no }} · {{ date }}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,500&family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../intel.css">
+</head>
+<body>
+
+<div class="progress"><div class="progress__bar" id="progress"></div></div>
+
+<header class="strip" role="banner">
+  <div class="strip__inner">
+    <div class="strip__left">
+      <b>{{ date }}</b><span class="strip__sep">·</span>{{ weekday_short }}<span class="strip__sep">·</span>Asia/Shanghai
+    </div>
+    <div class="strip__center">AI INTEL · DAILY</div>
+    <div class="strip__right">
+      <span>ISSUE <b>#{{ issue_no }}</b></span>
+      <span id="clock">--:--:--</span>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="theme-toggle__dot"></span>
+        <span id="themeLabel">Paper</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="masthead">
+  <div class="masthead__kicker">The AI Desk · No. {{ issue_no }}</div>
+  <h1 class="masthead__title">今日 AI 情报</h1>
+  <div class="masthead__sub">
+    <span>Vol. {{ vol }} <span class="strip__sep">·</span> <b>{{ year }}</b></span>
+    <span>Beijing <span class="strip__sep">·</span> San Francisco</span>
+    <span>Coverage: <b>capital · product · research · signal</b></span>
+    <span>Edited by <b>self</b></span>
+  </div>
+  {# Phase 4 精修 #5: masthead 透明度——展示扫描/筛选数 #}
+  <div class="masthead__transparency">
+    <span>Sources scanned <b>{{ stats.sources_scanned }}</b></span>
+    <span>Signals surfaced <b>{{ stats.signals_surfaced }}</b></span>
+    <span>Authors filtered <b>{{ stats.authors_filtered }}</b></span>
+    <span>Tier mix <b>T0:{{ stats.tier_mix.t0 }} T1:{{ stats.tier_mix.t1 }} T2:{{ stats.tier_mix.t2 }}</b></span>
+  </div>
+</div>
+
+<div class="wrap">
+<main class="main">
+
+{# ─────────── §01 LEDE ─────────── #}
+<section id="sec-lede">
+  <div class="sec-head">
+    <span class="sec-head__num">§ 01</span>
+    <h2 class="sec-head__title">今日核心判断</h2>
+    <span class="sec-head__meta">The Take · {{ lede_read_time }}</span>
+  </div>
+  <div class="lede">
+    {% for p in core_judgment_paragraphs %}
+    <p>{{ p }}</p>
+    {% endfor %}
+    <div class="lede__sig">
+      <span>Filed <b>{{ filed_time }}</b></span>
+      <span>Reading time <b>{{ total_read_time }}</b></span>
+      <span>Confidence <b>{{ confidence | default('medium') }}</b></span>
+    </div>
+  </div>
+</section>
+
+{# ─────────── §02 投资 & 资金 ─────────── #}
+{% if capital_entries %}
+<section id="sec-capital">
+  <div class="sec-head">
+    <span class="sec-head__num">§ 02</span>
+    <h2 class="sec-head__title">投资 &amp; 资金</h2>
+    <span class="sec-head__meta">{{ capital_entries|length }} entries · capital flow</span>
+  </div>
+  <div class="entries">
+    {% for entry in capital_entries %}
+    <div class="entry">
+      <div class="entry__idx">02.{{ "%02d" % loop.index }}</div>
+      <div class="entry__body">
+        <div class="entry__head">
+          <span class="entry__name">{{ entry.name }}</span>
+          {% if entry.metric %}<span class="entry__metric{% if not entry.metric_is_money %} entry__metric--neutral{% endif %}">{{ entry.metric }}</span>{% endif %}
+          {% if entry.tag %}<span class="entry__tag">{{ entry.tag }}</span>{% endif %}
+        </div>
+        {% if entry.meta %}<div class="entry__meta">{{ entry.meta | safe }}</div>{% endif %}
+        {% if entry.take %}<p class="entry__take">{{ entry.take }}</p>{% endif %}
+        {% if entry.chips %}
+        <div class="chips">
+          {% for c in entry.chips %}
+          <span class="chip{% if c.tier %} chip--{{ c.tier|lower }}{% endif %}">{{ c.label }}<span class="chip__tip">{% if c.handle %}<b>{{ c.handle }}</b> · {% endif %}{{ c.tip }}</span></span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% if entry.why %}
+      <button class="entry__toggle" aria-label="why selected">↓</button>
+      <div class="entry__why"><b>为什么入选：</b>{{ entry.why }}</div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{# ─────────── §03 产品 & 市场 ─────────── #}
+{% if product_entries %}
+<section id="sec-product">
+  <div class="sec-head">
+    <span class="sec-head__num">§ 03</span>
+    <h2 class="sec-head__title">产品 &amp; 市场</h2>
+    <span class="sec-head__meta">{{ product_entries|length }} entries · commercial signal</span>
+  </div>
+  <div class="entries">
+    {% for entry in product_entries %}
+    <div class="entry">
+      <div class="entry__idx">03.{{ "%02d" % loop.index }}</div>
+      <div class="entry__body">
+        <div class="entry__head">
+          <span class="entry__name">{{ entry.name }}</span>
+          {% if entry.metric %}<span class="entry__metric{% if not entry.metric_is_money %} entry__metric--neutral{% endif %}">{{ entry.metric }}</span>{% endif %}
+          {% if entry.tag %}<span class="entry__tag">{{ entry.tag }}</span>{% endif %}
+        </div>
+        {% if entry.meta %}<div class="entry__meta">{{ entry.meta | safe }}</div>{% endif %}
+        {% if entry.take %}<p class="entry__take">{{ entry.take }}</p>{% endif %}
+        {% if entry.chips %}
+        <div class="chips">
+          {% for c in entry.chips %}
+          <span class="chip{% if c.tier %} chip--{{ c.tier|lower }}{% endif %}">{{ c.label }}<span class="chip__tip">{% if c.handle %}<b>{{ c.handle }}</b> · {% endif %}{{ c.tip }}</span></span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% if entry.why %}
+      <button class="entry__toggle" aria-label="why selected">↓</button>
+      <div class="entry__why"><b>为什么入选：</b>{{ entry.why }}</div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{# ─────────── §04 研究速览 ─────────── #}
+{# Phase 4 精修 #2: research metric 改用关键指标数字（citations / cost / params 等） #}
+{% if research_entries %}
+<section id="sec-research">
+  <div class="sec-head">
+    <span class="sec-head__num">§ 04</span>
+    <h2 class="sec-head__title">研究速览</h2>
+    <span class="sec-head__meta">commercializable 6–12 mo</span>
+  </div>
+  <div class="entries">
+    {% for entry in research_entries %}
+    <div class="entry">
+      <div class="entry__idx">04.{{ "%02d" % loop.index }}</div>
+      <div class="entry__body">
+        <div class="entry__head">
+          <span class="entry__name">{{ entry.name }}</span>
+          {% if entry.metric %}<span class="entry__metric{% if not entry.metric_is_money %} entry__metric--neutral{% endif %}">{{ entry.metric }}</span>{% endif %}
+          {% if entry.tag %}<span class="entry__tag">{{ entry.tag }}</span>{% endif %}
+        </div>
+        {% if entry.meta %}<div class="entry__meta">{{ entry.meta | safe }}</div>{% endif %}
+        {% if entry.take %}<p class="entry__take">{{ entry.take }}</p>{% endif %}
+        {% if entry.chips %}
+        <div class="chips">
+          {% for c in entry.chips %}
+          <span class="chip{% if c.tier %} chip--{{ c.tier|lower }}{% endif %}">{{ c.label }}<span class="chip__tip">{% if c.handle %}<b>{{ c.handle }}</b> · {% endif %}{{ c.tip }}</span></span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% if entry.why %}
+      <button class="entry__toggle" aria-label="why selected">↓</button>
+      <div class="entry__why"><b>为什么入选：</b>{{ entry.why }}</div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{# ─────────── §05 关键量化指标 ─────────── #}
+{% if quant_blocks %}
+<section id="sec-quant">
+  <div class="sec-head">
+    <span class="sec-head__num">§ 05</span>
+    <h2 class="sec-head__title">关键量化指标</h2>
+    <span class="sec-head__meta">updated {{ quant_updated_at | default('—') }}</span>
+  </div>
+  <div class="quant">
+    {% for block in quant_blocks %}
+    <div class="quant__block">
+      <div class="quant__label">{{ block.label }}</div>
+      {% for row in block.rows %}
+      <div class="quant-row">
+        <span class="quant-row__rank">{{ row.rank }}</span>
+        <span class="quant-row__name">{{ row.name }}</span>
+        <span class="quant-row__delta {{ row.direction }}">{{ row.delta }}</span>
+        <span class="quant-row__spark">{{ row.sparkline | safe }}</span>
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+  {% if ticker_items %}
+  <div class="ticker">
+    {% for t in ticker_items %}
+    <span class="ticker__item">
+      <span class="ticker__sym">{{ t.symbol }}</span>
+      <span class="ticker__val">{{ t.value }}</span>
+      {% if t.delta %}<span class="ticker__d {{ t.direction }}">{{ t.delta }}</span>{% endif %}
+    </span>
+    {% endfor %}
+    {% if ticker_note %}<span class="ticker__note">{{ ticker_note }}</span>{% endif %}
+  </div>
+  {% endif %}
+</section>
+{% endif %}
+
+{# ─────────── §06 头部观点 ─────────── #}
+{# Phase 4 精修 #1: KOL 加 source chips（hover 看 bookmark/likes） #}
+{% if kol_quotes %}
+<section id="sec-kol">
+  <div class="sec-head">
+    <span class="sec-head__num">§ 06</span>
+    <h2 class="sec-head__title">头部观点</h2>
+    <span class="sec-head__meta">{{ kol_quotes|length }} voices · ranked by signal</span>
+  </div>
+  <div class="kol-grid">
+    {% for k in kol_quotes %}
+    <div class="kol">
+      <div class="kol__head">
+        <span class="kol__dot kol__dot--{{ k.role }}"></span>
+        <span class="kol__role">{{ k.role_label }}</span>
+        <span class="kol__handle">@{{ k.handle }}</span>
+        <span style="color:var(--ink-3)">·</span>
+        <span style="color:var(--ink-2)">{{ k.source_meta }}</span>
+      </div>
+      <p class="kol__quote">{{ k.quote }}</p>
+      {% if k.chips %}
+      <div class="chips kol__chips">
+        {% for c in k.chips %}
+        <span class="chip">{{ c.label }}<span class="chip__tip"><b>@{{ k.handle }}</b> · {{ c.tip }}</span></span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{# ─────────── §07 速览 ─────────── #}
+{# Phase 4 精修 #3: glance 加 tier badge #}
+{% if glance_items %}
+<section id="sec-glance">
+  <div class="sec-head">
+    <span class="sec-head__num">§ 07</span>
+    <h2 class="sec-head__title">速览</h2>
+    <span class="sec-head__meta">one-liners · no commentary</span>
+  </div>
+  <ul class="glance">
+    {% for g in glance_items %}
+    <li>
+      <span class="glance__time">{{ g.time }}</span>
+      <span>{{ g.text }}</span>
+      <span class="glance__src">{{ g.source }}</span>
+      {% if g.tier %}
+      <span class="glance__tier glance__tier--{{ g.tier|lower }}">
+        <span class="glance__tier-dot"></span>{{ g.tier }}
+      </span>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{# Phase 4 精修 #4: colophon 加透明度元数据 #}
+<div class="colophon">
+  <span>AI INTEL DAILY · <b>#{{ issue_no }}</b></span>
+  <div class="colophon__transparency">
+    <span>Filtered <b>{{ stats.signals_surfaced }} / {{ stats.sources_scanned }}</b></span>
+    <span>Sources <b>{{ stats.unique_sources }}</b></span>
+    <span>Tier S <b>{{ stats.tier_s }}</b></span>
+    <span>Density avg <b>{{ stats.avg_density }}</b></span>
+  </div>
+  <span>End of dispatch · <b>{{ filed_time }}</b></span>
+</div>
+
+</main>
+
+<aside class="rail" aria-label="Table of contents">
+  <div class="rail__wrap">
+    <div class="rail__label">Contents</div>
+    <ol>
+      <li><a href="#sec-lede">今日核心判断</a></li>
+      {% if capital_entries %}<li><a href="#sec-capital">投资 &amp; 资金</a></li>{% endif %}
+      {% if product_entries %}<li><a href="#sec-product">产品 &amp; 市场</a></li>{% endif %}
+      {% if research_entries %}<li><a href="#sec-research">研究速览</a></li>{% endif %}
+      {% if quant_blocks %}<li><a href="#sec-quant">关键量化指标</a></li>{% endif %}
+      {% if kol_quotes %}<li><a href="#sec-kol">头部观点</a></li>{% endif %}
+      {% if glance_items %}<li><a href="#sec-glance">速览</a></li>{% endif %}
+    </ol>
+  </div>
+</aside>
+</div>
+
+<script>
+  (function(){
+    var root = document.documentElement;
+    try { var saved = localStorage.getItem('ai-desk-theme'); if (saved === 'light' || saved === 'dark') root.setAttribute('data-theme', saved); } catch(e){}
+    var btn = document.getElementById('themeToggle'), label = document.getElementById('themeLabel');
+    function sync(){ label.textContent = root.getAttribute('data-theme') === 'dark' ? 'Paper' : 'Terminal'; }
+    sync();
+    btn.addEventListener('click', function(){
+      var t = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', t);
+      try { localStorage.setItem('ai-desk-theme', t); } catch(e){}
+      sync();
+    });
+  })();
+  (function(){
+    var bar = document.getElementById('progress');
+    function tick(){ var h=document.documentElement, s=h.scrollTop||document.body.scrollTop, t=h.scrollHeight-h.clientHeight; bar.style.width=(t>0?(s/t)*100:0)+'%'; }
+    document.addEventListener('scroll', tick, {passive:true});
+    window.addEventListener('resize', tick);
+    tick();
+  })();
+  document.querySelectorAll('.entry__toggle').forEach(function(btn){
+    btn.addEventListener('click', function(){ btn.closest('.entry').classList.toggle('is-open'); });
+  });
+  (function(){
+    var el = document.getElementById('clock');
+    function pad(n){ return n<10?'0'+n:n; }
+    function tick(){ var d=new Date(); el.textContent=pad(d.getHours())+':'+pad(d.getMinutes())+':'+pad(d.getSeconds())+' CST'; }
+    tick(); setInterval(tick, 1000);
+  })();
+  (function(){
+    var links = document.querySelectorAll('.rail a'), map = {};
+    links.forEach(function(a){ var id = a.getAttribute('href').slice(1), sec = document.getElementById(id); if (sec) map[id] = {a:a, sec:sec}; });
+    function onScroll(){ var y = window.scrollY+120, active=null; Object.keys(map).forEach(function(k){ if (map[k].sec.offsetTop<=y) active=k; }); links.forEach(function(a){a.classList.remove('is-active');}); if (active && map[active]) map[active].a.classList.add('is-active'); }
+    document.addEventListener('scroll', onScroll, {passive:true});
+    onScroll();
+  })();
+</script>
+
+</body>
+</html>

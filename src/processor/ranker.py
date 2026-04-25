@@ -1,4 +1,8 @@
-"""Event Card importance ranking via Qwen-Plus, boosted by author tiers and info density."""
+"""Event Card importance ranking via LLM with provider fallback chain.
+
+Uses Google Gemini (OpenAI-compat) by default, falls back to DashScope / DeepSeek.
+Boosts importance by author tier (from authors.yaml) and aggregate info density.
+"""
 
 from __future__ import annotations
 
@@ -15,7 +19,28 @@ from ..schemas import EventCard
 
 logger = logging.getLogger(__name__)
 
-DASHSCOPE_CHAT_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
+# Provider URL + key + default model
+PROVIDER_DEFAULTS = {
+    "google": {
+        "url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+        "key_env": "GOOGLE_API_KEY",
+        "model": "gemini-2.5-flash",
+    },
+    "dashscope": {
+        "url": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+        "key_env": "DASHSCOPE_API_KEY",
+        "model": "qwen-plus",
+    },
+    "deepseek": {
+        "url": "https://api.deepseek.com/v1/chat/completions",
+        "key_env": "DEEPSEEK_API_KEY",
+        "model": "deepseek-chat",
+    },
+}
+FALLBACK_CHAIN = ["google", "dashscope", "deepseek"]
+
+# Backwards-compat constant
+DASHSCOPE_CHAT_URL = PROVIDER_DEFAULTS["dashscope"]["url"]
 
 AUTHORS_YAML = Path(__file__).resolve().parent.parent.parent / "config" / "authors.yaml"
 
@@ -87,10 +112,29 @@ def weight_for_tier(tier: str) -> float:
 class Ranker:
     """Re-rank Event Cards by importance using LLM, boosted by author tier and info density."""
 
-    def __init__(self, api_key: str | None = None, model: str = "qwen-plus"):
-        self.api_key = api_key or os.environ["DASHSCOPE_API_KEY"]
-        self.model = model
+    def __init__(
+        self,
+        provider: str = "google",
+        model: str | None = None,
+        api_key: str | None = None,
+        enable_fallback: bool = True,
+    ):
+        if provider not in PROVIDER_DEFAULTS:
+            raise ValueError(f"Unknown LLM provider: {provider}")
+        self.provider = provider
+        defaults = PROVIDER_DEFAULTS[provider]
+        self.model = model or defaults["model"]
+        self._api_key_override = api_key
+        self.enable_fallback = enable_fallback
         self.top_n = 35
+
+    def _get_key(self, provider: str) -> str | None:
+        if self._api_key_override and provider == self.provider:
+            return self._api_key_override
+        return os.environ.get(PROVIDER_DEFAULTS[provider]["key_env"])
+
+    def _get_model(self, provider: str) -> str:
+        return self.model if provider == self.provider else PROVIDER_DEFAULTS[provider]["model"]
 
     def rank(self, events: list[EventCard]) -> list[EventCard]:
         """Return top events sorted by importance (LLM + tier boost)."""
@@ -146,25 +190,44 @@ class Ranker:
                 f"- {e.event_id}: [imp={e.importance:.1f} tier={tiers_str} density={avg_density:.2f} cat={e.category.value} sz={e.cluster_size}] {e.title}"
             )
 
-        resp = httpx.post(
-            DASHSCOPE_CHAT_URL,
-            headers={
-                "Authorization": f"Bearer {self.api_key}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": self.model,
-                "messages": [
-                    {"role": "system", "content": RANKER_SYSTEM_PROMPT},
-                    {"role": "user", "content": f"请精排以下 {len(events)} 条事件：\n\n" + "\n".join(summaries)},
-                ],
-                "temperature": 0.1,
-                "response_format": {"type": "json_object"},
-            },
-            timeout=45,
-        )
-        resp.raise_for_status()
-        content = resp.json()["choices"][0]["message"]["content"]
+        # Try providers in fallback order
+        chain = [self.provider]
+        if self.enable_fallback:
+            chain.extend(p for p in FALLBACK_CHAIN if p != self.provider)
+
+        last_err: Exception | None = None
+        result_json: dict | None = None
+        payload = {
+            "messages": [
+                {"role": "system", "content": RANKER_SYSTEM_PROMPT},
+                {"role": "user", "content": f"请精排以下 {len(events)} 条事件：\n\n" + "\n".join(summaries)},
+            ],
+            "temperature": 0.1,
+            "response_format": {"type": "json_object"},
+        }
+        for prov in chain:
+            api_key = self._get_key(prov)
+            if not api_key:
+                continue
+            url = PROVIDER_DEFAULTS[prov]["url"]
+            try:
+                resp = httpx.post(
+                    url,
+                    headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+                    json={**payload, "model": self._get_model(prov)},
+                    timeout=45,
+                )
+                resp.raise_for_status()
+                result_json = resp.json()
+                break
+            except Exception as e:
+                logger.warning("Ranker via %s failed: %s", prov, str(e)[:200])
+                last_err = e
+                continue
+        if result_json is None:
+            raise RuntimeError(f"All Ranker providers failed: {last_err}")
+
+        content = result_json["choices"][0]["message"]["content"]
         parsed = json.loads(content)
         ranked_ids = parsed.get("ranked_ids", [])
 

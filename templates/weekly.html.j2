@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AI 周报 · W{{ week_num }} · {{ date_start }} → {{ date_end }}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,500&family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../intel.css">
+</head>
+<body>
+
+<div class="progress"><div class="progress__bar" id="progress"></div></div>
+
+<header class="strip" role="banner">
+  <div class="strip__inner">
+    <div class="strip__left">
+      <b>Week {{ "%02d" % week_num }}</b><span class="strip__sep">·</span>{{ date_start }} → {{ date_end }}
+    </div>
+    <div class="strip__center">AI INTEL · WEEKLY</div>
+    <div class="strip__right">
+      <span>YEAR <b>{{ year }}</b></span>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="theme-toggle__dot"></span>
+        <span id="themeLabel">Paper</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="masthead">
+  <div class="masthead__kicker">The AI Desk · Weekly No. {{ week_num }}</div>
+  <h1 class="masthead__title">AI 周报</h1>
+  <div class="masthead__sub">
+    <span>Week <b>{{ "%02d" % week_num }}</b> · <b>{{ year }}</b></span>
+    <span>{{ date_start }} → {{ date_end }}</span>
+    <span>Coverage: <b>capital · product · research · signal</b></span>
+    <span>Edited by <b>self</b></span>
+  </div>
+  <div class="masthead__transparency">
+    <span>Daily reports synthesized <b>{{ stats.daily_count }} / 7</b></span>
+    <span>Total events <b>{{ stats.total_events }}</b></span>
+    <span>Surfaced this issue <b>{{ stats.surfaced }}</b></span>
+    <span>Threaded narratives <b>{{ stats.threads }}</b></span>
+  </div>
+</div>
+
+<div class="wrap">
+<main class="main">
+
+{# ─────────── §01 Weekly Thesis ─────────── #}
+<section id="sec-thesis">
+  <div class="sec-head">
+    <span class="sec-head__num">§ 01</span>
+    <h2 class="sec-head__title">Weekly Thesis</h2>
+    <span class="sec-head__meta">{{ thesis_read_time | default('3 min read') }}</span>
+  </div>
+  <div class="lede">
+    {% for p in thesis_paragraphs %}
+    <p>{{ p }}</p>
+    {% endfor %}
+    <div class="lede__sig">
+      <span>Filed <b>{{ filed_time }}</b></span>
+      <span>Reading <b>{{ total_read_time }}</b></span>
+      <span>Confidence <b>{{ confidence | default('medium') }}</b></span>
+    </div>
+  </div>
+</section>
+
+{# ─────────── §02 Capital Flow Table ─────────── #}
+{% if capital_rows %}
+<section id="sec-capital">
+  <div class="sec-head">
+    <span class="sec-head__num">§ 02</span>
+    <h2 class="sec-head__title">资金流向 · 周汇总</h2>
+    <span class="sec-head__meta">{{ capital_rows|length }} rows · {{ capital_total | default('—') }}</span>
+  </div>
+  <table class="cap-table">
+    <thead>
+      <tr>
+        <th>公司</th>
+        <th>金额</th>
+        <th>轮次</th>
+        <th>领投</th>
+        <th>赛道</th>
+        <th>备注</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in capital_rows %}
+      <tr>
+        <td><b>{{ row.company }}</b></td>
+        <td class="num">{{ row.amount }}</td>
+        <td>{{ row.stage }}</td>
+        <td>{{ row.lead }}</td>
+        <td>{{ row.sector }}</td>
+        <td class="muted">{{ row.note }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% if capital_summary %}
+  <p class="entry__take">{{ capital_summary }}</p>
+  {% endif %}
+</section>
+{% endif %}
+
+{# ─────────── §03 Narrative Arc ─────────── #}
+{% if narrative_days %}
+<section id="sec-arc">
+  <div class="sec-head">
+    <span class="sec-head__num">§ 03</span>
+    <h2 class="sec-head__title">叙事收敛</h2>
+    <span class="sec-head__meta">7-day arc</span>
+  </div>
+  <div class="timeline">
+    {% for day in narrative_days %}
+    <div class="timeline__day">
+      <div class="timeline__date">{{ day.date }} · {{ day.weekday }}</div>
+      <div>
+        <span class="timeline__node timeline__node--{{ day.sentiment }}"></span>
+        {{ day.event }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% if narrative_conclusion %}
+  <p class="entry__take">{{ narrative_conclusion }}</p>
+  {% endif %}
+</section>
+{% endif %}
+
+{# ─────────── §04 Reversed / Debunked ─────────── #}
+{% if reversed_items %}
+<section id="sec-reversed">
+  <div class="sec-head">
+    <span class="sec-head__num">§ 04</span>
+    <h2 class="sec-head__title">被证伪 / 反转</h2>
+    <span class="sec-head__meta">{{ reversed_items|length }} entries · the debunk list</span>
+  </div>
+  <div class="entries">
+    {% for r in reversed_items %}
+    <div class="entry">
+      <div class="entry__idx">04.{{ "%02d" % loop.index }}</div>
+      <div class="entry__body">
+        <div class="entry__head">
+          <span class="tag-reversed">REVERSED</span>
+          <span class="entry__name">{{ r.headline }}</span>
+        </div>
+        <p class="entry__take">{{ r.detail }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{# ─────────── §05 Signal Continuity ─────────── #}
+{% if continuity_topics %}
+<section id="sec-continuity">
+  <div class="sec-head">
+    <span class="sec-head__num">§ 05</span>
+    <h2 class="sec-head__title">连续性信号</h2>
+    <span class="sec-head__meta">trend vs noise</span>
+  </div>
+  <table class="continuity">
+    <thead>
+      <tr>
+        <th style="text-align:left">Topic</th>
+        <th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th>
+        <th>Strength</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for t in continuity_topics %}
+      <tr>
+        <td class="topic">{{ t.topic }}</td>
+        {% for d in t.days %}
+        <td><span class="day-cell{% if d %} day-cell--on{% endif %}"></span></td>
+        {% endfor %}
+        <td><b>{{ t.strength }}</b></td>
+        <td class="muted">{{ t.action }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endif %}
+
+{# ─────────── §06 Product Winners ─────────── #}
+{% if product_winners %}
+<section id="sec-products">
+  <div class="sec-head">
+    <span class="sec-head__num">§ 06</span>
+    <h2 class="sec-head__title">本周产品赢家</h2>
+    <span class="sec-head__meta">top {{ product_winners|length }} · weekly</span>
+  </div>
+  <div class="entries">
+    {% for p in product_winners %}
+    <div class="entry">
+      <div class="entry__idx">06.{{ "%02d" % loop.index }}</div>
+      <div class="entry__body">
+        <div class="entry__head">
+          <span class="entry__name">{{ p.name }}</span>
+          {% if p.metric %}<span class="entry__metric{% if not p.metric_is_money %} entry__metric--neutral{% endif %}">{{ p.metric }}</span>{% endif %}
+          {% if p.tag %}<span class="entry__tag">{{ p.tag }}</span>{% endif %}
+        </div>
+        {% if p.meta %}<div class="entry__meta">{{ p.meta | safe }}</div>{% endif %}
+        {% if p.take %}<p class="entry__take">{{ p.take }}</p>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{# ─────────── §07 Research Long Reads ─────────── #}
+{% if research_long %}
+<section id="sec-research">
+  <div class="sec-head">
+    <span class="sec-head__num">§ 07</span>
+    <h2 class="sec-head__title">研究长考</h2>
+    <span class="sec-head__meta">commercial path</span>
+  </div>
+  <div class="entries">
+    {% for r in research_long %}
+    <div class="entry">
+      <div class="entry__idx">07.{{ "%02d" % loop.index }}</div>
+      <div class="entry__body">
+        <div class="entry__head">
+          <span class="entry__name">{{ r.title }}</span>
+          {% if r.metric %}<span class="entry__metric entry__metric--neutral">{{ r.metric }}</span>{% endif %}
+          {% if r.tag %}<span class="entry__tag">{{ r.tag }}</span>{% endif %}
+        </div>
+        {% if r.summary %}<p class="entry__take">{{ r.summary }}</p>{% endif %}
+        {% if r.commercial_path %}<div class="entry__meta"><b>商业化路径：</b>{{ r.commercial_path }}</div>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{# ─────────── §08 KOL Weekly Quotes ─────────── #}
+{% if kol_quotes %}
+<section id="sec-kol">
+  <div class="sec-head">
+    <span class="sec-head__num">§ 08</span>
+    <h2 class="sec-head__title">KOL 周金句</h2>
+    <span class="sec-head__meta">top {{ kol_quotes|length }} · ranked by influence</span>
+  </div>
+  <div class="kol-grid">
+    {% for k in kol_quotes %}
+    <div class="kol">
+      <div class="kol__head">
+        <span class="kol__dot kol__dot--{{ k.role }}"></span>
+        <span class="kol__role">{{ k.role_label }}</span>
+        <span class="kol__handle">@{{ k.handle }}</span>
+        <span style="color:var(--ink-3)">·</span>
+        <span style="color:var(--ink-2)">{{ k.source_meta }}</span>
+      </div>
+      <p class="kol__quote">{{ k.quote }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{# ─────────── §09 Next Week Catalysts ─────────── #}
+{% if next_week_calendar %}
+<section id="sec-catalysts">
+  <div class="sec-head">
+    <span class="sec-head__num">§ 09</span>
+    <h2 class="sec-head__title">下周 Catalysts</h2>
+    <span class="sec-head__meta">7 days ahead</span>
+  </div>
+  <div class="timeline">
+    {% for d in next_week_calendar %}
+    <div class="timeline__day">
+      <div class="timeline__date">{{ d.date }} · {{ d.weekday }}</div>
+      <div>{{ d.event }}</div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{# ─────────── §10 Week at a Glance ─────────── #}
+{% if week_glance %}
+<section id="sec-glance">
+  <div class="sec-head">
+    <span class="sec-head__num">§ 10</span>
+    <h2 class="sec-head__title">本周速览</h2>
+    <span class="sec-head__meta">7-day recap</span>
+  </div>
+  <ul class="glance">
+    {% for g in week_glance %}
+    <li>
+      <span class="glance__time">{{ g.day }}</span>
+      <span>{{ g.text }}</span>
+      <span class="glance__src">{{ g.tag }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<div class="colophon">
+  <span>AI INTEL WEEKLY · <b>W{{ "%02d" % week_num }}</b></span>
+  <div class="colophon__transparency">
+    <span>Days <b>{{ stats.daily_count }}/7</b></span>
+    <span>Events <b>{{ stats.total_events }}</b></span>
+    <span>Surfaced <b>{{ stats.surfaced }}</b></span>
+    <span>Threads <b>{{ stats.threads }}</b></span>
+  </div>
+  <span>End of issue · <b>{{ filed_time }}</b></span>
+</div>
+
+</main>
+
+<aside class="rail" aria-label="Table of contents">
+  <div class="rail__wrap">
+    <div class="rail__label">Contents</div>
+    <ol>
+      <li><a href="#sec-thesis">Weekly Thesis</a></li>
+      {% if capital_rows %}<li><a href="#sec-capital">资金流向</a></li>{% endif %}
+      {% if narrative_days %}<li><a href="#sec-arc">叙事收敛</a></li>{% endif %}
+      {% if reversed_items %}<li><a href="#sec-reversed">被证伪</a></li>{% endif %}
+      {% if continuity_topics %}<li><a href="#sec-continuity">连续性信号</a></li>{% endif %}
+      {% if product_winners %}<li><a href="#sec-products">产品赢家</a></li>{% endif %}
+      {% if research_long %}<li><a href="#sec-research">研究长考</a></li>{% endif %}
+      {% if kol_quotes %}<li><a href="#sec-kol">KOL 金句</a></li>{% endif %}
+      {% if next_week_calendar %}<li><a href="#sec-catalysts">下周 Catalysts</a></li>{% endif %}
+      {% if week_glance %}<li><a href="#sec-glance">本周速览</a></li>{% endif %}
+    </ol>
+  </div>
+</aside>
+</div>
+
+<script>
+  (function(){
+    var root = document.documentElement;
+    try { var s = localStorage.getItem('ai-desk-theme'); if (s==='light'||s==='dark') root.setAttribute('data-theme', s); } catch(e){}
+    var btn = document.getElementById('themeToggle'), label = document.getElementById('themeLabel');
+    function sync(){ label.textContent = root.getAttribute('data-theme')==='dark' ? 'Paper' : 'Terminal'; }
+    sync();
+    btn.addEventListener('click', function(){
+      var t = root.getAttribute('data-theme')==='dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', t);
+      try { localStorage.setItem('ai-desk-theme', t); } catch(e){}
+      sync();
+    });
+  })();
+  (function(){
+    var bar = document.getElementById('progress');
+    function tick(){ var h=document.documentElement,s=h.scrollTop||document.body.scrollTop,t=h.scrollHeight-h.clientHeight; bar.style.width=(t>0?(s/t)*100:0)+'%'; }
+    document.addEventListener('scroll', tick, {passive:true});
+    window.addEventListener('resize', tick);
+    tick();
+  })();
+  (function(){
+    var links = document.querySelectorAll('.rail a'), map={};
+    links.forEach(function(a){ var id=a.getAttribute('href').slice(1), sec=document.getElementById(id); if (sec) map[id]={a:a,sec:sec}; });
+    function onScroll(){ var y=window.scrollY+120, active=null; Object.keys(map).forEach(function(k){ if (map[k].sec.offsetTop<=y) active=k; }); links.forEach(function(a){a.classList.remove('is-active');}); if (active && map[active]) map[active].a.classList.add('is-active'); }
+    document.addEventListener('scroll', onScroll, {passive:true});
+    onScroll();
+  })();
+</script>
+
+</body>
+</html>

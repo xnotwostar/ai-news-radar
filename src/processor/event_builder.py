@@ -1,4 +1,8 @@
-"""Event Card generation from tweet clusters using Qwen-Plus (async concurrent)."""
+"""Event Card generation from tweet clusters via async LLM.
+
+Provider can be 'google' (default, OpenAI-compat Gemini) or 'dashscope'.
+Auto-falls back to the secondary if the primary fails (e.g. arrears / 429).
+"""
 
 from __future__ import annotations
 
@@ -14,10 +18,32 @@ from ..schemas import EventCard, EventCategory, EventSource, TweetEmbedded
 
 logger = logging.getLogger(__name__)
 
-DASHSCOPE_CHAT_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
+# Provider URL + key + default model + per-RPM safety concurrency
+PROVIDER_DEFAULTS = {
+    "google": {
+        "url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+        "key_env": "GOOGLE_API_KEY",
+        "model": "gemini-2.5-flash",
+    },
+    "dashscope": {
+        "url": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+        "key_env": "DASHSCOPE_API_KEY",
+        "model": "qwen-plus",
+    },
+    "deepseek": {
+        "url": "https://api.deepseek.com/v1/chat/completions",
+        "key_env": "DEEPSEEK_API_KEY",
+        "model": "deepseek-chat",
+    },
+}
 
-# 并发控制：5路并发 ≈ 75 RPM，安全在 DashScope 120 RPM 限速内
+FALLBACK_CHAIN = ["google", "dashscope", "deepseek"]
+
+# 并发控制：5 路并发，安全在多数 provider 的限速内
 MAX_CONCURRENCY = 5
+
+# Backwards-compat constant for any external imports
+DASHSCOPE_CHAT_URL = PROVIDER_DEFAULTS["dashscope"]["url"]
 
 EVENT_CARD_SYSTEM_PROMPT = """你是一个 AI 行业情报分析助手。给定一组讨论同一事件的推文，提取结构化的 Event Card。
 
@@ -62,11 +88,30 @@ type 判断规则：
 
 
 class EventBuilder:
-    """Build Event Cards from clustered tweets via Qwen-Plus (async concurrent)."""
+    """Build Event Cards from clustered tweets via async LLM with fallback chain."""
 
-    def __init__(self, api_key: str | None = None, model: str = "qwen-plus"):
-        self.api_key = api_key or os.environ["DASHSCOPE_API_KEY"]
-        self.model = model
+    def __init__(
+        self,
+        provider: str = "google",
+        model: str | None = None,
+        api_key: str | None = None,
+        enable_fallback: bool = True,
+    ):
+        if provider not in PROVIDER_DEFAULTS:
+            raise ValueError(f"Unknown LLM provider: {provider}")
+        self.provider = provider
+        defaults = PROVIDER_DEFAULTS[provider]
+        self.model = model or defaults["model"]
+        self._api_key_override = api_key
+        self.enable_fallback = enable_fallback
+
+    def _get_key(self, provider: str) -> str | None:
+        if self._api_key_override and provider == self.provider:
+            return self._api_key_override
+        return os.environ.get(PROVIDER_DEFAULTS[provider]["key_env"])
+
+    def _get_model(self, provider: str) -> str:
+        return self.model if provider == self.provider else PROVIDER_DEFAULTS[provider]["model"]
 
     def build_events(
         self,
@@ -121,6 +166,27 @@ class EventBuilder:
         times = [t.tweet.created_at for t in tweets if t.tweet.created_at]
         return min(times) if times else None
 
+    async def _call_llm_with_fallback(
+        self,
+        client: httpx.AsyncClient,
+        provider: str,
+        payload: dict,
+    ) -> dict:
+        """POST chat completion to a single provider, return parsed JSON content."""
+        api_key = self._get_key(provider)
+        if not api_key:
+            raise RuntimeError(f"Missing key env: {PROVIDER_DEFAULTS[provider]['key_env']}")
+        url = PROVIDER_DEFAULTS[provider]["url"]
+        # Adapt the model name per-provider when falling back
+        payload = {**payload, "model": self._get_model(provider)}
+        resp = await client.post(
+            url,
+            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+            json=payload,
+        )
+        resp.raise_for_status()
+        return resp.json()
+
     async def _call_llm(
         self,
         client: httpx.AsyncClient,
@@ -128,7 +194,7 @@ class EventBuilder:
         tweets: list[TweetEmbedded],
         date_str: str,
     ) -> EventCard:
-        """调用 LLM 生成单个事件卡片。"""
+        """调用 LLM 生成单个事件卡片，带 provider fallback。"""
         # Ensure RSS sources are always included (they have 0 engagement)
         rss_tweets = [t for t in tweets if t.tweet.is_rss]
         twitter_tweets = sorted(
@@ -161,24 +227,35 @@ class EventBuilder:
 
         user_prompt = f"以下推文/文章讨论同一事件，请提取 Event Card：\n\n{tweets_text}"
 
-        resp = await client.post(
-            DASHSCOPE_CHAT_URL,
-            headers={
-                "Authorization": f"Bearer {self.api_key}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": self.model,
-                "messages": [
-                    {"role": "system", "content": EVENT_CARD_SYSTEM_PROMPT},
-                    {"role": "user", "content": user_prompt},
-                ],
-                "temperature": 0.3,
-                "response_format": {"type": "json_object"},
-            },
-        )
-        resp.raise_for_status()
-        content = resp.json()["choices"][0]["message"]["content"]
+        # Build payload once, try each provider in fallback chain
+        payload = {
+            "messages": [
+                {"role": "system", "content": EVENT_CARD_SYSTEM_PROMPT},
+                {"role": "user", "content": user_prompt},
+            ],
+            "temperature": 0.3,
+            "response_format": {"type": "json_object"},
+        }
+
+        chain = [self.provider]
+        if self.enable_fallback:
+            chain.extend(p for p in FALLBACK_CHAIN if p != self.provider)
+
+        last_err: Exception | None = None
+        result_json: dict | None = None
+        for prov in chain:
+            try:
+                result_json = await self._call_llm_with_fallback(client, prov, payload)
+                break
+            except Exception as e:
+                logger.warning("EventBuilder via %s failed for cluster %d: %s",
+                               prov, cluster_id, str(e)[:200])
+                last_err = e
+                continue
+        if result_json is None:
+            raise RuntimeError(f"All EventBuilder providers failed: {last_err}")
+
+        content = result_json["choices"][0]["message"]["content"]
         parsed = json.loads(content)
 
         # Put RSS sources first so report writer presents media URLs prominently

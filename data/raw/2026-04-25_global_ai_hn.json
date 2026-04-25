@@ -2,35 +2,35 @@
   {
     "id": "hn_47892074",
     "author": "elffjs",
-    "text": "Google plans to invest up to $40B in Anthropic — https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic [577 pts · 552 comments]",
-    "score": 577,
-    "comments": 552,
+    "text": "Google plans to invest up to $40B in Anthropic — https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic [624 pts · 610 comments]",
+    "score": 624,
+    "comments": 610,
     "url": "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic",
     "created_at": "2026-04-24 16:04:41+00:00"
   },
   {
     "id": "hn_47884971",
     "author": "impact_sy",
-    "text": "DeepSeek v4 — https://api-docs.deepseek.com/news/news260424 [1904 pts · 1478 comments]",
-    "score": 1904,
-    "comments": 1478,
+    "text": "DeepSeek v4 — https://api-docs.deepseek.com/news/news260424 [1942 pts · 1491 comments]",
+    "score": 1942,
+    "comments": 1491,
     "url": "https://api-docs.deepseek.com/news/news260424",
     "created_at": "2026-04-24 03:01:21+00:00"
   },
   {
     "id": "hn_47892019",
     "author": "y42",
-    "text": "I cancelled Claude: Token issues, declining quality, and poor support — https://nickyreinert.de/en/2026/2026-04-24-claude-critics/ [871 pts · 509 comments]",
-    "score": 871,
-    "comments": 509,
+    "text": "I cancelled Claude: Token issues, declining quality, and poor support — https://nickyreinert.de/en/2026/2026-04-24-claude-critics/ [886 pts · 525 comments]",
+    "score": 886,
+    "comments": 525,
     "url": "https://nickyreinert.de/en/2026/2026-04-24-claude-critics/",
     "created_at": "2026-04-24 15:59:19+00:00"
   },
   {
     "id": "hn_47888465",
     "author": "AndrewVos",
-    "text": "Hear your agent suffer through your code — https://github.com/AndrewVos/endless-toil [189 pts · 84 comments]",
-    "score": 189,
+    "text": "Hear your agent suffer through your code — https://github.com/AndrewVos/endless-toil [194 pts · 84 comments]",
+    "score": 194,
     "comments": 84,
     "url": "https://github.com/AndrewVos/endless-toil",
     "created_at": "2026-04-24 10:58:45+00:00"
@@ -38,17 +38,26 @@
   {
     "id": "hn_47894000",
     "author": "arabicalories",
-    "text": "OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API — https://developers.openai.com/api/docs/changelog [234 pts · 129 comments]",
-    "score": 234,
-    "comments": 129,
+    "text": "OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API — https://developers.openai.com/api/docs/changelog [243 pts · 134 comments]",
+    "score": 243,
+    "comments": 134,
     "url": "https://developers.openai.com/api/docs/changelog",
     "created_at": "2026-04-24 18:23:32+00:00"
   },
   {
+    "id": "hn_47899844",
+    "author": "najmuzzaman",
+    "text": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git) — https://github.com/nex-crm/wuphf [95 pts · 41 comments]",
+    "score": 95,
+    "comments": 41,
+    "url": "https://github.com/nex-crm/wuphf",
+    "created_at": "2026-04-25 08:53:53+00:00"
+  },
+  {
     "id": "hn_47890841",
     "author": "gregpr07",
-    "text": "Show HN: Browser Harness – Gives LLM freedom to complete any browser task — https://github.com/browser-use/browser-harness [100 pts · 53 comments]",
-    "score": 100,
+    "text": "Show HN: Browser Harness – Gives LLM freedom to complete any browser task — https://github.com/browser-use/browser-harness [107 pts · 53 comments]",
+    "score": 107,
     "comments": 53,
     "url": "https://github.com/browser-use/browser-harness",
     "created_at": "2026-04-24 14:31:38+00:00"
