@@ -1,77 +1,97 @@
-# Newsletter RSS feeds (via Kill the Newsletter)
-# Each entry: name, rss_url, tier, category, weight
+# Newsletter RSS feeds.
 #
-# tier:        T1 = human-curated newsletter (highest ROI)
-# category:    investment | products | research | strategy
-# weight:      ranker boost factor when items from this source enter pipeline
+# Strategy: prefer native RSS (Substack / Beehiiv / personal blogs) over
+# Kill the Newsletter wrappers — natives are always populated, no email
+# subscription dance, no waiting for first issue.
+#
+# Only fall back to KTN for paywalled / no-public-RSS newsletters
+# (currently: Axios Pro Rata, Term Sheet).
+#
+# Each entry: name, rss_url, tier, category, weight, lookback_hours
 
 newsletters:
+  # ── Native RSS (8 of 10) — works out of the box ───────────────
+
+  - name: "StrictlyVC"
+    rss_url: "https://www.strictlyvc.com/feed/"
+    tier: T1
+    category: investment
+    weight: 4.5
+    lookback_hours: 168
+    notes: "Connie Loizos · 每日"
+
+  - name: "The Generalist"
+    rss_url: "https://www.generalist.com/feed"
+    tier: T1
+    category: investment
+    weight: 4.0
+    lookback_hours: 336
+    notes: "Mario Gabriele · AI 投资 thesis 最深度"
+
+  - name: "Big Technology"
+    rss_url: "https://www.bigtechnology.com/feed"
+    tier: T1
+    category: strategy
+    weight: 4.5
+    lookback_hours: 168
+    notes: "Alex Kantrowitz · OpenAI/Anthropic/Google 内部政治"
+
+  - name: "Stratechery Free"
+    rss_url: "https://stratechery.com/feed/"
+    tier: T1
+    category: strategy
+    weight: 4.0
+    lookback_hours: 168
+    notes: "Ben Thompson · 周一免费战略分析"
+
+  - name: "Ben's Bites"
+    rss_url: "https://www.bensbites.com/feed"
+    tier: T1
+    category: products
+    weight: 3.0
+    lookback_hours: 72
+    notes: "每日 AI 工具人工精选"
+
+  - name: "Import AI"
+    rss_url: "https://importai.substack.com/feed"
+    tier: T1
+    category: research
+    weight: 2.5
+    lookback_hours: 336
+    notes: "Jack Clark (Anthropic policy) · 周报"
+
+  - name: "Not Boring"
+    rss_url: "https://www.notboring.co/feed"
+    tier: T1
+    category: investment
+    weight: 4.0
+    lookback_hours: 336
+    notes: "Packy McCormick · thesis 驱动"
+
+  - name: "Exponential View"
+    rss_url: "https://www.exponentialview.co/feed"
+    tier: T1
+    category: strategy
+    weight: 3.5
+    lookback_hours: 168
+    notes: "Azeem Azhar · 周度宏观"
+
+  # ── Kill the Newsletter (2 of 10) — Axios + Term Sheet only ──
+  # 这两个没有公开 RSS（付费/订阅墙），只能走 KTN 邮件转 RSS。
+  # 启动条件：你必须先用对应的 KTN 邮箱在源站订阅 + 等首封邮件到达。
+
   - name: "Axios Pro Rata"
     rss_url: "https://kill-the-newsletter.com/feeds/plutgrx6aof72tnud0ox.xml"
     tier: T1
     category: investment
     weight: 5.0
-    notes: "每日 VC 精选，覆盖 70% 一级市场动向"
+    lookback_hours: 72
+    notes: "需要 KTN 启动：每日 VC 精选"
 
   - name: "Term Sheet (Fortune)"
     rss_url: "https://kill-the-newsletter.com/feeds/jgoc75rx5fif2pwm5p2z.xml"
     tier: T1
     category: investment
     weight: 5.0
-    notes: "每日，免费版"
-
-  - name: "StrictlyVC"
-    rss_url: "https://kill-the-newsletter.com/feeds/f54ltgmytle3onwjw4w8.xml"
-    tier: T1
-    category: investment
-    weight: 4.5
-    notes: "Connie Loizos 主编，每日"
-
-  - name: "The Generalist"
-    rss_url: "https://kill-the-newsletter.com/feeds/wubey0qc5xxllp45o4na.xml"
-    tier: T1
-    category: investment
-    weight: 4.0
-    notes: "Mario Gabriele · AI 投资 thesis 最深度"
-
-  - name: "Big Technology"
-    rss_url: "https://kill-the-newsletter.com/feeds/bwgf2m8i5wy4qqmh6eox.xml"
-    tier: T1
-    category: strategy
-    weight: 4.5
-    notes: "Alex Kantrowitz · OpenAI/Anthropic/Google 内部政治"
-
-  - name: "Stratechery Free"
-    rss_url: "https://kill-the-newsletter.com/feeds/qc9nlvaawj23waa59dm2.xml"
-    tier: T1
-    category: strategy
-    weight: 4.0
-    notes: "Ben Thompson · 周一免费战略分析"
-
-  - name: "Ben's Bites"
-    rss_url: "https://kill-the-newsletter.com/feeds/r8f54pk7ibvwz7skc36f.xml"
-    tier: T1
-    category: products
-    weight: 3.0
-    notes: "每日 AI 工具人工精选"
-
-  - name: "Import AI"
-    rss_url: "https://kill-the-newsletter.com/feeds/a4w38snod5m23ovp0v8x.xml"
-    tier: T1
-    category: research
-    weight: 2.5
-    notes: "Jack Clark (Anthropic policy) · 研究+政策周报"
-
-  - name: "Not Boring"
-    rss_url: "https://kill-the-newsletter.com/feeds/s8ma8dik4furjoqa89il.xml"
-    tier: T1
-    category: investment
-    weight: 4.0
-    notes: "Packy McCormick · thesis 驱动的 AI 视角"
-
-  - name: "Exponential View"
-    rss_url: "https://kill-the-newsletter.com/feeds/f5i0yp68n2smx9ghm5my.xml"
-    tier: T1
-    category: strategy
-    weight: 3.5
-    notes: "Azeem Azhar · 周度 AI 宏观分析"
+    lookback_hours: 72
+    notes: "需要 KTN 启动：Fortune 每日 VC"
