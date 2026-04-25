@@ -1,16 +1,12 @@
-# Newsletter RSS feeds.
+# Newsletter RSS feeds — all native RSS, no KTN dance required.
 #
-# Strategy: prefer native RSS (Substack / Beehiiv / personal blogs) over
-# Kill the Newsletter wrappers — natives are always populated, no email
-# subscription dance, no waiting for first issue.
-#
-# Only fall back to KTN for paywalled / no-public-RSS newsletters
-# (currently: Axios Pro Rata, Term Sheet).
+# Decision: dropped Axios Pro Rata + Term Sheet because they have no public RSS
+# and required Kill the Newsletter email subscription (friction). The 8 sources
+# below cover investment / strategy / products / research with high signal density.
 #
 # Each entry: name, rss_url, tier, category, weight, lookback_hours
 
 newsletters:
-  # ── Native RSS (8 of 10) — works out of the box ───────────────
 
   - name: "StrictlyVC"
     rss_url: "https://www.strictlyvc.com/feed/"
@@ -75,23 +71,3 @@ newsletters:
     weight: 3.5
     lookback_hours: 168
     notes: "Azeem Azhar · 周度宏观"
-
-  # ── Kill the Newsletter (2 of 10) — Axios + Term Sheet only ──
-  # 这两个没有公开 RSS（付费/订阅墙），只能走 KTN 邮件转 RSS。
-  # 启动条件：你必须先用对应的 KTN 邮箱在源站订阅 + 等首封邮件到达。
-
-  - name: "Axios Pro Rata"
-    rss_url: "https://kill-the-newsletter.com/feeds/plutgrx6aof72tnud0ox.xml"
-    tier: T1
-    category: investment
-    weight: 5.0
-    lookback_hours: 72
-    notes: "需要 KTN 启动：每日 VC 精选"
-
-  - name: "Term Sheet (Fortune)"
-    rss_url: "https://kill-the-newsletter.com/feeds/jgoc75rx5fif2pwm5p2z.xml"
-    tier: T1
-    category: investment
-    weight: 5.0
-    lookback_hours: 72
-    notes: "需要 KTN 启动：Fortune 每日 VC"
