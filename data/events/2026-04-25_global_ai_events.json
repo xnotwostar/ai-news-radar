@@ -1,0 +1,244 @@
+[
+  {
+    "event_id": "evt_20260425_000",
+    "title": "📌 https://t.co/3E2XKw18IW",
+    "category": "other",
+    "importance": 3.0,
+    "sources": [
+      {
+        "author": "garrytan",
+        "text": "https://t.co/3E2XKw18IW",
+        "engagement": 1769,
+        "bookmark_count": 4298,
+        "like_count": 1483,
+        "author_tier": "s_investor",
+        "url": "https://x.com/garrytan/status/2046876981711769720"
+      }
+    ],
+    "key_facts": [],
+    "analyst_angle": "",
+    "cluster_size": 8,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260425_001",
+    "title": "📌 Show HN: Browser Harness – Gives LLM freedom to complete any browser task — http",
+    "category": "other",
+    "importance": 3.0,
+    "sources": [
+      {
+        "author": "gregpr07",
+        "text": "Show HN: Browser Harness – Gives LLM freedom to complete any browser task — https://github.com/browser-use/browser-harness [100 pts · 53 comments]",
+        "engagement": 153,
+        "bookmark_count": 0,
+        "like_count": 100,
+        "author_tier": "t2_community",
+        "url": "https://github.com/browser-use/browser-harness"
+      }
+    ],
+    "key_facts": [],
+    "analyst_angle": "",
+    "cluster_size": 2,
+    "event_time": "2026-04-24T14:31:38Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260425_002",
+    "title": "📌 We tried a new thing with NVIDIA to roll out Codex across a whole company and it",
+    "category": "other",
+    "importance": 3.0,
+    "sources": [
+      {
+        "author": "sama",
+        "text": "We tried a new thing with NVIDIA to roll out Codex across a whole company and it was awesome to see it work.\n\nLet us know if you'd like to do it at your company! https://t.co/Xjn6ShrRuq",
+        "engagement": 8951,
+        "bookmark_count": 1101,
+        "like_count": 7960,
+        "author_tier": "s_founder",
+        "url": "https://x.com/sama/status/2047395562501411058"
+      }
+    ],
+    "key_facts": [],
+    "analyst_angle": "",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260425_003",
+    "title": "📌 Google plans to invest up to $40B in Anthropic — https://www.bloomberg.com/news/",
+    "category": "other",
+    "importance": 3.0,
+    "sources": [
+      {
+        "author": "elffjs",
+        "text": "Google plans to invest up to $40B in Anthropic — https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic [577 pts · 552 comments]",
+        "engagement": 1129,
+        "bookmark_count": 0,
+        "like_count": 577,
+        "author_tier": "t2_community",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic"
+      }
+    ],
+    "key_facts": [],
+    "analyst_angle": "",
+    "cluster_size": 6,
+    "event_time": "2026-04-24T16:04:41Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260425_004",
+    "title": "📌 Marked-up Mac minis flood eBay amid shortages driven by AI. Apple’s sold-out Mac",
+    "category": "other",
+    "importance": 3.0,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Marked-up Mac minis flood eBay amid shortages driven by AI. Apple’s sold-out Mac mini is spawning marked-up eBay listings as demand surges for the compact desktop, now favored for running local AI mod",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/"
+      }
+    ],
+    "key_facts": [],
+    "analyst_angle": "",
+    "cluster_size": 4,
+    "event_time": "2026-04-24T16:42:19Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260425_005",
+    "title": "📌 DeepSeek v4 — https://api-docs.deepseek.com/news/news260424 [1904 pts · 1478 com",
+    "category": "other",
+    "importance": 3.0,
+    "sources": [
+      {
+        "author": "impact_sy",
+        "text": "DeepSeek v4 — https://api-docs.deepseek.com/news/news260424 [1904 pts · 1478 comments]",
+        "engagement": 3382,
+        "bookmark_count": 0,
+        "like_count": 1904,
+        "author_tier": "t2_community",
+        "url": "https://api-docs.deepseek.com/news/news260424"
+      }
+    ],
+    "key_facts": [],
+    "analyst_angle": "",
+    "cluster_size": 6,
+    "event_time": "2026-04-24T03:01:21Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260425_006",
+    "title": "📌 In another wild turn for AI chips, Meta signs deal for millions of Amazon AI CPU",
+    "category": "other",
+    "importance": 3.0,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "In another wild turn for AI chips, Meta signs deal for millions of Amazon AI CPUs. Meta has commandeered a big chunk of Amazon's homegrown CPUs (not GPUs) for AI agentic workloads, signaling that a ne",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/"
+      }
+    ],
+    "key_facts": [],
+    "analyst_angle": "",
+    "cluster_size": 2,
+    "event_time": "2026-04-24T12:00:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260425_007",
+    "title": "📌 Bond Is a New Social Media App That Encourages You to Get Offline. The app will ",
+    "category": "other",
+    "importance": 3.0,
+    "sources": [
+      {
+        "author": "CNET",
+        "text": "Bond Is a New Social Media App That Encourages You to Get Offline. The app will recommend things for you to do with your friends IRL, like concerts, based on the activities you share.",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://www.cnet.com/news/social-media/bond-app-discourages-doomscrolling-friends-irl-news/"
+      }
+    ],
+    "key_facts": [],
+    "analyst_angle": "",
+    "cluster_size": 2,
+    "event_time": "2026-04-24T18:10:56Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260425_008",
+    "title": "📌 \"don't retweet this, don't retweet this, don't retweet this...\"\n\nah fuck it, lif",
+    "category": "other",
+    "importance": 3.0,
+    "sources": [
+      {
+        "author": "sama",
+        "text": "\"don't retweet this, don't retweet this, don't retweet this...\"\n\nah fuck it, life imitates art.",
+        "engagement": 5847,
+        "bookmark_count": 623,
+        "like_count": 5150,
+        "author_tier": "s_founder",
+        "url": "https://x.com/sama/status/2047403771416940715"
+      }
+    ],
+    "key_facts": [],
+    "analyst_angle": "",
+    "cluster_size": 5,
+    "event_time": "2026-04-24T15:59:19Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260425_009",
+    "title": "📌 LiteParse is really neat! It does a great job of extracting text from annoying l",
+    "category": "other",
+    "importance": 3.0,
+    "sources": [
+      {
+        "author": "simonw",
+        "text": "LiteParse is really neat! It does a great job of extracting text from annoying layouts in PDFs (multiple columns for example)\n\nIt's only available as a Node.js CLI app, so I vibe-coded up this version",
+        "engagement": 909,
+        "bookmark_count": 796,
+        "like_count": 792,
+        "author_tier": "a_engineering",
+        "url": "https://x.com/simonw/status/2047434783962354130"
+      }
+    ],
+    "key_facts": [],
+    "analyst_angle": "",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260425_010",
+    "title": "📌 I find this conversation foreign - along with the argument that we are \"data cen",
+    "category": "other",
+    "importance": 3.0,
+    "sources": [
+      {
+        "author": "bgurley",
+        "text": "I find this conversation foreign - along with the argument that we are \"data center constrained\" or \"energy constrained.\" Historically, in markets - price is the leveler of supply and demand. If you h",
+        "engagement": 665,
+        "bookmark_count": 316,
+        "like_count": 580,
+        "author_tier": "s_investor",
+        "url": "https://x.com/bgurley/status/2047362384562700385"
+      }
+    ],
+    "key_facts": [],
+    "analyst_angle": "",
+    "cluster_size": 5,
+    "event_time": "2026-04-24T10:58:45Z",
+    "event_type": "news"
+  }
+]
