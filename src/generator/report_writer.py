@@ -1,4 +1,8 @@
-"""Report generation: Event Cards / Trending → DingTalk Markdown via LLM."""
+"""Report generation: Event Cards / Trending → Markdown via LLM.
+
+Output is conservative Markdown (no tables / no code blocks / no horizontal rules)
+so it renders well in any consumer (GitHub Pages, Obsidian, plain editors).
+"""
 
 from __future__ import annotations
 
@@ -17,7 +21,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
 
 class ReportWriter:
-    """Generate final DingTalk Markdown reports using LLM fallback chain."""
+    """Generate final Markdown reports using LLM fallback chain."""
 
     def __init__(self, llm_client: LLMClient):
         self.llm = llm_client

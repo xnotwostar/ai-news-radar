@@ -4,30 +4,24 @@ pipelines:
       type: apify_list
       list_id: "${APIFY_GLOBAL_LIST_ID}"
     processing:
-      embed_model: text-embedding-v4
+      embed_model: gemini-embedding-001
       cluster_threshold: 0.82
       cluster_algorithm: hdbscan
     generation:
       prompt_file: prompts/report_global.txt
-    push:
-      webhook_env: DINGTALK_GLOBAL_WEBHOOK
-      serverchan_key_env: SERVERCHAN_KEY
 
   china_ai:
     source:
       type: apify_list
       list_id: "${APIFY_CHINA_LIST_ID}"
     processing:
-      embed_model: text-embedding-v4
+      embed_model: gemini-embedding-001
       cluster_threshold: 0.82
       cluster_algorithm: hdbscan
     generation:
       prompt_file: prompts/report_china.txt
-    push:
-      webhook_env: DINGTALK_CHINA_WEBHOOK
-      serverchan_key_env: SERVERCHAN_KEY
 
-  # Trending data is auto-merged into china_ai pipeline (no standalone push)
+  # Trending data is auto-merged into china_ai pipeline (no standalone publish)
   trending:
     source:
       type: newsnow_api
@@ -36,5 +30,3 @@ pipelines:
       embed_model: null
     generation:
       prompt_file: prompts/report_china.txt
-    push:
-      webhook_env: DINGTALK_CHINA_WEBHOOK

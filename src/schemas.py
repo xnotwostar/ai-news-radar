@@ -144,16 +144,10 @@ class GenerationConfig(BaseModel):
     prompt_file: str
 
 
-class PushConfig(BaseModel):
-    webhook_env: str
-    serverchan_key_env: Optional[str] = None
-
-
 class PipelineConfig(BaseModel):
     source: SourceConfig
     processing: ProcessingConfig
     generation: GenerationConfig
-    push: PushConfig
 
 
 # ---------------------------------------------------------------------------

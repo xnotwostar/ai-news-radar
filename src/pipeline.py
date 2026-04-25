@@ -43,7 +43,6 @@ from .collector import (
 from .processor import Clusterer, Embedder, EventBuilder, HistoryDeduplicator, Ranker
 from .generator import LLMClient, ReportWriter
 from .publisher import HtmlPublisher
-from .pusher import DingTalkPusher, ServerChanPusher
 
 logging.basicConfig(
     level=logging.INFO,
@@ -228,35 +227,37 @@ def run_twitter_pipeline(
     _save_report(report, f"{date_str}_{name}.md")
 
     # Step 7: Publish HTML for GitHub Pages
-    report_url = None
-    pages_base = os.environ.get("PAGES_URL", "").rstrip("/")
     title_map = {"global_ai": "🌍 全球AI洞察", "china_ai": "🇨🇳 中文圈AI洞察"}
     try:
         pub = HtmlPublisher()
         pub.publish(report, title_map.get(name, name), date_str, name)
-        if pages_base:
-            report_url = f"{pages_base}/reports/{date_str}_{name}.html"
-            logger.info("Report URL: %s", report_url)
     except Exception as e:
         logger.error("HTML publish failed for %s: %s", name, e)
 
-    # Step 8: Push to DingTalk (skip if --no-push)
-    if not os.environ.get("NO_PUSH"):
-        try:
-            pusher = DingTalkPusher(webhook_env=config.push.webhook_env)
-            pusher.push(title_map.get(name, name), report, report_url=report_url)
-        except Exception as e:
-            logger.error("DingTalk push failed for %s: %s", name, e)
+    # Step 7b: Render Jinja2 visual layer (FT × Bloomberg theme)
+    try:
+        from pathlib import Path
+        from .publisher import JinjaPublisher
+        jpub = JinjaPublisher()
+        jpub.render_daily(
+            events=events,
+            report_markdown=report,
+            date_str=date_str,
+            issue_no=int(date_str.replace("-", ""))%1000,
+            output_path=Path(__file__).resolve().parent.parent / "docs" / "reports" / f"{date_str}_{name}_v2.html",
+        )
+    except Exception as e:
+        logger.warning("Jinja v2 render failed for %s: %s", name, e)
 
-        # Step 9: Push to ServerChan (WeChat)
-        if config.push.serverchan_key_env and os.environ.get(config.push.serverchan_key_env):
-            try:
-                sc_pusher = ServerChanPusher(key_env=config.push.serverchan_key_env)
-                sc_pusher.push(title_map.get(name, name), report, report_url=report_url)
-            except Exception as e:
-                logger.error("ServerChan push failed for %s: %s", name, e)
-    else:
-        logger.info("Skipping push for %s (NO_PUSH=1)", name)
+    # Step 7c: Archive to Obsidian vault (best-effort; skip if vault not present)
+    if not os.environ.get("NO_OBSIDIAN"):
+        try:
+            from .publisher import ObsidianPublisher
+            ObsidianPublisher(git_push=False).publish_daily(report, name, date_str)
+        except (FileNotFoundError, RuntimeError) as e:
+            logger.info("Obsidian archive skipped for %s: %s", name, e)
+        except Exception as e:
+            logger.warning("Obsidian archive failed for %s: %s", name, e)
 
     logger.info("Pipeline %s completed: %d events → report", name, len(events))
     return report
@@ -327,9 +328,8 @@ def main(pipeline_names: list[str] | None = None) -> None:
         sys.exit(1)
 
     # Execute in order: global → china (with trending merged in)
-    # trending data is automatically merged into china_ai, no separate push
     execution_order = ["global_ai", "china_ai"]
-    push_interval = 60  # seconds between pipeline pushes (Gemini free tier rate limit)
+    pipeline_interval = 60  # seconds between pipelines (Gemini free tier rate limit)
 
     # Get trending config so china_ai can pull its data
     trending_config = pipelines.get("trending")
@@ -351,73 +351,18 @@ def main(pipeline_names: list[str] | None = None) -> None:
             logger.error("Pipeline %s FAILED: %s", name, e, exc_info=True)
             continue
 
-        # Wait between pushes (per design doc)
+        # Wait between pipelines to avoid rate limits
         remaining = [n for n in execution_order[i+1:] if n in to_run]
         if remaining:
-            logger.info("Waiting %ds before next pipeline...", push_interval)
-            time.sleep(push_interval)
+            logger.info("Waiting %ds before next pipeline...", pipeline_interval)
+            time.sleep(pipeline_interval)
 
     logger.info("All pipelines completed.")
 
 
-def push_only(date_str: str | None = None) -> None:
-    """Read saved reports from data/reports/ and push to DingTalk + ServerChan.
-
-    Used after Pages deployment to send notifications with valid URLs.
-    """
-    if not date_str:
-        date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-
-    pipelines, _, _ = load_configs()
-    pages_base = os.environ.get("PAGES_URL", "").rstrip("/")
-    title_map = {"global_ai": "🌍 全球AI洞察", "china_ai": "🇨🇳 中文圈AI洞察"}
-    push_interval = 30
-
-    for i, name in enumerate(["global_ai", "china_ai"]):
-        if name not in pipelines:
-            continue
-        config = pipelines[name]
-
-        report_path = DATA_DIR / "reports" / f"{date_str}_{name}.md"
-        if not report_path.exists():
-            logger.warning("No report found: %s, skipping push", report_path)
-            continue
-
-        report = report_path.read_text(encoding="utf-8")
-        report_url = f"{pages_base}/reports/{date_str}_{name}.html" if pages_base else None
-        title = title_map.get(name, name)
-
-        logger.info("Pushing %s (%d chars), URL: %s", name, len(report), report_url)
-
-        try:
-            pusher = DingTalkPusher(webhook_env=config.push.webhook_env)
-            pusher.push(title, report, report_url=report_url)
-        except Exception as e:
-            logger.error("DingTalk push failed for %s: %s", name, e)
-
-        if config.push.serverchan_key_env and os.environ.get(config.push.serverchan_key_env):
-            try:
-                sc_pusher = ServerChanPusher(key_env=config.push.serverchan_key_env)
-                sc_pusher.push(title, report, report_url=report_url)
-            except Exception as e:
-                logger.error("ServerChan push failed for %s: %s", name, e)
-
-        if i == 0:
-            logger.info("Waiting %ds before next push...", push_interval)
-            time.sleep(push_interval)
-
-    logger.info("Push-only completed.")
-
-
 if __name__ == "__main__":
     args = sys.argv[1:]
-    if args and args[0] == "--push-only":
-        push_only(args[1] if len(args) > 1 else None)
-    else:
-        if "--no-push" in args:
-            os.environ["NO_PUSH"] = "1"
-            args = [a for a in args if a != "--no-push"]
-        if "--no-dedup" in args:
-            os.environ["NO_DEDUP"] = "1"
-            args = [a for a in args if a != "--no-dedup"]
-        main(args if args else None)
+    if "--no-dedup" in args:
+        os.environ["NO_DEDUP"] = "1"
+        args = [a for a in args if a != "--no-dedup"]
+    main(args if args else None)
