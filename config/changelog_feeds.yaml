@@ -4,23 +4,27 @@
 #
 # tier:    T0 = primary truth (official statements)
 # category: changelog | research | strategy | hardware
+# lookback_hours: per-feed time window (default 24). T0/T1 低频源放宽到 72 因为
+#   多数大厂博客 1-2 天发一次。
 
 changelogs:
   # ── 模型公司一手 blog ─────────────────────
   - name: "OpenAI Blog"
-    rss_url: "https://openai.com/blog/rss/"
-    tier: T0
-    category: changelog
-    weight: 4.0
-    keyword_filter: false   # AI-specific source
-
-  - name: "Anthropic News"
-    rss_url: "https://rsshub.app/anthropic/news"
+    rss_url: "https://openai.com/news/rss.xml"
     tier: T0
     category: changelog
     weight: 4.0
     keyword_filter: false
-    notes: "走 RSSHub，因为 anthropic.com 官方无 RSS"
+    lookback_hours: 72
+
+  - name: "Anthropic News"
+    rss_url: "https://rsshub.rssforever.com/anthropic/news"
+    tier: T0
+    category: changelog
+    weight: 4.0
+    keyword_filter: false
+    lookback_hours: 72
+    notes: "走 rssforever 镜像（rsshub.app 经常 403）"
 
   - name: "Google DeepMind"
     rss_url: "https://deepmind.google/blog/feed/"
@@ -28,13 +32,7 @@ changelogs:
     category: research
     weight: 4.0
     keyword_filter: false
-
-  - name: "Meta AI Blog"
-    rss_url: "https://ai.meta.com/blog/rss/"
-    tier: T0
-    category: changelog
-    weight: 3.5
-    keyword_filter: false
+    lookback_hours: 168   # weekly cadence
 
   - name: "Hugging Face Blog"
     rss_url: "https://huggingface.co/blog/feed.xml"
@@ -42,6 +40,7 @@ changelogs:
     category: changelog
     weight: 3.0
     keyword_filter: false
+    lookback_hours: 72
 
   - name: "NVIDIA Developer Blog"
     rss_url: "https://developer.nvidia.com/blog/feed/"
@@ -49,6 +48,7 @@ changelogs:
     category: hardware
     weight: 3.5
     keyword_filter: false
+    lookback_hours: 72
 
   # ── 中国头部模型 ─────────────────────
   - name: "DeepSeek Releases"
@@ -57,14 +57,16 @@ changelogs:
     category: changelog
     weight: 4.0
     keyword_filter: false
-    notes: "GitHub releases atom feed"
+    lookback_hours: 168
 
-  - name: "Qwen Releases"
-    rss_url: "https://github.com/QwenLM/Qwen3/releases.atom"
+  - name: "Qwen Agent Releases"
+    rss_url: "https://github.com/QwenLM/Qwen-Agent/releases.atom"
     tier: T0
     category: changelog
     weight: 3.5
     keyword_filter: false
+    lookback_hours: 168
+    notes: "Qwen-Agent 比 Qwen3 release 更频繁"
 
   # ── 工程深度 blog（极少数高密度个人 blog）─
   - name: "Simon Willison"
@@ -73,7 +75,7 @@ changelogs:
     category: products
     weight: 3.0
     keyword_filter: false
-    notes: "每周几篇 LLM 实操深度笔记"
+    lookback_hours: 72
 
   - name: "Lilian Weng"
     rss_url: "https://lilianweng.github.io/index.xml"
@@ -81,7 +83,8 @@ changelogs:
     category: research
     weight: 2.5
     keyword_filter: false
-    notes: "OpenAI 应用研究负责人"
+    lookback_hours: 720   # 月级，ANY new post is gold
+    notes: "OpenAI 应用研究负责人，月更"
 
   - name: "Sebastian Raschka"
     rss_url: "https://magazine.sebastianraschka.com/feed"
@@ -89,7 +92,7 @@ changelogs:
     category: research
     weight: 2.5
     keyword_filter: false
-    notes: "LLM 工程实操最深"
+    lookback_hours: 168
 
   # ── 硬件经济（投资关键源）──────────────
   - name: "SemiAnalysis Free"
@@ -98,6 +101,7 @@ changelogs:
     category: hardware
     weight: 5.0
     keyword_filter: false
+    lookback_hours: 168
     notes: "Dylan Patel · AI 基础设施经济学"
 
   # ── 产品发现（"今日新品"主源）─────────────
@@ -107,4 +111,11 @@ changelogs:
     category: products
     weight: 3.5
     keyword_filter: false
-    notes: "PH AI 分类，每天 50 个新品"
+    lookback_hours: 48
+    notes: "PH AI 分类，每天 50 个新品（pubDate 是用户提交日期）"
+
+# ── 已知没有可用 RSS 的源（在 X List 或社区源覆盖）─────────
+# - Meta AI Blog: 无官方 RSS。Meta 动态通过 X List 的 Meta 员工 + HuggingFace blog 覆盖
+# - Moonshot Kimi: 无 RSS。通过中文圈 list 或 newsnow 覆盖
+# - 智谱 ChatGLM: 无 RSS
+# - xAI Blog: 无 RSS

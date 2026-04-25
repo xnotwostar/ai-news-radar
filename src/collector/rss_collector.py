@@ -135,7 +135,7 @@ CN_AI_SPECIFIC_SOURCES = {
 # ---------------------------------------------------------------------------
 
 def _load_yaml_feeds(filename: str, key: str) -> list[dict]:
-    """Load ``[{name, rss_url, tier, weight, category, keyword_filter, notes}]``
+    """Load ``[{name, rss_url, tier, weight, category, keyword_filter, lookback_hours, notes}]``
     entries from a config YAML. Returns empty list if file missing.
     """
     path = CONFIG_DIR / filename
@@ -153,6 +153,7 @@ def _load_yaml_feeds(filename: str, key: str) -> list[dict]:
             "weight": float(e.get("weight", 1.0)),
             "category": e.get("category", "general"),
             "keyword_filter": e.get("keyword_filter", True),
+            "lookback_hours": int(e.get("lookback_hours", 0)) or None,
         })
     return out
 
@@ -209,11 +210,15 @@ class RssCollector:
             except Exception as e:
                 logger.warning("RSS [%s] failed: %s", source_name, e)
 
-        # 2. YAML-driven feeds — explicit tier/weight from config
+        # 2. YAML-driven feeds — explicit tier/weight from config; per-feed lookback
         if self.include_yaml_feeds:
             for entry in load_changelog_feeds() + load_newsletter_feeds():
                 if not entry["rss_url"]:
                     continue
+                # Per-feed cutoff overrides default — T0/T1 sources usually post weekly
+                feed_cutoff = self.cutoff
+                if entry.get("lookback_hours"):
+                    feed_cutoff = datetime.now(timezone.utc) - timedelta(hours=entry["lookback_hours"])
                 try:
                     items = self._fetch_feed(
                         entry["name"], entry["rss_url"],
@@ -221,12 +226,20 @@ class RssCollector:
                         weight=entry["weight"],
                         category=entry["category"],
                         keyword_filter=entry["keyword_filter"],
+                        cutoff_override=feed_cutoff,
                     )
                     all_items.extend(items)
                     if items:
                         logger.info(
-                            "RSS [%s tier=%s w=%.1f]: %d items",
-                            entry["name"], entry["tier"], entry["weight"], len(items),
+                            "RSS [%s tier=%s w=%.1f lookback=%dh]: %d items",
+                            entry["name"], entry["tier"], entry["weight"],
+                            entry.get("lookback_hours") or self.hours, len(items),
+                        )
+                    else:
+                        # Surface 0-result feeds so user can debug
+                        logger.info(
+                            "RSS [%s] 0 items (lookback=%dh)",
+                            entry["name"], entry.get("lookback_hours") or self.hours,
                         )
                 except Exception as e:
                     logger.warning("RSS [%s] failed: %s", entry["name"], e)
@@ -254,7 +267,9 @@ class RssCollector:
         self, source_name: str, url: str,
         tier: str = "T3", weight: float = 1.0,
         category: str = "general", keyword_filter: bool = True,
+        cutoff_override: Optional[datetime] = None,
     ) -> list[RssItem]:
+        cutoff = cutoff_override or self.cutoff
         feed = feedparser.parse(url)
         items: list[RssItem] = []
         for entry in feed.entries:
@@ -264,7 +279,7 @@ class RssCollector:
                 if parsed:
                     published = datetime(*parsed[:6], tzinfo=timezone.utc)
                     break
-            if published and published < self.cutoff:
+            if published and published < cutoff:
                 continue
 
             summary = ""
