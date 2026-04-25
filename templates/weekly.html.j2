@@ -261,7 +261,8 @@
         <span style="color:var(--ink-3)">·</span>
         <span style="color:var(--ink-2)">{{ k.source_meta }}</span>
       </div>
-      <p class="kol__quote">{{ k.quote }}</p>
+      {% if k.url %}<a href="{{ k.url }}" target="_blank" rel="noopener"><p class="kol__quote">{{ k.quote }}</p></a>
+      {% else %}<p class="kol__quote">{{ k.quote }}</p>{% endif %}
     </div>
     {% endfor %}
   </div>

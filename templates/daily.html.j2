@@ -84,7 +84,8 @@
       <div class="entry__idx">02.{{ "%02d" % loop.index }}</div>
       <div class="entry__body">
         <div class="entry__head">
-          <span class="entry__name">{{ entry.name }}</span>
+          {% if entry.url %}<a href="{{ entry.url }}" target="_blank" rel="noopener" class="entry__name entry__name--link">{{ entry.name }}</a>
+          {% else %}<span class="entry__name">{{ entry.name }}</span>{% endif %}
           {% if entry.metric %}<span class="entry__metric{% if not entry.metric_is_money %} entry__metric--neutral{% endif %}">{{ entry.metric }}</span>{% endif %}
           {% if entry.tag %}<span class="entry__tag">{{ entry.tag }}</span>{% endif %}
         </div>
@@ -93,7 +94,11 @@
         {% if entry.chips %}
         <div class="chips">
           {% for c in entry.chips %}
-          <span class="chip{% if c.tier %} chip--{{ c.tier|lower }}{% endif %}">{{ c.label }}<span class="chip__tip">{% if c.handle %}<b>{{ c.handle }}</b> · {% endif %}{{ c.tip }}</span></span>
+            {% if c.url %}
+            <a href="{{ c.url }}" target="_blank" rel="noopener" class="chip{% if c.tier %} chip--{{ c.tier|lower }}{% endif %}">{{ c.label }}<span class="chip__tip">{% if c.handle %}<b>{{ c.handle }}</b> · {% endif %}{{ c.tip }}</span></a>
+            {% else %}
+            <span class="chip{% if c.tier %} chip--{{ c.tier|lower }}{% endif %}">{{ c.label }}<span class="chip__tip">{% if c.handle %}<b>{{ c.handle }}</b> · {% endif %}{{ c.tip }}</span></span>
+            {% endif %}
           {% endfor %}
         </div>
         {% endif %}
@@ -122,7 +127,8 @@
       <div class="entry__idx">03.{{ "%02d" % loop.index }}</div>
       <div class="entry__body">
         <div class="entry__head">
-          <span class="entry__name">{{ entry.name }}</span>
+          {% if entry.url %}<a href="{{ entry.url }}" target="_blank" rel="noopener" class="entry__name entry__name--link">{{ entry.name }}</a>
+          {% else %}<span class="entry__name">{{ entry.name }}</span>{% endif %}
           {% if entry.metric %}<span class="entry__metric{% if not entry.metric_is_money %} entry__metric--neutral{% endif %}">{{ entry.metric }}</span>{% endif %}
           {% if entry.tag %}<span class="entry__tag">{{ entry.tag }}</span>{% endif %}
         </div>
@@ -131,7 +137,11 @@
         {% if entry.chips %}
         <div class="chips">
           {% for c in entry.chips %}
-          <span class="chip{% if c.tier %} chip--{{ c.tier|lower }}{% endif %}">{{ c.label }}<span class="chip__tip">{% if c.handle %}<b>{{ c.handle }}</b> · {% endif %}{{ c.tip }}</span></span>
+            {% if c.url %}
+            <a href="{{ c.url }}" target="_blank" rel="noopener" class="chip{% if c.tier %} chip--{{ c.tier|lower }}{% endif %}">{{ c.label }}<span class="chip__tip">{% if c.handle %}<b>{{ c.handle }}</b> · {% endif %}{{ c.tip }}</span></a>
+            {% else %}
+            <span class="chip{% if c.tier %} chip--{{ c.tier|lower }}{% endif %}">{{ c.label }}<span class="chip__tip">{% if c.handle %}<b>{{ c.handle }}</b> · {% endif %}{{ c.tip }}</span></span>
+            {% endif %}
           {% endfor %}
         </div>
         {% endif %}
@@ -161,7 +171,8 @@
       <div class="entry__idx">04.{{ "%02d" % loop.index }}</div>
       <div class="entry__body">
         <div class="entry__head">
-          <span class="entry__name">{{ entry.name }}</span>
+          {% if entry.url %}<a href="{{ entry.url }}" target="_blank" rel="noopener" class="entry__name entry__name--link">{{ entry.name }}</a>
+          {% else %}<span class="entry__name">{{ entry.name }}</span>{% endif %}
           {% if entry.metric %}<span class="entry__metric{% if not entry.metric_is_money %} entry__metric--neutral{% endif %}">{{ entry.metric }}</span>{% endif %}
           {% if entry.tag %}<span class="entry__tag">{{ entry.tag }}</span>{% endif %}
         </div>
@@ -170,7 +181,11 @@
         {% if entry.chips %}
         <div class="chips">
           {% for c in entry.chips %}
-          <span class="chip{% if c.tier %} chip--{{ c.tier|lower }}{% endif %}">{{ c.label }}<span class="chip__tip">{% if c.handle %}<b>{{ c.handle }}</b> · {% endif %}{{ c.tip }}</span></span>
+            {% if c.url %}
+            <a href="{{ c.url }}" target="_blank" rel="noopener" class="chip{% if c.tier %} chip--{{ c.tier|lower }}{% endif %}">{{ c.label }}<span class="chip__tip">{% if c.handle %}<b>{{ c.handle }}</b> · {% endif %}{{ c.tip }}</span></a>
+            {% else %}
+            <span class="chip{% if c.tier %} chip--{{ c.tier|lower }}{% endif %}">{{ c.label }}<span class="chip__tip">{% if c.handle %}<b>{{ c.handle }}</b> · {% endif %}{{ c.tip }}</span></span>
+            {% endif %}
           {% endfor %}
         </div>
         {% endif %}
@@ -242,11 +257,16 @@
         <span style="color:var(--ink-3)">·</span>
         <span style="color:var(--ink-2)">{{ k.source_meta }}</span>
       </div>
-      <p class="kol__quote">{{ k.quote }}</p>
+      {% if k.url %}<a href="{{ k.url }}" target="_blank" rel="noopener"><p class="kol__quote">{{ k.quote }}</p></a>
+      {% else %}<p class="kol__quote">{{ k.quote }}</p>{% endif %}
       {% if k.chips %}
       <div class="chips kol__chips">
         {% for c in k.chips %}
-        <span class="chip">{{ c.label }}<span class="chip__tip"><b>@{{ k.handle }}</b> · {{ c.tip }}</span></span>
+          {% if c.url %}
+          <a href="{{ c.url }}" target="_blank" rel="noopener" class="chip">{{ c.label }}<span class="chip__tip"><b>@{{ k.handle }}</b> · {{ c.tip }}</span></a>
+          {% else %}
+          <span class="chip">{{ c.label }}<span class="chip__tip"><b>@{{ k.handle }}</b> · {{ c.tip }}</span></span>
+          {% endif %}
         {% endfor %}
       </div>
       {% endif %}

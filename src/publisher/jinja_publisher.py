@@ -288,8 +288,12 @@ class JinjaPublisher:
         # Strip leading emoji from title for display (template provides own emoji via tag)
         clean_name = _strip_leading_emoji(e.title or "")
 
+        # Primary URL = first source (highest tier × engagement after sort)
+        primary_url = e.sources[0].url if e.sources else ""
+
         return {
             "name": clean_name,
+            "url": primary_url,
             "metric": metric,
             "metric_is_money": metric_is_money,
             "tag": CATEGORY_TAG_LABEL.get(e.category, "Other"),
@@ -341,9 +345,11 @@ class JinjaPublisher:
             "handle": best.author.lstrip("@") if best.author else "unknown",
             "source_meta": _format_source_meta(best, e),
             "quote": _clean_quote(quote),
+            "url": best.url or "",
             "chips": [{
                 "label": f"{best.like_count} likes" if best.like_count else "RSS",
                 "tip": f"bm:{best.bookmark_count} likes:{best.like_count} ratio:{best.info_density:.2f}",
+                "url": best.url or "",
             }] if best.like_count else [],
         }
 
@@ -374,6 +380,7 @@ class JinjaPublisher:
             "handle": "@" + s.author.lstrip("@") if s.author else None,
             "tip": tip,
             "tier": badge.lower() if badge else "",
+            "url": s.url or "",
         }
 
     def _tier_to_badge(self, tier: str | None) -> str | None:

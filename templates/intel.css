@@ -284,6 +284,18 @@ section:first-of-type { border-top: none; padding-top: 40px; }
   font-size: 20px;
   letter-spacing: -0.005em;
 }
+a.entry__name--link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 150ms ease;
+  border-bottom: 1px solid transparent;
+}
+a.entry__name--link:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+a:has(.kol__quote) { text-decoration: none; }
+a:has(.kol__quote):hover .kol__quote { color: var(--accent); }
 .entry__metric {
   font-family: var(--mono);
   font-weight: 600;
@@ -324,6 +336,7 @@ section:first-of-type { border-top: none; padding-top: 40px; }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
 .chip {
   position: relative;
+  display: inline-block;
   font-family: var(--mono);
   font-size: 10px;
   letter-spacing: 0.08em;
@@ -332,8 +345,11 @@ section:first-of-type { border-top: none; padding-top: 40px; }
   padding: 3px 8px;
   border: 1px solid var(--rule-strong);
   cursor: default;
+  text-decoration: none;
 }
+a.chip { cursor: pointer; }
 .chip:hover { color: var(--ink); border-color: var(--ink-2); }
+a.chip:hover { color: var(--accent); border-color: var(--accent); }
 .chip__tip {
   display: none;
   position: absolute; bottom: calc(100% + 6px); left: 0;
