@@ -1,0 +1,91 @@
+name: Weekly AI Report
+
+on:
+  schedule:
+    # Sunday 23:00 UTC = Monday 07:00 CST
+    - cron: "0 23 * * 0"
+  workflow_dispatch:
+    inputs:
+      end_date:
+        description: "End date (YYYY-MM-DD). Defaults to today."
+        required: false
+        type: string
+
+permissions:
+  contents: write   # needed to commit weekly report back to repo
+
+jobs:
+  generate-weekly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout ai-news-radar
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Determine end date
+        id: dates
+        run: |
+          if [ -n "${{ inputs.end_date }}" ]; then
+            END_DATE="${{ inputs.end_date }}"
+          else
+            END_DATE=$(date -u +%Y-%m-%d)
+          fi
+          echo "end_date=$END_DATE" >> $GITHUB_OUTPUT
+          # ISO week
+          IFS='-' read -r Y M D <<< "$END_DATE"
+          WEEK=$(date -d "$END_DATE" +%V 2>/dev/null || date -j -f "%Y-%m-%d" "$END_DATE" +%V)
+          YEAR=$(date -d "$END_DATE" +%G 2>/dev/null || date -j -f "%Y-%m-%d" "$END_DATE" +%G)
+          echo "year=$YEAR" >> $GITHUB_OUTPUT
+          echo "week=$WEEK" >> $GITHUB_OUTPUT
+
+      - name: Generate weekly report (write to data/reports/weekly/)
+        env:
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          # APIFY_TOKEN not needed here — weekly only reads existing daily markdown
+        run: |
+          mkdir -p data/reports/weekly
+          # Generate to stdout via dry-run, capture, and write to file ourselves
+          # (bypasses Obsidian publisher which expects a vault path)
+          python -m src.weekly --dry-run --date "${{ steps.dates.outputs.end_date }}" \
+            > /tmp/weekly_full.txt 2>&1 || (cat /tmp/weekly_full.txt && exit 1)
+          # Strip the dry-run banner; markdown starts at the first '# ' line
+          awk '/^# /{found=1} found{print}' /tmp/weekly_full.txt \
+            | sed -n '/^META:/q;p' \
+            > "data/reports/weekly/${{ steps.dates.outputs.year }}-W${{ steps.dates.outputs.week }}.md"
+          ls -la data/reports/weekly/
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/reports/weekly/
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git commit -m "weekly: ${{ steps.dates.outputs.year }}-W${{ steps.dates.outputs.week }}"
+          git push
+
+      - name: Upload weekly as artifact (also)
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-${{ steps.dates.outputs.year }}-W${{ steps.dates.outputs.week }}
+          path: data/reports/weekly/${{ steps.dates.outputs.year }}-W${{ steps.dates.outputs.week }}.md
+          retention-days: 90

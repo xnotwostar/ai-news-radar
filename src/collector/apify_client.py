@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import logging
 import os
+import re
 from datetime import datetime, timedelta, timezone
 
 from apify_client import ApifyClient
@@ -15,6 +16,22 @@ logger = logging.getLogger(__name__)
 ACTOR_ID = "apidojo/twitter-list-scraper"
 DEFAULT_MAX_ITEMS = 500
 
+# Marketing / lead-magnet / low-signal phrase patterns. Tweets matching any of
+# these are discarded regardless of engagement — they inflate numbers but
+# carry no information.
+SPAM_PATTERNS = [
+    re.compile(r"comment\s+['\"]?\w+['\"]?\s+(and|&)\s+i\s*['']?ll\s+dm", re.I),
+    re.compile(r"i\s*['']?ll\s+(dm|send)\s+you\s+(my|the)\s+(guide|prompts?|workflow|automation)", re.I),
+    re.compile(r"^\s*\d{1,2}\s+ai\s+tools\s+to\s+level\s+up", re.I),
+    re.compile(r"^\s*\d{1,2}\s+(ai|free)\s+tools\s+that\s+will", re.I),
+    re.compile(r"thread\s*[:\U0001F9F5]+\s*\d+\s+ai\s+tools", re.I),
+    re.compile(r"steal\s+(these|my)\s+(prompts?|automations?)", re.I),
+    re.compile(r"follow\s+me\s+for\s+more\s+ai", re.I),
+]
+
+# Per-author daily cap — even S-tier authors can't flood the digest.
+PER_AUTHOR_DAILY_CAP = 3
+
 
 class ApifyCollector:
     """Fetch tweets from a Twitter List via Apify."""
@@ -24,7 +41,7 @@ class ApifyCollector:
         self.client = ApifyClient(self.token)
 
     def collect(self, list_id: str, max_items: int = DEFAULT_MAX_ITEMS) -> list[TweetRaw]:
-        """Run Apify actor and return parsed, deduplicated tweets."""
+        """Run Apify actor and return parsed, deduplicated, filtered tweets."""
         logger.info("Starting Apify collection for list %s (max %d)", list_id, max_items)
 
         run_input = {
@@ -51,14 +68,38 @@ class ApifyCollector:
                 continue
 
         raw_count = len(tweets)
-        tweets = self._dedup(tweets)
+
+        spam_filtered = self._filter_marketing_spam(tweets)
+        spam_removed = raw_count - len(spam_filtered)
+
+        deduped = self._dedup(spam_filtered)
+        dedup_removed = len(spam_filtered) - len(deduped)
+
+        quota_capped = self._apply_author_quota(deduped)
+        quota_removed = len(deduped) - len(quota_capped)
+
         logger.info(
-            "Collected %d tweets (from %d raw items, %d after dedup)",
-            len(tweets), len(dataset_items), len(tweets),
+            "Apify %s: %d raw -> %d after spam (-%d) -> %d after dedup (-%d) -> %d after quota (-%d)",
+            list_id, raw_count, len(spam_filtered), spam_removed,
+            len(deduped), dedup_removed, len(quota_capped), quota_removed,
         )
-        if raw_count != len(tweets):
-            logger.info("Dedup removed %d duplicates", raw_count - len(tweets))
-        return tweets
+        return quota_capped
+
+    @staticmethod
+    def _filter_marketing_spam(tweets: list[TweetRaw]) -> list[TweetRaw]:
+        """Drop tweets that match lead-magnet / listicle / engagement-bait patterns."""
+        kept: list[TweetRaw] = []
+        for t in tweets:
+            text = t.text or ""
+            if any(p.search(text) for p in SPAM_PATTERNS):
+                continue
+            # Short pure-emoji / reaction tweets: already handled by 20-char minimum
+            # but also kill tweets that are >60% non-alphabet chars (emoji spam)
+            alpha = sum(1 for c in text if c.isalpha())
+            if len(text) > 0 and alpha / len(text) < 0.3:
+                continue
+            kept.append(t)
+        return kept
 
     @staticmethod
     def _dedup(tweets: list[TweetRaw]) -> list[TweetRaw]:
@@ -91,6 +132,28 @@ class ApifyCollector:
         return result
 
     @staticmethod
+    def _apply_author_quota(tweets: list[TweetRaw], cap: int = PER_AUTHOR_DAILY_CAP) -> list[TweetRaw]:
+        """Cap each author at `cap` tweets per day; keep highest info_density, then engagement."""
+        # Sort so the best-per-author is kept first
+        tweets_sorted = sorted(
+            tweets,
+            key=lambda t: (t.info_density, t.engagement),
+            reverse=True,
+        )
+        count: dict[str, int] = {}
+        kept: list[TweetRaw] = []
+        for t in tweets_sorted:
+            handle = (t.author_handle or "").lstrip("@").lower()
+            if not handle:
+                kept.append(t)
+                continue
+            if count.get(handle, 0) >= cap:
+                continue
+            count[handle] = count.get(handle, 0) + 1
+            kept.append(t)
+        return kept
+
+    @staticmethod
     def _parse_item(item: dict) -> TweetRaw:
         created_at = None
         raw_date = item.get("createdAt") or item.get("created_at") or ""
@@ -115,4 +178,5 @@ class ApifyCollector:
             reply_count=int(item.get("replyCount", 0)),
             quote_count=int(item.get("quoteCount", 0)),
             view_count=int(item.get("viewCount", 0)),
+            bookmark_count=int(item.get("bookmarkCount", item.get("bookmark_count", 0))),
         )

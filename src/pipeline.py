@@ -36,6 +36,7 @@ from .collector import (
     CN_AI_KEYWORDS,
     CN_AI_SPECIFIC_SOURCES,
     CN_RSS_FEEDS,
+    HnCollector,
     NewsnowCollector,
     RssCollector,
 )
@@ -131,6 +132,13 @@ def run_twitter_pipeline(
                   "source": r.source, "published": str(r.published)} for r in rss_items],
                 f"{date_str}_{name}_rss.json",
             )
+            # Map RSS tier → author_tier so Ranker applies weight via authors.yaml
+            tier_map = {
+                "T0": "t0_primary",
+                "T1": "t1_curated",
+                "T2": "t2_community",
+                "T3": "unknown",
+            }
             for r in rss_items:
                 tweets.append(TweetRaw(
                     tweet_id=hashlib.md5(r.url.encode()).hexdigest()[:16],
@@ -140,10 +148,28 @@ def run_twitter_pipeline(
                     created_at=r.published,
                     source_url=r.url,
                     is_rss=True,
+                    author_tier=tier_map.get(getattr(r, "tier", "T3"), "unknown"),
                 ))
             logger.info("Merged %d RSS items into %d total items", len(rss_items), len(tweets))
         except Exception as e:
             logger.warning("RSS collection failed, continuing with Twitter only: %s", e)
+
+    # Step 1.6: Merge HackerNews stories (global_ai only)
+    if name == "global_ai":
+        try:
+            hn_items = HnCollector().collect()
+            for h in hn_items:
+                # HnCollector already returns TweetRaw with author_tier='t2_community'
+                tweets.append(h)
+            _save_raw(
+                [{"id": h.tweet_id, "author": h.author_handle, "text": h.text,
+                  "score": h.like_count, "comments": h.reply_count, "url": h.source_url,
+                  "created_at": str(h.created_at)} for h in hn_items],
+                f"{date_str}_{name}_hn.json",
+            )
+            logger.info("Merged %d HN items into %d total items", len(hn_items), len(tweets))
+        except Exception as e:
+            logger.warning("HN collection failed, continuing without it: %s", e)
 
     # Step 2: Embed
     embedder = Embedder(

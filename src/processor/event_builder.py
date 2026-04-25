@@ -48,12 +48,17 @@ type 判断规则：
 - 如果推文是个人专家表达观点、评论、预测、分析 → opinion
 - 如果混合，以主要信息类型为准
 
-评分标准：
-- 9-10: 行业格局改变（大模型发布、重大融资、芯片突破）
-- 7-8: 重要产品更新、有影响力的研究成果
+评分标准（importance）：
+- 9-10: 行业格局改变（大模型发布、重大融资、芯片突破、IPO/并购）
+- 7-8: 重要产品更新、有影响力的研究成果、融资 $10-50M
 - 5-6: 值得关注的动态
 - 3-4: 一般信息
-- 1-2: 噪声"""
+- 1-2: 噪声
+
+信号解读辅助（评分时参考）：
+- 作者 tier：s_investor/s_founder 权威度最高；a_engineering/b_research 次之；downweight 要打折
+- bm/likes 比：≥0.3 是"值得存"的高密度信号；<0.05 多为情绪反应，importance 应 ≤4
+- 官方账号（OpenAI/Anthropic/Google 等）+ 产品发布 → 至少 7 分起评"""
 
 
 class EventBuilder:
@@ -133,6 +138,8 @@ class EventBuilder:
         # RSS first, then fill remaining slots with top Twitter by engagement
         sorted_tweets = (rss_tweets + twitter_tweets)[:5]
 
+        from .ranker import tier_for_handle
+
         def _format_tweet(t: TweetEmbedded) -> str:
             time_str = t.tweet.created_at.strftime('%m-%d %H:%M UTC') if t.tweet.created_at else 'unknown'
             if t.tweet.is_rss:
@@ -140,10 +147,14 @@ class EventBuilder:
                     f"[{t.tweet.author_name}] ({time_str}): "
                     f"{t.tweet.text} [来源: {t.tweet.url}]"
                 )
+            tier = t.tweet.author_tier if t.tweet.author_tier != "unknown" \
+                   else tier_for_handle(t.tweet.author_handle)
+            density = f"{t.tweet.info_density:.2f}" if t.tweet.like_count > 0 else "n/a"
             return (
-                f"@{t.tweet.author_handle} ({time_str}): "
+                f"@{t.tweet.author_handle} [tier={tier}] ({time_str}): "
                 f"{t.tweet.text} "
-                f"[likes:{t.tweet.like_count} RT:{t.tweet.retweet_count}]"
+                f"[likes:{t.tweet.like_count} bm:{t.tweet.bookmark_count} "
+                f"bm/likes:{density} RT:{t.tweet.retweet_count}]"
             )
 
         tweets_text = "\n\n".join(_format_tweet(t) for t in sorted_tweets)
@@ -171,11 +182,16 @@ class EventBuilder:
         parsed = json.loads(content)
 
         # Put RSS sources first so report writer presents media URLs prominently
+        from .ranker import tier_for_handle
         sources = [
             EventSource(
                 author=t.tweet.author_name if t.tweet.is_rss else t.tweet.author_handle.lstrip("@"),
                 text=t.tweet.text[:200],
                 engagement=t.tweet.engagement,
+                bookmark_count=t.tweet.bookmark_count,
+                like_count=t.tweet.like_count,
+                author_tier=t.tweet.author_tier if t.tweet.author_tier != "unknown"
+                           else tier_for_handle(t.tweet.author_handle),
                 url=t.tweet.url,
             )
             for t in sorted(sorted_tweets, key=lambda t: (not t.tweet.is_rss, -t.tweet.engagement))
@@ -205,6 +221,7 @@ class EventBuilder:
         cluster_id: int, tweets: list[TweetEmbedded], date_str: str
     ) -> EventCard:
         """Create minimal event card when LLM fails."""
+        from .ranker import tier_for_handle
         top = max(tweets, key=lambda t: t.tweet.engagement)
         times = [t.tweet.created_at for t in tweets if t.tweet.created_at]
         return EventCard(
@@ -217,6 +234,10 @@ class EventBuilder:
                     author=top.tweet.author_handle.lstrip("@"),
                     text=top.tweet.text[:200],
                     engagement=top.tweet.engagement,
+                    bookmark_count=top.tweet.bookmark_count,
+                    like_count=top.tweet.like_count,
+                    author_tier=top.tweet.author_tier if top.tweet.author_tier != "unknown"
+                               else tier_for_handle(top.tweet.author_handle),
                     url=top.tweet.url,
                 )
             ],

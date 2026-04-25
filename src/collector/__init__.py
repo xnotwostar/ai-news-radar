@@ -1,4 +1,5 @@
 from .apify_client import ApifyCollector
+from .hn_collector import HnCollector
 from .newsnow_client import NewsnowCollector
 from .rss_collector import (
     CN_AI_KEYWORDS,
@@ -9,6 +10,7 @@ from .rss_collector import (
 
 __all__ = [
     "ApifyCollector",
+    "HnCollector",
     "NewsnowCollector",
     "RssCollector",
     "CN_RSS_FEEDS",

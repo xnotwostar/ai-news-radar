@@ -1,21 +1,35 @@
-"""RSS feed collector for global & China AI news."""
+"""RSS feed collector for global & China AI news.
+
+Sources of feeds:
+- ``config/changelog_feeds.yaml`` — T0 official changelogs + T1 high-density blogs
+- ``config/newsletters.yaml``    — T1 human-curated newsletters via Kill the Newsletter
+- Built-in ``RSS_FEEDS`` / ``CN_RSS_FEEDS`` dicts — legacy mainstream tech media (T2/T3)
+
+Each item is tagged with ``tier`` / ``weight`` / ``category`` so downstream
+ranker can weight authoritative sources higher than commentary aggregators.
+"""
 
 from __future__ import annotations
 
 import logging
 import re
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from typing import Optional
 
 import feedparser
+import yaml
 
 logger = logging.getLogger(__name__)
 
+CONFIG_DIR = Path(__file__).resolve().parent.parent.parent / "config"
+
 
 class RssItem:
-    """Single item from an RSS feed."""
+    """Single item from an RSS feed, with provenance metadata."""
 
-    __slots__ = ("title", "summary", "url", "source", "published")
+    __slots__ = ("title", "summary", "url", "source", "published",
+                 "tier", "weight", "category")
 
     def __init__(
         self,
@@ -24,12 +38,18 @@ class RssItem:
         url: str = "",
         source: str = "",
         published: Optional[datetime] = None,
+        tier: str = "T3",
+        weight: float = 1.0,
+        category: str = "general",
     ):
         self.title = title
         self.summary = summary
         self.url = url
         self.source = source
         self.published = published
+        self.tier = tier
+        self.weight = weight
+        self.category = category
 
 
 AI_KEYWORDS = [
@@ -109,8 +129,51 @@ CN_AI_SPECIFIC_SOURCES = {
 }
 
 
+# ---------------------------------------------------------------------------
+# YAML-driven feed loaders
+# ---------------------------------------------------------------------------
+
+def _load_yaml_feeds(filename: str, key: str) -> list[dict]:
+    """Load ``[{name, rss_url, tier, weight, category, keyword_filter, notes}]``
+    entries from a config YAML. Returns empty list if file missing.
+    """
+    path = CONFIG_DIR / filename
+    if not path.exists():
+        return []
+    with open(path, encoding="utf-8") as f:
+        cfg = yaml.safe_load(f) or {}
+    entries = cfg.get(key, []) or []
+    out = []
+    for e in entries:
+        out.append({
+            "name": e.get("name", "unknown"),
+            "rss_url": e.get("rss_url", ""),
+            "tier": e.get("tier", "T2"),
+            "weight": float(e.get("weight", 1.0)),
+            "category": e.get("category", "general"),
+            "keyword_filter": e.get("keyword_filter", True),
+        })
+    return out
+
+
+def load_changelog_feeds() -> list[dict]:
+    return _load_yaml_feeds("changelog_feeds.yaml", "changelogs")
+
+
+def load_newsletter_feeds() -> list[dict]:
+    return _load_yaml_feeds("newsletters.yaml", "newsletters")
+
+
 class RssCollector:
-    """Fetch and filter AI-related articles from RSS feeds."""
+    """Fetch and filter AI-related articles from RSS feeds.
+
+    Three feed sources are merged each run:
+    1. Built-in mainstream media dict (legacy, ``feeds`` arg)
+    2. ``config/changelog_feeds.yaml`` (T0 official + T1 deep blogs)
+    3. ``config/newsletters.yaml``    (T1 curated newsletters)
+
+    Each item carries ``tier`` / ``weight`` / ``category`` for ranker.
+    """
 
     def __init__(
         self,
@@ -118,26 +181,60 @@ class RssCollector:
         hours: int = 24,
         keywords: list[str] | None = None,
         ai_specific_sources: set[str] | None = None,
+        include_yaml_feeds: bool = True,
     ):
         self.feeds = feeds or RSS_FEEDS
         self.keywords = keywords or AI_KEYWORDS
         self.ai_specific_sources = ai_specific_sources or AI_SPECIFIC_SOURCES
         self.hours = hours
         self.cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
+        self.include_yaml_feeds = include_yaml_feeds
 
     def collect(self) -> list[RssItem]:
         """Fetch all feeds, filter for AI relevance, deduplicate."""
         all_items: list[RssItem] = []
+
+        # 1. Legacy built-in feeds — default tier T3, weight 1.0
         for source_name, feed_url in self.feeds.items():
             try:
-                items = self._fetch_feed(source_name, feed_url)
+                items = self._fetch_feed(
+                    source_name, feed_url,
+                    tier="T3", weight=1.0, category="general",
+                    keyword_filter=source_name not in self.ai_specific_sources,
+                )
                 all_items.extend(items)
                 if items:
                     logger.info("RSS [%s]: %d items", source_name, len(items))
             except Exception as e:
                 logger.warning("RSS [%s] failed: %s", source_name, e)
 
-        filtered = [item for item in all_items if self._is_ai_related(item)]
+        # 2. YAML-driven feeds — explicit tier/weight from config
+        if self.include_yaml_feeds:
+            for entry in load_changelog_feeds() + load_newsletter_feeds():
+                if not entry["rss_url"]:
+                    continue
+                try:
+                    items = self._fetch_feed(
+                        entry["name"], entry["rss_url"],
+                        tier=entry["tier"],
+                        weight=entry["weight"],
+                        category=entry["category"],
+                        keyword_filter=entry["keyword_filter"],
+                    )
+                    all_items.extend(items)
+                    if items:
+                        logger.info(
+                            "RSS [%s tier=%s w=%.1f]: %d items",
+                            entry["name"], entry["tier"], entry["weight"], len(items),
+                        )
+                except Exception as e:
+                    logger.warning("RSS [%s] failed: %s", entry["name"], e)
+
+        # Filter for AI relevance (entries with keyword_filter=False bypass this)
+        filtered = [
+            item for item in all_items
+            if self._is_ai_related(item) or not self._needs_keyword_filter(item)
+        ]
         logger.info("RSS total: %d raw -> %d AI-related", len(all_items), len(filtered))
 
         # Deduplicate by normalized title
@@ -152,7 +249,11 @@ class RssCollector:
         logger.info("RSS after dedup: %d unique items", len(unique))
         return unique
 
-    def _fetch_feed(self, source_name: str, url: str) -> list[RssItem]:
+    def _fetch_feed(
+        self, source_name: str, url: str,
+        tier: str = "T3", weight: float = 1.0,
+        category: str = "general", keyword_filter: bool = True,
+    ) -> list[RssItem]:
         feed = feedparser.parse(url)
         items: list[RssItem] = []
         for entry in feed.entries:
@@ -167,16 +268,27 @@ class RssCollector:
 
             summary = ""
             if hasattr(entry, "summary"):
-                summary = re.sub(r"<[^>]+>", "", entry.summary)[:300]
+                summary = re.sub(r"<[^>]+>", "", entry.summary)[:500]
 
-            items.append(RssItem(
+            item = RssItem(
                 title=entry.get("title", ""),
                 summary=summary,
                 url=entry.get("link", ""),
                 source=source_name,
                 published=published,
-            ))
+                tier=tier,
+                weight=weight,
+                category=category,
+            )
+            # Stash keyword_filter setting so downstream filter step honors it
+            item._keyword_filter = keyword_filter  # type: ignore[attr-defined]
+            items.append(item)
         return items
+
+    def _needs_keyword_filter(self, item: RssItem) -> bool:
+        """Items explicitly marked keyword_filter=False (e.g. official AI blogs,
+        curated AI newsletters) skip the AI-keyword check."""
+        return getattr(item, "_keyword_filter", True)
 
     def _is_ai_related(self, item: RssItem) -> bool:
         if item.source in self.ai_specific_sources:

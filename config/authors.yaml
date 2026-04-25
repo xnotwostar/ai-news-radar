@@ -1,0 +1,107 @@
+# AI Intel Daily — Author tier whitelist + phrase blacklist.
+# Used by Ranker (tier weighting) and ApifyCollector (tier tagging).
+#
+# tier priorities (higher = more signal weight in Ranker):
+#   s_investor      4.0  投资人 / thesis 驱动的声音
+#   s_founder       3.0  关键公司创始人、官方权威
+#   a_engineering   2.0  一线工程 / 产品专家
+#   b_research      1.0  研究者 / arxiv 过滤者
+#   downweight      0.3  降权保留（原有创作者 list，作为叙事信号独立栏）
+#   unknown         1.0  默认权重（非白名单）
+
+tiers:
+  s_investor:
+    weight: 4.0
+    handles:
+      - packyM
+      - garrytan
+      - elad_gil
+      - jowyang
+      - bgurley
+      - pmarca
+      - saranormous
+      - mariogabriele
+      - hunterwalk
+      - dylan522p
+
+  s_founder:
+    weight: 3.0
+    handles:
+      - sama
+      - darioamodei
+      - demishassabis
+      - AravSrinivas
+      - ClementDelangue
+
+  a_engineering:
+    weight: 2.0
+    handles:
+      - simonw
+      - swyx
+      - hwchase17
+
+  b_research:
+    weight: 1.0
+    handles:
+      - karpathy
+      - _akhaliq
+
+  # ── RSS / non-Twitter source tiers ─────────────────────────
+  # Items from RSS feeds get tagged with one of these tiers based on
+  # changelog_feeds.yaml / newsletters.yaml (T0/T1/T2 → mapped here).
+
+  t0_primary:
+    weight: 4.0
+    handles: []  # populated dynamically by pipeline (RSS source name)
+    notes: "Official changelogs / release notes / company blogs"
+
+  t1_curated:
+    weight: 3.5
+    handles: []
+    notes: "Human-curated newsletters via Kill the Newsletter"
+
+  t2_community:
+    weight: 1.5
+    handles: []
+    notes: "HackerNews / Reddit / community votes"
+
+  # Downweight list — creators from the original marketing-heavy list.
+  # Kept so we still see narrative signals but drastically lower weight.
+  downweight:
+    weight: 0.3
+    handles:
+      - ginacostag_
+      - hasantoxr
+      - Zephyr_hg
+      - thisguyknowsai
+      - nrqa__
+      - CodeByPoonam
+      - aiwithjainam
+      - aiwithmayank
+      - alex_prompter
+      - RodmanAi
+      - TechElyra
+      - _evon3929
+      - piyascode9
+      - AnishJaitwar
+      - aaditsh
+      - AndrewBolis
+      - gregisenberg
+      - heyshrutimishra
+      - dsn_ai_network
+      - miratechtool
+
+# Phrase-level blacklist: any tweet matching these is dropped before
+# the clustering stage. Patterns are compiled case-insensitive.
+# (Also mirrored inline in apify_client.SPAM_PATTERNS for hot-path performance.)
+blacklist_patterns:
+  - "comment ['\"]?\\w+['\"]? (and|&) i ?'ll dm"
+  - "i ?'ll (dm|send) you (my|the) (guide|prompts?|workflow|automation)"
+  - "^\\s*\\d{1,2} ai tools to level up"
+  - "^\\s*\\d{1,2} (ai|free) tools that will"
+  - "thread[:🧵]+\\s*\\d+ ai tools"
+  - "steal (these|my) (prompts?|automations?)"
+  - "follow me for more ai"
+
+# Per-author daily cap. Applied AFTER dedup so quota reflects final kept tweets.
+per_author_daily_cap: 3

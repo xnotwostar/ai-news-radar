@@ -47,12 +47,21 @@ class TweetRaw(BaseModel):
     reply_count: int = 0
     quote_count: int = 0
     view_count: int = 0
+    bookmark_count: int = 0
     is_rss: bool = False
     source_url: str = ""
+    author_tier: str = "unknown"  # s_investor | s_founder | a_engineering | b_research | downweight | unknown
 
     @property
     def engagement(self) -> int:
         return self.retweet_count + self.like_count + self.reply_count + self.quote_count
+
+    @property
+    def info_density(self) -> float:
+        """Bookmark-to-like ratio — high values signal 'worth saving' over 'emotional reaction'."""
+        if self.like_count <= 0:
+            return 0.0
+        return self.bookmark_count / self.like_count
 
     @property
     def url(self) -> str:
@@ -89,7 +98,16 @@ class EventSource(BaseModel):
     author: str
     text: str
     engagement: int = 0
+    bookmark_count: int = 0
+    like_count: int = 0
+    author_tier: str = "unknown"
     url: str = ""
+
+    @property
+    def info_density(self) -> float:
+        if self.like_count <= 0:
+            return 0.0
+        return self.bookmark_count / self.like_count
 
 
 class EventCard(BaseModel):

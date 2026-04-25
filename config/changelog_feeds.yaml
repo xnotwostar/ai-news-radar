@@ -1,0 +1,110 @@
+# T0 一手真相 · 官方 changelog / release notes / research blogs
+# 这些源是事实层（公司说什么），不是评论层。
+# 权重最高，因为不会被叙事污染。
+#
+# tier:    T0 = primary truth (official statements)
+# category: changelog | research | strategy | hardware
+
+changelogs:
+  # ── 模型公司一手 blog ─────────────────────
+  - name: "OpenAI Blog"
+    rss_url: "https://openai.com/blog/rss/"
+    tier: T0
+    category: changelog
+    weight: 4.0
+    keyword_filter: false   # AI-specific source
+
+  - name: "Anthropic News"
+    rss_url: "https://rsshub.app/anthropic/news"
+    tier: T0
+    category: changelog
+    weight: 4.0
+    keyword_filter: false
+    notes: "走 RSSHub，因为 anthropic.com 官方无 RSS"
+
+  - name: "Google DeepMind"
+    rss_url: "https://deepmind.google/blog/feed/"
+    tier: T0
+    category: research
+    weight: 4.0
+    keyword_filter: false
+
+  - name: "Meta AI Blog"
+    rss_url: "https://ai.meta.com/blog/rss/"
+    tier: T0
+    category: changelog
+    weight: 3.5
+    keyword_filter: false
+
+  - name: "Hugging Face Blog"
+    rss_url: "https://huggingface.co/blog/feed.xml"
+    tier: T0
+    category: changelog
+    weight: 3.0
+    keyword_filter: false
+
+  - name: "NVIDIA Developer Blog"
+    rss_url: "https://developer.nvidia.com/blog/feed/"
+    tier: T0
+    category: hardware
+    weight: 3.5
+    keyword_filter: false
+
+  # ── 中国头部模型 ─────────────────────
+  - name: "DeepSeek Releases"
+    rss_url: "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom"
+    tier: T0
+    category: changelog
+    weight: 4.0
+    keyword_filter: false
+    notes: "GitHub releases atom feed"
+
+  - name: "Qwen Releases"
+    rss_url: "https://github.com/QwenLM/Qwen3/releases.atom"
+    tier: T0
+    category: changelog
+    weight: 3.5
+    keyword_filter: false
+
+  # ── 工程深度 blog（极少数高密度个人 blog）─
+  - name: "Simon Willison"
+    rss_url: "https://simonwillison.net/atom/everything/"
+    tier: T1
+    category: products
+    weight: 3.0
+    keyword_filter: false
+    notes: "每周几篇 LLM 实操深度笔记"
+
+  - name: "Lilian Weng"
+    rss_url: "https://lilianweng.github.io/index.xml"
+    tier: T1
+    category: research
+    weight: 2.5
+    keyword_filter: false
+    notes: "OpenAI 应用研究负责人"
+
+  - name: "Sebastian Raschka"
+    rss_url: "https://magazine.sebastianraschka.com/feed"
+    tier: T1
+    category: research
+    weight: 2.5
+    keyword_filter: false
+    notes: "LLM 工程实操最深"
+
+  # ── 硬件经济（投资关键源）──────────────
+  - name: "SemiAnalysis Free"
+    rss_url: "https://www.semianalysis.com/feed"
+    tier: T1
+    category: hardware
+    weight: 5.0
+    keyword_filter: false
+    notes: "Dylan Patel · AI 基础设施经济学"
+
+  # ── 产品发现（"今日新品"主源）─────────────
+  - name: "Product Hunt AI"
+    rss_url: "https://www.producthunt.com/feed?category=artificial-intelligence"
+    tier: T2
+    category: products
+    weight: 3.5
+    keyword_filter: false
+    notes: "PH AI 分类，每天 50 个新品"
