@@ -1,0 +1,1004 @@
+[
+  {
+    "event_id": "evt_20260426_000",
+    "title": "🚀 重磅AI模型/平台发布，邀请开发者共建",
+    "category": "product_launch",
+    "importance": 9.5,
+    "sources": [
+      {
+        "author": "elonmusk",
+        "text": "https://t.co/BpmIpYrzqR",
+        "engagement": 177095,
+        "bookmark_count": 7838,
+        "like_count": 148922,
+        "author_tier": "downweight",
+        "url": "https://x.com/elonmusk/status/2048039351863406736"
+      },
+      {
+        "author": "elonmusk",
+        "text": "https://t.co/CHhHyQSxjR",
+        "engagement": 57713,
+        "bookmark_count": 5610,
+        "like_count": 50531,
+        "author_tier": "downweight",
+        "url": "https://x.com/elonmusk/status/2048016137695138021"
+      },
+      {
+        "author": "hwchase17",
+        "text": "Come join us!\n\nhttps://t.co/Jo8bMBoyHn",
+        "engagement": 234,
+        "bookmark_count": 192,
+        "like_count": 212,
+        "author_tier": "a_engineering",
+        "url": "https://x.com/hwchase17/status/2047302789777576333"
+      },
+      {
+        "author": "satyanadella",
+        "text": "Learn more: https://t.co/6wJeIQdirO",
+        "engagement": 25,
+        "bookmark_count": 7,
+        "like_count": 21,
+        "author_tier": "downweight",
+        "url": "https://x.com/satyanadella/status/2048194326946308453"
+      },
+      {
+        "author": "garrytan",
+        "text": "https://t.co/HCZMKVXavc",
+        "engagement": 22,
+        "bookmark_count": 41,
+        "like_count": 19,
+        "author_tier": "s_investor",
+        "url": "https://x.com/garrytan/status/2047546419129856510"
+      }
+    ],
+    "key_facts": [
+      "多位AI行业领袖，包括Elon Musk、Microsoft CEO Satya Nadella、Y Combinator CEO Garry Tan，以及LangChain创始人hwchase17，均转发或评论了此次发布。",
+      "LangChain创始人hwchase17的推文带有“Come join us!”的号召，暗示此次发布可能包含针对开发者的重要机会或工具，鼓励社区参与。",
+      "推文的高书签率，特别是来自工程和投资领域的权威人士，表明该事件对AI技术栈和市场发展具有高度战略意义。"
+    ],
+    "analyst_angle": "此次由AI生态核心参与者共同关注的重磅发布，预示着AI技术栈或应用开发范式可能迎来重大变革，为开发者和创业者带来新的机遇和挑战。",
+    "cluster_size": 9,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260426_001",
+    "title": "💡 AI 时代技能价值与设计职能的未来讨论",
+    "category": "market",
+    "importance": 7.0,
+    "sources": [
+      {
+        "author": "pmarca",
+        "text": "When something becomes abundant and cheap, someone else becomes scarce and valuable.",
+        "engagement": 1476,
+        "bookmark_count": 440,
+        "like_count": 1333,
+        "author_tier": "s_investor",
+        "url": "https://x.com/pmarca/status/2048221762991910974"
+      },
+      {
+        "author": "lennysan",
+        "text": "@gokulr I rarely disagree with you, but I do on this. I expect design to become a differentiator as the quantity of software increases. And anyone that’s worked with a design system has seen how much ",
+        "engagement": 226,
+        "bookmark_count": 20,
+        "like_count": 209,
+        "author_tier": "downweight",
+        "url": "https://x.com/lennysan/status/2048174805145595959"
+      },
+      {
+        "author": "lennysan",
+        "text": "@gokulr It’s hard for me to believe that considering how valuable designers have been on my teams.\n\nWhich functions do you expect will grow?",
+        "engagement": 21,
+        "bookmark_count": 1,
+        "like_count": 20,
+        "author_tier": "downweight",
+        "url": "https://x.com/lennysan/status/2048179349992718643"
+      },
+      {
+        "author": "lennysan",
+        "text": "@gokulr Haha yes, but I don’t think this means design goes away as a function. It’s just not growing.\n\nOn the combo piece, yes people who are great at multiple things will be super valued, but there a",
+        "engagement": 16,
+        "bookmark_count": 0,
+        "like_count": 15,
+        "author_tier": "downweight",
+        "url": "https://x.com/lennysan/status/2048182754416927200"
+      },
+      {
+        "author": "swyx",
+        "text": "btw the hot skills of today become \nthe posttrain targets of tomorrow",
+        "engagement": 11,
+        "bookmark_count": 10,
+        "like_count": 9,
+        "author_tier": "a_engineering",
+        "url": "https://x.com/swyx/status/2047715417867907539"
+      }
+    ],
+    "key_facts": [
+      "AI/自动化使得某些技能变得普遍且廉价，从而提升了其他稀缺技能的价值。",
+      "行业内正讨论 AI 是否会降低设计职能的价值；有观点认为，随着软件数量的增加，设计将成为关键的差异化因素。",
+      "优秀的“设计”被认为是困难且有价值的，需要人类专业知识。",
+      "具备多重优秀技能的复合型人才在未来将备受重视。",
+      "今天的热门技能可能成为未来自动化或AI训练的目标。"
+    ],
+    "analyst_angle": "AI的普及正促使行业重新评估各项技能的价值，尤其是在设计等创意领域，关于其未来是会被自动化取代还是成为核心竞争力的讨论日益激烈。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260426_002",
+    "title": "📊 Hugging Face Open LLM Leaderboard更新讨论",
+    "category": "market",
+    "importance": 6.5,
+    "sources": [
+      {
+        "author": "ClementDelangue",
+        "text": "@tszzl nice! should we add it to https://t.co/oxPwmv2h86?",
+        "engagement": 47,
+        "bookmark_count": 19,
+        "like_count": 43,
+        "author_tier": "s_founder",
+        "url": "https://x.com/ClementDelangue/status/2047415925452734888"
+      },
+      {
+        "author": "ClementDelangue",
+        "text": "@_lewtun @huggingface Nice!",
+        "engagement": 1,
+        "bookmark_count": 0,
+        "like_count": 1,
+        "author_tier": "downweight",
+        "url": "https://x.com/ClementDelangue/status/2048082783952650599"
+      }
+    ],
+    "key_facts": [
+      "Hugging Face CEO Clement Delangue正在讨论向Hugging Face Open LLM Leaderboard添加新内容或进行更新。",
+      "Hugging Face Open LLM Leaderboard是衡量大型语言模型性能的重要基准平台。"
+    ],
+    "analyst_angle": "这表明Hugging Face正在积极维护和更新其Open LLM Leaderboard，持续推动LLM性能评估的透明度和竞争。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260426_003",
+    "title": "📊 AI 安全风险引发市场关注，保险业调整承保策略",
+    "category": "market",
+    "importance": 7.0,
+    "sources": [
+      {
+        "author": "theinformation",
+        "text": "Mark Zuckerberg’s warning that AI models would be hard to contain is gaining traction after new security lapses at top labs.\n\nFull story: https://t.co/RiqHZvjn19",
+        "engagement": 2,
+        "bookmark_count": 2,
+        "like_count": 1,
+        "author_tier": "downweight",
+        "url": "https://x.com/theinformation/status/2048122380782870936"
+      },
+      {
+        "author": "theinformation",
+        "text": "Insurers are carving AI risks out of liability coverage, forcing businesses to either absorb potential losses or seek new policies. \n\nThe change reflects growing concern that AI-driven claims could mi",
+        "engagement": 1,
+        "bookmark_count": 2,
+        "like_count": 1,
+        "author_tier": "downweight",
+        "url": "https://x.com/theinformation/status/2048031789445185974"
+      }
+    ],
+    "key_facts": [
+      "Mark Zuckerberg 曾警告 AI 模型难以控制，此观点因顶级实验室出现新的安全漏洞而受到关注。",
+      "保险公司正在将 AI 风险从责任险承保范围中剔除。",
+      "企业将不得不自行承担潜在损失或寻求新的保单以覆盖 AI 风险。",
+      "这一变化反映了业界对 AI 驱动索赔可能重演网络损失浪潮的日益担忧。"
+    ],
+    "analyst_angle": "这一趋势表明 AI 行业风险意识日益增强，可能导致企业在 AI 部署上面临更高的合规成本和更谨慎的态度。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260426_004",
+    "title": "🔬 Microsoft 发布 DELEGATE-52 基准，揭示 LLM 在长文档编辑中代理能力不足",
+    "category": "research",
+    "importance": 7.5,
+    "sources": [
+      {
+        "author": "MarkTechPost",
+        "text": "Top 7 Benchmarks That Actually Matter for Agentic Reasoning in Large Language Models. As AI agents move from research demos to production deployments, one question has become impossible to ignore: how",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://www.marktechpost.com/2026/04/26/top-7-benchmarks-that-actually-matter-for-agentic-reasoning-in-large-language-models/"
+      },
+      {
+        "author": "omarsar0",
+        "text": "NEW paper from Microsoft.\n\nThis is an important read. (bookmark it)\n\nThe work introduces DELEGATE-52, a benchmark simulating long document-editing workflows across 52 professional domains like coding,",
+        "engagement": 246,
+        "bookmark_count": 228,
+        "like_count": 195,
+        "author_tier": "downweight",
+        "url": "https://x.com/omarsar0/status/2048083630531211540"
+      }
+    ],
+    "key_facts": [
+      "Microsoft 推出 DELEGATE-52 基准，旨在评估大型语言模型 (LLM) 在代理推理方面的能力。",
+      "DELEGATE-52 模拟了跨 52 个专业领域（如编码、晶体学、音乐符号）的复杂长文档编辑工作流。",
+      "测试结果显示，包括 Gemini 3.1 Pro、Claude 4.6 Opus 和 GPT-5.4 在内的 19 个前沿模型，在长工作流结束时平均损坏了 25% 的文档内容。",
+      "研究发现，代理工具的使用未能有效改善模型在这些复杂任务中的表现。"
+    ],
+    "analyst_angle": "该基准揭示了当前 LLM 在处理复杂、多步骤代理任务方面的重大局限性，表明在 AI 代理能够可靠执行高精度专业工作流之前，仍需大量技术突破。",
+    "cluster_size": 2,
+    "event_time": "2026-04-26T07:59:03Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260426_005",
+    "title": "📊 IBM 报告揭示 Shadow AI 风险与企业监控挑战",
+    "category": "market",
+    "importance": 6.5,
+    "sources": [
+      {
+        "author": "VentureBeat",
+        "text": "Shadow AI incidents cost $670K more than standard breaches on average (IBM). And nearly 1 in 3 enterprises has no systematic way to detect a misbehaving AI model until damage is already done. https://",
+        "engagement": 6,
+        "bookmark_count": 4,
+        "like_count": 4,
+        "author_tier": "downweight",
+        "url": "https://x.com/VentureBeat/status/2048069601498419482"
+      },
+      {
+        "author": "VentureBeat",
+        "text": "Monitoring LLM behavior: Drift, retries, and refusal patterns\nhttps://t.co/HmJJbHWARx",
+        "engagement": 3,
+        "bookmark_count": 1,
+        "like_count": 1,
+        "author_tier": "downweight",
+        "url": "https://x.com/VentureBeat/status/2048114894898082018"
+      }
+    ],
+    "key_facts": [
+      "根据 IBM 报告，Shadow AI 事件平均比标准数据泄露多花费 $670K。",
+      "近 1/3 的企业在损害发生前，没有系统方法检测到异常的 AI 模型。",
+      "监控 LLM 行为（如漂移、重试和拒绝模式）对于管理这些风险至关重要。"
+    ],
+    "analyst_angle": "随着企业对 AI 的广泛采用，未受监控的 Shadow AI 带来了巨大的财务和运营风险，凸显了对 AI/LLM 行为监控解决方案的迫切需求。",
+    "cluster_size": 2,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260426_006",
+    "title": "📊 Anthropic Claude Code 质量下降及官方事后分析",
+    "category": "market",
+    "importance": 7.5,
+    "sources": [
+      {
+        "author": "Simon Willison",
+        "text": "An update on recent Claude Code quality reports. An update on recent Claude Code quality reports\nIt turns out the high volume of complaints that Claude Code was providing worse quality results over th",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t1_curated",
+        "url": "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything"
+      },
+      {
+        "author": "firstadopter",
+        "text": "This is a good amalgamation of the sentiment shift I see among developers online from \"Anthropic is ruling everything\" to \"it's a 50/50 race with OpenAI\" again. Despite the high views from media, Goog",
+        "engagement": 58,
+        "bookmark_count": 16,
+        "like_count": 51,
+        "author_tier": "downweight",
+        "url": "https://x.com/firstadopter/status/2048041451385241685"
+      },
+      {
+        "author": "TheAiGrid",
+        "text": "Main issue anthropic is facing now is trust. \n\nPeople dont like the fact that they degraded the models but more so the fact that they lied about it.\n\nWhich is arguably worse.",
+        "engagement": 4,
+        "bookmark_count": 0,
+        "like_count": 4,
+        "author_tier": "downweight",
+        "url": "https://x.com/TheAiGrid/status/2048115284301521074"
+      }
+    ],
+    "key_facts": [
+      "Anthropic的Claude Code在过去两个月内被用户广泛报告质量下降，公司已发布事后分析报告承认问题。",
+      "问题并非出在模型本身，而是由Claude Code harness中的三个独立问题导致，其中一个关键更改发生在3月26日。",
+      "此次事件导致部分开发者对Claude的信任度下降，并转向OpenAI的GPT模型，认为OpenAI在编码用例上表现更佳。",
+      "有观点认为Anthropic面临信任危机，且需要解决计算资源问题以提升用户体验和模型稳定性。"
+    ],
+    "analyst_angle": "此次事件凸显了AI模型在实际应用中稳定性与可靠性的重要性，可能导致Anthropic在开发者社区中的声誉受损，并进一步加剧与OpenAI在AI编码助手领域的竞争。",
+    "cluster_size": 3,
+    "event_time": "2026-04-24T01:31:25Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260426_007",
+    "title": "🚀 GPT Image 2 发布：支持学习与图像风格转换",
+    "category": "product_launch",
+    "importance": 6.5,
+    "sources": [
+      {
+        "author": "gdb",
+        "text": "GPT Image 2 is great for learning",
+        "engagement": 968,
+        "bookmark_count": 213,
+        "like_count": 804,
+        "author_tier": "downweight",
+        "url": "https://x.com/gdb/status/2048067919289147674"
+      },
+      {
+        "author": "gdb",
+        "text": "GPT Image 2 for learning about endangered animals",
+        "engagement": 426,
+        "bookmark_count": 103,
+        "like_count": 349,
+        "author_tier": "downweight",
+        "url": "https://x.com/gdb/status/2048162286838444511"
+      },
+      {
+        "author": "gdb",
+        "text": "GPT Image 2 for changing the style of any photo of yourself or your family",
+        "engagement": 131,
+        "bookmark_count": 25,
+        "like_count": 97,
+        "author_tier": "downweight",
+        "url": "https://x.com/gdb/status/2048184698195870102"
+      }
+    ],
+    "key_facts": [
+      "GPT Image 2 是一款新的图像处理工具或模型。",
+      "它可用于教育学习，例如了解濒危动物。",
+      "它还支持图像风格转换，可应用于个人照片。"
+    ],
+    "analyst_angle": "GPT Image 2 的推出扩展了 AI 在图像生成和处理领域的应用，为教育和个人创意提供了新工具。",
+    "cluster_size": 3,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260426_008",
+    "title": "🚀 OpenAI 发布 GPT-5.5：迄今最智能、更快速的模型",
+    "category": "product_launch",
+    "importance": 9.0,
+    "sources": [
+      {
+        "author": "OpenAI Blog",
+        "text": "Introducing GPT-5.5. Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t0_primary",
+        "url": "https://openai.com/index/introducing-gpt-5-5"
+      },
+      {
+        "author": "Simon Willison",
+        "text": "GPT-5.5 prompting guide. GPT-5.5 prompting guide\nNow that GPT-5.5 is available in the API, OpenAI have released a wealth of useful tips on how best to prompt the new model.\nHere's a neat trick they re",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t1_curated",
+        "url": "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything"
+      },
+      {
+        "author": "Simon Willison",
+        "text": "A pelican for GPT-5.5 via the semi-official Codex backdoor API. GPT-5.5 is out. It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t1_curated",
+        "url": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything"
+      },
+      {
+        "author": "Product Hunt AI",
+        "text": "GPT-5.5 by OpenAI. \n            OpenAI's smartest and most intuitive to use model yet\n          \n          \n            Discussion\n            |\n            Link\n          ",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t2_community",
+        "url": "https://www.producthunt.com/products/openai"
+      },
+      {
+        "author": "dejavucoder",
+        "text": "gpt 5.5 high /fast in codex https://t.co/j6EZbcYKX5",
+        "engagement": 52,
+        "bookmark_count": 4,
+        "like_count": 48,
+        "author_tier": "downweight",
+        "url": "https://x.com/dejavucoder/status/2048024902893175109"
+      }
+    ],
+    "key_facts": [
+      "OpenAI 正式发布 GPT-5.5，称其为迄今为止最智能的模型。",
+      "GPT-5.5 更快、能力更强，专为编码、研究和数据分析等复杂任务设计。",
+      "该模型已在 OpenAI Codex 中可用，并正逐步向付费 ChatGPT 订阅用户推出。",
+      "GPT-5.5 的 API 部署将在稍后推出，OpenAI 正与合作伙伴密切合作。",
+      "OpenAI 发布了 GPT-5.5 的提示指南，提供了优化模型使用的技巧。"
+    ],
+    "analyst_angle": "OpenAI 推出更强大的旗舰模型 GPT-5.5，将进一步提升 AI 性能标准，特别是在复杂任务处理方面，并可能加速行业内的创新和竞争。",
+    "cluster_size": 5,
+    "event_time": "2026-04-23T11:00:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260426_009",
+    "title": "📌 Apple 硬件工程 SVP John Ternus 被选为 Tim Cook 继任者，或将主导 Apple AI 战略",
+    "category": "other",
+    "importance": 9.0,
+    "sources": [
+      {
+        "author": "CNET",
+        "text": "Apple's AI Future Is in the Hands of a Hardware Expert. That's a Good Thing. Commentary: There will likely be a lot of pressure on John Ternus to change Apple's AI strategy. It may be better if he doe",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "unknown",
+        "url": "https://www.cnet.com/tech/services-and-software/apple-new-ceo-john-ternus-ai-plans-commentary/"
+      },
+      {
+        "author": "Stratechery Free",
+        "text": "John Ternus and Apple’s Hardware-Defined Future, SpaceXAI and Cursor. The elevation of John Ternus suggests that Apple's future is about hardware differentiation; then, the SpaceX-Cursor deal makes a ",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t1_curated",
+        "url": "https://stratechery.com/2026/john-ternus-and-apples-hardware-defined-future-spacexai-and-cursor/"
+      },
+      {
+        "author": "Exponential View",
+        "text": "🍏 Apple’s AI bet got a CEO. Apple&#8217;s board picked John Ternus, senior vice president of Hardware Engineering, to succeed Tim Cook on September 1.",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t1_curated",
+        "url": "https://www.exponentialview.co/p/apples-ai-bet-got-a-ceo"
+      }
+    ],
+    "key_facts": [
+      "Apple 硬件工程高级副总裁 John Ternus 被董事会选定为 Tim Cook 的继任者，预计将于 9 月 1 日上任。",
+      "此举预示着 Apple 未来将更侧重于硬件差异化，尤其是在 AI 领域。",
+      "行业分析认为，Ternus 的领导可能意味着 Apple 将利用其硬件优势来推进 AI 战略，而非彻底改变现有路径。"
+    ],
+    "analyst_angle": "John Ternus 的任命预示着 Apple 在 AI 时代将继续深耕硬件驱动的创新和差异化，利用其强大的集成生态系统构建竞争优势。",
+    "cluster_size": 3,
+    "event_time": "2026-04-21T15:40:54Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260426_010",
+    "title": "🚀 OpenAI 发布 Codex 自动化平台系列指南",
+    "category": "product_launch",
+    "importance": 6.5,
+    "sources": [
+      {
+        "author": "OpenAI Blog",
+        "text": "Automations. Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t0_primary",
+        "url": "https://openai.com/academy/codex-automations"
+      },
+      {
+        "author": "OpenAI Blog",
+        "text": "Top 10 uses for Codex at work. Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t0_primary",
+        "url": "https://openai.com/academy/top-10-use-cases-codex-for-work"
+      },
+      {
+        "author": "OpenAI Blog",
+        "text": "Plugins and skills. Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t0_primary",
+        "url": "https://openai.com/academy/codex-plugins-and-skills"
+      },
+      {
+        "author": "OpenAI Blog",
+        "text": "Working with Codex. Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t0_primary",
+        "url": "https://openai.com/academy/working-with-codex"
+      },
+      {
+        "author": "OpenAI Blog",
+        "text": "Codex settings. Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t0_primary",
+        "url": "https://openai.com/academy/codex-settings"
+      }
+    ],
+    "key_facts": [
+      "OpenAI发布了一系列关于其AI自动化工具Codex的详细学习指南。",
+      "指南涵盖了Codex的自动化功能，包括通过日程和触发器创建报告、摘要和重复性工作流。",
+      "Codex支持插件和技能，可用于连接外部工具、访问数据和执行可重复的工作流。",
+      "文章提供了Codex在工作中的十大实际用例，旨在帮助用户自动化任务和生成输出。",
+      "指南还包括如何设置Codex工作区、管理文件以及配置个性化设置和权限。"
+    ],
+    "analyst_angle": "这一系列指南表明OpenAI正积极推广Codex作为一款强大的AI自动化工具，旨在赋能用户优化工作流程，并可能预示着OpenAI在企业级自动化解决方案领域的战略布局。",
+    "cluster_size": 7,
+    "event_time": "2026-04-23T10:00:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260426_011",
+    "title": "🚀 DeepSeek 发布 V4 系列模型，提供百万上下文与开源权重",
+    "category": "product_launch",
+    "importance": 7.5,
+    "sources": [
+      {
+        "author": "Simon Willison",
+        "text": "DeepSeek V4 - almost on the frontier, a fraction of the price. Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December. They just dropped the first of their hotly antic",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t1_curated",
+        "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything"
+      },
+      {
+        "author": "OpenRouter · openai",
+        "text": "🚀 OpenRouter 上架 OpenAI: GPT-5.5 Pro: 1,050,000 context · $30.00/M prompt · $180.00/M completion",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t0_primary",
+        "url": "https://openrouter.ai/openai/gpt-5.5-pro"
+      },
+      {
+        "author": "OpenRouter · openai",
+        "text": "🚀 OpenRouter 上架 OpenAI: GPT-5.5: 1,050,000 context · $5.00/M prompt · $30.00/M completion",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t0_primary",
+        "url": "https://openrouter.ai/openai/gpt-5.5"
+      },
+      {
+        "author": "OpenRouter · deepseek",
+        "text": "🚀 OpenRouter 上架 DeepSeek: DeepSeek V4 Pro: 1,048,576 context · $0.43/M prompt · $0.87/M completion",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t0_primary",
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "author": "OpenRouter · deepseek",
+        "text": "🚀 OpenRouter 上架 DeepSeek: DeepSeek V4 Flash: 1,048,576 context · $0.14/M prompt · $0.28/M completion",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t0_primary",
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      }
+    ],
+    "key_facts": [
+      "中国AI实验室DeepSeek发布了其V4系列预发布模型：DeepSeek-V4-Pro 和 DeepSeek-V4-Flash。",
+      "两款模型均支持100万token上下文窗口，采用Mixture of Experts (MoE) 架构。",
+      "DeepSeek-V4-Pro 拥有1.6T总参数和49B活跃参数，被认为是目前最大的开源权重模型。",
+      "DeepSeek-V4-Flash 拥有284B总参数和13B活跃参数。",
+      "这些模型采用MIT许可证，支持开源。",
+      "OpenRouter已上架DeepSeek V4 Pro和Flash模型，并公布了其API定价，价格远低于同类模型。"
+    ],
+    "analyst_angle": "DeepSeek V4的发布显著提升了开源大语言模型的能力和可及性，以极具竞争力的价格提供了前沿的百万上下文和大规模参数，有望重塑开源模型生态的性能与成本效率基准。",
+    "cluster_size": 6,
+    "event_time": "2026-04-23T12:43:58Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260426_012",
+    "title": "🚀 DeepSeek 发布 V4 系列大模型更新",
+    "category": "product_launch",
+    "importance": 8.0,
+    "sources": [
+      {
+        "author": "HuggingFace · deepseek-ai",
+        "text": "🤗 deepseek-ai/DeepSeek-V4-Pro 进入 HuggingFace trending: 123,431 下载 · 2,738 likes · by deepseek-ai",
+        "engagement": 2738,
+        "bookmark_count": 0,
+        "like_count": 2738,
+        "author_tier": "t0_primary",
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+      },
+      {
+        "author": "HuggingFace · deepseek-ai",
+        "text": "🤗 deepseek-ai/DeepSeek-V4-Flash 进入 HuggingFace trending: 45,986 下载 · 703 likes · by deepseek-ai",
+        "engagement": 703,
+        "bookmark_count": 0,
+        "like_count": 703,
+        "author_tier": "t0_primary",
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+      },
+      {
+        "author": "Reddit · r/LocalLLaMA",
+        "text": "📰 r/LocalLLaMA · DeepSeek V4 Update. DeepSeek V4 Update",
+        "engagement": 405,
+        "bookmark_count": 0,
+        "like_count": 265,
+        "author_tier": "t2_community",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sv8806/deepseek_v4_update/"
+      },
+      {
+        "author": "HuggingFace · deepseek-ai",
+        "text": "🤗 deepseek-ai/DeepSeek-V4-Pro-Base 进入 HuggingFace trending: 1,182 下载 · 215 likes · by deepseek-ai",
+        "engagement": 215,
+        "bookmark_count": 0,
+        "like_count": 215,
+        "author_tier": "t0_primary",
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-Base"
+      },
+      {
+        "author": "HuggingFace · deepseek-ai",
+        "text": "🤗 deepseek-ai/DeepSeek-V4-Flash-Base 进入 HuggingFace trending: 2,236 下载 · 161 likes · by deepseek-ai",
+        "engagement": 161,
+        "bookmark_count": 0,
+        "like_count": 161,
+        "author_tier": "t0_primary",
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Base"
+      }
+    ],
+    "key_facts": [
+      "DeepSeek-AI 发布了 DeepSeek V4 系列大模型更新，包括 DeepSeek-V4-Pro、DeepSeek-V4-Flash 及其对应的 Base 版本。",
+      "新模型在 HuggingFace 上线后迅速获得社区关注，其中 DeepSeek-V4-Pro 模型下载量超过 12 万次，DeepSeek-V4-Flash 下载量超过 4.5 万次。"
+    ],
+    "analyst_angle": "此次更新表明 DeepSeek 在大型语言模型领域持续投入并提升竞争力，尤其是在开源社区中保持活跃和影响力。",
+    "cluster_size": 5,
+    "event_time": "2026-04-25T10:10:26Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260426_013",
+    "title": "🚀 社区热议 Google Gemini/Nano 新模型发布预期",
+    "category": "product_launch",
+    "importance": 5.5,
+    "sources": [
+      {
+        "author": "Reddit · r/singularity",
+        "text": "📰 r/singularity · The mysterious smile... of your replacement.. Images:\n\thttps://preview.redd.it/ui89st00lbxg1.jpeg?auto=webp&amp;s=50693d3fba3bd8d2e5178e544e3069b438b8f732\n",
+        "engagement": 631,
+        "bookmark_count": 0,
+        "like_count": 583,
+        "author_tier": "t2_community",
+        "url": "https://www.reddit.com/r/singularity/comments/1sv9cym/the_mysterious_smile_of_your_replacement/"
+      },
+      {
+        "author": "Reddit · r/singularity",
+        "text": "📰 r/singularity · How it feels this month. Images:\n\thttps://preview.redd.it/5af86rkgudxg1.jpeg?auto=webp&amp;s=47f87c812d8943b1daeecf4aaec75c63d8323561\n",
+        "engagement": 606,
+        "bookmark_count": 0,
+        "like_count": 551,
+        "author_tier": "t2_community",
+        "url": "https://www.reddit.com/r/singularity/comments/1svkfu9/how_it_feels_this_month/"
+      },
+      {
+        "author": "Reddit · r/singularity",
+        "text": "📰 r/singularity · Don’t tell me that we have to wait until google i/o for a new gemini/nano banana model?. Images:\n\thttps://preview.redd.it/5k69kirxfexg1.jpeg?auto=webp&amp;s=5525e028ea0f47727301551ef",
+        "engagement": 269,
+        "bookmark_count": 0,
+        "like_count": 210,
+        "author_tier": "t2_community",
+        "url": "https://www.reddit.com/r/singularity/comments/1svnk01/dont_tell_me_that_we_have_to_wait_until_google_io/"
+      }
+    ],
+    "key_facts": [
+      "Reddit r/singularity 社区成员正在讨论对Google新AI模型的期待。",
+      "讨论具体指向Google的Gemini和Nano系列模型。",
+      "社区猜测新模型可能会在即将到来的Google I/O大会上发布。"
+    ],
+    "analyst_angle": "AI社区对Google在即将到来的Google I/O大会上发布新的Gemini/Nano系列AI模型抱有高度期待，显示出市场对Google AI进展的持续关注。",
+    "cluster_size": 3,
+    "event_time": "2026-04-25T11:14:24Z",
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260426_014",
+    "title": "🚀 阿里云Qwen 3.6系列模型在HuggingFace上表现强劲，下载量突破百万",
+    "category": "product_launch",
+    "importance": 7.0,
+    "sources": [
+      {
+        "author": "HuggingFace · Qwen",
+        "text": "🤗 Qwen/Qwen3.6-35B-A3B 进入 HuggingFace trending: 1,181,968 下载 · 1,411 likes · by Qwen",
+        "engagement": 1411,
+        "bookmark_count": 0,
+        "like_count": 1411,
+        "author_tier": "t0_primary",
+        "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
+      },
+      {
+        "author": "HuggingFace · Qwen",
+        "text": "🤗 Qwen/Qwen3.6-27B 进入 HuggingFace trending: 329,571 下载 · 832 likes · by Qwen",
+        "engagement": 832,
+        "bookmark_count": 0,
+        "like_count": 832,
+        "author_tier": "t0_primary",
+        "url": "https://huggingface.co/Qwen/Qwen3.6-27B"
+      },
+      {
+        "author": "HuggingFace · openai",
+        "text": "🤗 openai/privacy-filter 进入 HuggingFace trending: 35,807 下载 · 794 likes · by openai",
+        "engagement": 794,
+        "bookmark_count": 0,
+        "like_count": 794,
+        "author_tier": "t0_primary",
+        "url": "https://huggingface.co/openai/privacy-filter"
+      },
+      {
+        "author": "HuggingFace · unsloth",
+        "text": "🤗 unsloth/Qwen3.6-35B-A3B-GGUF 进入 HuggingFace trending: 1,574,581 下载 · 775 likes · by unsloth",
+        "engagement": 775,
+        "bookmark_count": 0,
+        "like_count": 775,
+        "author_tier": "t0_primary",
+        "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF"
+      },
+      {
+        "author": "HuggingFace · unsloth",
+        "text": "🤗 unsloth/Qwen3.6-27B-GGUF 进入 HuggingFace trending: 553,179 下载 · 409 likes · by unsloth",
+        "engagement": 409,
+        "bookmark_count": 0,
+        "like_count": 409,
+        "author_tier": "t0_primary",
+        "url": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF"
+      }
+    ],
+    "key_facts": [
+      "阿里云Qwen 3.6系列模型，包括Qwen3.6-27B和Qwen3.6-35B-A3B，在HuggingFace上进入热门趋势榜。",
+      "Qwen3.6-35B-A3B模型下载量超过118万次，其Unsloth GGUF版本下载量更是突破157万次。",
+      "Qwen3.6-27B模型及其Unsloth GGUF版本也获得数十万下载量，显示出社区对Qwen模型的广泛兴趣。"
+    ],
+    "analyst_angle": "这表明Qwen 3.6系列模型在开源社区获得了广泛关注和快速采纳，尤其是在量化和优化版本方面，进一步巩固了其在开源大模型领域的地位。",
+    "cluster_size": 14,
+    "event_time": "2026-04-26T09:10:23.546265Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260426_015",
+    "title": "📊 主要科技公司提交 SEC 8-K 报告",
+    "category": "market",
+    "importance": 5.5,
+    "sources": [
+      {
+        "author": "SEC EDGAR · Tesla",
+        "text": "📜 Tesla 提交 8-K: 财报披露 · 9.01",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t0_primary",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1318605&type=8-K&dateb=&owner=include&count=40"
+      },
+      {
+        "author": "SEC EDGAR · Apple",
+        "text": "📜 Apple 提交 8-K: 高管变动",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t0_primary",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=320193&type=8-K&dateb=&owner=include&count=40"
+      },
+      {
+        "author": "SEC EDGAR · AMD",
+        "text": "📜 AMD 提交 8-K: 高管变动",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t0_primary",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1084869&type=8-K&dateb=&owner=include&count=40"
+      },
+      {
+        "author": "SEC EDGAR · SoundHound AI",
+        "text": "📜 SoundHound AI 提交 8-K: 高管变动 · Regulation FD 披露 · 9.01",
+        "engagement": 0,
+        "bookmark_count": 0,
+        "like_count": 0,
+        "author_tier": "t0_primary",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1819516&type=8-K&dateb=&owner=include&count=40"
+      }
+    ],
+    "key_facts": [
+      "Tesla 提交 8-K 报告，涉及财报披露。",
+      "Apple 提交 8-K 报告，涉及高管变动。",
+      "AMD 提交 8-K 报告，涉及高管变动。",
+      "SoundHound AI 提交 8-K 报告，涉及高管变动、Regulation FD 披露及财报披露。"
+    ],
+    "analyst_angle": "这些 8-K 报告反映了主要科技公司近期在财务和高管层面的重要动态，是投资者了解公司运营状况和潜在市场影响的关键信息。",
+    "cluster_size": 4,
+    "event_time": "2026-04-20T00:00:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260426_016",
+    "title": "🚀 OpenAI Codex 携手 NVIDIA 成功实现企业级部署",
+    "category": "product_launch",
+    "importance": 7.5,
+    "sources": [
+      {
+        "author": "elonmusk",
+        "text": "Incentives explain outcomes. \n\nActually eliminating hatred would end the existence of “anti-hate” groups, so groups like SPLC amplified hatred instead to get more donations.",
+        "engagement": 130000,
+        "bookmark_count": 4686,
+        "like_count": 102669,
+        "author_tier": "downweight",
+        "url": "https://x.com/elonmusk/status/2048008745406386266"
+      },
+      {
+        "author": "sama",
+        "text": "we still get looksmaxxed on frontend a little but we IQmog hard now",
+        "engagement": 17861,
+        "bookmark_count": 1471,
+        "like_count": 15226,
+        "author_tier": "downweight",
+        "url": "https://x.com/sama/status/2048160404376105179"
+      },
+      {
+        "author": "sama",
+        "text": "We tried a new thing with NVIDIA to roll out Codex across a whole company and it was awesome to see it work.\n\nLet us know if you'd like to do it at your company! https://t.co/Xjn6ShrRuq",
+        "engagement": 9178,
+        "bookmark_count": 1118,
+        "like_count": 8166,
+        "author_tier": "s_founder",
+        "url": "https://x.com/sama/status/2047395562501411058"
+      },
+      {
+        "author": "sama",
+        "text": "\"don't retweet this, don't retweet this, don't retweet this...\"\n\nah fuck it, life imitates art.",
+        "engagement": 5932,
+        "bookmark_count": 631,
+        "like_count": 5229,
+        "author_tier": "s_founder",
+        "url": "https://x.com/sama/status/2047403771416940715"
+      },
+      {
+        "author": "sama",
+        "text": "how can they write code so fast?!",
+        "engagement": 3154,
+        "bookmark_count": 210,
+        "like_count": 2776,
+        "author_tier": "downweight",
+        "url": "https://x.com/sama/status/2048165186482389253"
+      }
+    ],
+    "key_facts": [
+      "OpenAI 宣布与 NVIDIA 合作，成功将 Codex 模型部署到一家公司。",
+      "OpenAI 首席执行官 Sam Altman 评价此次企业级部署“非常棒”。",
+      "OpenAI 正在积极寻求更多公司进行类似的 Codex 部署。"
+    ],
+    "analyst_angle": "这表明 OpenAI 的 Codex 模型在企业级应用中具备可行性和价值，并预示着 AI 辅助编程工具在企业市场将加速普及，同时强化了 OpenAI 与 NVIDIA 在企业解决方案上的合作。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260426_017",
+    "title": "🚀 OpenClaw 2026.4.24 更新：集成 DeepSeek V4 Flash + Pro，强化语音和浏览器自动化",
+    "category": "product_launch",
+    "importance": 7.0,
+    "sources": [
+      {
+        "author": "pmarca",
+        "text": "Kevin Kelly @kevin2kelly is neck and neck with Ray Kurzweil for the best technology forecaster of the last 40 years.",
+        "engagement": 2678,
+        "bookmark_count": 1691,
+        "like_count": 2364,
+        "author_tier": "s_investor",
+        "url": "https://x.com/pmarca/status/2047085548326834357"
+      },
+      {
+        "author": "openclaw",
+        "text": "OpenClaw 2026.4.24 🦞\n\n☎️ Voice calls can now reach the full agent\n🧠 DeepSeek V4 Flash + Pro join the team\n🖱️ Browser automation got coordinate clicks + better recovery\n🔧 Telegram, Slack, MCP, sessions",
+        "engagement": 1928,
+        "bookmark_count": 474,
+        "like_count": 1571,
+        "author_tier": "downweight",
+        "url": "https://x.com/openclaw/status/2048124737918751035"
+      },
+      {
+        "author": "sama",
+        "text": "important (and very jakub-coded) jakub quote:",
+        "engagement": 1634,
+        "bookmark_count": 174,
+        "like_count": 1466,
+        "author_tier": "s_founder",
+        "url": "https://x.com/sama/status/2047386286613283180"
+      },
+      {
+        "author": "sama",
+        "text": "@MainStreetAIHQ wow that looks good\n\nmaybe it is time to bonesmash, or at least tanning peptides.",
+        "engagement": 1595,
+        "bookmark_count": 63,
+        "like_count": 1471,
+        "author_tier": "downweight",
+        "url": "https://x.com/sama/status/2048161260601262082"
+      },
+      {
+        "author": "emollick",
+        "text": "I think that academia has not absorbed the fact that AI agents are now good enough to independently reconstruct complex papers without access to code or the papers themselves; just the methods &amp; d",
+        "engagement": 1478,
+        "bookmark_count": 555,
+        "like_count": 1194,
+        "author_tier": "downweight",
+        "url": "https://x.com/emollick/status/2048058055472881710"
+      }
+    ],
+    "key_facts": [
+      "OpenClaw 平台发布 2026.4.24 版本更新。",
+      "新版本支持语音通话全面接入 AI 代理。",
+      "集成了 DeepSeek V4 Flash 和 DeepSeek V4 Pro 模型。",
+      "浏览器自动化功能得到增强，包括坐标点击和更好的恢复机制。",
+      "修复了 Telegram、Slack、MCP、会话和 TTS 等多项问题。"
+    ],
+    "analyst_angle": "此次更新通过集成先进模型并优化核心交互能力，显著提升了 AI 代理的自主性和实用性，预示着代理应用将更加强大和易用。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260426_018",
+    "title": "💡 AI Agent编排与效率：探讨GPT-5.5在子代理协调中的应用及技能组合策略",
+    "category": "research",
+    "importance": 7.5,
+    "sources": [
+      {
+        "author": "arstechnica",
+        "text": "Palantir employees are talking about company's \"descent into fascism\" https://t.co/vwPHmQPy4n",
+        "engagement": 1407,
+        "bookmark_count": 153,
+        "like_count": 948,
+        "author_tier": "downweight",
+        "url": "https://x.com/arstechnica/status/2047992938379293035"
+      },
+      {
+        "author": "garrytan",
+        "text": "This is interesting. Anyone experimenting with this? So far anytime I have adjacent skills I just tell it to DRY itself up and turn it into a bigger skill with more parameters\n\nSo far I found composin",
+        "engagement": 1347,
+        "bookmark_count": 2198,
+        "like_count": 1181,
+        "author_tier": "s_investor",
+        "url": "https://x.com/garrytan/status/2047183884266402275"
+      },
+      {
+        "author": "demishassabis",
+        "text": "Thanks for inviting me @garrytan, was awesome to chat and loved the inspirational space! Great to see so many startups building with @googlegemma models!",
+        "engagement": 1199,
+        "bookmark_count": 70,
+        "like_count": 1098,
+        "author_tier": "s_founder",
+        "url": "https://x.com/demishassabis/status/2047872041827910093"
+      },
+      {
+        "author": "pmarca",
+        "text": "Cognition, executive function, indeed existence itself, are whole-mind/body experiences. The answer is not inward, it is outward, and in the world.",
+        "engagement": 1064,
+        "bookmark_count": 387,
+        "like_count": 939,
+        "author_tier": "s_investor",
+        "url": "https://x.com/pmarca/status/2047447163819749760"
+      },
+      {
+        "author": "AravSrinivas",
+        "text": "You would consume less computer credits (and be able to run more tasks as a result) if you switched to GPT-5.5 as your default orchestrator. This was the number one complaint about Computer (being cre",
+        "engagement": 1061,
+        "bookmark_count": 83,
+        "like_count": 945,
+        "author_tier": "s_founder",
+        "url": "https://x.com/AravSrinivas/status/2047788775468908840"
+      }
+    ],
+    "key_facts": [
+      "有专家讨论通过分支参数组合更大的AI“技能”来优化代理编排的策略。",
+      "Arav Srinivas提出，使用“GPT-5.5”作为默认编排器可以显著提高子代理协调的token效率，从而降低计算成本。",
+      "行业对AI代理在执行复杂任务时的计算效率和成本优化表现出高度关注。"
+    ],
+    "analyst_angle": "随着AI代理复杂性的提升，行业正积极探索更高效的编排架构和更强大的基础模型，以优化代理的性能和成本效益，预示着未来AI应用将更加注重效率和模块化能力。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "opinion"
+  }
+]
