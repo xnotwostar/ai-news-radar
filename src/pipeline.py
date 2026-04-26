@@ -36,9 +36,13 @@ from .collector import (
     CN_AI_KEYWORDS,
     CN_AI_SPECIFIC_SOURCES,
     CN_RSS_FEEDS,
+    HfCollector,
     HnCollector,
     NewsnowCollector,
+    OpenRouterCollector,
+    RedditCollector,
     RssCollector,
+    SecCollector,
 )
 from .processor import Clusterer, Embedder, EventBuilder, HistoryDeduplicator, Ranker
 from .generator import LLMClient, ReportWriter
@@ -104,10 +108,31 @@ def run_twitter_pipeline(
     logger.info("PIPELINE: %s", name)
     logger.info("=" * 60)
 
-    # Step 1: Collect
+    # Step 1: Collect from primary KOL list (curated 20-handle whitelist)
     collector = ApifyCollector()
     tweets: list[TweetRaw] = collector.collect(config.source.list_id or "")
     _save_raw(tweets, f"{date_str}_{name}.json")
+
+    # Step 1.4: Collect from creator narrative list (downweighted ×0.3 for global_ai only)
+    # This is the original marketing-heavy list — kept for "what creators are saying"
+    # narrative signal, but weighted way down so it doesn't drown out S/A tier voices.
+    if name == "global_ai":
+        creator_list_id = os.environ.get("APIFY_CREATOR_LIST_ID", "").strip()
+        if creator_list_id:
+            try:
+                logger.info("Collecting creator narrative list (downweight x0.3)")
+                creator_tweets = collector.collect(creator_list_id, max_items=200)
+                # Tag all creator tweets with downweight tier
+                for t in creator_tweets:
+                    t.author_tier = "downweight"
+                tweets.extend(creator_tweets)
+                _save_raw(creator_tweets, f"{date_str}_{name}_creators.json")
+                logger.info(
+                    "Merged %d creator tweets (tier=downweight) → total %d",
+                    len(creator_tweets), len(tweets),
+                )
+            except Exception as e:
+                logger.warning("Creator list fetch failed: %s", e)
 
     if not tweets:
         logger.warning("No tweets collected for %s, skipping", name)
@@ -169,6 +194,42 @@ def run_twitter_pipeline(
             logger.info("Merged %d HN items into %d total items", len(hn_items), len(tweets))
         except Exception as e:
             logger.warning("HN collection failed, continuing without it: %s", e)
+
+    # Step 1.7: Merge Reddit posts (global_ai only) — engineering community pulse
+    if name == "global_ai":
+        try:
+            reddit_items = RedditCollector().collect()
+            tweets.extend(reddit_items)
+            logger.info("Merged %d Reddit posts into %d total items", len(reddit_items), len(tweets))
+        except Exception as e:
+            logger.warning("Reddit collection failed: %s", e)
+
+    # Step 1.8: Merge HuggingFace trending models (global_ai only) — adoption signal
+    if name == "global_ai":
+        try:
+            hf_items = HfCollector().collect()
+            tweets.extend(hf_items)
+            logger.info("Merged %d HF trending models into %d total items", len(hf_items), len(tweets))
+        except Exception as e:
+            logger.warning("HF collection failed: %s", e)
+
+    # Step 1.9: Merge OpenRouter new model launches + price changes (global_ai only)
+    if name == "global_ai":
+        try:
+            or_items = OpenRouterCollector().collect()
+            tweets.extend(or_items)
+            logger.info("Merged %d OpenRouter signals into %d total items", len(or_items), len(tweets))
+        except Exception as e:
+            logger.warning("OpenRouter collection failed: %s", e)
+
+    # Step 1.10: Merge SEC EDGAR 8-K filings (global_ai only) — material events
+    if name == "global_ai":
+        try:
+            sec_items = SecCollector().collect()
+            tweets.extend(sec_items)
+            logger.info("Merged %d SEC 8-K filings into %d total items", len(sec_items), len(tweets))
+        except Exception as e:
+            logger.warning("SEC collection failed: %s", e)
 
     # Step 2: Embed (provider from models.yaml; auto fallback if primary fails)
     embedder = Embedder(

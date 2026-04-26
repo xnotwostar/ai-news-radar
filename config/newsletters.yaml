@@ -71,3 +71,30 @@ newsletters:
     weight: 3.5
     lookback_hours: 168
     notes: "Azeem Azhar · 周度宏观"
+
+  - name: "Platformer"
+    rss_url: "https://www.platformer.news/feed"
+    tier: T1
+    category: strategy
+    weight: 4.0
+    lookback_hours: 168
+    notes: "Casey Newton · Meta/X tech politics"
+
+  - name: "TLDR AI"
+    rss_url: "https://tldr.tech/api/rss/ai"
+    tier: T1
+    category: products
+    weight: 3.0
+    lookback_hours: 72
+    notes: "每日 AI 工具+论文 1-line summary"
+
+  - name: "Last Week in AI"
+    rss_url: "https://lastweekin.ai/feed"
+    tier: T1
+    category: research
+    weight: 2.5
+    lookback_hours: 336
+    notes: "周度技术总结，podcast 同名"
+
+# Semafor Technology 暂时没找到可用的 RSS endpoint，待用户提供
+
