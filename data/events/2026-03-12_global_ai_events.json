@@ -1,0 +1,315 @@
+[
+  {
+    "event_id": "evt_20260312_000",
+    "title": "🚀 Claude Adds Native Chart & Diagram Generation in Chat",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "The Verge",
+        "text": "Anthropic&#8217;s Claude AI can respond with charts, diagrams, and other visuals now. Anthropic's latest update to Claude will allow the AI chatbot to generate custom charts, diagrams, and other visua",
+        "engagement": 0,
+        "url": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams"
+      },
+      {
+        "author": "Hugging Face",
+        "text": "How NVIDIA AI-Q Reached \\#1 on DeepResearch Bench I and II",
+        "engagement": 0,
+        "url": "https://huggingface.co/blog/nvidia/how-nvidia-won-deepresearch-bench"
+      },
+      {
+        "author": "emollick",
+        "text": "GPT-5.4 Pro, Opus, and Gemini DeepThink: \"Prove to me in a PowerPoint that there was no advanced dinosaur civilization by downloading whatever data you think appropriate &amp; running tests\"\n\nGPT-5.4 ",
+        "engagement": 926,
+        "url": "https://x.com/emollick/status/2029689565846364444"
+      },
+      {
+        "author": "swyx",
+        "text": "this is gonna get no views vs the confirmation bias machine, but pls remind everyone that the @OfirPress literal swebench author doesnt endorse this cheap sample benchmark and you need to run about 30",
+        "engagement": 134,
+        "url": "https://x.com/swyx/status/2029688456650297573"
+      }
+    ],
+    "key_facts": [
+      "Anthropic has updated Claude to natively generate and inline charts, diagrams, and other visualizations during conversations",
+      "Visuals are context-triggered and embedded directly in chat (not side panel), marking a significant UX and multimodal capability upgrade",
+      "This is the first major public release of native visualization generation by a leading LLM chatbot — distinct from prior image-generation APIs or plugin-based rendering"
+    ],
+    "analyst_angle": "Claude’s native visualization capability signals a shift toward 'reasoning + rendering' as a core interface paradigm — reducing reliance on external tools and setting a new bar for conversational AI productivity, especially in analytical and technical workflows.",
+    "cluster_size": 4,
+    "event_time": "2026-03-12T03:53:34Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_001",
+    "title": "🚀 Perplexity's 'Personal Computer' Brings AI Agents to Desktop with Local File Access",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "Ars Technica",
+        "text": "Perplexity's \"Personal Computer\" brings its AI agents to the, uh, Personal Computer. Perplexity says AI access to your files is in \"secure environment with clear safeguards.\"",
+        "engagement": 0,
+        "url": "https://arstechnica.com/ai/2026/03/perplexitys-personal-computer-brings-its-ai-agents-to-the-uh-personal-computer/"
+      },
+      {
+        "author": "Wired",
+        "text": "‘Uncanny Valley’: Anthropic’s DOD Lawsuit, War Memes, and AI Coming for VC Jobs. In today’s episode, we discuss how the saga between Anthropic and the Department of Defense is far from over.",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/uncanny-valley-podcast-anthropic-department-defense-lawsuit-iran-war-memes-artificial-intelligence-venture-capital/"
+      },
+      {
+        "author": "Hacker News AI",
+        "text": "Show HN: OneCLI – Vault for AI Agents in Rust. We built OneCLI because AI agents are being given raw API keys. And it's going about as well as you'd expect. We figured the answer isn't \"don't give age",
+        "engagement": 0,
+        "url": "https://github.com/onecli/onecli"
+      },
+      {
+        "author": "Hacker News AI",
+        "text": "AI should not replace people at Atlassian, says CEO. Article URL: https://www.heise.de/en/news/Atlassian-CEO-AI-doesn-t-replace-people-here-but-we-re-firing-them-anyway-11208758.html\nComments URL: htt",
+        "engagement": 0,
+        "url": "https://www.heise.de/en/news/Atlassian-CEO-AI-doesn-t-replace-people-here-but-we-re-firing-them-anyway-11208758.html"
+      },
+      {
+        "author": "Hacker News AI",
+        "text": "Show HN: Axe – A 12MB binary that replaces your AI framework. I built Axe because I got tired of every AI tool trying to be a chatbot.Most frameworks want a long-lived session with a massive context w",
+        "engagement": 0,
+        "url": "https://github.com/jrswab/axe"
+      }
+    ],
+    "key_facts": [
+      "Perplexity launched 'Personal Computer', a desktop application enabling AI agents to access user files locally",
+      "Claims file access occurs in a 'secure environment with clear safeguards'",
+      "Represents a major shift toward agent-native, privacy-aware local AI computing"
+    ],
+    "analyst_angle": "This signals the maturation of AI agents beyond web chat — moving into secure, OS-integrated tools that handle sensitive local data, raising the bar for privacy-by-design in consumer AI.",
+    "cluster_size": 9,
+    "event_time": "2026-03-12T03:00:26Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_002",
+    "title": "🚀 Meta AI Launches Auto-Reply Feature for Facebook Marketplace Inquiries",
+    "category": "product_launch",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Facebook Marketplace now lets Meta AI respond to buyers’ messages. When buyers inquire about an item’s availability, sellers can use Meta AI to automatically draft replies using information from their",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/12/facebook-marketplace-now-lets-meta-ai-respond-to-buyers-messages/"
+      },
+      {
+        "author": "The Verge",
+        "text": "Facebook Marketplace adds AI auto-replies for annoying ‘Is this still available?’ messages. Facebook Marketplace is adding a bunch of new AI-powered tools that are supposed to make selling items on th",
+        "engagement": 0,
+        "url": "https://www.theverge.com/tech/893907/facebook-marketplace-ai-auto-reply-listings"
+      },
+      {
+        "author": "CNET",
+        "text": "Amazon Expands Health AI Access for Virtual Health Care. If you're an Amazon member with health questions, this chatbot may have answers for you.",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/amazon-expands-health-ai-access-for-amazon-users-looking-to-receive-virtual-healthcare/"
+      }
+    ],
+    "key_facts": [
+      "Meta AI now automatically drafts replies to buyer inquiries (e.g., 'Is this still available?') on Facebook Marketplace",
+      "Replies are generated using structured listing data: description, availability, pickup location, and price",
+      "Feature is opt-in and rolled out globally as part of broader AI-powered seller tools"
+    ],
+    "analyst_angle": "This marks a meaningful step toward operational AI integration in consumer-facing classifieds—reducing seller friction while testing real-world grounding of LLMs in structured, transactional contexts.",
+    "cluster_size": 3,
+    "event_time": "2026-03-12T16:19:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_003",
+    "title": "🚀 Gemini Task Automation & 'Ask Maps' Launch on Google and Samsung Devices",
+    "category": "product_launch",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "The Verge",
+        "text": "Gemini’s task automation is here and it’s wild. A couple of weeks ago, Google and Samsung announced a big Gemini development coming to their newest devices: task automation. Starting with food deliver",
+        "engagement": 0,
+        "url": "https://www.theverge.com/tech/893820/gemini-task-automation-samsung-s26-google-pixel-10"
+      },
+      {
+        "author": "Ars Technica",
+        "text": "Google Maps gets its biggest navigation redesign in a decade, plus more AI. Google Maps is about to get more chatty and immersive.",
+        "engagement": 0,
+        "url": "https://arstechnica.com/gadgets/2026/03/google-maps-gets-its-biggest-navigation-redesign-in-a-decade-plus-more-ai/"
+      },
+      {
+        "author": "Wired",
+        "text": "Google Is Not Ruling Out Ads in Gemini. WIRED spoke with Nick Fox, Google’s SVP of knowledge and information, about how AI is changing the company’s advertising business.",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/google-nick-fox-advertising-search-ai-gemini/"
+      },
+      {
+        "author": "Wired",
+        "text": "Google Maps Gets Chatty With a New Gemini-Powered Interface. “Ask Maps,” rolling out today to Google Maps on mobile, lets you ask Gemini questions about locations and even to plan trips on your behalf",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/google-maps-ask-maps-gemini-powered-tool/"
+      },
+      {
+        "author": "CNET",
+        "text": "Gemini Rolls Out Ask Maps to Make Google Maps More Interactive. The feature allows users to interact conversationally with the app, finding places such as a charging station, or available tennis court",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/services-and-software/gemini-comes-to-reinvent-google-maps-with-the-ask-map-feature/"
+      }
+    ],
+    "key_facts": [
+      "Gemini-powered task automation is now live on Samsung Galaxy S26 and Google Pixel 10, enabling in-app actions like food delivery and ride booking via virtual UI",
+      "‘Ask Maps’ — a new conversational, Gemini-integrated interface for Google Maps — launched globally on mobile, allowing natural-language trip planning and real-time location queries (e.g., 'find an EV charging station')",
+      "This marks the first production deployment of Gemini’s agentic capabilities — moving beyond chat to autonomous, multi-step app interaction"
+    ],
+    "analyst_angle": "Google has crossed a threshold from AI-augmented search to AI-driven action, embedding agentic reasoning directly into high-engagement consumer apps — signaling a shift toward OS-level AI agents as the new UX paradigm.",
+    "cluster_size": 5,
+    "event_time": "2026-03-12T12:30:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_004",
+    "title": "📌 多条推文混杂无关事件，无统一主题",
+    "category": "other",
+    "importance": 2.0,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Cluely CEO Roy Lee admits to publicly lying about revenue numbers last year https://t.co/30zyPTyjmG",
+        "engagement": 3678,
+        "url": "https://x.com/TechCrunch/status/2029688965415264460"
+      },
+      {
+        "author": "JeffDean",
+        "text": "Gemini + Argentina! 🌍🏆\n\nI've loved watching Lionel Messi play since his first days at Barcelona! ⚽️\n\nhttps://t.co/lLJYjeNNFK",
+        "engagement": 619,
+        "url": "https://x.com/JeffDean/status/2029689052929376635"
+      },
+      {
+        "author": "emollick",
+        "text": "Alex has been tracking the evidence on whether AI is showing up in the productivity stats. Seems like that may have actually started.",
+        "engagement": 374,
+        "url": "https://x.com/emollick/status/2029681855142744134"
+      },
+      {
+        "author": "GaryMarcus",
+        "text": "@chatgpt21 i am really not interested in trying out OpenAI products right now.",
+        "engagement": 260,
+        "url": "https://x.com/GaryMarcus/status/2029688357190852697"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "No one will tell you your baby is ugly, but they will tell you if your application is valuable when you ask them to pay. @Narada_AI CEO David Park shares his best advice for building a product people ",
+        "engagement": 41,
+        "url": "https://x.com/TechCrunch/status/2029680903010594943"
+      }
+    ],
+    "key_facts": [
+      "Cluely CEO承认去年公开虚报营收",
+      "Jeff Dean发帖庆祝Gemini在阿根廷上线（含梅西彩蛋）",
+      "Emollick提及AI开始显现生产力统计效应",
+      "Gary Marcus表达对OpenAI产品的抵制态度",
+      "TechCrunch分享Narada_AI CEO关于付费产品验证的创业建议"
+    ],
+    "analyst_angle": "这些推文来自不同主体、涉及不同公司和议题（诚信危机、区域发布、宏观生产力、个人立场、创业方法论），无事实关联或共同事件锚点，属于信息噪声集合，不具备事件聚合分析价值。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_005",
+    "title": "📌 OpenAI 调整聊天内电商策略，代理购物功能落地遇阻",
+    "category": "product_launch",
+    "importance": 6.8,
+    "sources": [
+      {
+        "author": "amasad",
+        "text": "@yoheinakajima Whether this or BabyAGI, I think you played a big part on how agents developed over the past few years and deserve more recognition",
+        "engagement": 34,
+        "url": "https://x.com/amasad/status/2029684792858661060"
+      },
+      {
+        "author": "firstadopter",
+        "text": "the jet engine part really does suck running qwen locally on mac",
+        "engagement": 15,
+        "url": "https://x.com/firstadopter/status/2029689300099494095"
+      },
+      {
+        "author": "theinformation",
+        "text": "In an opinion piece for The Information, Aditya Agarwal says watching AI reproduce the craft he spent 20 years mastering felt like “wonder mixed with profound sadness.” https://t.co/ZPc1iR2Ap1",
+        "engagement": 12,
+        "url": "https://x.com/theinformation/status/2029689669877694498"
+      },
+      {
+        "author": "theinformation",
+        "text": "OpenAI is shifting its approach to in-chat commerce. The Information’s @anngehan and @catherineperlo1 discuss the hurdles facing \"instant checkout\":\n\n\"Shopify actually said this week at an investor co",
+        "engagement": 10,
+        "url": "https://x.com/theinformation/status/2029686027045027866"
+      },
+      {
+        "author": "replicate",
+        "text": "Try the new \"speed\" and \"precision\" modes in Video Translate:\nhttps://t.co/0gbuz85vX5",
+        "engagement": 10,
+        "url": "https://x.com/replicate/status/2029678448848089427"
+      }
+    ],
+    "key_facts": [
+      "OpenAI 正在调整其 in-chat commerce（聊天内电商）策略",
+      "Shopify 表示当前仅有约十几个店铺（在其数百万商家中）已上线任何代理式购物功能",
+      "该动态反映 agentic shopping（智能体驱动的即时结账）仍处于极早期落地阶段"
+    ],
+    "analyst_angle": "尽管技术演示亮眼，但真实商业闭环尚未跑通——代理购物正从概念验证期进入残酷的商户渗透与体验打磨阶段。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_006",
+    "title": "🚀 Rox AI Hits $1.2B Valuation as AI-Native Sales Automation Startup",
+    "category": "funding",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Sales automation startup Rox AI hits $1.2B valuation, sources say. Rox, founded in 2024 by the former chief growth officer of New Relic, offers an AI-native alternative to CRM tools.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/"
+      },
+      {
+        "author": "AravSrinivas",
+        "text": "@VCBrags This could be you man.",
+        "engagement": 6,
+        "url": "https://x.com/AravSrinivas/status/2029683620877922466"
+      },
+      {
+        "author": "theinformation",
+        "text": "Exclusive: Together AI, an Nvidia-backed provider of cloud services for AI, is in talks to raise $1 billion at a $7.5 billion valuation.\n\nRead more from @Pauvalida, @Steph_Palazzolo and @AnissaGardizy",
+        "engagement": 6,
+        "url": "https://x.com/theinformation/status/2029683384780296454"
+      },
+      {
+        "author": "swyx",
+        "text": "@thsottiaux @lindsmccallum what\nthe \nfffff",
+        "engagement": 6,
+        "url": "https://x.com/swyx/status/2029680292248920362"
+      },
+      {
+        "author": "swyx",
+        "text": "+400k in the last 2 weeks lmao",
+        "engagement": 5,
+        "url": "https://x.com/swyx/status/2029680408489775488"
+      }
+    ],
+    "key_facts": [
+      "Rox AI, founded in 2024 by former New Relic Chief Growth Officer, achieved a $1.2B valuation",
+      "Positioned as an AI-native alternative to traditional CRM tools",
+      "Valuation reported by TechCrunch citing unnamed sources (03-12 UTC)"
+    ],
+    "analyst_angle": "A $1.2B valuation for a 2024-founded startup signals intense investor confidence in vertical AI applications—especially sales automation displacing legacy CRM—amid tightening VC scrutiny on early-stage AI firms.",
+    "cluster_size": 5,
+    "event_time": "2026-03-12T22:25:50Z",
+    "event_type": "news"
+  }
+]

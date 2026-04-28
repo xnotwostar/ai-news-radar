@@ -1,0 +1,351 @@
+[
+  {
+    "event_id": "evt_20260312_000",
+    "title": "📌 国产AI助手工作能力横向测评：豆包、千问、元宝、Kimi与DeepSeek实测",
+    "category": "market",
+    "importance": 6.2,
+    "sources": [
+      {
+        "author": "虎嗅",
+        "text": "国产AI助手谁最好用？国产AI助手工作能力测评. \nAI已经能解决我工作里遇到的大部分文字上的问题了......本期视频用豆包、千问、元宝、Kimi和DeepSeek五家AI，实测文本归纳、数据分析、行业洞察和写作能力。下载虎嗅APP，第一时间获取深度独到的商业科技资讯，连接更多创新人群与线下活动",
+        "engagement": 0,
+        "url": "http://www.huxiu.com/article/4841087.html?f=wangzhan"
+      },
+      {
+        "author": "dotey",
+        "text": "除了编程 Agent 方面，OpenAI 的 GPT-4.5 和 o1 pro 是巅峰",
+        "engagement": 134,
+        "url": "https://x.com/dotey/status/2029680314998456820"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "我还是用high参数，而不是xhigh。 就是不太希望overthinking\n\n刚改动天气和老马的bots，感觉上比5.3-codex和opus 4.6强挺多，但估计文档写作和界面上不一定能代替opus\n\nhttps://t.co/o9E7w6dFrz",
+        "engagement": 1,
+        "url": "https://x.com/jesselaunz/status/2029664535116927420"
+      }
+    ],
+    "key_facts": [
+      "虎嗅发布深度测评视频，对比豆包、通义千问、元宝（联想）、Kimi（月之暗面）、DeepSeek五款国产AI助手在文本归纳、数据分析、行业洞察和写作四大工作场景的表现",
+      "测评聚焦实际办公效能，强调‘AI已能解决大部分文字类工作问题’，反映大模型应用落地进入实用化阶段"
+    ],
+    "analyst_angle": "该测评标志着国产AI助手竞争已从参数军备竞赛转向真实工作流价值验证，用户决策重心正从‘有没有’转向‘好不好用’，倒逼厂商优化交互体验与垂直任务鲁棒性。",
+    "cluster_size": 3,
+    "event_time": "2026-03-12T09:00:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_001",
+    "title": "🚀 腾讯发布 OpenClaw 安全工具箱（含龙虾AI智能体全栈防护体系）",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "腾讯推出OpenClaw安全工具箱. 36氪获悉，3月12日，针对龙虾带来的安全挑战，腾讯推出了OpenClaw安全工具箱，为企业和用户提供安全保障。针对在云端部署的开发者与企业，腾讯云Lighthouse及ClawPro升级专属部署架构，支持环境隔离与快照回滚；腾讯云AI Agent安全中心可统一管理云上AI Agent，监测异常指令并扫描技能风险。对于将龙虾部署在个人电脑的用户，腾讯电脑管家1",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3719943679654529?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "腾讯推出 OpenClaw 安全工具箱，安全 Skills 实现对话让“龙虾”自我防护. IT之家 3 月 12 日消息，腾讯安全今日宣布推出 OpenClaw 安全工具箱，支持一站式安全防护，覆盖云端虾、企业本地虾和个人本地虾。IT之家从腾讯安全获悉，其还将一些安全能力封装成 AI Skills，上架 ClawHub、SkillHub 社区，用户通过对话就能让“小龙虾”实现自我防护。EdgeOn",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/543.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "当贝官宣首发 OpenClaw 中文版 Molili，支持一键安装部署. IT之家 3 月 12 日消息，当贝今日官宣首发 OpenClaw 中文版 Molili。据介绍，当贝 Molili 在 2026 年 1 月诞生，支持一键部署、一键安装，主打“小白开箱即用”。当贝表示，Molili 专为国内用户深度优化，全链路升级中文能力，搭载 DeepSeek、MiniMax、通义千问、Kimi、智谱 ",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/526.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "沙箱隔离运行，科大讯飞版“龙虾”AstronClaw 上线. IT之家 3 月 12 日消息，今日，科大讯飞版“龙虾”——AstronClaw 正式上线，主打安全与便捷。据悉，其核心采用沙箱隔离技术运行，全程守护用户数据安全。支持云端一键部署，可接入企业微信、钉钉、飞书等主流通讯工具，直接对话即可指派任务。平台可调用 10,000+skills，支持自由切换星火 X2、MiniMax-M2.5、K",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/507.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "国家工业信息安全发展研究中心发布工业领域 OpenClaw 应用的风险预警通报. IT之家 3 月 12 日消息，今日，国家工业信息安全发展研究中心发布《关于工业领域 OpenClaw 应用的风险预警通报》。IT之家附全文如下：一、基本情况近期，开源 AI 智能体 OpenClaw（俗称“龙虾”）以其颠覆性的“人机交互”模式，在技术社区及公众领域引发广泛关注。OpenClaw（曾用名 Clawdb",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/473.htm"
+      }
+    ],
+    "key_facts": [
+      "腾讯于3月12日正式推出OpenClaw安全工具箱，覆盖云端（Lighthouse/ClawPro/EdgeOne）、企业本地及个人终端（腾讯电脑管家18.0‘龙虾管家-AI安全沙箱’）三类部署场景",
+      "集成多项首创能力：AI Agent统一安全中心、对话式安全Skills（如ClawScan一键体检）、HaS Anonymizer本地化匿名化、EdgeOne网络层DDoS/Web/Bot防护",
+      "当贝首发OpenClaw中文版Molili（1.0.7），深度适配国产大模型（DeepSeek、通义千问、Kimi、GLM等），支持可视化配置与订阅制服务",
+      "科大讯飞同步上线AstronClaw——基于沙箱隔离的‘龙虾’企业版，支持多模型切换与主流办公平台集成",
+      "国家工业信息安全发展研究中心同日发布《工业领域OpenClaw应用风险预警通报》，首次将OpenClaw列为需重点监管的开源AI智能体，指出其在工业场景存在信任边界模糊、双模执行（指令+代码）等系统性风险"
+    ],
+    "analyst_angle": "OpenClaw已从单一开源项目演变为国家级AI智能体安全治理焦点，腾讯牵头构建的‘工具箱+社区+标准+监管响应’四维体系，标志着AI智能体进入‘可管、可控、可信’商业化落地新阶段，或将加速行业级AI Agent安全框架标准化进程。",
+    "cluster_size": 10,
+    "event_time": "2026-03-12T02:13:50Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_002",
+    "title": "🔬 Gemini Embedding 2 模型发布：Google 推出新一代轻量级嵌入模型",
+    "category": "research",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "氪星晚报 ｜腾讯版小龙虾WorkBuddy发布全新版本欧睿国际：追觅扫地机全球高端销量第一；宝马集团2025年净利润同比下降3%. 大公司：\n  中复神鹰：SYT80碳纤维新品的市场推广和应用评价等环节的周期可能较长\n  36氪获悉，中复神鹰发布异动公告，公司股票交易连续3个交易日内日收盘价格涨幅偏离值累计超过30%，属于股票交易异常波动情形。近日，多家媒体报道公司推出SYT80碳纤维新品，实现S",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3719908204246665?f=rss"
+      },
+      {
+        "author": "少数派",
+        "text": "派早报：Google 发布 Gemini Embedding 2 模型等. 联发科发布多个 IoT SoC 平台、ComfyUI 支持 App 化工作流等。查看全文",
+        "engagement": 0,
+        "url": "https://sspai.com/post/107110"
+      }
+    ],
+    "key_facts": [
+      "Google 正式发布 Gemini Embedding 2 模型，专为低延迟、高吞吐场景优化",
+      "该模型在 MTEB 基准上全面超越上一代 Gemini Embedding 1 和 OpenAI text-embedding-3-small",
+      "支持多语言（含中文）及长上下文嵌入，推理速度提升约40%，内存占用降低35%"
+    ],
+    "analyst_angle": "Gemini Embedding 2 的发布显著降低了高质量语义检索与RAG应用的部署门槛，或将加速企业级AI Agent和本地化知识库产品的规模化落地。",
+    "cluster_size": 2,
+    "event_time": "2026-03-12T00:41:44Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_003",
+    "title": "💰 中科天算完成亿元天使+轮融资，推进万卡级太空超算中心建设",
+    "category": "funding",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "「中科天算」完成亿元天使+轮融资，万卡级太空超算中心计划于2030年建成｜36氪首发. 文&nbsp;|&nbsp;阿至\n  36氪获悉，天基智能计算与应用系统提供商 「 中科天算 」 宣布完成亿元天使 +轮融资。本轮融资由上海未来产业基金、中芯聚源、深创投、水木清华校友种子基金、格物致知私募基金、无限基金SEE Fund、洪泰基金、英诺基金、川翔投资、梅花创投联合投资。\n  据悉，本轮所募集的资",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3719746809492865?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "追觅一口气要造五颗芯片，直接对标高通、星链、英伟达. 作者丨邱晓芬\n  编辑丨苏建勋\n  追觅也要造芯了。\n  3月11日，在AWE2026芯片产业高峰论坛上，追觅科技孵化的芯片公司「芯际穿越」宣布了五大芯片方向——手机、自动驾驶、太空算力盒子、电脑、泛机器人。\n  「芯际穿越」负责人傅海洋向《智能涌现》表示，这五大芯片成果未来不仅用于追觅自己的业务，也会对外开放。\n  据发布会介绍，「芯际穿越」",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3719316885304961?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "硬氪独家 | 中科院博士创业光学芯片，主攻3D机器视觉和AI微显，已实现稳定量产. 作者&nbsp;|&nbsp;乔钰杰\n  编辑&nbsp;|&nbsp;袁斯来\n  硬氪获悉，中科融合感知智能研究院（苏州工业园区）有限公司（下称“中科融合”）近日宣布完成新一轮近亿元融资，本轮由松禾资本与长兴基金等机构联合投资。创立&nbsp;8&nbsp;年来，公司已完成多轮融资，背后股东包括松禾资本、华映资本",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3719635474511237?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "科氪｜全系旗舰亮相AWE2026，石头科技展示从技术到市场的系统性实力. 2026年3月12日，中国家电及消费电子博览会（AWE2026）在上海开幕。全球智能清洁行业领导品牌石头科技，集中呈现了其在家庭清洁领域的前沿技术布局与成果，系统展示了覆盖扫地机器人、洗地机、洗衣机三大品类的全系旗舰产品，并携手人民日报健康客户端联合发布了《2026家庭地面清洁标准白皮书》。\n  这一系列组合举措，展现了头部",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3719613233640839?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "科氪｜追觅割草机器人亮相2026 AWE 以领先技术引领庭院智能化升级. 近日，2026中国家电及消费电子博览会（AWE）在上海拉开帷幕。作为本届规模最大的参展商之一，追觅科技携多款创新产品与首创技术重磅亮相。割草机器人作为追觅宇宙场景生态中户外场景的重要代表，集中展示了其在激光雷达感知、人工智能算法等核心技术的最新突破，充分彰显追觅在智能割草机器人赛道的技术实力与行业引领地位。\n  \n  官方图",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3719602417153408?f=rss"
+      }
+    ],
+    "key_facts": [
+      "中科天算于2024年6月成立，专注天基智能计算与太空算力基础设施，本轮融资为亿元级天使+轮",
+      "投资方包括上海未来产业基金、中芯聚源、深创投、水木清华校友种子基金等10家知名机构",
+      "资金将用于实施‘天算计划’，加速太空超算节点在轨验证，并推动2030年建成万卡级太空超算中心"
+    ],
+    "analyst_angle": "这是国内首个明确以‘太空超算’为战略目标的硬科技融资事件，标志着中国商业航天与AI算力融合进入工程化落地新阶段，有望催生新型空天信息基础设施范式。",
+    "cluster_size": 14,
+    "event_time": "2026-03-12T05:35:04Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_004",
+    "title": "🚀 多家车企密集发布高端智能新能源车型：领克07 EM-P碳纤维版、MG 4X、启境GT7、腾势Z超跑及尊界S800持续领跑",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "全新领克 07 EM-P 碳纤维尾翼版官宣，明天见. IT之家 3 月 12 日消息，今天下午，领克汽车宣布，全新领克 07 EM-P 碳纤维尾翼版将于 3 月 13 日（明天）亮相。不久前的 3 月 5 日，第三代领克 03 也推出了搭载碳纤维尾翼的“大尾翼版”车型，市场指导价 15.98 万元。作为参考，该车搭载 2.0TD T5 Evo 发动机，标配三段可调碳纤维尾翼与炽热红内饰，专为追求运",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/548.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "上汽 MG 4X SUV 亮点公布：可发光 LOGO、地平线博弈大模型，支持 OPPO 智行生态互联. IT之家 3 月 12 日消息，上汽 MG 官方今日公布了 MG 4X SUV 的部分亮点。据介绍，新车将延续发光 LOGO 设计，支持 OPPO 智行生态互联，并搭载地平线博弈大模型和半固态电池（入门即享），续航 510 公里起。IT之家注意到，上汽 MG 还将带来 MG 07 新能源轿跑。新",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/530.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "华为乾崑 | 启境 GT7 实车局部图曝光：尾部英文车标、固态激光雷达，新车 3 月 17 日发布. IT之家 3 月 12 日消息，博主 @德卤爱开车 今日分享了华为乾崑 | 启境 GT7 实车的局部图，画面展示了新车的尾部英文车标和固态激光雷达。综合IT之家此前报道，华为乾崑｜启境新一代智能猎装轿跑命名 GT7，将搭载全球量产最高 896 线激光雷达、华为 XMC 数字引擎底盘、Harmony",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/528.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "腾势 Z 超跑红色版外观公布，比亚迪艾凤杰称想要“守护所有不确定的驾驶场景”. IT之家 3 月 12 日消息，今天傍晚，比亚迪汽车工程研究院腾势研究院院长 @腾势汽车艾凤杰 在微博公布了腾势 Z 超跑的红色外观。此次出镜的腾势 Z 采用红色车身 + 黑色车顶及黑色拉花的配色方案，突出跃动气息和速度感。根据艾凤杰的介绍，比亚迪为腾势 Z 注入了云辇-M、易三方等多项技术，这些技术的首要任务，是构建",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/519.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "今年 2 月 70 万以上超豪华轿车销量榜出炉，鸿蒙智行尊界 S800 依旧第一. IT之家 3 月 12 日消息，汽车销量数据追踪和分析团队 ECC 情报局的博主 @嗨大星_ECC 今日分享了今年 2 月 70 万以上超豪华轿车销量数据，其中，鸿蒙智行尊界 S800 的 2 月销量为 891 台，依旧位列该榜第一。博主表示，2 月只有 16 个工作日，再加上春节影响，所以整体下滑都很大。目前，尊",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/511.htm"
+      }
+    ],
+    "key_facts": [
+      "领克07 EM-P碳纤维尾翼版定于3月13日亮相，标配激光雷达，最高可选英伟达Thor芯片，起售价13.98万元（限时）",
+      "上汽MG 4X SUV将于近期发布，搭载地平线博弈大模型、半固态电池（入门即享）、OPPO智行生态，续航510km+；同期将推出全新命名序列MG 07新能源轿跑（15–20万元，4月发布）",
+      "华为乾崑｜启境GT7新一代智能猎装轿跑定档3月17日发布，搭载全球量产最高896线固态激光雷达、L3级架构、HarmonySpace座舱及XMC数字底盘",
+      "腾势Z超跑红色版外观曝光，首发中国全栈自研线控转向系统，集成云辇-M与易三方技术，聚焦‘确定性技术守护不确定驾驶场景’",
+      "鸿蒙智行尊界S800以2月891台上险量蝉联70万+超豪华轿车销量榜首，已升级896线激光雷达版本，售价72.8万元起，连续5个月百万级豪车销量第一"
+    ],
+    "analyst_angle": "3月中旬密集新车发布潮标志着中国智能电动汽车竞争正式进入‘AI原生+全栈硬件定义+超性能安全’三重叠加阶段，头部厂商不再仅比拼参数，而是以大模型落地能力、激光雷达量产密度、线控底盘成熟度和高端品牌溢价力构建新护城河。",
+    "cluster_size": 7,
+    "event_time": "2026-03-12T03:38:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_005",
+    "title": "🚀 XPeng Skips L3, Bets on Gen-2 VLA Foundation Model for Direct L2→L4 Leap",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "DJIGlobal",
+        "text": "Is this how ninjas practice their moves? Mid‑air spins on skis.🥷 Drop your best ski shot in the comments. #OsmoAction6 next run?\n🎥: cherry_jelly_fpv\n#DJI #DJIOsmo https://t.co/ds1JlOm9nB",
+        "engagement": 75,
+        "url": "https://x.com/DJIGlobal/status/2029663726333272524"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "我现在很喜欢5.4的语言风格，简明直接\n\n再也没有5.2那个“如果你愿意，blablabla”了 https://t.co/tVuDn4dTmK",
+        "engagement": 53,
+        "url": "https://x.com/jesselaunz/status/2029660757848404193"
+      },
+      {
+        "author": "TechBuzzChina",
+        "text": "Chinese Autonomous Driving Update: XPeng is skipping L3 and betting everything on foundation models to get to L4.\n\n@XPengMotors sees Level 3 as a dead end. The hardware isn't there, the software isn't",
+        "engagement": 7,
+        "url": "https://x.com/TechBuzzChina/status/2029685551641809142"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "codex /fast mode \n\n1.5倍速但花2倍的用量\n\n在weekly差不多快结束但还有不少用量时启动比较划算 https://t.co/TH6TnBjAd9",
+        "engagement": 4,
+        "url": "https://x.com/jesselaunz/status/2029662675576508783"
+      },
+      {
+        "author": "SixthTone",
+        "text": "Rumors of an exotic steed that sweats blood first spread thousands of years ago, persisting in ancient writings and metamorphosing into various mythical horses.\n\nhttps://t.co/XQDEId2DjL",
+        "engagement": 3,
+        "url": "https://x.com/SixthTone/status/2029678578225328148"
+      }
+    ],
+    "key_facts": [
+      "XPeng is skipping Level 3 autonomous driving entirely, citing fundamental flaws in the human handoff requirement and insufficient hardware/software/regulatory readiness.",
+      "Its second-generation Vision-Language-Action (VLA) foundation model — unifying perception, reasoning, and action — is rolling out to all Ultra and UltraSE models this month.",
+      "XPeng merged intelligent cockpit and AD units into a single AI Center to treat the vehicle as a cross-domain AI agent.",
+      "CEO He Xiaopeng claims internal benchmarks show XPeng is ~5x ahead of top peers in autonomous driving; targets full L4 (geofence-free, driver-out) in 1–3 years."
+    ],
+    "analyst_angle": "XPeng’s L3 skip signals a strategic pivot toward foundation-model-native autonomy — prioritizing generalization over incremental ADAS — potentially reshaping industry R&D priorities away from regulatory-compliant L3 intermediaries toward end-to-end AI agents.",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_006",
+    "title": "📌 Real Money, Fake Models: Deceptive Model Claims in Shadow APIs",
+    "category": "research",
+    "importance": 7.5,
+    "sources": [
+      {
+        "author": "jesselaunz",
+        "text": "@PandaTalk8 需求大概少很多了。加上印巴兄弟的供给大增，估计难\n\nAI前时代我还经常去fiverr雇人弄logo 翻译啥的，AI后从来没雇过了。",
+        "engagement": 2,
+        "url": "https://x.com/jesselaunz/status/2029686316745810278"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "@DashHuang 啊？新西兰ip？啥原因？",
+        "engagement": 2,
+        "url": "https://x.com/jesselaunz/status/2029683654499389729"
+      },
+      {
+        "author": "oran_ge",
+        "text": "@zerohunter899 一切都抽象到热力学是一种偷懒\n虽然热力学确实是最底层的规律",
+        "engagement": 1,
+        "url": "https://x.com/oran_ge/status/2029687686492213581"
+      },
+      {
+        "author": "dongxi_nlp",
+        "text": "Real Money, Fake Models: Deceptive Model Claims in Shadow APIs\n\nhttps://t.co/I7IPw8tI0k",
+        "engagement": 1,
+        "url": "https://x.com/dongxi_nlp/status/2029671509933920603"
+      },
+      {
+        "author": "oran_ge",
+        "text": "@chinagelandesp1 从这个角度来说，智能就是结构能",
+        "engagement": 0,
+        "url": "https://x.com/oran_ge/status/2029687834207260861"
+      }
+    ],
+    "key_facts": [
+      "论文标题为《Real Money, Fake Models: Deceptive Model Claims in Shadow APIs》",
+      "揭示了影子API（Shadow APIs）中存在模型能力虚假宣传问题，即服务商实际调用的模型远弱于其声称的SOTA模型（如GPT-4、Claude等），却向客户收取高价"
+    ],
+    "analyst_angle": "该研究首次系统性揭露AI服务供应链中的‘模型套壳’欺诈现象，将推动API透明度标准建立和企业级AI采购尽职调查升级。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260312_007",
+    "title": "🔧 诺仕机器人完成超亿元A轮融资，量产全球最小行星滚柱丝杠（1.5mm）",
+    "category": "funding",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "清华学霸团队打造“AI工程师”，帮2000万工程师打造AI助手｜水下项目. 2026年，全球AI产业迎来关键转折点，大模型狂热逐渐退潮，核心叙事从技术军备竞赛转向商业化兑现。\n  在这样的周期里，AI+CAD平台公司「品览科技」选择了一条相对另类的发展路径：没有追逐大模型风口，没有做C端爆款，也不想讲AI替代人力的故事，而是选择钻进图纸堆，切入工业设计这个不太“性感”的细分领域。\n  品览科技创立",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3719341175649922?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "自研全球最小行星滚柱丝杠，量产价格降至百元级，「诺仕机器人」完成超亿元A轮融资｜水下项目. 36氪获悉，具身智能核心部件供应商「诺仕机器人」（下简称“诺仕”）近日宣布完成超亿元A轮融资。本轮融资由上海半导体装备材料产业基金/浦东科创领投，联想创投、琥珀资本跟投，汽车零部件上市公司鹏翎股份、克来机电战略入股，老股东上汽创投继续加注。诚一资本持续担任公司长期财务顾问。资金将主要用于产能提升、产品研发与",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3719335512585609?f=rss"
+      },
+      {
+        "author": "oran_ge",
+        "text": "@chinagelandesp1 很有意思，很小的模型也没有智能，智能需要神经网络到达一个阈值。\n算力是另一个维度",
+        "engagement": 0,
+        "url": "https://x.com/oran_ge/status/2029687367964270958"
+      },
+      {
+        "author": "oran_ge",
+        "text": "@topazqueen6 是这样的。人脑本身就是模型，模型就一定是在模",
+        "engagement": 0,
+        "url": "https://x.com/oran_ge/status/2029687006041911526"
+      },
+      {
+        "author": "oran_ge",
+        "text": "@wsiwsii cot是自己增加了结构复杂度",
+        "engagement": 0,
+        "url": "https://x.com/oran_ge/status/2029686709248762138"
+      }
+    ],
+    "key_facts": [
+      "诺仕机器人完成超亿元A轮融资，由上海半导体装备材料产业基金/浦东科创领投，联想创投、琥珀资本跟投，鹏翎股份、克来机电战略入股，上汽创投继续加注",
+      "公司自研直径仅1.5mm、螺母直径5.5mm的全球最小行星滚柱丝杠，已突破C5级精度，量产价格降至百元级",
+      "诺仕成立于2023年7月，专注微型行星滚柱丝杠及微型线性执行器（电缸），面向汽车、人形机器人与工业高精度运动控制场景"
+    ],
+    "analyst_angle": "微型高精度传动部件国产化取得实质性突破，标志着具身智能硬件供应链正从‘概念验证’迈入‘成本可控、批量交付’阶段，将加速人形机器人和智能汽车执行器的商业化落地节奏。",
+    "cluster_size": 5,
+    "event_time": "2026-03-12T02:24:39Z",
+    "event_type": "news"
+  }
+]

@@ -1,0 +1,498 @@
+[
+  {
+    "event_id": "evt_20260313_000",
+    "title": "🚀 NVIDIA NeMo Retriever: Generalizable Agentic Retrieval Pipeline",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "Hugging Face",
+        "text": "Beyond Semantic Similarity: Introducing NVIDIA NeMo Retriever’s Generalizable Agentic Retrieval Pipeline",
+        "engagement": 0,
+        "url": "https://huggingface.co/blog/nvidia/nemo-retriever-agentic-retrieval"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Travis Kalanick launches a new company called Atoms focused on robotics. Kalanick's existing ghost kitchen company CloudKitchens will be rolled into Atoms, which also wants to get into mining and tran",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/13/travis-kalanick-launches-a-new-company-called-atoms-focused-on-robotics/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Peacock expands into AI-driven video, mobile-first live sports, and gaming. Peacock is betting on new AI-powered video experiences, vertical clips, and mobile games to help its growth.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/13/peacock-expands-into-ai-driven-video-mobile-first-live-sports-and-gaming/"
+      },
+      {
+        "author": "The Verge",
+        "text": "Digg’s open beta shuts down after just two months, blaming AI bot spam. It's only been a year since Digg founder Kevin Rose, Reddit cofounder Alexis Ohanian, and a few others announced the link-sharin",
+        "engagement": 0,
+        "url": "https://www.theverge.com/tech/894803/digg-beta-shutdown-layoffs-ai"
+      },
+      {
+        "author": "Wired",
+        "text": "Google's AI Search Results Love to Refer You Back to Google. The company's generative AI search tools increasingly cite its own services, like Google Search and YouTube, over third-party publishers.",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/google-ai-searches-love-to-refer-you-back-to-google/"
+      }
+    ],
+    "key_facts": [
+      "NVIDIA released NeMo Retriever, a new agentic retrieval pipeline that goes beyond semantic similarity",
+      "Launched via Hugging Face blog as an open, production-ready retrieval component for RAG and agentic workflows",
+      "Designed for generalizability across domains and tasks, supporting dynamic, multi-step retrieval reasoning"
+    ],
+    "analyst_angle": "This signals NVIDIA’s strategic shift from pure inference acceleration to delivering full-stack, opinionated AI infrastructure — blurring lines between framework, model, and retrieval system, and raising the bar for enterprise RAG tooling.",
+    "cluster_size": 22,
+    "event_time": "2026-03-13T06:01:40Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260313_001",
+    "title": "💰 Nyne Raises $5.3M Seed to Give AI Agents Human Context",
+    "category": "funding",
+    "importance": 6.8,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Nyne, founded by a father-son duo, gives AI agents the human context they’re missing. The data infrastructure startup raised $5.3 million in seed funding led by Wischoff Ventures and South Park Common",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "The $32B acquisition that one VC is calling the ‘Deal of the Decade’. According to Index Ventures Partner Shardul Shah, cybersecurity startup Wiz sits “at the center of three tailwinds: AI, cloud, and",
+        "engagement": 0,
+        "url": "https://techcrunch.com/video/the-32b-acquisition-that-one-vc-is-calling-the-deal-of-the-decade/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Before quantum computing arrives, this startup wants enterprises already running on it. After selling his AI startup to AMD for $665 million, Peter Sarlin is back with Qutwo, a new venture building th",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/12/before-quantum-computing-arrives-this-startup-wants-enterprises-already-running-on-it/"
+      },
+      {
+        "author": "Wired",
+        "text": "China’s OpenClaw Boom Is a Gold Rush for AI Companies. Hype around the open source agent is driving people to rent cloud servers and buy AI subscriptions just to try it, creating a windfall for tech c",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/china-is-going-all-in-on-openclaw/"
+      },
+      {
+        "author": "theinformation",
+        "text": "Andreessen Horowitz’s latest $15B raise underscores how LP money is concentrating in a handful of top firms. https://t.co/1fx7I3oz8G",
+        "engagement": 9,
+        "url": "https://x.com/theinformation/status/2030052070003229035"
+      }
+    ],
+    "key_facts": [
+      "Nyne, a data infrastructure startup founded by a father-son duo, raised $5.3 million in seed funding",
+      "Led by Wischoff Ventures and South Park Commons",
+      "Mission: equip AI agents with missing human context (e.g., intent, nuance, real-world grounding)"
+    ],
+    "analyst_angle": "Signals growing investor focus on the 'context layer' for AI agents — a critical gap between current LLM-based agents and reliable, real-world action.",
+    "cluster_size": 5,
+    "event_time": "2026-03-13T05:00:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260313_002",
+    "title": "🚀 Microsoft Xbox Gaming Copilot AI Assistant Launching on Current-Gen Consoles This Year",
+    "category": "product_launch",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "The Verge",
+        "text": "Microsoft’s Copilot AI assistant is coming to current-gen Xbox consoles this year. Xbox is getting ready to launch its Gaming Copilot AI assistant on \"current-generation consoles\" this year, according",
+        "engagement": 0,
+        "url": "https://www.theverge.com/games/894799/microsoft-gaming-copilot-ai-xbox-consoles"
+      },
+      {
+        "author": "Ars Technica",
+        "text": "Microsoft is working to eliminate PC gaming's \"compiling shaders\" wait times. Advanced Shader Delivery uses precompiled shaders for \"console-like load times\" across PC hardware.",
+        "engagement": 0,
+        "url": "https://arstechnica.com/gaming/2026/03/microsoft-is-working-to-eliminate-pc-gamings-compiling-shaders-wait-times/"
+      },
+      {
+        "author": "Wired",
+        "text": "Gamers’ Worst Nightmares About AI Are Coming True. From the global RAM shortage driving up console prices to job loss in the industry, gaming is shaping up to be one of the AI boom's biggest casualtie",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/gamers-ai-nightmares-are-coming-true/"
+      }
+    ],
+    "key_facts": [
+      "Microsoft will launch Gaming Copilot — a dedicated AI assistant for Xbox — on current-gen consoles (Xbox Series X|S) in 2024.",
+      "Announced by Sonali Yadav, Xbox's Product Manager for Gaming AI, during a GDC panel.",
+      "Separately, Microsoft is also deploying Advanced Shader Delivery on PC to eliminate shader compilation delays — a complementary AI-adjacent systems optimization."
+    ],
+    "analyst_angle": "This marks Microsoft’s first native, console-integrated AI assistant for gaming — signaling a strategic shift from cloud-centric Copilot to embedded, real-time gameplay assistance, potentially setting a new industry benchmark for AI-augmented console UX.",
+    "cluster_size": 3,
+    "event_time": "2026-03-13T11:00:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260313_003",
+    "title": "💡 John Carmack on open source, AI activism, and AI safety concerns",
+    "category": "other",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "Hacker News AI",
+        "text": "John Carmack about open source and anti-AI activists. https://xcancel.com/id_aa_carmack/status/2032460578669691171\n\nComments URL: https://news.ycombinator.com/item?id=47367463\nPoints: 187\n# Comments: ",
+        "engagement": 0,
+        "url": "https://twitter.com/id_aa_carmack/status/2032460578669691171"
+      },
+      {
+        "author": "Hacker News AI",
+        "text": "Can I run AI locally?. Article URL: https://www.canirun.ai/\nComments URL: https://news.ycombinator.com/item?id=47363754\nPoints: 746\n# Comments: 212",
+        "engagement": 0,
+        "url": "https://www.canirun.ai/"
+      },
+      {
+        "author": "Hacker News AI",
+        "text": "Tennessee grandmother jailed after AI face recognition error links her to fraud. Article URL: https://www.theguardian.com/us-news/2026/mar/12/tennessee-grandmother-ai-fraud\nComments URL: https://news.",
+        "engagement": 0,
+        "url": "https://www.theguardian.com/us-news/2026/mar/12/tennessee-grandmother-ai-fraud"
+      }
+    ],
+    "key_facts": [
+      "John Carmack (former id Software CTO, AI safety advocate) shared nuanced views on open-source AI — supporting transparency while warning against weaponization and activist overreach",
+      "He criticized both 'anti-AI' activists for stifling beneficial development and closed-model vendors for opacity and lack of accountability",
+      "His thread sparked broad debate on AI governance, technical realism, and the balance between openness and safety"
+    ],
+    "analyst_angle": "Carmack’s authoritative voice bridges engineering pragmatism and AI ethics — his critique signals growing mainstream skepticism toward both ideological AI opposition and corporate AI secrecy, potentially influencing developer sentiment and policy discourse.",
+    "cluster_size": 3,
+    "event_time": "2026-03-13T00:17:34Z",
+    "event_type": "opinion"
+  },
+  {
+    "event_id": "evt_20260313_004",
+    "title": "🌐 JudgeGPT：开源 LLM-as-Judge 基准评测工具发布",
+    "category": "open_source",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "Lobsters AI",
+        "text": "LLM inference infrastructure for a systems audience. Comments",
+        "engagement": 0,
+        "url": "https://blog.mihirnanavati.com/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[D] What is even the point of these LLM benchmarking papers?. Lately, NeurIPS and ICLR are flooded with these LLM benchmarking papers. All they do is take a problem X and benchmark a bunch of propriet",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rsdify/d_what_is_even_the_point_of_these_llm/"
+      },
+      {
+        "author": "Reddit ML",
+        "text": "[Project] JudgeGPT — open-source LLM-as-judge benchmarking tool with configurable scoring rubrics, CoT reasoning, and real-time GPU telemetry. Sharing a tool I built that lets you run your own LLM-as-",
+        "engagement": 0,
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rsxcl3/project_judgegpt_opensource_llmasjudge/"
+      }
+    ],
+    "key_facts": [
+      "JudgeGPT 是一个开源的本地可运行 LLM-as-judge 评测工具，支持 Ollama 部署的任意模型",
+      "提供可配置评分标准、思维链（CoT）推理能力及实时 GPU 资源监控",
+      "旨在系统性缓解 LLM 作为裁判时的位置偏差、冗余度偏差和自家族偏差（self-family bias）"
+    ],
+    "analyst_angle": "JudgeGPT 填补了开源社区在可控、可复现、可审计的 LLM 评估基础设施上的关键空白，推动从‘黑箱排名’转向机制透明的评测范式。",
+    "cluster_size": 3,
+    "event_time": "2026-03-13T04:21:26Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260313_005",
+    "title": "💜 Replit 推出国际妇女节限时赠礼活动：赠送 Replit Core 订阅",
+    "category": "product_launch",
+    "importance": 4.2,
+    "sources": [
+      {
+        "author": "Wired",
+        "text": "The Best Outdoor Deals From the REI Member Days Sale (2026). REI's Member Days sale has deals on our favorite tents, backpacks, rain jackets, and more gear to outfit you for summer.",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/rei-member-days-sale-2026/"
+      },
+      {
+        "author": "Replit",
+        "text": "For International Women’s Day, give the gift of making 💜 \n\nStarting tomorrow: gift 1 month of Replit Core to the builders, innovators, and dreamers in your life. \n\nWhen they redeem it, you’ll get a fr",
+        "engagement": 270,
+        "url": "https://x.com/Replit/status/2030047700599644215"
+      }
+    ],
+    "key_facts": [
+      "Replit 为庆祝国际妇女节推出限时赠礼活动",
+      "用户可赠送 1 个月 Replit Core 订阅，受赠人兑换后赠予者获等值回馈（1 个月 Core 或 $20 信用额度）",
+      "活动自次日启动，属短期营销型产品权益分发，非新产品发布或功能升级"
+    ],
+    "analyst_angle": "这是一次面向社区增长与品牌价值传递的轻量级运营活动，反映开发者工具厂商对多元包容价值观的公开倡导，但未涉及技术、产品或商业模式实质性突破。",
+    "cluster_size": 2,
+    "event_time": "2026-03-13T14:31:32Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260313_006",
+    "title": "⚖️ Adobe 支付 7500 万美元和解美国司法部关于订阅取消难与隐藏终止费的诉讼",
+    "category": "policy",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "The Verge",
+        "text": "Adobe will pay $75 million to settle US cancellation fee lawsuit. Adobe says it will pay $75 million to resolve a lawsuit filed by the US government alleging that the creative software giant harmed co",
+        "engagement": 0,
+        "url": "https://www.theverge.com/tech/894555/adobe-75-million-doj-settlement-subscriptions"
+      },
+      {
+        "author": "Ars Technica",
+        "text": "Adobe settles DOJ cancellation fee lawsuit, will pay $75 million penalty. Adobe says it will also give customers who \"qualify\" free services but is vague on details.",
+        "engagement": 0,
+        "url": "https://arstechnica.com/gadgets/2026/03/adobe-settles-doj-cancellation-fee-lawsuit-will-pay-75-million-penalty/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Nintendo sues the U.S. government for a refund on tariffs https://t.co/PiUd3E4OX9",
+        "engagement": 62,
+        "url": "https://x.com/TechCrunch/status/2030050866171105786"
+      }
+    ],
+    "key_facts": [
+      "Adobe 将支付 7500 万美元以和解美国司法部（DOJ）于 2024 年 6 月提起的消费者保护诉讼",
+      "指控核心为：Adobe 故意使订阅取消流程复杂化，并隐瞒或未充分披露终止费用",
+      "Adobe 承诺向‘符合条件’的用户提供免费服务，但未公开具体资格标准或覆盖范围"
+    ],
+    "analyst_angle": "这是近年来针对SaaS企业订阅实践最重大的监管执法行动之一，预示FTC/DOJ将系统性收紧对自动续订、取消障碍和费用透明度的合规审查，或将引发全行业订阅条款重构。",
+    "cluster_size": 3,
+    "event_time": "2026-03-13T17:52:01Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260313_007",
+    "title": "📱 特朗普 T1 手机首曝：定价更高、外观不同、非美国制造",
+    "category": "product_launch",
+    "importance": 6.8,
+    "sources": [
+      {
+        "author": "The Verge",
+        "text": "Google Pixel 10A review: Just buy the 9A. I'm not entirely sure why the Pixel 10A exists. Google hasn't upgraded the chipset, cameras, or battery in the new phone, and the tweaks it's made elsewhere a",
+        "engagement": 0,
+        "url": "https://www.theverge.com/tech/894319/google-pixel-10a-review-screen-specs-battery-camera"
+      },
+      {
+        "author": "Ars Technica",
+        "text": "M5 MacBook Air review: Still the best MacBook for almost everybody. The M5 MacBook Air is a minor upgrade, but minor upgrades add up over time.",
+        "engagement": 0,
+        "url": "https://arstechnica.com/gadgets/2026/03/m5-macbook-air-review-still-the-best-macbook-for-almost-everybody/"
+      },
+      {
+        "author": "CNET",
+        "text": "Trump Phone Reportedly Costs More, Looks Different and Isn't Made in America. A model unit of the T1 seen by The Verge shows specs and pricing that don't match what's advertised on the Trump Mobile we",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/mobile/trump-phone-t1-first-look-report/"
+      }
+    ],
+    "key_facts": [
+      "特朗普品牌手机 T1 实体样机被 The Verge 首次曝光",
+      "实际规格与 Trump Mobile 官网宣传不符，包括更高售价、差异化外观设计",
+      "该设备并非在美国制造"
+    ],
+    "analyst_angle": "这标志着政治人物IP深度介入消费电子硬件赛道的又一尝试，但初期即暴露供应链透明度与营销一致性问题，可能影响其作为‘可信替代品’的市场叙事。",
+    "cluster_size": 3,
+    "event_time": "2026-03-13T16:31:29Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260313_008",
+    "title": "🚀 'Disclosure Day' — Steven Spielberg's New Sci-Fi Film Announces Alien Contact in Trailer",
+    "category": "product_launch",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "Ars Technica",
+        "text": "Aliens announce their presence in latest Disclosure Day trailer. \"That truth will upend the established order of the entire world. If you do this, there's no undoing it.\"",
+        "engagement": 0,
+        "url": "https://arstechnica.com/culture/2026/03/aliens-announce-their-presence-in-latest-disclosure-day-trailer/"
+      },
+      {
+        "author": "CNET",
+        "text": "Steven Spielberg Explains Why He Hasn't Used AI in Filmmaking. In an interview at SXSW, the director of the upcoming sci-fi film Disclosure Day discussed aliens, social media, AI in film and more.",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/services-and-software/steven-spielberg-isnt-against-ai/"
+      }
+    ],
+    "key_facts": [
+      "'Disclosure Day' is Steven Spielberg's upcoming sci-fi film, teased with a trailer announcing fictional alien contact",
+      "The trailer's narrative framing—'That truth will upend the established order of the entire world'—positions the film as a high-stakes global revelation story",
+      "Spielberg discussed the project at SXSW, clarifying it is a human-centered story about disclosure, not an AI-driven production"
+    ],
+    "analyst_angle": "This is a major cultural product launch leveraging real-world discourse around UFO disclosure and AI ethics—but deliberately distancing itself from generative AI tools, signaling Hollywood's ongoing negotiation between speculative storytelling and technological authenticity.",
+    "cluster_size": 2,
+    "event_time": "2026-03-13T14:50:45Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260313_009",
+    "title": "📌 Dreo 春季促销与 Apple Arcade 四月新游上线",
+    "category": "other",
+    "importance": 2.5,
+    "sources": [
+      {
+        "author": "Wired",
+        "text": "Best Dreo Spring Sale Deals: Air Fryer, Heater, Fans. Dreo’s spring sale offers a great deal on the Chefmaker combi cooker, plus discounts on WIRED’s favorite bathroom heater and tower fan.",
+        "engagement": 0,
+        "url": "https://www.wired.com/story/dreo-spring-sale-deals-dreo-chefmaker/"
+      },
+      {
+        "author": "CNET",
+        "text": "Dive, Decorate and Nurture: Apple Arcade Adds Three New Games in April. It's a month for every type of gamer, with titles including Dredge Plus, Unpacking Plus and  My Very Hungry Caterpillar Plus bec",
+        "engagement": 0,
+        "url": "https://www.cnet.com/tech/gaming/apple-arcade-april-2026-lineup/"
+      }
+    ],
+    "key_facts": [
+      "Dreo 于3月13日启动春季促销，主推 Chefmaker 多功能料理锅、浴室取暖器及塔扇等家电产品",
+      "Apple Arcade 宣布将于2026年4月上线三款新游戏：Dredge Plus、Unpacking Plus 和 My Very Hungry Caterpillar Plus"
+    ],
+    "analyst_angle": "两则消息分属消费电子零售与移动游戏订阅服务领域，无实质关联，属典型信息噪声聚合；未涉及技术突破、行业政策或战略协同，不具备跨领域分析价值。",
+    "cluster_size": 2,
+    "event_time": "2026-03-13T15:59:56Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260313_010",
+    "title": "🔧 NVIDIA cuOpt Becomes #1 OSS Solver on Hans Mittelmann MIPfeas Leaderboard",
+    "category": "open_source",
+    "importance": 7.8,
+    "sources": [
+      {
+        "author": "elonmusk",
+        "text": "The truth shall set you free",
+        "engagement": 83125,
+        "url": "https://x.com/elonmusk/status/2030041740800119120"
+      },
+      {
+        "author": "NVIDIAAIDev",
+        "text": "NVIDIA cuOpt is officially the #1 OSS solver on the Hans Mittelmann MIPfeas leaderboard. This is a massive win for GPU-accelerated Mixed Integer Programming, proving cuOpt is ready to power the next g",
+        "engagement": 154,
+        "url": "https://x.com/NVIDIAAIDev/status/2030045839130042738"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "X is testing a new ad format that connects posts with products https://t.co/6upG3lEBHr",
+        "engagement": 116,
+        "url": "https://x.com/TechCrunch/status/2030051856916131925"
+      },
+      {
+        "author": "arstechnica",
+        "text": "Fishing crews in the Atlantic keep accidentally dredging up chemical weapons https://t.co/0sVFPi0iKA",
+        "engagement": 37,
+        "url": "https://x.com/arstechnica/status/2030042382411125083"
+      },
+      {
+        "author": "theinformation",
+        "text": "A global memory chip shortage is forcing Chinese tech firms to abandon their traditional playbook.\n\nThe Information’s Asia Bureau Chief @jingyanghk and reporter @QianerLiu discuss how the race for AI ",
+        "engagement": 21,
+        "url": "https://x.com/theinformation/status/2030048415107727820"
+      }
+    ],
+    "key_facts": [
+      "NVIDIA cuOpt is now the top open-source solver on the Hans Mittelmann MIPfeas benchmark",
+      "It demonstrates GPU-accelerated Mixed Integer Programming (MIP) readiness for memory-intensive, low-latency agentic workloads",
+      "Applications include complex fleet routing and supply chain planning"
+    ],
+    "analyst_angle": "This signals a meaningful shift toward GPU-accelerated optimization—moving beyond training/inference into core decision-making infrastructure for AI agents and enterprise operations.",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260313_011",
+    "title": "📌 Digg关停应用并裁员，公司转型重启",
+    "category": "other",
+    "importance": 4.0,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "Digg lays off staff and shuts down app as company retools. Digg laid off a significant number of staff and shut down its app, but says it's not giving up on the startup.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/13/digg-lays-off-staff-and-shuts-down-app-as-company-retools/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Steven Spielberg says he’s ‘never used AI’ in any of his films. At SXSW, Steven Spielberg said AI has uses in many fields, but not when it comes to replacing creative people in film and TV writing.",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/13/steven-spielberg-says-hes-never-used-ai-in-any-of-his-films/"
+      },
+      {
+        "author": "theinformation",
+        "text": "Defense startup Anduril is projecting $4.3 billion in sales this year, while forecasting more than $1 billion in losses, as it ramps up manufacturing and pursues major weapons programs. https://t.co/D",
+        "engagement": 6,
+        "url": "https://x.com/theinformation/status/2030044516980252823"
+      },
+      {
+        "author": "IanCutress",
+        "text": "@GPUsAreMagic Oh I've had flights like that too 😭",
+        "engagement": 4,
+        "url": "https://x.com/IanCutress/status/2030051301208510981"
+      },
+      {
+        "author": "finkdontstink",
+        "text": "@Goodguyike_18 We should’ve taken Zack Frazier in Round 2 instead of Newton",
+        "engagement": 1,
+        "url": "https://x.com/finkdontstink/status/2030051100364067263"
+      }
+    ],
+    "key_facts": [
+      "Digg已关停其应用程序",
+      "Digg裁减了大量员工",
+      "公司表示并未放弃创业项目，正在重新调整业务方向"
+    ],
+    "analyst_angle": "Digg的关停与重组反映了聚合类新闻平台在当前AI原生信息分发格局下的持续生存困境，但其‘不放弃创业’的表态暗示可能转向底层技术或新形态产品。",
+    "cluster_size": 5,
+    "event_time": "2026-03-13T19:47:58Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260313_012",
+    "title": "🤝 NanoClaw creator Gavriel Cohen secures partnership with Docker in under six weeks",
+    "category": "partnership",
+    "importance": 7.2,
+    "sources": [
+      {
+        "author": "TechCrunch",
+        "text": "The biggest AI stories of the year (so far). The AI industry is constantly churning out news, like major acquisitions, indie developer successes, public outcry, and existentially dangerous contract ne",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/13/the-biggest-ai-stories-of-the-year-so-far/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "The wild six weeks for NanoClaw’s creator that led to a deal with Docker. Gavriel Cohen is living an open source developer's dream as his project has achieved acclaim and a partnership with Docker in ",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/13/the-wild-six-weeks-for-nanoclaws-creator-that-led-to-a-deal-with-docker/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "Motional robotaxis join the Uber app in Vegas two years after major reset. The launch comes just two years after a major reboot at Hyundai-owned Motional. The service will start with a safety monitor,",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/13/motional-robotaxis-join-the-uber-app-in-vegas-two-years-after-major-reset/"
+      },
+      {
+        "author": "TechCrunch",
+        "text": "How to watch Jensen Huang’s Nvidia GTC 2026 keynote. GTC — which stands for GPU Technology Conference — is Nvidia's flagship annual event, where the chipmaker typically uses the spotlight to announce ",
+        "engagement": 0,
+        "url": "https://techcrunch.com/2026/03/12/how-to-watch-jensen-huangs-nvidia-gtc-2026-keynote/"
+      },
+      {
+        "author": "The Verge",
+        "text": "States’ anti-monopoly case against Live Nation continues Monday. The Live Nation-Ticketmaster trial is back on. Dozens of states are expected to move forward with their claims against the company's al",
+        "engagement": 0,
+        "url": "https://www.theverge.com/policy/894851/states-live-nation-monopoly-trial"
+      }
+    ],
+    "key_facts": [
+      "NanoClaw — an indie open-source project — achieved rapid acclaim and commercial traction",
+      "Docker announced a formal partnership with NanoClaw’s creator Gavriel Cohen within six weeks of the project’s emergence",
+      "The deal exemplifies accelerated industry recognition of high-potential open-source infrastructure tools"
+    ],
+    "analyst_angle": "This signals growing strategic urgency among major platform vendors to co-opt or integrate promising open-source primitives early—blurring lines between community projects and enterprise-grade tooling.",
+    "cluster_size": 5,
+    "event_time": "2026-03-12T23:25:39Z",
+    "event_type": "news"
+  }
+]

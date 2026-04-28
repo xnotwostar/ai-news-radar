@@ -1,0 +1,355 @@
+[
+  {
+    "event_id": "evt_20260313_000",
+    "title": "🚨 OpenClaw“龙虾”生态爆发：36氪接入、腾讯发布AI安全沙箱、小米启动封测、国家网安中心发布风险预警",
+    "category": "open_source",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "36氪 × OpenClaw\"龙虾\"｜让你的AI Agent先一步看到未来. 当AI Agent从“智能助手”进化为“行动者”，当OpenClaw“龙虾”成为无数开发者、创业者的高效协作伙伴，如何让你的AI智能体突破信息壁垒，精准链接行业核心资源？\n  今日，36氪正式开放OpenClaw“龙虾”专属对话入口，让你的OpenClaw“龙虾”，直接与36氪开启实时通信对话，抢占行业发展先机，提前看见",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3720817143396993?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "腾讯电脑管家18.0发布，一键防护“龙虾+AI应用”. 36氪获悉，针对关键的本地电脑安全，3月13日腾讯电脑管家发布18.0版本，行业首发AI安全沙箱“龙虾管家”、AI应用隐私保护等功能，一键即可开启AI双防护。",
+        "engagement": 0,
+        "url": "https://36kr.com/newsflashes/3721268764195207?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "OpenClaw“小龙虾”之父斯坦伯格发声：希望百度能提供开发支持，而不仅仅是部署. IT之家 3 月 13 日消息，OpenClaw“小龙虾”创始人彼得 · 斯坦伯格（Peter Steinberger）昨天在 X 平台发文，回应百度前天在北京举行的“龙虾市集”线下活动。彼得 · 斯坦伯格对此表示，这些活动非常棒，他们欢迎维护者和赞助商加入，并喊话道：“你觉得百度能否也为 OpenClaw 的开",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/964.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "小米官方“龙虾”Xiaomi miclaw 开启小范围封测用户申请. IT之家 3 月 13 日消息，小米今日开启官方“龙虾”Xiaomi miclaw 封测用户申请，该产品是基于小米 MiMo 大模型构建的 AI 交互测试产品。官方介绍称，作为技术探索项目，当前产品在稳定性、功耗表现、复杂场景执行成功率方面仍在持续优化，仅面向科技发烧友、极客用户开放小规模测试。部分高复杂度任务可能存在执行效率波",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/940.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "国家网络安全通报中心发布 OpenClaw 安全风险预警. IT之家 3 月 13 日消息，今天傍晚，国家网络安全通报中心发布《OpenClaw 风险预警》。其中提到，OpenClaw 自发布以来，凭借其强大的自动化任务处理能力与开放式插件生态，在全球范围内引发部署热潮。国家网络与信息安全信息通报中心监测数据显示，目前全球活跃的 OpenClaw 互联网资产已超 20 万个，其中境内活跃的 Ope",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/934.htm"
+      }
+    ],
+    "key_facts": [
+      "36氪正式开放OpenClaw“龙虾”专属对话入口，实现AI Agent与36氪实时通信，接入其创业/融资/科技全链路资源网络",
+      "腾讯电脑管家18.0首发AI安全沙箱‘龙虾管家’及AI应用隐私保护功能，系行业首个面向OpenClaw生态的本地化AI安全防护方案",
+      "小米启动官方‘龙虾’Xiaomi miclaw小规模封测，基于MiMo大模型构建，定位极客向AI交互探索产品",
+      "国家网络安全通报中心发布《OpenClaw风险预警》，指出全球活跃OpenClaw互联网资产超20万个（境内2.3万），存在严重暴露面与攻击面风险"
+    ],
+    "analyst_angle": "OpenClaw正从开源项目快速演进为事实标准级AI Agent基础设施，但其野蛮生长已触发监管响应——生态繁荣与安全治理的张力首次公开化，或将加速行业级安全规范与合规插件标准的建立。",
+    "cluster_size": 11,
+    "event_time": "2026-03-13T01:53:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260313_001",
+    "title": "🚀 MOVA 首次系统披露自研芯片战略，发布家庭AI系统技术架构（AWE 2026）",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "36氪",
+        "text": "氪星晚报 ｜魅族手机“解体”：做车机，做AI，或者离开；美团王莆中：建设物理世界AI底座，帮每个商家都用上自己的AI助理. 大公司：\n  小鹏汽车机器人的步态调整专利公布\n  36氪获悉，爱企查App显示，近日，广州小鹏汽车科技有限公司一项名为“机器人的步态调整方法、装置、设备及存储介质”的发明专利公布。专利摘要显示，本发明涉及智能机器人领域，公开了机器人的步态调整方法、装置、设备及存储介质，方法",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3721253543164549?f=rss"
+      },
+      {
+        "author": "36氪",
+        "text": "科氪 | AWE 2026再携重磅阵容，MOVA全面披露芯片战略，擎画“主动时代”技术版图. 2026年3月12日，中国上海——当人工智能加速从模型能力走向系统能力，家庭场景正成为AI规模化落地的关键单元。今日，全球超高端AI智慧生活引领者MOVA在中国家电及消费电子博览会（AWE 2026）开幕首日，首次系统披露自研芯片战略，并对外阐释其“家庭AI系统”技术架构及多项生态布局。\n  依托AWE ",
+        "engagement": 0,
+        "url": "https://36kr.com/p/3720969176988041?f=rss"
+      },
+      {
+        "author": "IT之家",
+        "text": "京东发布 AI 智慧家装品牌“京东家装”：采取自营模式，号称重新定义标准. IT之家 3 月 13 日消息，今天晚间，“京东黑板报”公众号宣布，京东全新发布 AI 智慧家装品牌 —— 京东家装。“京东家装”将拥有全球 101 个设计大师，1000+ 专职设计师，500+ 专业采销，5200+ 直管工人，超级供应链覆盖全球 14 国，26 家京东 MALL 开启入驻，通过自营模式入场，号称重新定义家",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/960.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "海尔联合支付宝， “碰一下”管理智能家电、查看产品信息等. IT之家 3 月 13 日消息，2025 年 10 月，蚂蚁集团与海尔集团达成全面战略合作，支付宝“碰一下”融入海尔智慧家电。中国家电及消费电子博览会（AWE2026）于 3 月 12 日至 15 日在上海举办，海尔展示了这一功能。据介绍，消费者在海尔门店购物时，只需解锁手机“碰一下”即可完成支付。消费者看到感兴趣的家电产品，“碰一下”可",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/956.htm"
+      },
+      {
+        "author": "雷锋网",
+        "text": "逆势两位数增长！2026AWE统帅发布升级版懒人套系. 3月13日，在AWE现场，统帅以一场沉浸式舞台剧，拉开了2026品牌升级暨新品发布会的帷幕，全面升级的“懒人套系”与“超省套系”同步亮相。没有枯燥的参数宣讲，也没有冗长的产品介绍，舞台剧《懒友记》真实复刻了当代年轻人“精致懒”的生活图景——想喝冰饮要守着冰箱苦等半天、开个空调还得跟家人抢遥控器……这些扎心的瞬间，让台下不少观众直呼“这就是我本",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/industrynews/Ql5t6mNpIu1Zh5R1.html"
+      }
+    ],
+    "key_facts": [
+      "MOVA于AWE 2026（2026年3月12日，上海）首次系统披露自研芯片战略，标志其从终端产品向AI底层系统能力跃迁",
+      "同步发布‘家庭AI系统’技术架构，含5项行业级首创技术、32项体系级创新技术、31款创新产品",
+      "以芯片+AI算法为双基座，构建覆盖智慧生活全场景的生态闭环，定位‘全球超高端AI智慧生活引领者’"
+    ],
+    "analyst_angle": "MOVA此举并非单纯发布新品，而是宣告中国消费电子厂商正从‘集成AI’转向‘定义AI系统’——以自研芯片为锚点，重构家庭场景的AI主权、数据主权与体验主权，或将加速行业从参数竞争升级为系统架构竞争。",
+    "cluster_size": 7,
+    "event_time": "2026-03-13T03:45:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260313_002",
+    "title": "📌 驰为 CoreBook Plus/X 笔记本 CPU 虚标事件持续发酵：锐龙 5 5500U 冒充 7430U",
+    "category": "market",
+    "importance": 8.2,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "驰为笔记本虚标 CPU 事件愈演愈烈，CoreBook Plus 再度被指用锐龙 5 5500U 冒充 7430U. IT之家 3 月 13 日消息，驰为 CoreBook X 笔记本被指虚标 CPU 事件东窗事发后，科技媒体 Notebookcheck 昨天再度发布博文，报道称同厂牌的 CoreBook Plus 也被证实存在虚标 CPU。据报道，此前调查已确认驰为 CoreBook X 笔记本",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/969.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "是新款游戏本吗？荣耀朱臣才晒新机照片. IT之家 3 月 13 日消息，荣耀 PC 产品总经理朱臣才今天在微博发文，晒出一款笔记本神秘新机。根据图片我们可以看到，这款笔记本 C 面上拥有英特尔、英伟达贴纸，键盘上带有数字键以及全高方向键，屏幕比例目测为 16:10，电源键是否集成指纹识别尚不明确。值得注意的是，这款笔记本 B 面的型号名被打上了马赛克，因此我们暂时还无法得知它的具体名字。结合IT之",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/954.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "铭凡预热 MS-03 迷你主机 AI 工作站，搭载英特尔酷睿 Ultra 7 356H. IT之家 3 月 13 日消息，MINISFORUM 铭凡今日表示，该企业在昨日举行的第三代英特尔酷睿 Ultra 处理器新品分享会现场展示了即将上市的 MS-03 迷你主机 AI 工作站产品 MS-03。IT之家注意到，MS-03 三维 195×195×42.5 (mm)，体积 1.6L，搭载英特尔酷睿 U",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/927.htm"
+      }
+    ],
+    "key_facts": [
+      "驰为 CoreBook X 被实锤使用锐龙 5 5500U 却全链路（官网、电商页、包装、BIOS、系统工具）标称为锐龙 5 7430U",
+      "同品牌 CoreBook Plus 被 Notebookcheck 新一轮调查证实存在相同虚标行为",
+      "事件引发媒体广泛报道，驰为已多次要求下架相关报道"
+    ],
+    "analyst_angle": "这不仅是单一厂商的诚信危机，更暴露了国产轻薄本市场在处理器代际宣传、供应链透明度与第三方检测机制上的系统性缺失，或将加速行业监管介入和消费者硬件辨识意识觉醒。",
+    "cluster_size": 3,
+    "event_time": "2026-03-13T10:31:52Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260313_003",
+    "title": "🚀 吉利银河M7 / 比亚迪方程豹钛3闪充版 / 领克07 EM-P碳纤维版三款电混/纯电新车同日发布",
+    "category": "product_launch",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "吉利银河 M7 技术首秀：首搭神盾金砖电池，纯电 225km / 综合续航 1730km. IT之家 3 月 13 日消息，今天晚间，吉利银河 M7 正式迎来产品技术首秀亮相。新车是银河 M 系列首款中级电混 SUV，将于今年 4 月正式上市，纯电续航 225km，综合续航可达 1730km（IT之家注：未公布价格）。新车可被看作是吉利银河 L7 的改款车型，前脸则更换为与银河 M9 类似的风格，",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/968.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "比亚迪方程豹钛 3 闪充版上市：续航 565KM/620KM，15.38 万元起. IT之家 3 月 13 日消息，比亚迪方程豹钛 3 闪充版今晚上市，提供 620KM 后驱闪充版、565KM 四驱闪充版，显著提升车主补能体验，售价 15.38 万元起。在常温环境下，钛 3 闪充版充电 10-70% 只需约 5 分钟，10-97% 只需约 9 分钟，在零下 30 度的低温环境中也只多了 3 分钟。",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/943.htm"
+      },
+      {
+        "author": "IT之家",
+        "text": "全新领克 07 EM-P 碳纤维尾翼版限量开售，限时 15.98 万元起. IT之家 3 月 13 日消息，今天下午，全新领克 07 EM-P 碳纤维尾翼版宣布限量开售，官方售价 17.58 万元起，3 月限时专享价 15.98 万元起。据IT之家了解，新车前包围造型有所调整，包围两侧增加了大面积的进气口，尾部也增加了后唇保角，让整车造型看起来更加犀利。同时，该车配备大尺寸碳纤维后扰流板，并提供“",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/938.htm"
+      },
+      {
+        "author": "雷锋网",
+        "text": "比亚迪闭门会：2万座闪充站背后的「油电切换」大周期. “一场发布会，让燃油车和换电用户都沉默了。”3月5日，节气惊蛰。比亚迪用一场3小时发布会，拉开了2026年的新能源市场竞争格局。会后，有业者向雷峰网发出了上述的感叹。关于第二代刀片电池和闪充技术的细节，前几日已经铺天盖地。因此不再赘述，一张图可以概括核心信息。比亚迪董事长王传福在现场表示，一个加油枪，一天可以服务50台车，但一个充电枪，一天仅仅",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/industrynews/84GssQlosQtV1yuH.html"
+      }
+    ],
+    "key_facts": [
+      "吉利银河M7为M系列首款中级电混SUV，首搭神盾金砖电池，纯电续航225km、综合续航1730km，4月上市",
+      "比亚迪方程豹钛3闪充版上市（620km/565km两版本），常温10-70%充电仅需5分钟，零下30℃延时仅+3分钟，起售价15.38万元",
+      "领克07 EM-P碳纤维尾翼版限量开售，标配激光雷达+27个传感器，可选Orin-Y/Thor芯片，限时价15.98万元起",
+      "三款新车均于2025年3月13日集中发布，聚焦‘超长续航+超快补能+高阶智驾’三大技术竞争维度"
+    ],
+    "analyst_angle": "3·13成为新能源汽车‘技术密集发布日’，标志着中高端混动与纯电市场正式进入‘续航无焦虑+充电比加油快+智驾全标配’的2.0竞争阶段，倒逼全行业加速高压平台、闪充基建与行泊一体方案落地。",
+    "cluster_size": 4,
+    "event_time": "2026-03-13T06:54:00Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260313_004",
+    "title": "📜 苹果下调中国区 App Store 佣金率：标准费率由30%降至25%",
+    "category": "policy",
+    "importance": 8.5,
+    "sources": [
+      {
+        "author": "IT之家",
+        "text": "抖音回应苹果调整中国区 App Store 佣金：移动互联网产业健康发展具有积极意义. IT之家 3 月 13 日消息，抖音今日发布关于苹果公司调整中国区 App Store 佣金政策的声明。IT之家附原文如下：我们关注到，在国内监管部门的积极指导与推动下，苹果公司宣布调整中国区 App Store 佣金费率。此次调整有利于进一步优化行业生态、降低开发者成本，对激发市场创新活力、推动移动互联网产业",
+        "engagement": 0,
+        "url": "https://www.ithome.com/0/928/935.htm"
+      },
+      {
+        "author": "雷锋网",
+        "text": "百度回应苹果调整中国区App Store佣金政策. 3月13日，苹果公司宣布将自3月15日起下调中国大陆App Store的佣金政策：标准佣金率由30%下调至25%，小型开发者及特定项目的优惠佣金率也由15%降至12%。百度表示，这一调整不仅回应了中国用户与开发者的长期关切，也将为应用生态释放出更加开放、积极的发展信号。随着AI技术快速演进，AI应用正迎来新一轮创新周期。百度认为，更加友好的平台环",
+        "engagement": 0,
+        "url": "https://www.leiphone.com/category/industrynews/o8TzmvQhjvEeVjas.html"
+      },
+      {
+        "author": "TechNode",
+        "text": "Apple cuts App Store commission rates in Mainland China following talks with regulators. Apple said that, following discussions with Chinese regulators, it will reduce the standard commission rate for",
+        "engagement": 0,
+        "url": "https://technode.com/2026/03/13/apple-cuts-app-store-commission-rates-in-mainland-china-following-talks-with-regulators/"
+      },
+      {
+        "author": "TechNode",
+        "text": "Apple cuts App Store commission rates in mainland China. Apple said it will reduce App Store commission rates for developers in mainland China starting March 15, following communication with Chinese r",
+        "engagement": 0,
+        "url": "https://technode.com/2026/03/13/apple-cuts-app-store-commission-rates-in-mainland-china/"
+      }
+    ],
+    "key_facts": [
+      "苹果自2026年3月15日起下调中国大陆App Store标准佣金率，从30%降至25%",
+      "小型开发者及符合条件项目的优惠佣金率同步由15%降至12%",
+      "此次调整系在与中国监管部门沟通后作出，为苹果在中国市场历史性让步"
+    ],
+    "analyst_angle": "这是全球科技巨头首次因监管协同主动下调核心平台抽成，标志着中国数字平台治理从规则制定迈向实质生态调节，或将加速国内应用分发格局多元化与AI应用商业化进程。",
+    "cluster_size": 4,
+    "event_time": "2026-03-13T02:39:19Z",
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260313_005",
+    "title": "🚀 BYD 发布第二代刀片电池：-30°C 极寒环境下 12 分钟快充（20%→97%）",
+    "category": "product_launch",
+    "importance": 9.2,
+    "sources": [
+      {
+        "author": "BYDCompany",
+        "text": "Extreme conditions should never slow electric mobility.\n\nIn a −30°C climate chamber, the 2nd Generation Blade Battery with FLASH Charging Technology from BYD continues to perform.\n\n❄ −30°C extreme col",
+        "engagement": 1752,
+        "url": "https://x.com/BYDCompany/status/2030046391897391209"
+      },
+      {
+        "author": "oran_ge",
+        "text": "孟岩访谈李继刚最扎心的时刻：\n孟：你是产品出身吗？\n李：我七年本硕计算机专业\n孟：对不起",
+        "engagement": 197,
+        "url": "https://x.com/oran_ge/status/2030037636539371529"
+      },
+      {
+        "author": "dotey",
+        "text": "OpenAI 推出\"Codex for Open Source\"计划，向开源项目的核心维护者免费提供六个月的 ChatGPT Pro，外加 API 额度和安全工具的有条件使用权。\n\n这个计划脱胎于此前 100 万美元的 Codex 开源基金。之前那个基金主要提供 API 额度，帮助开源团队用 Codex 自动化 PR 审查等流程。\n\n现在升级了——直接送 ChatGPT Pro 账号，让维护者日常",
+        "engagement": 188,
+        "url": "https://x.com/dotey/status/2030044135542116646"
+      },
+      {
+        "author": "oran_ge",
+        "text": "最近给公司的工程师升级 M5 Macbook pro\n发现内存加到 32G 价格一下就上去了\n以前只有苹果的内存是金子\n现在所有的内存都是金子啦",
+        "engagement": 110,
+        "url": "https://x.com/oran_ge/status/2030042447791935600"
+      },
+      {
+        "author": "dotey",
+        "text": "Claude Code desktop 支持 Schedule Tasks 了",
+        "engagement": 61,
+        "url": "https://x.com/dotey/status/2030032884514324614"
+      }
+    ],
+    "key_facts": [
+      "BYD 第二代刀片电池搭载 FLASH 充电技术，在 -30°C 极寒环境完成 20%→97% 充电仅需 12 分钟",
+      "该性能仅比常温充电多耗时 3 分钟，实现全气候可靠快充",
+      "此举显著降低高寒地区电动车普及的技术门槛，支撑全球电动化落地"
+    ],
+    "analyst_angle": "这是动力电池热管理与电化学体系协同突破的标志性成果，首次在量产级电池上实现极寒环境下的接近常温快充性能，将加速BEV在北欧、加拿大、中国东北等市场的渗透，并对宁德时代、LG新能源等头部厂商形成实质性技术对标压力。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260313_006",
+    "title": "🚀 阿里巴巴Qwen智能体接入可穿戴设备（眼镜/耳环/耳机），推动“一句话下单”商业闭环",
+    "category": "product_launch",
+    "importance": 8.7,
+    "sources": [
+      {
+        "author": "TechBuzzChina",
+        "text": "It’s been a month since China’s BOBA-POCALYPSE, when Alibaba’s Qwen app turned “buy me a boba” into milk tea appearing on your doorstep. One-sentence ordering plus a promo that dropped drinks as low a",
+        "engagement": 53,
+        "url": "https://x.com/TechBuzzChina/status/2030047403789930731"
+      },
+      {
+        "author": "oran_ge",
+        "text": "软件以前就没有什么防盗版机制\n现在更没有了\n现在就看谁的 idea 拿到注意力",
+        "engagement": 24,
+        "url": "https://x.com/oran_ge/status/2030038220365517216"
+      },
+      {
+        "author": "dotey",
+        "text": "勘误：\n超级霸王 -&gt; 超级解霸\n\n把超级解霸和小霸王DVD混一起了😅",
+        "engagement": 19,
+        "url": "https://x.com/dotey/status/2030032653789860191"
+      },
+      {
+        "author": "oran_ge",
+        "text": "@dontbesilent 为什么呢 骂你的人会看书吗",
+        "engagement": 13,
+        "url": "https://x.com/oran_ge/status/2030037115967525361"
+      },
+      {
+        "author": "oran_ge",
+        "text": "@jiayuan_jy 看完了，非常好的综述和历史参考\n只不过这次的加速非常明显，之前40年的事情会被压缩到1年以内。",
+        "engagement": 10,
+        "url": "https://x.com/oran_ge/status/2030033637811654893"
+      }
+    ],
+    "key_facts": [
+      "Qwen已实现单句语音下单（如‘买一杯珍珠奶茶’）并完成近2亿订单，驱动用户行为直连阿里生态（Alipay/Amap/Taobao）",
+      "Qwen正扩展至智能眼镜（MWC展出，3月2日开启全球预售）、耳戴设备及指环形态可穿戴终端",
+      "该战略旨在将AI代理从手机迁移至更前置的感知层——在用户‘念头初起’时即触发交易，强化阿里商业飞轮"
+    ],
+    "analyst_angle": "这标志着中国头部AI厂商正从‘模型能力竞赛’转向‘具身交互+商业闭环’落地竞赛，可穿戴AI Agent或将重构电商入口逻辑与本地生活服务响应范式。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  },
+  {
+    "event_id": "evt_20260313_007",
+    "title": "📌 Pop Mart起诉Bambu Lab侵犯IP：Labubu玩具模型在MakerWorld平台被广泛分享",
+    "category": "funding",
+    "importance": 6.5,
+    "sources": [
+      {
+        "author": "SixthTone",
+        "text": "Chinese toy giant Pop Mart has filed a lawsuit against Chinese 3D printer maker Bambu Lab, accusing the company of intellectual property infringement after users widely shared Labubu toy templates on ",
+        "engagement": 4,
+        "url": "https://x.com/SixthTone/status/2030040913305579735"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "@NEO_Diver 期望奥特曼做好事，比如让ta做个催化剂，把opus的新版震出来",
+        "engagement": 2,
+        "url": "https://x.com/jesselaunz/status/2030030896670331011"
+      },
+      {
+        "author": "oran_ge",
+        "text": "@vista8 但问题是ai 是否知道这个事情…\n认知差啊",
+        "engagement": 1,
+        "url": "https://x.com/oran_ge/status/2030035519070163117"
+      },
+      {
+        "author": "jesselaunz",
+        "text": "@NEO_Diver 主要庞大的C端用户天天聊天打p + sora等重量级消耗算力",
+        "engagement": 1,
+        "url": "https://x.com/jesselaunz/status/2030033926396465202"
+      },
+      {
+        "author": "dotey",
+        "text": "@orangeburncgw 有模糊印象",
+        "engagement": 1,
+        "url": "https://x.com/dotey/status/2030032755350749318"
+      }
+    ],
+    "key_facts": [
+      "中国潮玩巨头Pop Mart已正式起诉3D打印机厂商Bambu Lab",
+      "指控核心为Bambu Lab旗下模型分享平台MakerWorld上大量用户上传并传播Pop Mart旗下知名IP‘Labubu’的3D打印模板，构成知识产权侵权"
+    ],
+    "analyst_angle": "此案是AI硬件与消费IP交叉领域首例典型IP维权诉讼，凸显AIGC时代硬件厂商对用户生成内容（UGC）平台责任边界的法律风险升级。",
+    "cluster_size": 5,
+    "event_time": null,
+    "event_type": "news"
+  }
+]
